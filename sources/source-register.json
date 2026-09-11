@@ -1,0 +1,222 @@
+[
+  {
+    "id": "S01",
+    "title": "Generative AI at Work, revised November 2024",
+    "url": "https://arxiv.org/abs/2304.11771v2",
+    "published": "2024-11-06",
+    "type": "Research paper",
+    "claim": "5,172 support agents. AI assistance increased issues resolved per hour by 15% on average in this setting.",
+    "limitation": "Task-level evidence in one setting, not a forecast for all firms or proof of retained profit.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S02",
+    "title": "METR experienced developer randomized trial",
+    "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+    "published": "2025-07-10",
+    "type": "Research organization",
+    "claim": "16 developers and 246 tasks took 19% longer with early-2025 AI tools.",
+    "limitation": "Historical tools and selected experienced developers. Read S18 before using this as a current capability assessment.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S03",
+    "title": "Sanofi artificial intelligence in R&D",
+    "url": "https://www.sanofi.com/en/our-science/digital-artificial-intelligence/artificial-intelligence-rd",
+    "published": "2023-09",
+    "type": "Company description",
+    "claim": "Describes target identification, active learning for molecule design and integration of clinical and molecular data.",
+    "limitation": "Dated deployment description. Does not demonstrate improved Phase II or Phase III success.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S04",
+    "title": "RELX 2025 annual report: market segments",
+    "url": "https://www.relx.com/~/media/Files/R/RELX-Group/documents/reports/annual-reports/2025-ar-sections/relx-2025-market-segments.pdf",
+    "published": "2026-02-19",
+    "type": "Company annual report",
+    "claim": "Printed page 27 describes Prot\u00e9g\u00e9, authoritative content, citation validation and a multi-model approach.",
+    "limitation": "Product and adoption claims are management-reported. They do not isolate incremental AI profit.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S05",
+    "title": "Thomson Reuters AI for professionals",
+    "url": "https://www.thomsonreuters.com/en/artificial-intelligence",
+    "published": "undated; accessed 2026-09-11",
+    "type": "Company product page",
+    "claim": "CoCounsel combines professional content with workflow tools. FAQ says customer content and prompts are not used to train or improve its AI products or underlying models.",
+    "limitation": "Commercial description and selected customer examples. Do not assume pooled customer-data training rights.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S06",
+    "title": "Wolters Kluwer tax and accounting solutions",
+    "url": "https://www.wolterskluwer.com/en/solutions/tax-accounting-us",
+    "published": "undated; accessed 2026-09-11",
+    "type": "Company product page",
+    "claim": "Offers AI-powered tax, audit, workflow and firm-management tools.",
+    "limitation": "Product availability supports a use-case lead, not incremental group-level financial returns.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S07",
+    "title": "Intuit Assist",
+    "url": "https://www.intuit.com/intuitassist/",
+    "published": "undated; accessed 2026-09-11",
+    "type": "Company product page",
+    "claim": "Describes a generative AI financial assistant integrated with Intuit products.",
+    "limitation": "No independently verified contribution margin or causal retention uplift established here.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S08",
+    "title": "SAP Joule and Business AI",
+    "url": "https://www.sap.com/products/artificial-intelligence.html",
+    "published": "undated; accessed 2026-09-11",
+    "type": "Company product page",
+    "claim": "Describes agents operating with business context, integrations and tenant-level data isolation.",
+    "limitation": "Customer data access is not equivalent to ownership or cross-customer training permission.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S09",
+    "title": "JPMorganChase 2025 COO shareholder letter",
+    "url": "https://www.jpmorganchase.com/ir/annual-report/2025/ar-ceo-letter-jennifer-piepszak",
+    "published": "2026-04-06",
+    "type": "Company shareholder letter",
+    "claim": "Describes deployed AI in credit, fraud, personalization and employee workflows, with capacity reinvested in growth.",
+    "limitation": "Management claims do not supply a controlled bank-wide AI profit bridge.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S10",
+    "title": "Visa Protect",
+    "url": "https://www.visa.com/en-us/solutions/visa-protect",
+    "published": "undated; accessed 2026-09-11",
+    "type": "Company product page",
+    "claim": "Offers AI-supported authentication, authorization and payment-fraud decision services.",
+    "limitation": "Product availability alone does not establish net fraud reduction or network shareholder capture.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S11",
+    "title": "Walmart technology and agentic commerce",
+    "url": "https://corporate.walmart.com/about/technology",
+    "published": "undated; accessed 2026-09-11",
+    "type": "Company description",
+    "claim": "Describes deployed shopping, support, merchant and supply-chain applications.",
+    "limitation": "Broad management descriptions. Do not extrapolate selected workflow claims to total retail margins.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S12",
+    "title": "Ericsson telecom AI",
+    "url": "https://www.ericsson.com/en/ai",
+    "published": "undated; accessed 2026-09-11",
+    "type": "Supplier description",
+    "claim": "Explains AI for network automation, operations and network performance.",
+    "limitation": "Supplier capability evidence, not demonstrated economics for Deutsche Telekom or Singtel.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S13",
+    "title": "CBRE data and technology",
+    "url": "https://www.cbre.com/about-us/technology",
+    "published": "undated; accessed 2026-09-11",
+    "type": "Company description",
+    "claim": "Describes data and technology across real-estate services.",
+    "limitation": "Use as a research lead for property workflows. No attributable AI profit established.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S14",
+    "title": "NAIC artificial intelligence in insurance",
+    "url": "https://content.naic.org/insurance-topics/artificial-intelligence",
+    "published": "2026-04-03",
+    "type": "Regulatory association",
+    "claim": "Describes insurance uses in underwriting, pricing, claims and fraud and highlights oversight obligations.",
+    "limitation": "Industry evidence cannot verify any named insurer. Survey use-or-plan-to-use figures are not adoption rates.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S15",
+    "title": "EIOPA opinion on AI governance and risk management",
+    "url": "https://www.eiopa.europa.eu/publications/opinion-artificial-intelligence-governance-and-risk-management_en",
+    "published": "2025-08-06",
+    "type": "Supervisory authority",
+    "claim": "Sets out a risk-based and proportionate approach to AI governance in insurance.",
+    "limitation": "An opinion is not a substitute for checking applicable jurisdictional requirements.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S16",
+    "title": "Synopsys AI solutions",
+    "url": "https://www.synopsys.com/ai.html",
+    "published": "undated; accessed 2026-09-11",
+    "type": "Company product page",
+    "claim": "Describes AI capabilities for engineering and chip design.",
+    "limitation": "Specific customer improvements need design constraints and validation costs. Not direct evidence for other industrial companies.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S17",
+    "title": "IEA Energy and AI: energy optimization and innovation",
+    "url": "https://www.iea.org/reports/energy-and-ai/ai-for-energy-optimisation-and-innovation",
+    "published": "2025-04-10",
+    "type": "Intergovernmental analysis",
+    "claim": "Distinguishes AI applications in energy operations from electricity demand for AI infrastructure.",
+    "limitation": "Technical potential and scenarios are not realized returns for individual companies.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S18",
+    "title": "METR update to developer productivity experiment",
+    "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+    "published": "2026-02-24",
+    "type": "Research organization",
+    "claim": "Follow-up explains selection and measurement problems when evaluating newer AI tools.",
+    "limitation": "Do not treat the historical slowdown as a current universal effect, or newer biased samples as a precise universal speedup.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S19",
+    "title": "MSCI Global Industry Classification Standard",
+    "url": "https://www.msci.com/indexes/index-resources/gics",
+    "published": "accessed 2026-09-11",
+    "type": "Index taxonomy",
+    "claim": "Provides the broad 11-sector reference used as a coverage checklist.",
+    "limitation": "This repository uses its own research areas and does not claim official GICS classifications for companies.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S20",
+    "title": "Siemens introduces AI agents for industrial automation",
+    "url": "https://press.siemens.com/global/en/pressrelease/siemens-introduces-ai-agents-industrial-automation",
+    "published": "2025-05-12",
+    "type": "Company press release",
+    "claim": "Describes available engineering and operations copilots, customer implementations and an agent architecture.",
+    "limitation": "The headline productivity ambition is a target. Pilot maintenance results are not group-level margin evidence.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S21",
+    "title": "Amazon million robots and DeepFleet model",
+    "url": "https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model",
+    "published": "undated; accessed 2026-09-11",
+    "type": "Company announcement",
+    "claim": "Describes an AI model for coordinating robot travel within Amazon fulfillment operations.",
+    "limitation": "Operational claims do not isolate return on total robotics investment or consolidated AI profit.",
+    "accessed": "2026-09-11"
+  },
+  {
+    "id": "S22",
+    "title": "CrowdStrike Charlotte AI",
+    "url": "https://www.crowdstrike.com/en-us/platform/charlotte-ai/",
+    "published": "undated; accessed 2026-09-11",
+    "type": "Company product page",
+    "claim": "Offers an AI analyst for security investigation and response workflows.",
+    "limitation": "Vendor claims require independent detection-quality and cost evaluation.",
+    "accessed": "2026-09-11"
+  }
+]

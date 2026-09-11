@@ -1,0 +1,625 @@
+[
+  {
+    "id": "H01",
+    "sector": "Health Care",
+    "name": "Pharmaceuticals and biotechnology",
+    "asset": "Longitudinal experiments, failed compounds, clinical cohorts and trial infrastructure",
+    "mechanism": "Use multimodal models and active learning to improve target selection, molecule design and trial stratification. The valuable outcome is more clinically useful candidates per research euro.",
+    "capture": "Patent-protected products and differentiated clinical outcomes can retain value, but payers and competing treatments can absorb the gain.",
+    "kpi": "Phase II-to-III transition rate by entry cohort; risk-adjusted pipeline value per R&D euro; time and spend to kill weak programmes",
+    "guardrail": "No deterioration in toxicity, patient outcomes or trial representativeness",
+    "falsifier": "More preclinical candidates without improved prospective clinical translation, or costs move into expensive validation",
+    "experiment": "Compare AI-assisted and conventional programmes matched on modality, therapeutic area, stage and vintage. Include abandoned programmes.",
+    "horizon": "3\u20137 years for clinical proof",
+    "source_ids": [
+      "S03"
+    ],
+    "path": "industries/h01-pharmaceuticals-and-biotechnology.md"
+  },
+  {
+    "id": "H02",
+    "sector": "Health Care",
+    "name": "Medical devices, diagnostics and surgical platforms",
+    "asset": "Installed instruments, imaging or procedure data, clinician relationships and service networks",
+    "mechanism": "AI can improve image reconstruction, diagnostic workflow and procedure planning, allowing each installed system to handle more useful clinical work.",
+    "capture": "Premium features, service contracts and procedure-linked consumables may capture a share of customer throughput gains.",
+    "kpi": "Quality-adjusted procedures per installed unit; repeat-scan rate; software attach and renewal rate",
+    "guardrail": "Sensitivity and specificity by subgroup, adverse events and clinician review time",
+    "falsifier": "Clinical workflow savings fail to increase billable throughput, or reimbursement falls by the same amount",
+    "experiment": "Use paired-reader studies and hospital deployment cohorts with equivalent case mix. Separate diagnostic accuracy from billing activity.",
+    "horizon": "1\u20134 years",
+    "source_ids": [
+      "S03"
+    ],
+    "path": "industries/h02-medical-devices-diagnostics-and-surgical-platforms.md"
+  },
+  {
+    "id": "H03",
+    "sector": "Health Care",
+    "name": "Life science tools, CROs and laboratory platforms",
+    "asset": "Instrument footprints, assay protocols, laboratory workflows and trial operations",
+    "mechanism": "AI can automate experimental design, improve assay yield and shorten trial recruitment or monitoring work.",
+    "capture": "Consumables, software and workflow switching costs can monetize higher laboratory utilization. CROs must retain savings despite hourly contracts.",
+    "kpi": "Successful experiments per instrument-day; trial enrollment time; service contribution per project",
+    "guardrail": "Reproducibility, protocol deviations and trial dropout rates",
+    "falsifier": "Tools become interchangeable, customer data cannot be reused, or buyers reprice every saved hour",
+    "experiment": "Compare matched assays or trial sites before and after deployment and account for staffing, protocol and demand differences.",
+    "horizon": "1\u20134 years",
+    "source_ids": [
+      "S03"
+    ],
+    "path": "industries/h03-life-science-tools-cros-and-laboratory-platforms.md"
+  },
+  {
+    "id": "H04",
+    "sector": "Health Care",
+    "name": "Healthcare providers, services and managed care",
+    "asset": "Care-delivery workflows, appointment capacity and claims or clinical records under restricted rights",
+    "mechanism": "AI can reduce documentation and scheduling work and improve appropriate care coordination.",
+    "capture": "Providers may fill scarce clinical capacity. Payers may reduce avoidable cost, subject to medical-loss rules, contracts and consumer protections.",
+    "kpi": "Clinician time per completed encounter; waiting time; risk-adjusted cost per member",
+    "guardrail": "Patient outcomes, appeal overturns, denial errors and equitable access",
+    "falsifier": "Savings depend on inappropriate denials, revenue coding inflation or quality deterioration",
+    "experiment": "Use controlled clinics or member cohorts, with independent clinical adjudication and case-mix adjustment.",
+    "horizon": "1\u20133 years",
+    "source_ids": [
+      "S14"
+    ],
+    "path": "industries/h04-healthcare-providers-services-and-managed-care.md"
+  },
+  {
+    "id": "F01",
+    "sector": "Financials",
+    "name": "Property insurance and reinsurance",
+    "asset": "Claims histories, exposure records, distribution and underwriting expertise",
+    "mechanism": "AI can interpret submissions, find fraud and improve risk selection. Reinsurance has sparse tail labels, unlike frequent retail claims.",
+    "capture": "Better risk selection and lower expense ratios may survive renewals where proprietary information and underwriting discipline persist.",
+    "kpi": "Accident-year loss ratio adjusted for price and mix; claims expense per resolved claim; new-business risk-adjusted return",
+    "guardrail": "Reserve adequacy, appeal outcomes, tail concentration and fairness",
+    "falsifier": "Apparent gains come from reserve releases, a hard pricing cycle, risk exclusion or hidden correlated exposures",
+    "experiment": "Compare matched underwriting cohorts and claims outcomes. Require a catastrophe-normalized view and adverse development analysis.",
+    "horizon": "1\u20133 years for expense gains; 3\u20135 for loss emergence",
+    "source_ids": [
+      "S14",
+      "S15"
+    ],
+    "path": "industries/f01-property-insurance-and-reinsurance.md"
+  },
+  {
+    "id": "F02",
+    "sector": "Financials",
+    "name": "Life insurance, wealth and asset management",
+    "asset": "Policyholder relationships, adviser networks, investment workflows and administrative records",
+    "mechanism": "AI can improve adviser capacity, policy servicing and client retention. Life underwriting needs long observation periods, while investment research faces crowded signals.",
+    "capture": "Distribution and recurring administration can retain savings. Investment alpha is a separate, much harder hypothesis.",
+    "kpi": "Cost per policy or account; adviser assets serviced; persistency or organic net flows",
+    "guardrail": "Suitability complaints, lapse quality, solvency and performance net of fees",
+    "falsifier": "Higher adviser output fails to improve net flows, pricing falls, or model portfolios homogenize risk",
+    "experiment": "Evaluate matched adviser books. Separate market appreciation from flows and separate servicing improvements from claimed investment alpha.",
+    "horizon": "1\u20134 years",
+    "source_ids": [
+      "S14",
+      "S09"
+    ],
+    "path": "industries/f02-life-insurance-wealth-and-asset-management.md"
+  },
+  {
+    "id": "F03",
+    "sector": "Financials",
+    "name": "Banking and lending",
+    "asset": "Deposit franchises, transaction histories, credit outcomes and regulated distribution",
+    "mechanism": "AI can improve fraud controls, service capacity and credit decisions while automating document-heavy operations.",
+    "capture": "A durable funding franchise and embedded relationships can retain some gains, but competition and credit cycles dominate weak underwriting.",
+    "kpi": "Cost-to-income at constant business mix; fraud loss per transaction; vintage default and risk-adjusted return",
+    "guardrail": "Fair lending, model drift, capital use and false credit declines",
+    "falsifier": "Efficiency gains vanish after provisions or require unsafe automated lending",
+    "experiment": "Match credit vintages and service cohorts. Hold funding costs and risk appetite constant; separate ML upgrades from interest-rate effects.",
+    "horizon": "1\u20133 years",
+    "source_ids": [
+      "S09"
+    ],
+    "path": "industries/f03-banking-and-lending.md"
+  },
+  {
+    "id": "F04",
+    "sector": "Financials",
+    "name": "Payments and transaction networks",
+    "asset": "Network-level transactions, merchant relationships and fraud outcome signals",
+    "mechanism": "AI can identify fraud and reduce false declines using context that individual merchants or issuers cannot easily reproduce.",
+    "capture": "Risk-service fees and higher legitimate transaction volume can monetize improved authorization quality.",
+    "kpi": "Fraud basis points at fixed approval rate; false declines; net risk-service revenue per client",
+    "guardrail": "Dispute losses, merchant attrition, rebates and latency",
+    "falsifier": "Fraud shifts rather than falls, network fees compress, or account-to-account rails bypass the service",
+    "experiment": "Use randomized or matched authorization policies with equal fraud budgets. Measure issuer and merchant outcomes as well as network revenue.",
+    "horizon": "6\u201324 months",
+    "source_ids": [
+      "S10"
+    ],
+    "path": "industries/f04-payments-and-transaction-networks.md"
+  },
+  {
+    "id": "F05",
+    "sector": "Financials",
+    "name": "Credit data, exchanges and financial intelligence",
+    "asset": "Permissioned credit histories, market records, ratings expertise and licensed data feeds",
+    "mechanism": "AI can turn curated records into underwriting, research and compliance decisions with less manual reconciliation.",
+    "capture": "Licenses, data entitlements and embedded decision workflows can support paid tools. Public facts alone are a weak moat.",
+    "kpi": "Paid AI attach; net retention; analyst or onboarding time at fixed error rate",
+    "guardrail": "Data provenance, model leakage, licensing costs and customer concentration",
+    "falsifier": "Customers recreate the product with alternative data, or suppliers capture the AI revenue",
+    "experiment": "Compare incumbent and challenger performance on identical lawful datasets. Then add proprietary features to isolate their marginal value.",
+    "horizon": "1\u20133 years",
+    "source_ids": [
+      "S04",
+      "S09"
+    ],
+    "path": "industries/f05-credit-data-exchanges-and-financial-intelligence.md"
+  },
+  {
+    "id": "I01",
+    "sector": "Information Technology",
+    "name": "Legal, tax and professional information",
+    "asset": "Editorial enrichment, citations, licensed archives and trusted professional workflows",
+    "mechanism": "AI can convert reference content into validated research, drafting and compliance work.",
+    "capture": "Paid workflow expansion can exceed lost search seats if customers trust the output and need the underlying content rights.",
+    "kpi": "Net revenue per customer after seat changes; paid AI renewals; verified task completion cost",
+    "guardrail": "Citation accuracy, professional liability and content licensing terms",
+    "falsifier": "Generic agents obtain equivalent trusted answers more cheaply, or seat cannibalization exceeds AI monetization",
+    "experiment": "Benchmark against generic models and new specialist entrants on blinded jurisdiction-specific tasks, including total human checking time.",
+    "horizon": "6\u201324 months",
+    "source_ids": [
+      "S04",
+      "S05",
+      "S06"
+    ],
+    "path": "industries/i01-legal-tax-and-professional-information.md"
+  },
+  {
+    "id": "I02",
+    "sector": "Information Technology",
+    "name": "Vertical software and financial administration",
+    "asset": "Domain-specific systems of record, transaction context and implementation knowledge",
+    "mechanism": "AI can perform more bookkeeping, payroll, compliance or industry-specific administration inside the existing workflow.",
+    "capture": "Outcome or transaction pricing can expand revenue per customer, if seat loss and model costs remain smaller.",
+    "kpi": "Net revenue per customer; verified tasks completed per support hour; AI contribution margin",
+    "guardrail": "Reconciliation errors, filing accuracy and human escalation costs",
+    "falsifier": "Cheaper agents use the system only as a low-price database or customers eliminate more seats than they buy AI services",
+    "experiment": "Track customer cohorts, usage rights and total bill changes. Include customers that cancel or downgrade.",
+    "horizon": "6\u201324 months",
+    "source_ids": [
+      "S07",
+      "S06"
+    ],
+    "path": "industries/i02-vertical-software-and-financial-administration.md"
+  },
+  {
+    "id": "I03",
+    "sector": "Information Technology",
+    "name": "Enterprise systems and workflow orchestration",
+    "asset": "Business process definitions, permissions, integrations and systems of record",
+    "mechanism": "AI agents can coordinate transactions across enterprise workflows with existing authorization and audit controls.",
+    "capture": "Control of execution and compliance may preserve economics even as user interfaces change.",
+    "kpi": "End-to-end task completion; AI net new contract value; total customer spend after seat changes",
+    "guardrail": "Rollback success, auditability, inference cost and unauthorized actions",
+    "falsifier": "A cross-vendor agent captures the interface and forces the incumbent into commodity storage pricing",
+    "experiment": "Measure completed workflows with customer-level cash cost, including integration and human exception handling.",
+    "horizon": "6\u201330 months",
+    "source_ids": [
+      "S08"
+    ],
+    "path": "industries/i03-enterprise-systems-and-workflow-orchestration.md"
+  },
+  {
+    "id": "I04",
+    "sector": "Information Technology",
+    "name": "EDA, engineering and design software",
+    "asset": "Solvers, design-rule knowledge, verified toolchains and workflow integration",
+    "mechanism": "AI can explore design spaces and generate candidate implementations while deterministic tools validate constraints.",
+    "capture": "Validated outputs and deep workflow integration can support software pricing or more design volume.",
+    "kpi": "Engineer hours per verified design; first-pass signoff; paid AI attach",
+    "guardrail": "Power, performance and area constraints, defects and verification expense",
+    "falsifier": "Compute and verification costs offset time savings, or customers retain all productivity gains",
+    "experiment": "Compare designs under identical constraints, compute budgets and signoff criteria. Keep customer IP permissions explicit.",
+    "horizon": "1\u20133 years",
+    "source_ids": [
+      "S16"
+    ],
+    "path": "industries/i04-eda-engineering-and-design-software.md"
+  },
+  {
+    "id": "I05",
+    "sector": "Information Technology",
+    "name": "Semiconductor fabrication, equipment and process control",
+    "asset": "Process recipes, yield histories, metrology and installed production equipment",
+    "mechanism": "AI can improve defect detection, equipment uptime and process-window search.",
+    "capture": "Leading yields and equipment service value may raise returns. This is separate from selling more capacity to AI customers.",
+    "kpi": "Yield at equivalent node and product; good dies per tool-hour; unplanned downtime",
+    "guardrail": "Reliability, node transitions, model drift and customer confidentiality",
+    "falsifier": "Yield gains reflect product mix or new equipment, while capital intensity and depreciation consume the benefit",
+    "experiment": "Compare matched tools, wafers and process stages. Account for learning curves that existed before AI deployment.",
+    "horizon": "1\u20134 years",
+    "source_ids": [
+      "S16"
+    ],
+    "path": "industries/i05-semiconductor-fabrication-equipment-and-process-control.md"
+  },
+  {
+    "id": "I06",
+    "sector": "Information Technology",
+    "name": "Cloud and diversified technology platforms",
+    "asset": "Cloud infrastructure, developer ecosystems, distribution and operating datasets",
+    "mechanism": "AI can improve internal engineering and customer products while platform distribution enables deployment.",
+    "capture": "Usage revenue and ecosystem control can capture value, but compute investment and model competition can absorb it.",
+    "kpi": "Cash return on incremental AI infrastructure; cost per completed task; non-AI segment productivity",
+    "guardrail": "Utilization, depreciation, power availability and internal transfer pricing",
+    "falsifier": "Revenue grows while cash returns fall, or AI cannibalizes profitable products",
+    "experiment": "Value cloud, software, advertising and retail separately. Do not count the same AI revenue as both customer savings and supplier profit.",
+    "horizon": "1\u20134 years",
+    "source_ids": [
+      "S21",
+      "S17"
+    ],
+    "path": "industries/i06-cloud-and-diversified-technology-platforms.md"
+  },
+  {
+    "id": "I07",
+    "sector": "Information Technology",
+    "name": "IT services, consulting and outsourced processes",
+    "asset": "Implementation expertise, customer access and operational delivery knowledge",
+    "mechanism": "AI can reduce the labor required for delivery and increase project throughput.",
+    "capture": "Fixed-price or outcome contracts can retain savings. Hourly billing may shrink revenue as productivity improves.",
+    "kpi": "Gross profit per project; revenue and profit per delivery employee; outcome-contract share",
+    "guardrail": "Rework, utilization, bench costs and client renewal",
+    "falsifier": "Clients insource using AI, billable hours collapse, or savings are fully passed through at renewal",
+    "experiment": "Compare contract types and project cohorts, controlling for offshoring, utilization and wage changes.",
+    "horizon": "6\u201324 months",
+    "source_ids": [
+      "S01",
+      "S02",
+      "S18"
+    ],
+    "path": "industries/i07-it-services-consulting-and-outsourced-processes.md"
+  },
+  {
+    "id": "I08",
+    "sector": "Information Technology",
+    "name": "Cybersecurity and identity software",
+    "asset": "Threat telemetry, endpoint distribution, response workflows and security expertise",
+    "mechanism": "AI can triage incidents, correlate signals and accelerate response while attackers also use AI.",
+    "capture": "Trusted security platforms can retain spending if detection quality and integration outperform cheaper bundled tools.",
+    "kpi": "False positives at fixed detection rate; analyst hours per incident; net retention",
+    "guardrail": "Missed incidents, adversarial evasion and correlated outage risk",
+    "falsifier": "Automation adds alert volume, misses novel attacks or cannot offset platform bundling",
+    "experiment": "Use independent adversarial evaluations and production incident cohorts. Never substitute demo detection for real-world coverage.",
+    "horizon": "6\u201324 months",
+    "source_ids": [
+      "S22"
+    ],
+    "path": "industries/i08-cybersecurity-and-identity-software.md"
+  },
+  {
+    "id": "D01",
+    "sector": "Industrials",
+    "name": "Industrial automation and electrification",
+    "asset": "Installed controls, engineering channels, operational telemetry and service expertise",
+    "mechanism": "AI can improve commissioning, anomaly detection and energy optimization across existing equipment.",
+    "capture": "Installed-base integration and service contracts may monetize customer downtime savings.",
+    "kpi": "Commissioning hours; unplanned downtime per operating hour; recurring software attach",
+    "guardrail": "Safety constraints, latency, uptime and customer data permissions",
+    "falsifier": "Value requires costly plant-by-plant integration or customers use independent software instead",
+    "experiment": "Compare similar production cells before staged rollout, controlling for maintenance and capital upgrades.",
+    "horizon": "1\u20134 years",
+    "source_ids": [
+      "S20",
+      "S17"
+    ],
+    "path": "industries/d01-industrial-automation-and-electrification.md"
+  },
+  {
+    "id": "D02",
+    "sector": "Industrials",
+    "name": "Agricultural, construction and mining machinery",
+    "asset": "Equipment fleets, dealer networks, field telemetry and work-cycle knowledge",
+    "mechanism": "Computer vision and autonomy can reduce inputs, operator burden and idle time.",
+    "capture": "Equipment premiums, subscriptions and services may retain a share of per-acre or per-tonne savings.",
+    "kpi": "Input cost per acre at equal yield; tonnes per machine-hour; paid software renewals",
+    "guardrail": "Crop outcomes, incidents, uptime and total retrofit cost",
+    "falsifier": "Customer savings do not support durable pricing or autonomy needs expensive supervision",
+    "experiment": "Use paired fields or work sites with equal conditions. Measure whole-season or whole-shift results rather than selected demonstrations.",
+    "horizon": "1\u20134 years",
+    "source_ids": [
+      "S17"
+    ],
+    "path": "industries/d02-agricultural-construction-and-mining-machinery.md"
+  },
+  {
+    "id": "D03",
+    "sector": "Industrials",
+    "name": "Logistics, parcel, rail and transport networks",
+    "asset": "Route density, shipment flows, depot networks and asset histories",
+    "mechanism": "AI can improve routing, load matching, maintenance and network placement.",
+    "capture": "Dense networks and service reliability can retain savings, although large customers and fuel contracts may demand pass-through.",
+    "kpi": "Cost per delivered unit at fixed service level; empty miles; asset utilization",
+    "guardrail": "On-time delivery, damage, overtime and fuel-price effects",
+    "falsifier": "Rivals deploy identical routing software and bids reset lower, or savings only reflect demand recovery",
+    "experiment": "Compare matched routes and depots with volume, distance, weather, fuel and service mix held constant.",
+    "horizon": "6\u201330 months",
+    "source_ids": [
+      "S21"
+    ],
+    "path": "industries/d03-logistics-parcel-rail-and-transport-networks.md"
+  },
+  {
+    "id": "D04",
+    "sector": "Industrials",
+    "name": "Civil aerospace and long-life equipment services",
+    "asset": "Certified designs, fleet-service records, engineering expertise and installed engines",
+    "mechanism": "AI can improve engineering, inspection and predictive maintenance while certification constrains deployment.",
+    "capture": "Long service relationships and contracted availability can reward lower maintenance cost.",
+    "kpi": "Unscheduled removals per flight-hour; time on wing; service margin at equal contract mix",
+    "guardrail": "Flight safety, certification, life-cycle liabilities and inspection misses",
+    "falsifier": "Predictions fail on rare modes or lower maintenance activity reduces billable revenue",
+    "experiment": "Evaluate matched fleets by engine variant, utilization and environment. Require independent engineering review.",
+    "horizon": "2\u20135 years",
+    "source_ids": [
+      "S16"
+    ],
+    "path": "industries/d04-civil-aerospace-and-long-life-equipment-services.md"
+  },
+  {
+    "id": "D05",
+    "sector": "Industrials",
+    "name": "Waste, facilities and route-based business services",
+    "asset": "Local route density, asset records and recurring commercial contracts",
+    "mechanism": "AI can improve dispatch, sorting, service planning and customer support.",
+    "capture": "Density and recurring service relationships can retain some cost savings, especially where local capacity is scarce.",
+    "kpi": "Cost per stop or tonne; contamination rate; contract contribution margin",
+    "guardrail": "Safety, service misses, capital costs and labor terms",
+    "falsifier": "Savings require disproportionate fleet investment or municipal contracts reprice them away",
+    "experiment": "Compare matched routes and facilities and include replacement capex, training and exception handling.",
+    "horizon": "1\u20133 years",
+    "source_ids": [
+      "S11"
+    ],
+    "path": "industries/d05-waste-facilities-and-route-based-business-services.md"
+  },
+  {
+    "id": "M01",
+    "sector": "Materials",
+    "name": "Chemicals, industrial gases and specialty materials",
+    "asset": "Formulation libraries, application expertise, process plants and customer qualification",
+    "mechanism": "AI can propose formulations and optimize process conditions, improving experiment throughput and resource intensity.",
+    "capture": "Qualified formulations, long contracts and application support may retain value. Commodity producers face price pass-through.",
+    "kpi": "Qualified products per R&D euro; energy per tonne at equal quality; plant uptime",
+    "guardrail": "Specification failures, scale-up reproducibility and customer qualification time",
+    "falsifier": "Laboratory improvements fail at production scale or feedstock and pricing overwhelm retained savings",
+    "experiment": "Use blinded formulation tests and matched production runs. Distinguish specialty pricing from commodity cycle effects.",
+    "horizon": "1\u20135 years",
+    "source_ids": [
+      "S17"
+    ],
+    "path": "industries/m01-chemicals-industrial-gases-and-specialty-materials.md"
+  },
+  {
+    "id": "M02",
+    "sector": "Materials",
+    "name": "Mining, metals and resource extraction",
+    "asset": "Orebody knowledge, geological records, equipment fleets and processing plants",
+    "mechanism": "AI can improve grade control, ore sorting and maintenance, raising recoverable output from existing assets.",
+    "capture": "Low-cost resource owners may retain operational gains, but commodity prices and royalties remain dominant.",
+    "kpi": "Recovery at fixed head grade; cost per recovered unit; availability",
+    "guardrail": "Reserve quality, incidents, ore depletion and sustaining capex",
+    "falsifier": "Reported gains reflect richer ore or prices, or model output fails at new deposits",
+    "experiment": "Compare benches and processing runs with mineralogy and grade controls. Separate autonomy from commodity exposure.",
+    "horizon": "1\u20134 years",
+    "source_ids": [
+      "S17"
+    ],
+    "path": "industries/m02-mining-metals-and-resource-extraction.md"
+  },
+  {
+    "id": "C01",
+    "sector": "Consumer Discretionary",
+    "name": "E-commerce, marketplaces and discretionary retail",
+    "asset": "Transaction histories, seller networks, customer access and fulfillment or merchandising systems",
+    "mechanism": "AI can improve matching, inventory allocation and merchandising while reducing seller or service work.",
+    "capture": "Network density and distribution can capture gains through retention, service fees or advertising. Agents can also bypass storefronts.",
+    "kpi": "Contribution per order after fulfillment; inventory turns at fixed availability; seller retention",
+    "guardrail": "Returns, subsidies, customer acquisition and seller economics",
+    "falsifier": "Agents commoditize discovery, advertising yield deteriorates or savings require permanent discounts",
+    "experiment": "Run cohort or market tests controlling for subsidies, category mix and fulfillment speed.",
+    "horizon": "6\u201324 months",
+    "source_ids": [
+      "S11"
+    ],
+    "path": "industries/c01-e-commerce-marketplaces-and-discretionary-retail.md"
+  },
+  {
+    "id": "C02",
+    "sector": "Consumer Discretionary",
+    "name": "Mobility, travel and reservation platforms",
+    "asset": "Demand density, supply relationships, transaction context and booking infrastructure",
+    "mechanism": "AI can improve matching, itinerary planning and support, increasing utilization and conversion.",
+    "capture": "Network access and transaction completion may retain value, but external agents can redirect customer relationships.",
+    "kpi": "Contribution per trip or booking; repeat use; support cost per completed transaction",
+    "guardrail": "Cancellations, incentives, supplier terms and consumer protections",
+    "falsifier": "Agents route customers directly to suppliers, commissions fall or autonomy moves bargaining power to fleet owners",
+    "experiment": "Evaluate matched geographic and customer cohorts. Separate AI conversion from travel cycles and promotional spending.",
+    "horizon": "6\u201324 months",
+    "source_ids": [
+      "S11"
+    ],
+    "path": "industries/c02-mobility-travel-and-reservation-platforms.md"
+  },
+  {
+    "id": "C03",
+    "sector": "Consumer Discretionary",
+    "name": "Automotive manufacturers and suppliers",
+    "asset": "Manufacturing expertise, engineering data, vehicle fleets and service distribution",
+    "mechanism": "AI can improve design, production quality and service diagnostics. Autonomous driving is a separate capital-intensive thesis.",
+    "capture": "Brand and differentiated vehicle economics must retain savings despite price competition.",
+    "kpi": "Warranty cost per comparable vehicle; engineering hours per validated platform; factory yield",
+    "guardrail": "Recall rates, safety, residual values and software liability",
+    "falsifier": "Efficiency gains fail to offset price cuts, weak products or loss of geographic competitiveness",
+    "experiment": "Benchmark matched models and plants. Treat autonomy R&D and commercial manufacturing productivity separately.",
+    "horizon": "1\u20134 years",
+    "source_ids": [
+      "S16"
+    ],
+    "path": "industries/c03-automotive-manufacturers-and-suppliers.md"
+  },
+  {
+    "id": "C04",
+    "sector": "Consumer Discretionary",
+    "name": "Consumer brands, apparel and luxury",
+    "asset": "Brand equity, product archives, direct customer relationships and distribution",
+    "mechanism": "AI can improve demand forecasting and product iteration while reducing marketing production cost.",
+    "capture": "Scarce brands and owned customer access may preserve pricing. Generic creative production offers little durable advantage.",
+    "kpi": "Full-price sell-through; inventory turns; contribution after marketing",
+    "guardrail": "Brand dilution, returns, discounting and channel conflict",
+    "falsifier": "Cheaper content increases noise without improving demand or competitors match designs rapidly",
+    "experiment": "Use product and region cohorts, separating price increases and channel shifts from AI improvements.",
+    "horizon": "1\u20133 years",
+    "source_ids": [
+      "S11"
+    ],
+    "path": "industries/c04-consumer-brands-apparel-and-luxury.md"
+  },
+  {
+    "id": "S01",
+    "sector": "Consumer Staples",
+    "name": "Food, beverages and household products",
+    "asset": "Formulation know-how, brands, distribution and manufacturing networks",
+    "mechanism": "AI can improve formulation, demand planning and plant operations.",
+    "capture": "Brand strength and efficient distribution may retain part of savings, but retailers and consumers can demand lower prices.",
+    "kpi": "Waste and energy per unit; launch success by cohort; contribution after trade spend",
+    "guardrail": "Quality, recalls, promotions and raw-material costs",
+    "falsifier": "Cost savings simply finance promotions or innovation becomes less differentiated",
+    "experiment": "Use matched plants and product cohorts controlling for input inflation, mix, pricing and trade spend.",
+    "horizon": "1\u20134 years",
+    "source_ids": [
+      "S17"
+    ],
+    "path": "industries/s01-food-beverages-and-household-products.md"
+  },
+  {
+    "id": "S02",
+    "sector": "Consumer Staples",
+    "name": "Food retail and membership retail",
+    "asset": "Store networks, inventory flows, purchase histories and customer relationships",
+    "mechanism": "AI can improve replenishment, reduce spoilage and support store labor productivity.",
+    "capture": "Scale and repeat purchasing may reinforce advantage, while low-price promises deliberately transfer savings to customers.",
+    "kpi": "Waste at equal availability; labor hours per basket; member renewal",
+    "guardrail": "Food safety, service quality, price investment and capex",
+    "falsifier": "Improved operations produce no durable margin or growth advantage because all savings fund lower prices",
+    "experiment": "Compare matched stores and fulfillment zones, including labor scheduling quality and basket mix.",
+    "horizon": "6\u201324 months",
+    "source_ids": [
+      "S11"
+    ],
+    "path": "industries/s02-food-retail-and-membership-retail.md"
+  },
+  {
+    "id": "T01",
+    "sector": "Communication Services",
+    "name": "Telecommunications and connectivity",
+    "asset": "Network telemetry, spectrum, customer relationships and local infrastructure",
+    "mechanism": "AI can optimize network energy, fault resolution and service operations.",
+    "capture": "Network quality and lower cost can improve cash generation, but price competition and regulation may share gains.",
+    "kpi": "Energy per traffic unit; fault repair time; cash cost per subscriber",
+    "guardrail": "Dropped calls, outages, churn and traffic growth",
+    "falsifier": "Traffic or new infrastructure explains improvements, while tariff pressure absorbs savings",
+    "experiment": "Use staged network-cell deployments and service cohorts, controlling for equipment generation and traffic mix.",
+    "horizon": "1\u20133 years",
+    "source_ids": [
+      "S12"
+    ],
+    "path": "industries/t01-telecommunications-and-connectivity.md"
+  },
+  {
+    "id": "T02",
+    "sector": "Communication Services",
+    "name": "Advertising, media and entertainment platforms",
+    "asset": "Audience access, engagement signals, content libraries and recommendation systems",
+    "mechanism": "AI can improve recommendations and advertiser tools while lowering some production costs.",
+    "capture": "Distribution and measured outcomes may support monetization, but abundant content can erode creative scarcity and trust.",
+    "kpi": "Incremental advertiser conversion; retention; contribution after content and compute costs",
+    "guardrail": "Ad load, privacy, content rights and user satisfaction",
+    "falsifier": "More engagement does not improve customer value, generic agents bypass discovery or content costs race upward",
+    "experiment": "Use randomized recommendation and ad tests. Distinguish incremental conversion from attribution changes.",
+    "horizon": "6\u201324 months",
+    "source_ids": [
+      "S01"
+    ],
+    "path": "industries/t02-advertising-media-and-entertainment-platforms.md"
+  },
+  {
+    "id": "E01",
+    "sector": "Energy",
+    "name": "Oil, gas and energy services",
+    "asset": "Subsurface records, engineering workflows, operating assets and customer deployment channels",
+    "mechanism": "AI can improve reservoir interpretation, drilling decisions and predictive maintenance.",
+    "capture": "Resource ownership and differentiated services can retain some gains, subject to commodity cycles and contract repricing.",
+    "kpi": "Nonproductive rig time; recovery or production at fixed geology; cost per unit",
+    "guardrail": "Safety, emissions, reservoir assumptions and sustaining capex",
+    "falsifier": "Higher output reflects geology or more investment, or customers capture service productivity",
+    "experiment": "Compare wells by basin and design and normalize commodity prices and operational exposure.",
+    "horizon": "1\u20134 years",
+    "source_ids": [
+      "S17"
+    ],
+    "path": "industries/e01-oil-gas-and-energy-services.md"
+  },
+  {
+    "id": "U01",
+    "sector": "Utilities",
+    "name": "Electric, water and regulated infrastructure utilities",
+    "asset": "Grid or network telemetry, physical assets and local service obligations",
+    "mechanism": "AI can improve load forecasting, maintenance and dispatch or leakage management.",
+    "capture": "Incentive regulation or merchant exposure may retain gains. Allowed returns and rate reviews can transfer them to consumers.",
+    "kpi": "Outage duration; network losses; controllable operating cost per customer",
+    "guardrail": "Reliability, affordability, cyber resilience and capital recovery",
+    "falsifier": "Regulatory resets remove all savings or load growth forces low-return capital spending",
+    "experiment": "Compare service territories and asset cohorts. Model the actual regulatory sharing mechanism separately from AI load demand.",
+    "horizon": "1\u20135 years",
+    "source_ids": [
+      "S17"
+    ],
+    "path": "industries/u01-electric-water-and-regulated-infrastructure-utilities.md"
+  },
+  {
+    "id": "R01",
+    "sector": "Real Estate",
+    "name": "Property ownership, REITs and data centers",
+    "asset": "Locations, tenant relationships, building systems and operating scale",
+    "mechanism": "AI can improve maintenance, leasing support and energy management. Data-center rent growth is an AI-demand thesis with different economics.",
+    "capture": "Lease structure determines who keeps operating savings. Strong locations can support occupancy but do not guarantee an AI moat.",
+    "kpi": "Same-property NOI at fixed occupancy; owner-retained energy savings; leasing cost",
+    "guardrail": "Tenant satisfaction, tenant concentration, capex and financing costs",
+    "falsifier": "Tenants receive all savings or debt and obsolescence overwhelm small operating benefits",
+    "experiment": "Compare matched properties under identical lease structures. Separate rental market changes from technology effects.",
+    "horizon": "1\u20133 years",
+    "source_ids": [
+      "S17",
+      "S13"
+    ],
+    "path": "industries/r01-property-ownership-reits-and-data-centers.md"
+  },
+  {
+    "id": "R02",
+    "sector": "Real Estate",
+    "name": "Property services and facilities intelligence",
+    "asset": "Transaction observations, facilities operations and client workflows",
+    "mechanism": "AI can improve building operations, valuation support and service delivery using property-specific context.",
+    "capture": "Recurring facilities contracts and workflow integration may retain savings, but client-owned data and fee competition constrain capture.",
+    "kpi": "Contribution per facilities contract; work-order resolution cost; client renewal",
+    "guardrail": "Valuation errors, client data rights and service failures",
+    "falsifier": "Customers internalize the tools or fee cuts fully pass through labor savings",
+    "experiment": "Use matched managed buildings and service contracts. Separate property transaction cycles from recurring service productivity.",
+    "horizon": "6\u201330 months",
+    "source_ids": [
+      "S13"
+    ],
+    "path": "industries/r02-property-services-and-facilities-intelligence.md"
+  }
+]

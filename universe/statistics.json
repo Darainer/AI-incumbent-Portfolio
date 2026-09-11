@@ -1,0 +1,24 @@
+{
+  "companies": 100,
+  "areas": 36,
+  "sectors": 11,
+  "priority_count": 18,
+  "evidence": {
+    "E1": 9,
+    "E0": 86,
+    "E2": 5
+  },
+  "sector_counts": {
+    "Health Care": 14,
+    "Financials": 19,
+    "Information Technology": 25,
+    "Industrials": 13,
+    "Materials": 5,
+    "Consumer Discretionary": 10,
+    "Consumer Staples": 5,
+    "Communication Services": 4,
+    "Energy": 2,
+    "Utilities": 1,
+    "Real Estate": 2
+  }
+}
