@@ -1,0 +1,84 @@
+{
+  "id": "C027",
+  "company": "Mastercard",
+  "batch": 4,
+  "dossier": "research/batch-04/dossiers/038-c027-mastercard.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 2026 (ended 30 June 2026)",
+  "sources": [
+    {
+      "url": "https://investor.mastercard.com/financials-and-sec-filings/quarterly-results/default.aspx",
+      "title": "Latest financial results",
+      "date": "30 July 2026",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://investor.mastercard.com/financials-and-sec-filings/annual-reports-and-proxy/default.aspx",
+      "title": "Annual report / filings",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.mastercard.com/news/press/2024/february/mastercard-supercharges-consumer-protection-with-generative-ai/",
+      "title": "Company AI/product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.mastercard.com/global/en/vision/corp-responsibility/commitment-to-privacy/privacy-by-design.html",
+      "title": "Privacy/data/service terms",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://usa.visa.com/solutions/visa-protect.html",
+      "title": "Challenger product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "Q2 2026 GAAP net income and diluted EPS",
+    "value": "$4.4bn; $4.97",
+    "unit": "USD",
+    "period": "Q2 2026 (ended 30 June 2026)",
+    "source_url": "https://investor.mastercard.com/financials-and-sec-filings/quarterly-results/default.aspx",
+    "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
+  },
+  "ai_claim": {
+    "claim": "Decision Intelligence scores live authorizations using network context; false-decline controls and incremental Mastercard cash economics were not disclosed.",
+    "stage": "E2 production fraud scoring; no E3/E4 cash attribution",
+    "source_url": "https://www.mastercard.com/news/press/2024/february/mastercard-supercharges-consumer-protection-with-generative-ai/",
+    "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
+    "limitation": "No representative controlled cohort or retained-cash reconciliation."
+  },
+  "strongest_counterevidence": {
+    "claim": "customer transaction data is governed by network contracts and law, not automatically available for arbitrary training.",
+    "source_url": "https://investor.mastercard.com/financials-and-sec-filings/quarterly-results/default.aspx",
+    "limitation": "Does not itself disprove the scoped mechanism."
+  },
+  "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
+  "materiality_summary": "Framework convention: $700m, about 5% of a normalized annual operating-profit scale. Illustrative assumptions produce negative $70m, below the hurdle.",
+  "arithmetic": {
+    "inputs": "pool $5bn eligible internal operating cost (assumption); efficiency 2%; realization 60%; retained share 50%; recurring cost $100m",
+    "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+    "result": "negative $70m"
+  },
+  "confidence": {
+    "mechanism": "moderate",
+    "deployment": "low-to-moderate",
+    "capture": "low"
+  },
+  "g2_provisional": "Watch/incomplete: E1–E2 route exists; no E3 quality-adjusted proof or E4 cash.",
+  "unresolved_questions": [
+    "Training and pooled-learning rights?",
+    "Eligible workload and matched quality KPI?",
+    "Retained economics after labor, model and capital costs?"
+  ],
+  "self_check_complete": true
+}
