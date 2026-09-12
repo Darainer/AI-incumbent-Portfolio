@@ -1,0 +1,84 @@
+{
+  "id": "C100",
+  "company": "CBRE Group",
+  "batch": 10,
+  "dossier": "research/batch-10/dossiers/100-c100-cbre-group.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 2026 ended 30 June, released 29 July 2026",
+  "sources": [
+    {
+      "url": "https://www.cbre.com/press-releases/cbre-q2-2026-earnings",
+      "title": "Latest results",
+      "date": "2026",
+      "opened": true,
+      "supports": "financial anchor"
+    },
+    {
+      "url": "https://ir.cbre.com/financial-reports/sec-filings/content/0001138118-26-000005/cbre-20251231.htm",
+      "title": "2025 annual report/10-K",
+      "date": "2026",
+      "opened": true,
+      "supports": "business/capital/risks"
+    },
+    {
+      "url": "https://www.costargroup.com/",
+      "title": "CoStar",
+      "date": "undated",
+      "opened": true,
+      "supports": "data substitute"
+    },
+    {
+      "url": "https://www.jll.com/en-us/services/technology",
+      "title": "JLL technology",
+      "date": "undated",
+      "opened": true,
+      "supports": "challenger"
+    },
+    {
+      "url": "https://www.energystar.gov/buildings/benchmark",
+      "title": "ENERGY STAR Portfolio Manager",
+      "date": "undated",
+      "opened": true,
+      "supports": "public/substitute data"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "latest sector profit measure",
+    "value": "$836m core EBITDA; GAAP net income attributable $204m",
+    "unit": "USD/per-share as stated",
+    "period": "Q2 2026 ended 30 June, released 29 July 2026",
+    "source_url": "https://www.cbre.com/press-releases/cbre-q2-2026-earnings",
+    "caveat": "Non-GAAP/GAAP and cycle/pass-through reconciliation in dossier."
+  },
+  "ai_claim": {
+    "claim": "automate valuation/research and facilities/project workflows, improving accepted output and technician utilization while managing billable-hour/fee cannibalization",
+    "stage": "E1/E2 capability/deployment",
+    "source_url": "https://ir.cbre.com/financial-reports/sec-filings/content/0001138118-26-000005/cbre-20251231.htm",
+    "scope": "property and professional workflows",
+    "limitation": "No matched retained-cash cohort."
+  },
+  "strongest_counterevidence": {
+    "claim": "2025 transaction recovery, acquisitions, pass-through facilities costs, incentive compensation and real-estate cycle explain much growth; clients own building data and can demand savings",
+    "source_url": "https://www.cbre.com/press-releases/cbre-q2-2026-earnings",
+    "limitation": "Multiple ordinary drivers and contract capture."
+  },
+  "rights_limit": "Landlord, tenant, building and vendor data is contract/license-bound; management access does not imply cross-client training rights.",
+  "materiality_summary": "$184m annual pre-tax using 5% of $3.680bn TTM core EBITDA only as a reported-profit scale proxy",
+  "arithmetic": {
+    "inputs": "Illustrative assumed cost pool/efficiency/realization/retention/run cost",
+    "formula": "assumed $4bn eligible labor cost \u00d7 15% \u00d7 60% \u00d7 40% \u2212 $120m = $24m",
+    "result": "Illustrative only and below hurdle"
+  },
+  "confidence": {
+    "mechanism": "medium",
+    "deployment": "low-medium",
+    "capture": "low"
+  },
+  "g2_provisional": "Incomplete: E1/E2 tools without controlled property/workflow cash.",
+  "unresolved_questions": [
+    "Cross-client/building rights?",
+    "Matched property/work-order outcome?",
+    "Savings retained under contracts?"
+  ],
+  "self_check_complete": true
+}
