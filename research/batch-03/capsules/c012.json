@@ -1,0 +1,84 @@
+{
+  "id": "C012",
+  "company": "IQVIA",
+  "batch": 3,
+  "dossier": "research/batch-03/dossiers/027-c012-iqvia.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 2026 (ended 30 June 2026)",
+  "sources": [
+    {
+      "url": "https://ir.iqvia.com/financial-information/quarterly-results/default.aspx",
+      "title": "Latest financial results",
+      "date": "28 July 2026",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://ir.iqvia.com/financial-information/annual-reports-and-proxy/default.aspx",
+      "title": "Annual report / filings",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.iqvia.com/solutions/technologies/artificial-intelligence-and-machine-learning",
+      "title": "Company AI/product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.iqvia.com/about-us/privacy",
+      "title": "Privacy/data/service terms",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.veeva.com/products/veeva-vault-clinical/",
+      "title": "Challenger product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "latest revenue and profitability",
+    "value": "$4.368bn revenue, up 8.7%; adjusted EPS $3.15; R&DS backlog $34.2bn with $9.2bn expected to convert in twelve months",
+    "unit": "USD",
+    "period": "Q2 2026 (ended 30 June 2026)",
+    "source_url": "https://ir.iqvia.com/financial-information/quarterly-results/default.aspx",
+    "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
+  },
+  "ai_claim": {
+    "claim": "Healthcare-grade AI can assist site selection, patient matching, document review and trial monitoring.",
+    "stage": "E1–E2 scoped; no E3/E4 established",
+    "source_url": "https://www.iqvia.com/solutions/technologies/artificial-intelligence-and-machine-learning",
+    "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
+    "limitation": "No representative controlled cohort or retained-cash reconciliation."
+  },
+  "strongest_counterevidence": {
+    "claim": "Bookings and backlog are not realized margin, sponsor biotech funding can change quickly, and privacy/contract restrictions limit pooled learning from patient/customer data.",
+    "source_url": "https://ir.iqvia.com/financial-information/quarterly-results/default.aspx",
+    "limitation": "Does not itself disprove the scoped mechanism."
+  },
+  "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
+  "materiality_summary": "Framework convention: $380m, an illustrative 5% of roughly $7.6bn annualized adjusted EBITDA scale implied by H1 commentary. Illustrative assumptions produce negative $34.8m, below the hurdle.",
+  "arithmetic": {
+    "inputs": "pool $6.0bn eligible clinical-operations and information-service labor/cost; efficiency 12%; realization 40%; retained share 40%; recurring cost $150m",
+    "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+    "result": "negative $34.8m"
+  },
+  "confidence": {
+    "mechanism": "moderate",
+    "deployment": "low-to-moderate",
+    "capture": "low"
+  },
+  "g2_provisional": "Watch/incomplete: E1–E2 route exists; no E3 quality-adjusted proof or E4 cash.",
+  "unresolved_questions": [
+    "Training and pooled-learning rights?",
+    "Eligible workload and matched quality KPI?",
+    "Retained economics after labor, model and capital costs?"
+  ],
+  "self_check_complete": true
+}
