@@ -1,0 +1,84 @@
+{
+  "id": "C099",
+  "company": "Prologis",
+  "batch": 10,
+  "dossier": "research/batch-10/dossiers/099-c099-prologis.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 2026 ended 30 June, released 16 July 2026",
+  "sources": [
+    {
+      "url": "https://www.prologis.com/insights-news/press-releases/prologis-reports-second-quarter-2026-results",
+      "title": "Latest results",
+      "date": "2026",
+      "opened": true,
+      "supports": "financial anchor"
+    },
+    {
+      "url": "https://www.prologis.com/annual-report-2025",
+      "title": "2025 annual report/10-K",
+      "date": "2026",
+      "opened": true,
+      "supports": "business/capital/risks"
+    },
+    {
+      "url": "https://www.costargroup.com/",
+      "title": "CoStar",
+      "date": "undated",
+      "opened": true,
+      "supports": "data substitute"
+    },
+    {
+      "url": "https://www.jll.com/en-us/services/technology",
+      "title": "JLL technology",
+      "date": "undated",
+      "opened": true,
+      "supports": "challenger"
+    },
+    {
+      "url": "https://www.energystar.gov/buildings/benchmark",
+      "title": "ENERGY STAR Portfolio Manager",
+      "date": "undated",
+      "opened": true,
+      "supports": "public/substitute data"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "latest sector profit measure",
+    "value": "net earnings $1.13 per diluted share",
+    "unit": "USD/per-share as stated",
+    "period": "Q2 2026 ended 30 June, released 16 July 2026",
+    "source_url": "https://www.prologis.com/insights-news/press-releases/prologis-reports-second-quarter-2026-results",
+    "caveat": "Non-GAAP/GAAP and cycle/pass-through reconciliation in dossier."
+  },
+  "ai_claim": {
+    "claim": "forecast leasing, price/renewal risk and maintenance/energy; data-center demand is separate property demand, not AI operating productivity",
+    "stage": "E1/E2 capability/deployment",
+    "source_url": "https://www.prologis.com/annual-report-2025",
+    "scope": "property and professional workflows",
+    "limitation": "No matched retained-cash cohort."
+  },
+  "strongest_counterevidence": {
+    "claim": "freight, tariffs, supply, interest rates and development gains dominate; tenant data is contract-bound, maintenance savings may pass through, and data-center capex/power risk can increase",
+    "source_url": "https://www.prologis.com/insights-news/press-releases/prologis-reports-second-quarter-2026-results",
+    "limitation": "Multiple ordinary drivers and contract capture."
+  },
+  "rights_limit": "Landlord, tenant, building and vendor data is contract/license-bound; management access does not imply cross-client training rights.",
+  "materiality_summary": "5% of Q2 core FFO is $0.0815 per share for the quarter, or $0.326 annualized if Q2 repeats; this is a per-share REIT scale proxy, not operating profit",
+  "arithmetic": {
+    "inputs": "Illustrative assumed cost pool/efficiency/realization/retention/run cost",
+    "formula": "assumed $1bn eligible property/admin cost \u00d7 10% \u00d7 60% \u00d7 40% \u2212 $30m = negative $6m",
+    "result": "Illustrative only and below hurdle"
+  },
+  "confidence": {
+    "mechanism": "medium",
+    "deployment": "low-medium",
+    "capture": "low"
+  },
+  "g2_provisional": "Incomplete: E1/E2 tools without controlled property/workflow cash.",
+  "unresolved_questions": [
+    "Cross-client/building rights?",
+    "Matched property/work-order outcome?",
+    "Savings retained under contracts?"
+  ],
+  "self_check_complete": true
+}
