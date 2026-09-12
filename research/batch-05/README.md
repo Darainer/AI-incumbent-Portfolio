@@ -6,16 +6,16 @@ Lead accepted: **0/10**. See the [coverage contract](../coverage-instructions.md
 
 | Order | Company | ID | Packet status |
 |---:|---|---|---|
-| 41 | Moody's | C030 | scheduled |
-| 42 | London Stock Exchange Group | C032 | scheduled |
-| 43 | Intercontinental Exchange | C033 | scheduled |
-| 44 | Veeva Systems | C038 | scheduled |
-| 45 | Constellation Software | C039 | scheduled |
-| 46 | ADP | C040 | scheduled |
-| 47 | ServiceNow | C042 | scheduled |
-| 48 | Salesforce | C043 | scheduled |
-| 49 | Synopsys | C044 | scheduled |
-| 50 | Cadence Design Systems | C045 | scheduled |
+| 41 | [Moody's](dossiers/041-c030-moody-s.md) | C030 | ready for lead review |
+| 42 | [London Stock Exchange Group](dossiers/042-c032-london-stock-exchange-group.md) | C032 | ready for lead review |
+| 43 | [Intercontinental Exchange](dossiers/043-c033-intercontinental-exchange.md) | C033 | ready for lead review |
+| 44 | [Veeva Systems](dossiers/044-c038-veeva-systems.md) | C038 | ready for lead review |
+| 45 | [Constellation Software](dossiers/045-c039-constellation-software.md) | C039 | ready for lead review |
+| 46 | [ADP](dossiers/046-c040-adp.md) | C040 | ready for lead review |
+| 47 | [ServiceNow](dossiers/047-c042-servicenow.md) | C042 | ready for lead review |
+| 48 | [Salesforce](dossiers/048-c043-salesforce.md) | C043 | ready for lead review |
+| 49 | [Synopsys](dossiers/049-c044-synopsys.md) | C044 | ready for lead review |
+| 50 | [Cadence Design Systems](dossiers/050-c045-cadence-design-systems.md) | C045 | ready for lead review |
 
 ## Lead acceptance notes
 
