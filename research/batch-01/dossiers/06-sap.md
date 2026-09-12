@@ -1,6 +1,8 @@
 # SAP (C041) — initial dossier
 
-**Status:** unreviewed research-agent work; lead judgment required.  
+> Lead review complete. The [lead judgment](../lead-review.md) governs dispositions, scores and gates; provisional agent views below are retained for traceability.
+
+**Status:** research-agent packet; lead reviewed 12 September 2026.  
 **Security:** SAP SE ordinary bearer share, Xetra: SAP, ISIN DE0007164600, EUR; reporting currency EUR. NYSE: SAP is a sponsored ADR and one ADR corresponds to one ordinary share. The valuation uses the Xetra ordinary to avoid FX mixing.  
 **Cutoff / retrieval date:** 12 September 2026. Q2/H1 ended 30 June 2026, published 23 July; FY2025 ended 31 December 2025. Price is the 11 September Xetra close.  
 **Industry:** enterprise systems and workflow orchestration (I03).  
@@ -58,8 +60,8 @@ Oracle Fusion, Microsoft Copilot and independent agents compete. SAP’s advanta
 
 | Claim | Type | Source/date; section | Scope / stage | Confounder |
 |---|---|---|---|---|
-| FY2025 revenue €36.8bn, IFRS operating profit €9.617bn | Fact | Integrated Report, 26 Feb 2026; pp. 52–64 | Company baseline, E2 | 2024 restructuring comparison |
-| Q2 cloud revenue +22%, backlog +27%, cloud gross margin −0.5pp | Fact | Q2 statement, 23 Jul 2026; pp. 1–3 | Company baseline, E2 | FX, acquisitions, migration |
+| FY2025 revenue €36.8bn, IFRS operating profit €9.617bn | Fact | Integrated Report, 26 Feb 2026; pp. 52–64 | Conventional baseline | 2024 restructuring comparison |
+| Q2 cloud revenue +22%, backlog +27%, cloud gross margin −0.5pp | Fact | Q2 statement, 23 Jul 2026; pp. 1–3 | Conventional baseline | FX, acquisitions, migration |
 | Business AI included in two-thirds of Q4 cloud order entry | Management claim | FY2025 results, 29 Jan 2026 | Contract inclusion, E2 | Bundling; price and usage unknown |
 | Bosch developer productivity +20%; testing +15–20% | Customer result reported by SAP | Release highlights, Jul 2026 | One customer/task, E2 | No comparator design, quality or cost |
 | Only 3% of AI implementers use SAP AI in production vs 77% non-SAP | Independent user survey | DSAG, 26 Feb 2026 | 198 DACH firms, E2 | Ambiguous multiple-response denominator, regional mix |
@@ -78,7 +80,7 @@ Oracle Fusion, Microsoft Copilot and independent agents compete. SAP’s advanta
 | Total customer spend after seat/interface change | Matched non-AI renewals | AI-active accounts | Include third-party agent use, consulting and support | Unknown; observe two renewal cycles |
 | Developer output at equal quality | Bosch pre-Joule/matched developers | Joule-enabled engineering tasks | Defects, security, rework, cycle time | 20% claim lacks protocol; require logs and cash realization |
 
-The research materiality convention is 5% of normalized FY2025 non-IFRS operating profit: **€521m annual net benefit within five years**. Illustrative internal-cost bridge on €17.1bn combined FY2025 R&D, sales/marketing and G&A: 10% eligible task efficiency × 50% realization × 50% retained share − €300m recurring AI/implementation expense = **€128m**, only 1.2% of normalized profit. A strong 15% × 60% × 60% − €300m = **€624m**, above the hurdle. This shows why task productivity must convert into broad capacity or valuable output.
+The research materiality convention is 5% of normalized operating profit. Using FY2025 reported non-IFRS profit as an unnormalized scale proxy gives: **€521m annual net benefit within five years**. Illustrative internal-cost bridge on €17.1bn combined FY2025 R&D, sales/marketing and G&A: 10% eligible task efficiency × 50% realization × 50% retained share − €300m recurring AI/implementation expense = **€128m**, only 1.2% of that profit proxy. A strong 15% × 60% × 60% − €300m = **€623m**, above the hurdle. This shows why task productivity must convert into broad capacity or valuable output.
 
 Illustrative revenue route: 4% incremental uplift on €21.023bn FY2025 cloud revenue × 75% contribution margin − €100m incremental model/support cost = **€531m**. This clears the hurdle, but two-thirds order inclusion does not establish 4% incremental pricing, retention or volume. Cost and revenue bridges must not count the same released labor twice.
 
@@ -86,7 +88,7 @@ Illustrative revenue route: 4% incremental uplift on €21.023bn FY2025 cloud re
 
 Xetra SAP closed at **€177.26 on 11 September 2026** ([Investing.com dated quote](https://www.investing.com/equities/sap-ag)); Deutsche Börse confirms the ordinary security and ISIN on its [SAP listing page](https://live.deutsche-boerse.com/equity/sap-se). FY2025 issued shares were 1.229bn less 60.9m treasury; another 16.28m were repurchased by 30 June 2026. Ignoring intervening reissuance gives approximately 1.152bn economic shares and €204bn equity value. This share bridge must be reconciled before G3 passes.
 
-SAP does not guide IFRS EPS, so the model assumes **€7.00 normalized 2026 EPS**, near twice H1 EPS of €3.55. FY2025 EPS is distorted by lapping €3.1bn restructuring expense and equity gains. The model treats 2026 as year 1, compounds through 2030, discounts at 9%, includes a €2.50 growing dividend and retains stock compensation.
+SAP does not guide IFRS EPS, so the model assumes **€7.00 normalized 2026 EPS**, near twice H1 EPS of €3.55. FY2025 year-over-year EPS growth benefits from much lower restructuring charges; equity gains also affect the earnings baseline. Lapping an expense changes the comparison, not the absolute EPS definition. The model treats 2026 as year 1, compounds through 2030, discounts at 9%, includes a €2.50 growing dividend and retains stock compensation.
 
 | Case | Conventional business / AI change | 2026–30 EPS CAGR; terminal P/E | Approx. PV/share | Key sensitivity |
 |---|---|---:|---:|---|
@@ -129,7 +131,7 @@ Revised structural score: **80/100** versus 91 prior. With capture weighted 30% 
 | G1 qualified business | Pass, moderate/high | Recurring cloud/support franchise, net liquidity and strong cash generation; litigation/governance need lead audit |
 | G2 operating thesis | Pass, low/moderate | E2 order/deployment evidence and clear route to controlled workflow tests; material production breadth weak |
 | G3 valued opportunity | Blocked | Dated price and scenarios exist, but normalized EPS and point share count are assumptions, and AI cash contribution is absent |
-| G4 portfolio eligible | Blocked | No sizing/correlation review; G3 and E4 absent |
+| G4 portfolio eligible | Blocked | G3 incomplete; no sizing/correlation review |
 
 Confidence: **mechanism high; deployment low/moderate; capture low; valuation low/moderate**.
 
