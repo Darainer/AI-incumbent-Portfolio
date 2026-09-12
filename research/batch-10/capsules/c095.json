@@ -1,0 +1,91 @@
+{
+  "id": "C095",
+  "company": "Netflix",
+  "batch": 10,
+  "dossier": "research/batch-10/dossiers/095-c095-netflix.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 2026",
+  "sources": [
+    {
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2026/q2/FINAL-Q2-26-Shareholder-Letter.pdf",
+      "title": "Q2 2026 issuer financial update",
+      "date": "2026",
+      "opened": true,
+      "supports": "quarterly revenue of $12.6bn, 13% growth, 33% operating margin and $1.525bn free cash flow. Netflix has long operated recommendation/personalization ML, so that is baseline E2, whi"
+    },
+    {
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf",
+      "title": "Q4 2025 shareholder letter",
+      "date": "2026-01-20",
+      "opened": true,
+      "supports": "FY2025 revenue, operating margin and free cash flow"
+    },
+    {
+      "url": "https://ir.netflix.net/financials/annual-reports-and-proxies/default.aspx",
+      "title": "Annual report / financial results",
+      "date": "2024",
+      "opened": false,
+      "supports": "latest financial anchor used in packet"
+    },
+    {
+      "url": "https://research.netflix.com/research-area/machine-learning",
+      "title": "Company technology / AI evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "AI capability or deployment claim"
+    },
+    {
+      "url": "https://help.netflix.com/legal/privacy",
+      "title": "Privacy / data policy",
+      "date": "undated",
+      "opened": false,
+      "supports": "rights constraints"
+    },
+    {
+      "url": "https://thewaltdisneycompany.com/app/uploads/2025/01/2024-Annual-Report.pdf",
+      "title": "Disney reporting",
+      "date": "undated",
+      "opened": false,
+      "supports": "incumbent challenger evidence"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "operating income",
+    "value": 13.329,
+    "unit": "USD billion",
+    "period": "FY2025",
+    "source_url": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf",
+    "caveat": "Derived from reported $45.183bn revenue and 29.5% margin; rounding. Q2 2026 is latest interim."
+  },
+  "ai_claim": {
+    "claim": "Recommendation/personalization ML is established production baseline; generative ad/production tools are incremental capabilities.",
+    "stage": "E2 baseline; E1/E2 incremental tools",
+    "source_url": "https://research.netflix.com/research-area/machine-learning",
+    "scope": "streaming experience and selected advertising/production workflows",
+    "limitation": "No isolated incremental retention, contribution or cash result."
+  },
+  "strongest_counterevidence": {
+    "claim": "Disney and YouTube and short-form/video platforms competing for attention and advertisers can replicate tools or force gains through to customers.",
+    "source_url": "https://thewaltdisneycompany.com/app/uploads/2025/01/2024-Annual-Report.pdf",
+    "limitation": "Competitive capability does not by itself prove equal outcomes."
+  },
+  "rights_limit": "Netflix owns or licenses content rights by title, territory and window; viewing data are subject to privacy rules. Talent contracts and licensed content do not imply training rights.",
+  "materiality_summary": "5% of approximately $13.329bn FY2025 operating income is $666m.",
+  "arithmetic": {
+    "inputs": "FY2025 revenue $45.183bn; reported operating margin 29.5%",
+    "formula": "$45.183bn\u00d729.5%=$13.329bn; \u00d75%=$666.5m",
+    "result": "About $667m annual hurdle."
+  },
+  "confidence": {
+    "mechanism": "medium",
+    "deployment": "low-to-medium",
+    "capture": "low"
+  },
+  "g2_provisional": "Open: E1/E2 evidence supports measurement, but E3 quality-adjusted causality and E4 cash retention are not established.",
+  "unresolved_questions": [
+    "What share of eligible workload is in production?",
+    "What controlled quality-adjusted KPI result exists?",
+    "What do contracts permit for pooled learning and how much benefit is retained after recurring cost?"
+  ],
+  "self_check_complete": true
+}
