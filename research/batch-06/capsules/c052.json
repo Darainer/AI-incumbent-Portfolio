@@ -1,0 +1,84 @@
+{
+  "id": "C052",
+  "company": "Microsoft",
+  "batch": 6,
+  "dossier": "research/batch-06/dossiers/057-c052-microsoft.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "FY2026 (ended 30 June 2026)",
+  "sources": [
+    {
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+      "title": "Latest financial results",
+      "date": "29 July 2026",
+      "opened": true,
+      "supports": "latest financial anchor"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/annualreports",
+      "title": "Annual report / filings",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy",
+      "title": "Company AI/product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/trust-center/privacy",
+      "title": "Privacy/data/service terms",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://workspace.google.com/solutions/ai/",
+      "title": "Challenger product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "FY2026 revenue and GAAP operating income",
+    "value": "$331.8bn; $155.2bn",
+    "unit": "USD",
+    "period": "FY2026 (ended 30 June 2026)",
+    "source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+    "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
+  },
+  "ai_claim": {
+    "claim": "Microsoft reported more than 30m paid Microsoft 365 Copilot seats and strong Azure AI demand; controlled end-to-end productivity and own-use cash remain unreported.",
+    "stage": "E2 external Azure AI demand in opened FY2026 results; own-productivity evidence remains E1",
+    "source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+    "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
+    "limitation": "No representative controlled cohort or retained-cash reconciliation."
+  },
+  "strongest_counterevidence": {
+    "claim": "calendar-2026 AI infrastructure spending was reported near $175bn.",
+    "source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+    "limitation": "Does not itself disprove the scoped mechanism."
+  },
+  "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
+  "materiality_summary": "Framework convention: $7.76bn, 5% of FY2026 operating income. Illustrative assumptions produce negative $1.4bn, below the hurdle.",
+  "arithmetic": {
+    "inputs": "pool $80bn Microsoft 365/Azure support and development cost/revenue pool (assumption); efficiency 10%; realization 50%; retained share 40%; recurring cost $3bn",
+    "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+    "result": "negative $1.4bn"
+  },
+  "confidence": {
+    "mechanism": "moderate",
+    "deployment": "low-to-moderate",
+    "capture": "low"
+  },
+  "g2_provisional": "Watch/incomplete: E2 external Azure AI demand in opened FY2026 results; own-productivity evidence remains E1; no E3 quality-adjusted proof or E4 retained cash.",
+  "unresolved_questions": [
+    "Training and pooled-learning rights?",
+    "Eligible workload and matched quality KPI?",
+    "Retained economics after labor, model and capital costs?"
+  ],
+  "self_check_complete": true
+}
