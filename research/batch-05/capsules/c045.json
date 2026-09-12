@@ -1,0 +1,84 @@
+{
+  "id": "C045",
+  "company": "Cadence Design Systems",
+  "batch": 5,
+  "dossier": "research/batch-05/dossiers/050-c045-cadence-design-systems.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 2026 ended 30 June, published 27 July 2026",
+  "sources": [
+    {
+      "url": "https://investor.cadence.com/news-releases/news-release-details/cadence-reports-second-quarter-2026-financial-results",
+      "title": "Latest results",
+      "date": "2026",
+      "opened": true,
+      "supports": "financial anchor"
+    },
+    {
+      "url": "https://www.cadence.com/en_US/home/ai.html",
+      "title": "Cadence.AI",
+      "date": "undated",
+      "opened": true,
+      "supports": "AI product scope"
+    },
+    {
+      "url": "https://www.sec.gov/edgar/browse/?CIK=813672",
+      "title": "SEC filings",
+      "date": "2026",
+      "opened": true,
+      "supports": "financial and IP risks"
+    },
+    {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-synopsys-partnership",
+      "title": "Nvidia-Synopsys collaboration",
+      "date": "2025-12-01",
+      "opened": true,
+      "supports": "supplier/customer partnership and nonexclusivity"
+    },
+    {
+      "url": "https://arxiv.org/abs/2112.04838",
+      "title": "IEEE 1735 implementation study",
+      "date": "2021-12-09",
+      "opened": true,
+      "supports": "IP protection adverse evidence"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "latest revenue",
+    "value": "$1.584bn",
+    "unit": "USD",
+    "period": "Q2 2026 ended 30 June, published 27 July 2026",
+    "source_url": "https://investor.cadence.com/news-releases/news-release-details/cadence-reports-second-quarter-2026-financial-results",
+    "caveat": "Quarterly; acquisitions/mix and GAAP/non-GAAP reconciliation matter."
+  },
+  "ai_claim": {
+    "claim": "Cerebrus and generative/agentic workflows search implementation choices and optimize power, performance and area",
+    "stage": "E1/E2, vendor/customer reported",
+    "source_url": "https://www.cadence.com/en_US/home/ai.html",
+    "scope": "named EDA workflows",
+    "limitation": "No portfolio-controlled signoff-quality or retained-cash cohort."
+  },
+  "strongest_counterevidence": {
+    "claim": "China export controls and dependence on third-party IP/licenses constrain deployment; AI may reduce seats or shift value to compute vendors.",
+    "source_url": "https://www.sec.gov/edgar/browse/?CIK=813672",
+    "limitation": "Risk disclosure does not quantify realized AI harm."
+  },
+  "rights_limit": "Customers own designs; foundries and licensors own PDK/third-party IP. Access does not prove cross-customer training rights.",
+  "materiality_summary": "Q2 GAAP operating profit is approximately $449.856m (28.4% \u00d7 $1.584bn); 5% is $22.493m for the quarter, or about $89.971m annualized with seasonality caveat.",
+  "arithmetic": {
+    "inputs": "Illustrative assumed eligible cost/efficiency/realization/retention/run cost",
+    "formula": "$800m eligible cost \u00d7 15% \u00d7 60% \u00d7 50% \u2212 $50m = $22m",
+    "result": "negative $14m illustrative; customer savings excluded from vendor cost."
+  },
+  "confidence": {
+    "mechanism": "high",
+    "deployment": "medium",
+    "capture": "low-medium"
+  },
+  "g2_provisional": "Incomplete: E1/E2 without controlled signoff quality and retained economics.",
+  "unresolved_questions": [
+    "Cross-customer training rights?",
+    "Matched project results at equal compute?",
+    "AI ARR net of seat cannibalization?"
+  ],
+  "self_check_complete": true
+}
