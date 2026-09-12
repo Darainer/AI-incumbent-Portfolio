@@ -1,0 +1,84 @@
+{
+  "id": "C087",
+  "company": "Unilever",
+  "batch": 9,
+  "dossier": "research/batch-09/dossiers/087-c087-unilever.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "H1 2026 (ended 30 June 2026)",
+  "sources": [
+    {
+      "url": "https://www.unilever.com/investors/results-presentations-webcasts/",
+      "title": "Latest financial results",
+      "date": "28 July 2026",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.unilever.com/investors/annual-report-and-accounts/",
+      "title": "Annual report / filings",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.unilever.com/news/news-search/2026/inside-unilevers-ai-powered-supply-chain/",
+      "title": "Company AI/product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.unilever.com/privacy-notice/",
+      "title": "Privacy/data/service terms",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://us.pg.com/innovation/",
+      "title": "Challenger product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "H1 2026 turnover and underlying operating profit",
+    "value": "€25.6bn; €5.2bn",
+    "unit": "EUR",
+    "period": "H1 2026 (ended 30 June 2026)",
+    "source_url": "https://www.unilever.com/investors/results-presentations-webcasts/",
+    "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
+  },
+  "ai_claim": {
+    "claim": "Unilever describes AI-supported supply-chain planning in production, but the retrieved public material did not provide a controlled waste/service/cash cohort.",
+    "stage": "E1 supply-chain capability; no opened controlled cohort",
+    "source_url": "https://www.unilever.com/news/news-search/2026/inside-unilevers-ai-powered-supply-chain/",
+    "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
+    "limitation": "No representative controlled cohort or retained-cash reconciliation."
+  },
+  "strongest_counterevidence": {
+    "claim": "commodity/input inflation and pricing response dominate margins.",
+    "source_url": "https://www.unilever.com/investors/results-presentations-webcasts/",
+    "limitation": "Does not itself disprove the scoped mechanism."
+  },
+  "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
+  "materiality_summary": "Framework convention: €520m, 5% of a €10.4bn annualized H1 underlying operating-profit proxy. Illustrative assumptions produce €90m, below the hurdle.",
+  "arithmetic": {
+    "inputs": "pool €12bn eligible supply-chain, marketing-production and support cost; efficiency 10%; realization 40%; retained share 50%; recurring cost €150m",
+    "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+    "result": "€90m"
+  },
+  "confidence": {
+    "mechanism": "moderate",
+    "deployment": "low-to-moderate",
+    "capture": "low"
+  },
+  "g2_provisional": "Watch/incomplete: E1 supply-chain capability; no opened controlled cohort; no E3 quality-adjusted proof or E4 retained cash.",
+  "unresolved_questions": [
+    "Training and pooled-learning rights?",
+    "Eligible workload and matched quality KPI?",
+    "Retained economics after labor, model and capital costs?"
+  ],
+  "self_check_complete": true
+}
