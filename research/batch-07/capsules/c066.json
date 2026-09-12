@@ -1,0 +1,84 @@
+{
+  "id": "C066",
+  "company": "UPS",
+  "batch": 7,
+  "dossier": "research/batch-07/dossiers/067-c066-ups.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 2026 (ended 30 June 2026)",
+  "sources": [
+    {
+      "url": "https://investors.ups.com/news-events/press-releases/detail/2164/ups-releases-2q-2026-earnings",
+      "title": "Latest financial results",
+      "date": "28 July 2026",
+      "opened": true,
+      "supports": "latest financial anchor"
+    },
+    {
+      "url": "https://investors.ups.com/financials/annual-reports",
+      "title": "Annual report / filings",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://about.ups.com/us/en/our-stories/innovation-driven/ups-ai-and-automation.html",
+      "title": "Company AI/product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.ups.com/us/en/support/shipping-support/legal-terms-conditions/privacy-notice",
+      "title": "Privacy/data/service terms",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.fedex.com/en-us/innovation.html",
+      "title": "Challenger product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "Q2 2026 GAAP and adjusted operating profit",
+    "value": "$930m GAAP; $2.1bn adjusted",
+    "unit": "USD",
+    "period": "Q2 2026 (ended 30 June 2026)",
+    "source_url": "https://investors.ups.com/news-events/press-releases/detail/2164/ups-releases-2q-2026-earnings",
+    "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
+  },
+  "ai_claim": {
+    "claim": "UPS uses route/sort optimization in production, but no retrieved source isolates incremental generative/agentic AI from network reconfiguration and workforce cuts.",
+    "stage": "E1 incremental AI; route optimization is ordinary baseline",
+    "source_url": "https://about.ups.com/us/en/our-stories/innovation-driven/ups-ai-and-automation.html",
+    "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
+    "limitation": "No representative controlled cohort or retained-cash reconciliation."
+  },
+  "strongest_counterevidence": {
+    "claim": "Q2 GAAP profit included major transformation/severance effects and the Amazon volume glide-down.",
+    "source_url": "https://investors.ups.com/news-events/press-releases/detail/2164/ups-releases-2q-2026-earnings",
+    "limitation": "Does not itself disprove the scoped mechanism."
+  },
+  "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
+  "materiality_summary": "Framework convention: $430m, about 5% of 2026 adjusted operating-profit target near $8.65bn. Illustrative assumptions produce $150m, below the hurdle.",
+  "arithmetic": {
+    "inputs": "pool $30bn eligible pickup/delivery, sort and support cost; efficiency 5%; realization 40%; retained share 50%; recurring cost $150m",
+    "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+    "result": "$150m"
+  },
+  "confidence": {
+    "mechanism": "moderate",
+    "deployment": "low-to-moderate",
+    "capture": "low"
+  },
+  "g2_provisional": "Watch/incomplete: E1 incremental AI; route optimization is ordinary baseline; no E3 quality-adjusted proof or E4 retained cash.",
+  "unresolved_questions": [
+    "Training and pooled-learning rights?",
+    "Eligible workload and matched quality KPI?",
+    "Retained economics after labor, model and capital costs?"
+  ],
+  "self_check_complete": true
+}
