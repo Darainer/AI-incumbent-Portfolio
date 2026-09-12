@@ -1,11 +1,13 @@
 # Thomson Reuters (C036) — initial evidence dossier
 
-**Unreviewed research-agent output; lead reviewer owns the final judgment.**  
+> Lead review complete. The [lead judgment](../lead-review.md) governs dispositions, scores and gates; provisional agent views below are retained for traceability.
+
+**Research-agent evidence packet; lead reviewed 12 September 2026.**  
 **Cutoff/access date:** 12 September 2026. **Issuer/security:** Thomson Reuters Corporation common shares, Nasdaq **TRI**, USD quote and USD reporting currency (the same common shares also trade on TSX in CAD). **Price:** US$97.35, latest vendor trade timestamp 12 September 2026 00:15 UTC; the overnight timestamp and quote should be independently checked before an investment decision. **Industry:** I01 legal, tax and professional information.
 
 ## Provisional conclusion
 
-Thomson Reuters has the clearest asset-to-workflow mechanism in this pair: owned/licensed editorial content, citations and professional tax/legal workflows are embedded in CoCounsel and Westlaw. Production deployment is credible—management identifies CoCounsel as a driver of recurring organic growth and the current product page reports 2,700 corporate customers—but measured, net AI economics remain undisclosed. Customer anecdotes show large task-time savings, while a controlled academic test of earlier incumbent legal-research products found meaningful hallucination rates. At US$97.35 the shares are about 20.4 times management's 2026 free-cash-flow guidance; a simple cash-flow model requires durable mid/high-single-digit growth to clear a 9% return. **Provisional disposition: watch / G2 pass, G3 conditional; no purchase recommendation.** Mechanism confidence moderate-high, deployment moderate, capture low-moderate, valuation low-moderate.
+Thomson Reuters has the clearest asset-to-workflow mechanism in this pair: owned/licensed editorial content, citations and professional tax/legal workflows are embedded in CoCounsel and Westlaw. Production deployment is credible—management identifies CoCounsel as a driver of recurring organic growth and the current product page reports 2,700 corporate customers—but measured, net AI economics remain undisclosed. Customer anecdotes show large task-time savings, while a controlled academic test of earlier incumbent legal-research products found meaningful hallucination rates. At US$97.35 the shares are about 20.4 times management's 2026 free-cash-flow guidance; the DCF base case is below price and reverse valuation requires about 8.5% five-year FCF/share growth at a 9% return hurdle and 2.5% terminal growth. **Provisional disposition: watch / G2 pass, G3 conditional; no purchase recommendation.** Mechanism confidence moderate-high, deployment moderate, capture low-moderate, valuation low-moderate.
 
 ## Conventional business and financial resilience
 
@@ -47,7 +49,7 @@ The [TR AI FAQ](https://www.thomsonreuters.com/en/artificial-intelligence) (unda
 
 **3. Internal/product development productivity.** TR says it invests more than US$200m annually in AI and has over 1,000 AI/ML specialists. A proprietary “Thomson” model launched 24 August 2026 may reduce third-party bargaining or improve domain performance, but launch status is E1. Serving cost, benchmark quality, capex and customer adoption are unknown.
 
-RELX's LexisNexis (Lexis+ AI/Protégé) is the closest incumbent rival: it has comparable authoritative content, citations and distribution, so TR's moat is relative rather than unique. Harvey is a credible entrant/substitute because it integrates into major firms and can work on customer documents; generic Gemini/OpenAI/Anthropic agents plus firm RAG pressure standalone seat pricing. The strongest negative evidence is Magesh et al., “Hallucination-Free?”: an academic evaluation of earlier Lexis+ AI, Ask Practical Law AI and Westlaw AI-Assisted Research found hallucinations remained above zero and product behavior varied. It does not test today's CoCounsel and therefore cannot establish current failure, but it proves human verification remains an economic cost. A May 2026 court-sanctions report also recorded a disputed Westlaw-AI attribution; Reuters could not determine the source of the false citation, so it is an adverse operational warning rather than product-causation evidence.
+RELX's LexisNexis (Lexis+ AI/Protégé) is the closest incumbent rival: it has comparable authoritative content, citations and distribution, so TR's moat is relative rather than unique. Harvey is a credible entrant/substitute because it integrates into major firms and can work on customer documents; generic Gemini/OpenAI/Anthropic agents plus firm RAG pressure standalone seat pricing. Anthropic's legal solution lists a CoCounsel Legal connector alongside NetDocuments: this supports alternative-interface risk, but also shows that a general agent may preserve TR's backend/content relevance rather than eliminate it. The strongest negative evidence is Magesh et al., “Hallucination-Free?”: an academic evaluation of earlier Lexis+ AI, Ask Practical Law AI and Westlaw AI-Assisted Research found hallucinations remained above zero and product behavior varied. It does not test today's CoCounsel and therefore cannot establish current failure, but it proves human verification remains an economic cost. A May 2026 court-sanctions report also recorded a disputed Westlaw-AI attribution; Reuters could not determine the source of the false citation, so it is an adverse operational warning rather than product-causation evidence.
 
 ## Evidence ledger
 
@@ -116,6 +118,7 @@ Weighted posterior is 77/100 versus prior 91; this remains structural judgment, 
 8. [RELX 2025 annual report—market segments](https://www.relx.com/~/media/Files/R/RELX-Group/documents/reports/annual-reports/2025-ar-sections/relx-2025-market-segments.pdf), published Feb 2026; accessed 12 Sep 2026. Primary incumbent comparison; competitor-selected metrics.
 9. [Harvey product/customer site](https://www.harvey.ai/), undated live site; accessed 12 Sep 2026. Entrant capability/deployment claims; promotional, no matched economics.
 10. Nasdaq TRI quote supplied by live finance vendor, latest trade 12 Sep 2026 00:15 UTC; accessed 12 Sep 2026. Recheck anomalous overnight timestamp before reliance.
+11. [Anthropic legal solution](https://claude.com/solutions/legal), undated live page; accessed 12 Sep 2026. Lists a CoCounsel Legal connector, supporting both interface risk and possible backend persistence; no commercial economics.
 
 ## Handoff
 
