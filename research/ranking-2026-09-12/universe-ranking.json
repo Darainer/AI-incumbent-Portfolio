@@ -1,0 +1,902 @@
+[
+  {
+    "regime_rank": 1,
+    "id": "C034",
+    "company": "RELX",
+    "band": "A: strongest operating fit",
+    "rationale": "Best combined evidence of paid workflow adoption, maintained content and an existing cash-generating franchise; bundle value shares are not incremental AI uplift.",
+    "evidence_dossier": "research/batch-01/dossiers/01-relx.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 2,
+    "id": "C037",
+    "company": "Intuit",
+    "band": "A: strongest operating fit",
+    "rationale": "Ledger and tax execution create a direct route to paid completion; customer value must survive tax-unit weakness, rival agents and human review cost.",
+    "evidence_dossier": "research/batch-01/dossiers/05-intuit.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 3,
+    "id": "C035",
+    "company": "Wolters Kluwer",
+    "band": "A: strongest operating fit",
+    "rationale": "Diversified professional workflows and recurring distribution support several capture routes; clinical-answer competition prevents a blanket data-moat conclusion.",
+    "evidence_dossier": "research/batch-01/dossiers/02-wolters-kluwer.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 4,
+    "id": "C036",
+    "company": "Thomson Reuters",
+    "band": "A: strongest operating fit",
+    "rationale": "Strong legal/tax content and paid workflows; more concentrated legal-interface competition and restricted customer-data reuse temper the advantage.",
+    "evidence_dossier": "research/batch-01/dossiers/03-thomson-reuters.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 5,
+    "id": "C038",
+    "company": "Veeva Systems",
+    "band": "A: strongest operating fit",
+    "rationale": "Validated life-science systems and an actual field-team deployment support a meaningful workflow thesis; AI attach remains separate from CRM migration.",
+    "evidence_dossier": "research/batch-05/dossiers/044-c038-veeva-systems.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 6,
+    "id": "C042",
+    "company": "ServiceNow",
+    "band": "A: strongest operating fit",
+    "rationale": "Enterprise permissions and paid agent adoption create a credible execution franchise; correctness, seat displacement, acquisitions and SBC constrain owner economics.",
+    "evidence_dossier": "research/batch-05/dossiers/047-c042-servicenow.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 7,
+    "id": "C078",
+    "company": "MercadoLibre",
+    "band": "A: strongest operating fit",
+    "rationale": "Search deployment across five major sites reportedly covers LLM costs; payments/logistics integration improves capture, but credit and reinvestment absorb capital.",
+    "evidence_dossier": "research/batch-08/dossiers/078-c078-mercadolibre.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 8,
+    "id": "C052",
+    "company": "Microsoft",
+    "band": "A: strongest operating fit",
+    "rationale": "Paid workplace distribution and workflow ownership are exceptional; infrastructure commitments and revaluation gains make the owner-return bridge conditional.",
+    "evidence_dossier": "research/batch-06/dossiers/057-c052-microsoft.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 9,
+    "id": "C094",
+    "company": "Meta Platforms",
+    "band": "A: strongest operating fit",
+    "rationale": "Integrated auctions offer a fast monetization route from better recommendations; advertising uplift must fund large infrastructure obligations.",
+    "evidence_dossier": "research/batch-10/dossiers/094-c094-meta-platforms.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 10,
+    "id": "C041",
+    "company": "SAP",
+    "band": "A: strongest operating fit",
+    "rationale": "Transaction systems and process context support authorized action; cloud migration, bundled AI and standalone monetization must be separated.",
+    "evidence_dossier": "research/batch-01/dossiers/06-sap.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 11,
+    "id": "C032",
+    "company": "London Stock Exchange Group",
+    "band": "A: strongest operating fit",
+    "rationale": "Trusted financial inputs can monetize machine consumption; upstream licenses and external agent interfaces limit bargaining power.",
+    "evidence_dossier": "research/batch-05/dossiers/042-c032-london-stock-exchange-group.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 12,
+    "id": "C031",
+    "company": "Experian",
+    "band": "A: strongest operating fit",
+    "rationale": "Refreshed decision data and distribution are durable; mature ML is baseline, so new generative upside needs separate paid or fixed-risk evidence.",
+    "evidence_dossier": "research/batch-01/dossiers/04-experian.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 13,
+    "id": "C045",
+    "company": "Cadence Design Systems",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Signoff integration and objective design constraints support embedded optimization; capability claims still need fixed-compute quality and paid adoption.",
+    "evidence_dossier": "research/batch-05/dossiers/050-c045-cadence-design-systems.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 14,
+    "id": "C044",
+    "company": "Synopsys",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Deep design and simulation integration; Ansys financing, customer design rights and integration risk complicate capture.",
+    "evidence_dossier": "research/batch-05/dossiers/049-c044-synopsys.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 15,
+    "id": "C026",
+    "company": "Visa",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Network fees and value-added services can retain part of improved legitimate approvals; issuer fraud savings are not Visa earnings.",
+    "evidence_dossier": "research/batch-02/dossiers/011-c026-visa.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 16,
+    "id": "C027",
+    "company": "Mastercard",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Comparable network capture logic and strong conventional economics; thinner verified incremental deployment evidence lowers conviction.",
+    "evidence_dossier": "research/batch-04/dossiers/038-c027-mastercard.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 17,
+    "id": "C043",
+    "company": "Salesforce",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "A real commercial agent offering, but seat cannibalization, changing ARR definitions and acquisition-funded leverage require conservative earnings.",
+    "evidence_dossier": "research/batch-05/dossiers/048-c043-salesforce.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 18,
+    "id": "C040",
+    "company": "ADP",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Payroll completion and compliance offer an execution advantage; specific deployment and error-adjusted savings need stronger evidence.",
+    "evidence_dossier": "research/batch-05/dossiers/046-c040-adp.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 19,
+    "id": "C029",
+    "company": "S&P Global",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Ratings, indices and trusted data provide durable ordinary economics; direct AI production and machine-access capture remain conditional.",
+    "evidence_dossier": "research/batch-04/dossiers/040-c029-s-p-global.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 20,
+    "id": "C049",
+    "company": "ASML",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Scanner calibration, process IP and service integration support embedded computational value; customer yield and hardware demand are separate mechanisms.",
+    "evidence_dossier": "research/batch-06/dossiers/054-c049-asml.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 21,
+    "id": "C018",
+    "company": "Chubb",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Underwriting and process ownership provide an internal expense route; normalize catastrophes, reserves and capital before crediting savings.",
+    "evidence_dossier": "research/batch-01/dossiers/10-chubb.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 22,
+    "id": "C019",
+    "company": "Progressive",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Shorter-tail auto feedback is more testable than rare catastrophe outcomes; existing telematics and favorable loss ratios are not new AI.",
+    "evidence_dossier": "research/batch-04/dossiers/032-c019-progressive.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 23,
+    "id": "C020",
+    "company": "AIA Group",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Disclosed claims-processing use is a useful starting point; bundled redesign, quality and long-duration liabilities constrain attribution.",
+    "evidence_dossier": "research/batch-04/dossiers/033-c020-aia-group.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 24,
+    "id": "C074",
+    "company": "dsm-firmenich",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Formulation and sensory experiments can deliver faster feedback than clinical programmes; retained contribution per accepted brief is the test.",
+    "evidence_dossier": "research/batch-08/dossiers/074-c074-dsm-firmenich.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 25,
+    "id": "C063",
+    "company": "Caterpillar",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Operating autonomy and service distribution are tangible assets; mine productivity belongs first to customers and existing autonomy is baseline.",
+    "evidence_dossier": "research/batch-07/dossiers/064-c063-caterpillar.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 26,
+    "id": "C069",
+    "company": "GE Aerospace",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Fleet analytics and aftermarket integration are real; more time on wing can defer service revenue, so lifetime contract economics matter.",
+    "evidence_dossier": "research/batch-07/dossiers/070-c069-ge-aerospace.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 27,
+    "id": "C051",
+    "company": "KLA",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Inspection calibration and installed process control are valuable; insufficient direct product evidence keeps the incremental thesis conditional.",
+    "evidence_dossier": "research/batch-06/dossiers/056-c051-kla.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 28,
+    "id": "C030",
+    "company": "Moody's",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Credit authority and data can support new workflows, but verified active AI use and retained paid economics remain limited.",
+    "evidence_dossier": "research/batch-05/dossiers/041-c030-moody-s.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 29,
+    "id": "C021",
+    "company": "BlackRock",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Aladdin has a named implementation and distribution, but AI technology economics are small beside market-sensitive asset-management earnings.",
+    "evidence_dossier": "research/batch-04/dossiers/034-c021-blackrock.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 30,
+    "id": "C023",
+    "company": "JPMorgan Chase",
+    "band": "B: qualified or conditional mechanisms",
+    "rationale": "Broad production deployment is credible; capacity reinvestment and bank risk make simple headcount-saving models inadequate.",
+    "evidence_dossier": "research/batch-02/dossiers/012-c023-jpmorgan-chase.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 31,
+    "id": "C015",
+    "company": "Munich Re",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "A strong conventional insurer can be attractive without AI; rare-event labels, catastrophe luck and reserve releases weaken a simple AI compounding claim.",
+    "evidence_dossier": "research/batch-01/dossiers/09-munich-re.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 32,
+    "id": "C033",
+    "company": "Intercontinental Exchange",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Mortgage-system integration could monetize completed work; transaction cycles, defect rates and acquisition financing govern returns.",
+    "evidence_dossier": "research/batch-05/dossiers/043-c033-intercontinental-exchange.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 33,
+    "id": "C080",
+    "company": "Uber",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Network distribution can retain better matching economics; mature ML is baseline and autonomous fleets could capture part of the platform surplus.",
+    "evidence_dossier": "research/batch-08/dossiers/080-c080-uber.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 34,
+    "id": "C054",
+    "company": "Alphabet",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Search and cloud distribution are powerful, but interface disruption, compute commitments and common-share dilution make incremental capture uncertain.",
+    "evidence_dossier": "research/batch-06/dossiers/058-c054-alphabet.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 35,
+    "id": "C053",
+    "company": "Amazon",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Logistics, commerce and cloud are formidable franchises; current evidence favors AI demand exposure over a clean own-productivity increment.",
+    "evidence_dossier": "research/batch-02/dossiers/018-c053-amazon.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 36,
+    "id": "C039",
+    "company": "Constellation Software",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Decentralized vertical workflows are durable but do not form one pooled dataset; cheaper software creation can also pressure acquisition economics.",
+    "evidence_dossier": "research/batch-05/dossiers/045-c039-constellation-software.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 37,
+    "id": "C047",
+    "company": "Autodesk",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Workflow access gives a plausible route to paid design/construction assistance, but availability is not measured use. Rework, correctness, attach and renewal must be observed together. The H1 screen is period-specific.",
+    "evidence_dossier": "research/batch-06/dossiers/052-c047-autodesk.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 38,
+    "id": "C046",
+    "company": "Dassault Systèmes",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Design and virtual-twin capabilities require real-world validation and paid adoption. Product availability stays E1; the quarterly operating screen does not establish annual materiality or retained design savings.",
+    "evidence_dossier": "research/batch-06/dossiers/051-c046-dassault-systemes.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 39,
+    "id": "C059",
+    "company": "Siemens",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Industrial software and installed equipment create useful context; portfolio changes and customer-versus-vendor economics impede a clean group thesis.",
+    "evidence_dossier": "research/batch-01/dossiers/07-siemens.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 40,
+    "id": "C061",
+    "company": "ABB",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Genix has an identifiable product and partner route; exact source access is partly limited. Customer plant savings do not become ABB profit without attach, renewal or service contribution. Operational EBITA is explicitly adjusted.",
+    "evidence_dossier": "research/batch-07/dossiers/063-c061-abb.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 41,
+    "id": "C060",
+    "company": "Schneider Electric",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Electrification and data-centre demand are strong ordinary drivers; those demand benefits do not establish a retained productivity multiplier.",
+    "evidence_dossier": "research/batch-01/dossiers/08-schneider-electric.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 42,
+    "id": "C002",
+    "company": "Roche",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Scientific and pathology assets are attractive but clinical-success and group capture remain unproved; value marketed products and pipeline separately.",
+    "evidence_dossier": "research/batch-02/dossiers/014-c002-roche.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 43,
+    "id": "C003",
+    "company": "AstraZeneca",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Deployed discovery tools support a mechanism, not better clinical transitions; recent pipeline events belong in conventional underwriting.",
+    "evidence_dossier": "research/batch-02/dossiers/015-c003-astrazeneca.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 44,
+    "id": "C004",
+    "company": "Novartis",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Research workflows and proprietary science offer optionality; acquisition debt and clinical setbacks dominate current cash-risk assessment.",
+    "evidence_dossier": "research/batch-02/dossiers/019-c004-novartis.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 45,
+    "id": "C006",
+    "company": "Eli Lilly",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Research-data tools are deployed; marketed-drug growth and manufacturing scale already belong in conventional economics.",
+    "evidence_dossier": "research/batch-03/dossiers/021-c006-eli-lilly.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 46,
+    "id": "C001",
+    "company": "Sanofi",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Large proprietary scientific assets could improve selection, but recent pipeline risks preclude using AI to repair the ordinary case.",
+    "evidence_dossier": "research/batch-02/dossiers/013-c001-sanofi.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 47,
+    "id": "C008",
+    "company": "Medtronic",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "The GI Genius study supports a narrowly scoped detection outcome, with quasi-randomization, non-blinding and subgroup limits. Non-significant NNRR is not equivalence. Q1 FY2027 freshness and the 65.25% assumed attach calculation are corrected; no group cash inference follows.",
+    "evidence_dossier": "research/batch-03/dossiers/023-c008-medtronic.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 48,
+    "id": "C007",
+    "company": "Siemens Healthineers",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Accept with source-access limit: current Q3 margin and Diagnostics weakness are corroborated; FY2025 EBIT figure was not independently re-extracted by the auditor. AI-Rad establishes available workflow integration; adoption and controlled clinical/cash effects remain open.",
+    "evidence_dossier": "research/batch-03/dossiers/022-c007-siemens-healthineers.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 49,
+    "id": "C010",
+    "company": "Thermo Fisher Scientific",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "The annual operating anchor and current interim now agree. Instrument AI capability needs matched analytical accuracy, downtime and vendor capture; inaccessible product details limit any firm deployment conclusion.",
+    "evidence_dossier": "research/batch-03/dossiers/025-c010-thermo-fisher-scientific.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 50,
+    "id": "C011",
+    "company": "Danaher",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "The governing annual metric is net earnings, not the old operating-profit proxy. The illustrative savings have been tax-aligned. Product-level quality and paid service economics remain unproved.",
+    "evidence_dossier": "research/batch-03/dossiers/026-c011-danaher.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 51,
+    "id": "C009",
+    "company": "Intuitive Surgical",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "AI-powered Case Insights is a bounded available feature, not evidence of clinical benefit or material digital revenue. The 10-K explicitly says digital/learning revenue is not material. USD96.3m benefit is assumption-driven versus USD147.3m operating-profit scale.",
+    "evidence_dossier": "research/batch-03/dossiers/024-c009-intuitive-surgical.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 52,
+    "id": "C064",
+    "company": "Komatsu",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "AHS and Smart Construction provide management-reported operating workflow evidence. Correct fiscal-year profit is used. Customer fuel/labour gains need a vendor monetization route and cannot be counted directly as Komatsu savings.",
+    "evidence_dossier": "research/batch-07/dossiers/065-c064-komatsu.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 53,
+    "id": "C062",
+    "company": "Deere",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "The operating business and earnings guidance provide context. The inaccessible herbicide-saving claim is not accepted as verified AI evidence; customer savings and Deere’s after-tax guidance screen require separate capture and tax treatment. The $37.5m annual pre-tax operating-benefit illustration is NOT_COMPARABLE with the $243.75m annual after-tax guidance hurdle without an explicit tax conversion; no above/below conclusion is retained.",
+    "evidence_dossier": "research/batch-02/dossiers/017-c062-deere.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 54,
+    "id": "C028",
+    "company": "Adyen",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Issuer-reported 0.9 percentage-point conversion improvement supports E2 only. EUR641.5m H1 EBITDA is confirmed. Correct own-contribution illustration is negative EUR19.28m; no positive materiality conclusion is accepted.",
+    "evidence_dossier": "research/batch-04/dossiers/039-c028-adyen.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 55,
+    "id": "C017",
+    "company": "Allianz",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Financial and insurance-capital anchors support research coverage. AI descriptions remain aggregated and lack reproducibly named production cohorts. E2 should be read as conditional, not a firm evidence promotion; catastrophe and reserve effects require separation.",
+    "evidence_dossier": "research/batch-04/dossiers/031-c017-allianz.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 56,
+    "id": "C022",
+    "company": "Manulife",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Core earnings are an adjusted after-tax basis; claims and capital effects require separate controls. Underwriting/service mechanisms remain conditional on reproducible deployment and fair, risk-adjusted outcomes.",
+    "evidence_dossier": "research/batch-04/dossiers/035-c022-manulife.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 57,
+    "id": "C016",
+    "company": "Swiss Re",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Impact+ remains E1 capability. The final screen uses USD2.8bn H1 net income and a USD140m same-half after-tax hurdle. Its annual benefit illustration is NOT_COMPARABLE without time alignment. Benign catastrophes and reserve development confound aggregate results.",
+    "evidence_dossier": "research/batch-03/dossiers/030-c016-swiss-re.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 58,
+    "id": "C024",
+    "company": "DBS Group",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Fraud and credit decision support are plausible bank mechanisms, but the retrieved deployment evidence is limited. Exact-year earnings and tax treatment are aligned; fixed-risk loss outcomes and retained contribution remain open.",
+    "evidence_dossier": "research/batch-04/dossiers/036-c024-dbs-group.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 59,
+    "id": "C025",
+    "company": "ICICI Bank",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "The current standalone bank result is distinct from an incremental AI thesis. Digital-assistant access does not prove generative functionality or fixed-risk credit lift; the quarterly after-tax screen is not an annual savings comparison.",
+    "evidence_dossier": "research/batch-04/dossiers/037-c025-icici-bank.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 60,
+    "id": "C058",
+    "company": "CrowdStrike",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "A named Charlotte AI customer supports scoped E2. Current GAAP loss and non-GAAP profit must both remain visible. Investigation speed without detection quality and economic controls cannot establish retained cash.",
+    "evidence_dossier": "research/batch-07/dossiers/062-c058-crowdstrike.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 61,
+    "id": "C057",
+    "company": "Palo Alto Networks",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "The corrected annual GAAP operating anchor is materially different from adjusted earnings. Cortex/Precision AI capability does not establish agent adoption or error-adjusted containment economics; security quality and customer retention remain open.",
+    "evidence_dossier": "research/batch-07/dossiers/061-c057-palo-alto-networks.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 62,
+    "id": "C048",
+    "company": "TSMC",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "AI infrastructure demand is separate from TSMC internal fab productivity. Internal enterprise-AI programme language remains E1; no matched yield, downtime or own-cost outcome was established.",
+    "evidence_dossier": "research/batch-06/dossiers/053-c048-tsmc.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 63,
+    "id": "C050",
+    "company": "Applied Materials",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "AIx combines process tools and analytics, but production expectations remain E1. Latest Q3 context is included. Customer yield improvement is not Applied’s own expense saving or proven software contribution.",
+    "evidence_dossier": "research/batch-06/dossiers/055-c050-applied-materials.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 64,
+    "id": "C068",
+    "company": "Safran",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "The financial result is supported, but no named Safran AI deployment was verified. Predictive-maintenance mechanisms remain hypotheses; aftermarket pricing, traffic and CFM/operator rights are central confounders.",
+    "evidence_dossier": "research/batch-07/dossiers/069-c068-safran.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 65,
+    "id": "C055",
+    "company": "Accenture",
+    "band": "C: conventional value or conditional AI option",
+    "rationale": "Client AI demand is real, but productivity can reduce billable effort; price may compensate for that risk without proving an AI moat.",
+    "evidence_dossier": "research/batch-06/dossiers/059-c055-accenture.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 66,
+    "id": "C056",
+    "company": "Tata Consultancy Services",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "AI service revenue is commercial evidence, not automatically retained margin; contracting, pricing and reskilling decide capture.",
+    "evidence_dossier": "research/batch-06/dossiers/060-c056-tata-consultancy-services.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 67,
+    "id": "C100",
+    "company": "CBRE Group",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Ellis supports named research, contract and sales-assistant use. Management time-saving claims lack controls and cash reconciliation. Pass-through client expenses, fee terms and real-estate cyclicality govern retained contribution.",
+    "evidence_dossier": "research/batch-10/dossiers/100-c100-cbre-group.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 68,
+    "id": "C090",
+    "company": "Walmart",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Wally is a named merchant assistant with company-reported use. Autonomous action is a future direction. Tariff refunds and other business drivers confound profit; no controlled assortment or owner-cash result is established.",
+    "evidence_dossier": "research/batch-09/dossiers/090-c090-walmart.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 69,
+    "id": "C087",
+    "company": "Unilever",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "A named Raeford digital-twin use supports scoped E2; planned site rollout remains E1. Restructuring, disposals and product mix affect the financial anchor. No controlled supply-chain cash result is established.",
+    "evidence_dossier": "research/batch-09/dossiers/087-c087-unilever.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 70,
+    "id": "C089",
+    "company": "Procter & Gamble",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "The supplier case supports deployed edge models and faster model deployment, not a 90% improvement in plant productivity. Current operating scale is corroborated; quality, downtime and retained factory cash require matched evidence.",
+    "evidence_dossier": "research/batch-09/dossiers/089-c089-procter-gamble.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 71,
+    "id": "C070",
+    "company": "Waste Management",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Recycling automation is deployed, but its AI-specific contribution is not isolated. Routing, maintenance and sorting claims require separate proof; the quarterly profit screen is not comparable with annual cost assumptions.",
+    "evidence_dossier": "research/batch-08/dossiers/071-c070-waste-management.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 72,
+    "id": "C072",
+    "company": "Linde",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Process-control and maintenance mechanisms are plausible; a reproducible plant-level AI deployment was not established in the audit. Exclude customer energy savings from Linde’s own cost pool and retain a conservative evidence stage.",
+    "evidence_dossier": "research/batch-02/dossiers/016-c072-linde.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 73,
+    "id": "C071",
+    "company": "Cintas",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Cintas has route density and operating records, but no named AI deployment was established. The corrected annual operating-profit anchor is usable for scale; route/plant savings remain hypotheses subject to service and retention controls.",
+    "evidence_dossier": "research/batch-08/dossiers/072-c071-cintas.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 74,
+    "id": "C065",
+    "company": "DHL Group",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "The annual EBIT anchor is reconciled. Routing and facility automation need a named AI deployment and matched service/quality controls; trend reports alone do not establish production outcomes.",
+    "evidence_dossier": "research/batch-07/dossiers/066-c065-dhl-group.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 75,
+    "id": "C066",
+    "company": "UPS",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Network transformation and ordinary route optimization form the baseline. Workforce or facility savings are not automatically AI savings. The annual adjusted target is explicitly forward-looking; service reliability and retained gains remain unproved.",
+    "evidence_dossier": "research/batch-07/dossiers/067-c066-ups.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 76,
+    "id": "C067",
+    "company": "Canadian National Railway",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Digital planning and inspection do not isolate incremental AI. Weather, network capex and traffic mix require controls. The quarterly operating screen is not comparable with annual assumptions.",
+    "evidence_dossier": "research/batch-07/dossiers/068-c067-canadian-national-railway.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 77,
+    "id": "C076",
+    "company": "BHP",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Autonomous haulage and decision support are management-reported operating uses. Current annual profit is after tax. No isolated AI increment to safety-adjusted output, capital efficiency or owner cash was established.",
+    "evidence_dossier": "research/batch-08/dossiers/076-c076-bhp.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 78,
+    "id": "C075",
+    "company": "Rio Tinto",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Reported banked productivity is not attributed to AI. Commodity, mine and capital effects dominate aggregate results; the after-tax illustration is aligned but autonomous/processing contribution remains unisolated.",
+    "evidence_dossier": "research/batch-08/dossiers/075-c075-rio-tinto.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 79,
+    "id": "C096",
+    "company": "Shell",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "AI use cases and predictive maintenance are plausible, with source-access limits. Adjusted earnings remain an after-tax non-GAAP scale. Commodity, trading and project effects prevent aggregate AI attribution.",
+    "evidence_dossier": "research/batch-10/dossiers/096-c096-shell.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 80,
+    "id": "C097",
+    "company": "SLB",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "The corrected issuer release supports current pretax profit and cash flow. Lumi/product deployment remains a limited-source hypothesis. Oilfield demand and separate data-centre demand do not establish internal AI productivity.",
+    "evidence_dossier": "research/batch-10/dossiers/097-c097-slb.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 81,
+    "id": "C095",
+    "company": "Netflix",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Recommendation ML is an established baseline, not a new incremental benefit. New generative tools require separate retention, advertising or production-cost tests; the annual operating scale alone establishes no AI capture.",
+    "evidence_dossier": "research/batch-10/dossiers/095-c095-netflix.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 82,
+    "id": "C081",
+    "company": "Booking Holdings",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Trip Planner availability supports capability, not verified adoption or incremental room nights. Conversion, cancellations and acquisition cost must reconcile to contribution. The H1 screen leaves annual materiality unresolved.",
+    "evidence_dossier": "research/batch-09/dossiers/081-c081-booking-holdings.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 83,
+    "id": "C082",
+    "company": "Amadeus IT Group",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Airline workflow integration is a plausible advantage; a named production deployment is unverified. Disruption handling needs reliability and passenger outcomes alongside transaction economics. The H1 screen is period-specific.",
+    "evidence_dossier": "research/batch-09/dossiers/082-c082-amadeus-it-group.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 84,
+    "id": "C077",
+    "company": "Alibaba",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "The opened SEC release establishes external Cloud/AI demand and the current profit anchor. Keep segment growth separate from AI-only product growth and commerce productivity. Heavy investment and new equity funding affect owner capture.",
+    "evidence_dossier": "research/batch-08/dossiers/077-c077-alibaba.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 85,
+    "id": "C012",
+    "company": "IQVIA",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Healthcare AI capability is plausible but a named production cohort is missing. The corrected annual adjusted-EBITDA guidance screen avoids double annualization; backlog and bookings are not earnings.",
+    "evidence_dossier": "research/batch-03/dossiers/027-c012-iqvia.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 86,
+    "id": "C013",
+    "company": "HCA Healthcare",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Lead independently verified the final Q2 release after the earlier access failure. Payer mix, directed payments and surgery volumes confound results. Nurse-handoff capability requires omission/escalation and clinical-quality controls.",
+    "evidence_dossier": "research/batch-03/dossiers/028-c013-hca-healthcare.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 87,
+    "id": "C005",
+    "company": "Novo Nordisk",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Valo remains preclinical programme scope; AWS supports nonregulated internal use, not clinical-report generation. Pipeline failures are not attributed to AI. FY2025 DKK6.383bn annual hurdle is a scale requirement with no clinical economics bridge.",
+    "evidence_dossier": "research/batch-02/dossiers/020-c005-novo-nordisk.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 88,
+    "id": "C092",
+    "company": "Deutsche Telekom",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "An announced AI rollout is E1. Network, field-service and contact-centre improvements need separate deployment and service-quality proof. The quarterly net-profit screen is after tax and not comparable with annual pre-tax savings.",
+    "evidence_dossier": "research/batch-10/dossiers/092-c092-deutsche-telekom.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 89,
+    "id": "C093",
+    "company": "Singtel",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "RE:AI is commercial offering/capacity evidence, not demonstrated occupied AI capacity or investment returns. Operating and development MW stay separate. Latest-quarter access limits and the infeasible utilization illustration remain explicit.",
+    "evidence_dossier": "research/batch-10/dossiers/093-c093-singtel.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 90,
+    "id": "C079",
+    "company": "Inditex",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "The researcher extracted current H1 results; exact financial pages were intermittently inaccessible to the lead. No named AI deployment was established. Forecasting/design mechanisms and annual retained economics remain hypotheses.",
+    "evidence_dossier": "research/batch-08/dossiers/079-c079-inditex.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 91,
+    "id": "C086",
+    "company": "LVMH",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "The recurring operating anchor is consistent, while partnership capability remains weaker than a named maison production cohort. Clienteling and content gains must preserve brand control and full-price contribution.",
+    "evidence_dossier": "research/batch-09/dossiers/086-c086-lvmh.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 92,
+    "id": "C088",
+    "company": "Nestlé",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Lead corroborated H1 sales and underlying trading operating profit from the issuer-distributed release. AI deployment remains unverified in the opened evidence. The interim profit screen cannot support an annual savings claim.",
+    "evidence_dossier": "research/batch-09/dossiers/088-c088-nestle.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 93,
+    "id": "C091",
+    "company": "Costco",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Costco’s operating business is documented, but an AI thesis was not established from the opened sources. The incomplete-year screen is not annualized; ordinary merchandising and membership economics remain the baseline.",
+    "evidence_dossier": "research/batch-10/dossiers/091-c091-costco.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 94,
+    "id": "C083",
+    "company": "Toyota Motor",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "The named Toyota factory platform supports scoped deployment. A negative cost illustration and infeasible required inspection improvement expose the narrow route’s limits; broader factory value is not inferred.",
+    "evidence_dossier": "research/batch-09/dossiers/083-c083-toyota-motor.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 95,
+    "id": "C084",
+    "company": "BMW",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Distinguish current assistants/pilots from the future Woodruff series-production start. AI quality and virtual-validation capability do not establish the claimed savings of the whole factory programme. Exact pilot-source access remains limited.",
+    "evidence_dossier": "research/batch-09/dossiers/084-c084-bmw.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 96,
+    "id": "C073",
+    "company": "BASF",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "Predictive maintenance in the retrieved BASF material establishes a digital baseline, not an identified AI technique. The AI thesis remains a hypothesis; site reliability, production economics and disposal effects must be separated.",
+    "evidence_dossier": "research/batch-08/dossiers/073-c073-basf.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 97,
+    "id": "C098",
+    "company": "Iberdrola",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "The issuer corroborates H1 reported net profit. Regulated cost sharing, investments and transaction effects govern owner capture. Named outage/safety-adjusted AI outcomes remain unverified; the interim net-profit screen is after tax.",
+    "evidence_dossier": "research/batch-10/dossiers/098-c098-iberdrola.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 98,
+    "id": "C099",
+    "company": "Prologis",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "The filed release corroborates core FFO per share. A named owner AI deployment was not established. Aggregate cost assumptions cannot be compared with a per-share FFO hurdle without a consistent share count and period.",
+    "evidence_dossier": "research/batch-10/dossiers/099-c099-prologis.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 99,
+    "id": "C085",
+    "company": "Nike",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "A.I.R. supports creative capability at E1; it does not establish demand-forecasting deployment. Correct full-year operating income governs. Sell-through, markdowns, brand control and ordinary merchandising need separate attribution.",
+    "evidence_dossier": "research/batch-09/dossiers/085-c085-nike.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  },
+  {
+    "regime_rank": 100,
+    "id": "C014",
+    "company": "UnitedHealth Group",
+    "band": "D: low incremental-AI priority on current evidence",
+    "rationale": "The reviewed evidence does not establish issuer-specific AI outcomes; conventional medical-cost, claims and governance risks dominate.",
+    "evidence_dossier": "research/batch-03/dossiers/029-c014-unitedhealth-group.md",
+    "ranking_type": "Price-independent operating-regime judgment; not a current-price stock ranking."
+  }
+]

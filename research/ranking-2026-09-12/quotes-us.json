@@ -1,0 +1,110 @@
+[
+  {
+    "ticker": "INTU",
+    "price": 321.57,
+    "currency": "USD",
+    "timestamp_text": "Friday, September 11, 23:54:42 UTC",
+    "retrieved": "2026-09-12",
+    "source": "web.finance market quote feed; observation may include after-hours trades",
+    "official_close_verified": false
+  },
+  {
+    "ticker": "TRI",
+    "price": 97.35,
+    "currency": "USD",
+    "timestamp_text": "Saturday, September 12, 00:15:00 UTC",
+    "retrieved": "2026-09-12",
+    "source": "web.finance market quote feed; observation may include after-hours trades",
+    "official_close_verified": false
+  },
+  {
+    "ticker": "V",
+    "price": 370.45,
+    "currency": "USD",
+    "timestamp_text": "Friday, September 11, 23:45:10 UTC",
+    "retrieved": "2026-09-12",
+    "source": "web.finance market quote feed; observation may include after-hours trades",
+    "official_close_verified": false
+  },
+  {
+    "ticker": "MA",
+    "price": 569.19,
+    "currency": "USD",
+    "timestamp_text": "Friday, September 11, 23:40:20 UTC",
+    "retrieved": "2026-09-12",
+    "source": "web.finance market quote feed; observation may include after-hours trades",
+    "official_close_verified": false
+  },
+  {
+    "ticker": "MSFT",
+    "price": 495.63,
+    "currency": "USD",
+    "timestamp_text": "Saturday, September 12, 00:15:00 UTC",
+    "retrieved": "2026-09-12",
+    "source": "web.finance market quote feed; observation may include after-hours trades",
+    "official_close_verified": false
+  },
+  {
+    "ticker": "GOOGL",
+    "price": 338.5,
+    "currency": "USD",
+    "timestamp_text": "Friday, September 11, 23:56:45 UTC",
+    "retrieved": "2026-09-12",
+    "source": "web.finance market quote feed; observation may include after-hours trades",
+    "official_close_verified": false
+  },
+  {
+    "ticker": "META",
+    "price": 648.03,
+    "currency": "USD",
+    "timestamp_text": "Saturday, September 12, 00:15:00 UTC",
+    "retrieved": "2026-09-12",
+    "source": "web.finance market quote feed; observation may include after-hours trades",
+    "official_close_verified": false
+  },
+  {
+    "ticker": "AMZN",
+    "price": 256.78,
+    "currency": "USD",
+    "timestamp_text": "Friday, September 11, 23:58:34 UTC",
+    "retrieved": "2026-09-12",
+    "source": "web.finance market quote feed; observation may include after-hours trades",
+    "official_close_verified": false
+  },
+  {
+    "ticker": "UBER",
+    "price": 71.67,
+    "currency": "USD",
+    "timestamp_text": "Friday, September 11, 23:58:55 UTC",
+    "retrieved": "2026-09-12",
+    "source": "web.finance market quote feed; observation may include after-hours trades",
+    "official_close_verified": false
+  },
+  {
+    "ticker": "CRM",
+    "price": 247.72,
+    "currency": "USD",
+    "timestamp_text": "Friday, September 11, 23:46:16 UTC",
+    "retrieved": "2026-09-12",
+    "source": "web.finance market quote feed; observation may include after-hours trades",
+    "official_close_verified": false
+  },
+  {
+    "ticker": "NOW",
+    "price": 132.53,
+    "currency": "USD",
+    "timestamp_text": "Friday, September 11, 23:56:03 UTC",
+    "retrieved": "2026-09-12",
+    "source": "web.finance market quote feed; observation may include after-hours trades",
+    "official_close_verified": false
+  },
+  {
+    "ticker": "ACN",
+    "price": 183.9,
+    "currency": "USD",
+    "timestamp_text": "Friday, September 11, 23:15:00 UTC",
+    "retrieved": "2026-09-12",
+    "source": "web.finance market quote feed; observation may include after-hours trades",
+    "official_close_verified": false
+  }
+]
