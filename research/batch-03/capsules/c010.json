@@ -1,0 +1,84 @@
+{
+  "id": "C010",
+  "company": "Thermo Fisher Scientific",
+  "batch": 3,
+  "dossier": "research/batch-03/dossiers/025-c010-thermo-fisher-scientific.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 2026",
+  "sources": [
+    {
+      "url": "https://ir.thermofisher.com/investors/news-events/news/news-details/2026/Thermo-Fisher-Scientific-Reports-Second-Quarter-2026-Results/",
+      "title": "Q2 2026 issuer results",
+      "date": "2026",
+      "opened": true,
+      "supports": "latest interim financial update"
+    },
+    {
+      "url": "https://ir.thermofisher.com/financials/annual-reports-and-proxy-statements/default.aspx",
+      "title": "Annual report / financial results",
+      "date": "FY2024",
+      "opened": true,
+      "supports": "latest financial anchor used in packet"
+    },
+    {
+      "url": "https://www.thermofisher.com/us/en/home/digital-science/artificial-intelligence.html",
+      "title": "Company technology / AI evidence",
+      "date": "undated/current",
+      "opened": true,
+      "supports": "AI capability or deployment claim"
+    },
+    {
+      "url": "https://www.thermofisher.com/us/en/home/global/privacy-policy.html",
+      "title": "Privacy / data policy",
+      "date": "current",
+      "opened": true,
+      "supports": "rights constraints"
+    },
+    {
+      "url": "https://investors.danaher.com/annual-reports",
+      "title": "Danaher reporting",
+      "date": "current hub",
+      "opened": true,
+      "supports": "incumbent challenger evidence"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "operating profit / sector-appropriate earnings scale",
+    "value": 6.463,
+    "unit": "USD billion",
+    "period": "FY2024",
+    "source_url": "https://ir.thermofisher.com/financials/annual-reports-and-proxy-statements/default.aspx",
+    "caveat": "$6.463bn operating income; measure may be adjusted or a labelled scale proxy and is not normalized."
+  },
+  "ai_claim": {
+    "claim": "Thermo Fisher Scientific describes scoped AI/digital mechanisms in AI-assisted mass-spectrometry and microscopy analysis at equal analytical accuracy, predictive instrument maintenance using installed-base telemetry.",
+    "stage": "E1; E2 only where management explicitly reports production use",
+    "source_url": "https://www.thermofisher.com/us/en/home/digital-science/artificial-intelligence.html",
+    "scope": "validated samples per instrument-hour, repeat-test rate, uptime and retained service contribution",
+    "limitation": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+  },
+  "strongest_counterevidence": {
+    "claim": "Danaher and cloud-native laboratory software and specialist AI-analysis vendors can replicate tools or force gains through to customers.",
+    "source_url": "https://investors.danaher.com/annual-reports",
+    "limitation": "Competitive capability does not by itself prove equal outcomes."
+  },
+  "rights_limit": "Instrument output belongs to customers in many workflows. Cloud/service contracts govern access; public disclosures do not establish pooled training rights over customer experimental data.",
+  "materiality_summary": "The labelled 5% scale hurdle is $323m; public evidence does not establish it.",
+  "arithmetic": {
+    "inputs": "0",
+    "formula": "0.05\u00d7$6.463bn=$323m. Illustratively, $3.0bn eligible service/workflow cost \u00d7 10% efficiency \u00d7 60% realization \u00d7 50% retention \u2212 $50m recurring cost = $40m; this is not a forecast and customer labor savings are excluded.",
+    "result": "Illustrative bridge remains below or must be compared with $323m; not a forecast."
+  },
+  "confidence": {
+    "mechanism": "medium",
+    "deployment": "low-to-medium",
+    "capture": "low"
+  },
+  "g2_provisional": "Open: E1/E2 evidence supports measurement, but E3 quality-adjusted causality and E4 cash retention are not established.",
+  "unresolved_questions": [
+    "What share of eligible workload is in production?",
+    "What controlled quality-adjusted KPI result exists?",
+    "What do contracts permit for pooled learning and how much benefit is retained after recurring cost?"
+  ],
+  "self_check_complete": true
+}
