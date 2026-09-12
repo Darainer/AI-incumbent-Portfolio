@@ -46,7 +46,7 @@ The incumbent pharma challenger is Roche, which combines pharma and diagnostics 
 | Muse targets trial patient recruitment | Management claim | [Formation Bio Muse](https://www.formation.bio/news/introducing-muse), 12 Nov 2024 | Recruitment tool | E2 | Vendor-reported; adoption/result undisclosed |
 | Two Sanofi programmes achieved discovery milestones | Partner claim | [Recursion/Exscientia release](https://ir.recursion.com/news-releases/news-release-details/exscientia-achieves-milestones-two-programmes-sanofi), 16 Oct 2024 | Two programmes | E2 | Contract milestone, not clinical outcome |
 | Sanofi’s AI collaboration can access proprietary data | Fact about announced scope | [Reuters](https://www.reuters.com/business/healthcare-pharmaceuticals/sanofi-partners-with-openai-formation-bio-ai-driven-drug-development-2024-05-21/), 21 May 2024 | Partnership | E1 | Rights and economics undisclosed |
-| A late-stage riliprubart study stopped for futility | Adverse fact | [Sanofi trial update](https://www.sanofi.com/en/media-room/press-releases/2026/2026-06-16-05-30-00-3319048), 16 Jun 2026 | One Phase III programme | E2 negative | Does not identify discovery method; demonstrates clinical bottleneck |
+| A late-stage riliprubart study reportedly stopped for futility | Adverse report; primary URL unavailable on re-check | [Wall Street Journal report](https://www.wsj.com/health/pharma/sanofi-to-stop-late-stage-study-of-immune-disorder-drug-1f05296c), Jun 2026 | One Phase III programme | contextual negative; not decisive E-stage | Paywall and inaccessible Sanofi release; not used as causal AI evidence |
 
 ## KPI contract and materiality
 
@@ -56,7 +56,7 @@ The incumbent pharma challenger is Roche, which combines pharma and diagnostics 
 | Months and external spend to recruit | Similar prior/concurrent non-Muse trial | Muse-enabled protocols/sites | Enrollment diversity, eligibility accuracy, protocol deviations no worse | Undisclosed | Completed trial report plus cost bridge |
 | Stage-adjusted NPV per R&D euro | Conventional portfolio on same assumptions | AI-attributed programmes | No double-counting acquired assets | Undisclosed | Annual pipeline cohort disclosure |
 
-The 5% research convention equals **€607m**, using FY2025 BOI of €12.149bn as a reported-profit scale proxy. For pharma, this is not a near-term R&D cut target. Illustrative prospective bridge: 20 AI-influenced development entries × €250m risk-adjusted value at entry × a 15% improvement in quality-adjusted transition value × 80% Sanofi ownership/capture − €100m annualized platform/validation cost = **€500m**, below the hurdle. Break-even requires 17.7% improvement: `(€607m + €100m)/(20×€250m×80%)`. Every input except reported BOI is an assumption. Discovery speed without better clinical transition value fails the test.
+The 5% research convention equals **€607m per year**, using FY2025 BOI of €12.149bn as a reported-profit scale proxy. For pharma, this is not a near-term R&D cut target. A separate illustrative prospective portfolio-value calculation is: 20 AI-influenced development entries × €250m risk-adjusted value at entry × a 15% improvement in quality-adjusted transition value × 80% Sanofi ownership/capture = **€600m one-time present value**, before the recurring €100m annual platform/validation cost. This cannot be compared directly with €607m annual operating profit and does not show hurdle clearance. To make the bases comparable, Sanofi would have to disclose the cohort timing and amortize/annuitize incremental after-tax present value over an explicit horizon; those inputs are unavailable. Every input except reported BOI is an assumption. Discovery speed without better prospective clinical transition value fails the test.
 
 ## Hypotheses, falsifiers and gate view
 
@@ -74,7 +74,7 @@ Confidence: mechanism **medium**; deployment **low-medium**; capture **low**. G0
 4. Formation Bio, “Introducing Muse,” 12 Nov 2024, opened 12 Sep 2026; vendor claim: https://www.formation.bio/news/introducing-muse
 5. Recursion/Exscientia, Sanofi milestones, 16 Oct 2024, opened 12 Sep 2026; partner claim: https://ir.recursion.com/news-releases/news-release-details/exscientia-achieves-milestones-two-programmes-sanofi
 6. Reuters, collaboration report, 21 May 2024, opened 12 Sep 2026: https://www.reuters.com/business/healthcare-pharmaceuticals/sanofi-partners-with-openai-formation-bio-ai-driven-drug-development-2024-05-21/
-7. Sanofi, riliprubart update, 16 Jun 2026, opened 12 Sep 2026; adverse clinical evidence: https://www.sanofi.com/en/media-room/press-releases/2026/2026-06-16-05-30-00-3319048
+7. Wall Street Journal, riliprubart trial report, Jun 2026, search result reviewed 12 Sep 2026; paywalled and Sanofi primary URL failed, so not decisive: https://www.wsj.com/health/pharma/sanofi-to-stop-late-stage-study-of-immune-disorder-drug-1f05296c
 8. SEC, Sanofi FY2025 release, 29 Jan 2026, opened 12 Sep 2026; filing mirror: https://www.sec.gov/Archives/edgar/data/1121404/000112140426000001/pressreleaseq42025english.htm
 
 Handoff capsule: [c001.json](../capsules/c001.json). Lead verification priorities: financial definitions; whether milestone/Muse claims qualify only as E2; no prospective clinical-productivity result. Strongest counterargument: repeated clinical setbacks despite the “AI-powered” strategy. This packet is unreviewed.
