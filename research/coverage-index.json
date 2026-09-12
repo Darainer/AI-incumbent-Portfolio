@@ -1,9 +1,9 @@
 {
   "cutoff": "2026-09-12",
   "scope": 100,
-  "packets_available": 10,
-  "lead_accepted": 10,
-  "remaining_to_accept": 90,
+  "packets_available": 16,
+  "lead_accepted": 11,
+  "remaining_to_accept": 89,
   "phase": "evidence coverage; comparative ranking and valuation cases deferred",
   "companies": [
     {
@@ -13,9 +13,24 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/011-c026-visa.md",
       "capsule": "research/batch-02/capsules/c026.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "lead_accepted",
+      "words": 1620,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Full dossier and capsule read; latest SEC results and decisive A2A source opened independently; illustrative arithmetic checked.",
+        "checked_sources": [
+          "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000103/q32026earningsrelease.htm",
+          "https://corporate.visa.com/en/sites/visa-perspectives/newsroom/enhanced-a2a-protect.html"
+        ],
+        "note": "Latest financial and A2A deployment claims checked. Keep the reported detection improvement at E2: protocol, paid denominator and retained contribution are undisclosed. The illustrative own-cost route is only $88m against a $1.20bn scale hurdle; material G2 economics remain open.",
+        "remaining_limits": [
+          "Lawful pooled-learning terms",
+          "Matched fraud/false-decline quality",
+          "Paid incremental contribution and incentives"
+        ]
+      },
       "issues": []
     },
     {
@@ -25,9 +40,9 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/012-c023-jpmorgan-chase.md",
       "capsule": "research/batch-02/capsules/c023.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1497,
+      "sources": 5,
       "issues": []
     },
     {
@@ -37,9 +52,14 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/013-c001-sanofi.md",
       "capsule": "research/batch-02/capsules/c001.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "revision_requested",
+      "words": 1625,
+      "sources": 5,
+      "lead_review": {
+        "status": "revision_requested",
+        "reviewed_at": "2026-09-12",
+        "note": "Correct the mismatch between programme NPV and annual profit; independently recheck the precise riliprubart adverse source before treating it as established."
+      },
       "issues": []
     },
     {
@@ -49,9 +69,9 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/014-c002-roche.md",
       "capsule": "research/batch-02/capsules/c002.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1597,
+      "sources": 5,
       "issues": []
     },
     {
@@ -61,9 +81,14 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/015-c003-astrazeneca.md",
       "capsule": "research/batch-02/capsules/c003.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "revision_requested",
+      "words": 1592,
+      "sources": 4,
+      "lead_review": {
+        "status": "revision_requested",
+        "reviewed_at": "2026-09-12",
+        "note": "Refresh FY2024-only baseline using FY2025/H1 2026 where retrievable; strengthen direct sources/challenger evidence; remove invalid annual-profit versus programme-NPV comparison."
+      },
       "issues": []
     },
     {
@@ -109,9 +134,14 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/019-c004-novartis.md",
       "capsule": "research/batch-02/capsules/c004.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "revision_requested",
+      "words": 1571,
+      "sources": 5,
+      "lead_review": {
+        "status": "revision_requested",
+        "reviewed_at": "2026-09-12",
+        "note": "Correct programme NPV versus annual profit comparison. Preserve explicit H1 detail-access limitation and distinguish non-AI clinical failures from causal AI evidence."
+      },
       "issues": []
     },
     {
