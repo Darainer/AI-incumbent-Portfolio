@@ -1,0 +1,25 @@
+{
+  "id": "C001",
+  "company": "Sanofi",
+  "batch": 2,
+  "dossier": "research/batch-02/dossiers/013-c001-sanofi.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "H1 2026, published 2026-07-30",
+  "sources": [
+    {"url":"https://www.sanofi.com/en/media-room/press-releases/2026/2026-07-30-05-30-00-3335767","title":"Q2 2026 results","date":"2026-07-30","opened":true,"supports":"H1 financial anchor and guidance"},
+    {"url":"https://www.sanofi.com/en/media-room/press-releases/2026/2026-01-29-06-30-00-3228191","title":"FY2025 results","date":"2026-01-29","opened":true,"supports":"annual sales, BOI and free cash flow"},
+    {"url":"https://www.formation.bio/news/introducing-muse","title":"Introducing Muse","date":"2024-11-12","opened":true,"supports":"trial-recruitment product claim"},
+    {"url":"https://ir.recursion.com/news-releases/news-release-details/exscientia-achieves-milestones-two-programmes-sanofi","title":"Two Sanofi programme milestones","date":"2024-10-16","opened":true,"supports":"partner-reported production milestone"},
+    {"url":"https://www.sanofi.com/en/media-room/press-releases/2026/2026-06-16-05-30-00-3319048","title":"Riliprubart trial update","date":"2026-06-16","opened":true,"supports":"negative late-stage evidence"}
+  ],
+  "financial_anchor":{"metric":"business operating income","value":12149,"unit":"EUR million","period":"FY2025","source_url":"https://www.sanofi.com/en/media-room/press-releases/2026/2026-01-29-06-30-00-3228191","caveat":"Adjusted non-IFRS BOI; 2026 growth is affected by acquisitions and FX."},
+  "ai_claim":{"claim":"Sanofi has production-oriented AI discovery and trial-recruitment programmes, including two partner-reported discovery milestones and Muse.","stage":"E2 scoped; clinical economics E1","source_url":"https://ir.recursion.com/news-releases/news-release-details/exscientia-achieves-milestones-two-programmes-sanofi","scope":"Two discovery programmes and an announced recruitment tool, not the portfolio","limitation":"No matched prospective transition-rate, enrollment-quality or retained-cash result."},
+  "strongest_counterevidence":{"claim":"A 2026 Phase III riliprubart trial stopped for futility, demonstrating that clinical validation remains binding.","source_url":"https://www.sanofi.com/en/media-room/press-releases/2026/2026-06-16-05-30-00-3319048","limitation":"The programme was not identified as AI-designed, so this is ecosystem-level negative evidence rather than causal failure."},
+  "rights_limit":"Trial data are consent/protocol constrained; public contracts do not establish pooled cross-trial or cross-customer training rights.",
+  "materiality_summary":"Five percent of FY2025 BOI is €607m. A prospective stage-adjusted bridge, rather than a claimed R&D cost cut, remains below that hurdle on stated assumptions.",
+  "arithmetic":{"inputs":"20 entries; €250m stage-adjusted value each; 15% lift; 80% capture; €100m recurring cost","formula":"20×250×0.15×0.80−100","result":"€500m; break-even lift 17.7%"},
+  "confidence":{"mechanism":"medium","deployment":"low-medium","capture":"low"},
+  "g2_provisional":"Insufficient: E2 workflow evidence exists, but no prospective quality-adjusted clinical productivity result.",
+  "unresolved_questions":["Which programmes are materially AI-selected?","What cross-trial learning rights exist?","What is Muse's matched production result and net cost?"],
+  "self_check_complete":true
+}
