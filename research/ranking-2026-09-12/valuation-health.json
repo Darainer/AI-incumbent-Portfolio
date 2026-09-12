@@ -1,0 +1,524 @@
+[
+  {
+    "status": "VALUEABLE_WITH_MATERIAL_ASSUMPTIONS",
+    "cutoff": "2026-09-12",
+    "access_date": "2026-09-12",
+    "horizon_years": 5,
+    "rate_units": "Decimals: 0.04 means 4%; AI terminal earnings increment is applied once in year 5, not compounded annually.",
+    "model": "Equity EPS terminal-value sensitivity; dividends in years 1-5 and terminal equity value in year 5; no separate net-debt subtraction, no buyback distribution or assumed future share-count shrinkage.",
+    "tax_basis": "Company earnings after corporate tax; investor withholding, personal tax, ADR fees and transaction costs excluded.",
+    "id": "C001",
+    "company": "Sanofi",
+    "listing": "Euronext Paris SAN ordinary share, ISIN FR0000120578",
+    "currency": "EUR",
+    "price": 73.26,
+    "price_date": "2026-09-11",
+    "price_timestamp": "17:39 Europe/Paris; exchange valuation close",
+    "price_source": "https://live.euronext.com/en/product/equities/FR0000120578-XPAR",
+    "baseline_metric": "Normalized annual equity EPS proxy",
+    "value": 6.66,
+    "period": "TTM ended 2026-06-30, built from FY2025 and H1 2025/2026 business basic EPS",
+    "source": [
+      "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-01-29-06-30-00-3228191-en.pdf",
+      "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-07-30-05-30-00-3335767-en.pdf"
+    ],
+    "adjustments": [
+      "Business basic EPS bridge: 7.83 - 3.39 + 3.97 = 8.41 EUR. Apply 20% cash-quality/pipeline replacement reserve and additional 1% dilution reserve: 8.41 * 0.80 * 0.99 = 6.66072, rounded to 6.66.",
+      "Haircuts are analyst assumptions, not reported normalized EPS. They reserve cash for recurring restructuring, intangible/pipeline replacement and basic-to-diluted difference; no further cash haircut in terminal value.",
+      "FY2025 IFRS total basic EPS6.40 includes discontinued operations2.35; continuing EPS4.05. Do not treat Opella disposal gain as recurring earnings. No separate value added for retained Opella stake.",
+      "FY2025 FCF8.089bn/business net income9.555bn =84.7%; FCF excludes major business acquisitions. H1 2026 FCF3.724bn/business net income4.765bn =78.2%. No forecast of a clinical transition uplift."
+    ],
+    "shares": {
+      "fy2025_basic_weighted_m": 1220.4,
+      "h12026_basic_weighted_m": 1200.4,
+      "q22026_basic_weighted_m": 1196.6,
+      "diluted_weighted_m": null,
+      "note": "Issuer business EPS is basic. Exact diluted count not verified in reopened results; explicit 1% reserve avoids labelling it filed diluted EPS. Ordinary security used, no ADR conversion."
+    },
+    "balance_sheet": {
+      "date": "2026-06-30",
+      "gross_financial_debt_bn": 21.672,
+      "cash_bn": 6.35,
+      "company_net_debt_bn": 15.513,
+      "leases_bn": 1.904,
+      "noncontrolling_equity_bn": 0.36,
+      "note": "Debt=sum14.646 long-term+7.026 short-term; net debt has additional company adjustments. Lease liabilities separate. Interest, NCI and Regeneron profit sharing remain in earnings; do not subtract all debt again in an EPS model.",
+      "source": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-07-30-05-30-00-3335767-en.pdf"
+    },
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": -0.05,
+        "terminal_multiple": 8,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          3.5,
+          3.5,
+          3.5,
+          3.5,
+          3.5
+        ],
+        "rationale": "Dupixent erosion/competition around 2031, weaker vaccines and unsuccessful pipeline replenishment offset existing launches; dividend cut assumed; no AI benefit."
+      },
+      "base": {
+        "growth_ex_ai": 0.04,
+        "terminal_multiple": 11,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          4.12,
+          4.2024,
+          4.2864,
+          4.3722,
+          4.4596
+        ],
+        "rationale": "Existing Dupixent indications and approved launches offset legacy erosion; growth much below 2026 CER guidance because of concentration, 2031 exclusivity risk, financing and replacement R&D. No revenue for abandoned amlitelimab submission, itepekimab or balinatunfib. Low terminal multiple reflects an approaching major patent transition."
+      },
+      "bull": {
+        "growth_ex_ai": 0.08,
+        "terminal_multiple": 14,
+        "incremental_ai_terminal_earnings_pct": 0.03,
+        "dividends5": [
+          4.12,
+          4.326,
+          4.5423,
+          4.7694,
+          5.0079
+        ],
+        "rationale": "Stronger approved-product penetration and successful conventional portfolio execution, while retaining patent/competition pressure. AI adds only a capped 3% to terminal normalized EPS from net retained administrative/trial-operations cost savings, conditional on measured quality and cash conversion; no new AI-originated drug approval or changed clinical success probability."
+      }
+    },
+    "dividend_anchor": {
+      "value": 4.12,
+      "currency": "EUR",
+      "period": "FY2025 dividend proposal published2026-01-29",
+      "source": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-01-29-06-30-00-3228191-en.pdf",
+      "note": "All five future payments are analyst assumptions."
+    },
+    "uncertainties": [
+      "Dupixent exact patent-defense outcomes and erosion speed dominate terminal value; 2031 is an explicit risk horizon, not a certainty that all exclusivity disappears then.",
+      "H1 2026 guidance is CER; current EUR EPS cannot simply compound CER guidance.",
+      "Major acquisition/replacement spending could exceed the 20% reserve; test normalization factors70%,80%,90%.",
+      "No disclosed prospective AI clinical or retained-cash evidence; bull AI option is not a forecast.",
+      "Require exact diluted and period-end outstanding shares for a full transaction-grade equity bridge."
+    ]
+  },
+  {
+    "status": "VALUEABLE_WITH_MATERIAL_ASSUMPTIONS",
+    "cutoff": "2026-09-12",
+    "access_date": "2026-09-12",
+    "horizon_years": 5,
+    "rate_units": "Decimals: 0.04 means 4%; AI terminal earnings increment is applied once in year 5, not compounded annually.",
+    "model": "Equity EPS terminal-value sensitivity; dividends in years 1-5 and terminal equity value in year 5; no separate net-debt subtraction, no buyback distribution or assumed future share-count shrinkage.",
+    "tax_basis": "Company earnings after corporate tax; investor withholding, personal tax, ADR fees and transaction costs excluded.",
+    "id": "C002",
+    "company": "Roche",
+    "listing": "SIX ROP participation certificate, ISIN CH1499059983; replaces former ROG Genussschein",
+    "currency": "CHF",
+    "price": 344.2,
+    "price_date": "2026-09-11",
+    "price_timestamp": "17:30:17 Europe/Zurich; dated last quote",
+    "price_source": "https://www.google.com/finance/quote/ROP:SWX",
+    "baseline_metric": "Normalized annual diluted equity EPS proxy",
+    "value": 15.38,
+    "period": "TTM ended 2026-06-30",
+    "source": [
+      "https://assets.roche.com/f/176343/x/2aefa879f4/irp260129-a.pdf",
+      "https://assets.roche.com/f/176343/x/8a0b362d66/hy26e.pdf"
+    ],
+    "adjustments": [
+      "Core diluted EPS bridge: FY2025 19.46 - H1 2025 11.08 + H1 2026 10.85 =19.23 CHF; apply analyst 20% cash-conversion/replacement reserve =>15.384, rounded15.38.",
+      "Core excludes acquired-intangible/other charges; reserve includes ongoing pipeline replacement, restructuring and imperfect cash conversion. FY2025 FCF11.807bn versus core group net income16.575bn (71.2%, group scopes include NCI differences); not an exact parent cash payout ratio.",
+      "H1 cash benefited from tax timing; do not annualize half-year FCF or add back CHF FX effects as if temporary.",
+      "No new-obesity blockbuster sales, no benefit from a failed persevERA indication, and no AI clinical-transition improvements in base."
+    ],
+    "shares": {
+      "issued_participation_certificates_m": 702.5627,
+      "issued_bearer_shares_m": 106.691,
+      "h12026_diluted_weighted_m": 807,
+      "note": "March2026 AGM approved replacement of non-voting equity securities; ROP has same earnings/liquidation participation rights as bearer shares. Issued totals are not diluted weighted shares. No RHHBY ADR used.",
+      "source": "https://www.roche.com/investors/bonds"
+    },
+    "balance_sheet": {
+      "date": "2026-06-30",
+      "gross_financial_debt_bn": 31.805,
+      "cash_and_marketable_securities_bn": 9.734,
+      "company_net_debt_bn": 22.071,
+      "leases_bn": 1.503,
+      "pensions_bn": 2.398,
+      "source": "https://assets.roche.com/f/176343/x/8a0b362d66/hy26e.pdf",
+      "note": "Leases and pensions shown separately from company net debt. Parent EPS already excludes noncontrolling earnings. No excess-cash add-on."
+    },
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": -0.02,
+        "terminal_multiple": 13,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          9.8,
+          9.8,
+          9.8,
+          9.8,
+          9.8
+        ],
+        "rationale": "Strong CHF, China diagnostics pricing, biosimilars and weaker pipeline/product competitiveness create a mild sustained EPS decline and terminal de-rating; no AI benefit."
+      },
+      "base": {
+        "growth_ex_ai": 0.04,
+        "terminal_multiple": 17,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          9.8,
+          9.947,
+          10.0962,
+          10.2476,
+          10.4014
+        ],
+        "rationale": "Ocrevus, Hemlibra, Vabysmo, Phesgo and diagnostics installed-base economics support modest CHF growth after mature-franchise erosion and replacement spend. Does not extrapolate CER EPS guidance into CHF. No extraordinary obesity/AI breakthrough assumed."
+      },
+      "bull": {
+        "growth_ex_ai": 0.07,
+        "terminal_multiple": 20,
+        "incremental_ai_terminal_earnings_pct": 0.04,
+        "dividends5": [
+          9.8,
+          10.094,
+          10.3968,
+          10.7087,
+          11.03
+        ],
+        "rationale": "Stronger marketed franchises, diagnostics recovery and conventional pipeline execution support growth; multiple requires durable replenishment. Capped4% terminal EPS option from net retained pathology workflow/commercial and R&D-operations cost benefit after compute/validation, not drug-success probabilities."
+      }
+    },
+    "dividend_anchor": {
+      "value": 9.8,
+      "currency": "CHF",
+      "period": "2025 dividend approved2026-03-10",
+      "source": "https://www.roche.com/media/releases/med-cor-2026-03-10"
+    },
+    "uncertainties": [
+      "Google security label remains Genussscheine; issuer validates current ROP class. Quote is dated last price at17:30, not claimed independently verified official SIX closing auction.",
+      "Strong CHF materially separates CER and shareholder earnings.",
+      "20% normalization haircut is an assumption; test10%-30%, and do not confuse group FCF with exactly parent-attributable FCF.",
+      "Post-acquisition integration, patent outcomes, obesity pipeline and diagnostics pricing can overwhelm AI workflow savings.",
+      "No E3/E4 net retained AI earnings bridge is disclosed."
+    ]
+  },
+  {
+    "status": "VALUEABLE_WITH_MATERIAL_ASSUMPTIONS",
+    "cutoff": "2026-09-12",
+    "access_date": "2026-09-12",
+    "horizon_years": 5,
+    "rate_units": "Decimals: 0.04 means 4%; AI terminal earnings increment is applied once in year 5, not compounded annually.",
+    "model": "Equity EPS terminal-value sensitivity; dividends in years 1-5 and terminal equity value in year 5; no separate net-debt subtraction, no buyback distribution or assumed future share-count shrinkage.",
+    "tax_basis": "Company earnings after corporate tax; investor withholding, personal tax, ADR fees and transaction costs excluded.",
+    "id": "C003",
+    "company": "AstraZeneca",
+    "listing": "NYSE AZN direct ordinary share (USD0.25 nominal); ordinary listing began2026-02-02, not former Nasdaq half-share ADS",
+    "currency": "USD",
+    "price": 160.17,
+    "price_date": "2026-09-11",
+    "price_timestamp": "16:00:08 America/New_York regular-session close",
+    "price_source": "https://www.google.com/finance/quote/AZN:NYSE",
+    "alternative_quote": {
+      "price": 156.1,
+      "date": "2026-09-11",
+      "type": "After-hours displayed on same page; no precise after-hours timestamp exposed, so excluded from primary return calculation."
+    },
+    "baseline_metric": "Normalized diluted equity EPS proxy",
+    "value": 7.27,
+    "period": "FY2025; deliberately no automatic FY2026 guidance uplift",
+    "source": [
+      "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+      "https://www.astrazeneca.com/content/dam/az/PDF/2026/h1q2/H1-and-Q2-2026-results-announcement.pdf"
+    ],
+    "adjustments": [
+      "FY2025 core basic EPS9.16 USD; basic shares1550m and diluted1562m. Dilution-adjusted core proxy9.16*1550/1562=9.0896; analyst20% cash-quality/replacement haircut =>7.2717, rounded7.27.",
+      "FY2025 reported basic EPS6.60 versus core9.16; most adjustment is amortization/impairment. OCF14.575bn less PPE2.810bn=11.765bn before intangible purchases3.095bn. Haircut reserves for recurring replacement/investment but is not a full drug-by-drug reinvestment model.",
+      "H1 2026 core EPS5.21 versus reported3.60 and guidance low-double-digit core EPS growth at CER are recorded as operating context, not mechanically annualized.",
+      "Existing alliance profit shares, financing costs and SBC remain costs. No historical ADS factor-of-two conversion after NYSE ordinary listing."
+    ],
+    "shares": {
+      "fy2025_basic_weighted_m": 1550,
+      "fy2025_diluted_weighted_m": 1562,
+      "source": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+      "note": "Model uses the current one-ordinary-share NYSE unit."
+    },
+    "balance_sheet": {
+      "date": "2026-06-30",
+      "gross_debt_including_leases_bn": 32.239,
+      "cash_and_investments_bn": 4.968,
+      "company_net_debt_bn": 26.912,
+      "leases_in_gross_debt_bn": 2.748,
+      "net_derivatives_asset_bn": 0.359,
+      "source": "https://www.astrazeneca.com/content/dam/az/PDF/2026/h1q2/H1-and-Q2-2026-results-announcement.pdf",
+      "note": "Do not subtract leases separately from this gross debt or deduct net debt again from EPS terminal value."
+    },
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": 0.01,
+        "terminal_multiple": 13,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          3.23,
+          3.23,
+          3.23,
+          3.23,
+          3.23
+        ],
+        "rationale": "Farxiga US generic erosion, China procurement and additional pipeline disappointments consume oncology/rare-disease growth; manufacturing and replacement spending suppress cash. No AI benefit."
+      },
+      "base": {
+        "growth_ex_ai": 0.07,
+        "terminal_multiple": 18,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          3.23,
+          3.3269,
+          3.4267,
+          3.5295,
+          3.6354
+        ],
+        "rationale": "Growth comes from marketed oncology/rare-disease assets and ordinary launch execution, with Farxiga erosion and failures absorbed. Excludes the failed SERENA-4 upfront indication and CARDIO-TTRansform upside. Seven-percent growth is an analyst portfolio assumption, below current core EPS guidance; no AI clinical-success improvement."
+      },
+      "bull": {
+        "growth_ex_ai": 0.1,
+        "terminal_multiple": 22,
+        "incremental_ai_terminal_earnings_pct": 0.03,
+        "dividends5": [
+          3.23,
+          3.3915,
+          3.5611,
+          3.7391,
+          3.9261
+        ],
+        "rationale": "Better conventional oncology/rare-disease execution and cash conversion; no resurrection of failed indications. Capped3% incremental terminal EPS from net R&D-operations/regulatory/documentation efficiency after implementation, human review and model cost; no AI candidate approval assigned."
+      }
+    },
+    "dividend_anchor": {
+      "value": 3.23,
+      "currency": "USD",
+      "period": "Illustrative forward annual: latest1.06 interim plus prior2.17 second interim",
+      "source": [
+        "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+        "https://www.astrazeneca.com/content/dam/az/PDF/2026/h1q2/H1-and-Q2-2026-results-announcement.pdf"
+      ],
+      "note": "3.23 is a forward model assumption, not a declared full-year2026 dividend."
+    },
+    "uncertainties": [
+      "September11 regular close precedes/requires caution around same-day SERENA-4 failure; after-hours quote156.10 is a sensitivity and future reopening may gap.",
+      "FY2025 baseline lags2026 growth intentionally, but may understate a durable current run rate; test normalization separately from growth.",
+      "20% reserve does not prove full intangible replacement funding, and US manufacturing commitments may require more cash.",
+      "Current NYSE ordinary share must not be confused with old half-share ADS; third-party EPS histories contain mixed-unit risks.",
+      "No controlled incremental AI clinical economics."
+    ]
+  },
+  {
+    "status": "VALUEABLE_WITH_MATERIAL_ASSUMPTIONS",
+    "cutoff": "2026-09-12",
+    "access_date": "2026-09-12",
+    "horizon_years": 5,
+    "rate_units": "Decimals: 0.04 means 4%; AI terminal earnings increment is applied once in year 5, not compounded annually.",
+    "model": "Equity EPS terminal-value sensitivity; dividends in years 1-5 and terminal equity value in year 5; no separate net-debt subtraction, no buyback distribution or assumed future share-count shrinkage.",
+    "tax_basis": "Company earnings after corporate tax; investor withholding, personal tax, ADR fees and transaction costs excluded.",
+    "id": "C004",
+    "company": "Novartis",
+    "listing": "NYSE NVS ADR, one ADR represents one NOVN ordinary registered share",
+    "currency": "USD",
+    "price": 137.16,
+    "price_date": "2026-09-11",
+    "price_timestamp": "16:00:04 America/New_York regular-session close",
+    "price_source": "https://www.google.com/finance/quote/NVS:NYSE",
+    "baseline_metric": "Normalized annual diluted equity EPS proxy",
+    "value": 7.32,
+    "period": "TTM ended2026-06-30 with FY2025 dilution ratio",
+    "source": [
+      "https://www.novartis.com/sites/novartis_com/files/novartis-annual-report-2025.pdf",
+      "https://www.novartis.com/news/media-releases/novartis-delivered-sales-growth-q2-and-further-advanced-pipeline-full-year-guidance-reaffirmed"
+    ],
+    "adjustments": [
+      "Core basic EPS bridge: FY2025 8.98 - H1 2025 4.69 + H1 2026 4.39=8.68 USD; apply FY2025 basic/diluted share ratio1939/1955 and analyst15% recurring-reinvestment/quality reserve =>7.3176, rounded7.32.",
+      "FY2025 FCF17.596bn follows OCF19.144bn less PPE1.548bn and excludes intangible purchases2.352bn and acquisition spending. Do not equate this company FCF with fully funded pipeline replacement.",
+      "FY2025 reported basic/diluted EPS7.21/7.15, core basic8.98; September clinical failures are captured through lower future growth/multiples and no blockbuster rescue. Do not assign the trial failures to AI.",
+      "No future buyback EPS uplift; H1 coreEPS decline and debt-funded acquisition costs are already reflected in the rolling anchor."
+    ],
+    "shares": {
+      "fy2025_basic_weighted_m": 1939,
+      "fy2025_diluted_weighted_m": 1955,
+      "fy2025_end_outstanding_m": 1908.151679,
+      "h12026_change_outstanding_m": -7.5,
+      "adr_ratio_ordinary_per_adr": 1,
+      "source": [
+        "https://www.novartis.com/sites/novartis_com/files/novartis-annual-report-2025.pdf",
+        "https://www.novartis.com/news/media-releases/novartis-delivered-sales-growth-q2-and-further-advanced-pipeline-full-year-guidance-reaffirmed",
+        "https://www.novartis.com/investors/shareholder-information/frequently-asked-questions"
+      ],
+      "note": "FY2025 dilution ratio is an explicit approximation for TTM normalized EPS; exact H1 diluted ratio would refine it."
+    },
+    "balance_sheet": {
+      "date": "2026-06-30",
+      "company_net_debt_bn": 39.4,
+      "prior_fy2025_net_debt_bn": 21.9,
+      "h12026_m_and_a_intangibles_other_acquisitions_cash_bn": 15.3,
+      "source": "https://www.novartis.com/news/media-releases/novartis-delivered-sales-growth-q2-and-further-advanced-pipeline-full-year-guidance-reaffirmed",
+      "note": "Net debt increase reduces flexibility after Avidity. EPS includes financial expense; no excess-capital add-on and no separate debt subtraction."
+    },
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": -0.03,
+        "terminal_multiple": 12,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "rationale": "Entresto/Promacta/Tasigna erosion plus failed growth projects and higher debt costs exceed growth-brand gains; dividends reset downward in USD and capital prioritized."
+      },
+      "base": {
+        "growth_ex_ai": 0.03,
+        "terminal_multiple": 16,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          4.5,
+          4.59,
+          4.6818,
+          4.7754,
+          4.8709
+        ],
+        "rationale": "Kisqali, Kesimpta, Pluvicto and Scemblix offset generic erosion with moderate net growth. Neither del-desiran DM1 nor pelacarsen cardiovascular-outcome blockbuster revenue is assumed after failed primary endpoints. Existing pipeline execution has ordinary attrition; no AI transition improvement."
+      },
+      "bull": {
+        "growth_ex_ai": 0.07,
+        "terminal_multiple": 19,
+        "incremental_ai_terminal_earnings_pct": 0.03,
+        "dividends5": [
+          4.5,
+          4.68,
+          4.8672,
+          5.0619,
+          5.2644
+        ],
+        "rationale": "Stronger conventional marketed-brand penetration and viable remaining launches support growth despite failed programs; does not depend on reversing HARBOR/Lp(a)HORIZON outcomes. Capped3% terminal EPS option is net retained trial-operations/chemistry-workflow savings, with no AI-originated clinical approval forecast."
+      }
+    },
+    "dividend_anchor": {
+      "value": 3.7,
+      "currency": "CHF",
+      "period": "FY2025 dividend approved2026-03-06",
+      "source": "https://www.novartis.com/news/media-releases/novartis-shareholders-approve-all-resolutions-proposed-board-directors-2026-annual-general-meeting",
+      "note": "USD4.50 year1 is an analyst FX/dividend assumption (1.216216 USD/CHF on CHF3.70), not the verified historical ADR payout or spot FX. Investor withholding and ADR fees excluded."
+    },
+    "uncertainties": [
+      "After September failed primary endpoints, prior mid-term sales goals are not reliable valuation inputs without a fresh asset bridge.",
+      "Net debt39.4bn makes repeated large acquisitions or unchanged buybacks harder to fund; 15% reinvestment reserve could be insufficient.",
+      "USD dividend depends on CHF translation and withholding; model presents gross shareholder return.",
+      "Exact rolling diluted share count and current full gross-debt/cash/lease schedule not independently extracted; company net debt and earnings interest burden are verified.",
+      "No evidence warrants changed phase-transition rates from AI; all optionality conditional."
+    ]
+  },
+  {
+    "status": "VALUEABLE_WITH_MATERIAL_ASSUMPTIONS",
+    "cutoff": "2026-09-12",
+    "access_date": "2026-09-12",
+    "horizon_years": 5,
+    "rate_units": "Decimals: 0.04 means 4%; AI terminal earnings increment is applied once in year 5, not compounded annually.",
+    "model": "Equity EPS terminal-value sensitivity; dividends in years 1-5 and terminal equity value in year 5; no separate net-debt subtraction, no buyback distribution or assumed future share-count shrinkage.",
+    "tax_basis": "Company earnings after corporate tax; investor withholding, personal tax, ADR fees and transaction costs excluded.",
+    "id": "C018",
+    "company": "Chubb",
+    "listing": "NYSE CB ordinary common share, Swiss parent, ISIN CH0044328745",
+    "currency": "USD",
+    "price": 338.25,
+    "price_date": "2026-09-11",
+    "price_timestamp": "16:00:10 America/New_York regular-session close",
+    "price_source": "https://www.google.com/finance/quote/CB:NYSE",
+    "baseline_metric": "Normalized diluted insurance equity EPS",
+    "value": 23.65,
+    "period": "FY2025 with conservative reserve-development normalization; H1 2026 not annualized",
+    "source": [
+      "https://news.chubb.com/2026-02-03-Chubb-Reports-Fourth-Quarter-Net-Income-of-3-21-Billion,-Up-24-7-,-and-Core-Operating-Income-of-2-98-Billion,-Up-21-7-Consolidated-Net-Premiums-Written-of-13-1-Billion,-Up-8-9-,-with-P-C-and-Life-Insurance-Up-7-7-and-16-9-Record-P-C-Combined-Ra",
+      "https://s201.q4cdn.com/471466897/files/doc_financials/2025/ar/Chubb-Limited-2025-10-K-Final.pdf",
+      "https://investors.chubb.com/News--Events/news/news-details/2026/Chubb-Reports-Second-Quarter-Per-Share-Net-Income-of-7-30-and-Per-Share-Core-Operating-Income-of-7-26-Up-18-2-Consolidated-Net-Premiums-Written-of-14-7-Billion-Up-3-6-with-PC-and-Life-Insurance-Up-3-0-and-7-5-PC-Combined-Ratio-of-83-8/default.aspx"
+    ],
+    "adjustments": [
+      "FY2025 core diluted EPS24.79 excludes investment mark-to-market/other specified items versus GAAP25.68. Reduce favorable prior-period development1.133bn by50%, assuming19% tax and401.513338m diluted shares: EPS haircut0.5*1133*0.81/401.513338=1.14285 =>23.64715, rounded23.65.",
+      "Retain all FY2025 catastrophe losses2.921bn in normalized earnings; do not add them back or annualize the benign H1 2026 coreEPS14.07.",
+      "50% sustainable reserve-release allowance and19% marginal tax are analyst conventions; stress zero favorable releases and larger catastrophe budget. Investment income remains subject to credit/default, reinvestment and alternative-return normalization.",
+      "No EV/EBITDA or operating-company cash-conversion shortcut; underwriting requires retained regulatory/rating capital. All growth is per-share growth without a separate future buyback benefit."
+    ],
+    "shares": {
+      "fy2025_diluted_weighted_m": 401.513338,
+      "source": "https://s201.q4cdn.com/471466897/files/doc_financials/2025/ar/Chubb-Limited-2025-10-K-Final.pdf",
+      "note": "Current share count changes not projected as automatic buyback accretion."
+    },
+    "capital": {
+      "date": "2025-12-31; book updated2026-06-30",
+      "statutory_p_and_c_surplus_bn": 55.554,
+      "statutory_life_surplus_bn": 9.16,
+      "subsidiary_dividends_available_2026_without_prior_approval_bn": 9.6,
+      "financial_debt_to_adjusted_capital": 0.184,
+      "h12026_book_value_per_share": 195.45,
+      "h12026_tangible_book_value_per_share": 131.93,
+      "source": [
+        "https://s201.q4cdn.com/471466897/files/doc_financials/2025/ar/Chubb-Limited-2025-10-K-Final.pdf",
+        "https://investors.chubb.com/News--Events/news/news-details/2026/Chubb-Reports-Second-Quarter-Per-Share-Net-Income-of-7-30-and-Per-Share-Core-Operating-Income-of-7-26-Up-18-2-Consolidated-Net-Premiums-Written-of-14-7-Billion-Up-3-6-with-PC-and-Life-Insurance-Up-3-0-and-7-5-PC-Combined-Ratio-of-83-8/default.aspx"
+      ],
+      "note": "10-K Note22 says subsidiaries met2025 statutory requirements and rating-agency capital needs exceed regulatory minima. These are subsidiary capital/distribution facts, not excess cash available immediately to shareholders. No surplus liquidation add-on."
+    },
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": -0.02,
+        "terminal_multiple": 10,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          4.08,
+          4.08,
+          4.08,
+          4.08,
+          4.08
+        ],
+        "rationale": "Commercial-rate softening, casualty social inflation, adverse reserves and larger catastrophes reduce normalized return; no AI benefit or capital release."
+      },
+      "base": {
+        "growth_ex_ai": 0.05,
+        "terminal_multiple": 13,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          4.08,
+          4.2432,
+          4.4129,
+          4.5894,
+          4.773
+        ],
+        "rationale": "Conventional premium/exposure and investment-income growth with sound underwriting and retained capital; does not extrapolate record combined ratios or assume AI improved losses. Five-percent EPS growth excludes future buyback accretion;13x values insurance quality with cyclicality."
+      },
+      "bull": {
+        "growth_ex_ai": 0.08,
+        "terminal_multiple": 15,
+        "incremental_ai_terminal_earnings_pct": 0.04,
+        "dividends5": [
+          4.08,
+          4.3248,
+          4.5843,
+          4.8593,
+          5.1509
+        ],
+        "rationale": "Strong conventional risk selection/distribution, international/life growth and favorable reinvestment sustain higher earnings. Incremental AI terminalEPS capped4% from net retained administrative/claims-handling expense savings, after transition cost and quality controls; no unexplained reduction in risk-adjusted loss severity or catastrophe risk."
+      }
+    },
+    "dividend_anchor": {
+      "value": 4.08,
+      "currency": "USD",
+      "period": "Annual dividend approved2026-05-21,1.02 quarterly",
+      "source": "https://investors.chubb.com/News--Events/news/news-details/2026/Chubb-Limited-Shareholders-Approve-33rd-Consecutive-Annual-Dividend-Increase-Chubb-Limited-Board-Declares-Record-Date-for-First-Dividend-Installment-and-Authorizes-New-Share-Repurchase-Program/default.aspx"
+    },
+    "uncertainties": [
+      "Half of prior-year reserve releases may still be too generous if casualty liabilities are understated; reserve development and catastrophe uncertainty dominate small AI savings.",
+      "Q2 underlying current-accident-year ex-cat combined ratio82.2% vs82.3% prior year does not establish AI underwriting improvement.",
+      "No consolidated regulatory solvency ratio was extracted, but audited subsidiary capital/surplus and available distributions are verified; no unsupported excess-capital assumption.",
+      "Core EPS removes Bermuda DTA amortization and integration/severance. Repeated integration expense, alternative-return cyclicality or higher taxes may reduce distributable earnings.",
+      "AI workforce/expense targets remain intentions; no measured retained cash bridge justifies base incremental AI."
+    ]
+  }
+]

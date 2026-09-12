@@ -1,0 +1,1040 @@
+[
+  {
+    "id": "C034",
+    "company": "RELX",
+    "listing": "LSE: REL ordinary; ISIN GB00B2B0DG97",
+    "currency": "GBP",
+    "reporting_currency": "GBP",
+    "price": 24.75,
+    "price_date": "2026-09-11",
+    "price_source": "https://uk.investing.com/equities/reed-elsevier-historical-data",
+    "price_quality": "Dated vendor historical closing-price row; 2475 GBX converted to GBP. Supersedes batch01 2446 GBX.",
+    "baseline_metric": "Normalized diluted adjusted equity EPS; reconstructed TTM",
+    "baseline_value": 1.3301349338022252,
+    "baseline_period": "Twelve months ended 2026-06-30",
+    "baseline_source": [
+      "https://www.relx.com/~/media/Files/R/RELX-Group/documents/press-releases/2026/results-2025-pressrelease.pdf",
+      "https://www.relx.com/~/media/Files/R/RELX-Group/documents/press-releases/2026/first-half-results-2026-pressrelease.pdf"
+    ],
+    "baseline_adjustments": [
+      "Adjusted attributable earnings GBP2358m - H1 2025 GBP1171m + H1 2026 GBP1225m = GBP2412m.",
+      "TTM diluted weighted shares reconstructed from rounded disclosed averages: 1843.5m + (1794.1m - 1854.9m)*181/365 = 1813.3498630136985m; potential small rounding error.",
+      "Headline adjusted EPS is basic. Divide adjusted net earnings by diluted shares; do not double H1 EPS.",
+      "SBC remains expensed (FY2025 GBP63m); acquired-intangible amortization and company acquisition/disposal adjustments are excluded. No SBC cash-flow addback and no separate buyback yield."
+    ],
+    "shares": {
+      "fy2025_diluted_weighted_m": 1843.5,
+      "h12026_diluted_weighted_m": 1794.1,
+      "ttm_diluted_weighted_m": 1813.3498630136985
+    },
+    "balance_sheet": {
+      "date": "2026-06-30",
+      "net_debt_m": 8733,
+      "net_debt_to_ebitda": 2.3,
+      "treatment": "Equity EPS already includes interest, lease expense/depreciation, tax and NCI; no EV bridge or cash/debt addition."
+    },
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": 0.01,
+        "terminal_multiple": 14,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "annual_dividend0": 0.675,
+        "dividend_growth": 0,
+        "rationale": "Slower renewals, seats and content licensing under pressure; ordinary businesses merely hold real earning power; no incremental AI.",
+        "growth_decomposition": "Approximately 1% business earnings growth; no continuing net buyback benefit.",
+        "dividends5": [
+          0.675,
+          0.675,
+          0.675,
+          0.675,
+          0.675
+        ],
+        "terminal_conventional_earnings": 1.397985183415237,
+        "incremental_ai_terminal_earnings": 0.0,
+        "terminal_total_earnings": 1.397985183415237,
+        "endpoint_price": 19.57179256781332,
+        "cumulative_dividends": 3.375,
+        "ending_wealth_no_dividend_reinvestment": 22.94679256781332,
+        "five_year_total_return": -0.07285686594693663,
+        "wealth_cagr_no_dividend_reinvestment": -0.015015588608516928,
+        "annual_irr": -0.01592554728674661,
+        "entry_prices_by_hurdle": {
+          "0.08": 16.01531243251154,
+          "0.1": 14.711324405196684,
+          "0.12": 13.538784654113837
+        },
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+      },
+      "base": {
+        "growth_ex_ai": 0.06,
+        "terminal_multiple": 18,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "annual_dividend0": 0.675,
+        "dividend_growth": 0.06,
+        "rationale": "Risk/STM/legal subscriptions compound, but growth settles below recent constant-currency EPS performance. All existing analytics and embedded innovation remain in the baseline.",
+        "growth_decomposition": "Approximately 4.5% sales growth + 0.5 percentage point EPS growth from operating leverage + 1 point net share-count effect; additive approximation, not exact financial forecast.",
+        "dividends5": [
+          0.7155000000000001,
+          0.7584300000000002,
+          0.8039358000000001,
+          0.8521719480000003,
+          0.9033022648800002
+        ],
+        "terminal_conventional_earnings": 1.780020590073421,
+        "incremental_ai_terminal_earnings": 0.0,
+        "terminal_total_earnings": 1.780020590073421,
+        "endpoint_price": 32.04037062132158,
+        "cumulative_dividends": 4.033340012880001,
+        "ending_wealth_no_dividend_reinvestment": 36.07371063420158,
+        "five_year_total_return": 0.4575236619879428,
+        "wealth_cagr_no_dividend_reinvestment": 0.07825907696704637,
+        "annual_irr": 0.08227641180973777,
+        "entry_prices_by_hurdle": {
+          "0.08": 24.998203675652764,
+          "0.1": 22.918738925558714,
+          "0.12": 21.05037606171827
+        },
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+      },
+      "bull": {
+        "growth_ex_ai": 0.08,
+        "terminal_multiple": 21,
+        "incremental_ai_terminal_earnings_pct": 0.06,
+        "annual_dividend0": 0.675,
+        "dividend_growth": 0.08,
+        "rationale": "Conventional mix improvement persists and incremental net AI economics add 6% to terminal earnings; stronger durability supports 21x.",
+        "growth_decomposition": "Approximately 6% business earnings growth + 2 points net buybacks; AI separately adds 6% to terminal EPS, equivalent to 1.17% annual growth factor, not 6% CAGR.",
+        "dividends5": [
+          0.7290000000000001,
+          0.7873200000000001,
+          0.8503056000000002,
+          0.9183300480000003,
+          0.9917964518400004
+        ],
+        "terminal_conventional_earnings": 1.9544046041681196,
+        "incremental_ai_terminal_earnings": 0.11726427625008717,
+        "terminal_total_earnings": 2.0716688804182066,
+        "endpoint_price": 43.50504648878234,
+        "cumulative_dividends": 4.276752099840001,
+        "ending_wealth_no_dividend_reinvestment": 47.781798588622344,
+        "five_year_total_return": 0.930577720752418,
+        "wealth_cagr_no_dividend_reinvestment": 0.14061074372705318,
+        "annual_irr": 0.14691916938424343,
+        "entry_prices_by_hurdle": {
+          "0.08": 32.983803626437535,
+          "0.1": 30.208522511143876,
+          "0.12": 27.716089298149516
+        },
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+      }
+    },
+    "ai_bridge": "Bull-only net terminal uplift 6%: about 4% group earnings from Legal product contribution, requiring roughly one-third incremental Legal earnings at a circa12% group-profit weight, plus 2% internal net savings. Illustrative present-scale internal bridge: eligible cost GBP1562m (25% of FY adjusted cost base) x15% task efficiency x60% realization x50% retention minus GBP10m recurring cost, after22.5% tax, is GBP46.7m or about2% FY adjusted net profit. This is a calibrated analyst upper case, not a disclosed company result; no released labor is also counted in product contribution.",
+    "uncertainties": [
+      "Current price is a vendor close, not independently certified exchange auction print.",
+      "Acquired-intangible replacement economics and acquisition spending are not fully captured by adjusted EPS; terminal multiples and lower growth compensate only approximately.",
+      "All AI attribution remains below controlled net-economics evidence; interface ownership, licensing rights and cohort economics unresolved.",
+      "Leverage rose; 2026 accelerated buybacks cannot be perpetually extrapolated."
+    ],
+    "falsifiers": [
+      "Two reporting periods of Legal underlying growth below5% together with flat/negative seat-adjusted renewal revenue.",
+      "Current-version controlled tests fail to reduce completion plus verification cost against credible rivals.",
+      "Net debt/EBITDA persists above2.5x without corresponding organic profit growth."
+    ],
+    "strongest_objection": "Trusted content can remain necessary while third-party agents control customer budgets and compress per-seat economics; the 18x base multiple still assumes a durable franchise.",
+    "disposition": "Operating-quality leader; current price falls short of10% base hurdle.",
+    "status": "VALUEABLE_WITH_LIMITATIONS",
+    "horizon_years": 5,
+    "valuation_date": "2026-09-12",
+    "horizon_end": "2031-09-12",
+    "model": "Equity EPS terminal multiple plus five end-year gross dividends; annual IRR, not FCF growth.",
+    "growth_units": "Decimals;0.05=5%. Terminal AI uplift is one-off percentage of conventional year5earnings.",
+    "current_normalized_multiple": 18.60713478838683,
+    "eur_investor_fx": "Returns are nominal listing-currency before personal tax/fees. EUR return depends on each GBP/EUR cash-flow conversion for GBP shares; EUR listings still have underlying USD/other-currency earnings exposure. No FX forecast or hedge benefit is included.",
+    "reverse_required_conventional_eps_growth_at_10pct": 0.07883304660235291,
+    "entry_sensitivity_10pct": [
+      {
+        "eps_growth_ex_ai": 0.039999999999999994,
+        "terminal_multiple": 16,
+        "entry_price": 19.10170570216002
+      },
+      {
+        "eps_growth_ex_ai": 0.039999999999999994,
+        "terminal_multiple": 18,
+        "entry_price": 21.111395213922272
+      },
+      {
+        "eps_growth_ex_ai": 0.039999999999999994,
+        "terminal_multiple": 20,
+        "entry_price": 23.12108472568452
+      },
+      {
+        "eps_growth_ex_ai": 0.06,
+        "terminal_multiple": 16,
+        "entry_price": 20.70823344583686
+      },
+      {
+        "eps_growth_ex_ai": 0.06,
+        "terminal_multiple": 18,
+        "entry_price": 22.918738925558714
+      },
+      {
+        "eps_growth_ex_ai": 0.06,
+        "terminal_multiple": 20,
+        "entry_price": 25.129244405280566
+      },
+      {
+        "eps_growth_ex_ai": 0.08,
+        "terminal_multiple": 16,
+        "entry_price": 22.440693489869606
+      },
+      {
+        "eps_growth_ex_ai": 0.08,
+        "terminal_multiple": 18,
+        "entry_price": 24.867756475095554
+      },
+      {
+        "eps_growth_ex_ai": 0.08,
+        "terminal_multiple": 20,
+        "entry_price": 27.2948194603215
+      }
+    ],
+    "base_entry_price_10pct": 22.918738925558714,
+    "base_entry_headroom_pct": -0.07399034644207214,
+    "source_access_date": "2026-09-12",
+    "scenario_probability": "Not assigned; cases are conditional, not consensus or probability-weighted expected return."
+  },
+  {
+    "id": "C035",
+    "company": "Wolters Kluwer",
+    "listing": "Euronext Amsterdam: WKL ordinary; ISIN NL0000395903",
+    "currency": "EUR",
+    "reporting_currency": "EUR",
+    "price": 66.24,
+    "price_date": "2026-09-11",
+    "price_source": "https://www.investing.com/equities/wolters-kluwer-historical-data",
+    "price_quality": "Dated vendor historical close66.24; preceding September10 row66.20 reproduces previously unresolved observation.",
+    "baseline_metric": "FY diluted adjusted equity EPS after recurring-cost allowance",
+    "baseline_value": 5.197713546160483,
+    "baseline_period": "FY2025, conservatively held as cutoff earning-power anchor",
+    "baseline_source": [
+      "https://assets.contenthub.wolterskluwer.com/api/public/content/3118646-2026-02-25-wolters-kluwer-2025-full-year-results-7391945524?v=2c966da9",
+      "https://assets.contenthub.wolterskluwer.com/api/public/content/3775537-2026-08-05-wolters-kluwer-2026-half-year-results-7d85c04c6c?v=15135ed1"
+    ],
+    "baseline_adjustments": [
+      "Start disclosed diluted adjusted EPS EUR5.29, not doubled H1 EPS or IFRS5.64 containing divestment gains.",
+      "Deduct EUR28m pretax recurring allowance (25 acquisition costs +1 integration +2 employee-benefit financing) at23.6% assumed tax /231.8m diluted shares = EUR0.092286/share.",
+      "FY adjusted earnings exclude divestment gains and acquired-intangible amortization; SBC EUR26m remains expensed.",
+      "No mechanical uplift to FY earnings for2026 buybacks or H1 profit. This conservative hold partly offsets FRR divestment and H2 product spending; it is not exact pro-forma2026 earnings."
+    ],
+    "shares": {
+      "fy2025_diluted_weighted_m": 231.8,
+      "h12026_diluted_weighted_m": 225.3,
+      "h12026_period_end_m": 223.2
+    },
+    "balance_sheet": {
+      "date": "2026-06-30",
+      "net_debt_m": 4024,
+      "gross_debt_m": 5548,
+      "cash_m": 1494,
+      "net_debt_to_ebitda": 2.0,
+      "treatment": "Lease-inclusive company net debt contextual only; interest, lease charges and tax embedded in equity EPS. No EV adjustment."
+    },
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": -0.05,
+        "terminal_multiple": 10,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "annual_dividend0": 2.0,
+        "dividend_growth": -0.03,
+        "rationale": "Specialist-answer substitution causes price/seat erosion; product-development investment fails to protect renewals; dividend starts below prior2.52.",
+        "growth_decomposition": "Business EPS -5%; buybacks offset dilution only; no incremental AI.",
+        "dividends5": [
+          1.94,
+          1.8818,
+          1.825346,
+          1.7705856199999999,
+          1.7174680513999998
+        ],
+        "terminal_conventional_earnings": 4.021891660604507,
+        "incremental_ai_terminal_earnings": 0.0,
+        "terminal_total_earnings": 4.021891660604507,
+        "endpoint_price": 40.21891660604507,
+        "cumulative_dividends": 9.135199671399999,
+        "ending_wealth_no_dividend_reinvestment": 49.35411627744507,
+        "five_year_total_return": -0.25491974218832913,
+        "wealth_cagr_no_dividend_reinvestment": -0.05715432932203646,
+        "annual_irr": -0.061337049213072425,
+        "entry_prices_by_hurdle": {
+          "0.08": 34.7012870239907,
+          "0.1": 31.93878168992745,
+          "0.12": 29.45261758139697
+        },
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+      },
+      "base": {
+        "growth_ex_ai": 0.05,
+        "terminal_multiple": 14,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "annual_dividend0": 2.52,
+        "dividend_growth": 0.05,
+        "rationale": "Recurring tax/compliance/workflow contracts survive, with slower nominal EUR growth than constant-currency guidance.14x requires only modest rerating but still assumes survival.",
+        "growth_decomposition": "Approximately 3% underlying earnings growth +2 points net buybacks; no new AI premium in EPS.",
+        "dividends5": [
+          2.6460000000000004,
+          2.7783,
+          2.9172150000000006,
+          3.0630757500000008,
+          3.2162295375000007
+        ],
+        "terminal_conventional_earnings": 6.633745966121119,
+        "incremental_ai_terminal_earnings": 0.0,
+        "terminal_total_earnings": 6.633745966121119,
+        "endpoint_price": 92.87244352569567,
+        "cumulative_dividends": 14.620820287500003,
+        "ending_wealth_no_dividend_reinvestment": 107.49326381319568,
+        "five_year_total_return": 0.6227847797885824,
+        "wealth_cagr_no_dividend_reinvestment": 0.1016716792937542,
+        "annual_irr": 0.10846141815141286,
+        "entry_prices_by_hurdle": {
+          "0.08": 74.79551219513975,
+          "0.1": 68.64894501629648,
+          "0.12": 63.12369340669501
+        },
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+      },
+      "bull": {
+        "growth_ex_ai": 0.07,
+        "terminal_multiple": 18,
+        "incremental_ai_terminal_earnings_pct": 0.05,
+        "annual_dividend0": 2.52,
+        "dividend_growth": 0.07,
+        "rationale": "Product spending protects workflow relevance and paid AI capture produces modest additional net earnings; derating partly reverses.",
+        "growth_decomposition": "Approximately 5% conventional business EPS growth +2 points net buybacks;5% terminal AI uplift separate.",
+        "dividends5": [
+          2.6964,
+          2.885148,
+          3.08710836,
+          3.3032059452000007,
+          3.534430361364001
+        ],
+        "terminal_conventional_earnings": 7.290062129850222,
+        "incremental_ai_terminal_earnings": 0.3645031064925111,
+        "terminal_total_earnings": 7.654565236342734,
+        "endpoint_price": 137.7821742541692,
+        "cumulative_dividends": 15.506292666564002,
+        "ending_wealth_no_dividend_reinvestment": 153.2884669207332,
+        "five_year_total_return": 1.3141374837067215,
+        "wealth_cagr_no_dividend_reinvestment": 0.18270880866575734,
+        "annual_irr": 0.19290013442128517,
+        "entry_prices_by_hurdle": {
+          "0.08": 106.02652373992474,
+          "0.1": 97.15770997935633,
+          "0.12": 89.19094878762563
+        },
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+      }
+    },
+    "ai_bridge": "Bull-only5% terminal net uplift. Present-scale illustration: EUR1110m eligible cost (25% of adjusted cost base) x20% task improvement x60% realization x60% retention -EUR20m recurring implementation/inference expense = EUR59.9m pretax, EUR45.7m after23.6% tax; add circaEUR14.5m distinct net product contribution to reach about5% of normalized current earnings. No customer time-saving claim is booked as WK cash. Incremental investment is included in the net uplift; residual capitalization risk remains.",
+    "uncertainties": [
+      "FRR divested business contribution is not fully isolated; held FY baseline is conservative judgment, not a precise ongoing-company pro forma.",
+      "H1 margins cannot be annualized because development spend is H2-weighted.",
+      "USD translation materially affects EUR results despite EUR listing.",
+      "Adoption and product bundling do not prove willingness to pay; independent clinical benchmarks are adverse but task-bounded.",
+      "Entry headroom is small and disappears with one-point lower growth or a lower multiple."
+    ],
+    "falsifiers": [
+      "Recurring organic revenue growth below3% for two consecutive half-years.",
+      "UpToDate/CCH renewal value per institution declines after discounts and seat changes while development spend remains12-13% of sales.",
+      "Controlled current-product tests and renewals fail to establish paid workflow value beyond general models."
+    ],
+    "strongest_objection": "The low multiple may correctly anticipate structural erosion; even a regulated content workflow can lose pricing power before subscription attrition becomes visible.",
+    "disposition": "Most interesting price among these five, but narrow base return edge and large structural downside.",
+    "status": "VALUEABLE_WITH_LIMITATIONS",
+    "horizon_years": 5,
+    "valuation_date": "2026-09-12",
+    "horizon_end": "2031-09-12",
+    "model": "Equity EPS terminal multiple plus five end-year gross dividends; annual IRR, not FCF growth.",
+    "growth_units": "Decimals;0.05=5%. Terminal AI uplift is one-off percentage of conventional year5earnings.",
+    "current_normalized_multiple": 12.744065137820272,
+    "eur_investor_fx": "Returns are nominal listing-currency before personal tax/fees. EUR return depends on each GBP/EUR cash-flow conversion for GBP shares; EUR listings still have underlying USD/other-currency earnings exposure. No FX forecast or hedge benefit is included.",
+    "reverse_required_conventional_eps_growth_at_10pct": 0.04107714410888741,
+    "entry_sensitivity_10pct": [
+      {
+        "eps_growth_ex_ai": 0.030000000000000002,
+        "terminal_multiple": 12,
+        "entry_price": 55.87935724020412
+      },
+      {
+        "eps_growth_ex_ai": 0.030000000000000002,
+        "terminal_multiple": 14,
+        "entry_price": 63.36217269580733
+      },
+      {
+        "eps_growth_ex_ai": 0.030000000000000002,
+        "terminal_multiple": 16,
+        "entry_price": 70.84498815141055
+      },
+      {
+        "eps_growth_ex_ai": 0.05,
+        "terminal_multiple": 12,
+        "entry_price": 60.41087637205196
+      },
+      {
+        "eps_growth_ex_ai": 0.05,
+        "terminal_multiple": 14,
+        "entry_price": 68.64894501629648
+      },
+      {
+        "eps_growth_ex_ai": 0.05,
+        "terminal_multiple": 16,
+        "entry_price": 76.887013660541
+      },
+      {
+        "eps_growth_ex_ai": 0.07,
+        "terminal_multiple": 12,
+        "entry_price": 65.30112478078537
+      },
+      {
+        "eps_growth_ex_ai": 0.07,
+        "terminal_multiple": 14,
+        "entry_price": 74.35423482648545
+      },
+      {
+        "eps_growth_ex_ai": 0.07,
+        "terminal_multiple": 16,
+        "entry_price": 83.40734487218553
+      }
+    ],
+    "base_entry_price_10pct": 68.64894501629648,
+    "base_entry_headroom_pct": 0.03636692355520066,
+    "source_access_date": "2026-09-12",
+    "scenario_probability": "Not assigned; cases are conditional, not consensus or probability-weighted expected return."
+  },
+  {
+    "id": "C031",
+    "company": "Experian",
+    "listing": "LSE: EXPN ordinary; ISIN GB00B19NLV48",
+    "currency": "GBP",
+    "reporting_currency": "USD",
+    "price": 27.82,
+    "price_date": "2026-09-11",
+    "price_source": "https://tradingeconomics.com/expn:ln",
+    "price_quality": "Dated vendor September11 observation2782 GBX; LSE search-index previous-close row corroborates. Not treated as certified auction print.",
+    "baseline_metric": "FY2026 diluted benchmark equity EPS translated at fixed spot USD/GBP",
+    "baseline_value": 1.3217455621301775,
+    "baseline_period": "FY ended2026-03-31",
+    "baseline_source": [
+      "https://www.experianplc.com/content/dam/marketing/global/plc/en/assets/documents/reports/2026/experian-annual-report-2026.pdf",
+      "https://www.investing.com/currencies/gbp-usd-historical-data"
+    ],
+    "baseline_adjustments": [
+      "Published diluted benchmark EPS USD1.787 /1.3520 USD per GBP, September11 dated FX row. No currency-mixed P/E.",
+      "FY2026 diluted weighted shares919m; FY2027 guidance880-885m is BASIC WANOS and is not substituted as a diluted denominator.",
+      "SBC USD138m plus USD17m associated social-security expense remains in income; no SBC addback. Benchmark EPS excludes acquisition amortization, exceptional/restructuring/transaction expenses and financing remeasurements; these remain normalization uncertainty.",
+      "No explicit buyback yield is added. Baseline contains existing credit analytics/ML; net future share reduction belongs only in EPS-growth assumption."
+    ],
+    "fx": {
+      "usd_per_gbp": 1.352,
+      "date": "2026-09-11",
+      "source": "https://www.investing.com/currencies/gbp-usd-historical-data",
+      "forecast": "Held constant through horizon; local returns conditional on this. EUR investor translation remains separate."
+    },
+    "shares": {
+      "fy2026_diluted_weighted_m": 919,
+      "fy2027_guided_basic_weighted_m": [
+        880,
+        885
+      ]
+    },
+    "balance_sheet": {
+      "date": "2026-03-31",
+      "net_debt_usd_m": 5179,
+      "net_debt_to_benchmark_ebitda": 1.7,
+      "treatment": "Equity earnings include financing and lease expenses, taxes and NCI. No EV or extra cash/debt adjustment."
+    },
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": 0,
+        "terminal_multiple": 15,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "annual_dividend0": 0.5122041420118343,
+        "dividend_growth": 0,
+        "rationale": "Credit-cycle stagnation and data-remediation expense absorb platform growth; no incremental AI; constant reporting/listing FX.",
+        "growth_decomposition": "Flat net business earnings per share; dilution offset only.",
+        "dividends5": [
+          0.5122041420118343,
+          0.5122041420118343,
+          0.5122041420118343,
+          0.5122041420118343,
+          0.5122041420118343
+        ],
+        "terminal_conventional_earnings": 1.3217455621301775,
+        "incremental_ai_terminal_earnings": 0.0,
+        "terminal_total_earnings": 1.3217455621301775,
+        "endpoint_price": 19.82618343195266,
+        "cumulative_dividends": 2.5610207100591715,
+        "ending_wealth_no_dividend_reinvestment": 22.387204142011832,
+        "five_year_total_return": -0.1952838194819615,
+        "wealth_cagr_no_dividend_reinvestment": -0.04252256702850743,
+        "annual_irr": -0.04439027082304242,
+        "entry_prices_by_hurdle": {
+          "0.08": 15.538449923939584,
+          "0.1": 14.25215673255621,
+          "0.12": 13.096290227559884
+        },
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+      },
+      "base": {
+        "growth_ex_ai": 0.08,
+        "terminal_multiple": 20,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "annual_dividend0": 0.5122041420118343,
+        "dividend_growth": 0.07,
+        "rationale": "Bureau refresh and decisioning continue conventional growth, partly offset by Consumer Services normalization and ongoing investment.",
+        "growth_decomposition": "Approximately 6% net business earnings growth +2 points net buybacks, below near-term combination of6-8% organic guidance and margin expansion.",
+        "dividends5": [
+          0.5480584319526627,
+          0.5864225221893491,
+          0.6274720987426036,
+          0.6713951456545859,
+          0.718392805850407
+        ],
+        "terminal_conventional_earnings": 1.9420778648236694,
+        "incremental_ai_terminal_earnings": 0.0,
+        "terminal_total_earnings": 1.9420778648236694,
+        "endpoint_price": 38.84155729647339,
+        "cumulative_dividends": 3.151741004389608,
+        "ending_wealth_no_dividend_reinvestment": 41.993298300862996,
+        "five_year_total_return": 0.5094643530144858,
+        "wealth_cagr_no_dividend_reinvestment": 0.08583684015662452,
+        "annual_irr": 0.08876056378315134,
+        "entry_prices_by_hurdle": {
+          "0.08": 28.925664676975977,
+          "0.1": 26.476499201667977,
+          "0.12": 24.27751442772141
+        },
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+      },
+      "bull": {
+        "growth_ex_ai": 0.1,
+        "terminal_multiple": 24,
+        "incremental_ai_terminal_earnings_pct": 0.05,
+        "annual_dividend0": 0.5122041420118343,
+        "dividend_growth": 0.1,
+        "rationale": "Credit/health demand and platform growth persist; new generative/agentic tools deliver5% net terminal uplift after all costs.",
+        "growth_decomposition": "Approximately 8% conventional earnings growth +2 points net buybacks;5% terminal AI uplift separate.",
+        "dividends5": [
+          0.5634245562130178,
+          0.6197670118343196,
+          0.6817437130177516,
+          0.7499180843195268,
+          0.8249098927514795
+        ],
+        "terminal_conventional_earnings": 2.128684445266273,
+        "incremental_ai_terminal_earnings": 0.10643422226331366,
+        "terminal_total_earnings": 2.2351186675295867,
+        "endpoint_price": 53.642848020710076,
+        "cumulative_dividends": 3.4397632581360953,
+        "ending_wealth_no_dividend_reinvestment": 57.08261127884617,
+        "five_year_total_return": 1.0518551861555059,
+        "wealth_cagr_no_dividend_reinvestment": 0.1545941195322782,
+        "annual_irr": 0.15922304768582907,
+        "entry_prices_by_hurdle": {
+          "0.08": 39.21528285732617,
+          "0.1": 35.86900887573964,
+          "0.12": 32.86543892660045
+        },
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+      }
+    },
+    "ai_bridge": "Bull-only5% terminal net uplift, deliberately smaller than headline existing-analytics claims. Present-scale USD82m after-tax increment on USD1642m benchmark earnings implies approximatelyUSD110m pretax at25.5% tax. A distinct net2% revenue addition at50% incremental contribution margin would supply aboutUSD84m pretax; aboutUSD26m net internal savings completes it. Revenue contribution is after data/model/servicing costs; released labor is not counted twice. These are analyst requirements, not observed conversion economics.",
+    "uncertainties": [
+      "GBP returns vary with USD/GBP; EUR investor also bears GBP/EUR or can analyze underlying USD exposure directly.",
+      "Transaction/restructuring expenses recur and benchmark earnings may overstate owner earnings.",
+      "Exact future diluted shares after ongoing buybacks unknown; no point-in-time market-cap denominator is needed for this EPS model.",
+      "Credit cycle, bureau data quality/remediation and consumer breach-contract run-off can swamp incremental AI benefits."
+    ],
+    "falsifiers": [
+      "Organic B2B growth below4% and benchmark margin fails to improve over two reporting periods.",
+      "Controlled lending experiments show no better quality-adjusted approvals at fixed loss/fairness after data and model costs.",
+      "Growth in agent engagements fails to improve retained marketplace contribution or Patient Access net contract economics."
+    ],
+    "strongest_objection": "Parallel bureau records and lender-owned outcomes limit unique AI lift; the current21x normalized multiple already pays for substantial conventional compounding.",
+    "disposition": "Good conventional compounder; price remains above10% base entry.",
+    "status": "VALUEABLE_WITH_LIMITATIONS",
+    "horizon_years": 5,
+    "valuation_date": "2026-09-12",
+    "horizon_end": "2031-09-12",
+    "model": "Equity EPS terminal multiple plus five end-year gross dividends; annual IRR, not FCF growth.",
+    "growth_units": "Decimals;0.05=5%. Terminal AI uplift is one-off percentage of conventional year5earnings.",
+    "current_normalized_multiple": 21.047923894795748,
+    "eur_investor_fx": "Returns are nominal listing-currency before personal tax/fees. EUR return depends on each GBP/EUR cash-flow conversion for GBP shares; EUR listings still have underlying USD/other-currency earnings exposure. No FX forecast or hedge benefit is included.",
+    "reverse_required_conventional_eps_growth_at_10pct": 0.09177308198055345,
+    "entry_sensitivity_10pct": [
+      {
+        "eps_growth_ex_ai": 0.06,
+        "terminal_multiple": 18,
+        "entry_price": 22.12801929984849
+      },
+      {
+        "eps_growth_ex_ai": 0.06,
+        "terminal_multiple": 20,
+        "entry_price": 24.324582771446796
+      },
+      {
+        "eps_growth_ex_ai": 0.06,
+        "terminal_multiple": 22,
+        "entry_price": 26.521146243045102
+      },
+      {
+        "eps_growth_ex_ai": 0.08,
+        "terminal_multiple": 18,
+        "entry_price": 24.064744087047554
+      },
+      {
+        "eps_growth_ex_ai": 0.08,
+        "terminal_multiple": 20,
+        "entry_price": 26.476499201667977
+      },
+      {
+        "eps_growth_ex_ai": 0.08,
+        "terminal_multiple": 22,
+        "entry_price": 28.8882543162884
+      },
+      {
+        "eps_growth_ex_ai": 0.1,
+        "terminal_multiple": 18,
+        "entry_price": 26.150368173806942
+      },
+      {
+        "eps_growth_ex_ai": 0.1,
+        "terminal_multiple": 20,
+        "entry_price": 28.793859298067296
+      },
+      {
+        "eps_growth_ex_ai": 0.1,
+        "terminal_multiple": 22,
+        "entry_price": 31.437350422327654
+      }
+    ],
+    "base_entry_price_10pct": 26.476499201667977,
+    "base_entry_headroom_pct": -0.04829262395154654,
+    "source_access_date": "2026-09-12",
+    "scenario_probability": "Not assigned; cases are conditional, not consensus or probability-weighted expected return."
+  },
+  {
+    "id": "C015",
+    "company": "Munich Re",
+    "listing": "Xetra: MUV2 registered ordinary; ISIN DE0008430026",
+    "currency": "EUR",
+    "reporting_currency": "EUR",
+    "price": 503.4,
+    "price_date": "2026-09-11",
+    "price_source": "https://tradingeconomics.com/muv2:gr",
+    "price_quality": "Explicit Friday September11 vendor price503.40; not independently certified primary-exchange close.",
+    "baseline_metric": "Through-cycle normalized diluted equity EPS; explicit cat/reserve adjustment",
+    "baseline_value": 37.156412712403466,
+    "baseline_period": "FY2025 normalized to expected major-loss load",
+    "baseline_source": [
+      "https://www.munichre.com/content/dam/munichre/mrwebsiteslaunches/2025-annual-report/MunichRe-Group-Annual-Report-2025-en.pdf/_jcr_content/renditions/original./MunichRe-Group-Annual-Report-2025-en.pdf",
+      "https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/half-year-financial-report.html"
+    ],
+    "baseline_adjustments": [
+      "Start audited EPS EUR47.15; weighted shares129.745410m, no dilution reported.",
+      "P&C reinsurance net insurance revenue EUR17316m; actual major losses9.4% versus17% expectation. Deduct7.6points times revenue after analyst22% tax.",
+      "Reserve releases5.0points; deduct2.0points and retain3.0points as ordinary reserve prudence. This is analyst normalization, not management adjusted EPS.",
+      "Normalized EPS =47.15 -(0.076+0.020)*17316*0.78/129.745410 =37.156413. Removing all5reserve points would reduce it further.",
+      "No insurer FCF model. Compensation expense stays within IFRS income; no equity-incentive addback. No extra dividend or buyback yield beyond stated dividends and per-share earnings growth."
+    ],
+    "shares": {
+      "fy2025_diluted_weighted_m": 129.74541,
+      "fy2025_period_end_m": 127.961889,
+      "dilution_note": "Annual report Note66 says no diluting effects."
+    },
+    "balance_sheet": {
+      "date": "2026-06-30",
+      "equity_m": 33727,
+      "solvency_ii_pct": 304,
+      "treatment": "Insurance capital and investment income are embedded in equity earnings. No subtraction of insurance liabilities and no credit for invested float as excess cash. H1 solvency figure excludes deduction of2026 dividend."
+    },
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": -0.02,
+        "terminal_multiple": 9,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "annual_dividend0": 20,
+        "dividend_growth": 0,
+        "rationale": "Renewal softening and reserve deterioration overwhelm investment yield; below-normal retained earnings and lower dividend; zeroAI.",
+        "growth_decomposition": "Underlying earnings -2% per year, no incremental share-count benefit beyond offsetting capital needs.",
+        "dividends5": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "terminal_conventional_earnings": 33.586454185225385,
+        "incremental_ai_terminal_earnings": 0.0,
+        "terminal_total_earnings": 33.586454185225385,
+        "endpoint_price": 302.27808766702844,
+        "cumulative_dividends": 100,
+        "ending_wealth_no_dividend_reinvestment": 402.27808766702844,
+        "five_year_total_return": -0.2008778552502415,
+        "wealth_cagr_no_dividend_reinvestment": -0.04385747716064081,
+        "annual_irr": -0.04827106764721106,
+        "entry_prices_by_hurdle": {
+          "0.08": 285.57958803923697,
+          "0.1": 263.5066455141715,
+          "0.12": 243.6162288844331
+        },
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+      },
+      "base": {
+        "growth_ex_ai": 0.04,
+        "terminal_multiple": 12,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "annual_dividend0": 24,
+        "dividend_growth": 0.03,
+        "rationale": "Disciplined underwriting and reinvestment yield support modest growth after full catastrophe normalization.12x reflects cyclicality and capital needs.",
+        "growth_decomposition": "Approximately2% business net earnings growth +2points net share reduction; consistent only with funded buybacks and adequate regulatory capital.",
+        "dividends5": [
+          24.72,
+          25.461599999999997,
+          26.225448,
+          27.01221144,
+          27.822577783200003
+        ],
+        "terminal_conventional_earnings": 45.20645736931794,
+        "incremental_ai_terminal_earnings": 0.0,
+        "terminal_total_earnings": 45.20645736931794,
+        "endpoint_price": 542.4774884318152,
+        "cumulative_dividends": 131.2418372232,
+        "ending_wealth_no_dividend_reinvestment": 673.7193256550153,
+        "five_year_total_return": 0.3383379532280797,
+        "wealth_cagr_no_dividend_reinvestment": 0.06001780180663818,
+        "annual_irr": 0.06556557371575111,
+        "entry_prices_by_hurdle": {
+          "0.08": 473.5281372851086,
+          "0.1": 435.78011467113834,
+          "0.12": 401.80633817684816
+        },
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+      },
+      "bull": {
+        "growth_ex_ai": 0.06,
+        "terminal_multiple": 14,
+        "incremental_ai_terminal_earnings_pct": 0.02,
+        "annual_dividend0": 24,
+        "dividend_growth": 0.05,
+        "rationale": "Underwriting discipline survives softer renewals; net AI adds only2% terminal earnings after losses, expenses and capital costs.",
+        "growth_decomposition": "Approximately4% underlying net earnings growth +2points net shares;2% AI uplift separate, well below unproven5% materiality hurdle.",
+        "dividends5": [
+          25.200000000000003,
+          26.46,
+          27.783,
+          29.172150000000006,
+          30.63075750000001
+        ],
+        "terminal_conventional_earnings": 49.72366186360012,
+        "incremental_ai_terminal_earnings": 0.9944732372720024,
+        "terminal_total_earnings": 50.718135100872125,
+        "endpoint_price": 710.0538914122097,
+        "cumulative_dividends": 139.24590750000002,
+        "ending_wealth_no_dividend_reinvestment": 849.2997989122098,
+        "five_year_total_return": 0.6871271333178581,
+        "wealth_cagr_no_dividend_reinvestment": 0.11027244623230481,
+        "annual_irr": 0.11941300241425246,
+        "entry_prices_by_hurdle": {
+          "0.08": 593.6134871415325,
+          "0.1": 545.4825017616838,
+          "0.12": 502.1929307472272
+        },
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+      }
+    },
+    "ai_bridge": "Bull-only2% net terminal earnings uplift; present-scale equivalent circaEUR96m after tax on normalizedEUR4.82bn earnings. AroundEUR123m pretax equates to circa20bp ofFY group insurance revenue, after model and implementation costs. This requires verified expense/selection improvement at unchanged risk and capital; no realized catastrophe luck, reserve release or investment gain counts asAI. Base and downside receive zeroAI.",
+    "uncertainties": [
+      "Normalization assumes3points sustainable reserve releases and uses analyst22% marginal tax; GSI/life/ERGO and investment results are not fully cycle-normalized.",
+      "Renewal price softening, climate and casualty/social-inflation tails may impair capital faster than EPS implies.",
+      "H1 annualized profitability is inflated by benign losses and financial markets;2026 EUR6.3bn guidance is not a through-cycle baseline.",
+      "Book capital and share repurchases require future reconciliation; assumed buybacks must be financed from distributable income, not capital needed for risk."
+    ],
+    "falsifiers": [
+      "Risk-adjusted renewal pricing remains worse than-5% without corresponding exposure exits or risk reduction.",
+      "Several normalized accident years generate ROE below12% or adverse development reverses retained reserve prudence.",
+      "Solvency falls toward200% while distributions and buybacks continue at planned pace.",
+      "Matched risk/capital cohorts fail to show retained AI economics byFY2028."
+    ],
+    "strongest_objection": "Even adjusted earnings may still capitalize unusually favorable reserve, investment and GSI experience; the apparent low headline P/E is not a through-cycle bargain.",
+    "disposition": "Conventional insurer watchlist; material price gap to normalized10% entry.",
+    "status": "VALUEABLE_WITH_LIMITATIONS",
+    "horizon_years": 5,
+    "valuation_date": "2026-09-12",
+    "horizon_end": "2031-09-12",
+    "model": "Equity EPS terminal multiple plus five end-year gross dividends; annual IRR, not FCF growth.",
+    "growth_units": "Decimals;0.05=5%. Terminal AI uplift is one-off percentage of conventional year5earnings.",
+    "current_normalized_multiple": 13.54813242861726,
+    "eur_investor_fx": "Returns are nominal listing-currency before personal tax/fees. EUR return depends on each GBP/EUR cash-flow conversion for GBP shares; EUR listings still have underlying USD/other-currency earnings exposure. No FX forecast or hedge benefit is included.",
+    "reverse_required_conventional_eps_growth_at_10pct": 0.07875762332854264,
+    "entry_sensitivity_10pct": [
+      {
+        "eps_growth_ex_ai": 0.02,
+        "terminal_multiple": 10,
+        "entry_price": 353.6690638137055
+      },
+      {
+        "eps_growth_ex_ai": 0.02,
+        "terminal_multiple": 12,
+        "entry_price": 404.61402161159697
+      },
+      {
+        "eps_growth_ex_ai": 0.02,
+        "terminal_multiple": 14,
+        "entry_price": 455.5589794094884
+      },
+      {
+        "eps_growth_ex_ai": 0.04,
+        "terminal_multiple": 10,
+        "entry_price": 379.64080802999
+      },
+      {
+        "eps_growth_ex_ai": 0.04,
+        "terminal_multiple": 12,
+        "entry_price": 435.78011467113834
+      },
+      {
+        "eps_growth_ex_ai": 0.04,
+        "terminal_multiple": 14,
+        "entry_price": 491.91942131228666
+      },
+      {
+        "eps_growth_ex_ai": 0.06,
+        "terminal_multiple": 10,
+        "entry_price": 407.6890939411745
+      },
+      {
+        "eps_growth_ex_ai": 0.06,
+        "terminal_multiple": 12,
+        "entry_price": 469.43805776455986
+      },
+      {
+        "eps_growth_ex_ai": 0.06,
+        "terminal_multiple": 14,
+        "entry_price": 531.1870215879451
+      }
+    ],
+    "base_entry_price_10pct": 435.78011467113834,
+    "base_entry_headroom_pct": -0.13432635146774263,
+    "source_access_date": "2026-09-12",
+    "scenario_probability": "Not assigned; cases are conditional, not consensus or probability-weighted expected return."
+  },
+  {
+    "id": "C041",
+    "company": "SAP",
+    "listing": "Xetra: SAP ordinary; ISIN DE0007164600",
+    "currency": "EUR",
+    "reporting_currency": "EUR",
+    "price": 177.26,
+    "price_date": "2026-09-11",
+    "price_source": "https://www.investing.com/equities/sap-ag-historical-data",
+    "price_quality": "Dated September11 historical Xetra vendor closing-price row177.260.",
+    "baseline_metric": "Diluted TTM non-IFRS equity EPS with SBC normalization",
+    "baseline_value": 6.34686655589485,
+    "baseline_period": "Twelve months ended2026-06-30",
+    "baseline_source": [
+      "https://www.sap.com/docs/download/investors/2025/sap-2025-annual-report-form-20f.pdf",
+      "https://www.sap.com/docs/download/investors/2026/sap-2026-q2-statement.pdf"
+    ],
+    "baseline_adjustments": [
+      "Use auditedFY non-IFRS attributable net profit EUR7156m, not January preliminary release; addH12026 EUR3833m and subtractH12025 EUR3432m =EUR7557m.",
+      "Reconstructed diluted TTM shares1175m +(1163m-1175m)*181/365 =1169.0493150684931m.",
+      "SBC retained in SAP non-IFRS earnings. TTM SBC1695-949+753=1499m; restore annualFY1695m charge because H1 decline partly reflects falling share price. Deduct extra196m at analyst30% tax =137.2m net; earning base7419.8m.",
+      "Non-IFRS removes acquired-intangible/restructuring/litigation expenses and volatile equity gains. Audited IFRS6.10 diluted EPS versus basic6.14 corroborates scale; unbridged assumedEUR7EPS is rejected.",
+      "Do not capitalize reportedFCF directly: SAP cash-flow definition excludes interest and adds property/intangible sale proceeds. EPS contains financing costs; no net-cash or buyback-yield addition."
+    ],
+    "shares": {
+      "fy2025_diluted_weighted_m": 1175,
+      "h12026_diluted_weighted_m": 1163,
+      "ttm_diluted_weighted_m": 1169.0493150684931,
+      "h12026_program_repurchases_m": 16.280097
+    },
+    "balance_sheet": {
+      "date": "2025-12-31",
+      "net_liquidity_before_leases_m": 3381,
+      "lease_liabilities_m": 1684,
+      "net_liquidity_after_leases_m": 1697,
+      "treatment": "Context only; EPS includes financing costs, leases, tax, minority interests. No EV model or separate excess cash value; July acquisitions may reduce cash."
+    },
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": 0.03,
+        "terminal_multiple": 17,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "annual_dividend0": 2.5,
+        "dividend_growth": 0,
+        "rationale": "Migration slows and support/license erosion consumes most cloud growth; higher delivery costs prevent operating leverage; no incrementalAI.",
+        "growth_decomposition": "Approximately3% ordinary EPS growth; no sustained net share reduction benefit.",
+        "dividends5": [
+          2.5,
+          2.5,
+          2.5,
+          2.5,
+          2.5
+        ],
+        "terminal_conventional_earnings": 7.357757851290631,
+        "incremental_ai_terminal_earnings": 0.0,
+        "terminal_total_earnings": 7.357757851290631,
+        "endpoint_price": 125.08188347194073,
+        "cumulative_dividends": 12.5,
+        "ending_wealth_no_dividend_reinvestment": 137.58188347194073,
+        "five_year_total_return": -0.22384134338293615,
+        "wealth_cagr_no_dividend_reinvestment": -0.049416873244037984,
+        "annual_irr": -0.05110021027440309,
+        "entry_prices_by_hurdle": {
+          "0.08": 95.11040323703197,
+          "0.1": 87.14297549964961,
+          "0.12": 79.98676035170605
+        },
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+      },
+      "base": {
+        "growth_ex_ai": 0.1,
+        "terminal_multiple": 22,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "annual_dividend0": 2.5,
+        "dividend_growth": 0.08,
+        "rationale": "Cloud migration, suite mix and ordinary operating leverage support10% normalized nominalEUR EPS compounding; AI already in ordinary product renewal economics is not separately booked.",
+        "growth_decomposition": "Approximately7% sales growth +2points earnings growth from operating leverage +1point net shares; all are analyst approximations, below near-term constant-currency guidance.",
+        "dividends5": [
+          2.7,
+          2.9160000000000004,
+          3.1492800000000005,
+          3.401222400000001,
+          3.673320192000001
+        ],
+        "terminal_conventional_earnings": 10.221692056934218,
+        "incremental_ai_terminal_earnings": 0.0,
+        "terminal_total_earnings": 10.221692056934218,
+        "endpoint_price": 224.8772252525528,
+        "cumulative_dividends": 15.839822592000003,
+        "ending_wealth_no_dividend_reinvestment": 240.71704784455278,
+        "five_year_total_return": 0.35798853573594047,
+        "wealth_cagr_no_dividend_reinvestment": 0.06311249054543366,
+        "annual_irr": 0.0648907907961821,
+        "entry_prices_by_hurdle": {
+          "0.08": 165.54766090246176,
+          "0.1": 151.465551213313,
+          "0.12": 138.82418262973573
+        },
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+      },
+      "bull": {
+        "growth_ex_ai": 0.12,
+        "terminal_multiple": 27,
+        "incremental_ai_terminal_earnings_pct": 0.1,
+        "annual_dividend0": 2.5,
+        "dividend_growth": 0.1,
+        "rationale": "Cloud and suite adoption endure; paid authorized agents deliver an additional10% net terminal earnings, with27x supported only by durable visible growth.",
+        "growth_decomposition": "Approximately9% sales growth +2points margin/mix EPS effect +1point net shares;10% terminal AI uplift separately equivalent to1.92% annual factor.",
+        "dividends5": [
+          2.75,
+          3.0250000000000004,
+          3.327500000000001,
+          3.660250000000001,
+          4.026275000000002
+        ],
+        "terminal_conventional_earnings": 11.18534748916152,
+        "incremental_ai_terminal_earnings": 1.1185347489161521,
+        "terminal_total_earnings": 12.303882238077673,
+        "endpoint_price": 332.20482042809715,
+        "cumulative_dividends": 16.789025000000002,
+        "ending_wealth_no_dividend_reinvestment": 348.99384542809713,
+        "five_year_total_return": 0.9688245821284958,
+        "wealth_cagr_no_dividend_reinvestment": 0.14509470018587178,
+        "annual_irr": 0.14848496230456,
+        "entry_prices_by_hurdle": {
+          "0.08": 239.30484989701725,
+          "0.1": 218.77305662684307,
+          "0.12": 200.3480257171148
+        },
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+      }
+    },
+    "ai_bridge": "Bull-only10% net terminal earnings uplift. Present-scale normalized earningsEUR7.42bn implyEUR742m net, aroundEUR1.06bn pretax at30% tax. Distinct net5% group revenue uplift at45% incremental contribution margin supplies aboutEUR828m pretax; roughlyEUR232m net internal savings completes the requirement. Contribution margins include model/cloud/service cost and net seat cannibalization; do not also count product-development capacity as removed payroll. This is demanding and conditional, not paidAIARR guidance.",
+    "uncertainties": [
+      "Audited annual numbers supersede preliminaryQ4 statement; use only audited-plusH1 bridge.",
+      "SBC responds to share price and new grants; a rising bull price can increase future compensation cost.",
+      "Recurring restructuring/acquisition costs and capitalized development weaken the equality of adjusted earnings and owner cash.",
+      "Cloud backlog is not incrementalAI revenue; renewals, active workflow execution, inference costs and license-design friction unresolved.",
+      "FY2026 operating guidance is at constant currencies, while EPS model is nominal reportedEUR."
+    ],
+    "falsifiers": [
+      "Cloud backlog growth falls below15% while support/licenses continue high-single/double-digit declines.",
+      "Cloud gross margin remains below72% or acquisition and serving costs eliminate ordinary operating leverage.",
+      "Authorized production workflows and AI renewal contract value fail to become material byFY2028.",
+      "Repeated large restructuring/litigation adjustments or higher equity-compensation cost prevent reported EPS catching up with adjustedEPS."
+    ],
+    "strongest_objection": "Migration is a strong conventional growth engine, but customers can place non-SAP agents over SAP data; a27x bull terminal multiple and10%AI uplift jointly require unusually good capture.",
+    "disposition": "Price watchlist; conventional base does not support current quote at10% hurdle.",
+    "status": "VALUEABLE_WITH_LIMITATIONS",
+    "horizon_years": 5,
+    "valuation_date": "2026-09-12",
+    "horizon_end": "2031-09-12",
+    "model": "Equity EPS terminal multiple plus five end-year gross dividends; annual IRR, not FCF growth.",
+    "growth_units": "Decimals;0.05=5%. Terminal AI uplift is one-off percentage of conventional year5earnings.",
+    "current_normalized_multiple": 27.92874222877181,
+    "eur_investor_fx": "Returns are nominal listing-currency before personal tax/fees. EUR return depends on each GBP/EUR cash-flow conversion for GBP shares; EUR listings still have underlying USD/other-currency earnings exposure. No FX forecast or hedge benefit is included.",
+    "reverse_required_conventional_eps_growth_at_10pct": 0.1379332133970429,
+    "entry_sensitivity_10pct": [
+      {
+        "eps_growth_ex_ai": 0.08,
+        "terminal_multiple": 20,
+        "entry_price": 127.64412778410838
+      },
+      {
+        "eps_growth_ex_ai": 0.08,
+        "terminal_multiple": 22,
+        "entry_price": 139.22509186415658
+      },
+      {
+        "eps_growth_ex_ai": 0.08,
+        "terminal_multiple": 24,
+        "entry_price": 150.8060559442048
+      },
+      {
+        "eps_growth_ex_ai": 0.1,
+        "terminal_multiple": 20,
+        "entry_price": 138.77181810152328
+      },
+      {
+        "eps_growth_ex_ai": 0.1,
+        "terminal_multiple": 22,
+        "entry_price": 151.465551213313
+      },
+      {
+        "eps_growth_ex_ai": 0.1,
+        "terminal_multiple": 24,
+        "entry_price": 164.1592843251027
+      },
+      {
+        "eps_growth_ex_ai": 0.12000000000000001,
+        "terminal_multiple": 20,
+        "entry_price": 150.73890222055766
+      },
+      {
+        "eps_growth_ex_ai": 0.12000000000000001,
+        "terminal_multiple": 22,
+        "entry_price": 164.6293437442508
+      },
+      {
+        "eps_growth_ex_ai": 0.12000000000000001,
+        "terminal_multiple": 24,
+        "entry_price": 178.51978526794394
+      }
+    ],
+    "base_entry_price_10pct": 151.465551213313,
+    "base_entry_headroom_pct": -0.14551759441885925,
+    "source_access_date": "2026-09-12",
+    "scenario_probability": "Not assigned; cases are conditional, not consensus or probability-weighted expected return."
+  }
+]
