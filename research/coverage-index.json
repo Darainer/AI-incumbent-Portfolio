@@ -1,9 +1,9 @@
 {
   "cutoff": "2026-09-12",
   "scope": 100,
-  "packets_available": 16,
-  "lead_accepted": 11,
-  "remaining_to_accept": 89,
+  "packets_available": 97,
+  "lead_accepted": 18,
+  "remaining_to_accept": 82,
   "phase": "evidence coverage; comparative ranking and valuation cases deferred",
   "companies": [
     {
@@ -40,9 +40,24 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/012-c023-jpmorgan-chase.md",
       "capsule": "research/batch-02/capsules/c023.json",
-      "status": "ready_for_lead_review",
+      "status": "lead_accepted",
       "words": 1497,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Capsule reviewed; Q2 release and COO letter opened independently; annualization arithmetic checked.",
+        "checked_sources": [
+          "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/6cded9fd-a164-4e6c-8cff-377357cf105c.pdf",
+          "https://www.jpmorganchase.com/ir/annual-report/2025/ar-ceo-letter-jennifer-piepszak"
+        ],
+        "note": "Q2 adjusted income, capital and expense growth verified. The COO explicitly describes reinvesting released capacity in growth. E2 enterprise deployment is credible; headcount savings and incremental earnings cannot be inferred from usage. Annualized quarterly income is only a scale proxy.",
+        "remaining_limits": [
+          "Capital/risk-adjusted normalization",
+          "Paid or internal end-to-end productivity comparator",
+          "After-tax contribution after reinvestment"
+        ]
+      },
       "issues": []
     },
     {
@@ -52,13 +67,23 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/013-c001-sanofi.md",
       "capsule": "research/batch-02/capsules/c001.json",
-      "status": "revision_requested",
-      "words": 1625,
+      "status": "lead_accepted",
+      "words": 1647,
       "sources": 5,
       "lead_review": {
-        "status": "revision_requested",
+        "status": "accepted",
         "reviewed_at": "2026-09-12",
-        "note": "Correct the mismatch between programme NPV and annual profit; independently recheck the precise riliprubart adverse source before treating it as established."
+        "review_scope": "Financial and discovery sources checked independently; annual/PV correction reviewed.",
+        "checked_sources": [
+          "https://www.sanofi.com/en/media-room/press-releases/2026/2026-01-29-06-30-00-3228191",
+          "https://ir.recursion.com/news-releases/news-release-details/exscientia-achieves-milestones-two-programmes-sanofi"
+        ],
+        "note": "FY2025 BOI and two preclinical partner milestones support a bounded research packet. The EUR600m programme PV cannot clear a EUR607m annual hurdle; no clinical or cash inference is accepted.",
+        "remaining_limits": [
+          "Prospective clinical transition/control evidence",
+          "Paywalled adverse report excluded from decisive evidence",
+          "Annual economics and data rights"
+        ]
       },
       "issues": []
     },
@@ -69,9 +94,24 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/014-c002-roche.md",
       "capsule": "research/batch-02/capsules/c002.json",
-      "status": "ready_for_lead_review",
-      "words": 1597,
+      "status": "lead_accepted",
+      "words": 1636,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "H1 report and factory release opened independently; competitor attribution and arithmetic reviewed.",
+        "checked_sources": [
+          "https://assets.roche.com/f/176343/x/8a0b362d66/hy26e.pdf",
+          "https://www.roche.com/media/releases/med-cor-2026-03-16"
+        ],
+        "note": "Roche has compute deployment and partnered pathology inputs. External Paige benchmarks do not establish Roche efficacy. CHF152m annual pathology illustration stays separate from CHF450m R&D PV.",
+        "remaining_limits": [
+          "PathAI rights and production adoption",
+          "H1 annualization is scale only",
+          "No company-specific controlled productivity/capture"
+        ]
+      },
       "issues": []
     },
     {
@@ -81,13 +121,23 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/015-c003-astrazeneca.md",
       "capsule": "research/batch-02/capsules/c003.json",
-      "status": "revision_requested",
-      "words": 1592,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1652,
+      "sources": 8,
       "lead_review": {
-        "status": "revision_requested",
+        "status": "accepted",
         "reviewed_at": "2026-09-12",
-        "note": "Refresh FY2024-only baseline using FY2025/H1 2026 where retrievable; strengthen direct sources/challenger evidence; remove invalid annual-profit versus programme-NPV comparison."
+        "review_scope": "FY2025 issuer financial table and August 2026 AI page opened independently; corrected annual/PV calculation reviewed.",
+        "checked_sources": [
+          "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+          "https://www.astrazeneca.com/r-d/science-and-technologies/ai-data.html"
+        ],
+        "note": "Reported FY2025 OP is USD13.743bn. The issuer reports AI-enabled discovery use; this is scoped E2, with no demonstrated clinical success-rate uplift. The USD687.15m annual hurdle and USD4.22bn ten-year PV equivalent are explicitly different units.",
+        "remaining_limits": [
+          "Matched prospective clinical outcomes",
+          "Contract-specific training rights",
+          "Retained economics"
+        ]
       },
       "issues": []
     },
@@ -98,9 +148,9 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/016-c072-linde.md",
       "capsule": "research/batch-02/capsules/c072.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1692,
+      "sources": 6,
       "issues": []
     },
     {
@@ -110,9 +160,9 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/017-c062-deere.md",
       "capsule": "research/batch-02/capsules/c062.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1617,
+      "sources": 5,
       "issues": []
     },
     {
@@ -122,9 +172,9 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/018-c053-amazon.md",
       "capsule": "research/batch-02/capsules/c053.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1616,
+      "sources": 5,
       "issues": []
     },
     {
@@ -134,13 +184,23 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/019-c004-novartis.md",
       "capsule": "research/batch-02/capsules/c004.json",
-      "status": "revision_requested",
+      "status": "lead_accepted",
       "words": 1571,
       "sources": 5,
       "lead_review": {
-        "status": "revision_requested",
+        "status": "accepted",
         "reviewed_at": "2026-09-12",
-        "note": "Correct programme NPV versus annual profit comparison. Preserve explicit H1 detail-access limitation and distinguish non-AI clinical failures from causal AI evidence."
+        "review_scope": "Lead financial/partner source checks plus independent clinical-financial audit; correction reviewed.",
+        "checked_sources": [
+          "https://www.novartis.com/news/media-releases/novartis-delivered-high-single-digit-sales-growth-achieved-40-core-margin-and-further-advanced-pipeline-2025",
+          "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-novartis-collaboration-expansion"
+        ],
+        "note": "Company-specific workflow integration supports narrow E2. Neither partnership expansion nor unrelated clinical failures establish AI efficacy. The annual core-profit hurdle is USD1.09445bn, not programme NPV.",
+        "remaining_limits": [
+          "H1 detailed financial access gap",
+          "2021 supplier workflow evidence is old",
+          "No prospective outcomes/capture"
+        ]
       },
       "issues": []
     },
@@ -151,9 +211,9 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/020-c005-novo-nordisk.md",
       "capsule": "research/batch-02/capsules/c005.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1612,
+      "sources": 6,
       "issues": []
     },
     {
@@ -163,9 +223,9 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/021-c006-eli-lilly.md",
       "capsule": "research/batch-03/capsules/c006.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1306,
+      "sources": 5,
       "issues": []
     },
     {
@@ -175,9 +235,9 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/022-c007-siemens-healthineers.md",
       "capsule": "research/batch-03/capsules/c007.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1257,
+      "sources": 5,
       "issues": []
     },
     {
@@ -187,9 +247,9 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/023-c008-medtronic.md",
       "capsule": "research/batch-03/capsules/c008.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1317,
+      "sources": 4,
       "issues": []
     },
     {
@@ -199,9 +259,25 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/024-c009-intuitive-surgical.md",
       "capsule": "research/batch-03/capsules/c009.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "lead_accepted",
+      "words": 1275,
+      "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead capsule review and independent clinical-financial full-dossier/source/arithmetic audit.",
+        "checked_sources": [
+          "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000047/q226ex-991earningsrelease.htm",
+          "https://www.intuitive.com/en-us/digital-solutions/my-intuitive/my-intuitive"
+        ],
+        "note": "AI-powered Case Insights is a bounded available feature, not evidence of clinical benefit or material digital revenue. The 10-K explicitly says digital/learning revenue is not material. USD96.3m benefit is assumption-driven versus USD147.3m operating-profit scale.",
+        "remaining_limits": [
+          "Actual adoption and regional clearance",
+          "Clinical matched outcomes",
+          "Paid attach and retained contribution"
+        ]
+      },
       "issues": []
     },
     {
@@ -211,9 +287,9 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/025-c010-thermo-fisher-scientific.md",
       "capsule": "research/batch-03/capsules/c010.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1694,
+      "sources": 5,
       "issues": []
     },
     {
@@ -223,9 +299,9 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/026-c011-danaher.md",
       "capsule": "research/batch-03/capsules/c011.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1701,
+      "sources": 5,
       "issues": []
     },
     {
@@ -235,9 +311,9 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/027-c012-iqvia.md",
       "capsule": "research/batch-03/capsules/c012.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1602,
+      "sources": 5,
       "issues": []
     },
     {
@@ -247,9 +323,9 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/028-c013-hca-healthcare.md",
       "capsule": "research/batch-03/capsules/c013.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1586,
+      "sources": 5,
       "issues": []
     },
     {
@@ -259,9 +335,9 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/029-c014-unitedhealth-group.md",
       "capsule": "research/batch-03/capsules/c014.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1278,
+      "sources": 5,
       "issues": []
     },
     {
@@ -271,9 +347,9 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/030-c016-swiss-re.md",
       "capsule": "research/batch-03/capsules/c016.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1268,
+      "sources": 5,
       "issues": []
     },
     {
@@ -283,9 +359,9 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/031-c017-allianz.md",
       "capsule": "research/batch-04/capsules/c017.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1303,
+      "sources": 4,
       "issues": []
     },
     {
@@ -295,9 +371,9 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/032-c019-progressive.md",
       "capsule": "research/batch-04/capsules/c019.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1348,
+      "sources": 4,
       "issues": []
     },
     {
@@ -307,9 +383,9 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/033-c020-aia-group.md",
       "capsule": "research/batch-04/capsules/c020.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1125,
+      "sources": 4,
       "issues": []
     },
     {
@@ -319,9 +395,9 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/034-c021-blackrock.md",
       "capsule": "research/batch-04/capsules/c021.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1157,
+      "sources": 4,
       "issues": []
     },
     {
@@ -331,9 +407,9 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/035-c022-manulife.md",
       "capsule": "research/batch-04/capsules/c022.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1707,
+      "sources": 5,
       "issues": []
     },
     {
@@ -343,9 +419,9 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/036-c024-dbs-group.md",
       "capsule": "research/batch-04/capsules/c024.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1694,
+      "sources": 5,
       "issues": []
     },
     {
@@ -355,9 +431,9 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/037-c025-icici-bank.md",
       "capsule": "research/batch-04/capsules/c025.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1617,
+      "sources": 5,
       "issues": []
     },
     {
@@ -367,9 +443,9 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/038-c027-mastercard.md",
       "capsule": "research/batch-04/capsules/c027.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1592,
+      "sources": 5,
       "issues": []
     },
     {
@@ -379,9 +455,23 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/039-c028-adyen.md",
       "capsule": "research/batch-04/capsules/c028.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "lead_accepted",
+      "words": 1204,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead opened H1 financial/AI release and recomputed illustration; erroneous positive result corrected.",
+        "checked_sources": [
+          "https://www.adyen.com/press-and-media/adyen-publishes-h1-2026-financial-results-3wjne"
+        ],
+        "note": "Issuer-reported 0.9 percentage-point conversion improvement supports E2 only. EUR641.5m H1 EBITDA is confirmed. Correct own-contribution illustration is negative EUR19.28m; no positive materiality conclusion is accepted.",
+        "remaining_limits": [
+          "Fraud/false-decline quality and matched protocol",
+          "Merchant training permissions",
+          "Quarterly/half-year annualization and EBITDA basis"
+        ]
+      },
       "issues": []
     },
     {
@@ -391,9 +481,9 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/040-c029-s-p-global.md",
       "capsule": "research/batch-04/capsules/c029.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1202,
+      "sources": 5,
       "issues": []
     },
     {
@@ -403,9 +493,9 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/041-c030-moody-s.md",
       "capsule": "research/batch-05/capsules/c030.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1195,
+      "sources": 4,
       "issues": []
     },
     {
@@ -415,9 +505,9 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/042-c032-london-stock-exchange-group.md",
       "capsule": "research/batch-05/capsules/c032.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1201,
+      "sources": 4,
       "issues": []
     },
     {
@@ -427,9 +517,9 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/043-c033-intercontinental-exchange.md",
       "capsule": "research/batch-05/capsules/c033.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 986,
+      "sources": 4,
       "issues": []
     },
     {
@@ -439,9 +529,9 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/044-c038-veeva-systems.md",
       "capsule": "research/batch-05/capsules/c038.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1072,
+      "sources": 4,
       "issues": []
     },
     {
@@ -451,9 +541,9 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/045-c039-constellation-software.md",
       "capsule": "research/batch-05/capsules/c039.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1716,
+      "sources": 4,
       "issues": []
     },
     {
@@ -463,9 +553,9 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/046-c040-adp.md",
       "capsule": "research/batch-05/capsules/c040.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1723,
+      "sources": 5,
       "issues": []
     },
     {
@@ -475,9 +565,9 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/047-c042-servicenow.md",
       "capsule": "research/batch-05/capsules/c042.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1570,
+      "sources": 5,
       "issues": []
     },
     {
@@ -487,9 +577,9 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/048-c043-salesforce.md",
       "capsule": "research/batch-05/capsules/c043.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1582,
+      "sources": 5,
       "issues": []
     },
     {
@@ -499,9 +589,9 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/049-c044-synopsys.md",
       "capsule": "research/batch-05/capsules/c044.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1201,
+      "sources": 5,
       "issues": []
     },
     {
@@ -511,9 +601,9 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/050-c045-cadence-design-systems.md",
       "capsule": "research/batch-05/capsules/c045.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1200,
+      "sources": 5,
       "issues": []
     },
     {
@@ -523,9 +613,9 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/051-c046-dassault-systemes.md",
       "capsule": "research/batch-06/capsules/c046.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1196,
+      "sources": 4,
       "issues": []
     },
     {
@@ -535,9 +625,9 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/052-c047-autodesk.md",
       "capsule": "research/batch-06/capsules/c047.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1191,
+      "sources": 4,
       "issues": []
     },
     {
@@ -547,9 +637,9 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/053-c048-tsmc.md",
       "capsule": "research/batch-06/capsules/c048.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 958,
+      "sources": 4,
       "issues": []
     },
     {
@@ -559,9 +649,9 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/054-c049-asml.md",
       "capsule": "research/batch-06/capsules/c049.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1005,
+      "sources": 4,
       "issues": []
     },
     {
@@ -571,9 +661,9 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/055-c050-applied-materials.md",
       "capsule": "research/batch-06/capsules/c050.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1705,
+      "sources": 5,
       "issues": []
     },
     {
@@ -583,9 +673,9 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/056-c051-kla.md",
       "capsule": "research/batch-06/capsules/c051.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1721,
+      "sources": 5,
       "issues": []
     },
     {
@@ -595,9 +685,9 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/057-c052-microsoft.md",
       "capsule": "research/batch-06/capsules/c052.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1554,
+      "sources": 5,
       "issues": []
     },
     {
@@ -607,9 +697,9 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/058-c054-alphabet.md",
       "capsule": "research/batch-06/capsules/c054.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1589,
+      "sources": 5,
       "issues": []
     },
     {
@@ -619,9 +709,9 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/059-c055-accenture.md",
       "capsule": "research/batch-06/capsules/c055.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1200,
+      "sources": 4,
       "issues": []
     },
     {
@@ -631,9 +721,9 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/060-c056-tata-consultancy-services.md",
       "capsule": "research/batch-06/capsules/c056.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1228,
+      "sources": 4,
       "issues": []
     },
     {
@@ -643,9 +733,9 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/061-c057-palo-alto-networks.md",
       "capsule": "research/batch-07/capsules/c057.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1196,
+      "sources": 4,
       "issues": []
     },
     {
@@ -655,9 +745,9 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/062-c058-crowdstrike.md",
       "capsule": "research/batch-07/capsules/c058.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1191,
+      "sources": 4,
       "issues": []
     },
     {
@@ -667,10 +757,12 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/063-c061-abb.md",
       "capsule": "research/batch-07/capsules/c061.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
-      "issues": []
+      "status": "draft",
+      "words": 664,
+      "sources": 4,
+      "issues": [
+        "packet below 700 words; lead must review scope"
+      ]
     },
     {
       "order": 64,
@@ -679,9 +771,9 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/064-c063-caterpillar.md",
       "capsule": "research/batch-07/capsules/c063.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 704,
+      "sources": 4,
       "issues": []
     },
     {
@@ -691,9 +783,9 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/065-c064-komatsu.md",
       "capsule": "research/batch-07/capsules/c064.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1742,
+      "sources": 5,
       "issues": []
     },
     {
@@ -703,9 +795,9 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/066-c065-dhl-group.md",
       "capsule": "research/batch-07/capsules/c065.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1671,
+      "sources": 5,
       "issues": []
     },
     {
@@ -715,9 +807,9 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/067-c066-ups.md",
       "capsule": "research/batch-07/capsules/c066.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1532,
+      "sources": 5,
       "issues": []
     },
     {
@@ -727,9 +819,9 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/068-c067-canadian-national-railway.md",
       "capsule": "research/batch-07/capsules/c067.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1551,
+      "sources": 5,
       "issues": []
     },
     {
@@ -739,9 +831,9 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/069-c068-safran.md",
       "capsule": "research/batch-07/capsules/c068.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1218,
+      "sources": 5,
       "issues": []
     },
     {
@@ -751,9 +843,9 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/070-c069-ge-aerospace.md",
       "capsule": "research/batch-07/capsules/c069.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1234,
+      "sources": 5,
       "issues": []
     },
     {
@@ -763,9 +855,9 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/071-c070-waste-management.md",
       "capsule": "research/batch-08/capsules/c070.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1197,
+      "sources": 4,
       "issues": []
     },
     {
@@ -775,9 +867,9 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/072-c071-cintas.md",
       "capsule": "research/batch-08/capsules/c071.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1194,
+      "sources": 4,
       "issues": []
     },
     {
@@ -787,9 +879,9 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/073-c073-basf.md",
       "capsule": "research/batch-08/capsules/c073.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1105,
+      "sources": 4,
       "issues": []
     },
     {
@@ -799,9 +891,9 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/074-c074-dsm-firmenich.md",
       "capsule": "research/batch-08/capsules/c074.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1096,
+      "sources": 4,
       "issues": []
     },
     {
@@ -811,9 +903,9 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/075-c075-rio-tinto.md",
       "capsule": "research/batch-08/capsules/c075.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1688,
+      "sources": 5,
       "issues": []
     },
     {
@@ -823,9 +915,9 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/076-c076-bhp.md",
       "capsule": "research/batch-08/capsules/c076.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1720,
+      "sources": 5,
       "issues": []
     },
     {
@@ -835,9 +927,9 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/077-c077-alibaba.md",
       "capsule": "research/batch-08/capsules/c077.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1604,
+      "sources": 5,
       "issues": []
     },
     {
@@ -847,9 +939,9 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/078-c078-mercadolibre.md",
       "capsule": "research/batch-08/capsules/c078.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1622,
+      "sources": 5,
       "issues": []
     },
     {
@@ -859,9 +951,9 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/079-c079-inditex.md",
       "capsule": "research/batch-08/capsules/c079.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1201,
+      "sources": 4,
       "issues": []
     },
     {
@@ -871,9 +963,9 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/080-c080-uber.md",
       "capsule": "research/batch-08/capsules/c080.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1203,
+      "sources": 4,
       "issues": []
     },
     {
@@ -883,9 +975,9 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/081-c081-booking-holdings.md",
       "capsule": "research/batch-09/capsules/c081.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1199,
+      "sources": 4,
       "issues": []
     },
     {
@@ -895,9 +987,9 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/082-c082-amadeus-it-group.md",
       "capsule": "research/batch-09/capsules/c082.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1195,
+      "sources": 4,
       "issues": []
     },
     {
@@ -907,10 +999,12 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/083-c083-toyota-motor.md",
       "capsule": "research/batch-09/capsules/c083.json",
-      "status": "scheduled",
-      "words": 0,
+      "status": "draft",
+      "words": 1026,
       "sources": 0,
-      "issues": []
+      "issues": [
+        "capsule not yet present"
+      ]
     },
     {
       "order": 84,
@@ -931,9 +1025,9 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/085-c085-nike.md",
       "capsule": "research/batch-09/capsules/c085.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1714,
+      "sources": 5,
       "issues": []
     },
     {
@@ -943,9 +1037,9 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/086-c086-lvmh.md",
       "capsule": "research/batch-09/capsules/c086.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1696,
+      "sources": 5,
       "issues": []
     },
     {
@@ -955,9 +1049,9 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/087-c087-unilever.md",
       "capsule": "research/batch-09/capsules/c087.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1555,
+      "sources": 5,
       "issues": []
     },
     {
@@ -967,9 +1061,9 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/088-c088-nestle.md",
       "capsule": "research/batch-09/capsules/c088.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1545,
+      "sources": 5,
       "issues": []
     },
     {
@@ -979,9 +1073,9 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/089-c089-procter-gamble.md",
       "capsule": "research/batch-09/capsules/c089.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1200,
+      "sources": 4,
       "issues": []
     },
     {
@@ -991,9 +1085,9 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/090-c090-walmart.md",
       "capsule": "research/batch-09/capsules/c090.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1206,
+      "sources": 4,
       "issues": []
     },
     {
@@ -1003,9 +1097,9 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/091-c091-costco.md",
       "capsule": "research/batch-10/capsules/c091.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1194,
+      "sources": 4,
       "issues": []
     },
     {
@@ -1015,9 +1109,9 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/092-c092-deutsche-telekom.md",
       "capsule": "research/batch-10/capsules/c092.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1196,
+      "sources": 4,
       "issues": []
     },
     {
@@ -1051,9 +1145,9 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/095-c095-netflix.md",
       "capsule": "research/batch-10/capsules/c095.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1693,
+      "sources": 6,
       "issues": []
     },
     {
@@ -1063,9 +1157,9 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/096-c096-shell.md",
       "capsule": "research/batch-10/capsules/c096.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1677,
+      "sources": 6,
       "issues": []
     },
     {
@@ -1075,9 +1169,9 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/097-c097-slb.md",
       "capsule": "research/batch-10/capsules/c097.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1575,
+      "sources": 5,
       "issues": []
     },
     {
@@ -1087,9 +1181,9 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/098-c098-iberdrola.md",
       "capsule": "research/batch-10/capsules/c098.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1611,
+      "sources": 5,
       "issues": []
     },
     {
@@ -1099,9 +1193,9 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/099-c099-prologis.md",
       "capsule": "research/batch-10/capsules/c099.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1226,
+      "sources": 5,
       "issues": []
     },
     {
@@ -1111,9 +1205,9 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/100-c100-cbre-group.md",
       "capsule": "research/batch-10/capsules/c100.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "ready_for_lead_review",
+      "words": 1215,
+      "sources": 5,
       "issues": []
     }
   ]
