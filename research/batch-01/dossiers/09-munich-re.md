@@ -6,7 +6,7 @@
 
 ## Provisional conclusion
 
-Munich Re is a financially strong, diversified reinsurer with a plausible scarce asset in risk histories, catastrophe expertise, underwriting workflows and client relationships. It has production-oriented classical analytics and automated underwriting tools, and management now describes generative AI use in pricing, portfolio management, claims-trend monitoring and data entry. The evidence is strongest for technical plausibility and selected predictive-model validation, but weak for scaled deployment denominators and absent for incremental cash economics. The exceptionally low 2025 and first-half 2026 major-loss burden, rising investment income and the hard-market legacy explain current earnings far more directly than AI.
+Munich Re is a financially strong, diversified reinsurer with a plausible scarce asset in risk histories, catastrophe expertise, underwriting workflows and client relationships. It has production-oriented classical analytics and automated underwriting tools, and management now describes generative AI use in pricing, portfolio management, claims-trend monitoring and data entry. The evidence is strongest for technical plausibility and a selected predictive-model proof of concept, but weak for scaled deployment denominators and absent for incremental cash economics. The exceptionally low 2025 and first-half 2026 major-loss burden, rising investment income and the hard-market legacy explain current earnings far more directly than AI.
 
 At €503.40, the shares are about **10.7× 2025 EPS** and **1.94× 2025 book value**. A residual-income reverse calculation implies roughly a 13.7% sustainable ROE if the cost of equity is 9% and long-run book growth is 4%, below management's >18% 2030 ambition but not obviously conservative after catastrophe normalization. Provisional disposition: **qualified business; watch for evidence and price, not yet an AI-qualified opportunity**. G2 fails because no measured, material, net AI benefit is disclosed.
 
@@ -47,7 +47,7 @@ Munich Re’s 2025 report describes group privacy governance, risk review for IT
 
 ## Mechanisms, deployment and challengers
 
-1. **Underwriting/risk selection (classical ML plus generative assistance).** Asset → historical exposure/claim and medical data → risk score/submission interpretation → more selective pricing at equal risk → lower loss ratio or profitable new business. Munich Re Life US published a proof of concept using tokenized employer census data joined to third-party medical claims; thousands of employers per decile showed increasing paid/expected claims across risk bands, and management says it has integrated third-party predictions into carrier workbenches ([case study](https://www.munichre.com/us-life/en/insights/future-of-risk/mortality-risk-segmentation-in-the-group-benefits-market.html), 3 July 2024). This is E3 for risk segmentation in that dataset and E2 for management-reported carrier integration, not evidence of group-wide retained earnings.
+1. **Underwriting/risk selection (classical ML plus generative assistance).** Asset → historical exposure/claim and medical data → risk score/submission interpretation → more selective pricing at equal risk → lower loss ratio or profitable new business. Munich Re Life US published a proof of concept using tokenized employer census data joined to third-party medical claims; thousands of employers per decile showed increasing paid/expected claims across risk bands, and management says it has integrated third-party predictions into carrier workbenches ([case study](https://www.munichre.com/us-life/en/insights/future-of-risk/mortality-risk-segmentation-in-the-group-benefits-market.html), 3 July 2024). This is E1 for proof-of-concept validity and E2 for management-reported carrier integration. Ranking deciles without a disclosed holdout test or current-best comparator does not meet E3 and does not establish group-wide retained earnings.
 
 2. **Claims and portfolio monitoring (rules, ML and generative assistance).** MIRA/CLARA structure cases and log paid and rejected claims; the annual report says AI and language models are used in pricing, portfolio management and claims-trend monitoring ([underwriting and claims product page](https://www.munichre.com/en/solutions/reinsurance-life-health/underwriting-and-claims-handling.html), undated; [annual report, p. 58](https://www.munichre.com/content/dam/munichre/mrwebsiteslaunches/2025-annual-report/MunichRe-Group-Annual-Report-2025-en.pdf/_jcr_content/renditions/original./MunichRe-Group-Annual-Report-2025-en.pdf)). These sources establish E1 and management-reported use, but disclose no eligible case count, completion rate, error rate or causal expense benefit.
 
@@ -60,7 +60,7 @@ Munich Re’s 2025 report describes group privacy governance, risk review for IT
 | Claim | Type | Source / section | Scope | Stage | Confounder |
 |---|---|---|---|---|---|
 | AI/language models are used in pricing, portfolio management and claims monitoring | Management fact | 2025 annual report p.58, 26 Feb 2026 | Group opportunity disclosure | E2, management-reported | No workload denominator or result |
-| Mortality model separates risk bands | Company study fact | Life US case study, 3 Jul 2024 | Group-life proof of concept | E3 for discrimination | No holdout detail, economics or independent replication |
+| Mortality model separates risk bands | Company study fact | Life US case study, 3 Jul 2024 | Group-life proof of concept | E1 | No holdout/current-best comparator, economics or independent replication |
 | Carrier integrations exist | Management claim | Same case study, workflow section | Unnamed carriers | E2 | Scale and renewal unknown |
 | Agentic AI can address underwriting/claims | Management claim | AI article, 23 Jul 2026 | Industry/own journey | E1 | No named production deployment |
 | 2025 P&C ratio included 5.0 points reserve benefit | Filed fact | Annual report p.32 | P&C reinsurance | Conventional | Reserve assumptions and mix |
@@ -70,7 +70,7 @@ Munich Re’s 2025 report describes group privacy governance, risk review for IT
 
 ## KPI contract and retained-economics bridge
 
-Minimum materiality is the research convention of **5% of normalized 2025 net result**, about **€306m after tax** or roughly €390m pretax at a 22% tax rate. This is not company guidance.
+Minimum materiality uses **5% of FY2025 net result as a scale proxy**, about **€306m after tax** or roughly €390m pretax at a 22% tax rate. FY2025 is not normalized because its catastrophe and reserve experience was favorable; this is a screening hurdle, not company guidance or a normalized forecast.
 
 | KPI | Baseline / comparator | Eligible workload | Quality constraint | Known result | Next proof event |
 |---|---|---|---|---|---|
@@ -82,7 +82,7 @@ For a cost route, `benefit = A × e × r × c − K`. To reach about €390m pre
 
 ## Valuation and reverse valuation
 
-Residual-income shorthand uses `justified P/B = (ROE − g)/(cost of equity − g)` and 2025 book value of €259.76 per share. It is sensitive to catastrophe normalization, book accounting and the chosen return hurdle.
+Residual-income shorthand uses `justified P/B = (ROE − g)/(cost of equity − g)` and 2025 book value of €259.76 per share. It is sensitive to catastrophe normalization, book accounting and the chosen return hurdle. The formula also requires internally consistent retention: `g = ROE × retention`. For example, 15% ROE and 4% growth imply 26.7% retention and a 73.3% payout, below management's >80% payout aspiration. Treat the cases as steady-state valuation sensitivities rather than simultaneous adoption of every Ambition 2030 target.
 
 | Case | Conventional ROE / g / cost of equity | Incremental AI | Indicated value | What must happen |
 |---|---|---|---:|---|
@@ -111,7 +111,7 @@ The strongest positive hypothesis is that proprietary risk curation, capital and
 | Distribution | 5 | 5 | Global cedant and primary-insurance access is strong. |
 | Capture | 5 | 3 | Pricing cycles, cedant bargaining and vendor costs can pass benefits through. |
 
-**G0 pass. G1 provisional pass** on business/capital, with pooled data rights unresolved. **G2 fail:** selected E2/E3 evidence exists, but no material net economics or route to controlled group-level evidence is disclosed. **G3 provisional/limited:** price and annual denominators are verified sufficiently for scenarios, but current Xetra quote should be independently confirmed and normalization dominates. **G4 not assessed.** Confidence: mechanism **moderate**; deployment **low–moderate**; capture **low**; valuation **moderate-low**.
+**G0 pass. G1 provisional pass** on business/capital, with pooled data rights unresolved. **G2 fail:** selected E2 evidence exists, but no company-specific measurable route to a controlled comparison over a material workload is disclosed; net economics are also absent. **G3 provisional/limited:** price and annual denominators are verified sufficiently for scenarios, but current Xetra quote should be independently confirmed and reserve/cycle normalization remains incomplete. **G4 not assessed.** Confidence: mechanism **moderate**; deployment **low–moderate**; capture **low**; valuation **moderate-low**.
 
 ## Source register
 
