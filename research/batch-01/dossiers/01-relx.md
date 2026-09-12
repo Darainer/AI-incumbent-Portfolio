@@ -1,19 +1,20 @@
 # RELX (C034) — initial evidence dossier
 
-**Status:** unreviewed research-agent work; lead reviewer owns the final judgment.  
+> Lead review complete. The [lead judgment](../lead-review.md) governs dispositions, scores and gates; provisional agent views below are retained for traceability.
+
 **Security:** RELX PLC ordinary shares, LSE `REL`, 14 51/116p ordinary share, quoted in GBX; reporting currency GBP. This dossier does not use the NYSE ADR.  
 **Research cutoff / access date:** 12 September 2026. Latest operating evidence is for the six months ended 30 June 2026, published 23 July 2026. Price is the 11 September 2026 close.  
 **Area:** I01 Legal, tax and professional information (with Risk, STM and Exhibitions diversification).
 
 ## Provisional conclusion
 
-RELX is a durable conventional information-and-workflow business and the best current evidence supports an **E2 operating thesis**, not measured net AI economics. The scarce asset is clearest in LexisNexis's editorially enriched legal corpus and citation graph, Elsevier's journals/abstracts and Risk's contributory databases. Distribution is real: 86% of H1 2026 revenue was electronic and Legal was 84% subscription. Management reported that roughly 90% of Legal new-sales value and three quarters of renewal value now came through Lexis+ with Protégé; Legal revenue and adjusted operating profit grew 10% and 13% underlying. Those facts are consistent with customer adoption and pricing power, but RELX does not disclose AI revenue, cohort pricing, seats, inference costs by product or a controlled quality-adjusted productivity result.
+RELX is a durable information-and-workflow business and the best current evidence supports an **E2 operating thesis**, not measured net AI economics. The scarce asset is clearest in LexisNexis's editorially enriched legal corpus and citation graph, Elsevier's journals/abstracts and Risk's contributory databases. Distribution is real: 86% of H1 2026 revenue was electronic and Legal was 84% subscription. Management reported that roughly 90% of Legal new-sales value and three quarters of renewal value now came through Lexis+ with Protégé; Legal revenue and adjusted operating profit grew 10% and 13% underlying. Those facts are consistent with customer adoption and pricing power, but RELX does not disclose AI revenue, cohort pricing, seats, inference costs by product or a controlled quality-adjusted productivity result.
 
-At 2,446p on 11 September 2026, the shares were about 17.8 times a simple annualization of H1 adjusted EPS (137.2p). A transparent five-year per-share model produces about £16.81/£24.04/£32.19 in bear/base/bull cases. The observed price is close to the base case and implies roughly 5.9% annual EPS/dividend growth if the terminal P/E is 18 and the equity return hurdle 9%. The stock therefore looks **approximately priced for continued conventional compounding**, with upside conditional on durable AI-enabled growth rather than a free option. G3 can pass for an initial screen, but confidence is only moderate because annualized H1 EPS is not management guidance and the model is deliberately simple.
+At 2,446p on 11 September 2026, the shares were about 17.8 times a simple annualization of H1 adjusted EPS (137.2p). A five-year per-share model produces about £16.81/£24.04/£32.19 in bear/base/bull cases. The observed price is close to the base case and implies roughly 5.9% annual EPS/dividend growth if the terminal P/E is 18 and the equity return hurdle 9%. The stock therefore looks **approximately priced for continued conventional compounding**, with upside conditional on durable AI-enabled growth rather than a free option. This is only a provisional G3 screen: annualized H1 EPS is not guidance, normalization is incomplete and the model is deliberately simple.
 
 ## Conventional business and resilience
 
-RELX sells information-based analytics and decision tools across Risk, Scientific, Technical & Medical (STM), Legal and Exhibitions. Risk combines public and industry data for fraud, identity, insurance and compliance decisions; STM combines primary research and databases/tools; Legal sells research, analytics and workflow subscriptions; Exhibitions monetizes events. H1 revenue was 54% subscription and 46% transactional (including long-term contracts with volumetric elements), while Legal alone was 84% subscription. This recurring base, embedded workflows and high margins make the business viable with zero *additional* AI benefit.
+RELX sells information-based analytics and decision tools across Risk, Scientific, Technical & Medical (STM), Legal and Exhibitions. Risk combines public and industry data for fraud, identity, insurance and compliance decisions; STM combines primary research and databases/tools; Legal sells research, analytics and workflow subscriptions; Exhibitions monetizes events. H1 revenue was 54% subscription and 46% transactional (including long-term contracts with volumetric elements), while Legal alone was 84% subscription.
 
 | £m except per share | FY 2025 | H1 2026 | Definition / source |
 |---|---:|---:|---|
@@ -29,7 +30,7 @@ RELX sells information-based analytics and decision tools across Risk, Scientifi
 | Net debt | 7,201 | 8,733 | 2.0x / 2.3x EBITDA; H1 rise reflects £1.75bn buyback and £851m dividends |
 | Period-end / average shares | 1,819.1m at FY end | 1,749.8m period end; 1,786.5m H1 average | [H1 presentation, pp. 29–30](https://www.relx.com/~/media/Files/R/RELX-Group/documents/results/interim-presentations/2026-first-half-presentation.pdf) |
 
-H1 segment revenue/AOP was Risk £1,810m/£697m, STM £1,370m/£519m, Legal £959m/£208m and Exhibitions £575m/£226m. Underlying growth was respectively 8%/10%, 6%/8%, 10%/13% and 6%/2%. The mix limits dependence on legal AI, though Risk carries privacy/regulatory exposure, STM faces research-integrity and publishing-model risk, and Exhibitions remains cyclical. Management reaffirmed “strong” underlying revenue, operating-profit and constant-currency EPS growth for 2026 without numerical guidance. It completed £1.75bn of a planned £2.25bn 2026 buyback in H1, pushing leverage to the middle of its stated 2.0–2.5x range. Capital allocation is cash generative but the buyback reduces downside capacity if growth slows.
+H1 segment revenue/AOP was Risk £1,810m/£697m, STM £1,370m/£519m, Legal £959m/£208m and Exhibitions £575m/£226m, plus £157m/£77m of print and related/unallocated items; these reconcile to group totals. Underlying growth was respectively 8%/10%, 6%/8%, 10%/13% and 6%/2%. The mix limits dependence on legal AI, though Risk carries privacy/regulatory exposure, STM faces research-integrity and publishing-model risk, and Exhibitions remains cyclical. Management reaffirmed “strong” underlying revenue, operating-profit and constant-currency EPS growth for 2026 without numerical guidance. It completed £1.75bn of a planned £2.25bn 2026 buyback in H1, pushing leverage to the middle of its stated 2.0–2.5x range.
 
 ## Scarce assets and rights audit
 
@@ -44,7 +45,7 @@ The strongest directly opened rights evidence is narrow but useful: LexisNexis's
 
 ## Mechanisms and competitive comparison
 
-1. **Legal research and agentic work (generative assistance / agentic execution).** Lexis content and citations feed Protégé research, drafting, summarization, document analysis and multi-step work. Management says Legal's Law Firms & Corporate Legal subsegment grew double digits from adoption of Lexis+ with Protégé. The economic line is subscription upgrades, add-ons such as integrated Lex Machina, and potentially more users/usage. Fixed subscriptions leave token-cost risk with RELX, but the CFO said token costs remained below 1% of the group cost base and that model routing plus preprocessed content reduced intensity. This is a credible capture mechanism, though no price, seat or cohort bridge is disclosed.
+1. **Legal research and agentic work (generative assistance / agentic execution).** Lexis content and citations feed Protégé research, drafting, summarization, document analysis and multi-step work. Management says Legal's Law Firms & Corporate Legal subsegment grew double digits from adoption of Lexis+ with Protégé. The economic line is subscription upgrades, add-ons such as integrated Lex Machina, and potentially more users/usage. Fixed subscriptions leave token-cost risk with RELX, but the CFO said token costs remained below 1% of the group cost base and that model routing plus preprocessed content reduced intensity. This is credible, though no price, seat or cohort bridge is disclosed.
 
 2. **Scientific discovery (generative assistance).** Scopus AI and LeapSpace transform Elsevier content into research synthesis and discovery. Management reported active users nearly doubled from March to June 2026 after transition from ScienceDirect AI, with usage growing faster than users, but explicitly included trials and called it too early for a penetration curve. STM growth also reflects more researchers, submissions and published articles, so aggregate segment acceleration cannot be attributed to AI.
 
@@ -54,7 +55,7 @@ The strongest directly opened rights evidence is narrow but useful: LexisNexis's
 
 **Entrant/substitute:** [Harvey](https://www.harvey.ai/) reports 200,000 professionals and 2,400 organizations, with agents, vault and knowledge products. Its LexisNexis alliance shows two possibilities: RELX content can earn value through third-party front ends, but customer control and interface economics may move to the agent vendor. General-model legal offerings and connectors reinforce that risk.
 
-**Quality challenge:** a 2025 peer-reviewed Stanford study, [“Hallucination-Free?”](https://dho.stanford.edu/wp-content/uploads/Legal_RAG_Hallucinations.pdf), tested then-current legal research systems and reported Lexis+ AI accuracy of about 65%, with hallucination rates across Lexis systems of 17%–33%. It predates Protégé's 2026 iterations and tests research answers rather than full workflow economics, so it cannot grade the current product; it does establish that authoritative retrieval did not eliminate costly checking.
+**Quality challenge:** a 2025 peer-reviewed Stanford study, [“Hallucination-Free?”](https://dho.stanford.edu/wp-content/uploads/Legal_RAG_Hallucinations.pdf), tested then-current legal research systems and reported Lexis+ AI accuracy of about 65%, while hallucination rates across the vendor products studied were 17%–33%. It predates Protégé's 2026 iterations and tests research answers rather than full workflow economics, so it cannot grade the current product; it establishes that authoritative retrieval did not eliminate costly checking.
 
 ## Evidence ledger
 
@@ -71,7 +72,7 @@ The strongest directly opened rights evidence is narrow but useful: LexisNexis's
 
 ## KPI contract and shareholder-capture bridge
 
-Minimum materiality is the framework's analyst assumption: net AI benefit must reach 5% of normalized group AOP within five years. Against FY 2025 AOP of £3,342m, the hurdle is **£167m annually**.
+Minimum materiality is the framework's analyst assumption: net AI benefit must reach 5% of normalized group AOP within five years. Using FY2025 reported AOP of £3,342m as a scale proxy, the hurdle is **£167m annually**; this is not a completed normalization.
 
 | KPI | Baseline / comparator | Eligible population | Quality constraint | Known result | Next proof event |
 |---|---|---|---|---|---|
@@ -80,7 +81,7 @@ Minimum materiality is the framework's analyst assumption: net AI benefit must r
 | Verified task completion cost | Existing Lexis workflow and rival tool | Research/drafting/matter tasks | Blind expert accuracy and liability exceptions | Unknown; older study adverse | Current-version independent benchmark |
 | Net product contribution | Conventional Legal margin | Legal AI revenue | Deduct model, engineering, support and cannibalized seats | Unknown | Segment AI revenue/cost bridge |
 
-**Illustrative break-even:** suppose 45% of FY 2025 group operating costs (£9,590m−£3,342m = £6,248m) is eligible, or `A=£2,812m`. Then `A × e × r × c − K`. With 15% task efficiency, 60% realization, 50% retained share and £50m recurring AI expense, benefit is £76.5m, only 2.3% of AOP. Reaching £167m with those `A,e,r,c` requires recurring AI expense no more than about negative £40m, so cost savings alone miss the hurdle. At £50m expense, the required product/revenue contribution is another £90.5m, or roughly 9.4% of H1 Legal revenue annualized. These are sensitivity inputs, not company forecasts. The sales mix and Legal acceleration make the revenue route plausible; the evidence does not yet establish it.
+**Illustrative break-even:** suppose 45% of FY 2025 group operating costs (£9,590m−£3,342m = £6,248m) is eligible, or `A=£2,812m`. Then `A × e × r × c − K`. With 15% task efficiency, 60% realization, 50% retained share and £50m recurring AI expense, benefit is £76.5m, only 2.3% of AOP. Cost savings alone miss the £167m hurdle. At £50m expense, the required product/revenue contribution is another £90.5m, or roughly 4.7% of annualized H1 Legal revenue. These are sensitivity inputs, not company forecasts; Legal acceleration makes the revenue route plausible, but does not establish it.
 
 ## Valuation and reverse valuation
 
@@ -94,7 +95,7 @@ Per-share model: year-5 adjusted EPS × terminal P/E, plus five dividends starti
 | Base | Durable subscriptions and normal innovation; no separately added AI cash flow | 5.5%; 18x; 9% | **£24.04** |
 | Bull | AI-enabled growth/capture persists without margin damage | 8.5%; 21x; 8.5% | **£32.19** |
 
-At 18x terminal P/E and 9% discount rate, the observed price requires about **5.9% annual EPS and dividend growth** for five years. At the base 5.5% growth, changing terminal P/E from 16x to 20x moves value from roughly £21.7 to £26.4. Business sensitivity is larger in the bear if Legal/STM growth reverts and buybacks at elevated leverage stop. This is a qualified G3 screen, not a price target.
+At 18x terminal P/E and 9% discount rate, the observed price requires about **5.9% annual EPS and dividend growth** for five years. At the base 5.5% growth, changing terminal P/E from 16x to 20x moves value from roughly £21.7 to £26.4. Business sensitivity is larger in the bear if Legal/STM growth reverts and buybacks at elevated leverage stop. This is an incomplete G3 screen, not a price target.
 
 ## Risks, falsifiers, priors and gates
 
@@ -111,9 +112,9 @@ Falsifiers: (1) Protégé cohort net revenue per institution falls after seats/d
 | Distribution | 5 | 5 | Large subscription base; adoption and renewal mix reported |
 | Capture | 5 | 4 | Upgrades/add-ons and low token cost support capture; AI revenue and seat-adjusted cohorts absent |
 
-Revised weighted structural score: **84/100** (capture-30%/feedback-5% sensitivity: 85). Gates: **G0 pass; G1 pass with data-rights reservations; G2 pass at E2 with a credible KPI path; G3 pass provisionally; G4 not assessed.** Confidence: mechanism **high**; deployment **moderate-high** (management-reported); capture **moderate-low**; valuation **moderate**.
+Revised weighted structural score: **84/100** (capture-30%/feedback-5% sensitivity: 86). Gates: **G0 pass; G1 pass with data-rights reservations; G2 pass at E2 with a credible KPI path; G3 not cleanly passed pending normalized earnings and full rights verification; G4 not assessed.** Confidence: mechanism **high**; deployment **moderate-high** (management-reported); capture **moderate-low**; valuation **moderate**.
 
-The practical alternative is to compare RELX directly with Wolters Kluwer and Thomson Reuters or wait for seat-adjusted renewal economics. Inaction is rational near the base-case value when the decisive E3/E4 evidence is undisclosed.
+Compare RELX directly with Wolters Kluwer and Thomson Reuters or wait for seat-adjusted renewal economics. Inaction is rational near base-case value without decisive E3/E4 evidence.
 
 ## Source register
 
@@ -131,4 +132,4 @@ The practical alternative is to compare RELX directly with Wolters Kluwer and Th
 
 ## Handoff for lead review
 
-Verify first: (1) transcript's ~90% new-sales and ~75% renewal-value claims and their exact scope; (2) token costs below 1% of group cost base; (3) 2,446p 11 September close and 1,749.8m period-end share count. Strongest counterargument: an agent can own workflow and license Lexis content, leaving RELX as a lower-value backend while independent evidence still finds domain products can underperform general models. Blocking questions: seat-adjusted renewal uplift, current controlled quality, AI revenue/gross margin, corpus training rights and contribution after model/engineering cost. **Provisional disposition: retain as G3-qualified watchlist / peer-comparison candidate, not a portfolio recommendation.** File written: `research/batch-01/dossiers/01-relx.md`.
+Verify first: (1) transcript's ~90% new-sales and ~75% renewal-value claims and their exact scope; (2) token costs below 1% of group cost base; (3) 2,446p 11 September close and 1,749.8m period-end share count. Strongest counterargument: an agent can own workflow and license Lexis content, leaving RELX as a lower-value backend while independent evidence still finds domain products can underperform general models. Blocking questions: seat-adjusted renewal uplift, current controlled quality, AI revenue/gross margin, corpus training rights and contribution after model/engineering cost. **Provisional disposition: retain as watchlist / peer-comparison candidate with G3 incomplete, not a portfolio recommendation.** File written: `research/batch-01/dossiers/01-relx.md`.
