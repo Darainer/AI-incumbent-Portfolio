@@ -1,0 +1,84 @@
+{
+  "id": "C098",
+  "company": "Iberdrola",
+  "batch": 10,
+  "dossier": "research/batch-10/dossiers/098-c098-iberdrola.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "H1 2026 (ended 30 June 2026)",
+  "sources": [
+    {
+      "url": "https://www.iberdrola.com/shareholders-investors/operational-financial-information",
+      "title": "Latest financial results",
+      "date": "22 July 2026",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.iberdrola.com/shareholders-investors/annual-reports",
+      "title": "Annual report / filings",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.iberdrola.com/innovation/artificial-intelligence",
+      "title": "Company AI/product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.iberdrola.com/privacy-policy",
+      "title": "Privacy/data/service terms",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.enel.com/company/stories/articles/2024/ai-energy",
+      "title": "Challenger product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "H1 2026 reported net profit",
+    "value": "€4.34bn",
+    "unit": "EUR",
+    "period": "H1 2026 (ended 30 June 2026)",
+    "source_url": "https://www.iberdrola.com/shareholders-investors/operational-financial-information",
+    "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
+  },
+  "ai_claim": {
+    "claim": "Iberdrola publicly describes AI for grids and renewable operations, but a named material production cohort with outage or cash results was not verified.",
+    "stage": "E1 public AI program/capability; no opened material deployment cohort",
+    "source_url": "https://www.iberdrola.com/innovation/artificial-intelligence",
+    "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
+    "limitation": "No representative controlled cohort or retained-cash reconciliation."
+  },
+  "strongest_counterevidence": {
+    "claim": "regulated allowances may pass savings to customers.",
+    "source_url": "https://www.iberdrola.com/shareholders-investors/operational-financial-information",
+    "limitation": "Does not itself disprove the scoped mechanism."
+  },
+  "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
+  "materiality_summary": "Framework convention applied to an explicitly annualized reported-profit proxy: 5% × (2 × H1 reported net profit €4.34bn) = €434m. Illustrative cost assumptions produce negative €20m; not a forecast.",
+  "arithmetic": {
+    "inputs": "pool €5bn eligible grid operations, maintenance and loss/outage cost; efficiency 8%; realization 40%; retained share 50%; recurring cost €100m",
+    "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+    "result": "negative €20m"
+  },
+  "confidence": {
+    "mechanism": "moderate",
+    "deployment": "low-to-moderate",
+    "capture": "low"
+  },
+  "g2_provisional": "Watch/incomplete: E1 public AI program/capability; no opened material deployment cohort; no E3 quality-adjusted proof or E4 retained cash.",
+  "unresolved_questions": [
+    "Training and pooled-learning rights?",
+    "Eligible workload and matched quality KPI?",
+    "Retained economics after labor, model and capital costs?"
+  ],
+  "self_check_complete": true
+}
