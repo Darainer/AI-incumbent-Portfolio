@@ -1,0 +1,25 @@
+{
+  "id": "C026",
+  "company": "Visa",
+  "batch": 2,
+  "dossier": "research/batch-02/dossiers/011-c026-visa.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Fiscal Q3 and nine months ended 2026-06-30, released 2026-07-28",
+  "sources": [
+    {"url":"https://www.sec.gov/Archives/edgar/data/1403161/000140316126000103/q32026earningsrelease.htm","title":"Visa Reports Fiscal Third Quarter 2026 Results","date":"2026-07-28","opened":true,"supports":"Latest financials, transaction growth, cash and special items"},
+    {"url":"https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm","title":"Visa FY2025 Form 10-K","date":"2025-11-13","opened":true,"supports":"Business model, annual financials, cash flow and capital allocation"},
+    {"url":"https://www.visa.com/en-us/solutions/secure-card-payments","title":"Visa Protect authorization solutions","date":"undated","opened":true,"supports":"VAA/VDA capability, production scope and company metrics"},
+    {"url":"https://corporate.visa.com/content/dam/VCOM/corporate/solutions/documents/emirates-nbd-case-study-final.pdf","title":"Emirates NBD case study","date":"2024","opened":true,"supports":"Identified customer production evidence"},
+    {"url":"https://corporate.visa.com/en/sites/visa-perspectives/newsroom/enhanced-a2a-protect.html","title":"Enhanced A2A Protect","date":"2026-09-02","opened":true,"supports":"A2A deployment, opt-in signals and reported detection lift"}
+  ],
+  "financial_anchor": {"metric":"FY2025 GAAP operating profit","value":23.994,"unit":"USD billion","period":"FY ended 2025-09-30","source_url":"https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm","caveat":"Reported scale proxy; litigation and mix affect normalization"},
+  "ai_claim": {"claim":"Visa deploys network-level ML risk scores in issuer authorization and A2A fraud workflows; an identified issuer reports prevented fraud and Visa reports a 75% A2A detection increase.","stage":"E2","source_url":"https://corporate.visa.com/en/sites/visa-perspectives/newsroom/enhanced-a2a-protect.html","scope":"Selected risk products and customers, not all Visa transactions","limitation":"No disclosed matched protocol, sample, price, implementation cost or retained-cash bridge"},
+  "strongest_counterevidence": {"claim":"Comparable network/bank models, client incentives and alternative rails can replicate or absorb the gain; Q3 client incentives rose 18% against 14% revenue growth.","source_url":"https://www.sec.gov/Archives/edgar/data/1403161/000140316126000103/q32026earningsrelease.htm","limitation":"One quarter does not identify structural pass-through or AI causality"},
+  "rights_limit":"Participants originate much of the data. Public material proves scoring and opt-in A2A sharing, not unrestricted pooled training or cross-customer reuse rights.",
+  "materiality_summary":"The 5% screen equals $1.200bn on FY2025 reported operating profit. Available product metrics do not establish retained Visa contribution of that size.",
+  "arithmetic":{"inputs":"$23.994bn reported operating profit; 5% convention","formula":"23.994 × 0.05","result":"$1.1997bn annual hurdle"},
+  "confidence":{"mechanism":"high","deployment":"medium","capture":"low"},
+  "g2_provisional":"Limited pass: E2 production evidence and a measurable KPI path exist, but controlled quality-adjusted evidence and material cash capture are absent.",
+  "unresolved_questions":["What paid volume and renewal attach to each risk product?","What are customer-specific versus pooled-learning rights?","Do matched cohorts improve fraud and false declines after total cost?"],
+  "self_check_complete": true
+}
