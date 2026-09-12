@@ -1,0 +1,84 @@
+{
+  "id": "C051",
+  "company": "KLA",
+  "batch": 6,
+  "dossier": "research/batch-06/dossiers/056-c051-kla.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "FY2026 ended 30 June 2026",
+  "sources": [
+    {
+      "url": "https://ir.kla.com/",
+      "title": "FY2026 ended 30 June 2026 issuer financial update",
+      "date": "2026",
+      "opened": true,
+      "supports": "$13.58bn annual revenue and $4.83bn GAAP net income. KLA product literature describes ML defect classification and process control, but this packet found no controlled fab-level fa"
+    },
+    {
+      "url": "https://ir.kla.com/financial-information/annual-reports-and-proxies",
+      "title": "Annual report / financial results",
+      "date": "2025-30 June 2025",
+      "opened": false,
+      "supports": "latest financial anchor used in packet"
+    },
+    {
+      "url": "https://www.kla.com/advance/innovation/artificial-intelligence",
+      "title": "Company technology / AI evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "AI capability or deployment claim"
+    },
+    {
+      "url": "https://www.kla.com/privacy",
+      "title": "Privacy / data policy",
+      "date": "undated",
+      "opened": false,
+      "supports": "rights constraints"
+    },
+    {
+      "url": "https://investors.ontoinnovation.com/financials/sec-filings/default.aspx",
+      "title": "Onto Innovation reporting",
+      "date": "undated",
+      "opened": false,
+      "supports": "incumbent challenger evidence"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "GAAP net income",
+    "value": 4.83,
+    "unit": "USD billion",
+    "period": "FY2026",
+    "source_url": "https://ir.kla.com/financial-information/annual-reports-and-proxies",
+    "caveat": "about $4.6bn operating income; measure may be adjusted or a labelled scale proxy and is not normalized."
+  },
+  "ai_claim": {
+    "claim": "KLA describes scoped AI/digital mechanisms in ML defect classification and nuisance reduction, predictive tool service and calibration.",
+    "stage": "E1; E2 only where management explicitly reports production use",
+    "source_url": "https://www.kla.com/advance/innovation/artificial-intelligence",
+    "scope": "actionable defects found per wafer-hour at fixed false-positive rate, yield learning-cycle time, tool availability and service margin",
+    "limitation": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+  },
+  "strongest_counterevidence": {
+    "claim": "Onto Innovation and fab-built analytics and inspection modules bundled by broader equipment vendors can replicate tools or force gains through to customers.",
+    "source_url": "https://investors.ontoinnovation.com/financials/sec-filings/default.aspx",
+    "limitation": "Competitive capability does not by itself prove equal outcomes."
+  },
+  "rights_limit": "Customer wafer images and yield correlations are highly confidential. KLA can process data to provide contracted functionality; pooled learning rights are undisclosed and likely contract-specific.",
+  "materiality_summary": "The labelled 5% scale hurdle is $230m; public evidence does not establish it.",
+  "arithmetic": {
+    "inputs": "5%\u00d7$4",
+    "formula": "5%\u00d7$4.6bn operating income=$230m. A $1.5bn eligible pool\u00d712%\u00d760%\u00d750%\u2212$35m=$19m. Most materiality likely requires retained pricing/service or AI-driven inspection intensity, not customer savings booked as KLA savings.",
+    "result": "Illustrative bridge remains below or must be compared with $230m; not a forecast."
+  },
+  "confidence": {
+    "mechanism": "medium",
+    "deployment": "low-to-medium",
+    "capture": "low"
+  },
+  "g2_provisional": "Open: E1/E2 evidence supports measurement, but E3 quality-adjusted causality and E4 cash retention are not established.",
+  "unresolved_questions": [
+    "What share of eligible workload is in production?",
+    "What controlled quality-adjusted KPI result exists?",
+    "What do contracts permit for pooled learning and how much benefit is retained after recurring cost?"
+  ],
+  "self_check_complete": true
+}
