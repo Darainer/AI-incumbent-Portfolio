@@ -1,0 +1,77 @@
+{
+  "id": "C090",
+  "company": "Walmart",
+  "batch": 9,
+  "dossier": "research/batch-09/dossiers/090-c090-walmart.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 FY2027 ended 31 July, released 20 August 2026",
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm",
+      "title": "Latest results",
+      "date": "2026",
+      "opened": true,
+      "supports": "financial anchor"
+    },
+    {
+      "url": "https://stock.walmart.com/financial-information/annual-reports-and-proxies/default.aspx",
+      "title": "Annual report",
+      "date": "2026",
+      "opened": true,
+      "supports": "business, risk and cash"
+    },
+    {
+      "url": "https://www.nielsen.com/legal/privacy-principles/",
+      "title": "Nielsen privacy principles",
+      "date": "undated",
+      "opened": true,
+      "supports": "syndicated data rights"
+    },
+    {
+      "url": "https://www.ftc.gov/business-guidance/blog/2023/02/keep-your-ai-claims-check",
+      "title": "FTC AI claims guidance",
+      "date": "2023-02",
+      "opened": true,
+      "supports": "adverse/quality constraint"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "operating profit scale",
+    "value": "$9.4bn operating income, up 28.8%, materially aided by tariff refunds",
+    "unit": "USD",
+    "period": "Q2 FY2027 ended 31 July, released 20 August 2026",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm",
+    "caveat": "See dossier for implied/adjusted definition and confounders."
+  },
+  "ai_claim": {
+    "claim": "forecast/replenish inventory, automate fulfillment and personalize search/ads so availability, labor productivity, delivery density and high-margin revenue improve",
+    "stage": "E2 baseline operations; E1/E2 incremental features",
+    "source_url": "https://stock.walmart.com/financial-information/annual-reports-and-proxies/default.aspx",
+    "scope": "demand, media and operations",
+    "limitation": "No controlled incremental cash cohort."
+  },
+  "strongest_counterevidence": {
+    "claim": "tariff refunds drove Q2 profit; labor, capex, shrink, price investment and mix dominate, while Amazon has stronger digital/cloud interface and suppliers retain data rights",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm",
+    "limitation": "Multiple ordinary drivers block attribution."
+  },
+  "rights_limit": "Customer, retailer, supplier and syndicated data are purpose-/contract-bound; scale is not universal pooled-training permission.",
+  "materiality_summary": "$1.55bn annual pre-tax using FY2026 adjusted operating income of $31.0bn referenced in FY27 guidance",
+  "arithmetic": {
+    "inputs": "Illustrative assumed cost pool/efficiency/realization/retention/run cost",
+    "formula": "assumed $40bn eligible labor/logistics cost \u00d7 5% efficiency \u00d7 60% realization \u00d7 40% retention \u2212 $300m = $180m",
+    "result": "Illustrative benefit below hurdle"
+  },
+  "confidence": {
+    "mechanism": "medium-high",
+    "deployment": "medium",
+    "capture": "low-medium"
+  },
+  "g2_provisional": "Incomplete: production baseline without controlled incremental retained cash.",
+  "unresolved_questions": [
+    "Versioned gross-profit cohort?",
+    "Retailer/customer pooled-learning rights?",
+    "Savings net capex and pass-through?"
+  ],
+  "self_check_complete": true
+}
