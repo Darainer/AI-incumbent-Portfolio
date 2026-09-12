@@ -1,0 +1,77 @@
+{
+  "id": "C079",
+  "company": "Inditex",
+  "batch": 8,
+  "dossier": "research/batch-08/dossiers/079-c079-inditex.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "H1 FY2026 ended 31 July, released 9 September 2026",
+  "sources": [
+    {
+      "url": "https://www.inditex.com/itxcomweb/en/press/press-releases",
+      "title": "Latest results",
+      "date": "2026",
+      "opened": true,
+      "supports": "financial anchor"
+    },
+    {
+      "url": "https://static.inditex.com/annual_report_2025/en/",
+      "title": "Annual report/filing",
+      "date": "2026",
+      "opened": true,
+      "supports": "business/rights/risks"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "title": "EU AI Act",
+      "date": "2024",
+      "opened": true,
+      "supports": "governance"
+    },
+    {
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "title": "NIST AI RMF",
+      "date": "2023",
+      "opened": true,
+      "supports": "quality controls"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "latest profit measure",
+    "value": "\u20ac2.980bn net income; \u20ac5.513bn EBITDA",
+    "unit": "reported currency",
+    "period": "H1 FY2026 ended 31 July, released 9 September 2026",
+    "source_url": "https://www.inditex.com/itxcomweb/en/press/press-releases",
+    "caveat": "Reported/adjusted definitions and seasonality; see dossier."
+  },
+  "ai_claim": {
+    "claim": "forecast demand, allocate inventory and assist design/content so more full-price sales occur with less markdown and working capital",
+    "stage": "E2 for existing ML; E1/E2 for incremental generative/agentic",
+    "source_url": "https://static.inditex.com/annual_report_2025/en/",
+    "scope": "platform operations",
+    "limitation": "No versioned controlled incremental cash cohort."
+  },
+  "strongest_counterevidence": {
+    "claim": "fashion causality is hard: merchandising, weather, FX, store optimization and lead-time decisions dominate; Shein has faster digital feedback and price pressure",
+    "source_url": "https://static.inditex.com/annual_report_2025/en/",
+    "limitation": "Multiple ordinary-business drivers."
+  },
+  "rights_limit": "Customer, supplier/provider and payment/location data are purpose- and contract-bound; cross-context pooled training is not universal.",
+  "materiality_summary": "No clean H1 operating-profit figure was opened; using H1 EBITDA only as a scale proxy, 5% is \u20ac275.7m for the half year and is not annualized",
+  "arithmetic": {
+    "inputs": "Illustrative assumed cost pool and capture terms",
+    "formula": "assumed \u20ac10bn eligible inventory purchases \u00d7 1% markdown/obsolescence improvement \u00d7 60% realization \u00d7 50% retention \u2212 \u20ac30m cost = \u20ac0m",
+    "result": "Illustrative only; no E4 conclusion"
+  },
+  "confidence": {
+    "mechanism": "high",
+    "deployment": "medium",
+    "capture": "low-medium"
+  },
+  "g2_provisional": "Incomplete: baseline ML production but no incremental quality-adjusted retained cash.",
+  "unresolved_questions": [
+    "Versioned contribution cohort?",
+    "Cross-party training rights?",
+    "Agent/substitute bypass economics?"
+  ],
+  "self_check_complete": true
+}
