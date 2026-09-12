@@ -1,0 +1,77 @@
+{
+  "id": "C056",
+  "company": "Tata Consultancy Services",
+  "batch": 6,
+  "dossier": "research/batch-06/dossiers/060-c056-tata-consultancy-services.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q1 FY2027 ended 30 June 2026, published July 2026",
+  "sources": [
+    {
+      "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-closes-fy26-improving-sequential-growth-strong-deal-wins-ai-revenues-surpass-2-3-billion",
+      "title": "Latest results",
+      "date": "2026",
+      "opened": true,
+      "supports": "financial and AI metrics"
+    },
+    {
+      "url": "https://www.tcs.com/investor-relations/financial-statements",
+      "title": "Annual filing/results",
+      "date": "2025/2026",
+      "opened": true,
+      "supports": "business and financial context"
+    },
+    {
+      "url": "https://www.microsoft.com/licensing/terms/productoffering/MicrosoftAzure/MCA",
+      "title": "Microsoft Azure terms",
+      "date": "current at cutoff",
+      "opened": true,
+      "supports": "supplier rights boundary"
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/responsible-use",
+      "title": "GitHub Copilot responsible use",
+      "date": "undated",
+      "opened": true,
+      "supports": "substitute and quality limitations"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "latest revenue",
+    "value": "$7.62bn",
+    "unit": "reported currency",
+    "period": "Q1 FY2027 ended 30 June 2026, published July 2026",
+    "source_url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-closes-fy26-improving-sequential-growth-strong-deal-wins-ai-revenues-surpass-2-3-billion",
+    "caveat": "Quarterly/run-rate and currency/acquisition confounders; see dossier."
+  },
+  "ai_claim": {
+    "claim": "annualized AI revenue above $2.3bn at Q4 FY2026",
+    "stage": "E2 commercial metric",
+    "source_url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-closes-fy26-improving-sequential-growth-strong-deal-wins-ai-revenues-surpass-2-3-billion",
+    "scope": "company-defined AI services",
+    "limitation": "annualized run-rate is not audited annual revenue and scope taxonomy may change; no net contribution."
+  },
+  "strongest_counterevidence": {
+    "claim": "Management explicitly accepts that AI may cannibalize revenue; traditional effort-based work and client spending remain under pressure.",
+    "source_url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-closes-fy26-improving-sequential-growth-strong-deal-wins-ai-revenues-surpass-2-3-billion",
+    "limitation": "Does not quantify AI-attributable impact."
+  },
+  "rights_limit": "Client code/data is SOW/NDA-bound; cross-client training, generated-IP and model-provider retention vary by contract.",
+  "materiality_summary": "No reliable normalized profit denominator extracted; formula and illustrative bridge provided.",
+  "arithmetic": {
+    "inputs": "assumed $10bn eligible labor, 15% efficiency, 50% realization, 30% retention, $300m cost",
+    "formula": "10000*.15*.50*.30-300",
+    "result": "-$75m illustrative; billable-hours/client sharing decisive"
+  },
+  "confidence": {
+    "mechanism": "high",
+    "deployment": "medium",
+    "capture": "low"
+  },
+  "g2_provisional": "Incomplete: E2 activity/commercial evidence without controlled contribution after cannibalization.",
+  "unresolved_questions": [
+    "AI gross margin net legacy erosion?",
+    "Client-data reuse rights?",
+    "Accepted-output cohort results?"
+  ],
+  "self_check_complete": true
+}
