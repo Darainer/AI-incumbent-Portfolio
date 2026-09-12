@@ -1,0 +1,20 @@
+{
+  "id":"C005","company":"Novo Nordisk","batch":2,"dossier":"research/batch-02/dossiers/020-c005-novo-nordisk.md","cutoff":"2026-09-12","latest_financial_period":"H1/Q2 2026, published 2026-08-04",
+  "sources":[
+    {"url":"https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html","title":"Annual Report 2025: financial performance","date":"2026-02-03","opened":true,"supports":"sales, operating profit, costs, outlook"},
+    {"url":"https://annualreport.novonordisk.com/2025/introducing-novo-nordisk/five-year-overview.html","title":"Annual Report 2025: five-year overview","date":"2026-02-03","opened":true,"supports":"FCF, net debt, EPS and capital"},
+    {"url":"https://ml-eu.globenewswire.com/Resource/Download/59861be7-056f-420d-985b-a7e976f8426d","title":"H1 2026 financial report","date":"2026-08-04","opened":true,"supports":"latest Q2/H1 financials and adjusted guidance"},
+    {"url":"https://www.globenewswire.com/news-release/2025/01/08/3006249/0/en/Valo-Health-and-Novo-Nordisk-expand-collaboration-to-discover-and-develop-novel-treatments-in-cardiometabolic-disease.html","title":"Valo collaboration expansion","date":"2025-01-08","opened":true,"supports":"up to 20 AI-enabled discovery programs"},
+    {"url":"https://www.reuters.com/legal/litigation/novo-scraps-two-more-heart-drug-trials-further-dimming-growth-beyond-obesity-2026-09-07/","title":"Novo scraps cardiovascular trials","date":"2026-09-07","opened":true,"supports":"adverse clinical evidence and concentration risk"}
+  ],
+  "financial_anchor":{"metric":"reported operating profit","value":127658,"unit":"DKK million","period":"FY2025","source_url":"https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html","caveat":"Includes about DKK8bn restructuring plus acquired-site effects; Q2 2026 adjusted OP was DKK33,389m and reported OP DKK27,061m."},
+  "ai_claim":{"claim":"Valo collaboration expanded from 11 to up to 20 discovery programs; AWS relationship adds AI-enabled discovery and document workflows.","stage":"E1 for discovery; at most E2 for supplier-reported document deployment","source_url":"https://www.globenewswire.com/news-release/2025/01/08/3006249/0/en/Valo-Health-and-Novo-Nordisk-expand-collaboration-to-discover-and-develop-novel-treatments-in-cardiometabolic-disease.html","scope":"named partnerships/workflows","limitation":"No controlled transition-rate, candidate success or cash evidence."},
+  "strongest_counterevidence":{"claim":"Ziltivekimab failed a late-stage outcome trial and two further studies were stopped, while pricing and Lilly competition pressure the core franchise.","source_url":"https://www.reuters.com/legal/litigation/novo-scraps-two-more-heart-drug-trials-further-dimming-growth-beyond-obesity-2026-09-07/","limitation":"The program is not shown to have been AI-originated."},
+  "rights_limit":"Program contracts do not disclose model-improvement, generated-IP or cross-program learning rights; clinical data remains consent-, protocol- and privacy-bound.",
+  "materiality_summary":"5% of FY2025 reported operating profit is DKK6.383bn annual pre-tax. Disclosures do not permit a consistent annual stage-adjusted monetary bridge.",
+  "arithmetic":{"inputs":"FY2025 OP DKK127.658bn; AI attribution, transition, timing, partner and platform-cost inputs unknown","formula":"annual AI-attributable stage-adjusted contribution + realized savings - annual partner/platform/validation costs >= 0.05*127.658bn","result":"break-even >= DKK6.383bn annual pre-tax; achievement unestablished"},
+  "confidence":{"mechanism":"medium","deployment":"low-medium","capture":"low"},
+  "g2_provisional":"Insufficient: partnership and narrow workflow evidence without controlled clinical productivity or retained economics.",
+  "unresolved_questions":["Which programs use Valo/AWS and who owns generated IP?","What matched cohort transition/time result exists?","What are full recurring, validation and milestone costs?"],
+  "self_check_complete":true
+}
