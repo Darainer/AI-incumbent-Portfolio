@@ -1,0 +1,84 @@
+{
+  "id": "C022",
+  "company": "Manulife",
+  "batch": 4,
+  "dossier": "research/batch-04/dossiers/035-c022-manulife.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 2026",
+  "sources": [
+    {
+      "url": "https://www.manulife.com/ca/en/about-us/investors/results-and-reports",
+      "title": "Q2 2026 issuer results",
+      "date": "2026",
+      "opened": true,
+      "supports": "latest interim financial update"
+    },
+    {
+      "url": "https://www.manulife.com/en/investors/results-and-reports.html",
+      "title": "Annual report / financial results",
+      "date": "2024",
+      "opened": true,
+      "supports": "latest financial anchor used in packet"
+    },
+    {
+      "url": "https://www.manulife.com/en/news/manulife-innovation.html",
+      "title": "Company technology / AI evidence",
+      "date": "undated",
+      "opened": true,
+      "supports": "AI capability or deployment claim"
+    },
+    {
+      "url": "https://www.manulife.com/en/privacy-policy.html",
+      "title": "Privacy / data policy",
+      "date": "undated",
+      "opened": true,
+      "supports": "rights constraints"
+    },
+    {
+      "url": "https://www.sunlife.com/en/investors/financial-results-and-reports/annual-reports/",
+      "title": "Sun Life reporting",
+      "date": "undated",
+      "opened": true,
+      "supports": "incumbent challenger evidence"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "core earnings",
+    "value": 7.5,
+    "unit": "CAD billion",
+    "period": "FY2025",
+    "source_url": "https://www.manulife.com/en/investors/results-and-reports.html",
+    "caveat": "C$7.2bn core earnings and roughly C$6.2bn net income attributed to shareholders; measure may be adjusted or a labelled scale proxy and is not normalized."
+  },
+  "ai_claim": {
+    "claim": "Manulife describes scoped AI/digital mechanisms in underwriting and claims triage at matched risk and fairness, service/document automation with human review.",
+    "stage": "E1; E2 only where management explicitly reports production use",
+    "source_url": "https://www.manulife.com/en/news/manulife-innovation.html",
+    "scope": "vintage loss/claims outcome at fixed mix, expense per resolved case, lapse rate and risk-adjusted new-business value",
+    "limitation": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+  },
+  "strongest_counterevidence": {
+    "claim": "Sun Life and digital insurers and wealth platforms using third-party models can replicate tools or force gains through to customers.",
+    "source_url": "https://www.sunlife.com/en/investors/financial-results-and-reports/annual-reports/",
+    "limitation": "Competitive capability does not by itself prove equal outcomes."
+  },
+  "rights_limit": "Policyholders and counterparties originate much data; consent, insurance secrecy and geography limit purpose and reuse. Public privacy terms do not establish pooled model-training rights.",
+  "materiality_summary": "The labelled 5% scale hurdle is C$360m; public evidence does not establish it.",
+  "arithmetic": {
+    "inputs": "5%\u00d7C$7",
+    "formula": "5%\u00d7C$7.2bn core earnings=C$360m. Illustratively C$2.5bn eligible expense \u00d710%\u00d760% realization\u00d750% retention\u2212C$40m recurring cost=C$35m. Claims avoided require matched risk cohorts and cannot be inferred from aggregate experience.",
+    "result": "Illustrative bridge remains below or must be compared with C$360m; not a forecast."
+  },
+  "confidence": {
+    "mechanism": "medium",
+    "deployment": "low-to-medium",
+    "capture": "low"
+  },
+  "g2_provisional": "Open: E1/E2 evidence supports measurement, but E3 quality-adjusted causality and E4 cash retention are not established.",
+  "unresolved_questions": [
+    "What share of eligible workload is in production?",
+    "What controlled quality-adjusted KPI result exists?",
+    "What do contracts permit for pooled learning and how much benefit is retained after recurring cost?"
+  ],
+  "self_check_complete": true
+}
