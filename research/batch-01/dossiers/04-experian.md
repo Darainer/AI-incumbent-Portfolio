@@ -1,6 +1,8 @@
 # Experian (C031) — initial evidence dossier
 
-**Unreviewed research-agent output; lead reviewer owns the final judgment.**  
+> Lead review complete. The [lead judgment](../lead-review.md) governs dispositions, scores and gates; provisional agent views below are retained for traceability.
+
+**Research-agent evidence packet; lead reviewed 12 September 2026.**  
 **Cutoff/access date:** 12 September 2026. **Issuer/security:** Experian plc ordinary US$0.10 shares, London Stock Exchange **EXPN**, quoted in GBX (pence sterling); reporting currency USD. No ADR is used. **Price:** 2,782 GBX (£27.82) on 11 September 2026, LSE delayed quote. At £1=US$1.3501 on that date, price is about US$37.56. **Industry:** F05 credit data, exchanges and financial intelligence.
 
 ## Provisional conclusion
@@ -26,7 +28,7 @@ Experian sells credit data, scores, decision analytics, fraud/identity tools and
 
 Sources: [FY2026 annual report](https://www.experianplc.com/content/dam/marketing/global/plc/en/assets/documents/reports/2026/experian-annual-report-2026.pdf), pp. 61–68, 183, 191–92, 210–11; [Q1 FY2027 update](https://www.experianplc.com/content/dam/marketing/global/plc/en/assets/documents/results-and-presentations/2026/experian-fy27-q1-trading-update-announcement.pdf), 16 July 2026.
 
-With zero additional AI improvement, Experian remains a growing oligopoly-scale bureau and analytics platform. FY2020–26 revenue and benchmark EBIT CAGRs were about 8% and 10%, respectively; however, acquisitions, credit cycles, new datasets and pre-existing ML are all in that baseline. FY2026 included US$792m across four acquisitions; two US$1bn buyback programs were announced in January and May 2026. Buybacks can raise per-share growth while increasing the importance of price discipline. Q1 Consumer Services organic revenue fell 2% due to two mass-data-breach contracts winding down, and EMEA/APAC grew only 1%; those are useful conventional-business negatives.
+With zero additional AI improvement, Experian remains a growing oligopoly-scale bureau and analytics platform. FY2020–26 revenue and benchmark EBIT CAGRs were about 8% and 10%, respectively; however, acquisitions, credit cycles, new datasets and pre-existing ML are all in that baseline. FY2026 included US$792m across four acquisitions; two US$1bn buyback programs were announced in January and May 2026. Buybacks can raise per-share growth while increasing the importance of price discipline. Q1 **North American** Consumer Services organic revenue fell 2% due to two mass-data-breach contracts winding down, while global Consumer Services grew 2% and EMEA/APAC total revenue grew only 1%; these are useful conventional-business negatives without mischaracterizing the group segment.
 
 ## Asset and data-rights audit
 
@@ -74,7 +76,7 @@ The most decision-relevant adverse evidence is the CFPB case. The Bureau's updat
 | Paid AI attach/net retention | pre-launch customer cohort vs matched customers | Ascend and health platform clients | full model/cloud/support cost | Unknown | FY2027 renewals |
 | Marketplace contribution per active member | pre-EVA/Activate matched cohort | eligible members and offers | approval quality, complaints and lender economics | 3.5m engagements only | 2027 cohort disclosure |
 
-**Materiality convention:** 5% of FY2026 ongoing benchmark EBIT is about US$120m. Cost illustration: US$1.0bn eligible client/model-operations pool × 20% efficiency × 50% realization × 50% retained share − incremental recurring AI cost **K** = US$50m − K, insufficient alone. A non-overlapping revenue/decision path must produce contribution ≥US$120m + K; at 50% net contribution and K=0, that requires US$240m incremental revenue after cannibalization. Alternatively, improved marketplace matching needs the same contribution through qualified volume/commission net of credit-cycle and serving costs. All pool, efficiency, capture and K inputs are unknown; these are break-even requirements, not forecasts. Existing technology cost is already in FY2026 profit and should not be subtracted twice.
+**Materiality convention:** 5% of FY2026 ongoing benchmark EBIT is about US$120m. Internal-cost illustration: US$1.0bn of Experian's own eligible operating cost × 20% task efficiency × 50% realization × 50% retained share − incremental recurring AI cost **K** = US$50m − K, insufficient alone. The US$1.0bn cost pool is illustrative because Experian does not disclose an AI-eligible pool. Client labor savings cannot enter Experian's cost bridge; Experian captures them only through incremental price, volume or retention. A separate revenue/decision path must produce contribution ≥US$120m + K; at 50% net contribution and K=0, that requires US$240m incremental revenue after cannibalization. Alternatively, improved marketplace matching needs the same contribution through qualified volume/commission net of credit-cycle and serving costs. All pool, efficiency, capture and K inputs are unknown; these are break-even requirements, not forecasts. Existing technology cost is already in FY2026 profit and should not be subtracted twice.
 
 ## Valuation and reverse valuation
 
