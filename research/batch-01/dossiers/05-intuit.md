@@ -4,13 +4,13 @@
 **Security:** Intuit Inc. common stock, Nasdaq: INTU, USD; reporting currency USD. No ADR or share-class adjustment.  
 **Cutoff / retrieval date:** 12 September 2026. Latest business period is FY2026 ended 31 July 2026; 10-K filed 9 September 2026. Price is the 11 September 2026 close.  
 **Industry:** vertical software and financial administration (I02).  
-**Provisional conclusion:** The ordinary business is profitable, cash-generative and still growing without assuming any *additional* AI uplift. Intuit has E2 production deployment and one useful matched payment-reminder result, but no disclosed cohort bridge from AI use to retention, net revenue, or cash contribution. At $321.57, the shares imply only mid-single-digit FY2027–31 EPS growth under a 10% return hurdle and 18× terminal P/E; that is less demanding than the historical growth record but still exposed to Mailchimp stagnation, tax-unit contraction, model cost, and interface competition. Provisional disposition: **watch / valuation-qualified candidate, not portfolio eligible**.
+**Provisional conclusion:** The ordinary business is profitable, cash-generative and still growing without assuming any *additional* AI uplift. Intuit has E2 production deployment and one useful payment-reminder association, but no disclosed cohort bridge from AI use to retention, net revenue, or cash contribution. At $321.57, the shares imply roughly 7% FY2027–31 EPS growth under a 10% return hurdle and 18× terminal P/E; that is less demanding than the historical growth record but still exposed to Mailchimp stagnation, tax-unit contraction, model cost, and interface competition. Provisional disposition: **watch; G3 remains blocked pending valuation-input audit**.
 
 ## Conventional business and financial resilience
 
 Intuit sells tax preparation, accounting, payroll, payments, marketing and consumer-finance matching products. Effective FY2026 it reports Global Business Solutions (GBS: QuickBooks and Mailchimp) and Consumer (TurboTax, Credit Karma and ProTax); Mailchimp becomes a separate segment in FY2027. The subscription/system-of-record role, accountant channel and payment/payroll rails create recurring engagement. However, only 8% of revenue was international, and U.S. tax policy and filing behavior remain concentrated risks.
 
-The [FY2026 10-K](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000037/intu-20260731.htm) shows a strong baseline: revenue grew 14%, GAAP operating profit 20%, and diluted EPS 20%. GBS revenue was $12.864bn and Consumer $8.584bn. QuickBooks Online Accounting grew 23% to $5.051bn, while the more mature desktop ecosystem still produced $2.946bn. Consumer quality is mixed: TurboTax revenue rose 7% despite total U.S. units falling 2%, Credit Karma rose 20%, and TurboTax Live rose 37% to 53% of TurboTax revenue. These results already include deployed AI and pricing; they are the zero-*additional*-AI baseline.
+The [FY2026 10-K](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000037/intu-20260731.htm) shows a strong baseline: revenue grew 14%, GAAP operating profit 20%, and diluted EPS 20%. GBS revenue was $12.864bn and Consumer $8.584bn. QuickBooks Online Accounting grew 23% to $5.051bn, while the more mature desktop ecosystem still produced $2.946bn. Consumer quality is mixed: TurboTax revenue rose 7% despite total U.S. units falling 2%, Credit Karma rose 20%, and TurboTax Live rose 37% to 53% of TurboTax revenue. These results already include deployed AI and pricing; they are the zero-*additional*-AI baseline. FY2027 guidance signals deceleration: total revenue growth falls to 9–10%, TurboTax to 2–3%, and Mailchimp to −1% to flat.
 
 | USD millions except EPS | FY2024 | FY2025 | FY2026 | Comment |
 |---|---:|---:|---:|---|
@@ -38,7 +38,7 @@ The asset case is therefore workflow context and execution permission, not an es
 
 ## Mechanisms, deployment and competition
 
-**1. QuickBooks accounting and payments agents (generative assistance plus agentic execution).** Intuit’s [1 July 2025 launch](https://investors.intuit.com/news-events/press-releases/detail/1258/intuit-introduces-ground-breaking-virtual-team-of-ai-agents-to-fuel-growth-for-businesses) says agents categorize transactions, reconcile books, draft/send invoices and reminders, and manage leads. Rollout began that day across a range of U.S. QuickBooks Online plans. The strongest disclosed outcome is a matched comparison: U.S. beta customers using outstanding-invoice notifications and AI-drafted reminders were paid an average five days faster than customers sending standard reminders to the same customers during January–August 2024. This supports E3 for one narrow intervention, although Intuit does not disclose sample size, invoice mix, cash collected, subscription lift, or cost. A survey says 45% of users of the new bank feed saved 12 hours monthly, which is E2/self-reported rather than controlled efficacy.
+**1. QuickBooks accounting and payments agents (generative assistance plus agentic execution).** Intuit’s [1 July 2025 launch](https://investors.intuit.com/news-events/press-releases/detail/1258/intuit-introduces-ground-breaking-virtual-team-of-ai-agents-to-fuel-growth-for-businesses) says agents categorize transactions, reconcile books, draft/send invoices and reminders, and manage leads. Rollout began that day across a range of U.S. QuickBooks Online plans. The strongest disclosed outcome is an association framed as a comparison: U.S. beta customers using outstanding-invoice notifications and AI-drafted reminders were paid an average five days faster than customers sending standard reminders to the same customers during January–August 2024. Without sample size, assignment method, invoice mix, quality controls, cash collected or cost, this remains **E2**, not the repository's carefully matched E3 standard. A survey says 45% of users of the new bank feed saved 12 hours monthly, which is E2/self-reported rather than controlled efficacy.
 
 The scarce asset is live ledger/invoice/customer history plus permission to send inside QuickBooks. The output is faster collection or cleaner books; value can reach Intuit through higher price, retention, payment volume, or expert-service attach. Human approval and accountants remain quality controls. No disclosed net contribution margin establishes shareholder capture.
 
@@ -54,7 +54,7 @@ Competition is direct. [Xero’s 20 August 2026 release](https://www.xero.com/us
 |---|---|---|---|---|
 | FY2026 revenue $21.448bn; GAAP operating income $5.884bn | Fact | 10-K, 9 Sep 2026; MD&A | Company, E2 financial baseline | Price, mix and acquisitions |
 | FY2027 GAAP EPS guidance $20.12–20.36 | Management claim | Results, 25 Aug 2026; guidance | Company forecast, E1 | Restructuring benefits, tax, macro |
-| Payment-agent beta invoices paid five days faster | Management-reported matched result | Agent release, 1 Jul 2025; footnote 3 | Narrow QBO feature, E3 provisional | Undisclosed sample, selection, amount/cost |
+| Payment-agent beta invoices paid five days faster | Management-reported association | Agent release, 1 Jul 2025; footnote 3 | Narrow QBO feature, E2 | Undisclosed sample, assignment, selection, amount/cost |
 | 45% of bank-feed users report saving 12 hours/month | Management survey claim | Agent release, 1 Jul 2025; footnote 1 | Feature users, E2 | Self-report, no quality/cost control |
 | Agents rolled out in U.S. QBO plans | Fact/company report | Agent release, 1 Jul 2025; availability | Production availability, E2 | Eligible denominator and active use undisclosed |
 | TurboTax Live revenue +37% | Fact | Results, 25 Aug 2026; segment results | Commercial outcome, E2 | Price, marketing and human expert service |
@@ -80,15 +80,15 @@ A revenue route may be more plausible: on $12.864bn GBS revenue, a 3% incrementa
 
 The closing price was **$321.57 on 11 September 2026** ([MarketWatch dated report](https://www.marketwatch.com/data-news/intuit-inc-stock-outperforms-competitors-on-strong-trading-day-a32c9d2e-89642996b522)); FY2026 diluted shares were 277m, implying about $89.1bn equity value on that period-average denominator. FY2026 cash/investments of $7.2bn less $7.7bn debt gives an approximate $89.6bn enterprise value. The share count is not a point-in-time basic count; this is an initial valuation limitation.
 
-Simple five-year EPS framework uses FY2027 GAAP guidance midpoint $20.24, a 10% equity return hurdle, terminal P/E and approximately $5.52 annualized current dividend, with dividends assumed to grow with EPS. It treats stock compensation in earnings and assumes buybacks only insofar as reflected in EPS growth.
+Simple five-year EPS framework uses FY2027 GAAP guidance midpoint $20.24 as **year 1**, a 10% equity return hurdle, terminal P/E and approximately $5.52 annualized current dividend, with dividends assumed to grow with EPS. FY2031 terminal EPS therefore compounds for four years. It treats stock compensation in earnings and assumes buybacks only insofar as reflected in EPS growth.
 
 | Case | Conventional / AI assumption | FY27–31 EPS CAGR; terminal P/E | Approx. PV/share | Interpretation |
 |---|---|---:|---:|---|
-| Bear | Mailchimp/tax pressure; zero uplift, model cost adverse | 2%; 13× | **$190** | Core growth slows; multiple contracts |
-| Base | Durable conventional franchise; no separately credited AI uplift | 7%; 17× | **$320** | Roughly supports market price |
-| Bull | 8% conventional growth + 3pp evidence-linked AI/productivity contribution | 11%; 21× | **$470** | Requires broad capture absent today |
+| Bear | Mailchimp/tax pressure; zero uplift, model cost adverse | 2%; 13× | **$199** | Core growth slows; multiple contracts |
+| Base | Durable conventional franchise; no separately credited AI uplift | 7%; 17× | **$304** | Below market price on these assumptions |
+| Bull | 8% conventional growth + 3pp conditional AI/productivity contribution | 11%; 21× | **$426** | Requires broad capture absent today |
 
-Formula: terminal value = $20.24 × (1+g)^5 × terminal P/E; discount terminal value and annual dividends at 10%. Rounded outputs are scenario results, not fair-value precision. At $321.57 and an 18× terminal multiple, the reverse calculation requires approximately **6.6% FY2027–31 EPS CAGR** after giving credit for growing dividends; at 15× it requires roughly **10.8%**. A one-point change in the return hurdle or terminal multiple changes value materially. FY2027 guidance makes G3 pass provisionally, but point-in-time shares, normalized cash flow and investor-day information after cutoff require lead verification.
+Formula: terminal value = $20.24 × (1+g)^4 × terminal P/E; discount terminal value and annual dividends at 10%. Rounded outputs are scenario results, not fair-value precision. At $321.57 and an 18× terminal multiple, the reverse calculation requires approximately **7.1% FY2027–31 EPS CAGR** after credit for growing dividends; at 15× it requires roughly **11.9%**. A one-point change in the return hurdle or terminal multiple changes value materially. G3 remains blocked because point-in-time shares and normalized cash flow have not been reconciled and the large post-results price move warrants source audit.
 
 ## Risks, falsifiers and alternative
 
@@ -115,14 +115,14 @@ The peer alternative is Xero for direct product comparison; waiting for disclose
 | Distribution | 5 | 5 | About 93m customers, accountant channel and embedded payments |
 | Capture | 4 | 3 | Pricing and payment attach can capture value; seat/expert cannibalization and rival agents matter |
 
-Revised structural score is **81/100** (prior 91). Capture-heavy sensitivity (capture 30%, feedback 5%) remains 81, so the judgment is not weight-fragile.
+Revised structural score is **80/100** (prior 91). Capture-heavy sensitivity (capture 30%, feedback 5%) also equals 80, so the judgment is not weight-fragile.
 
 | Gate | Status | Reason |
 |---|---|---|
 | G0 candidate | Pass | Explicit asset, mechanisms, capture route and falsifiers |
 | G1 qualified business | Pass, moderate confidence | Profitable recurring franchise, low net debt; rights scope still incomplete |
-| G2 operating thesis | Pass, low/moderate | E2 rollout plus narrow E3 payment result and measurable materiality route |
-| G3 valued opportunity | Provisional pass, moderate | Dated price, filing inputs, bear/base/bull and reverse valuation; point share count and normalized FCF need audit |
+| G2 operating thesis | Pass, low/moderate | E2 rollout, payment association and measurable route to stronger controlled evidence |
+| G3 valued opportunity | Blocked | Dated price and scenarios exist, but point share count, normalized FCF and abrupt price repricing need audit |
 | G4 portfolio eligible | Blocked | No portfolio sizing/correlation work; capture evidence below E4 |
 
 Confidence: **mechanism high; deployment moderate; capture low; valuation moderate-low**.
@@ -144,8 +144,8 @@ All sources accessed 12 September 2026.
 
 ## Handoff for lead review
 
-- **Three decisive claims to verify:** (1) the payment reminder matched comparison really supports narrow E3 despite missing sample/cost; (2) FY2027 guidance plus $321.57 price supports the 6.6% reverse-growth result; (3) data principles do not establish pooled model-training rights.
+- **Three decisive claims to verify:** (1) the payment reminder result supports E2 only because assignment/sample/controls are undisclosed; (2) FY2027 guidance plus $321.57 price supports the 7.1% reverse-growth result at 18×; (3) data principles do not establish pooled model-training rights.
 - **Strongest counterargument:** FY2026 growth and FY2027 margin guidance may already demonstrate platform capture even without product-level attribution; the conservative framework may under-credit an integrated franchise.
 - **Blocking questions:** Point-in-time diluted/basic shares; AI-active cohort spend/retention; model and human-review cost; customer-specific training clauses; reconciliation accuracy/error rates; Mailchimp remediation.
-- **Provisional disposition:** Watch / valuation-qualified candidate. G4 blocked; E4 absent.
+- **Provisional disposition:** Watch. G3 and G4 blocked; E3/E4 absent.
 - **File written:** `research/batch-01/dossiers/05-intuit.md`.
