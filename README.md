@@ -2,16 +2,17 @@
 
 **AI can make scarce business assets more productive. The investment question is who retains the gain.**
 
-Research update **v0.2 · 12 September 2026** — first ten individual stock reviews complete.
+Research update **v0.3 · 12 September 2026** — continuing evidence coverage across the full100-company universe.
 
 This repository develops the AI Incumbent Productivity Regime into falsifiable industry theses and a global candidate universe. It begins with assets companies already possess: trusted content, scientific knowledge, customer relationships, operating networks and installed equipment. It then tests deployment, economic capture and valuation separately.
 
-The [first-ten lead review](research/batch-01/lead-review.md) shortlists RELX, Wolters Kluwer and Intuit for further underwriting. All ten have evidence dossiers and conditional valuations; none is yet designated underpriced AI productivity or portfolio eligible. [Research instructions](research/agent-instructions.md) and [audit notes](research/batch-01/reviewer-audit.md) document the agent process and lead corrections.
+The [coverage dashboard](research/coverage.md) tracks company research across ten batches. The first10 are reviewed; the remaining90 are being researched under the [evidence coverage contract](research/coverage-instructions.md). Comparative ranking and detailed bear/base/bull cases are deferred until coverage is complete. The earlier [batch-one review](research/batch-01/lead-review.md) is preserved as a provisional historical pass.
 
 ## Start here
 
 | Read | Purpose |
 |---|---|
+| [Full universe coverage](research/coverage.md) | Batch progress, source-backed company packets and lead acceptance |
 | [First ten stock reviews](research/batch-01/README.md) | Ten evidence packets, independent decisions and reproducible valuation checks |
 | [Investment thesis](framework/investment-thesis.md) | The central argument and competing explanation |
 | [36 industry theses](industries/README.md) | Asset, AI mechanism, capture, measurement and falsification by area |
