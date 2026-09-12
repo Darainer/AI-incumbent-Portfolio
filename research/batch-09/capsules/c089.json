@@ -1,0 +1,77 @@
+{
+  "id": "C089",
+  "company": "Procter & Gamble",
+  "batch": 9,
+  "dossier": "research/batch-09/dossiers/089-c089-procter-gamble.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "FY2026 ended 30 June, released 29 July 2026",
+  "sources": [
+    {
+      "url": "https://us.pg.com/newsroom/news-releases/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results/",
+      "title": "Latest results",
+      "date": "2026",
+      "opened": true,
+      "supports": "financial anchor"
+    },
+    {
+      "url": "https://s204.q4cdn.com/332108499/files/doc_financials/2026/ar/2026_annual_report.pdf",
+      "title": "Annual report",
+      "date": "2026",
+      "opened": true,
+      "supports": "business, risk and cash"
+    },
+    {
+      "url": "https://www.nielsen.com/legal/privacy-principles/",
+      "title": "Nielsen privacy principles",
+      "date": "undated",
+      "opened": true,
+      "supports": "syndicated data rights"
+    },
+    {
+      "url": "https://www.ftc.gov/business-guidance/blog/2023/02/keep-your-ai-claims-check",
+      "title": "FTC AI claims guidance",
+      "date": "2023-02",
+      "opened": true,
+      "supports": "adverse/quality constraint"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "operating profit scale",
+    "value": "about $19.75bn GAAP operating income implied by the reported 22.7% operating margin; net earnings $16.1bn",
+    "unit": "USD",
+    "period": "FY2026 ended 30 June, released 29 July 2026",
+    "source_url": "https://us.pg.com/newsroom/news-releases/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results/",
+    "caveat": "See dossier for implied/adjusted definition and confounders."
+  },
+  "ai_claim": {
+    "claim": "forecast demand, design media/product concepts and optimize plants/supply so gross margin and full-price volume improve",
+    "stage": "E2 baseline operations; E1/E2 incremental features",
+    "source_url": "https://s204.q4cdn.com/332108499/files/doc_financials/2026/ar/2026_annual_report.pdf",
+    "scope": "demand, media and operations",
+    "limitation": "No controlled incremental cash cohort."
+  },
+  "strongest_counterevidence": {
+    "claim": "FY2026 core operating margin fell 70bp and ordinary productivity, restructuring, mix, commodity/tariff and pricing actions confound any AI attribution",
+    "source_url": "https://us.pg.com/newsroom/news-releases/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results/",
+    "limitation": "Multiple ordinary drivers block attribution."
+  },
+  "rights_limit": "Customer, retailer, supplier and syndicated data are purpose-/contract-bound; scale is not universal pooled-training permission.",
+  "materiality_summary": "about $987.5m annual pre-tax (5% of implied $19.75bn GAAP operating income)",
+  "arithmetic": {
+    "inputs": "Illustrative assumed cost pool/efficiency/realization/retention/run cost",
+    "formula": "assumed $15bn eligible SG&A/supply cost \u00d7 10% efficiency \u00d7 60% realization \u00d7 40% retention \u2212 $250m = $110m",
+    "result": "Illustrative benefit below hurdle"
+  },
+  "confidence": {
+    "mechanism": "medium-high",
+    "deployment": "medium",
+    "capture": "low-medium"
+  },
+  "g2_provisional": "Incomplete: production baseline without controlled incremental retained cash.",
+  "unresolved_questions": [
+    "Versioned gross-profit cohort?",
+    "Retailer/customer pooled-learning rights?",
+    "Savings net capex and pass-through?"
+  ],
+  "self_check_complete": true
+}
