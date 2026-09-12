@@ -1,6 +1,8 @@
 # Schneider Electric (C060) — initial evidence dossier
 
-**Status:** unreviewed agent work; lead-review required. **Evidence cutoff / access date:** 12 September 2026. **Issuer/security:** Schneider Electric SE ordinary shares, Euronext Paris ticker **SU**, ISIN FR0000121972; quote and reporting currency EUR. **Industry:** D01 industrial automation and electrification.
+> Lead review complete. The [lead judgment](../lead-review.md) governs dispositions, scores and gates; provisional agent views below are retained for traceability.
+
+**Status:** research-agent packet; lead reviewed 12 September 2026. **Evidence cutoff / access date:** 12 September 2026. **Issuer/security:** Schneider Electric SE ordinary shares, Euronext Paris ticker **SU**, ISIN FR0000121972; quote and reporting currency EUR. **Industry:** D01 industrial automation and electrification.
 
 ## Provisional conclusion
 
@@ -8,7 +10,7 @@ Schneider has AVEVA recurring software, broad installed distribution and strong 
 
 The current earnings acceleration is led by AI and cloud **data-center infrastructure demand**—power distribution, prefabricated systems, cooling and UPS—not demonstrated AI productivity inside Schneider or its customers. Data centers were about 30% of FY2025 orders, and H1 2026 data-center demand rose triple digits. This is a strong demand exposure, but it makes the stock more dependent on hyperscaler capex and raises the risk of attributing conventional volume/operating leverage to the incumbent-productivity thesis.
 
-At the last completed official close available before cutoff, €287.40 on 10 September 2026, the shares were about 29.3x an explicitly illustrative €9.80 normalized FY2026 adjusted EPS. A five-year model requires 12.5% annual EPS/dividend growth at a 9% hurdle and 23x exit multiple. **Provisional disposition: watch; G2 passes narrowly, G3 is usable but does not qualify at this price on the initial model.**
+At the agent-observed Euronext close available in this pass, €287.40 on 10 September 2026, the shares were about 29.3x an explicitly illustrative €9.80 normalized FY2026 adjusted EPS. A five-year model requires 12.5% annual EPS/dividend growth at a 9% hurdle and 23x exit multiple. **Provisional disposition: watch; G2 passes narrowly, G3 is incomplete because normalized EPS, exact shares and pro-forma financing are unresolved; the initial price case is also demanding.**
 
 ## Conventional business and financial resilience
 
@@ -86,7 +88,7 @@ Illustrative **internal-cost** bridge: `€3.0bn eligible Schneider cost ×20% e
 
 ## Valuation and reverse valuation
 
-Price €287.40 (official Euronext close, 10 September 2026). FY2025 diluted average shares are approximated at 570.5m from the published €4.588bn FCF / €8.04 per-share reconciliation; reviewer should replace this derived denominator with the audited exact share note. Implied equity value is about €164.0bn and enterprise value about €179.4bn using 30 June net debt €15.36bn, before the $3.45bn announced Cognite/AiDASH purchase consideration. Because reported diluted EPS was not captured in the opened extracts, valuation uses adjusted EPS and labels it.
+Price €287.40 (agent-observed Euronext close, 10 September 2026; not independently certified by the lead). FY2025 diluted average shares are approximated at 570.5m from the published €4.588bn FCF / €8.04 per-share reconciliation; reviewer should replace this derived denominator with the audited exact share note. Implied equity value is about €164.0bn and enterprise value about €179.4bn using 30 June net debt €15.36bn, before pending acquisitions. Cognite is valued at $3.1bn; AiDASH has a $350m implied enterprise value for a deal acquiring approximately 90%. Their sum is not verified cash purchase consideration or pro-forma debt. Because reported diluted EPS was not captured in the opened extracts, valuation uses adjusted EPS and labels it.
 
 Starting adjusted EPS is an illustrative **€9.80**, close to annualized H1 €4.79 and above FY2025 €8.59; it is not company guidance. Python-reproduced formula: five dividends starting at €4.20 grow with EPS, plus `€9.80×(1+g)^5×exit P/E/(1+r)^5`.
 
@@ -115,21 +117,21 @@ Falsifiers: (1) no disclosed paid AI attach/retention and gross-margin cohort by
 | Distribution | 5 | 5 | Global product/channel base and AVEVA ARR |
 | Capture | 4 | 3 | Paid channels exist; AI contribution and margin not isolated |
 
-Python-checked revised structural score: **73/100**; capture-30%/feedback-5% sensitivity **75/100**, versus 83 prior. **G0 pass. G1 pass with debt/acquisition monitoring. G2 narrow pass** on E2 named deployment and a feasible measurement/materiality route. **G3 assessed but not qualified**: security/price/share bridge is usable with disclosed denominator limitation, while initial price-implied growth is demanding. **G4 not assessed.** Confidence: mechanism moderate-high; deployment moderate; capture low; valuation moderate.
+Python-checked revised structural score: **73/100**; capture-30%/feedback-5% sensitivity **75/100**, versus 83 prior. **G0 pass. G1 pass with debt/acquisition monitoring. G2 narrow pass** on E2 named deployment and a feasible measurement/materiality route. **G3 incomplete**: the share denominator is derived and normalized EPS is assumed; pro-forma financing is unresolved. Price-implied growth is also demanding. **G4 not assessed.** Confidence: mechanism moderate-high; deployment moderate; capture low; valuation moderate.
 
 Peer/inaction alternative: Siemens has deeper controller/engineering integration but a complicated Healthineers perimeter; Eaton offers more direct electrification exposure; ABB/Rockwell offer automation comparators. Waiting for a data-center normalization test and paid AI economics is preferable to underwriting the productivity thesis at the current implied growth rate.
 
 ## Source register and reviewer handoff
 
-1. Schneider Electric, *FY2025 Results Presentation*, 26 Feb 2026, accessed 12 Sep 2026, pp. 6–8, 31–59. Primary financial/strategy source; adjusted measures.
-2. Schneider Electric, *2025 Universal Registration Document*, 27 Mar 2026, accessed 12 Sep 2026. Audited filing landing/download; large PDF limited extraction.
-3. Schneider Electric, *H1 2026 Results*, 30 Jul 2026, accessed 12 Sep 2026, pp. 1–23. Latest reviewed interim results.
-4. Schneider Electric, *Next-generation agentic manufacturing*, 16 Apr 2026, accessed 12 Sep 2026. Product/deployment claims; no control.
-5. Schneider Electric India, *AI-powered autonomous green hydrogen with h2e*, 16 Apr 2026, accessed 12 Sep 2026. Named customer/project; scale extrapolation.
-6. AVEVA, *Maple Leaf data-driven waste reduction*, 2025 (page date not shown in opened result), accessed 12 Sep 2026. Vendor case; third-party Braincube confounder.
-7. AVEVA, *Henkel success story*, undated/legacy deployment, accessed 12 Sep 2026. Conventional MES baseline, not GenAI proof.
-8. Euronext, *Schneider Electric FR0000121972*, 10–11 Sep 2026, accessed 12 Sep 2026. Primary venue price; 11 Sep only intraday at retrieval.
-9. Reuters, *Schneider to invest €150m in France, close plant*, 9 Sep 2026, accessed 12 Sep 2026. Current adverse development; secondary reporting.
-10. Siemens, *Industrial AI agents*, 12 May 2025, accessed 12 Sep 2026. Incumbent challenger; target rather than controlled result.
+1. Schneider Electric, [*FY2025 Results Presentation*](https://www.se.com/ww/en/assets/564/document/528239/presentation-fy-results-2025.pdf), 26 Feb 2026, accessed 12 Sep 2026, pp. 6–8, 31–59. Primary financial/strategy source; adjusted measures.
+2. Schneider Electric, [*2025 Universal Registration Document*](https://www.se.com/ww/en/download/document/2025-URD/), 27 Mar 2026, accessed 12 Sep 2026. Audited filing; large PDF limited extraction.
+3. Schneider Electric, [*H1 2026 Results*](https://www.se.com/ww/en/assets/pdf/release-hy-results-2026), 30 Jul 2026, accessed 12 Sep 2026, pp. 1–23. Latest reviewed interim results.
+4. Schneider Electric, [*Next-generation agentic manufacturing*](https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-unveils-next-generation-agentic-manufacturing-capabilities-powered-by-Microsoft-Azure-AI-at-Hannover-Messe-2026-69e08de2ddabef15890a48f3/), 16 Apr 2026, accessed 12 Sep 2026. Product/deployment claims; no control.
+5. Schneider Electric India, [*AI-powered autonomous green hydrogen with h2e*](https://www.se.com/in/en/about-us/newsroom/news/press-releases/Schneider-Electric-demonstrates-how-AI%E2%80%91powered-open-software%E2%80%91defined-automation-transforms-green-hydrogen-and-complex-industries-with-Microsoft-69e06a0d3e2258a29904a8f8/), 16 Apr 2026, accessed 12 Sep 2026. Named project; scale extrapolation.
+6. AVEVA, [*Maple Leaf data-driven waste reduction*](https://www.aveva.com/en/perspectives/blog/data-driven-strategies-to-reduce-industrial-material-waste/), 2025 (page date unavailable), accessed 12 Sep 2026. Vendor case; Braincube confounder.
+7. AVEVA, [*Henkel success story*](https://www.aveva.com/en/perspectives/success-stories/henkel/), undated/legacy deployment, accessed 12 Sep 2026. Conventional MES baseline.
+8. Euronext, [*Schneider Electric FR0000121972*](https://live.euronext.com/fr/product/equities/FR0000121972-XPAR), 10–11 Sep 2026, accessed 12 Sep 2026. Primary venue price; 11 Sep intraday.
+9. Reuters, [*Schneider to invest €150m in France, close plant*](https://www.reuters.com/business/schneider-electric-invest-150-million-france-close-plant-2026-09-09/), 9 Sep 2026, accessed 12 Sep 2026. Current adverse development.
+10. Siemens, [*Industrial AI agents*](https://press.siemens.com/global/en/pressrelease/siemens-introduces-ai-agents-industrial-automation), 12 May 2025, accessed 12 Sep 2026. Incumbent challenger; target only.
 
 **Three decisive claims to verify:** (i) audited FY2025 diluted shares/reported diluted EPS and exact 10 September market-cap bridge; (ii) h2e’s 10% LCOH methodology, comparator and whether €500k is observed or solely 10 MW extrapolation; (iii) AVEVA/EcoStruxure/Cognite contractual rights for training and pooled cross-customer learning. **Strongest counterargument:** direct data-center demand and planned 250bp margin expansion can justify earnings growth even if the productivity moat fails. **Blocking questions:** AI-specific ARR/NRR/gross margin, controlled scaled outcomes, and post-deal leverage. **Provisional disposition:** watch; good business, narrow G2, price not qualified in initial G3. **File written:** `research/batch-01/dossiers/08-schneider-electric.md`.
