@@ -7,11 +7,11 @@
   "latest_financial_period": "H1 FY2026 ended 31 July, released 9 September 2026",
   "sources": [
     {
-      "url": "https://www.inditex.com/itxcomweb/en/press/press-releases",
-      "title": "Latest results",
-      "date": "2026",
+      "url": "https://www.inditex.com/itxcomweb/lt/en/press/news-detail/a2c9b82b-1e27-4582-a7c9-746bc88b744e/interim-half-year-2026-results",
+      "title": "Interim Half Year 2026 Results",
+      "date": "2026-09-09",
       "opened": true,
-      "supports": "financial anchor"
+      "supports": "sales, EBIT, net income, cash flow and operating drivers"
     },
     {
       "url": "https://static.inditex.com/annual_report_2025/en/",
@@ -36,12 +36,12 @@
     }
   ],
   "financial_anchor": {
-    "metric": "latest profit measure",
-    "value": "€2.980bn net income; €5.513bn EBITDA",
-    "unit": "reported currency",
+    "metric": "EBIT",
+    "value": "€3.843bn",
+    "unit": "EUR",
     "period": "H1 FY2026 ended 31 July, released 9 September 2026",
-    "source_url": "https://www.inditex.com/itxcomweb/en/press/press-releases",
-    "caveat": "Reported/adjusted definitions and seasonality; see dossier."
+    "source_url": "https://www.inditex.com/itxcomweb/lt/en/press/news-detail/a2c9b82b-1e27-4582-a7c9-746bc88b744e/interim-half-year-2026-results",
+    "caveat": "Half-year and not annualized; currency, merchandising, logistics and store optimization confound."
   },
   "ai_claim": {
     "claim": "forecast demand, allocate inventory and assist design/content so more full-price sales occur with less markdown and working capital",
@@ -56,11 +56,11 @@
     "limitation": "Multiple ordinary-business drivers."
   },
   "rights_limit": "Customer, supplier/provider and payment/location data are purpose- and contract-bound; cross-context pooled training is not universal.",
-  "materiality_summary": "No clean H1 operating-profit figure was opened; using H1 EBITDA only as a scale proxy, 5% is €275.7m for the half year and is not annualized",
+  "materiality_summary": "H1 EBIT was €3.843bn; the same-half 5% pre-tax hurdle is €192.15m and is not annualized.",
   "arithmetic": {
     "inputs": "Illustrative assumed cost pool and capture terms",
     "formula": "assumed €10bn eligible inventory purchases × 1% markdown/obsolescence improvement × 60% realization × 50% retention − €30m cost = €0m",
-    "result": "Illustrative only; no E4 conclusion"
+    "result": "Illustrative only; annual cost-pool illustration is NOT_COMPARABLE with the half-year hurdle without time alignment; no E4 conclusion"
   },
   "confidence": {
     "mechanism": "high",

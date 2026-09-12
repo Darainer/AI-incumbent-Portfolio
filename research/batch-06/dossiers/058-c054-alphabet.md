@@ -80,3 +80,9 @@ Access limits: some issuer pages dynamically expose PDFs or tables; where exact 
 ## Reviewer handoff
 
 Verify: (1) the latest financial anchor and reported/adjusted reconciliation; (2) whether the cited product outcome is production, representative and quality controlled; (3) contract-level training, retention and pooled-learning rights. Strongest counterargument: Q2 capex was $44.9bn and 2026 guidance $195–205bn; antitrust remedies, content rights and query cannibalization can shift value away from shareholders. Blocking items are cohort economics, labor/capacity realization, recurring technology cost and customer/supplier sharing. **Provisional disposition:** evidence watch; unreviewed. Capsule: [`../../batch-06/capsules/c054.json`](../capsules/c054.json).
+
+## Source-audit correction — 12 September 2026
+
+The opened Alphabet Q2 release supports $119.8bn revenue and $40.8bn GAAP operating income. The 5% screen is $2.04bn for Q2 only. AI Overviews/Mode and Cloud AI demand support production/adoption at E2, but reported Search and Cloud growth do not isolate causal AI contribution after traffic-acquisition, content, model-serving and infrastructure costs.
+
+**Controlling materiality treatment:** $2.04bn = 5% of Q2 2026 GAAP operating income of $40.8bn. This is a quarter-only, pre-tax screen and is NOT_COMPARABLE with the annual benefit illustration; no annualization is assumed. The dossier’s earlier conflicting hurdle or evidence-stage wording is withdrawn. All cost-pool, efficiency, realization, retained-share and recurring-cost inputs remain labeled assumptions. Revenue-demand evidence is kept separate from own-productivity evidence, and customer/product adoption does not establish retained shareholder cash.

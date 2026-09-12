@@ -7,18 +7,18 @@
   "latest_financial_period": "FY2026 ended 30 June 2026",
   "sources": [
     {
-      "url": "https://investors.adp.com/overview/default.aspx",
-      "title": "FY2026 ended 30 June 2026 issuer financial update",
-      "date": "2026",
+      "url": "https://s205.q4cdn.com/887941133/files/doc_financials/2026/q4/ADP-4Q26-Earnings-Release.pdf",
+      "title": "ADP Q4 and FY2026 earnings release",
+      "date": "2026-07-29",
       "opened": true,
-      "supports": "The [FY2026 investor release hub](https://investors.adp.com/overview/default.aspx) identifies Q4/FY2026 as the latest completed period. FY2026 revenue was $21.95bn, up 7%. ADP stat"
+      "supports": "FY2026 revenue $21.9474bn, net earnings $4.4135bn and operating cash flow $5.4412bn"
     },
     {
-      "url": "https://investors.adp.com/financial-information/annual-reports-and-proxies/default.aspx",
-      "title": "Annual report / financial results",
-      "date": "2025-30 June 2025",
-      "opened": false,
-      "supports": "latest financial anchor used in packet"
+      "url": "https://s205.q4cdn.com/887941133/files/doc_financials/2026/q4/ADP-4Q26-Earnings-Release.pdf",
+      "title": "ADP FY2026 consolidated statements",
+      "date": "2026-07-29",
+      "opened": true,
+      "supports": "Exact twelve-month GAAP net earnings and tax line"
     },
     {
       "url": "https://www.adp.com/spark/articles/2024/04/how-adp-is-using-generative-ai.aspx",
@@ -44,11 +44,11 @@
   ],
   "financial_anchor": {
     "metric": "net earnings",
-    "value": 4.41,
+    "value": 4.4135,
     "unit": "USD billion",
-    "period": "FY2026",
-    "source_url": "https://investors.adp.com/financial-information/annual-reports-and-proxies/default.aspx",
-    "caveat": "about $5.4bn adjusted EBIT; reported operating profit is lower and should be used for statutory reconciliation; measure may be adjusted or a labelled scale proxy and is not normalized."
+    "period": "FY2026 ended 30 June 2026",
+    "source_url": "https://s205.q4cdn.com/887941133/files/doc_financials/2026/q4/ADP-4Q26-Earnings-Release.pdf",
+    "caveat": "GAAP after-tax net earnings; adjusted EBIT of $5.9bn is non-GAAP and excluded from the hurdle."
   },
   "ai_claim": {
     "claim": "ADP describes scoped AI/digital mechanisms in generative payroll/service assistance with expert escalation, anomaly and fraud detection in payroll and tax flows.",
@@ -63,11 +63,11 @@
     "limitation": "Competitive capability does not by itself prove equal outcomes."
   },
   "rights_limit": "Employers and workers own or control personal data; ADP may process it under contract. Public privacy documentation does not establish permission for unrestricted cross-employer training.",
-  "materiality_summary": "The labelled 5% scale hurdle is $250m; public evidence does not establish it.",
+  "materiality_summary": "Five percent of FY2026 GAAP net earnings is $220.675m on an annual after-tax basis; public evidence does not establish an AI-attributed amount.",
   "arithmetic": {
-    "inputs": "Using a $5",
-    "formula": "Using a $5.0bn reported-profit scale proxy, 5%=$250m. A $4bn eligible service/development pool\u00d712%\u00d760%\u00d760%\u2212$50m=$123m; pricing, PEO pass-through and released capacity must be reconciled.",
-    "result": "Illustrative bridge remains below or must be compared with $250m; not a forecast."
+    "inputs": "FY2026 GAAP net earnings $4.4135bn; 5%; illustrative eligible service/development pool $4bn, efficiency 12%, realization 60%, retention 60%, recurring cost $50m; illustrative tax rate 23%",
+    "formula": "$4.4135bn × 5% = $220.675m hurdle; $4bn × 12% × 60% × 60% − $50m = $122.8m illustrative benefit; $122.8m × (1 − 23%) = $94.556m after tax",
+    "result": "Illustrative $94.556m after tax is below the $220.675m annual after-tax hurdle. The 23% tax rate is an explicit research assumption matching ADP’s disclosed FY2026 effective tax rate."
   },
   "confidence": {
     "mechanism": "medium",

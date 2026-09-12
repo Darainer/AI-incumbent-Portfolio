@@ -7,11 +7,11 @@
   "latest_financial_period": "Q2 2026 (ended 30 June 2026)",
   "sources": [
     {
-      "url": "https://investor.mastercard.com/financials-and-sec-filings/quarterly-results/default.aspx",
+      "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000081/ma06302026-exx991xearnings.htm",
       "title": "Latest financial results",
       "date": "30 July 2026",
-      "opened": false,
-      "supports": "source target; retrieval did not yield auditable supporting extract"
+      "opened": true,
+      "supports": "latest financial anchor"
     },
     {
       "url": "https://investor.mastercard.com/financials-and-sec-filings/annual-reports-and-proxy/default.aspx",
@@ -43,11 +43,11 @@
     }
   ],
   "financial_anchor": {
-    "metric": "Q2 2026 GAAP net income and diluted EPS",
-    "value": "$4.4bn; $4.97",
+    "metric": "Q2 2026 GAAP operating income and net income",
+    "value": "$5.6bn; $4.4bn",
     "unit": "USD",
     "period": "Q2 2026 (ended 30 June 2026)",
-    "source_url": "https://investor.mastercard.com/financials-and-sec-filings/quarterly-results/default.aspx",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000081/ma06302026-exx991xearnings.htm",
     "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
   },
   "ai_claim": {
@@ -63,7 +63,7 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "Framework convention: $880m after tax, exactly 5% of the explicit $17.6bn annualized Q2 GAAP net-income scale proxy (4 × $4.4bn). This is not a normalized annual estimate. Illustrative internal-cost assumptions produce negative $70m pre-tax and are not directly comparable without tax conversion.",
+  "materiality_summary": "$220m = 5% of Q2 2026 GAAP net income of $4.4bn. This is a quarter-only, after-tax screen and is NOT_COMPARABLE with the annual pre-tax benefit illustration; no annualization is assumed.",
   "arithmetic": {
     "inputs": "pool $5bn eligible internal operating cost (assumption); efficiency 2%; realization 60%; retained share 50%; recurring cost $100m",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",

@@ -56,11 +56,11 @@
     "limitation": "Does not quantify AI-attributable impact."
   },
   "rights_limit": "Client code/data is SOW/NDA-bound; cross-client training, generated-IP and model-provider retention vary by contract.",
-  "materiality_summary": "No reliable normalized profit denominator extracted; formula and illustrative bridge provided.",
+  "materiality_summary": "Q3 GAAP operating income was $3.175bn; the same-quarter 5% pre-tax hurdle is $158.765m and is not annualized.",
   "arithmetic": {
     "inputs": "assumed $10bn eligible labor, 15% efficiency, 50% realization, 30% retention, $300m cost",
     "formula": "10000*.15*.50*.30-300",
-    "result": "-$75m illustrative; billable-hours/client sharing decisive"
+    "result": "-$75m illustrative; billable-hours/client sharing decisive; annual illustration is NOT_COMPARABLE with the reported-period hurdle without time alignment."
   },
   "confidence": {
     "mechanism": "high",

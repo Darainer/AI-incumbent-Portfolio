@@ -80,3 +80,7 @@ Access limits: some issuer pages dynamically expose PDFs or tables; where exact 
 ## Reviewer handoff
 
 Verify: (1) the latest financial anchor and reported/adjusted reconciliation; (2) whether the cited product outcome is production, representative and quality controlled; (3) contract-level training, retention and pooled-learning rights. Strongest counterargument: regulated allowances may pass savings to customers; €50bn-plus debt and €14.5bn investment intensity make small opex savings secondary to capex execution and allowed returns. Blocking items are cohort economics, labor/capacity realization, recurring technology cost and customer/supplier sharing. **Provisional disposition:** evidence watch; unreviewed. Capsule: [`../../batch-10/capsules/c098.json`](../capsules/c098.json).
+
+## Source-audit correction — 12 September 2026
+
+The opened 22 July 2026 issuer results page reports H1 net profit of €4.34bn, adjusted EBITDA of €8.05bn and €7bn of investment, 63% allocated to networks. The controlling 5% screen is €217m for the six-month period on an after-tax reported-net-profit basis; it is NOT_COMPARABLE with the annual pre-tax benefit illustration, and no annualization or normalization is assumed. Capital intensity is kept separate from operating productivity. Iberdrola’s AI evidence remains E1 public program/capability because no opened named grid or renewable production cohort supplied outage, forecast-error or retained-cash results.

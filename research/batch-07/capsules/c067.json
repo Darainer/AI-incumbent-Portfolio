@@ -7,11 +7,11 @@
   "latest_financial_period": "Q2 2026 (ended 30 June 2026)",
   "sources": [
     {
-      "url": "https://www.cn.ca/en/investors/financial-results/",
+      "url": "https://www.cn.ca/-/media/files/investors/investor-financial-quarterly/investor-financial-quarterly-2026/q2/q2-2026-quarterly-review-en.pdf",
       "title": "Latest financial results",
       "date": "24 July 2026",
-      "opened": false,
-      "supports": "source target; retrieval did not yield auditable supporting extract"
+      "opened": true,
+      "supports": "latest financial anchor"
     },
     {
       "url": "https://www.cn.ca/en/investors/annual-reports/",
@@ -47,7 +47,7 @@
     "value": "C$4.753bn; C$1.781bn",
     "unit": "CAD",
     "period": "Q2 2026 (ended 30 June 2026)",
-    "source_url": "https://www.cn.ca/en/investors/financial-results/",
+    "source_url": "https://www.cn.ca/-/media/files/investors/investor-financial-quarterly/investor-financial-quarterly-2026/q2/q2-2026-quarterly-review-en.pdf",
     "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
   },
   "ai_claim": {
@@ -63,7 +63,7 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "Framework convention: C$350m, roughly 5% of a C$7.1bn annualized Q2 operating-income proxy. Illustrative assumptions produce C$22m, below the hurdle.",
+  "materiality_summary": "C$89.05m = 5% of Q2 2026 operating income of C$1.781bn. This is a quarter-only, pre-tax screen and is NOT_COMPARABLE with the annual benefit illustration; no annualization is assumed.",
   "arithmetic": {
     "inputs": "pool C$5bn eligible annual labor, fuel and equipment cost; efficiency 6%; realization 40%; retained share 60%; recurring cost C$50m",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",

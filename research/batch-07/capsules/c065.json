@@ -11,7 +11,7 @@
       "title": "H1 2026 issuer financial update",
       "date": "2026",
       "opened": true,
-      "supports": "group revenue of \u20ac42.787bn, up from \u20ac40.634bn, including \u20ac656m adverse currency effect. FY2025 revenue was about \u20ac82.9bn and EBIT \u20ac6.1bn. The group\u2019s AI trend report documents use "
+      "supports": "group revenue of €42.787bn, up from €40.634bn, including €656m adverse currency effect. FY2025 revenue was about €82.9bn and EBIT €6.1bn. The group’s AI trend report documents use "
     },
     {
       "url": "https://group.dhl.com/en/investors/reports-and-presentations.html",
@@ -48,7 +48,7 @@
     "unit": "EUR billion",
     "period": "FY2025",
     "source_url": "https://group.dhl.com/en/investors/reports-and-presentations.html",
-    "caveat": "\u20ac5.9bn EBIT; measure may be adjusted or a labelled scale proxy and is not normalized."
+    "caveat": "FY2025 EBIT governs the pre-tax operating screen; direct report access was not reproduced in the independent audit."
   },
   "ai_claim": {
     "claim": "DHL Group describes scoped AI/digital mechanisms in route, load and network-capacity optimization, predictive maintenance and parcel/facility automation.",
@@ -63,11 +63,11 @@
     "limitation": "Competitive capability does not by itself prove equal outcomes."
   },
   "rights_limit": "Shippers own commercial shipment information; DHL processes it for carriage and service. Cross-customer learning and retention depend on contracts and privacy rules.",
-  "materiality_summary": "The labelled 5% scale hurdle is \u20ac295m; public evidence does not establish it.",
+  "materiality_summary": "Five percent of the completed-year governing metric is €305m; public evidence does not establish an AI-attributed amount.",
   "arithmetic": {
-    "inputs": "5%\u00d7\u20ac5",
-    "formula": "5%\u00d7\u20ac5.9bn EBIT=\u20ac295m. A \u20ac10bn eligible operating-cost pool\u00d75%\u00d760%\u00d740%\u2212\u20ac100m=\u20ac20m. Wage agreements, customer pricing and service quality determine realization; shipper savings are excluded.",
-    "result": "Illustrative bridge remains below or must be compared with \u20ac295m; not a forecast."
+    "inputs": "FY2025 EBIT €6.1bn; 5%; illustrative eligible operating-cost pool €10bn, efficiency 5%, realization 60%, retention 40%, recurring cost €100m",
+    "formula": "€6.1bn × 5% = €305m hurdle; €10bn × 5% × 60% × 40% − €100m = €20m illustrative benefit",
+    "result": "Illustrative €20m is below the €305m annual pre-tax operating hurdle; shipper savings are excluded."
   },
   "confidence": {
     "mechanism": "medium",

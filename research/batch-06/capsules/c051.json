@@ -7,18 +7,18 @@
   "latest_financial_period": "FY2026 ended 30 June 2026",
   "sources": [
     {
-      "url": "https://ir.kla.com/",
-      "title": "FY2026 ended 30 June 2026 issuer financial update",
-      "date": "2026",
+      "url": "https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full",
+      "title": "KLA FY2026 issuer results",
+      "date": "2026-07-30",
       "opened": true,
-      "supports": "$13.58bn annual revenue and $4.83bn GAAP net income. KLA product literature describes ML defect classification and process control, but this packet found no controlled fab-level fa"
+      "supports": "FY2026 revenue $13.58bn and GAAP net income about $4.83bn"
     },
     {
-      "url": "https://ir.kla.com/financial-information/annual-reports-and-proxies",
-      "title": "Annual report / financial results",
-      "date": "2025-30 June 2025",
-      "opened": false,
-      "supports": "latest financial anchor used in packet"
+      "url": "https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full",
+      "title": "KLA FY2026 issuer results",
+      "date": "2026-07-30",
+      "opened": true,
+      "supports": "Completed-year financial statements and GAAP/non-GAAP reconciliation"
     },
     {
       "url": "https://www.kla.com/advance/innovation/artificial-intelligence",
@@ -46,9 +46,9 @@
     "metric": "GAAP net income",
     "value": 4.83,
     "unit": "USD billion",
-    "period": "FY2026",
-    "source_url": "https://ir.kla.com/financial-information/annual-reports-and-proxies",
-    "caveat": "about $4.6bn operating income; measure may be adjusted or a labelled scale proxy and is not normalized."
+    "period": "FY2026 ended 30 June 2026",
+    "source_url": "https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full",
+    "caveat": "GAAP after-tax net income governs the hurdle; prior-year operating income is excluded."
   },
   "ai_claim": {
     "claim": "KLA describes scoped AI/digital mechanisms in ML defect classification and nuisance reduction, predictive tool service and calibration.",
@@ -63,11 +63,11 @@
     "limitation": "Competitive capability does not by itself prove equal outcomes."
   },
   "rights_limit": "Customer wafer images and yield correlations are highly confidential. KLA can process data to provide contracted functionality; pooled learning rights are undisclosed and likely contract-specific.",
-  "materiality_summary": "The labelled 5% scale hurdle is $230m; public evidence does not establish it.",
+  "materiality_summary": "Five percent of FY2026 GAAP net income is $241.5m on an annual after-tax basis; public evidence does not establish an AI-attributed amount.",
   "arithmetic": {
-    "inputs": "5%\u00d7$4",
-    "formula": "5%\u00d7$4.6bn operating income=$230m. A $1.5bn eligible pool\u00d712%\u00d760%\u00d750%\u2212$35m=$19m. Most materiality likely requires retained pricing/service or AI-driven inspection intensity, not customer savings booked as KLA savings.",
-    "result": "Illustrative bridge remains below or must be compared with $230m; not a forecast."
+    "inputs": "FY2026 GAAP net income $4.83bn; 5%; illustrative eligible pool $1.5bn, efficiency 12%, realization 60%, retention 50%, recurring cost $35m; illustrative tax rate 20%",
+    "formula": "$4.83bn × 5% = $241.5m hurdle; $1.5bn × 12% × 60% × 50% − $35m = $19m illustrative benefit; $19m × (1 − 20%) = $15.2m after tax",
+    "result": "Illustrative $15.2m after tax is below the $241.5m annual after-tax hurdle. The 20% tax rate is an explicit research assumption, not company guidance."
   },
   "confidence": {
     "mechanism": "medium",

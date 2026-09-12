@@ -4,14 +4,14 @@
   "batch": 6,
   "dossier": "research/batch-06/dossiers/055-c050-applied-materials.md",
   "cutoff": "2026-09-12",
-  "latest_financial_period": "Q2 FY2026 ended 26 April 2026",
+  "latest_financial_period": "Q3 FY2026 ended 26 July 2026",
   "sources": [
     {
-      "url": "https://ir.appliedmaterials.com/",
-      "title": "Q2 FY2026 ended 26 April 2026 issuer financial update",
-      "date": "2026",
+      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results",
+      "title": "Q3 FY2026 issuer results",
+      "date": "2026-08-13",
       "opened": true,
-      "supports": "The [Q2 FY2026 issuer results](https://ir.appliedmaterials.com/) report record quarterly revenue and GAAP operating income of $2.52bn, 31.9% of revenue. Applied\u2019s [AIx announcement"
+      "supports": "Q3 revenue $9.12bn, GAAP operating income $3.08bn at 33.7%, non-GAAP operating income $3.10bn at 34.0%, and operating cash flow $3.04bn"
     },
     {
       "url": "https://ir.appliedmaterials.com/financial-information/annual-reports",
@@ -48,7 +48,7 @@
     "unit": "USD billion",
     "period": "FY2025",
     "source_url": "https://ir.appliedmaterials.com/financial-information/annual-reports",
-    "caveat": "about $8.3bn operating income; measure may be adjusted or a labelled scale proxy and is not normalized."
+    "caveat": "FY2025 GAAP operating income governs the annual pre-tax screen; Q3 FY2026 is current context and is not annualized."
   },
   "ai_claim": {
     "claim": "AIx combines process tools, sensors, metrology, analytics and ML to accelerate process development.",
@@ -63,11 +63,11 @@
     "limitation": "Competitive capability does not by itself prove equal outcomes."
   },
   "rights_limit": "Fab recipes, wafers and yield data are customer-sensitive. Service access can support customer-specific inference, but public documents do not establish broad cross-fab reuse rights.",
-  "materiality_summary": "The labelled 5% scale hurdle is $415m; public evidence does not establish it.",
+  "materiality_summary": "Five percent of FY2025 GAAP operating income is $414.5m on an annual pre-tax basis; public evidence does not establish an AI-attributed amount.",
   "arithmetic": {
-    "inputs": "5%\u00d7$8",
-    "formula": "5%\u00d7$8.3bn operating income=$415m. A $3bn eligible service/operations pool\u00d710%\u00d760%\u00d750%\u2212$70m=$20m; customer yield savings are not Applied costs. Equipment demand from AI is a separate revenue mechanism.",
-    "result": "Illustrative bridge remains below or must be compared with $415m; not a forecast."
+    "inputs": "FY2025 GAAP operating income $8.29bn; 5%; illustrative eligible service/operations pool $3bn, efficiency 10%, realization 60%, retention 50%, recurring cost $70m",
+    "formula": "$8.29bn × 5% = $414.5m hurdle; $3bn × 10% × 60% × 50% − $70m = $20m illustrative benefit",
+    "result": "Illustrative $20m is below the $414.5m annual pre-tax hurdle; customer yield savings are not Applied Materials cost savings."
   },
   "confidence": {
     "mechanism": "medium",

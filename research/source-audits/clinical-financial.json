@@ -1,0 +1,220 @@
+{
+  "C004": {
+    "status": "pass",
+    "checked_sources": [
+      "https://www.novartis.com/news/media-releases/novartis-delivered-high-single-digit-sales-growth-achieved-40-core-margin-and-further-advanced-pipeline-2025",
+      "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-novartis-collaboration-expansion",
+      "https://news.microsoft.com/source/features/digital-transformation/novartis-empowers-scientists-ai-speed-discovery-development-breakthrough-medicines"
+    ],
+    "factual_checks": [
+      "FY2025 source directly confirms USD 54,532m sales, USD 17,644m reported operating income, USD 21,889m core operating income, and USD 17,596m free cash flow; it explicitly labels core results and free cash flow non-IFRS.",
+      "Isomorphic Labs directly confirms up to three additional research programs beyond the original collaboration; this is program-scope evidence only.",
+      "Microsoft's supplier account directly quotes Novartis saying molecule-suggestion functionality was integrated into the decision-support system used by medicinal chemists. This supports a narrow E2 workflow claim, not clinical success or economics.",
+      "The September 2026 clinical failures may be used only as core-business/pipeline counterevidence. Neither source establishes that pelacarsen or del-desiran was AI-originated, so they are not evidence of AI failure."
+    ],
+    "arithmetic_check": "0.05 × USD 21.889bn core operating income = USD 1.09445bn, correctly rounded to USD 1.094bn. Annual pre-tax unit is consistent, but the anchor is company-defined non-IFRS core operating income.",
+    "corrections": [],
+    "limitations": [
+      "No controlled transition-rate, clinical-outcome, or retained-cash evidence supports E3 for Novartis.",
+      "The Microsoft article is a 2021 supplier narrative and gives no workload denominator or control group."
+    ],
+    "full_dossier_read": true
+  },
+  "C005": {
+    "status": "pass",
+    "checked_sources": [
+      "https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html",
+      "https://annualreport.novonordisk.com/2025/introducing-novo-nordisk/five-year-overview.html",
+      "https://www.valohealth.com/press/valo-health-and-novo-nordisk-expand-collaboration-to-discover-and-develop-novel-treatments-for-cardiometabolic-diseases",
+      "https://aws.amazon.com/solutions/case-studies/novo-nordisk-generative-ai-case-study/"
+    ],
+    "factual_checks": [
+      "Novo Nordisk's annual-report pages directly confirm DKK 127,658m FY2025 operating profit, DKK 102,434m net profit, DKK 28.3bn free cash flow, DKK 60.1bn PP&E capex, DKK 30.0bn intangible capex, and displayed net debt of DKK (95,424)m.",
+      "Valo's working primary release confirms an expansion from up to 11 to up to 20 programs, USD 190m of near-term payments, and potential milestones of approximately USD 4.6bn. It describes target identification and active preclinical programs, which remains E1 rather than clinical proof.",
+      "The dossier's exact GlobeNewswire URL returned an internal error, but the Valo primary release above corroborates the program scope.",
+      "The cited AWS homepage does not support the claimed Novo-specific clinical-study-report workflow. A working AWS Novo case study supports broad production use in nonregulated processes: 25,000+ employees, 2,500+ chatbot use cases, and a supplier-reported task reduction from one day to 30 minutes. It does not establish the dossier's claimed clinical-report workflow."
+    ],
+    "arithmetic_check": "0.05 × DKK 127.658bn reported operating profit = DKK 6.3829bn, correctly rounded to DKK 6.383bn annual pre-tax. The annual reported-profit unit is internally consistent.",
+    "corrections": [],
+    "limitations": [
+      "Valo evidence establishes contracted and preclinical scope, not better transitions, approvals, or retained economics.",
+      "The AWS case study is supplier-reported and covers nonregulated internal use rather than a controlled clinical-development outcome."
+    ],
+    "full_dossier_read": true
+  },
+  "C006": {
+    "status": "pass",
+    "checked_sources": [
+      "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+      "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full",
+      "https://investor.lilly.com/news-releases/news-release-details/lilly-launches-tunelab-platform-give-biotechnology-companies"
+    ],
+    "factual_checks": [
+      "The dossier's cited FY2025 SEC accession ending 000007 did not open. SEC search identifies the working filed 10-K at accession 000005947826000013; use that filing or Lilly's working 2025 annual-report PDF.",
+      "The working Q2 2026 Lilly release directly confirms USD 22.974bn revenue, USD 7.095bn reported net income, USD 7.94 reported EPS, 60% volume growth, 13% realized-price decline, Mounjaro USD 9.943bn, Zepbound USD 4.928bn, and USD 85-87bn revenue guidance.",
+      "The long TuneLab URL in the dossier did not open. Lilly's working short URL directly confirms models derived from proprietary data obtained at a cost above USD 1bn, drug-disposition/safety/preclinical data on hundreds of thousands of molecules, daily use by Lilly scientists, partner-contributed training data, and federated learning.",
+      "TuneLab supports scoped E1/E2 availability/use. It provides no prospective phase-transition, approval, or retained-cash result and therefore is not E3."
+    ],
+    "arithmetic_check": "0.05 × USD 26.30bn FY2025 GAAP operating income = USD 1.315bn annual pre-tax. The dossier's illustrative annuity factor at 8% for five years is approximately 3.9927, so USD 2.0bn / 3.9927 = USD 0.501bn. Converting the hurdle with an assumed 18% tax gives USD 1.078bn after tax; the tax rate is an assumption and the NPV example is not evidence.",
+    "corrections": [],
+    "limitations": [
+      "The USD 1bn figure is historic research cost, not platform value, current expense, or realized benefit.",
+      "No company-specific E3 evidence connects TuneLab to improved clinical outcomes or shareholder cash."
+    ],
+    "full_dossier_read": true
+  },
+  "C007": {
+    "status": "limited",
+    "checked_sources": [
+      "https://www.siemens-healthineers.com/press/releases/2026q3",
+      "https://www.siemens-healthineers.com/investor-relations/presentations-financial-publications",
+      "https://www.siemens-healthineers.com/digital-health-solutions/ai-rad-companion"
+    ],
+    "factual_checks": [
+      "The working Q3 FY2026 issuer release confirms 2.8% comparable revenue growth, 19.1% adjusted EBIT margin, Imaging 26.5% margin, Diagnostics revenue decline of 5.5% and 4.1% margin, EUR 1.0bn free cash flow, and that tariff refunds benefited every segment. These support the dossier's decisive negative confounder.",
+      "The investor-relations reporting hub lists the 2025 annual report, but the exact cited PDF returned a safe-open error in this audit. I therefore did not independently corroborate the FY2025 EUR 3.154bn IFRS EBIT anchor from the cited PDF.",
+      "The AI-Rad Companion product page directly describes automatic post-processing, abnormality highlighting, segmentation, measurements, reports, and deployment through teamplay. It supports E2 product availability/integration, while its outcome language is qualified marketing and does not establish controlled clinical or economic benefit."
+    ],
+    "arithmetic_check": "Given the unverified dossier input of EUR 3.154bn FY2025 IFRS EBIT, 5% = EUR 157.7m and EUR 157.7m / 70% = EUR 225.3m incremental revenue. The calculations are correct, but the FY2025 input was not independently opened in this audit and the 70% margin is explicitly assumed.",
+    "corrections": [],
+    "limitations": [
+      "Exact cited FY2025 and Q3 PDF URLs could not be opened by the audit tool; the Q3 press release corroborates latest operating facts but not the FY2025 anchor.",
+      "No paid-attach denominator, matched workflow cohort, or retained-cash bridge supports company-specific E3."
+    ],
+    "full_dossier_read": true
+  },
+  "C008": {
+    "status": "pass",
+    "checked_sources": [
+      "https://news.medtronic.com/2026-09-01-Medtronic-reports-first-quarter-fiscal-2027-results-delivers-broad-based-portfolio-performance-and-raises-fiscal-2027-guidance",
+      "https://www.sec.gov/Archives/edgar/data/1613103/000162828026040034/exhibit991-fy26q4earningsr.htm",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11866038/",
+      "https://pubmed.ncbi.nlm.nih.gov/40018072/"
+    ],
+    "factual_checks": [
+      "The 1 September issuer release confirms the latest period is FY2027 Q1 ended 31 July 2026: USD 9.756bn revenue, USD 1.764bn GAAP operating profit and USD 1.470bn GAAP net income. It also says the extra fiscal week benefited organic revenue by about USD 570m; the dossier correctly retains FY2026 as its annual materiality anchor.",
+      "The SEC-filed release directly confirms FY2026 revenue USD 36.364bn, GAAP operating profit USD 6.467bn, non-GAAP operating profit USD 8.856bn, operating cash flow USD 7.330bn, free cash flow USD 5.426bn, and USD 9.2bn cash and investments.",
+      "The full peer-reviewed article confirms a prospective, multicenter, non-blinded, quasi-randomized controlled crossover design at four Danish centers; 795 patients were analyzed (400 AI, 395 control).",
+      "The study directly confirms ADR 59.1% versus 46.6% (p<0.001) and NNRR 15.1% versus 17.1% (p=0.542). The ADR benefit was significant among experts but not among non-experts.",
+      "Authors explicitly identify cluster-level quasi-randomization, possible selection bias, residual confounding, and insufficient power for the non-expert subgroup."
+    ],
+    "arithmetic_check": "0.05 × USD 6.467bn GAAP operating profit = USD 323.35m, correctly rounded to USD 323m. Illustrative bridge recomputes to about USD 211m plus USD 78m, less USD 60m = USD 229m; required first-module adoption is (323 + 60 − 78) / (6,000 × USD 150,000 × 65% × 80%) = 65.2%. All operating inputs are assumptions.",
+    "corrections": [],
+    "limitations": [
+      "PubMed itself yielded no text in the audit tool; the linked full article on PMC was opened and used.",
+      "Touch Surgery product URL returned an internal error during this audit, so its deployment claims were not independently corroborated here."
+    ],
+    "full_dossier_read": true
+  },
+  "C009": {
+    "status": "pass",
+    "checked_sources": [
+      "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+      "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000047/q226ex-991earningsrelease.htm",
+      "https://www.intuitive.com/en-us/digital-solutions/my-intuitive/my-intuitive"
+    ],
+    "factual_checks": [
+      "The 10-K directly confirms FY2025 revenue USD 10.0647bn and states that learning and digital solutions do not currently generate material revenue, a decision-critical negative fact consistent with the dossier's low capture assessment.",
+      "The Q2 SEC exhibit directly confirms USD 2.89bn quarterly revenue, 16% combined da Vinci/Ion procedure growth, installed bases of 11,710 da Vinci and 1,096 Ion systems, and a USD 28m net-of-tax tariff-refund benefit.",
+      "The current My Intuitive page directly describes a secure platform with data/performance dashboards and an upgraded My Intuitive+ offering with AI-powered Case Insights and video analysis, requiring da Vinci 5 plus upgraded software. This supports product-level E2 availability, not causal outcomes or material economics.",
+      "The external surgical-VLM benchmark is valid capability counterevidence but cannot count as E3 evidence about Intuitive's own product. The dossier does not improperly use it as company E3."
+    ],
+    "arithmetic_check": "0.05 × USD 2.946bn GAAP operating income = USD 147.3m. The illustrative analytics contribution is USD 84.3m, service savings USD 42m, and net after USD 30m assumed cost is USD 96.3m. Required attach recomputes to approximately 64.0%; calculations are sound and assumptions are labeled.",
+    "corrections": [],
+    "limitations": [
+      "No matched clinical outcome, utilization lift, downtime reduction, paid-attach denominator, or cash attribution supports E3.",
+      "The platform page establishes feature availability; regional clearance and actual adoption remain undisclosed."
+    ],
+    "full_dossier_read": true
+  },
+  "C014": {
+    "status": "pass",
+    "checked_sources": [
+      "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+      "https://www.sec.gov/Archives/edgar/data/731766/000073176626000191/earningsrelease2q26_7152.htm",
+      "https://www.optum.com/en/newsroom/health-tech/optum-is-advancing-ai-powered-digital-prior-authorization.html",
+      "https://www.unitedhealthgroup.com/uhg/business-initiatives.html",
+      "https://law.justia.com/cases/federal/district-courts/minnesota/mndce/0%3A2023cv03514/211721/162/"
+    ],
+    "factual_checks": [
+      "The corrected FY2025 SEC accession 000073176626000062 directly confirms USD 447.567bn revenue and USD 18.964bn earnings from operations, down from USD 32.287bn.",
+      "The corrected Q2 SEC exhibit confirms Q2 revenue USD 112.0bn and earnings from operations USD 8.0bn; it also describes AI-enabled products including autonomous coding and digital prior authorization.",
+      "Optum's primary product release says Humata deployments achieved 96% first-pass approval, 45% fewer manual touches, and 80% higher processing efficiency; it also says Allina would be among the first to deploy the new Optum solution. Therefore 96% is not demonstrated as a UnitedHealth production result and should not be treated as company-specific E2 outcome evidence.",
+      "UnitedHealth's business-initiatives page confirms elimination of more than 25% of drug reauthorizations since early 2025, representing 10% of pharmacy prior authorizations for 270 chronic-condition drugs. This is a policy/process change, not evidence that AI caused the reduction.",
+      "The March 9, 2026 court order granted in part and denied in part a motion to compel. It is procedural discovery, not a finding that nH Predict wrongfully denied coverage. The allegations remain disputed."
+    ],
+    "arithmetic_check": "Using exact FY2025 operating earnings of USD 18.964bn, 5% is USD 948.2m, not USD 950m except as a rounded scale proxy. The illustrative formula USD 8bn × 15% × 50% × 50% − USD 250m = USD 50m is correct; all operational inputs are assumptions.",
+    "corrections": [],
+    "limitations": [
+      "No independent quality comparison, appeal/reversal rate, member outcome, or retained-cash reconciliation was found for the authorization tools.",
+      "Litigation sources establish allegations and discovery status only."
+    ],
+    "full_dossier_read": true
+  },
+  "C016": {
+    "status": "pass",
+    "checked_sources": [
+      "https://www.swissre.com/investors/half-year-report-2026-online.html",
+      "https://analytics.swissre.com/details/coin",
+      "https://www.swissre.com/media/press-release/pr-20251205-swiss-re-targets-2026.html"
+    ],
+    "factual_checks": [
+      "Swiss Re's H1 report directly confirms USD 2.833bn net income, 22.7% annualized ROE, 76.7% P&C Re combined ratio, 86.1% Corporate Solutions combined ratio, and estimated 264% SST at 1 July 2026.",
+      "The report explicitly attributes P&C strength partly to low large natural-catastrophe experience and Corporate Solutions performance partly to favorable prior-year claims development and lower-than-expected natural catastrophes. It also reports price pressure, so these are valid decision-critical confounders.",
+      "Impact+ directly describes portfolio analytics, pricing-model support, and machine-learning claims triage, plus optional client portfolio uploads. This establishes capability/product scope (E1); it does not show adoption, a controlled outcome, or Swiss Re retained economics.",
+      "The USD 4.5bn 2026 net-income figure is explicitly a management target, not an achieved or normalized annual result."
+    ],
+    "arithmetic_check": "The revised packet uses H1 2026 net income of USD 2.8bn as a same-period after-tax scale, so 5% is USD 140m after tax without annualization. The expense illustration USD 2.0bn × 15% × 60% × 50% − USD 80m = USD 10m pre-tax; applying the stated 20% sensitivity gives USD 8m after tax. The USD 4.5bn FY2026 target is kept separate.",
+    "corrections": [],
+    "limitations": [
+      "The H1 net-income anchor is a reported same-period scale rather than a normalized annual earnings measure.",
+      "No company-specific E2 outcome or E3 evidence was found for underwriting, claims triage, or employee assistance."
+    ],
+    "full_dossier_read": true
+  },
+  "C017": {
+    "status": "limited",
+    "checked_sources": [
+      "https://www.allianz.com/en/mediacenter/news/media-releases/financials/260807-2q-2026-earnings-release.html",
+      "https://www.allianz.com/en/mediacenter/news/media-releases/financials/260226-4q-2025-earnings-release.html"
+    ],
+    "factual_checks": [
+      "Allianz's issuer releases directly confirm FY2025 EUR 17.374bn operating profit, EUR 86.7bn P&C business volume, 92.2% combined ratio, and H1 2026 EUR 9.390bn operating profit and 225% Solvency II ratio.",
+      "The Q2 release directly confirms 91.9% P&C combined ratio, 68.1% loss ratio, and 23.8% expense ratio. It says the 0.7-point loss-ratio worsening mainly reflected prudent run-off and the 0.1-point expense-ratio improvement reflected productivity focus.",
+      "The FY2025 release attributes ratio improvement to lower catastrophe losses and underwriting actions, not AI. This supports the dossier's negative confounder.",
+      "The exact annual-report PDF and Allianz AI-governance page returned safe-open/internal errors in this audit, so the claim of company AI use in named claims/underwriting/service workflows was not independently verified from those exact sources. The opened financial release only states investments in AI at a high level."
+    ],
+    "arithmetic_check": "0.05 × EUR 17.374bn = EUR 868.7m. EUR 868.7m / EUR 86.7bn = 1.002%, approximately 100 basis points. A 10bp illustration equals EUR 86.7m. The arithmetic is correct, while business volume is only an approximation for earned premium/exposure.",
+    "corrections": [],
+    "limitations": [
+      "Exact cited decisive AI source content was inaccessible in this audit, limiting verification of product-level deployment.",
+      "No matched company-specific AI cohort, adoption denominator, or retained-cash bridge supports E3."
+    ],
+    "full_dossier_read": true
+  },
+  "C019": {
+    "status": "pass",
+    "checked_sources": [
+      "https://www.sec.gov/Archives/edgar/data/80661/000008066126000315/pgr202607ex99earningsrelea.htm",
+      "https://www.sec.gov/Archives/edgar/data/80661/000008066126000086/pgr-20251231.htm",
+      "https://s202.q4cdn.com/605347829/files/doc_financials/2025/q4/interactive/progressive-ir-25/pdfs/Progressive-2025-Financial-Review.pdf",
+      "https://www.progressive.com/auto/discounts/snapshot/",
+      "https://www.progressive.com/claims/"
+    ],
+    "factual_checks": [
+      "The SEC-filed July 2026 release directly confirms USD 7.441bn net premiums written, USD 7.355bn net premiums earned, USD 961m net income, an 86.8 combined ratio, and 40.304m policies in force. It also shows the combined ratio was 85.3 in July 2025, so the year-over-year deterioration is correctly stated but remains a volatile one-month comparison.",
+      "The 2025 financial review directly confirms USD 81.661bn net premiums earned and a 2025 statutory combined ratio of 87.1. The 10-K confirms USD 83.174bn net premiums written, USD 28.4bn statutory surplus, a 2.9 premiums-to-surplus ratio, and USD 5.5bn of securities held at the non-insurance parent at January 2026.",
+      "Progressive's 10-K explicitly says the company has used machine learning, AI, and predictive models for many years. This supports broad production deployment, but it does not isolate the current model, eligible workload, incremental lift, or retained economics.",
+      "The Snapshot page directly confirms production usage-based insurance that personalizes rates from how, how much, and when a participant drives. It does not provide a controlled comparison of the current algorithm against the preceding production score.",
+      "The claims page confirms a digital Photo Estimate workflow in which customers upload photos/video and Progressive reviews and sends an estimate. It does not mention computer vision, machine learning, or AI, so it cannot support the dossier's scoped AI claims-triage/estimate mechanism."
+    ],
+    "arithmetic_check": "USD 81.661bn × (1 − 0.871) = USD 10.534269bn rough pre-tax underwriting-profit proxy; 5% = USD 526.713m, or 64.5 basis points of earned premium. The dossier's USD 10.535bn and USD 526.8m are close rounding, but USD 10.534bn/USD 526.7m follows the exact displayed inputs. The bridge mixes GAAP net earned premium with a statutory combined ratio and is therefore explicitly only a scale proxy, not a reconciled accounting measure.",
+    "corrections": [],
+    "limitations": [
+      "No current-model matched cohort, accident-year normalization, claims leakage result, or finance reconciliation supports E3 or E4.",
+      "Snapshot is a production telematics program, but the public page does not separate incremental AI performance from longstanding statistical pricing, selection, rate action, weather, severity, or reserve development.",
+      "The statutory-ratio/GAAP-premium proxy is useful for scale only and should not be presented as reported pre-tax underwriting profit."
+    ],
+    "full_dossier_read": true
+  }
+}

@@ -7,11 +7,11 @@
   "latest_financial_period": "Q2 2026 (ended 30 June 2026)",
   "sources": [
     {
-      "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000072/erq2fy26.htm",
       "title": "Latest financial results",
       "date": "22 July 2026",
-      "opened": false,
-      "supports": "source target; retrieval did not yield auditable supporting extract"
+      "opened": true,
+      "supports": "latest financial anchor"
     },
     {
       "url": "https://www.servicenow.com/company/investor-relations/financial-results.html",
@@ -43,19 +43,19 @@
     }
   ],
   "financial_anchor": {
-    "metric": "Q2 2026 subscription revenue",
-    "value": "$3.877bn",
+    "metric": "Q2 2026 subscription revenue; FY2026 non-GAAP operating-margin guidance",
+    "value": "$3.877bn; 31.5%",
     "unit": "USD",
     "period": "Q2 2026 (ended 30 June 2026)",
-    "source_url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000072/erq2fy26.htm",
     "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
   },
   "ai_claim": {
-    "claim": "Now Assist is a named ServiceNow AI product, but the cited product page and inaccessible Q2 release did not verify the asserted more-than-$1bn AI ARR.",
-    "stage": "E1 product capability; paid-adoption magnitude unverified",
-    "source_url": "https://www.servicenow.com/products/now-assist.html",
+    "claim": "ServiceNow reported that its AI crossed $1bn in annual contract value and agentic deployments increased ninefold in nine months.",
+    "stage": "E2 issuer-reported paid adoption/deployment; no E3/E4",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000072/erq2fy26.htm",
     "scope": "Now Assist workflows only; no company-wide economics.",
-    "limitation": "No opened ARR source, deployment denominator, controlled quality result or cash bridge."
+    "limitation": "No controlled quality outcome, deployment denominator, incremental margin or retained-cash bridge."
   },
   "strongest_counterevidence": {
     "claim": "the $1bn AI ARR disclosure establishes paid adoption, not incremental cohort margin or renewal causality.",
@@ -63,7 +63,7 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "No source-backed annual operating-profit denominator was verified, so the prior $300m hurdle is withdrawn. Q2 subscription revenue is useful scale context but is not profit and must not be used as an earnings hurdle.",
+  "materiality_summary": "$248.4m = 5% × 31.5% × $15.770bn, using the midpoints of FY2026 non-GAAP operating-margin and subscription-revenue guidance. This is an annual non-GAAP guidance proxy, not GAAP earnings.",
   "arithmetic": {
     "inputs": "pool $8bn eligible internal R&D, sales and support cost (assumption); efficiency 15%; realization 50%; retained share 40%; recurring cost $250m",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",

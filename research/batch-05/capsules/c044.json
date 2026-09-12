@@ -67,7 +67,7 @@
   "arithmetic": {
     "inputs": "Illustrative assumed eligible cost/efficiency/realization/retention/run cost",
     "formula": "$1.0bn eligible R&D/support cost × 15% × 60% × 50% − $60m = −$15m",
-    "result": "Illustrative only; customer savings excluded from vendor cost."
+    "result": "Illustrative only; customer savings excluded from vendor cost; annual illustration is NOT_COMPARABLE with the reported-period hurdle without time alignment."
   },
   "confidence": {
     "mechanism": "high",

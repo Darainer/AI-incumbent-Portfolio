@@ -80,3 +80,9 @@ Access limits: some issuer pages dynamically expose PDFs or tables; where exact 
 ## Reviewer handoff
 
 Verify: (1) the latest financial anchor and reported/adjusted reconciliation; (2) whether the cited product outcome is production, representative and quality controlled; (3) contract-level training, retention and pooled-learning rights. Strongest counterargument: weather, labor, commodity mix and network capital explain much quarterly variation; opaque safety algorithms and regulatory requirements limit autonomous execution. Blocking items are cohort economics, labor/capacity realization, recurring technology cost and customer/supplier sharing. **Provisional disposition:** evidence watch; unreviewed. Capsule: [`../../batch-07/capsules/c067.json`](../capsules/c067.json).
+
+## Source-audit correction — 12 September 2026
+
+The direct Q2 review reports C$4.753bn revenue and C$1.781bn operating income. The 5% screen is C$89.05m for Q2 only. Digital inspection and planning are established operational technologies; no opened evidence isolates incremental generative or agentic AI from weather, traffic mix, labor and capital upgrades.
+
+**Controlling materiality treatment:** C$89.05m = 5% of Q2 2026 operating income of C$1.781bn. This is a quarter-only, pre-tax screen and is NOT_COMPARABLE with the annual benefit illustration; no annualization is assumed. The dossier’s earlier conflicting hurdle or evidence-stage wording is withdrawn. All cost-pool, efficiency, realization, retained-share and recurring-cost inputs remain labeled assumptions. Revenue-demand evidence is kept separate from own-productivity evidence, and customer/product adoption does not establish retained shareholder cash.

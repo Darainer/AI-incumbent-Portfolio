@@ -14,7 +14,7 @@
       "supports": "financial anchor"
     },
     {
-      "url": "https://www.uber.com/us/en/blog/from-predictive-to-generative-ai/",
+      "url": "https://www.uber.com/blog/from-predictive-to-generative-ai/",
       "title": "From Predictive to Generative — How Michelangelo Accelerates Uber’s AI Journey",
       "date": "2024-05-02",
       "opened": true,
@@ -51,11 +51,11 @@
     "caveat": "Quarterly; $2.4bn net income included a $1.6bn pre-tax investment-revaluation benefit."
   },
   "ai_claim": {
-    "claim": "Michelangelo supports deployed prediction/ranking workflows and was extended to LLMOps for generative-AI applications.",
+    "claim": "Michelangelo supports deployed ETA, matching and fraud models; Uber reports 400 active ML projects, >5,000 production models, 20,000 monthly training jobs and 10m peak predictions/second, plus LLMOps.",
     "stage": "E2 named platform deployment; no E3 incremental economics",
-    "source_url": "https://www.uber.com/us/en/blog/from-predictive-to-generative-ai/",
+    "source_url": "https://www.uber.com/blog/from-predictive-to-generative-ai/",
     "scope": "platform operations",
-    "limitation": "No versioned controlled incremental cash cohort."
+    "limitation": "Company-reported baseline E2 scale, without a versioned incremental quality or net-cash cohort."
   },
   "strongest_counterevidence": {
     "claim": "drivers, consumers and merchants multi-home; regulators constrain pricing/labor/data; autonomous-vehicle partners may capture economics or bypass Uber",
@@ -67,7 +67,7 @@
   "arithmetic": {
     "inputs": "Illustrative assumed cost pool and capture terms",
     "formula": "assumed $20bn eligible incentive/support/loss pool × 2% improvement × 70% realization × 50% retention − $100m cost = $40m",
-    "result": "Illustrative only; no E4 conclusion"
+    "result": "Illustrative only; annual cost-pool illustration is NOT_COMPARABLE with the quarterly hurdle without time alignment; no E4 conclusion"
   },
   "confidence": {
     "mechanism": "high",

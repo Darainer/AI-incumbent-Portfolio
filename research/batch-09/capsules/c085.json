@@ -46,16 +46,16 @@
     "metric": "operating income",
     "value": 3.797,
     "unit": "USD billion",
-    "period": "FY2026",
-    "source_url": "https://investors.nike.com/investors/news-events-and-reports/default.aspx",
-    "caveat": "about $4.3bn earnings before interest and taxes scale; measure may be adjusted or a labelled scale proxy and is not normalized."
+    "period": "FY2026 ended 31 May 2026",
+    "source_url": "https://about.nike.com/en/newsroom/releases/nike-inc-reports-fiscal-2026-fourth-quarter-and-full-year-results",
+    "caveat": "FY2026 pre-tax operating income governs the hurdle; net income and prior-year EBIT-scale proxies are excluded."
   },
   "ai_claim": {
-    "claim": "Nike describes scoped AI/digital mechanisms in demand forecasting and allocation to improve full-price sell-through, generative design/marketing assistance under brand and rights controls.",
-    "stage": "E1; E2 only where management explicitly reports production use",
+    "claim": "Nike A.I.R. is a named generative-design exploration with athletes; demand forecasting and allocation remain an unverified hypothesis in this packet.",
+    "stage": "E1 creative capability for A.I.R.; E0 for demand-forecast deployment",
     "source_url": "https://about.nike.com/en/newsroom/releases/nike-a-i-r-air-max-2024",
-    "scope": "full-price sell-through, inventory turns, forecast error by SKU/market, return rate and contribution after marketing",
-    "limitation": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+    "scope": "Creative concept generation under athlete, brand and design rights; no production demand-planning scope is sourced.",
+    "limitation": "A.I.R. does not support demand-forecast deployment, quality-adjusted sell-through improvement or retained cash."
   },
   "strongest_counterevidence": {
     "claim": "Adidas and fast-moving direct brands and marketplaces with their own demand data can replicate tools or force gains through to customers.",
@@ -63,11 +63,11 @@
     "limitation": "Competitive capability does not by itself prove equal outcomes."
   },
   "rights_limit": "Member and commerce data are subject to consent and privacy rules; wholesale sell-through data can be incomplete. Creative and athlete rights are contract-specific.",
-  "materiality_summary": "The labelled 5% scale hurdle is $215m; public evidence does not establish it.",
+  "materiality_summary": "Five percent of FY2026 operating income is $189.85m on an annual pre-tax basis; public evidence does not establish an AI-attributed amount.",
   "arithmetic": {
-    "inputs": "5%\u00d7$4",
-    "formula": "5%\u00d7$4.3bn profit-scale proxy=$215m. A $3bn eligible SG&A/operations pool\u00d710%\u00d750%\u00d750%\u2212$60m=$15m. Avoided markdown requires matched seasons and cannot be inferred from total gross margin.",
-    "result": "Illustrative bridge remains below or must be compared with $215m; not a forecast."
+    "inputs": "FY2026 operating income $3.797bn; 5%; illustrative eligible SG&A/operations pool $3bn, efficiency 10%, realization 50%, retention 50%, recurring cost $60m",
+    "formula": "$3.797bn × 5% = $189.85m hurdle; $3bn × 10% × 50% × 50% − $60m = $15m illustrative benefit",
+    "result": "Illustrative $15m is below the $189.85m annual pre-tax hurdle; avoided markdown requires matched seasons and is not evidenced by A.I.R."
   },
   "confidence": {
     "mechanism": "medium",

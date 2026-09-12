@@ -80,3 +80,9 @@ Access limits: some issuer pages dynamically expose PDFs or tables; where exact 
 ## Reviewer handoff
 
 Verify: (1) the latest financial anchor and reported/adjusted reconciliation; (2) whether the cited product outcome is production, representative and quality controlled; (3) contract-level training, retention and pooled-learning rights. Strongest counterargument: the $1bn AI ARR disclosure establishes paid adoption, not incremental cohort margin or renewal causality; bundling and reclassification can confound. Blocking items are cohort economics, labor/capacity realization, recurring technology cost and customer/supplier sharing. **Provisional disposition:** evidence watch; unreviewed. Capsule: [`../../batch-05/capsules/c042.json`](../capsules/c042.json).
+
+## Source-audit correction — 12 September 2026
+
+The opened SEC exhibit reports Q2 subscription revenue of $3.877bn, ServiceNow AI above $1bn ACV, and ninefold growth in agentic deployments over nine months. Those disclosures establish E2 paid adoption, not E3 quality or E4 cash. Applying 31.5% full-year non-GAAP operating-margin guidance to the $15.760–15.780bn subscription-revenue midpoint yields a $4.968bn proxy and $248.4m screen.
+
+**Controlling materiality treatment:** $248.4m = 5% × 31.5% × $15.770bn, using the midpoints of FY2026 non-GAAP operating-margin and subscription-revenue guidance. This is an annual non-GAAP guidance proxy, not GAAP earnings. The dossier’s earlier conflicting hurdle or evidence-stage wording is withdrawn. All cost-pool, efficiency, realization, retained-share and recurring-cost inputs remain labeled assumptions. Revenue-demand evidence is kept separate from own-productivity evidence, and customer/product adoption does not establish retained shareholder cash.

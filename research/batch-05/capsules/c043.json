@@ -7,11 +7,11 @@
   "latest_financial_period": "Q2 FY2027 (ended 31 July 2026)",
   "sources": [
     {
-      "url": "https://investor.salesforce.com/financials/default.aspx",
+      "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx",
       "title": "Latest financial results",
       "date": "26 August 2026",
-      "opened": false,
-      "supports": "source target; retrieval did not yield auditable supporting extract"
+      "opened": true,
+      "supports": "latest financial anchor"
     },
     {
       "url": "https://investor.salesforce.com/financials/sec-filings/default.aspx",
@@ -43,19 +43,19 @@
     }
   ],
   "financial_anchor": {
-    "metric": "Q2 FY2027 revenue guidance context; conventional earnings anchor not verified",
-    "value": "FY2027 revenue guidance $46.1–46.4bn (unverified in opened source)",
+    "metric": "Q2 FY2027 revenue and GAAP operating income",
+    "value": "$11.345bn; $2.331bn",
     "unit": "USD",
     "period": "Q2 FY2027 (ended 31 July 2026)",
-    "source_url": "https://investor.salesforce.com/financials/default.aspx",
+    "source_url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx",
     "caveat": "Revenue guidance is not an earnings denominator; direct current release required."
   },
   "ai_claim": {
-    "claim": "The opened Agentforce page states that more than 18,000 companies run Agentforce and describes autonomous tasks; it does not support the previously asserted $1bn ARR or billions of work units.",
-    "stage": "E2 management-reported company adoption; economics E0/E1",
-    "source_url": "https://www.salesforce.com/agentforce/",
+    "claim": "Salesforce reported Agentforce ARR above $1.5bn and 7.0bn cumulative agentic work units; the revised ARR scope includes AI offerings, Slackbot and Headless 360.",
+    "stage": "E2 issuer-reported paid use; no E3/E4",
+    "source_url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx",
     "scope": "Agentforce product adoption only.",
-    "limitation": "No ARR, work-unit, control-group, seat-cannibalization or retained-cash evidence in the opened page."
+    "limitation": "Scope changed; no controlled quality result, cannibalization bridge or retained-cash reconciliation."
   },
   "strongest_counterevidence": {
     "claim": "agent execution can cannibalize user seats or shift value to foundation-model suppliers.",
@@ -63,7 +63,7 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "No source-backed conventional annual operating-profit denominator was verified, so the prior $800m hurdle is withdrawn. Revenue guidance and product ARR must remain separate from an earnings-based materiality screen.",
+  "materiality_summary": "$464.8m = 5% × 20.1% × $46.25bn, using the midpoint of FY2027 revenue guidance and GAAP operating-margin guidance. This is an annual pre-tax guidance proxy.",
   "arithmetic": {
     "inputs": "pool $10bn eligible internal sales, service and development operating cost (assumption); efficiency 10%; realization 50%; retained share 40%; recurring cost $400m",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",

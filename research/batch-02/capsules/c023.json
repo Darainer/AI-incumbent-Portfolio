@@ -1,25 +1,85 @@
 {
-  "id":"C023",
-  "company":"JPMorgan Chase",
-  "batch":2,
-  "dossier":"research/batch-02/dossiers/012-c023-jpmorgan-chase.md",
-  "cutoff":"2026-09-12",
-  "latest_financial_period":"Q2 ended 2026-06-30, released 2026-07-14",
-  "sources":[
-    {"url":"https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/6cded9fd-a164-4e6c-8cff-377357cf105c.pdf","title":"JPMorganChase Q2 2026 earnings release","date":"2026-07-14","opened":true,"supports":"Latest earnings, capital, segments and confounders"},
-    {"url":"https://www.jpmorganchase.com/ir/annual-report/2025/ar-ceo-letter-jennifer-piepszak","title":"2025 COO shareholder letter","date":"2026-04-06","opened":true,"supports":"Technology budget, enterprise GenAI, data safeguards and capacity policy"},
-    {"url":"https://www.jpmorganchase.com/ir/annual-report/2025/ar-ceo-letter-mary-callahan-erdoes","title":"2025 AWM shareholder letter","date":"2026-04-06","opened":true,"supports":"SpectrumIQ and Connect Coach deployment claims"},
-    {"url":"https://www.consumerfinance.gov/about-us/newsroom/cfpb-issues-guidance-on-credit-denials-by-lenders-using-artificial-intelligence/","title":"CFPB AI adverse-action guidance","date":"2023-09-19","opened":true,"supports":"Regulatory limitation"},
-    {"url":"https://newsroom.bankofamerica.com/content/newsroom/press-releases/2024/04/erica-surpasses-2-billion-interactions--helping-42-million-clients.html","title":"Bank of America Erica deployment","date":"2024-04-15","opened":true,"supports":"Incumbent challenger"}
+  "id": "C023",
+  "company": "JPMorgan Chase",
+  "batch": 2,
+  "dossier": "research/batch-02/dossiers/012-c023-jpmorgan-chase.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 ended 2026-06-30, released 2026-07-14",
+  "sources": [
+    {
+      "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/6cded9fd-a164-4e6c-8cff-377357cf105c.pdf",
+      "title": "JPMorganChase Q2 2026 earnings release",
+      "date": "2026-07-14",
+      "opened": true,
+      "supports": "Latest earnings, capital, segments and confounders"
+    },
+    {
+      "url": "https://www.jpmorganchase.com/ir/annual-report/2025/ar-ceo-letter-jennifer-piepszak",
+      "title": "2025 COO shareholder letter",
+      "date": "2026-04-06",
+      "opened": true,
+      "supports": "Technology budget, enterprise GenAI, data safeguards and capacity policy"
+    },
+    {
+      "url": "https://www.jpmorganchase.com/ir/annual-report/2025/ar-ceo-letter-mary-callahan-erdoes",
+      "title": "2025 AWM shareholder letter",
+      "date": "2026-04-06",
+      "opened": true,
+      "supports": "SpectrumIQ and Connect Coach deployment claims"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-issues-guidance-on-credit-denials-by-lenders-using-artificial-intelligence/",
+      "title": "CFPB AI adverse-action guidance",
+      "date": "2023-09-19",
+      "opened": true,
+      "supports": "Regulatory limitation"
+    },
+    {
+      "url": "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2024/04/erica-surpasses-2-billion-interactions--helping-42-million-clients.html",
+      "title": "Bank of America Erica deployment",
+      "date": "2024-04-15",
+      "opened": true,
+      "supports": "Incumbent challenger"
+    }
   ],
-  "financial_anchor":{"metric":"Q2 2026 net income excluding significant items","value":16.9,"unit":"USD billion","period":"quarter ended 2026-06-30","source_url":"https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/6cded9fd-a164-4e6c-8cff-377357cf105c.pdf","caveat":"Non-GAAP quarterly measure in favorable markets; annualization is only a scale proxy"},
-  "ai_claim":{"claim":"JPMorgan reports enterprise-scale generative AI plus production ML in credit, fraud and personalization; AWM discloses 12,000 Connect Coach users and broad SpectrumIQ automation.","stage":"E2","source_url":"https://www.jpmorganchase.com/ir/annual-report/2025/ar-ceo-letter-jennifer-piepszak","scope":"Named employee, risk and AWM workflows","limitation":"No controlled company-wide KPI or incremental cash reconciliation"},
-  "strongest_counterevidence":{"claim":"Q2 noninterest expense rose 15%, 2026 technology budget is about $19.8bn, and management plans to reinvest capacity in growth rather than primarily remove cost.","source_url":"https://www.jpmorganchase.com/ir/annual-report/2025/ar-ceo-letter-jennifer-piepszak","limitation":"Reinvestment can still create future revenue; one quarter is not causal evidence"},
-  "rights_limit":"Customer, client and licensed market data have distinct owners. Governance safeguards and operational access do not establish unrestricted pooled training or cross-client reuse.",
-  "materiality_summary":"Annualizing adjusted Q2 income solely for scale gives $67.6bn and a 5% after-tax hurdle of $3.38bn; public AI evidence does not reconcile to it.",
-  "arithmetic":{"inputs":"$16.9bn Q2 income excluding significant items; four quarters; 5% convention","formula":"16.9 × 4 × 0.05","result":"$3.38bn annual after-tax scale hurdle"},
-  "confidence":{"mechanism":"high","deployment":"medium-high","capture":"low-medium"},
-  "g2_provisional":"Limited pass: production deployments and measurable workflows reach E2, while matched risk/quality evidence and retained earnings remain unproven.",
-  "unresolved_questions":["What share of eligible work uses LLM Suite and Employee Assistant?","How do fraud and credit cohorts perform at fixed risk appetite?","What vendor and cross-client data rights apply?"],
-  "self_check_complete":true
+  "financial_anchor": {
+    "metric": "Q2 2026 net income excluding significant items",
+    "value": 16.9,
+    "unit": "USD billion",
+    "period": "quarter ended 2026-06-30",
+    "source_url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/6cded9fd-a164-4e6c-8cff-377357cf105c.pdf",
+    "caveat": "Non-GAAP quarterly measure in favorable markets; annualization is only a scale proxy"
+  },
+  "ai_claim": {
+    "claim": "JPMorgan reports enterprise-scale generative AI plus production ML in credit, fraud and personalization; AWM discloses 12,000 Connect Coach users and broad SpectrumIQ automation.",
+    "stage": "E2",
+    "source_url": "https://www.jpmorganchase.com/ir/annual-report/2025/ar-ceo-letter-jennifer-piepszak",
+    "scope": "Named employee, risk and AWM workflows",
+    "limitation": "No controlled company-wide KPI or incremental cash reconciliation"
+  },
+  "strongest_counterevidence": {
+    "claim": "Q2 noninterest expense rose 15%, 2026 technology budget is about $19.8bn, and management plans to reinvest capacity in growth rather than primarily remove cost.",
+    "source_url": "https://www.jpmorganchase.com/ir/annual-report/2025/ar-ceo-letter-jennifer-piepszak",
+    "limitation": "Reinvestment can still create future revenue; one quarter is not causal evidence"
+  },
+  "rights_limit": "Customer, client and licensed market data have distinct owners. Governance safeguards and operational access do not establish unrestricted pooled training or cross-client reuse.",
+  "materiality_summary": "Annualizing adjusted Q2 income solely for scale gives $67.6bn and a 5% after-tax hurdle of $3.38bn; public AI evidence does not reconcile to it. The $0.524bn annual pre-tax expense-benefit illustration is NOT_COMPARABLE with the $3.38bn annual after-tax scale hurdle without an explicit tax conversion; no above/below conclusion is retained.",
+  "arithmetic": {
+    "inputs": "$16.9bn Q2 income excluding significant items; four quarters; 5% convention",
+    "formula": "16.9 × 4 × 0.05",
+    "result": "$3.38bn annual after-tax scale hurdle",
+    "comparability": "NOT_COMPARABLE: pre-tax illustration versus after-tax earnings hurdle"
+  },
+  "confidence": {
+    "mechanism": "high",
+    "deployment": "medium-high",
+    "capture": "low-medium"
+  },
+  "g2_provisional": "Limited pass: production deployments and measurable workflows reach E2, while matched risk/quality evidence and retained earnings remain unproven.",
+  "unresolved_questions": [
+    "What share of eligible work uses LLM Suite and Employee Assistant?",
+    "How do fraud and credit cohorts perform at fixed risk appetite?",
+    "What vendor and cross-client data rights apply?"
+  ],
+  "self_check_complete": true
 }

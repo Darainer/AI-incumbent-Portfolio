@@ -7,11 +7,11 @@
   "latest_financial_period": "Q3 FY2026 (ended 2 August 2026)",
   "sources": [
     {
-      "url": "https://www.deere.com/en/our-company/news-and-announcements/news-releases/2026/corporate/deere-reports-third-quarter-net-income-of-1-379-billion/",
+      "url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926098904/de-20260820xex99d1.htm",
       "title": "Latest financial results",
       "date": "20 August 2026",
-      "opened": false,
-      "supports": "source target; retrieval did not yield auditable supporting extract"
+      "opened": true,
+      "supports": "latest financial anchor"
     },
     {
       "url": "https://investor.deere.com/financial-information/annual-reports/default.aspx",
@@ -43,11 +43,11 @@
     }
   ],
   "financial_anchor": {
-    "metric": "Q3 FY2026 net sales and revenues",
-    "value": "$12.608bn",
+    "metric": "Q3 FY2026 net sales and revenues; FY2026 net-income guidance",
+    "value": "$12.608bn; $4.75–5.00bn",
     "unit": "USD",
     "period": "Q3 FY2026 (ended 2 August 2026)",
-    "source_url": "https://www.deere.com/en/our-company/news-and-announcements/news-releases/2026/corporate/deere-reports-third-quarter-net-income-of-1-379-billion/",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926098904/de-20260820xex99d1.htm",
     "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
   },
   "ai_claim": {
@@ -63,11 +63,12 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "Framework convention: $243.75m, exactly 5% of the $4.875bn midpoint of FY2026 net-income guidance ($4.75–5.0bn). Illustrative assumptions produce $37.5m, below the hurdle.",
+  "materiality_summary": "$243.75m = 5% of the $4.875bn FY2026 net-income guidance midpoint. This is an annual, after-tax guidance screen. The $37.5m annual pre-tax operating-benefit illustration is NOT_COMPARABLE with the $243.75m annual after-tax guidance hurdle without an explicit tax conversion; no above/below conclusion is retained.",
   "arithmetic": {
     "inputs": "pool $3.0bn eligible annual service, warranty, engineering and support cost; efficiency 15%; realization 50%; retained share 50%; recurring cost $75m",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
-    "result": "$37.5m"
+    "result": "$37.5m",
+    "comparability": "NOT_COMPARABLE: pre-tax illustration versus after-tax earnings hurdle"
   },
   "confidence": {
     "mechanism": "moderate",

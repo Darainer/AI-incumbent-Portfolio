@@ -7,11 +7,11 @@
   "latest_financial_period": "June quarter 2026 (ended 30 June 2026)",
   "sources": [
     {
-      "url": "https://www.alibabagroup.com/document-1938408710984278016",
-      "title": "Latest financial results",
+      "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926099220/tm2623667d1_ex99-1.htm",
+      "title": "Alibaba June-quarter 2026 results (SEC exhibit)",
       "date": "20 August 2026",
-      "opened": false,
-      "supports": "source target; retrieval did not yield auditable supporting extract"
+      "opened": true,
+      "supports": "Q2 revenue, GAAP operating income, net income and external cloud/AI-product demand"
     },
     {
       "url": "https://www.alibabagroup.com/ir-financial-reports-financial-results",
@@ -43,19 +43,19 @@
     }
   ],
   "financial_anchor": {
-    "metric": "June-quarter 2026 revenue and net profit",
-    "value": "RMB268.953bn; RMB10.5bn",
+    "metric": "June-quarter 2026 revenue and GAAP income from operations",
+    "value": "RMB247.652bn; RMB15.161bn",
     "unit": "RMB",
     "period": "June quarter 2026 (ended 30 June 2026)",
-    "source_url": "https://www.alibabagroup.com/document-1938408710984278016",
-    "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926099220/tm2623667d1_ex99-1.htm",
+    "caveat": "GAAP operating income includes an RMB4.458bn goodwill impairment and a provision related to the European Commission fine; quarter-only basis."
   },
   "ai_claim": {
-    "claim": "The packet could not successfully open the cited current result; therefore the reported 45% AI-compute growth remains an unverified infrastructure-demand claim, while commerce productivity is unisolated.",
-    "stage": "E0/E1 unverified external AI-infrastructure claim",
-    "source_url": "https://www.alibabagroup.com/document-1938408710984278016",
+    "claim": "Alibaba reported external Alibaba Cloud revenue growth of 45% and AI-related product revenue of RMB12.376bn, with triple-digit year-over-year growth for a twelfth consecutive quarter.",
+    "stage": "E2 issuer-reported external cloud/AI-product demand; internal productivity and E4 unproven",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926099220/tm2623667d1_ex99-1.htm",
     "scope": "External cloud demand only; not Alibaba internal productivity.",
-    "limitation": "No opened result, deployed commerce cohort or retained-cash reconciliation."
+    "limitation": "External revenue growth is not AI compute growth, internal commerce productivity, causal margin lift or retained cash."
   },
   "strongest_counterevidence": {
     "claim": "profit fell sharply while capex surged.",
@@ -63,7 +63,7 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "Framework convention: RMB2.1bn after tax, exactly 5% of the explicit RMB42bn annualized June-quarter net-profit scale proxy (4 × RMB10.5bn). This is not normalized earnings and the underlying issuer page was not successfully opened. Illustrative assumptions produce negative RMB9.04bn pre-tax and are not directly comparable without tax conversion.",
+  "materiality_summary": "RMB758.05m = 5% of June-quarter 2026 GAAP income from operations of RMB15.161bn. This is a quarter-only, pre-tax screen and is NOT_COMPARABLE with the annual benefit illustration; no annualization is assumed.",
   "arithmetic": {
     "inputs": "pool RMB60bn eligible internal sales, service and operations cost (assumption); efficiency 8%; realization 50%; retained share 40%; recurring cost RMB10bn",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",

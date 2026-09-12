@@ -4,14 +4,21 @@
   "batch": 6,
   "dossier": "research/batch-06/dossiers/060-c056-tata-consultancy-services.md",
   "cutoff": "2026-09-12",
-  "latest_financial_period": "Q4/FY2026 ended 31 March 2026, published April 2026",
+  "latest_financial_period": "Q1 FY2027 ended 30 June 2026, published 9 July 2026",
   "sources": [
     {
-      "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-closes-fy26-improving-sequential-growth-strong-deal-wins-ai-revenues-surpass-2-3-billion",
-      "title": "Latest results",
-      "date": "2026",
+      "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-results-q1-fy-2027",
+      "title": "TCS begins FY27 with continued growth",
+      "date": "2026-07-09",
       "opened": true,
-      "supports": "financial and AI metrics"
+      "supports": "Q1 financials, AI run rate and named contract activity"
+    },
+    {
+      "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2026-27/q1/Presentations/Q1%202026-27%20Fact%20Sheet.pdf",
+      "title": "Q1 FY2027 Fact Sheet",
+      "date": "2026-07-09",
+      "opened": true,
+      "supports": "USD revenue, operating income, net income and cash flow"
     },
     {
       "url": "https://www.tcs.com/investor-relations/financial-statements",
@@ -36,31 +43,31 @@
     }
   ],
   "financial_anchor": {
-    "metric": "latest revenue",
-    "value": "$7.62bn",
-    "unit": "reported currency",
-    "period": "Q4/FY2026 ended 31 March 2026, published April 2026",
-    "source_url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-closes-fy26-improving-sequential-growth-strong-deal-wins-ai-revenues-surpass-2-3-billion",
-    "caveat": "Quarterly/run-rate and currency/acquisition confounders; see dossier."
+    "metric": "adjusted operating income",
+    "value": "$1.826bn",
+    "unit": "USD",
+    "period": "Q1 FY2027 ended 30 June 2026",
+    "source_url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2026-27/q1/Presentations/Q1%202026-27%20Fact%20Sheet.pdf",
+    "caveat": "Excludes an exceptional item; quarterly and not annualized."
   },
   "ai_claim": {
-    "claim": "annualized AI revenue above $2.3bn at Q4 FY2026",
+    "claim": "Annualized AI revenue reached a company-defined $2.6bn run rate in Q1 FY2027, with named AI-led contract wins.",
     "stage": "E2 commercial metric",
-    "source_url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-closes-fy26-improving-sequential-growth-strong-deal-wins-ai-revenues-surpass-2-3-billion",
+    "source_url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-results-q1-fy-2027",
     "scope": "company-defined AI services",
     "limitation": "annualized run-rate is not audited annual revenue and scope taxonomy may change; no net contribution."
   },
   "strongest_counterevidence": {
     "claim": "Management explicitly accepts that AI may cannibalize revenue; traditional effort-based work and client spending remain under pressure.",
-    "source_url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-closes-fy26-improving-sequential-growth-strong-deal-wins-ai-revenues-surpass-2-3-billion",
+    "source_url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-results-q1-fy-2027",
     "limitation": "Does not quantify AI-attributable impact."
   },
   "rights_limit": "Client code/data is SOW/NDA-bound; cross-client training, generated-IP and model-provider retention vary by contract.",
-  "materiality_summary": "No reliable normalized profit denominator extracted; formula and illustrative bridge provided.",
+  "materiality_summary": "Q1 adjusted operating income excluding an exceptional item was $1.826bn; the same-quarter 5% pre-tax hurdle is $91.3m and is not annualized.",
   "arithmetic": {
     "inputs": "assumed $10bn eligible labor, 15% efficiency, 50% realization, 30% retention, $300m cost",
     "formula": "10000*.15*.50*.30-300",
-    "result": "-$75m illustrative; billable-hours/client sharing decisive"
+    "result": "-$75m illustrative; billable-hours/client sharing decisive; annual illustration is NOT_COMPARABLE with the reported-period hurdle without time alignment."
   },
   "confidence": {
     "mechanism": "high",

@@ -7,11 +7,11 @@
   "latest_financial_period": "Q2 2026 (ended 30 June 2026)",
   "sources": [
     {
-      "url": "https://ir.iqvia.com/financial-information/quarterly-results/default.aspx",
+      "url": "https://www.sec.gov/Archives/edgar/data/1478242/000162828026049923/iqv-q2x2026earningspressre.htm",
       "title": "Latest financial results",
       "date": "28 July 2026",
-      "opened": false,
-      "supports": "source target; retrieval did not yield auditable supporting extract"
+      "opened": true,
+      "supports": "latest financial anchor"
     },
     {
       "url": "https://ir.iqvia.com/financial-information/annual-reports-and-proxy/default.aspx",
@@ -43,11 +43,11 @@
     }
   ],
   "financial_anchor": {
-    "metric": "Q2 2026 revenue",
-    "value": "$4.368bn",
+    "metric": "Q2 2026 revenue; FY2026 adjusted-EBITDA guidance",
+    "value": "$4.368bn; $4.000–4.050bn",
     "unit": "USD",
     "period": "Q2 2026 (ended 30 June 2026)",
-    "source_url": "https://ir.iqvia.com/financial-information/quarterly-results/default.aspx",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1478242/000162828026049923/iqv-q2x2026earningspressre.htm",
     "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
   },
   "ai_claim": {
@@ -63,7 +63,7 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "Framework convention: $190m, 5% of an explicitly annualized roughly $3.8bn adjusted-EBITDA scale inferred from approximately $1.9bn for H1. This is a non-GAAP scale proxy, not a forecast. Illustrative assumptions produce negative $34.8m.",
+  "materiality_summary": "$201.25m = 5% of the $4.025bn midpoint of FY2026 adjusted-EBITDA guidance. This is an annual non-GAAP, pre-tax scale screen.",
   "arithmetic": {
     "inputs": "pool $6.0bn eligible clinical-operations and information-service labor/cost; efficiency 12%; realization 40%; retained share 40%; recurring cost $150m",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",

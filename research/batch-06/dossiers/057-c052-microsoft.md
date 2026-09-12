@@ -80,3 +80,9 @@ Access limits: some issuer pages dynamically expose PDFs or tables; where exact 
 ## Reviewer handoff
 
 Verify: (1) the latest financial anchor and reported/adjusted reconciliation; (2) whether the cited product outcome is production, representative and quality controlled; (3) contract-level training, retention and pooled-learning rights. Strongest counterargument: calendar-2026 AI infrastructure spending was reported near $175bn; capacity, depreciation, power and supplier economics can absorb gains. Blocking items are cohort economics, labor/capacity realization, recurring technology cost and customer/supplier sharing. **Provisional disposition:** evidence watch; unreviewed. Capsule: [`../../batch-06/capsules/c052.json`](../capsules/c052.json).
+
+## Source-audit correction — 12 September 2026
+
+The opened FY2026 issuer release supports $331.8bn revenue and $155.2bn GAAP operating income. The $80bn bridge input is an analyst assumption for annual own support and development expense only, not a mixed cost/revenue pool. External Azure AI demand and paid Copilot seats remain separate E2 product-demand evidence; they do not prove Microsoft’s own productivity or E4 cash.
+
+**Controlling materiality treatment:** $7.76bn = 5% of FY2026 GAAP operating income of $155.2bn. The internal bridge uses an explicitly assumed $80bn annual own operating-expense pool for Microsoft 365/Azure support and development; it excludes revenue. The dossier’s earlier conflicting hurdle or evidence-stage wording is withdrawn. All cost-pool, efficiency, realization, retained-share and recurring-cost inputs remain labeled assumptions. Revenue-demand evidence is kept separate from own-productivity evidence, and customer/product adoption does not establish retained shareholder cash.

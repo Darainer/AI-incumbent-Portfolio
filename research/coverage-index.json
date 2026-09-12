@@ -1,9 +1,9 @@
 {
   "cutoff": "2026-09-12",
   "scope": 100,
-  "packets_available": 97,
-  "lead_accepted": 18,
-  "remaining_to_accept": 82,
+  "packets_available": 100,
+  "lead_accepted": 100,
+  "remaining_to_accept": 0,
   "phase": "evidence coverage; comparative ranking and valuation cases deferred",
   "companies": [
     {
@@ -26,10 +26,13 @@
         ],
         "note": "Latest financial and A2A deployment claims checked. Keep the reported detection improvement at E2: protocol, paid denominator and retained contribution are undisclosed. The illustrative own-cost route is only $88m against a $1.20bn scale hurdle; material G2 economics remain open.",
         "remaining_limits": [
-          "Lawful pooled-learning terms",
-          "Matched fraud/false-decline quality",
-          "Paid incremental contribution and incentives"
-        ]
+          "Visa's reported deployment lift is issuer-reported and lacks a matched protocol, sample size, price and cost bridge."
+        ],
+        "audit_file": "research/source-audits/coverage-a.json",
+        "audit_result": "PASS",
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
       },
       "issues": []
     },
@@ -41,7 +44,7 @@
       "dossier": "research/batch-02/dossiers/012-c023-jpmorgan-chase.md",
       "capsule": "research/batch-02/capsules/c023.json",
       "status": "lead_accepted",
-      "words": 1497,
+      "words": 1518,
       "sources": 5,
       "lead_review": {
         "status": "accepted",
@@ -49,14 +52,18 @@
         "review_scope": "Capsule reviewed; Q2 release and COO letter opened independently; annualization arithmetic checked.",
         "checked_sources": [
           "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/6cded9fd-a164-4e6c-8cff-377357cf105c.pdf",
-          "https://www.jpmorganchase.com/ir/annual-report/2025/ar-ceo-letter-jennifer-piepszak"
+          "https://www.jpmorganchase.com/ir/annual-report/2025/ar-ceo-letter-mary-callahan-erdoes"
         ],
-        "note": "Q2 adjusted income, capital and expense growth verified. The COO explicitly describes reinvesting released capacity in growth. E2 enterprise deployment is credible; headcount savings and incremental earnings cannot be inferred from usage. Annualized quarterly income is only a scale proxy.",
+        "note": "Q2 adjusted income, capital and expense growth verified. The COO explicitly describes reinvesting released capacity in growth. E2 enterprise deployment is credible; headcount savings and incremental earnings cannot be inferred from usage. Annualized quarterly income is only a scale proxy. The $0.524bn annual pre-tax expense-benefit illustration is NOT_COMPARABLE with the $3.38bn annual after-tax scale hurdle without an explicit tax conversion; no above/below conclusion is retained.",
         "remaining_limits": [
-          "Capital/risk-adjusted normalization",
-          "Paid or internal end-to-end productivity comparator",
-          "After-tax contribution after reinvestment"
-        ]
+          "Management-reported time savings and use counts are not controlled contribution or cash evidence.",
+          "The $0.524bn annual pre-tax expense-benefit illustration is NOT_COMPARABLE with the $3.38bn annual after-tax scale hurdle without an explicit tax conversion; no above/below conclusion is retained."
+        ],
+        "audit_file": "research/source-audits/coverage-a.json",
+        "audit_result": "PASS",
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E2",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
       },
       "issues": []
     },
@@ -82,8 +89,14 @@
         "remaining_limits": [
           "Prospective clinical transition/control evidence",
           "Paywalled adverse report excluded from decisive evidence",
-          "Annual economics and data rights"
-        ]
+          "Annual economics and data rights",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "audit_file": null,
+        "audit_result": "PASS",
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E2 scoped; clinical economics E1",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
       },
       "issues": []
     },
@@ -109,8 +122,14 @@
         "remaining_limits": [
           "PathAI rights and production adoption",
           "H1 annualization is scale only",
-          "No company-specific controlled productivity/capture"
-        ]
+          "No company-specific controlled productivity/capture",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "audit_file": null,
+        "audit_result": "PASS",
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E2 infrastructure/partnership evidence only",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
       },
       "issues": []
     },
@@ -129,15 +148,19 @@
         "reviewed_at": "2026-09-12",
         "review_scope": "FY2025 issuer financial table and August 2026 AI page opened independently; corrected annual/PV calculation reviewed.",
         "checked_sources": [
-          "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
-          "https://www.astrazeneca.com/r-d/science-and-technologies/ai-data.html"
+          "https://www.astrazeneca.com/content/dam/az/PDF/2026/h1q2/H1-and-Q2-2026-results-announcement.pdf",
+          "https://www.astrazeneca.com/r-d/data-science-and-ai.html",
+          "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf"
         ],
         "note": "Reported FY2025 OP is USD13.743bn. The issuer reports AI-enabled discovery use; this is scoped E2, with no demonstrated clinical success-rate uplift. The USD687.15m annual hurdle and USD4.22bn ten-year PV equivalent are explicitly different units.",
         "remaining_limits": [
-          "Matched prospective clinical outcomes",
-          "Contract-specific training rights",
-          "Retained economics"
-        ]
+          "AI deployment is management-reported E1/E2; no matched phase-transition or cash evidence."
+        ],
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "PASS",
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1/E2 management-reported workflow use",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
       },
       "issues": []
     },
@@ -148,9 +171,28 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/016-c072-linde.md",
       "capsule": "research/batch-02/capsules/c072.json",
-      "status": "ready_for_lead_review",
+      "status": "lead_accepted",
       "words": 1692,
       "sources": 6,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.linde.com/news-and-media/2026/linde-reports-second-quarter-2026-results",
+          "https://www.linde.com/innovation/digitalization",
+          "https://assets.linde.com/-/media/global/corporate/corporate/documents/financial-reports/2025/linde-plc-2025-directors-report-and-financial-statements.pdf"
+        ],
+        "note": "Process-control and maintenance mechanisms are plausible; a reproducible plant-level AI deployment was not established in the audit. Exclude customer energy savings from Linde\u2019s own cost pool and retain a conservative evidence stage.",
+        "remaining_limits": [
+          "Main AI page was inaccessible; exact plant-level production evidence needs a reproducible source."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1; E2 only where management explicitly reports production use",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -160,9 +202,28 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/017-c062-deere.md",
       "capsule": "research/batch-02/capsules/c062.json",
-      "status": "ready_for_lead_review",
-      "words": 1617,
+      "status": "lead_accepted",
+      "words": 1762,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.deere.com/en/our-company/news-and-announcements/news-releases/2026/corporate/deere-reports-third-quarter-net-income-of-1-379-billion/",
+          "https://www.deere.com/en/news/all-news/see-spray-herbicide-savings/"
+        ],
+        "note": "The operating business and earnings guidance provide context. The inaccessible herbicide-saving claim is not accepted as verified AI evidence; customer savings and Deere\u2019s after-tax guidance screen require separate capture and tax treatment. The $37.5m annual pre-tax operating-benefit illustration is NOT_COMPARABLE with the $243.75m annual after-tax guidance hurdle without an explicit tax conversion; no above/below conclusion is retained.",
+        "remaining_limits": [
+          "No controlled field mix, quality, adoption denominator or Deere-retained cash evidence was available.",
+          "The $37.5m annual pre-tax operating-benefit illustration is NOT_COMPARABLE with the $243.75m annual after-tax guidance hurdle without an explicit tax conversion; no above/below conclusion is retained."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E0/E1 unverified claim; production outcome source not successfully opened",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -172,9 +233,27 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/018-c053-amazon.md",
       "capsule": "research/batch-02/capsules/c053.json",
-      "status": "ready_for_lead_review",
-      "words": 1616,
+      "status": "lead_accepted",
+      "words": 1746,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/",
+          "https://aws.amazon.com/bedrock/security-compliance/"
+        ],
+        "note": "Bedrock and AWS AI demand are supported as external adoption. Neither customer counts nor AI revenue run rate establish Amazon internal productivity. The quarterly operating screen is explicitly incomparable with an annual cost illustration.",
+        "remaining_limits": [
+          "No segment-level AI contribution margin, incremental capex return or internal workflow counterfactual is disclosed."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 production Bedrock/AWS AI use in the opened Q2 release; no E3/E4",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -193,14 +272,19 @@
         "review_scope": "Lead financial/partner source checks plus independent clinical-financial audit; correction reviewed.",
         "checked_sources": [
           "https://www.novartis.com/news/media-releases/novartis-delivered-high-single-digit-sales-growth-achieved-40-core-margin-and-further-advanced-pipeline-2025",
-          "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-novartis-collaboration-expansion"
+          "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-novartis-collaboration-expansion",
+          "https://news.microsoft.com/source/features/digital-transformation/novartis-empowers-scientists-ai-speed-discovery-development-breakthrough-medicines"
         ],
         "note": "Company-specific workflow integration supports narrow E2. Neither partnership expansion nor unrelated clinical failures establish AI efficacy. The annual core-profit hurdle is USD1.09445bn, not programme NPV.",
         "remaining_limits": [
-          "H1 detailed financial access gap",
-          "2021 supplier workflow evidence is old",
-          "No prospective outcomes/capture"
-        ]
+          "No controlled transition-rate, clinical-outcome, or retained-cash evidence supports E3 for Novartis.",
+          "The Microsoft article is a 2021 supplier narrative and gives no workload denominator or control group."
+        ],
+        "audit_file": "research/source-audits/clinical-financial.json",
+        "audit_result": "PASS",
+        "arithmetic_status": "UNQUANTIFIED",
+        "source_evidence_stage": "E2 for workflow deployment; E1 for expanded programs",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
       },
       "issues": []
     },
@@ -211,9 +295,30 @@
       "batch": 2,
       "dossier": "research/batch-02/dossiers/020-c005-novo-nordisk.md",
       "capsule": "research/batch-02/capsules/c005.json",
-      "status": "ready_for_lead_review",
+      "status": "lead_accepted",
       "words": 1612,
       "sources": 6,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed capsule/decisive claims and independent full-dossier financial/clinical source audit, including corrected-file recheck. Acceptance is evidence coverage with the stated limitations.",
+        "audit_file": "research/source-audits/clinical-financial.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html",
+          "https://annualreport.novonordisk.com/2025/introducing-novo-nordisk/five-year-overview.html",
+          "https://www.valohealth.com/press/valo-health-and-novo-nordisk-expand-collaboration-to-discover-and-develop-novel-treatments-for-cardiometabolic-diseases",
+          "https://aws.amazon.com/solutions/case-studies/novo-nordisk-generative-ai-case-study/"
+        ],
+        "note": "Valo remains preclinical programme scope; AWS supports nonregulated internal use, not clinical-report generation. Pipeline failures are not attributed to AI. FY2025 DKK6.383bn annual hurdle is a scale requirement with no clinical economics bridge.",
+        "remaining_limits": [
+          "Valo evidence establishes contracted and preclinical scope, not better transitions, approvals, or retained economics.",
+          "The AWS case study is supplier-reported and covers nonregulated internal use rather than a controlled clinical-development outcome."
+        ],
+        "arithmetic_status": "UNQUANTIFIED",
+        "source_evidence_stage": "E1 for discovery; E2 supplier-reported internal chatbot deployment",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -223,9 +328,29 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/021-c006-eli-lilly.md",
       "capsule": "research/batch-03/capsules/c006.json",
-      "status": "ready_for_lead_review",
+      "status": "lead_accepted",
       "words": 1306,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed capsule/decisive claims and independent full-dossier financial/clinical source audit, including corrected-file recheck. Acceptance is evidence coverage with the stated limitations.",
+        "audit_file": "research/source-audits/clinical-financial.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.sec.gov/Archives/edgar/data/59478/000005947826000013/lly-20251231.htm",
+          "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full",
+          "https://investor.lilly.com/news-releases/news-release-details/lilly-launches-tunelab-platform-give-biotechnology-companies"
+        ],
+        "note": "TuneLab uses proprietary research data and daily scientist workflows; factory capacity is an input. Corrected primary sources and aligned annual/NPV/tax arithmetic support the evidence packet, not clinical success or retained cash.",
+        "remaining_limits": [
+          "The USD 1bn figure is historic research cost, not platform value, current expense, or realized benefit.",
+          "No company-specific E3 evidence connects TuneLab to improved clinical outcomes or shareholder cash."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1/E2 deployment",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -235,9 +360,29 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/022-c007-siemens-healthineers.md",
       "capsule": "research/batch-03/capsules/c007.json",
-      "status": "ready_for_lead_review",
+      "status": "lead_accepted",
       "words": 1257,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed capsule/decisive claims and independent full-dossier financial/clinical source audit, including corrected-file recheck. Acceptance is evidence coverage with the stated limitations.",
+        "audit_file": "research/source-audits/clinical-financial.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.siemens-healthineers.com/press/releases/2026q3",
+          "https://www.siemens-healthineers.com/investor-relations/presentations-financial-publications",
+          "https://www.siemens-healthineers.com/digital-health-solutions/ai-rad-companion"
+        ],
+        "note": "Accept with source-access limit: current Q3 margin and Diagnostics weakness are corroborated; FY2025 EBIT figure was not independently re-extracted by the auditor. AI-Rad establishes available workflow integration; adoption and controlled clinical/cash effects remain open.",
+        "remaining_limits": [
+          "Exact cited FY2025 and Q3 PDF URLs could not be opened by the audit tool; the Q3 press release corroborates latest operating facts but not the FY2025 anchor.",
+          "No paid-attach denominator, matched workflow cohort, or retained-cash bridge supports company-specific E3."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 company-reported/product-level",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -247,9 +392,30 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/023-c008-medtronic.md",
       "capsule": "research/batch-03/capsules/c008.json",
-      "status": "ready_for_lead_review",
-      "words": 1317,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1372,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/clinical-financial.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://news.medtronic.com/2026-09-01-Medtronic-reports-first-quarter-fiscal-2027-results-delivers-broad-based-portfolio-performance-and-raises-fiscal-2027-guidance",
+          "https://www.sec.gov/Archives/edgar/data/1613103/000162828026040034/exhibit991-fy26q4earningsr.htm",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11866038/",
+          "https://pubmed.ncbi.nlm.nih.gov/40018072/"
+        ],
+        "note": "The GI Genius study supports a narrowly scoped detection outcome, with quasi-randomization, non-blinding and subgroup limits. Non-significant NNRR is not equivalence. Q1 FY2027 freshness and the 65.25% assumed attach calculation are corrected; no group cash inference follows.",
+        "remaining_limits": [
+          "PubMed itself yielded no text in the audit tool; the linked full article on PMC was opened and used.",
+          "Touch Surgery product URL returned an internal error during this audit, so its deployment claims were not independently corroborated here."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E3 scoped clinical task with design limits",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -273,10 +439,14 @@
         ],
         "note": "AI-powered Case Insights is a bounded available feature, not evidence of clinical benefit or material digital revenue. The 10-K explicitly says digital/learning revenue is not material. USD96.3m benefit is assumption-driven versus USD147.3m operating-profit scale.",
         "remaining_limits": [
-          "Actual adoption and regional clearance",
-          "Clinical matched outcomes",
-          "Paid attach and retained contribution"
-        ]
+          "No matched clinical outcome, utilization lift, downtime reduction, paid-attach denominator, or cash attribution supports E3.",
+          "The platform page establishes feature availability; regional clearance and actual adoption remain undisclosed."
+        ],
+        "audit_file": "research/source-audits/clinical-financial.json",
+        "audit_result": "PASS",
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1/E2 scoped",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
       },
       "issues": []
     },
@@ -287,9 +457,28 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/025-c010-thermo-fisher-scientific.md",
       "capsule": "research/batch-03/capsules/c010.json",
-      "status": "ready_for_lead_review",
-      "words": 1694,
+      "status": "lead_accepted",
+      "words": 1636,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://ir.thermofisher.com/investors/news-events/news/news-details/2026/Thermo-Fisher-Scientific-Reports-Second-Quarter-2026-Results/",
+          "https://www.thermofisher.com/us/en/home/digital-science/artificial-intelligence.html",
+          "https://ir.thermofisher.com/investors/news-events/news/news-details/2026/Thermo-Fisher-Scientific-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
+        ],
+        "note": "The annual operating anchor and current interim now agree. Instrument AI capability needs matched analytical accuracy, downtime and vendor capture; inaccessible product details limit any firm deployment conclusion.",
+        "remaining_limits": [
+          "Replace with exact FY2025 filed/released GAAP operating income and recalculate 5%; either provide a reproducible AI product source or mark its mechanism unverified."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1; E2 only where management explicitly reports production use",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -299,9 +488,28 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/026-c011-danaher.md",
       "capsule": "research/batch-03/capsules/c011.json",
-      "status": "ready_for_lead_review",
-      "words": 1701,
+      "status": "lead_accepted",
+      "words": 1632,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://investors.danaher.com/2026-07-21-Danaher-Reports-Second-Quarter-2026-Results",
+          "https://www.danaher.com/how-we-work/innovation",
+          "https://investors.danaher.com/annual-reports"
+        ],
+        "note": "The governing annual metric is net earnings, not the old operating-profit proxy. The illustrative savings have been tax-aligned. Product-level quality and paid service economics remain unproved.",
+        "remaining_limits": [
+          "Choose one exact FY2025 metric from a direct filing, make dossier/capsule/caveat agree, and recalculate 5%; keep E1 only until a specific deployed product is sourced."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1; E2 only where management explicitly reports production use",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -311,9 +519,27 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/027-c012-iqvia.md",
       "capsule": "research/batch-03/capsules/c012.json",
-      "status": "ready_for_lead_review",
-      "words": 1602,
+      "status": "lead_accepted",
+      "words": 1717,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://ir.iqvia.com/financial-information/quarterly-results/default.aspx",
+          "https://www.iqvia.com/solutions/technologies/artificial-intelligence-and-machine-learning"
+        ],
+        "note": "Healthcare AI capability is plausible but a named production cohort is missing. The corrected annual adjusted-EBITDA guidance screen avoids double annualization; backlog and bookings are not earnings.",
+        "remaining_limits": [
+          "No E2 cohort, trial-quality comparison, rights terms or retained-cash bridge was verified."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1 capability; no opened named production cohort",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -323,9 +549,30 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/028-c013-hca-healthcare.md",
       "capsule": "research/batch-03/capsules/c013.json",
-      "status": "ready_for_lead_review",
-      "words": 1586,
-      "sources": 5,
+      "status": "lead_accepted",
+      "words": 1786,
+      "sources": 6,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://investor.hcahealthcare.com/news-and-events/news-releases/2026/",
+          "https://cloud.google.com/blog/topics/healthcare-life-sciences/hca-healthcare-and-google-cloud-generative-ai",
+          "https://investor.hcahealthcare.com/news-and-events/news-releases/2026/HCA-Healthcare-Reports-Second-Quarter-2026-Results/default.aspx",
+          "https://investor.hcahealthcare.com/news/news-details/2026/HCA-Healthcare-Reports-Second-Quarter-2026-Results/default.aspx"
+        ],
+        "note": "Lead independently verified the final Q2 release after the earlier access failure. Payer mix, directed payments and surgery volumes confound results. Nurse-handoff capability requires omission/escalation and clinical-quality controls.",
+        "remaining_limits": [
+          "No omission, escalation, patient-outcome or realized staffing comparison supports E3/E4."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1 announced deployment program; no opened controlled clinical result",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred.",
+        "lead_source_recheck": "Lead independently corroborated the latest financial metrics after the earlier audit access failure. AI and comparability limitations remain."
+      },
       "issues": []
     },
     {
@@ -335,9 +582,31 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/029-c014-unitedhealth-group.md",
       "capsule": "research/batch-03/capsules/c014.json",
-      "status": "ready_for_lead_review",
-      "words": 1278,
+      "status": "lead_accepted",
+      "words": 1271,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed capsule/decisive claims and independent full-dossier financial/clinical source audit, including corrected-file recheck. Acceptance is evidence coverage with the stated limitations.",
+        "audit_file": "research/source-audits/clinical-financial.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+          "https://www.sec.gov/Archives/edgar/data/731766/000073176626000191/earningsrelease2q26_7152.htm",
+          "https://www.optum.com/en/newsroom/health-tech/optum-is-advancing-ai-powered-digital-prior-authorization.html",
+          "https://www.unitedhealthgroup.com/uhg/business-initiatives.html",
+          "https://law.justia.com/cases/federal/district-courts/minnesota/mndce/0%3A2023cv03514/211721/162/"
+        ],
+        "note": "Optum/Humata outcome claims are now correctly separated from UHG production. Removal of authorization requirements is a policy change. Litigation establishes disputed allegations and discovery, not an adverse merits finding. No inference of UHG-specific AI benefit is accepted.",
+        "remaining_limits": [
+          "No independent quality comparison, appeal/reversal rate, member outcome, or retained-cash reconciliation was found for the authorization tools.",
+          "Litigation sources establish allegations and discovery status only."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1; at most limited E2 for third-party Humata deployments, not UHG cohort",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -347,9 +616,30 @@
       "batch": 3,
       "dossier": "research/batch-03/dossiers/030-c016-swiss-re.md",
       "capsule": "research/batch-03/capsules/c016.json",
-      "status": "ready_for_lead_review",
-      "words": 1268,
+      "status": "lead_accepted",
+      "words": 1296,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed capsule/decisive claims and independent full-dossier financial/clinical source audit, including corrected-file recheck. Acceptance is evidence coverage with the stated limitations.",
+        "audit_file": "research/source-audits/clinical-financial.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.swissre.com/investors/half-year-report-2026-online.html",
+          "https://analytics.swissre.com/details/coin",
+          "https://www.swissre.com/media/press-release/pr-20251205-swiss-re-targets-2026.html"
+        ],
+        "note": "Impact+ remains E1 capability. The final screen uses USD2.8bn H1 net income and a USD140m same-half after-tax hurdle. Its annual benefit illustration is NOT_COMPARABLE without time alignment. Benign catastrophes and reserve development confound aggregate results.",
+        "remaining_limits": [
+          "The H1 net-income anchor is a reported same-period scale rather than a normalized annual earnings measure.",
+          "No company-specific E2 outcome or E3 evidence was found for underwriting, claims triage, or employee assistance.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E1 capability; client deployment not quantified",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -359,9 +649,28 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/031-c017-allianz.md",
       "capsule": "research/batch-04/capsules/c017.json",
-      "status": "ready_for_lead_review",
+      "status": "lead_accepted",
       "words": 1303,
       "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed capsule/decisive claims and independent full-dossier financial/clinical source audit, including corrected-file recheck. Acceptance is evidence coverage with the stated limitations.",
+        "audit_file": "research/source-audits/clinical-financial.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.allianz.com/en/mediacenter/news/media-releases/financials/260807-2q-2026-earnings-release.html",
+          "https://www.allianz.com/en/mediacenter/news/media-releases/financials/260226-4q-2025-earnings-release.html"
+        ],
+        "note": "Financial and insurance-capital anchors support research coverage. AI descriptions remain aggregated and lack reproducibly named production cohorts. E2 should be read as conditional, not a firm evidence promotion; catastrophe and reserve effects require separation.",
+        "remaining_limits": [
+          "Exact cited decisive AI source content was inaccessible in this audit, limiting verification of product-level deployment.",
+          "No matched company-specific AI cohort, adoption denominator, or retained-cash bridge supports E3."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1/E2 limited",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -371,9 +680,32 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/032-c019-progressive.md",
       "capsule": "research/batch-04/capsules/c019.json",
-      "status": "ready_for_lead_review",
+      "status": "lead_accepted",
       "words": 1348,
       "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed capsule/decisive claims and independent full-dossier financial/clinical source audit, including corrected-file recheck. Acceptance is evidence coverage with the stated limitations.",
+        "audit_file": "research/source-audits/clinical-financial.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.sec.gov/Archives/edgar/data/80661/000008066126000315/pgr202607ex99earningsrelea.htm",
+          "https://www.sec.gov/Archives/edgar/data/80661/000008066126000086/pgr-20251231.htm",
+          "https://s202.q4cdn.com/605347829/files/doc_financials/2025/q4/interactive/progressive-ir-25/pdfs/Progressive-2025-Financial-Review.pdf",
+          "https://www.progressive.com/auto/discounts/snapshot/",
+          "https://www.progressive.com/claims/"
+        ],
+        "note": "Snapshot establishes deployed telematics. The 10-K supports broad longstanding ML/AI, while Photo Estimate remains digital self-service without AI attribution. The USD526.7m underwriting-scale hurdle is a constructed ratio/premium proxy, not reported underwriting profit.",
+        "remaining_limits": [
+          "No current-model matched cohort, accident-year normalization, claims leakage result, or finance reconciliation supports E3 or E4.",
+          "Snapshot is a production telematics program, but the public page does not separate incremental AI performance from longstanding statistical pricing, selection, rate action, weather, severity, or reserve development.",
+          "The statutory-ratio/GAAP-premium proxy is useful for scale only and should not be presented as reported pre-tax underwriting profit."
+        ],
+        "arithmetic_status": "CORRECTED",
+        "source_evidence_stage": "E2 for telematics; broad ML/AI use management-reported; claims AI E0/E1",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -383,9 +715,25 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/033-c020-aia-group.md",
       "capsule": "research/batch-04/capsules/c020.json",
-      "status": "ready_for_lead_review",
-      "words": 1125,
+      "status": "lead_accepted",
+      "words": 1172,
       "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-b.json",
+        "audit_result": "PASS",
+        "checked_sources": [],
+        "note": "AIA reports claims-process adoption and accuracy metrics, but bundled redesign and missing controls prevent AI-only attribution. OPAT is after tax; VONB is a present value and stays separate. Retention of savings under claims/service quality constraints remains unproved.",
+        "remaining_limits": [
+          "The corrected dossier now records the disclosed baselines: straight-through processing 22% in June 2020 to 73% in December 2024, auto-adjudication 41% to 75%, 97% OCR accuracy, review time halved, and rollout across four markets. It correctly treats them as company-authored before/after metrics without a contemporaneous control, quality/cash reconciliation, or isolated AI effect.",
+          "5% of FY2025 OPAT is USD 356.8m, reasonably rounded to USD 357m. The after-tax cost bridge and separately labeled VONB present-value bridge are unit-consistent."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 company-reported deployment",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -395,9 +743,25 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/034-c021-blackrock.md",
       "capsule": "research/batch-04/capsules/c021.json",
-      "status": "ready_for_lead_review",
+      "status": "lead_accepted",
       "words": 1157,
       "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-b.json",
+        "audit_result": "PASS",
+        "checked_sources": [],
+        "note": "Aladdin distribution and a named client implementation support scoped use. Availability across clients is not active adoption, and technology fees must be separated from market-driven AUM growth and acquisition effects.",
+        "remaining_limits": [
+          "The SEC files were actually downloaded and parsed outside the web renderer; both support H1 operating income of USD 5.275bn. The AI source establishes an implementation/client, not matched productivity, suitability, renewal, or contribution.",
+          "Annualized H1 GAAP operating-income hurdle is USD 5.275bn x 2 x 5% = USD 527.5m/year. The illustrative USD 142m bridge and 68.5% required technology uplift recompute correctly."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 product/client deployment",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -407,9 +771,28 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/035-c022-manulife.md",
       "capsule": "research/batch-04/capsules/c022.json",
-      "status": "ready_for_lead_review",
-      "words": 1707,
+      "status": "lead_accepted",
+      "words": 1602,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.manulife.com/ca/en/about-us/investors/results-and-reports",
+          "https://www.manulife.com/en/news/manulife-innovation.html",
+          "https://www.manulife.com/en/investors/results-and-reports.html"
+        ],
+        "note": "Core earnings are an adjusted after-tax basis; claims and capital effects require separate controls. Underwriting/service mechanisms remain conditional on reproducible deployment and fair, risk-adjusted outcomes.",
+        "remaining_limits": [
+          "Use exact FY2025 core or reported shareholder earnings from a direct report and align period/value/hurdle; insurer capital and claims KPIs are otherwise appropriately bounded."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1; E2 only where management explicitly reports production use",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -419,9 +802,28 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/036-c024-dbs-group.md",
       "capsule": "research/batch-04/capsules/c024.json",
-      "status": "ready_for_lead_review",
-      "words": 1694,
+      "status": "lead_accepted",
+      "words": 1588,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.dbs.com/iwov-resources/images/investors/quarterly-financials/2026/2Q26_CFO_presentation.pdf",
+          "https://www.dbs.com/artificial-intelligence-machine-learning/default.page",
+          "https://www.dbs.com/investors/financials/annual-reports"
+        ],
+        "note": "Fraud and credit decision support are plausible bank mechanisms, but the retrieved deployment evidence is limited. Exact-year earnings and tax treatment are aligned; fixed-risk loss outcomes and retained contribution remain open.",
+        "remaining_limits": [
+          "Correct exact FY2025 net profit and 5% arithmetic; retain fraud/credit mechanisms at E1 unless a named production deployment is reproducibly sourced."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1; E2 only where management explicitly reports production use",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -431,9 +833,27 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/037-c025-icici-bank.md",
       "capsule": "research/batch-04/capsules/c025.json",
-      "status": "ready_for_lead_review",
-      "words": 1617,
+      "status": "lead_accepted",
+      "words": 1747,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/about-us/2027/performance-review-q1-2027.pdf",
+          "https://www.icici.bank.in/personal-banking/insta-banking/internet-banking/ipal"
+        ],
+        "note": "The current standalone bank result is distinct from an incremental AI thesis. Digital-assistant access does not prove generative functionality or fixed-risk credit lift; the quarterly after-tax screen is not an annual savings comparison.",
+        "remaining_limits": [
+          "No opened source establishes generative/agentic functionality, eligible contact volume, fixed-risk credit lift or retained operating savings."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1 digital-assistant capability; no opened incremental AI evidence",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -443,9 +863,27 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/038-c027-mastercard.md",
       "capsule": "research/batch-04/capsules/c027.json",
-      "status": "ready_for_lead_review",
-      "words": 1592,
+      "status": "lead_accepted",
+      "words": 1724,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://investor.mastercard.com/financials-and-sec-filings/quarterly-results/default.aspx",
+          "https://www.mastercard.com/news/press/2024/february/mastercard-supercharges-consumer-protection-with-generative-ai/"
+        ],
+        "note": "The filed payment result supports conventional scale. Fraud-scoring capability needs a matched false-decline/loss comparison and Mastercard-retained economics. The quarterly net-income screen is not comparable with annual pre-tax savings.",
+        "remaining_limits": [
+          "No false-decline denominator, issuer loss comparison or Mastercard-retained economics was verified."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1 product capability; production efficacy source was not successfully opened",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -467,10 +905,13 @@
         ],
         "note": "Issuer-reported 0.9 percentage-point conversion improvement supports E2 only. EUR641.5m H1 EBITDA is confirmed. Correct own-contribution illustration is negative EUR19.28m; no positive materiality conclusion is accepted.",
         "remaining_limits": [
-          "Fraud/false-decline quality and matched protocol",
-          "Merchant training permissions",
-          "Quarterly/half-year annualization and EBITDA basis"
-        ]
+          "Test design, eligible denominator, fraud and fees undisclosed."
+        ],
+        "audit_file": "research/source-audits/lead-coverage-e.json",
+        "audit_result": "PASS",
+        "arithmetic_status": "CORRECTED",
+        "source_evidence_stage": "E2 management-reported production",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
       },
       "issues": []
     },
@@ -481,9 +922,27 @@
       "batch": 4,
       "dossier": "research/batch-04/dossiers/040-c029-s-p-global.md",
       "capsule": "research/batch-04/capsules/c029.json",
-      "status": "ready_for_lead_review",
+      "status": "lead_accepted",
       "words": 1202,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/lead-coverage-e.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.sec.gov/Archives/edgar/data/64040/000006404026000013/spgi-20251231.htm",
+          "https://www.spglobal.com/en/research-insights/ai"
+        ],
+        "note": "Filed financials support the conventional business; product material supports a data/research capability but no independently verified production cohort. Upstream licenses, interface substitution and seat economics constrain the thesis.",
+        "remaining_limits": [
+          "No controlled accepted-output or retained-cash cohort."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1; limited E2 product availability",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -493,9 +952,28 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/041-c030-moody-s.md",
       "capsule": "research/batch-05/capsules/c030.json",
-      "status": "ready_for_lead_review",
-      "words": 1195,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1239,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-a.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.sec.gov/Archives/edgar/data/1059556/000162828026049104/a2q26earningsrelease.htm",
+          "https://www.moodys.com/web/en/us/capabilities/genai.html"
+        ],
+        "note": "Permissioned credit content is a plausible workflow advantage, but customer production is not independently established. The exact H1 operating anchor replaces an undefined annual estimate; its period screen cannot be compared with annual benefits.",
+        "remaining_limits": [
+          "No controlled adoption, accuracy, renewal or retained-cash evidence.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E1 product availability; customer production unverified",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -505,9 +983,28 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/042-c032-london-stock-exchange-group.md",
       "capsule": "research/batch-05/capsules/c032.json",
-      "status": "ready_for_lead_review",
-      "words": 1201,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1250,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-a.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.lseg.com/en/media-centre/press-releases/2026/london-stock-exchange-group-plc-h1-2026-interim-results",
+          "https://www.lseg.com/en/insights/data-analytics"
+        ],
+        "note": "Named customer use supports scoped E2. Microsoft distribution does not settle upstream licensing, interface dependence or seat cannibalization. The H1 operating screen is not an annual materiality test.",
+        "remaining_limits": [
+          "No adoption denominator beyond 'thousands,' no controlled accuracy or revenue lift.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E2 management-reported customer use; outcome E0/E1",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -517,9 +1014,25 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/043-c033-intercontinental-exchange.md",
       "capsule": "research/batch-05/capsules/c033.json",
-      "status": "ready_for_lead_review",
+      "status": "lead_accepted",
       "words": 986,
       "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-b.json",
+        "audit_result": "PASS",
+        "checked_sources": [],
+        "note": "Mortgage-system integration offers a plausible capture route through workflow fees. Product checks and AI positioning do not establish lower defect-adjusted processing cost or paid upsell; the assumed revenue bridge remains unproved.",
+        "remaining_limits": [
+          "Encompass wording supports E1 product capability; integrated features may support limited E2, but no lender cohort, defect/fair-lending outcome, or retained cash is disclosed.",
+          "The Q2 release reports USD 1.4bn operating income and 52% margin on USD 2.666bn net revenue. The dossier's USD 1.404bn/annual USD 5.616bn proxy is a reasonable rounded derivation, and the USD 281m hurdle and illustrative arithmetic are sound."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1/E2 feature deployment",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -529,9 +1042,25 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/044-c038-veeva-systems.md",
       "capsule": "research/batch-05/capsules/c038.json",
-      "status": "ready_for_lead_review",
+      "status": "lead_accepted",
       "words": 1072,
       "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-b.json",
+        "audit_result": "PASS",
+        "checked_sources": [],
+        "note": "Vault configuration and agent actions establish available capability. Treat product availability as weaker than demonstrated customer production. Validated outputs, paid upsell and inference/support expense are the missing bridge.",
+        "remaining_limits": [
+          "The latest release strengthens E2: one top-20 biopharma deployed Vault CRM and Agentic Call Report across its full U.S. field team, while Falcon had five early adopters. It still supplies no controlled task or net-ACV result.",
+          "FY2026 5% hurdle USD 45.82m, illustrative USD 39.1m benefit, and 9.3% required upsell recompute correctly."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 product availability",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -541,9 +1070,28 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/045-c039-constellation-software.md",
       "capsule": "research/batch-05/capsules/c039.json",
-      "status": "ready_for_lead_review",
-      "words": 1716,
+      "status": "lead_accepted",
+      "words": 1640,
       "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.csisoftware.com/",
+          "https://www.csisoftware.com/category/press-releases/financial-information/",
+          "https://www.csisoftware.com/constellation-software-inc-announces-results-for-the-fourth-quarter-and-year-ended-december-31-2025-and-declares-quarterly-dividend/"
+        ],
+        "note": "No consolidated named AI production result was found across the decentralized portfolio. Subsidiary/customer rights cannot be pooled by assumption. The corrected attributable-income anchor is after tax; vertical copilots remain a hypothesis.",
+        "remaining_limits": [
+          "Link the direct FY2025 financial statements, update attributable income and 5% hurdle; retain the negative AI finding."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E0/E1 gap",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -553,9 +1101,28 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/046-c040-adp.md",
       "capsule": "research/batch-05/capsules/c040.json",
-      "status": "ready_for_lead_review",
-      "words": 1723,
-      "sources": 5,
+      "status": "lead_accepted",
+      "words": 1640,
+      "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://investors.adp.com/overview/default.aspx",
+          "https://www.adp.com/spark/articles/2024/04/how-adp-is-using-generative-ai.aspx",
+          "https://s205.q4cdn.com/887941133/files/doc_financials/2026/q4/ADP-4Q26-Earnings-Release.pdf"
+        ],
+        "note": "Payroll workflow distribution supports a mechanism, not demonstrated AI economics. Corrected current-year net earnings governs the screen; expert escalation, error rates and customer-specific rights remain central.",
+        "remaining_limits": [
+          "Replace generic overview/annual-report URLs with exact FY2026 release or filing for numerical corroboration; AI product source needs reproducible inspection."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1; E2 only where management explicitly reports production use",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -565,9 +1132,27 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/047-c042-servicenow.md",
       "capsule": "research/batch-05/capsules/c042.json",
-      "status": "ready_for_lead_review",
-      "words": 1570,
+      "status": "lead_accepted",
+      "words": 1699,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/",
+          "https://www.servicenow.com/products/now-assist.html"
+        ],
+        "note": "Issuer AI contract value and deployment growth support commercial adoption, not autonomous resolution quality or contribution margin. Distinguish ACV from revenue; the annual guidance screen is an explicitly approximate non-GAAP proxy.",
+        "remaining_limits": [
+          "No resolution-quality cohort, seat effect, inference cost or AI contribution margin was verified."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 issuer-reported paid adoption/deployment; no E3/E4",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -577,9 +1162,27 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/048-c043-salesforce.md",
       "capsule": "research/batch-05/capsules/c043.json",
-      "status": "ready_for_lead_review",
-      "words": 1582,
+      "status": "lead_accepted",
+      "words": 1717,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://investor.salesforce.com/financials/default.aspx",
+          "https://www.salesforce.com/agentforce/"
+        ],
+        "note": "Reported Agentforce commercial use is scoped to its disclosed, changing ARR definition. Work units do not establish correctness or resolved demand. Seat cannibalization, inference cost and rights remain open.",
+        "remaining_limits": [
+          "The 18,000-company statement provides no active-agent, resolution-quality, renewal or net-ARR denominator."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 issuer-reported paid use; no E3/E4",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -589,9 +1192,28 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/049-c044-synopsys.md",
       "capsule": "research/batch-05/capsules/c044.json",
-      "status": "ready_for_lead_review",
-      "words": 1201,
+      "status": "lead_accepted",
+      "words": 1235,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/lead-coverage-e.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+          "https://www.synopsys.com/ai.html"
+        ],
+        "note": "Issuer financials and AI design products support capability. Broad vendor speed/PPA claims lack a matched project portfolio and signoff-quality economics; treat E2 as conditional. Quarter/9M screens cannot be compared with annual assumptions.",
+        "remaining_limits": [
+          "No portfolio-controlled signoff-quality or retained-cash cohort.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E1/E2, vendor/customer reported",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -601,9 +1223,27 @@
       "batch": 5,
       "dossier": "research/batch-05/dossiers/050-c045-cadence-design-systems.md",
       "capsule": "research/batch-05/capsules/c045.json",
-      "status": "ready_for_lead_review",
-      "words": 1200,
+      "status": "lead_accepted",
+      "words": 1201,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/lead-coverage-e.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://investor.cadence.com/news/news-details/2026/Cadence-Reports-Second-Quarter-2026-Financial-Results/default.aspx",
+          "https://www.cadence.com/en_US/home/ai.html"
+        ],
+        "note": "Current GAAP margin and revenue are corroborated. AI design capability is clear, but controlled signoff quality and net vendor contribution are absent. The corrected illustration is negative USD14m; annualization remains a scale assumption.",
+        "remaining_limits": [
+          "No portfolio-controlled signoff-quality or retained-cash cohort."
+        ],
+        "arithmetic_status": "CORRECTED",
+        "source_evidence_stage": "E1/E2, vendor/customer reported",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -613,9 +1253,28 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/051-c046-dassault-systemes.md",
       "capsule": "research/batch-06/capsules/c046.json",
-      "status": "ready_for_lead_review",
-      "words": 1196,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1241,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-a.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://investor.3ds.com/news-releases/news-release-details/dassault-systemes-solid-q2-results-and-confirming-full-year",
+          "https://www.3ds.com/3dexperience"
+        ],
+        "note": "Design and virtual-twin capabilities require real-world validation and paid adoption. Product availability stays E1; the quarterly operating screen does not establish annual materiality or retained design savings.",
+        "remaining_limits": [
+          "No isolated time-to-design, simulation-error, renewal or cash result for the claimed AI feature.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E1 product availability",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -625,9 +1284,28 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/052-c047-autodesk.md",
       "capsule": "research/batch-06/capsules/c047.json",
-      "status": "ready_for_lead_review",
-      "words": 1191,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1238,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-a.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.sec.gov/Archives/edgar/data/769397/000076939726000059/q227pressrelease.htm",
+          "https://www.autodesk.com/solutions/autodesk-ai"
+        ],
+        "note": "Workflow access gives a plausible route to paid design/construction assistance, but availability is not measured use. Rework, correctness, attach and renewal must be observed together. The H1 screen is period-specific.",
+        "remaining_limits": [
+          "No paid attach, renewal uplift, task-hour or rework evidence attributable to Autodesk AI.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E1 product availability",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -637,9 +1315,25 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/053-c048-tsmc.md",
       "capsule": "research/batch-06/capsules/c048.json",
-      "status": "ready_for_lead_review",
-      "words": 958,
+      "status": "lead_accepted",
+      "words": 979,
       "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-b.json",
+        "audit_result": "PASS",
+        "checked_sources": [],
+        "note": "AI infrastructure demand is separate from TSMC internal fab productivity. Internal enterprise-AI programme language remains E1; no matched yield, downtime or own-cost outcome was established.",
+        "remaining_limits": [
+          "The corrected dossier now treats the annual-report statement as E1 management/program evidence only: enterprise AI is used internally for broad productivity/efficiency, with no named fab workflow, deployment denominator, yield result, or retained cash.",
+          "Q2 revenue of USD 40.20bn at TWD 31.60/USD implies about TWD 1.270tn; at 60.3% operating margin, operating profit is about TWD 765.8bn. Annualized 5% hurdle TWD 153.2bn and illustrative arithmetic are internally consistent."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1 management/program evidence",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -649,9 +1343,25 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/054-c049-asml.md",
       "capsule": "research/batch-06/capsules/c049.json",
-      "status": "ready_for_lead_review",
-      "words": 1005,
+      "status": "lead_accepted",
+      "words": 1006,
       "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-b.json",
+        "audit_result": "PASS",
+        "checked_sources": [],
+        "note": "Computational lithography provides a product mechanism, with major hardware and physics confounders. Current net-income and after-tax illustrations are aligned, but incremental software pricing and customer benefit capture remain assumptions.",
+        "remaining_limits": [
+          "The annual report directly supports E2 deployment and named mechanisms but provides no AI-only matched yield, downtime, attach, or cash outcome.",
+          "The corrected dossier uses reported Q2 net income EUR 2.918bn rather than an invented operating-expense proxy. Annualized after-tax 5% hurdle EUR 583.6m, after-tax illustrative benefit EUR 136.13m, and required software uplift are dimensionally aligned and recompute correctly."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 deployed product capability",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -661,9 +1371,28 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/055-c050-applied-materials.md",
       "capsule": "research/batch-06/capsules/c050.json",
-      "status": "ready_for_lead_review",
-      "words": 1705,
+      "status": "lead_accepted",
+      "words": 1709,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://ir.appliedmaterials.com/",
+          "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-aix-platform-harnesses-power-big-data-and-ai/",
+          "https://ir.appliedmaterials.com/financial-information/annual-reports"
+        ],
+        "note": "AIx combines process tools and analytics, but production expectations remain E1. Latest Q3 context is included. Customer yield improvement is not Applied\u2019s own expense saving or proven software contribution.",
+        "remaining_limits": [
+          "Update latest period to Q3 FY2026 and cite/open the direct release; FY2025 hurdle can remain if exact annual filing supports $8.29bn."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1 product/platform; production expectation not verified",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -673,9 +1402,28 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/056-c051-kla.md",
       "capsule": "research/batch-06/capsules/c051.json",
-      "status": "ready_for_lead_review",
-      "words": 1721,
-      "sources": 5,
+      "status": "lead_accepted",
+      "words": 1628,
+      "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://ir.kla.com/",
+          "https://www.kla.com/advance/innovation/artificial-intelligence",
+          "https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full"
+        ],
+        "note": "The governing screen uses current full-year GAAP net income and a tax-aligned illustration. Defect classification must control nuisance rates and inspection quality; product capability is not isolated retained cash.",
+        "remaining_limits": [
+          "Clarify which annual metric governs the packet and make capsule/dossier hurdle agree; exact AI product support remains inaccessible."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1; E2 only where management explicitly reports production use",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -685,9 +1433,27 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/057-c052-microsoft.md",
       "capsule": "research/batch-06/capsules/c052.json",
-      "status": "ready_for_lead_review",
-      "words": 1554,
+      "status": "lead_accepted",
+      "words": 1690,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+          "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy"
+        ],
+        "note": "Paid Copilot seats and Azure AI demand establish external adoption. The own-productivity illustration uses an assumed expense pool only. Capex, depreciation and reinvestment prevent a direct usage-to-profit conclusion.",
+        "remaining_limits": [
+          "No controlled end-to-end productivity, churn, contribution-margin or internal cost-removal cohort is disclosed."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 external Azure AI demand in opened FY2026 results; own-productivity evidence remains E1",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -697,9 +1463,27 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/058-c054-alphabet.md",
       "capsule": "research/batch-06/capsules/c054.json",
-      "status": "ready_for_lead_review",
-      "words": 1589,
+      "status": "lead_accepted",
+      "words": 1716,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://abc.xyz/investor/static/pdf/2026Q2_alphabet_earnings_release.pdf",
+          "https://cloud.google.com/vertex-ai/generative-ai/docs/data-governance"
+        ],
+        "note": "Search and Cloud AI are deployed, but growth and aggregate profit do not isolate AI effects. Traffic mix, TAC, inference and infrastructure spending require a net contribution bridge; the quarterly screen is not annual materiality.",
+        "remaining_limits": [
+          "No causal separation of AI Overviews/Mode from traffic, query mix, TAC and infrastructure cost; PDF access failed during audit."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 external Cloud AI demand in opened Q2 results; own-productivity/capture unresolved",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -709,9 +1493,27 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/059-c055-accenture.md",
       "capsule": "research/batch-06/capsules/c055.json",
-      "status": "ready_for_lead_review",
-      "words": 1200,
+      "status": "lead_accepted",
+      "words": 1235,
       "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/lead-coverage-e.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/earnings-reports/2026/accenture-3q-fy26-earnings-release.pdf"
+        ],
+        "note": "The filed Q3 result is corroborated. AI services demand/bookings are commercial evidence, not recurring profit. Billable-hour cannibalization, client sharing and reskilling costs matter; the quarter screen is not an annual comparison.",
+        "remaining_limits": [
+          "bookings are signed demand, not revenue or profit; no net contribution.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E2 commercial metric",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -721,9 +1523,28 @@
       "batch": 6,
       "dossier": "research/batch-06/dossiers/060-c056-tata-consultancy-services.md",
       "capsule": "research/batch-06/capsules/c056.json",
-      "status": "ready_for_lead_review",
-      "words": 1228,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1264,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/lead-coverage-e.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2026-27/q1/Presentations/Q1%202026-27%20Fact%20Sheet.pdf",
+          "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-results-q1-fy-2027"
+        ],
+        "note": "The current Q1 release supports the AI revenue run rate and named deals. Run rate is not audited annual revenue, and adjusted operating income excludes an exceptional item. Retained contribution and the annual-period bridge remain open.",
+        "remaining_limits": [
+          "annualized run-rate is not audited annual revenue and scope taxonomy may change; no net contribution.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E2 commercial metric",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -733,9 +1554,27 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/061-c057-palo-alto-networks.md",
       "capsule": "research/batch-07/capsules/c057.json",
-      "status": "ready_for_lead_review",
-      "words": 1196,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1200,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-a.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000019/ex991q426earningsrelease.htm",
+          "https://www.paloaltonetworks.com/precision-ai"
+        ],
+        "note": "The corrected annual GAAP operating anchor is materially different from adjusted earnings. Cortex/Precision AI capability does not establish agent adoption or error-adjusted containment economics; security quality and customer retention remain open.",
+        "remaining_limits": [
+          "NGS ARR includes a broad portfolio and is not AI-specific revenue."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1 product availability; specific-agent adoption unverified",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -745,9 +1584,28 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/062-c058-crowdstrike.md",
       "capsule": "research/batch-07/capsules/c058.json",
-      "status": "ready_for_lead_review",
-      "words": 1191,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1243,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-a.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-second-quarter-fiscal-year-2027-financial",
+          "https://www.crowdstrike.com/en-us/platform/charlotte-ai/"
+        ],
+        "note": "A named Charlotte AI customer supports scoped E2. Current GAAP loss and non-GAAP profit must both remain visible. Investigation speed without detection quality and economic controls cannot establish retained cash.",
+        "remaining_limits": [
+          "A testimonial is not a controlled investigation-time, detection-quality or retention result.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E2 named customer use; outcome E0/E1",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -757,12 +1615,26 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/063-c061-abb.md",
       "capsule": "research/batch-07/capsules/c061.json",
-      "status": "draft",
-      "words": 664,
+      "status": "lead_accepted",
+      "words": 1097,
       "sources": 4,
-      "issues": [
-        "packet below 700 words; lead must review scope"
-      ]
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-b.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [],
+        "note": "Genix has an identifiable product and partner route; exact source access is partly limited. Customer plant savings do not become ABB profit without attach, renewal or service contribution. Operational EBITA is explicitly adjusted.",
+        "remaining_limits": [
+          "The alternative ABB primary release supports E1/limited E2 early adoption, but its savings statements are estimates and it gives no controlled customer denominator or ABB cash result.",
+          "The USD 315.6m hurdle, USD 118m illustration, and 33.1% required uplift are arithmetically correct conditional on the Reuters-derived FY2025 revenue/margin inputs; exact cited issuer financial pages were inaccessible in this audit."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 product/partner deployment",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
+      "issues": []
     },
     {
       "order": 64,
@@ -771,9 +1643,25 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/064-c063-caterpillar.md",
       "capsule": "research/batch-07/capsules/c063.json",
-      "status": "ready_for_lead_review",
-      "words": 704,
+      "status": "lead_accepted",
+      "words": 1137,
       "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-b.json",
+        "audit_result": "PASS",
+        "checked_sources": [],
+        "note": "Command has substantial operating scale, but cumulative tonnes and miles are not causal productivity. The corrected filed annual operating-profit anchor governs; per-truck monetization, customer sharing and safety require evidence.",
+        "remaining_limits": [
+          "The corrected dossier uses accession 000001823026000008 and reported FY2025 operating profit USD 11.151bn. The 5% hurdle is USD 557.55m and required annual truck value is about USD 650.24k using the stated USD 25m other benefit and denominator.",
+          "Autonomy miles/tonnes and site deployment establish E2 activity, not controlled productivity or retained Caterpillar cash. The exact Cat product page remained inaccessible, but the decisive financial and company deployment sources were corroborated."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 large-scale production",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -783,9 +1671,27 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/065-c064-komatsu.md",
       "capsule": "research/batch-07/capsules/c064.json",
-      "status": "ready_for_lead_review",
+      "status": "lead_accepted",
       "words": 1742,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.komatsu.jp/en/ir/library/results/",
+          "https://www.komatsu.jp/en/technology/smartconstruction/"
+        ],
+        "note": "AHS and Smart Construction provide management-reported operating workflow evidence. Correct fiscal-year profit is used. Customer fuel/labour gains need a vendor monetization route and cannot be counted directly as Komatsu savings.",
+        "remaining_limits": [
+          "Provide a reproducible named deployment source; no controlled tonnes, safety or cash comparison."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 management-reported production",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -795,9 +1701,28 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/066-c065-dhl-group.md",
       "capsule": "research/batch-07/capsules/c065.json",
-      "status": "ready_for_lead_review",
-      "words": 1671,
+      "status": "lead_accepted",
+      "words": 1586,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://reporting-hub.group.dhl.com/2026-fy/en/half-year-report/results-of-operations/",
+          "https://www.dhl.com/global-en/microsites/ec/dhl-trend-research/artificial-intelligence.html",
+          "https://group.dhl.com/en/investors/reports-and-presentations.html"
+        ],
+        "note": "The annual EBIT anchor is reconciled. Routing and facility automation need a named AI deployment and matched service/quality controls; trend reports alone do not establish production outcomes.",
+        "remaining_limits": [
+          "Set one FY2025 EBIT figure from the direct annual report and recompute 5%; trend research describes use cases but should not be treated as DHL production deployment."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1; E2 only where management explicitly reports production use",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -807,9 +1732,27 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/067-c066-ups.md",
       "capsule": "research/batch-07/capsules/c066.json",
-      "status": "ready_for_lead_review",
-      "words": 1532,
+      "status": "lead_accepted",
+      "words": 1649,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://investors.ups.com/news-events/press-releases/detail/2164/ups-releases-2q-2026-earnings",
+          "https://about.ups.com/us/en/our-stories/innovation-driven/ups-ai-and-automation.html"
+        ],
+        "note": "Network transformation and ordinary route optimization form the baseline. Workforce or facility savings are not automatically AI savings. The annual adjusted target is explicitly forward-looking; service reliability and retained gains remain unproved.",
+        "remaining_limits": [
+          "No opened AI source or matched route/sort cohort; network closures, workforce actions and customer mix dominate realized savings."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1 incremental AI; route optimization is ordinary baseline",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -819,9 +1762,27 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/068-c067-canadian-national-railway.md",
       "capsule": "research/batch-07/capsules/c067.json",
-      "status": "ready_for_lead_review",
-      "words": 1551,
+      "status": "lead_accepted",
+      "words": 1671,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.cn.ca/-/media/files/investors/investor-financial-quarterly/investor-financial-quarterly-2026/q2/q2-2026-quarterly-review-en.pdf",
+          "https://www.cn.ca/en/safety/technology-and-innovation/"
+        ],
+        "note": "Digital planning and inspection do not isolate incremental AI. Weather, network capex and traffic mix require controls. The quarterly operating screen is not comparable with annual assumptions.",
+        "remaining_limits": [
+          "No opened source isolates AI from dispatch rules, capital upgrades, weather, traffic mix or labor actions."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1 incremental AI; inspection/optimization is ordinary baseline",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -831,9 +1792,26 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/069-c068-safran.md",
       "capsule": "research/batch-07/capsules/c068.json",
-      "status": "ready_for_lead_review",
-      "words": 1218,
+      "status": "lead_accepted",
+      "words": 1242,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/lead-coverage-e.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.safran-group.com/pressroom/safran-reports-its-first-half-2026-results-2026-07-28"
+        ],
+        "note": "The financial result is supported, but no named Safran AI deployment was verified. Predictive-maintenance mechanisms remain hypotheses; aftermarket pricing, traffic and CFM/operator rights are central confounders.",
+        "remaining_limits": [
+          "Financial release does not establish a named production AI workflow or outcome."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1 capability/hypothesis",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -843,9 +1821,27 @@
       "batch": 7,
       "dossier": "research/batch-07/dossiers/070-c069-ge-aerospace.md",
       "capsule": "research/batch-07/capsules/c069.json",
-      "status": "ready_for_lead_review",
-      "words": 1234,
-      "sources": 5,
+      "status": "lead_accepted",
+      "words": 1299,
+      "sources": 6,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/lead-coverage-e.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.geaerospace.com/news/press-releases/ge-aerospace-announces-second-quarter-2026-results",
+          "https://www.geaerospace.com/collaborative-insight"
+        ],
+        "note": "Engine Health Monitoring supports named operating analytics at fleet scale. This is baseline deployment evidence, not isolated incremental AI efficacy. Separate consolidated, adjusted and CES measures and customer savings from GE contribution.",
+        "remaining_limits": [
+          "Activity and outcome figures are company-reported and lack a matched fleet/cash comparator."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 scoped company-reported deployment; no E3 controlled effectiveness",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -855,9 +1851,28 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/071-c070-waste-management.md",
       "capsule": "research/batch-08/capsules/c070.json",
-      "status": "ready_for_lead_review",
-      "words": 1197,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1246,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-a.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.sec.gov/Archives/edgar/data/823768/000110465926087575/tm2621414d1_ex99-1.htm",
+          "https://www.wm.com/us/en/recycle-right/recycling-technology"
+        ],
+        "note": "Recycling automation is deployed, but its AI-specific contribution is not isolated. Routing, maintenance and sorting claims require separate proof; the quarterly profit screen is not comparable with annual cost assumptions.",
+        "remaining_limits": [
+          "No miles-per-stop, downtime, yield or cash outcome isolated to AI.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E2 automation projects; AI-specific role unverified",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -867,9 +1882,27 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/072-c071-cintas.md",
       "capsule": "research/batch-08/capsules/c071.json",
-      "status": "ready_for_lead_review",
-      "words": 1194,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1193,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-a.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.sec.gov/Archives/edgar/data/723254/000072325426000025/ex992026-5x31.htm",
+          "https://www.cintas.com/company/technology/"
+        ],
+        "note": "Cintas has route density and operating records, but no named AI deployment was established. The corrected annual operating-profit anchor is usable for scale; route/plant savings remain hypotheses subject to service and retention controls.",
+        "remaining_limits": [
+          "Technology investment generally does not establish AI deployment or causal route productivity."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E0/E1 mechanism hypothesis; no named AI deployment found",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -879,9 +1912,25 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/073-c073-basf.md",
       "capsule": "research/batch-08/capsules/c073.json",
-      "status": "ready_for_lead_review",
-      "words": 1105,
+      "status": "lead_accepted",
+      "words": 1128,
       "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-b.json",
+        "audit_result": "PASS",
+        "checked_sources": [],
+        "note": "Predictive maintenance in the retrieved BASF material establishes a digital baseline, not an identified AI technique. The AI thesis remains a hypothesis; site reliability, production economics and disposal effects must be separated.",
+        "remaining_limits": [
+          "The corrected dossier explicitly says the cited BASF manufacturing page does not identify AI or machine learning and uses it only as a non-AI digital baseline. It therefore does not overstate E2 and concludes that qualifying company-specific AI deployment evidence is absent in the opened sources.",
+          "H1 EBIT EUR 2.198bn, annualized 5% hurdle EUR 219.8m, illustrative EUR 56.8m total, and 8.2% required efficiency recompute correctly."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E0/E1: no qualifying company-specific AI deployment evidence",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -891,9 +1940,25 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/074-c074-dsm-firmenich.md",
       "capsule": "research/batch-08/capsules/c074.json",
-      "status": "ready_for_lead_review",
-      "words": 1096,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1155,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-b.json",
+        "audit_result": "PASS",
+        "checked_sources": [],
+        "note": "Named formulation and sensory tools support company-reported use. Faster candidate generation needs prospective win rate, quality and retained contribution. Continuing operations and the latest H1 update are separated from disposal effects.",
+        "remaining_limits": [
+          "The freshness correction is complete: H1 2026 is identified as latest, with continuing sales EUR 4.664bn, adjusted EBIT EUR 435m, net profit EUR 225m, adjusted gross operating FCF EUR 320m and net debt EUR 4.424bn. FY2025 remains the annual materiality anchor.",
+          "The annual report supports company-reported E2 deployment but no prospective productivity, win-rate, revenue attribution, or retained cash. 5% of EUR 711m is EUR 35.55m; EUR 10.63m illustrative benefit and 33.0% required cycle reduction recompute correctly."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 company-reported deployment",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -903,9 +1968,28 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/075-c075-rio-tinto.md",
       "capsule": "research/batch-08/capsules/c075.json",
-      "status": "ready_for_lead_review",
-      "words": 1688,
+      "status": "lead_accepted",
+      "words": 1618,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.riotinto.com/en/news/releases/2026/rio-tinto-step-change-in-performance-delivering-higher-shareholder-returns",
+          "https://www.riotinto.com/en/news/stories/how-technology-is-changing-mining",
+          "https://www.riotinto.com/en/invest/reports/annual-report"
+        ],
+        "note": "Reported banked productivity is not attributed to AI. Commodity, mine and capital effects dominate aggregate results; the after-tax illustration is aligned but autonomous/processing contribution remains unisolated.",
+        "remaining_limits": [
+          "Add direct FY2025 statement/page for the $10.0bn anchor; AI mechanisms remain E1/conditional E2."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1; E2 only where management explicitly reports production use",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -915,9 +1999,27 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/076-c076-bhp.md",
       "capsule": "research/batch-08/capsules/c076.json",
-      "status": "ready_for_lead_review",
+      "status": "lead_accepted",
       "words": 1720,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.bhp.com/investors/financial-results-operational-reviews-and-reserves",
+          "https://www.bhp.com/about/operating-ethically/innovation-and-technology"
+        ],
+        "note": "Autonomous haulage and decision support are management-reported operating uses. Current annual profit is after tax. No isolated AI increment to safety-adjusted output, capital efficiency or owner cash was established.",
+        "remaining_limits": [
+          "Both decisive URLs were inaccessible in this audit; direct report links would improve reproducibility. No isolated AI contribution."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 management-reported production",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -927,9 +2029,27 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/077-c077-alibaba.md",
       "capsule": "research/batch-08/capsules/c077.json",
-      "status": "ready_for_lead_review",
-      "words": 1604,
+      "status": "lead_accepted",
+      "words": 1718,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.alibabagroup.com/document-1938408710984278016",
+          "https://www.alibabacloud.com/help/en/model-studio/data-security-and-privacy"
+        ],
+        "note": "The opened SEC release establishes external Cloud/AI demand and the current profit anchor. Keep segment growth separate from AI-only product growth and commerce productivity. Heavy investment and new equity funding affect owner capture.",
+        "remaining_limits": [
+          "No opened primary result, AI-demand metric, commerce deployment, quality cohort or retained-cash evidence."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 issuer-reported external cloud/AI-product demand; internal productivity and E4 unproven",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -939,9 +2059,27 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/078-c078-mercadolibre.md",
       "capsule": "research/batch-08/capsules/c078.json",
-      "status": "ready_for_lead_review",
-      "words": 1622,
+      "status": "lead_accepted",
+      "words": 1758,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://investor.mercadolibre.com/open-file?file=aHR0cHM6Ly9odHRwMi5tbHN0YXRpYy5jb20vc3RvcmFnZS9tbC1jbXMtYmFja2VuZC9jbXMtZG9jdW1lbnRzLXByb2QvNWRiYmE5MTktNzIxYy00OTE2LWJiOTEtYzc2YTg3MTNmN2YwL2JkNjBhMzQyLWM1MjMtNDFiOC1hZjdhLWRhMjgxOGZlZjVmZi9NRUxJX1EyXzIwMjZfUHJlc3NfUmVsZWFzZS5wZGY",
+          "https://github.com/customer-stories/mercado-libre"
+        ],
+        "note": "The issuer reports production AI search improvements and related third-party model cost, but gives no controlled uplift magnitude. Developer testimonials are scoped E2. Neither supports group E4 cash attribution.",
+        "remaining_limits": [
+          "No matched code-quality, incident, retention or net-cash cohort; search uplift lacks magnitude and counterfactual detail."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 named issuer-reported production search deployment; no E3/E4",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -951,9 +2089,28 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/079-c079-inditex.md",
       "capsule": "research/batch-08/capsules/c079.json",
-      "status": "ready_for_lead_review",
-      "words": 1201,
+      "status": "lead_accepted",
+      "words": 1222,
       "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/lead-coverage-e.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.inditex.com/itxcomweb/lt/en/press/news-detail/a2c9b82b-1e27-4582-a7c9-746bc88b744e/interim-half-year-2026-results",
+          "https://static.inditex.com/annual_report_2025/en/"
+        ],
+        "note": "The researcher extracted current H1 results; exact financial pages were intermittently inaccessible to the lead. No named AI deployment was established. Forecasting/design mechanisms and annual retained economics remain hypotheses.",
+        "remaining_limits": [
+          "Opened sources did not establish a named, versioned Inditex production tool or controlled cash cohort.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E1 mechanism hypothesis",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -963,9 +2120,28 @@
       "batch": 8,
       "dossier": "research/batch-08/dossiers/080-c080-uber.md",
       "capsule": "research/batch-08/capsules/c080.json",
-      "status": "ready_for_lead_review",
-      "words": 1203,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1307,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/lead-coverage-e.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+          "https://www.uber.com/blog/from-predictive-to-generative-ai/"
+        ],
+        "note": "Michelangelo provides direct evidence of extensive baseline ML deployment. New generative functionality needs incremental tests. Net income includes investment gains; the quarterly operating screen is not comparable with the annual illustration.",
+        "remaining_limits": [
+          "Company-reported baseline E2 scale, without a versioned incremental quality or net-cash cohort.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E2 named platform deployment; no E3 incremental economics",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -975,9 +2151,28 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/081-c081-booking-holdings.md",
       "capsule": "research/batch-09/capsules/c081.json",
-      "status": "ready_for_lead_review",
-      "words": 1199,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1246,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-a.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.sec.gov/Archives/edgar/data/1075531/000107553126000036/q2-26bkngearningsrelease.htm",
+          "https://news.booking.com/bookingcom-enhances-ai-trip-planner/"
+        ],
+        "note": "Trip Planner availability supports capability, not verified adoption or incremental room nights. Conversion, cancellations and acquisition cost must reconcile to contribution. The H1 screen leaves annual materiality unresolved.",
+        "remaining_limits": [
+          "No controlled incremental room nights, conversion, support-cost or contribution result.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E1 product availability unless adoption is separately shown",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -987,9 +2182,28 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/082-c082-amadeus-it-group.md",
       "capsule": "research/batch-09/capsules/c082.json",
-      "status": "ready_for_lead_review",
-      "words": 1195,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1246,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-a.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://amadeus.com/en/insights/press-release/amadeus-h1-2026-amadeus-delivers-resilient-performance",
+          "https://amadeus.com/en/insights/artificial-intelligence"
+        ],
+        "note": "Airline workflow integration is a plausible advantage; a named production deployment is unverified. Disruption handling needs reliability and passenger outcomes alongside transaction economics. The H1 screen is period-specific.",
+        "remaining_limits": [
+          "The audit could not reproduce the exact article URL on open; no controlled transaction, disruption or renewal lift.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E0/E1 mechanism hypothesis; named customer deployment unverified",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -999,12 +2213,26 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/083-c083-toyota-motor.md",
       "capsule": "research/batch-09/capsules/c083.json",
-      "status": "draft",
+      "status": "lead_accepted",
       "words": 1026,
-      "sources": 0,
-      "issues": [
-        "capsule not yet present"
-      ]
+      "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-b.json",
+        "audit_result": "PASS",
+        "checked_sources": [],
+        "note": "The named Toyota factory platform supports scoped deployment. A negative cost illustration and infeasible required inspection improvement expose the narrow route\u2019s limits; broader factory value is not inferred.",
+        "remaining_limits": [
+          "The Google source supports E2 platform deployment but no eligible-station denominator, matched quality/productivity outcome, or audited savings.",
+          "Toyota source reports JPY 1,063.473bn Q1 operating income. Annualized 5% hurdle JPY 212.695bn (the dossier's JPY 212.68bn uses the rounded JPY 1.0634tn input). The negative JPY 1.52bn illustration and approximately 283% required reduction are arithmetically sound."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 named-supplier deployment",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
+      "issues": []
     },
     {
       "order": 84,
@@ -1013,9 +2241,25 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/084-c084-bmw.md",
       "capsule": "research/batch-09/capsules/c084.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "lead_accepted",
+      "words": 1037,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-b.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [],
+        "note": "Distinguish current assistants/pilots from the future Woodruff series-production start. AI quality and virtual-validation capability do not establish the claimed savings of the whole factory programme. Exact pilot-source access remains limited.",
+        "remaining_limits": [
+          "The opened H1 source supports the company assertion on AI-assisted validation but no controlled result. The exact pilot URL returned only an error in this audit, so its detailed claims were not independently corroborated here.",
+          "Annualized H1 5% EBIT hurdle EUR 363.5m, illustrative EUR 49.91m benefit, and 83.3% required inspection-cost reduction recompute correctly."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 company-reported deployment",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -1025,9 +2269,27 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/085-c085-nike.md",
       "capsule": "research/batch-09/capsules/c085.json",
-      "status": "ready_for_lead_review",
-      "words": 1714,
+      "status": "lead_accepted",
+      "words": 1599,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://about.nike.com/en/newsroom/releases/nike-inc-reports-fiscal-2026-fourth-quarter-and-full-year-results",
+          "https://about.nike.com/en/newsroom/releases/nike-a-i-r-air-max-2024"
+        ],
+        "note": "A.I.R. supports creative capability at E1; it does not establish demand-forecasting deployment. Correct full-year operating income governs. Sell-through, markdowns, brand control and ordinary merchandising need separate attribution.",
+        "remaining_limits": [
+          "Use FY2026 $3.797bn consistently, yielding $189.85m; remove/independently source demand-forecast production claim and keep A.I.R. at E1."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1 creative capability for A.I.R.; E0 for demand-forecast deployment",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -1037,9 +2299,28 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/086-c086-lvmh.md",
       "capsule": "research/batch-09/capsules/c086.json",
-      "status": "ready_for_lead_review",
-      "words": 1696,
+      "status": "lead_accepted",
+      "words": 1622,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.lvmh.com/en/publications/accelerating-growth-in-the-second-quarter-solid-first-half-results",
+          "https://www.lvmh.com/en/news-lvmh/lvmh-and-google-cloud-strengthen-their-strategic-partnership",
+          "https://www.lvmh.com/en/investors/publications"
+        ],
+        "note": "The recurring operating anchor is consistent, while partnership capability remains weaker than a named maison production cohort. Clienteling and content gains must preserve brand control and full-price contribution.",
+        "remaining_limits": [
+          "Decisive URLs were inaccessible; direct FY2025 report and reproducible product/deployment source needed."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1; E2 only where management explicitly reports production use",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -1049,9 +2330,29 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/087-c087-unilever.md",
       "capsule": "research/batch-09/capsules/c087.json",
-      "status": "ready_for_lead_review",
-      "words": 1555,
+      "status": "lead_accepted",
+      "words": 1688,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.unilever.com/investors/results-presentations-webcasts/",
+          "https://www.unilever.com/news/news-search/2026/inside-unilevers-ai-powered-supply-chain/",
+          "https://www.unilever.com/files/unilever-q2-2026-results-full-announcement.pdf",
+          "https://www.unilever.com/news/news-search/2026/building-resilience-driving-growth-inside-unilevers-aipowered-supply-chain/"
+        ],
+        "note": "A named Raeford digital-twin use supports scoped E2; planned site rollout remains E1. Restructuring, disposals and product mix affect the financial anchor. No controlled supply-chain cash result is established.",
+        "remaining_limits": [
+          "No waste, service, forecast-error or retained-cash cohort; restructuring and input costs are major confounders."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 issuer-reported named production use at Raeford; wider rollout E1; no E3/E4",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -1061,9 +2362,29 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/088-c088-nestle.md",
       "capsule": "research/batch-09/capsules/c088.json",
-      "status": "ready_for_lead_review",
-      "words": 1545,
-      "sources": 5,
+      "status": "lead_accepted",
+      "words": 1741,
+      "sources": 6,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.nestle.com/media/pressreleases/allpressreleases/half-year-results-2026",
+          "https://www.nestle.com/media/news/artificial-intelligence-digital-transformation",
+          "https://www.globenewswire.com/news-release/2026/07/23/3331864/0/en/half-year-results-2026-execution-driving-rig.html"
+        ],
+        "note": "Lead corroborated H1 sales and underlying trading operating profit from the issuer-distributed release. AI deployment remains unverified in the opened evidence. The interim profit screen cannot support an annual savings claim.",
+        "remaining_limits": [
+          "No representative factory, R&D or consumer-workflow cohort; no quality-adjusted cash bridge."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1 capability; no opened AI deployment evidence",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred.",
+        "lead_source_recheck": "Lead independently corroborated the latest financial metrics after the earlier audit access failure. AI and comparability limitations remain."
+      },
       "issues": []
     },
     {
@@ -1073,9 +2394,27 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/089-c089-procter-gamble.md",
       "capsule": "research/batch-09/capsules/c089.json",
-      "status": "ready_for_lead_review",
-      "words": 1200,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1243,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/lead-coverage-e.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://us.pg.com/newsroom/news-releases/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results/",
+          "https://www.microsoft.com/en/customers/story/25077-procter-and-gamble-iot-operations"
+        ],
+        "note": "The supplier case supports deployed edge models and faster model deployment, not a 90% improvement in plant productivity. Current operating scale is corroborated; quality, downtime and retained factory cash require matched evidence.",
+        "remaining_limits": [
+          "Supplier case study; deployment time is not OEE, downtime, quality or retained cash."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 supplier-reported deployment/process result; no E3 operational or cash outcome",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -1085,9 +2424,27 @@
       "batch": 9,
       "dossier": "research/batch-09/dossiers/090-c090-walmart.md",
       "capsule": "research/batch-09/capsules/c090.json",
-      "status": "ready_for_lead_review",
-      "words": 1206,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1240,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/lead-coverage-e.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm",
+          "https://corporate.walmart.com/news/2025/03/18/walmart-develops-genai-powered-assistant-for-walmart-merchants"
+        ],
+        "note": "Wally is a named merchant assistant with company-reported use. Autonomous action is a future direction. Tariff refunds and other business drivers confound profit; no controlled assortment or owner-cash result is established.",
+        "remaining_limits": [
+          "No controlled merchant-output, gross-profit or labor-cash cohort."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 scoped company-reported deployment; no E3 retained economics",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -1097,9 +2454,28 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/091-c091-costco.md",
       "capsule": "research/batch-10/capsules/c091.json",
-      "status": "ready_for_lead_review",
-      "words": 1194,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1247,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-a.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.sec.gov/Archives/edgar/data/909832/000090983226000046/costex9918-k52826.htm",
+          "https://www.costco.com/"
+        ],
+        "note": "Costco\u2019s operating business is documented, but an AI thesis was not established from the opened sources. The incomplete-year screen is not annualized; ordinary merchandising and membership economics remain the baseline.",
+        "remaining_limits": [
+          "Recommendations on a retail page do not identify model, deployment scope or economics.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E0 mechanism hypothesis; no company AI evidence found",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -1109,9 +2485,28 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/092-c092-deutsche-telekom.md",
       "capsule": "research/batch-10/capsules/c092.json",
-      "status": "ready_for_lead_review",
-      "words": 1196,
-      "sources": 4,
+      "status": "lead_accepted",
+      "words": 1257,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-a.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/08/deutsche-telekom-waechst-mit-hohem-tempo",
+          "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/3/deutsche-telekom-reimagines-phone-calls-with-ai-embedded-in-the"
+        ],
+        "note": "An announced AI rollout is E1. Network, field-service and contact-centre improvements need separate deployment and service-quality proof. The quarterly net-profit screen is after tax and not comparable with annual pre-tax savings.",
+        "remaining_limits": [
+          "No faults, truck-rolls, handle-time, churn or energy KPI causally attributed to AI.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E1 announced rollout",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -1121,9 +2516,25 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/093-c093-singtel.md",
       "capsule": "research/batch-10/capsules/c093.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "lead_accepted",
+      "words": 1058,
+      "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-b.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [],
+        "note": "RE:AI is commercial offering/capacity evidence, not demonstrated occupied AI capacity or investment returns. Operating and development MW stay separate. Latest-quarter access limits and the infeasible utilization illustration remain explicit.",
+        "remaining_limits": [
+          "The dossier and capsule now identify Q1 FY2027 ended June 2026 as latest and explicitly mark the exact SGX announcement inaccessible. The figures (revenue S$3.558bn, underlying profit S$831m, net profit S$818m) are corroborated by contemporaneous reporting, but the exact issuer filing did not open and therefore remains a verification limitation.",
+          "The AI page supports E2 commercial offering/capacity, not live AI MW, utilization, margin, or retained cash. FY2026 5% hurdle SGD 75.2m, illustrative SGD 34.94m benefit, and 116.1% utilization requirement recompute correctly."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 commercial product/capacity",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -1133,9 +2544,25 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/094-c094-meta-platforms.md",
       "capsule": "research/batch-10/capsules/c094.json",
-      "status": "scheduled",
-      "words": 0,
-      "sources": 0,
+      "status": "lead_accepted",
+      "words": 1164,
+      "sources": 4,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-b.json",
+        "audit_result": "PASS",
+        "checked_sources": [],
+        "note": "The 22% advertiser ROAS uplift is an issuer claim. The inaccessible protocol does not establish randomization of the AI-versus-baseline contrast, so E3 is withheld. Advertiser revenue cannot be treated as Meta revenue; capex and retained contribution remain decisive.",
+        "remaining_limits": [
+          "The corrected dossier and capsule classify the 22% figure as an E2 company-reported advertiser outcome and explicitly leave E3 unverified because the linked protocol/results could not be inspected. This matches the accessible evidence: the newsroom reports USD 4.52 versus USD 3.71 and RCT grounding, but does not expose whether that AI-tool comparison itself was randomized.",
+          "Q2 financials are verified: revenue USD 60.801bn, operating income USD 18.775bn, capex plus lease principal USD 31.078bn and FCF USD 784m. Annualized 5% hurdle USD 3.755bn, illustrative net benefit USD 0.710bn, and 5.56% required uplift recompute correctly."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 company-reported advertiser outcome; E3 unverified",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -1145,9 +2572,28 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/095-c095-netflix.md",
       "capsule": "research/batch-10/capsules/c095.json",
-      "status": "ready_for_lead_review",
+      "status": "lead_accepted",
       "words": 1693,
       "sources": 6,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://s22.q4cdn.com/959853165/files/doc_financials/2026/q2/FINAL-Q2-26-Shareholder-Letter.pdf",
+          "https://research.netflix.com/research-area/machine-learning",
+          "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf"
+        ],
+        "note": "Recommendation ML is an established baseline, not a new incremental benefit. New generative tools require separate retention, advertising or production-cost tests; the annual operating scale alone establishes no AI capture.",
+        "remaining_limits": [
+          "No isolated incremental retention/contribution result."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 baseline; E1/E2 incremental tools",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -1157,9 +2603,28 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/096-c096-shell.md",
       "capsule": "research/batch-10/capsules/c096.json",
-      "status": "ready_for_lead_review",
+      "status": "lead_accepted",
       "words": 1677,
       "sources": 6,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-c.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://shell.gcs-web.com/financial-information/quarterly-results",
+          "https://www.shell.com/what-we-do/digitalisation/artificial-intelligence.html",
+          "https://www.londonstockexchange.com/news-article/SHEL/shell-plc-4th-quarter-2025-and-full-year-unaudited-results/17447293"
+        ],
+        "note": "AI use cases and predictive maintenance are plausible, with source-access limits. Adjusted earnings remain an after-tax non-GAAP scale. Commodity, trading and project effects prevent aggregate AI attribution.",
+        "remaining_limits": [
+          "Use direct Q2/FY2025 reports for figures and cite the exact C3 deployment source if retaining E2; commodity and project confounding are correctly stated."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1; E2 only where management explicitly reports production use",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -1169,9 +2634,27 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/097-c097-slb.md",
       "capsule": "research/batch-10/capsules/c097.json",
-      "status": "ready_for_lead_review",
-      "words": 1575,
+      "status": "lead_accepted",
+      "words": 1690,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://investorcenter.slb.com/news-releases/news-release-details/2026/slb-announces-second-quarter-2026-results/",
+          "https://www.slb.com/products-and-services/delivering-digital-at-scale/lumi-data-and-ai-platform"
+        ],
+        "note": "The corrected issuer release supports current pretax profit and cash flow. Lumi/product deployment remains a limited-source hypothesis. Oilfield demand and separate data-centre demand do not establish internal AI productivity.",
+        "remaining_limits": [
+          "No opened field deployment, drilling quality comparison, customer data-rights terms or SLB-retained economics."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1/E2 issuer-reported active workflows and commercial demand; no controlled outcome or E4",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -1181,9 +2664,27 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/098-c098-iberdrola.md",
       "capsule": "research/batch-10/capsules/c098.json",
-      "status": "ready_for_lead_review",
-      "words": 1611,
+      "status": "lead_accepted",
+      "words": 1705,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/coverage-d.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://www.iberdrola.com/shareholders-investors/operational-financial-information",
+          "https://www.iberdrola.com/innovation/artificial-intelligence"
+        ],
+        "note": "The issuer corroborates H1 reported net profit. Regulated cost sharing, investments and transaction effects govern owner capture. Named outage/safety-adjusted AI outcomes remain unverified; the interim net-profit screen is after tax.",
+        "remaining_limits": [
+          "No outage, truck-roll, safety-adjusted dispatch or retained regulated-cash cohort; regulated sharing may pass savings to customers."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E1 public AI program/capability; no opened material deployment cohort",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -1193,9 +2694,28 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/099-c099-prologis.md",
       "capsule": "research/batch-10/capsules/c099.json",
-      "status": "ready_for_lead_review",
-      "words": 1226,
+      "status": "lead_accepted",
+      "words": 1259,
       "sources": 5,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/lead-coverage-e.json",
+        "audit_result": "LIMITED",
+        "checked_sources": [
+          "https://ir.prologis.com/financials/sec-filings/content/0001193125-26-305416/pld-ex99_2.htm",
+          "https://www.prologis.com/annual-report-2025"
+        ],
+        "note": "The filed release corroborates core FFO per share. A named owner AI deployment was not established. Aggregate cost assumptions cannot be compared with a per-share FFO hurdle without a consistent share count and period.",
+        "remaining_limits": [
+          "No named Prologis deployment or matched retained-cash cohort was found in opened sources.",
+          "The materiality illustration is not comparable across the stated period, tax or per-share basis; it cannot establish hurdle clearance."
+        ],
+        "arithmetic_status": "NOT_COMPARABLE",
+        "source_evidence_stage": "E1 mechanism hypothesis",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     },
     {
@@ -1205,9 +2725,27 @@
       "batch": 10,
       "dossier": "research/batch-10/dossiers/100-c100-cbre-group.md",
       "capsule": "research/batch-10/capsules/c100.json",
-      "status": "ready_for_lead_review",
-      "words": 1215,
-      "sources": 5,
+      "status": "lead_accepted",
+      "words": 1266,
+      "sources": 6,
+      "lead_review": {
+        "status": "accepted",
+        "reviewed_at": "2026-09-12",
+        "review_scope": "Lead reviewed research capsule, independent source audit, corrected-file findings and calculation status. This accepts public-evidence coverage with the listed limits, not an investment thesis or valuation.",
+        "audit_file": "research/source-audits/lead-coverage-e.json",
+        "audit_result": "PASS",
+        "checked_sources": [
+          "https://www.cbre.com/press-releases/cbre-q2-2026-earnings",
+          "https://www.cbre.com/insights/articles/everyone-can-have-a-digital-assistant-with-ellis-ai"
+        ],
+        "note": "Ellis supports named research, contract and sales-assistant use. Management time-saving claims lack controls and cash reconciliation. Pass-through client expenses, fee terms and real-estate cyclicality govern retained contribution.",
+        "remaining_limits": [
+          "Company claim has no eligible-workload denominator, matched quality control, adoption rate or retained-cash cohort; E2, not E3."
+        ],
+        "arithmetic_status": "PASS",
+        "source_evidence_stage": "E2 scoped company-reported deployment; no E3 controlled economics",
+        "investment_conclusion": "Comparative ranking, G3 valuation, bear/base/bull cases and portfolio decision deferred."
+      },
       "issues": []
     }
   ]

@@ -7,11 +7,11 @@
   "latest_financial_period": "Q2 2026 (ended 30 June 2026)",
   "sources": [
     {
-      "url": "https://investor.hcahealthcare.com/news-and-events/news-releases/2026/",
-      "title": "Latest financial results",
+      "url": "https://investor.hcahealthcare.com/news-and-events/news-releases/2026/HCA-Healthcare-Reports-Second-Quarter-2026-Results/default.aspx",
+      "title": "HCA Healthcare reports second-quarter 2026 results",
       "date": "24 July 2026",
       "opened": false,
-      "supports": "source target; retrieval did not yield auditable supporting extract"
+      "supports": "direct issuer release target; search index supports title/date and figures, but page was not successfully opened"
     },
     {
       "url": "https://investor.hcahealthcare.com/financials/annual-reports-and-proxy-materials/default.aspx",
@@ -40,6 +40,13 @@
       "date": "undated",
       "opened": false,
       "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://investor.hcahealthcare.com/news/news-details/2026/HCA-Healthcare-Reports-Second-Quarter-2026-Results/default.aspx",
+      "title": "Latest issuer results independently verified by lead",
+      "date": "2026-07-24",
+      "opened": true,
+      "supports": "Lead independently opened the final Q2 2026 issuer release on 12 September 2026. Revenue USD20.230bn, attributable net income USD1.699bn, adjusted EBITDA USD4.027bn and operating cash flow USD2.335bn are corroborated. Prior financial-access failures in the audit are historical; the AI-programme and controlled-outcome limitations remain. The quarter-only after-tax screen is not comparable with an annual pre-tax illustration."
     }
   ],
   "financial_anchor": {
@@ -47,7 +54,7 @@
     "value": "$20.230bn revenue; $1.699bn net income",
     "unit": "USD",
     "period": "Q2 2026 (ended 30 June 2026)",
-    "source_url": "https://investor.hcahealthcare.com/news-and-events/news-releases/2026/",
+    "source_url": "https://investor.hcahealthcare.com/news/news-details/2026/HCA-Healthcare-Reports-Second-Quarter-2026-Results/default.aspx",
     "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
   },
   "ai_claim": {
@@ -63,10 +70,10 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "Framework convention: $339.8m, exactly 5% of the explicit $6.796bn annualized Q2 net-income scale proxy (4 × $1.699bn). This is an after-tax scale proxy, not normalized earnings. Illustrative assumptions produce $46m pre-tax and are not directly comparable without tax conversion.",
+  "materiality_summary": "$84.95m = 5% of Q2 2026 attributable net income of $1.699bn. This is a quarter-only, after-tax screen and is NOT_COMPARABLE with the annual pre-tax benefit illustration; no annualization is assumed.",
   "arithmetic": {
     "inputs": "pool $28bn eligible salaries, benefits and purchased-services pool; efficiency 5%; realization 35%; retained share 40%; recurring cost $150m",
-    "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+    "formula": "eligible cost \u00d7 efficiency \u00d7 realization \u00d7 retained share \u2212 recurring AI expense",
     "result": "$46m"
   },
   "confidence": {

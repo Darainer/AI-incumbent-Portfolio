@@ -63,9 +63,9 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "Framework convention: $7.76bn, 5% of FY2026 operating income. Illustrative assumptions produce negative $1.4bn, below the hurdle.",
+  "materiality_summary": "$7.76bn = 5% of FY2026 GAAP operating income of $155.2bn. The internal bridge uses an explicitly assumed $80bn annual own operating-expense pool for Microsoft 365/Azure support and development; it excludes revenue.",
   "arithmetic": {
-    "inputs": "pool $80bn Microsoft 365/Azure support and development cost/revenue pool (assumption); efficiency 10%; realization 50%; retained share 40%; recurring cost $3bn",
+    "inputs": "assumed $80bn annual own operating-expense pool for Microsoft 365/Azure support and development; efficiency 10%; realization 50%; retained share 40%; recurring cost $3bn",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
     "result": "negative $1.4bn"
   },

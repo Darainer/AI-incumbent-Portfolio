@@ -1,0 +1,328 @@
+{
+  "C020": {
+    "status": "PASS",
+    "sources": [
+      {
+        "url": "https://www.aia.com/en/media-centre/press-releases/2026/aia-group-press-release-20260820",
+        "open_status": "opened",
+        "supports": "H1 2026 OPAT, VONB, free-surplus and capital-return metrics"
+      },
+      {
+        "url": "https://www.aia.com/en/media-centre/press-releases/2026/aia-group-press-release-20260319",
+        "open_status": "opened",
+        "supports": "FY2025 USD 7.136bn OPAT anchor"
+      },
+      {
+        "url": "https://insuranceasia.com/co-written-partner/event-news/how-aia-used-gen-ai-solve-age-old-pain-point-in-medical-insurance",
+        "open_status": "opened",
+        "supports": "company-authored production claims workflow and before/after operating metrics"
+      }
+    ],
+    "limits": [
+      "The corrected dossier now records the disclosed baselines: straight-through processing 22% in June 2020 to 73% in December 2024, auto-adjudication 41% to 75%, 97% OCR accuracy, review time halved, and rollout across four markets. It correctly treats them as company-authored before/after metrics without a contemporaneous control, quality/cash reconciliation, or isolated AI effect.",
+      "5% of FY2025 OPAT is USD 356.8m, reasonably rounded to USD 357m. The after-tax cost bridge and separately labeled VONB present-value bridge are unit-consistent."
+    ]
+  },
+  "C021": {
+    "status": "PASS",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526337177/blk-20260630.htm",
+        "open_status": "opened by direct download (10,477,999 bytes); web parser size limit",
+        "supports": "H1/Q2 2026 filing, including H1 operating income USD 5.275bn"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526304013/blk-ex99_1.htm",
+        "open_status": "opened by direct download (5,392,319 bytes); web parser size limit",
+        "supports": "Q2 2026 earnings release and H1 operating income"
+      },
+      {
+        "url": "https://www.blackrock.com/aladdin/discover/press-release/aladdin-wealth-launches-ai-enabled-commentary-tool-at-morgan-stanley",
+        "open_status": "opened",
+        "supports": "identified Morgan Stanley implementation"
+      }
+    ],
+    "limits": [
+      "The SEC files were actually downloaded and parsed outside the web renderer; both support H1 operating income of USD 5.275bn. The AI source establishes an implementation/client, not matched productivity, suitability, renewal, or contribution.",
+      "Annualized H1 GAAP operating-income hurdle is USD 5.275bn x 2 x 5% = USD 527.5m/year. The illustrative USD 142m bridge and 68.5% required technology uplift recompute correctly."
+    ]
+  },
+  "C033": {
+    "status": "PASS",
+    "sources": [
+      {
+        "url": "https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-Reports-Second-Quarter-2026/default.aspx",
+        "open_status": "opened",
+        "supports": "Q2/H1 2026 financials and segment metrics"
+      },
+      {
+        "url": "https://mortgagetech.ice.com/products/encompass",
+        "open_status": "opened",
+        "supports": "AI-native mortgage product positioning"
+      }
+    ],
+    "limits": [
+      "Encompass wording supports E1 product capability; integrated features may support limited E2, but no lender cohort, defect/fair-lending outcome, or retained cash is disclosed.",
+      "The Q2 release reports USD 1.4bn operating income and 52% margin on USD 2.666bn net revenue. The dossier's USD 1.404bn/annual USD 5.616bn proxy is a reasonable rounded derivation, and the USD 281m hurdle and illustrative arithmetic are sound."
+    ]
+  },
+  "C038": {
+    "status": "PASS",
+    "sources": [
+      {
+        "url": "https://ir.veeva.com/news/news-details/2026/Veeva-Announces-Fiscal-2027-Second-Quarter-Results/default.aspx",
+        "open_status": "opened",
+        "supports": "latest Q2 FY2027 financials and named AI deployments"
+      },
+      {
+        "url": "https://ir.veeva.com/news/news-details/2026/Veeva-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx",
+        "open_status": "opened",
+        "supports": "FY2026 anchor"
+      },
+      {
+        "url": "https://platform.veevavault.help/en/gr/1030840/",
+        "open_status": "opened",
+        "supports": "Vault AI permissions and enabled-customer configuration"
+      }
+    ],
+    "limits": [
+      "The latest release strengthens E2: one top-20 biopharma deployed Vault CRM and Agentic Call Report across its full U.S. field team, while Falcon had five early adopters. It still supplies no controlled task or net-ACV result.",
+      "FY2026 5% hurdle USD 45.82m, illustrative USD 39.1m benefit, and 9.3% required upsell recompute correctly."
+    ]
+  },
+  "C048": {
+    "status": "PASS",
+    "sources": [
+      {
+        "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
+        "open_status": "opened",
+        "supports": "Q2 revenue and 60.3% operating margin"
+      },
+      {
+        "url": "https://investor.tsmc.com/static/annualReports/2025/english/index.html",
+        "open_status": "opened",
+        "supports": "broad statement that TSMC leverages enterprise AI internally"
+      }
+    ],
+    "limits": [
+      "The corrected dossier now treats the annual-report statement as E1 management/program evidence only: enterprise AI is used internally for broad productivity/efficiency, with no named fab workflow, deployment denominator, yield result, or retained cash.",
+      "Q2 revenue of USD 40.20bn at TWD 31.60/USD implies about TWD 1.270tn; at 60.3% operating margin, operating profit is about TWD 765.8bn. Annualized 5% hurdle TWD 153.2bn and illustrative arithmetic are internally consistent."
+    ]
+  },
+  "C049": {
+    "status": "PASS",
+    "sources": [
+      {
+        "url": "https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results",
+        "open_status": "opened",
+        "supports": "Q2 2026 revenue, gross profit/margin and net income"
+      },
+      {
+        "url": "https://www.asml.com/en/investors/annual-report/2025/strategy-and-stories",
+        "open_status": "opened",
+        "supports": "embedded AI/ML products, thousands of developers, predictive maintenance and workflow scale"
+      }
+    ],
+    "limits": [
+      "The annual report directly supports E2 deployment and named mechanisms but provides no AI-only matched yield, downtime, attach, or cash outcome.",
+      "The corrected dossier uses reported Q2 net income EUR 2.918bn rather than an invented operating-expense proxy. Annualized after-tax 5% hurdle EUR 583.6m, after-tax illustrative benefit EUR 136.13m, and required software uplift are dimensionally aligned and recompute correctly."
+    ]
+  },
+  "C061": {
+    "status": "LIMITED",
+    "sources": [
+      {
+        "url": "https://global.abb/group/en/investors/results-and-presentations/quarterly-results",
+        "open_status": "safe-open error",
+        "supports": "claimed Q2 2026 financials"
+      },
+      {
+        "url": "https://new.abb.com/process-automation/process-automation-service/abb-ability-genix",
+        "open_status": "safe-open error",
+        "supports": "claimed Genix product"
+      },
+      {
+        "url": "https://new.abb.com/news/detail/122021/helping-industries-do-better-with-generative-ai-abb-launches-genix-copilot-with-microsoft",
+        "open_status": "opened via bounded primary-source search",
+        "supports": "Genix Copilot launch and three use cases in early adoption"
+      }
+    ],
+    "limits": [
+      "The alternative ABB primary release supports E1/limited E2 early adoption, but its savings statements are estimates and it gives no controlled customer denominator or ABB cash result.",
+      "The USD 315.6m hurdle, USD 118m illustration, and 33.1% required uplift are arithmetically correct conditional on the Reuters-derived FY2025 revenue/margin inputs; exact cited issuer financial pages were inaccessible in this audit."
+    ]
+  },
+  "C063": {
+    "status": "PASS",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+        "open_status": "opened by direct download; web parser exceeded size limit",
+        "supports": "correct FY2025 10-K, sales and operating profit"
+      },
+      {
+        "url": "https://investors.caterpillar.com/news/news-details/2026/Caterpillar-Reports-Second-Quarter-2026-Results/default.aspx",
+        "open_status": "opened after issuer redirect",
+        "supports": "Q2 2026 financials"
+      },
+      {
+        "url": "https://www.cat.com/en_US/products/new/technology/command/command-for-hauling.html",
+        "open_status": "safe-open error",
+        "supports": "claimed Command product; not counted as independently opened"
+      },
+      {
+        "url": "https://www.caterpillar.com/en/news/caterpillarNews/2025/luck-stone-autonomy.html",
+        "open_status": "opened",
+        "supports": "company autonomy deployment/scale context"
+      }
+    ],
+    "limits": [
+      "The corrected dossier uses accession 000001823026000008 and reported FY2025 operating profit USD 11.151bn. The 5% hurdle is USD 557.55m and required annual truck value is about USD 650.24k using the stated USD 25m other benefit and denominator.",
+      "Autonomy miles/tonnes and site deployment establish E2 activity, not controlled productivity or retained Caterpillar cash. The exact Cat product page remained inaccessible, but the decisive financial and company deployment sources were corroborated."
+    ]
+  },
+  "C073": {
+    "status": "PASS",
+    "sources": [
+      {
+        "url": "https://www.basf.com/global/en/investors/basf-at-a-glance/key-financial-data",
+        "open_status": "opened",
+        "supports": "H1 2026 financials"
+      },
+      {
+        "url": "https://www.basf.com/global/en/who-we-are/digitalization/smart-manufacturing",
+        "open_status": "opened",
+        "supports": "sensor-based predictive-maintenance application, but not AI/ML"
+      }
+    ],
+    "limits": [
+      "The corrected dossier explicitly says the cited BASF manufacturing page does not identify AI or machine learning and uses it only as a non-AI digital baseline. It therefore does not overstate E2 and concludes that qualifying company-specific AI deployment evidence is absent in the opened sources.",
+      "H1 EBIT EUR 2.198bn, annualized 5% hurdle EUR 219.8m, illustrative EUR 56.8m total, and 8.2% required efficiency recompute correctly."
+    ]
+  },
+  "C074": {
+    "status": "PASS",
+    "sources": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2026/07/30/3335753/0/en/dsm-firmenich-reports-h1-2026-results.html",
+        "open_status": "opened",
+        "supports": "latest H1 2026 sales, adjusted EBIT, net profit, cash flow and debt"
+      },
+      {
+        "url": "https://annualreport.dsm-firmenich.com/2025/our-performance/financial-performance/financial-results.html",
+        "open_status": "opened",
+        "supports": "FY2025 continuing operating-profit anchor"
+      },
+      {
+        "url": "https://annualreport.dsm-firmenich.com/2025/our-performance/data-governance-and-ai.html",
+        "open_status": "opened",
+        "supports": "company AI deployment and governance"
+      }
+    ],
+    "limits": [
+      "The freshness correction is complete: H1 2026 is identified as latest, with continuing sales EUR 4.664bn, adjusted EBIT EUR 435m, net profit EUR 225m, adjusted gross operating FCF EUR 320m and net debt EUR 4.424bn. FY2025 remains the annual materiality anchor.",
+      "The annual report supports company-reported E2 deployment but no prospective productivity, win-rate, revenue attribution, or retained cash. 5% of EUR 711m is EUR 35.55m; EUR 10.63m illustrative benefit and 33.0% required cycle reduction recompute correctly."
+    ]
+  },
+  "C083": {
+    "status": "PASS",
+    "sources": [
+      {
+        "url": "https://global.toyota/pages/global_toyota/ir/financial-results/2027_1q_summary_en.pdf",
+        "open_status": "opened",
+        "supports": "FY2027 Q1 revenue, operating income, guidance and confounders"
+      },
+      {
+        "url": "https://cloud.google.com/blog/topics/hybrid-cloud/toyota-ai-platform-manufacturing-efficiency",
+        "open_status": "opened",
+        "supports": "named supplier account of Toyota factory ML platform"
+      }
+    ],
+    "limits": [
+      "The Google source supports E2 platform deployment but no eligible-station denominator, matched quality/productivity outcome, or audited savings.",
+      "Toyota source reports JPY 1,063.473bn Q1 operating income. Annualized 5% hurdle JPY 212.695bn (the dossier's JPY 212.68bn uses the rounded JPY 1.0634tn input). The negative JPY 1.52bn illustration and approximately 283% required reduction are arithmetically sound."
+    ]
+  },
+  "C084": {
+    "status": "LIMITED",
+    "sources": [
+      {
+        "url": "https://www.press.bmwgroup.com/global/article/detail/T0459734EN/more-speed-more-efficiency:-bmw-group-realigns-for-tougher-competition",
+        "open_status": "opened",
+        "supports": "H1 2026 financials and virtual-validation assertion"
+      },
+      {
+        "url": "https://www.press.bmwgroup.com/global/article/detail/T0449649EN/artificial-intelligence-as-a-quality-booster",
+        "open_status": "internal error",
+        "supports": "claimed GenAI4Q pilot"
+      }
+    ],
+    "limits": [
+      "The opened H1 source supports the company assertion on AI-assisted validation but no controlled result. The exact pilot URL returned only an error in this audit, so its detailed claims were not independently corroborated here.",
+      "Annualized H1 5% EBIT hurdle EUR 363.5m, illustrative EUR 49.91m benefit, and 83.3% required inspection-cost reduction recompute correctly."
+    ]
+  },
+  "C093": {
+    "status": "LIMITED",
+    "sources": [
+      {
+        "url": "https://www.singtel.com/about-us/investor-relations/financial-summary",
+        "open_status": "opened",
+        "supports": "FY2026 anchor"
+      },
+      {
+        "url": "https://links.sgx.com/1.0.0/corporate-announcements/4K16A58L1LIYSHN4/",
+        "open_status": "returned SGX No Record Found/CustomErrorPage; not counted as opened",
+        "supports": "nothing directly in this retrieval"
+      },
+      {
+        "url": "https://www.singtel.com/about-us/investor-relations/stock-exchange-announcements-singapore",
+        "open_status": "search index exposed issuer listing for 13 Aug 2026 Q1 FY2027 PDF; dynamic page did not render",
+        "supports": "latest-period date/title only"
+      },
+      {
+        "url": "https://www.singtel.com/digital-infraco",
+        "open_status": "opened",
+        "supports": "RE:AI, Nxera and Paragon product/capacity claims"
+      }
+    ],
+    "limits": [
+      "The dossier and capsule now identify Q1 FY2027 ended June 2026 as latest and explicitly mark the exact SGX announcement inaccessible. The figures (revenue S$3.558bn, underlying profit S$831m, net profit S$818m) are corroborated by contemporaneous reporting, but the exact issuer filing did not open and therefore remains a verification limitation.",
+      "The AI page supports E2 commercial offering/capacity, not live AI MW, utilization, margin, or retained cash. FY2026 5% hurdle SGD 75.2m, illustrative SGD 34.94m benefit, and 116.1% utilization requirement recompute correctly."
+    ]
+  },
+  "C094": {
+    "status": "PASS",
+    "sources": [
+      {
+        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
+        "open_status": "opened",
+        "supports": "Q2 2026 revenue, operating income and operating metrics"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm",
+        "open_status": "opened",
+        "supports": "Q2 financials, capex/lease principal and cash context"
+      },
+      {
+        "url": "https://about.fb.com/news/2025/05/over-half-trillion-dollars-3-million-us-jobs-linked-metas-ai-driven-ads-technologies/",
+        "open_status": "opened",
+        "supports": "company-reported 22% ROAS, USD 4.52 versus USD 3.71, and assertion that figures are grounded in a large RCT"
+      },
+      {
+        "url": "https://research.facebook.com/economiccontribution/",
+        "open_status": "redirected to Facebook login/temporary-block page",
+        "supports": "nothing directly in this retrieval"
+      },
+      {
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4433880",
+        "open_status": "403 Forbidden",
+        "supports": "nothing directly in this retrieval"
+      }
+    ],
+    "limits": [
+      "The corrected dossier and capsule classify the 22% figure as an E2 company-reported advertiser outcome and explicitly leave E3 unverified because the linked protocol/results could not be inspected. This matches the accessible evidence: the newsroom reports USD 4.52 versus USD 3.71 and RCT grounding, but does not expose whether that AI-tool comparison itself was randomized.",
+      "Q2 financials are verified: revenue USD 60.801bn, operating income USD 18.775bn, capex plus lease principal USD 31.078bn and FCF USD 784m. Annualized 5% hurdle USD 3.755bn, illustrative net benefit USD 0.710bn, and 5.56% required uplift recompute correctly."
+    ]
+  }
+}

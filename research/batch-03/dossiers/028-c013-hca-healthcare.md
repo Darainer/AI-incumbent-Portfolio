@@ -80,3 +80,13 @@ Access limits: some issuer pages dynamically expose PDFs or tables; where exact 
 ## Reviewer handoff
 
 Verify: (1) the latest financial anchor and reported/adjusted reconciliation; (2) whether the cited product outcome is production, representative and quality controlled; (3) contract-level training, retention and pooled-learning rights. Strongest counterargument: Q2 payer mix worsened and uninsured care created an estimated $400m income headwind while surgical volume softened; these overwhelm unmeasured AI savings. Blocking items are cohort economics, labor/capacity realization, recurring technology cost and customer/supplier sharing. **Provisional disposition:** evidence watch; unreviewed. Capsule: [`../../batch-03/capsules/c013.json`](../capsules/c013.json).
+
+## Source-audit correction — 12 September 2026
+
+HCA’s opened investor page identifies the 24 July 2026 Q2 release; the release reports $20.230bn revenue and $1.699bn attributable net income. The 5% screen is $84.95m for Q2 only. The HCA/Google nurse-handoff program remains E1 announced deployment because the cited Google page was not successfully opened here and no controlled clinical or retained-cash result is available.
+
+**Controlling materiality treatment:** $84.95m = 5% of Q2 2026 attributable net income of $1.699bn. This is a quarter-only, after-tax screen and is NOT_COMPARABLE with the annual pre-tax benefit illustration; no annualization is assumed. The dossier’s earlier conflicting hurdle or evidence-stage wording is withdrawn. All cost-pool, efficiency, realization, retained-share and recurring-cost inputs remain labeled assumptions. Revenue-demand evidence is kept separate from own-productivity evidence, and customer/product adoption does not establish retained shareholder cash.
+
+## Lead source verification
+
+Lead independently opened the final Q2 2026 issuer release on 12 September 2026. Revenue USD20.230bn, attributable net income USD1.699bn, adjusted EBITDA USD4.027bn and operating cash flow USD2.335bn are corroborated. Prior financial-access failures in the audit are historical; the AI-programme and controlled-outcome limitations remain. The quarter-only after-tax screen is not comparable with an annual pre-tax illustration. [Issuer release](https://investor.hcahealthcare.com/news/news-details/2026/HCA-Healthcare-Reports-Second-Quarter-2026-Results/default.aspx).

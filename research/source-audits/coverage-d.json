@@ -1,0 +1,509 @@
+{
+  "auditor": "coverage_c",
+  "audited_agent": "coverage_d",
+  "cutoff": "2026-09-12",
+  "method": "Independently attempted to open each capsule's primary financial URL and main AI URL, followed direct document links when exposed, and compared the retrieved content with the capsule and relevant dossier sections. Generic investor hubs count only as navigation, not numerical corroboration. An inaccessible page is recorded as a limitation and does not verify a corporate initiative or metric.",
+  "records": [
+    {
+      "id": "C062",
+      "company": "Deere",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://www.deere.com/en/our-company/news-and-announcements/news-releases/2026/corporate/deere-reports-third-quarter-net-income-of-1-379-billion/",
+          "status": "open_failed",
+          "finding": "The direct issuer URL could not be safe-opened, so $12.608bn revenue, $1.379bn net income and the 14.4% equipment margin were not independently corroborated."
+        },
+        {
+          "url": "https://www.deere.com/en/news/all-news/see-spray-herbicide-savings/",
+          "status": "redirect_without_content",
+          "finding": "Redirected to Deere's JavaScript-only content library; it did not expose the asserted nearly 50% 2025 herbicide reduction."
+        }
+      ],
+      "findings": "The capsule honestly marks all sources unopened, but still states a production outcome as a Deere report. Until the article is opened, that outcome is an unverified hypothesis/claim, not evidence of an E1 corporate initiative or E2 deployment. The $250m hurdle is also only approximately 5% of the $4.75-$5.0bn guidance midpoint: exact 5% is $237.5-$250m, or $243.75m at midpoint.",
+      "limitations": "No controlled field mix, quality, adoption denominator or Deere-retained cash evidence was available.",
+      "required_correction": "Open a direct issuer release/filing for the financial figures; either open an archived See & Spray source or downgrade the 50% statement to an unverified claim. State the exact guidance-based hurdle or label $250m as the upper-end convention.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "The capsule honestly marks all sources unopened, but still states a production outcome as a Deere report. Until the article is opened, that outcome is an unverified hypothesis/claim, not evidence of an E1 corporate initiative or E2 deployment. The $250m hurdle is also only approximately 5% of the $4.75-$5.0bn guidance midpoint: exact 5% is $237.5-$250m, or $243.75m at midpoint.",
+      "final_verdict": "LIMITED",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Direct SEC Q3 source now supports $12.608bn revenue and $4.75–5.00bn FY2026 net-income guidance; midpoint 5% screen is $243.75m. See & Spray source remains unopened, and the packet now honestly labels the claimed outcome E0/E1 unverified.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C053",
+      "company": "Amazon",
+      "verdict": "PASS",
+      "checked_urls": [
+        {
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/",
+          "status": "opened",
+          "finding": "Issuer release dated 30 Jul 2026 confirms Q2 sales $200.6bn, operating income $27.5bn, AWS sales $42.2bn and AWS operating income $16.6bn. It also states AWS AI and chips businesses each exceeded $25bn annual revenue run rates and Bedrock had hundreds of thousands of customers."
+        },
+        {
+          "url": "https://aws.amazon.com/bedrock/security-compliance/",
+          "status": "opened",
+          "finding": "AWS product/security page supports Bedrock governance and product capability, but does not establish Amazon internal productivity or customer-retained cash."
+        }
+      ],
+      "findings": "The financial and E2 external-demand claims are corroborated, and the packet correctly separates infrastructure sales from internal productivity. The $25bn is revenue run rate, not operating profit. The $6-$7bn hurdle is a vaguely normalized annual proxy: four times Q2 operating income would be $110bn and a 5% hurdle of $5.5bn.",
+      "limitations": "No segment-level AI contribution margin, incremental capex return or internal workflow counterfactual is disclosed.",
+      "required_correction": "No factual correction required; identify the exact annual operating-profit period used for the hurdle before lead use.",
+      "initial_verdict": "LIMITED",
+      "initial_findings": "The financial and E2 external-demand claims are corroborated, and the packet correctly separates infrastructure sales from internal productivity. The $25bn is revenue run rate, not operating profit. The $6-$7bn hurdle is a vaguely normalized annual proxy: four times Q2 operating income would be $110bn and a 5% hurdle of $5.5bn.",
+      "final_verdict": "PASS",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Opened issuer Q2 source supports $200.6bn sales, $27.5bn GAAP operating income, Bedrock customers in the hundreds of thousands and AI-business revenue run rate above $25bn. The $1.375bn quarter-only pre-tax screen is explicit and NOT_COMPARABLE with the annual illustration.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C012",
+      "company": "IQVIA",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://ir.iqvia.com/financial-information/quarterly-results/default.aspx",
+          "status": "open_failed",
+          "finding": "Generic quarterly-results hub did not return useful content and cannot corroborate $4.368bn revenue, adjusted EPS $3.15 or backlog figures."
+        },
+        {
+          "url": "https://www.iqvia.com/solutions/technologies/artificial-intelligence-and-machine-learning",
+          "status": "open_failed",
+          "finding": "The asserted healthcare-grade AI page could not be opened; no named deployed cohort was independently verified."
+        }
+      ],
+      "findings": "The AI discussion is appropriately cautious in substance, but its corporate-initiative wording is unsupported by an opened source. The $380m hurdle appears to double-annualize the described H1 adjusted-EBITDA scale: if H1 implies approximately $1.9bn, annualized EBITDA is about $3.8bn and 5% is about $190m, not 5% of $7.6bn.",
+      "limitations": "No E2 cohort, trial-quality comparison, rights terms or retained-cash bridge was verified.",
+      "required_correction": "Use a direct Q2 issuer release/10-Q and an opened AI source. Recalculate the hurdle once from an exact annual or annualized earnings measure and state that adjusted EBITDA is pre-tax/non-GAAP.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "The AI discussion is appropriately cautious in substance, but its corporate-initiative wording is unsupported by an opened source. The $380m hurdle appears to double-annualize the described H1 adjusted-EBITDA scale: if H1 implies approximately $1.9bn, annualized EBITDA is about $3.8bn and 5% is about $190m, not 5% of $7.6bn.",
+      "final_verdict": "LIMITED",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Opened SEC Q2 source supports $4.368bn revenue and FY2026 adjusted-EBITDA guidance of $4.000–4.050bn; 5% of the $4.025bn midpoint is $201.25m. The inaccessible IQVIA AI page is no longer treated as deployment evidence; E1 capability only.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C013",
+      "company": "HCA Healthcare",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://investor.hcahealthcare.com/news-and-events/news-releases/2026/",
+          "status": "open_failed",
+          "finding": "Year archive did not open and is not a direct metric source; Q2 revenue $20.230bn and attributable net income $1.699bn were not independently corroborated."
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/healthcare-life-sciences/hca-healthcare-and-google-cloud-generative-ai",
+          "status": "open_failed",
+          "finding": "Supplier announcement did not open, so the nurse-handoff deployment program was not independently verified."
+        },
+        {
+          "url": "https://investor.hcahealthcare.com/news-and-events/news-releases/2026/HCA-Healthcare-Reports-Second-Quarter-2026-Results/default.aspx",
+          "status": "open_failed",
+          "finding": "Exact direct issuer release target; search index supplied title/date and figures, but useful page content was not returned, so access remains an explicit limitation."
+        }
+      ],
+      "findings": "The annualization is coherent in outline: four times $1.699bn is $6.796bn and 5% is $339.8m, close to the stated $350m proxy. The packet nevertheless uses a generic archive and an inaccessible AI page as support for exact facts.",
+      "limitations": "No omission, escalation, patient-outcome or realized staffing comparison supports E3/E4.",
+      "required_correction": "Link the exact 24 Jul 2026 issuer release or filing and an opened HCA/Google announcement. Until then, describe the nurse-handoff item as an unverified announced program, not a verified deployment.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "The annualization is coherent in outline: four times $1.699bn is $6.796bn and 5% is $339.8m, close to the stated $350m proxy. The packet nevertheless uses a generic archive and an inaccessible AI page as support for exact facts.",
+      "final_verdict": "LIMITED",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "The packet now cites the exact HCA Q2 2026 issuer release target and honestly marks it unopened; search indexing supports the title/date and $20.230bn revenue/$1.699bn attributable-net-income figures, but the page could not be independently opened. The $84.95m quarter-only after-tax screen is explicit and NOT_COMPARABLE; nurse handoffs remain an unopened E1 announced program.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C025",
+      "company": "ICICI Bank",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/about-us/2027/performance-review-q1-2027.pdf",
+          "status": "opened",
+          "finding": "Issuer PDF dated 18 Jul 2026 confirms Q1 FY2027 standalone PAT Rs14,805 crore (Rs148.05bn), NII Rs24,384 crore (Rs243.84bn), core operating profit Rs20,235 crore and the 1 crore = 10m unit conversion."
+        },
+        {
+          "url": "https://www.icici.bank.in/personal-banking/insta-banking/internet-banking/ipal",
+          "status": "open_failed",
+          "finding": "iPal page did not open, so only a digital-assistant hypothesis remains; no incremental AI deployment or outcome was verified."
+        }
+      ],
+      "findings": "Financial figures and the four-times PAT annualization are arithmetically coherent: Rs148.05bn x 4 x 5% = Rs29.61bn. Profit after tax is an after-tax hurdle and should be labeled as such. The capsule's rounded figures are accurate.",
+      "limitations": "No opened source establishes generative/agentic functionality, eligible contact volume, fixed-risk credit lift or retained operating savings.",
+      "required_correction": "No financial correction required; retain E1 only as an unverified digital-assistant hypothesis unless an opened source identifies current AI functionality.",
+      "initial_verdict": "LIMITED",
+      "initial_findings": "Financial figures and the four-times PAT annualization are arithmetically coherent: Rs148.05bn x 4 x 5% = Rs29.61bn. Profit after tax is an after-tax hurdle and should be labeled as such. The capsule's rounded figures are accurate.",
+      "final_verdict": "LIMITED",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Opened issuer PDF supports Q1 FY2027 standalone net profit ₹148.0bn and NII ₹243.8bn. The ₹7.40bn quarter-only after-tax screen is explicit and NOT_COMPARABLE with the annual illustration; iPal remains an unopened E1 digital-assistant capability.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C027",
+      "company": "Mastercard",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://investor.mastercard.com/financials-and-sec-filings/quarterly-results/default.aspx",
+          "status": "opened_hub_only",
+          "finding": "The page exposed navigation but no Q2 2026 figures; it does not corroborate $4.4bn GAAP net income or $4.97 diluted EPS."
+        },
+        {
+          "url": "https://www.mastercard.com/news/press/2024/february/mastercard-supercharges-consumer-protection-with-generative-ai/",
+          "status": "open_failed",
+          "finding": "The Decision Intelligence announcement did not open; production efficacy and the asserted mechanism were not independently verified."
+        }
+      ],
+      "findings": "The packet correctly treats established fraud scoring as baseline and avoids an E2 efficacy claim. However, exact financial facts need a direct release/10-Q, and the $700m hurdle cites no exact annual metric or period.",
+      "limitations": "No false-decline denominator, issuer loss comparison or Mastercard-retained economics was verified.",
+      "required_correction": "Replace the IR hub with the direct Q2 2026 release or filing, use an exact annual GAAP or clearly reconciled non-GAAP hurdle, and keep Decision Intelligence as unverified E1 until the primary announcement is opened.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "The packet correctly treats established fraud scoring as baseline and avoids an E2 efficacy claim. However, exact financial facts need a direct release/10-Q, and the $700m hurdle cites no exact annual metric or period.",
+      "final_verdict": "LIMITED",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Opened SEC exhibit now supports Q2 GAAP operating income $5.6bn and net income $4.4bn. The $220m quarter-only after-tax screen is explicit and NOT_COMPARABLE; Decision Intelligence efficacy remains unopened E1 product capability.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C042",
+      "company": "ServiceNow",
+      "verdict": "PASS",
+      "checked_urls": [
+        {
+          "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/",
+          "status": "open_failed",
+          "finding": "The direct release did not open, so Q2 subscription revenue $3.877bn was not independently corroborated."
+        },
+        {
+          "url": "https://www.servicenow.com/products/now-assist.html",
+          "status": "open_failed",
+          "finding": "The product page did not open and cannot support the separately asserted $1bn AI ARR."
+        }
+      ],
+      "findings": "The capsule says the AI-ARR release was not successfully opened yet states paid adoption above $1bn as fact. That is not supportable from the cited product URL. The $300m hurdle rests on an unspecified $6bn normalized non-GAAP operating-profit proxy.",
+      "limitations": "No resolution-quality cohort, seat effect, inference cost or AI contribution margin was verified.",
+      "required_correction": "Open and cite the exact Q2 issuer release for both the financial figure and any AI ARR disclosure. Otherwise remove the $1bn claim and classify Now Assist as E1 capability only. Anchor the hurdle to an exact period and reconciled metric.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "The capsule says the AI-ARR release was not successfully opened yet states paid adoption above $1bn as fact. That is not supportable from the cited product URL. The $300m hurdle rests on an unspecified $6bn normalized non-GAAP operating-profit proxy.",
+      "final_verdict": "PASS",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Opened SEC Q2 release supports $3.877bn subscription revenue, 31.5% FY2026 non-GAAP operating-margin guidance, AI annual contract value above $1bn and ninefold agentic-deployment growth. The $248.4m annual non-GAAP guidance proxy is traceable; E3/E4 remain absent.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C043",
+      "company": "Salesforce",
+      "verdict": "PASS",
+      "checked_urls": [
+        {
+          "url": "https://investor.salesforce.com/financials/default.aspx",
+          "status": "opened_hub_only",
+          "finding": "The generic financial page exposed navigation only and did not corroborate FY2027 guidance of $46.1-$46.4bn or Agentforce ARR above $1bn."
+        },
+        {
+          "url": "https://www.salesforce.com/agentforce/",
+          "status": "opened",
+          "finding": "Product page describes autonomous actions and named tasks and states more than 18,000 companies run Agentforce. It does not state $1bn ARR or billions of work units."
+        }
+      ],
+      "findings": "The opened AI source supports E1 capability plus management-reported E2 customer adoption, but not the capsule's ARR/work-unit facts. Mixing revenue guidance and product ARR in the financial anchor obscures the conventional earnings baseline. The $800m hurdle uses an unspecified normalized $16bn non-GAAP operating-profit proxy.",
+      "limitations": "The 18,000-company statement provides no active-agent, resolution-quality, renewal or net-ARR denominator.",
+      "required_correction": "Cite the direct Q2 FY2027 earnings release for guidance/ARR if available; otherwise delete the unsupported ARR/work-unit claims. Use a separate exact annual GAAP or reconciled non-GAAP earnings anchor and classify the product page evidence as management-reported E2 adoption without outcome proof.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "The opened AI source supports E1 capability plus management-reported E2 customer adoption, but not the capsule's ARR/work-unit facts. Mixing revenue guidance and product ARR in the financial anchor obscures the conventional earnings baseline. The $800m hurdle uses an unspecified normalized $16bn non-GAAP operating-profit proxy.",
+      "final_verdict": "PASS",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Opened issuer Q2 FY2027 release supports $11.345bn revenue, $2.331bn GAAP operating income, Agentforce ARR above $1.5bn and 7.0bn cumulative agentic work units with revised scope disclosed. The $464.8m annual pre-tax guidance proxy is explicit.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C052",
+      "company": "Microsoft",
+      "verdict": "PASS",
+      "checked_urls": [
+        {
+          "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+          "status": "opened",
+          "finding": "Issuer release dated 29 Jul 2026 confirms FY2026 revenue $331.839bn, GAAP operating income $155.237bn, and more than 30m paid Microsoft 365 Copilot seats; it separately reports Azure growth and GAAP/non-GAAP OpenAI investment effects."
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy",
+          "status": "opened",
+          "finding": "Microsoft documentation supports the stated permission/privacy boundary for Microsoft 365 Copilot, not productivity or cash outcomes."
+        }
+      ],
+      "findings": "The annual pre-tax hurdle is correct: 5% x $155.237bn = $7.76185bn, rounded to $7.76bn. Paid seats and cloud demand support E2 external adoption, while the packet correctly withholds E3/E4 and own-productivity attribution.",
+      "limitations": "No controlled end-to-end productivity, churn, contribution-margin or internal cost-removal cohort is disclosed.",
+      "initial_verdict": "PASS",
+      "initial_findings": "The annual pre-tax hurdle is correct: 5% x $155.237bn = $7.76185bn, rounded to $7.76bn. Paid seats and cloud demand support E2 external adoption, while the packet correctly withholds E3/E4 and own-productivity attribution.",
+      "final_verdict": "PASS",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Opened FY2026 issuer results support revenue $331.839bn, GAAP operating income $155.237bn and more than 30m paid Copilot seats. Annual 5% pre-tax hurdle $7.76185bn is exact; external adoption remains separate from own productivity.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C054",
+      "company": "Alphabet",
+      "verdict": "PASS",
+      "checked_urls": [
+        {
+          "url": "https://abc.xyz/investor/static/pdf/2026Q2_alphabet_earnings_release.pdf",
+          "status": "open_failed",
+          "finding": "The direct issuer PDF returned an internal fetch error in this audit, so $119.8bn revenue and $40.8bn operating income could not be independently re-extracted."
+        },
+        {
+          "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/data-governance",
+          "status": "opened_redirect",
+          "finding": "Redirected Google Cloud documentation describes data-retention controls for Gemini Enterprise Agent Platform; it supports rights constraints, not Q2 AI demand or Search economics."
+        }
+      ],
+      "findings": "The arithmetic is coherent if the Q2 operating-income figure is correct: $40.8bn x 4 x 5% = $8.16bn, close to the stated $8bn proxy. The capsule's E2 demand statement depends on the inaccessible earnings PDF and should remain management-reported.",
+      "limitations": "No causal separation of AI Overviews/Mode from traffic, query mix, TAC and infrastructure cost; PDF access failed during audit.",
+      "required_correction": "No arithmetic correction required; lead should re-open the issuer PDF or SEC filing before accepting the exact financial and demand claims.",
+      "initial_verdict": "LIMITED",
+      "initial_findings": "The arithmetic is coherent if the Q2 operating-income figure is correct: $40.8bn x 4 x 5% = $8.16bn, close to the stated $8bn proxy. The capsule's E2 demand statement depends on the inaccessible earnings PDF and should remain management-reported.",
+      "final_verdict": "PASS",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Opened Q2 issuer PDF supports revenue $119.8bn, operating income $40.8bn and external Cloud AI demand. The capsule now uses a quarter-only $2.04bn pre-tax screen and marks it NOT_COMPARABLE with the annual illustration.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C066",
+      "company": "UPS",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://investors.ups.com/news-events/press-releases/detail/2164/ups-releases-2q-2026-earnings",
+          "status": "opened",
+          "finding": "Issuer release confirms Q2 revenue $22.8bn, GAAP operating profit $930m, adjusted operating profit $2.102bn, FY2026 adjusted operating-profit target $8.65bn, expected tax rate 23%, and $1.172bn Q2 transformation costs."
+        },
+        {
+          "url": "https://about.ups.com/us/en/our-stories/innovation-driven/ups-ai-and-automation.html",
+          "status": "open_failed",
+          "finding": "The AI/automation article did not open, so no incremental agentic deployment was verified."
+        }
+      ],
+      "findings": "The adjusted pre-tax annual hurdle is correct within rounding: 5% x $8.65bn = $432.5m versus stated $430m. The packet appropriately treats route/sort optimization as baseline and does not attribute the disclosed $1.2bn H1 transformation benefits to AI.",
+      "limitations": "No opened AI source or matched route/sort cohort; network closures, workforce actions and customer mix dominate realized savings.",
+      "required_correction": "No financial correction required; retain incremental AI as hypothesis unless a named opened deployment source is added.",
+      "initial_verdict": "LIMITED",
+      "initial_findings": "The adjusted pre-tax annual hurdle is correct within rounding: 5% x $8.65bn = $432.5m versus stated $430m. The packet appropriately treats route/sort optimization as baseline and does not attribute the disclosed $1.2bn H1 transformation benefits to AI.",
+      "final_verdict": "LIMITED",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Opened issuer Q2 release supports $930m GAAP and $2.102bn adjusted quarterly operating profit plus $8.65bn FY2026 adjusted target. The capsule uses a quarter-only GAAP screen and marks it NOT_COMPARABLE; incremental AI remains E1 and route optimization baseline.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C067",
+      "company": "Canadian National Railway",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://www.cn.ca/-/media/files/investors/investor-financial-quarterly/investor-financial-quarterly-2026/q2/q2-2026-quarterly-review-en.pdf",
+          "status": "opened",
+          "finding": "Issuer Q2 review dated 24 Jul 2026 confirms C$4.753bn revenue, C$1.781bn GAAP operating income, C$1.798bn adjusted operating income, and C$1.842bn H1 free cash flow; figures are in CAD and GAAP unless noted."
+        },
+        {
+          "url": "https://www.cn.ca/en/safety/technology-and-innovation/",
+          "status": "open_failed",
+          "finding": "Technology page did not open, so digital train-planning/inspection deployment was not independently verified."
+        }
+      ],
+      "findings": "Four-times Q2 GAAP operating income is C$7.124bn and exact 5% is C$356.2m; the stated C$350m is reasonable rounding. This is an annualized pre-tax proxy. CN's reported fuel/velocity metrics are not attributed to AI.",
+      "limitations": "No opened source isolates AI from dispatch rules, capital upgrades, weather, traffic mix or labor actions.",
+      "required_correction": "No financial correction required; keep incremental AI at hypothesis/E1 until a named opened source documents deployment.",
+      "initial_verdict": "LIMITED",
+      "initial_findings": "Four-times Q2 GAAP operating income is C$7.124bn and exact 5% is C$356.2m; the stated C$350m is reasonable rounding. This is an annualized pre-tax proxy. CN's reported fuel/velocity metrics are not attributed to AI.",
+      "final_verdict": "LIMITED",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Opened issuer Q2 review supports C$4.753bn revenue and C$1.781bn operating income. The C$89.05m quarter-only pre-tax screen is explicit and NOT_COMPARABLE; the AI/technology page remains unopened and incremental AI is E1 only.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C077",
+      "company": "Alibaba",
+      "verdict": "PASS",
+      "checked_urls": [
+        {
+          "url": "https://www.alibabagroup.com/document-1938408710984278016",
+          "status": "unsafe_to_open",
+          "finding": "The purported June-quarter issuer document could not be opened, so RMB268.953bn revenue, RMB10.5bn net profit and 45% AI-compute growth were not independently corroborated."
+        },
+        {
+          "url": "https://www.alibabacloud.com/help/en/model-studio/data-security-and-privacy",
+          "status": "unsafe_to_open",
+          "finding": "The Alibaba Cloud page could not be opened and does not independently verify the claimed current result or deployed commerce workflow."
+        }
+      ],
+      "findings": "All capsule sources are marked unopened. The RMB20bn annual hurdle is not traceable to the stated quarter: four times RMB10.5bn net profit is RMB42bn and 5% is RMB2.1bn. Calling RMB20bn a normalized 5% proxy implies RMB400bn annual profit without an exact source and produces a tenfold mismatch versus quarter annualization.",
+      "limitations": "No opened primary result, AI-demand metric, commerce deployment, quality cohort or retained-cash evidence.",
+      "required_correction": "Open an issuer/HKEX/SEC result, use an exact annual or explicitly annualized profit measure, recompute the hurdle, and remove the 45% demand statement unless its primary source is opened. E1 commerce mechanisms should be labeled hypotheses.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "All capsule sources are marked unopened. The RMB20bn annual hurdle is not traceable to the stated quarter: four times RMB10.5bn net profit is RMB42bn and 5% is RMB2.1bn. Calling RMB20bn a normalized 5% proxy implies RMB400bn annual profit without an exact source and produces a tenfold mismatch versus quarter annualization.",
+      "final_verdict": "PASS",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Opened SEC June-quarter release supports RMB247.652bn revenue, RMB15.161bn GAAP operating income, 45% external Cloud growth and RMB12.376bn AI-product revenue. The RMB758.05m quarter-only pre-tax screen is explicit and NOT_COMPARABLE.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C078",
+      "company": "MercadoLibre",
+      "verdict": "PASS",
+      "checked_urls": [
+        {
+          "url": "https://investor.mercadolibre.com/open-file?file=aHR0cHM6Ly9odHRwMi5tbHN0YXRpYy5jb20vc3RvcmFnZS9tbC1jbXMtYmFja2VuZC9jbXMtZG9jdW1lbnRzLXByb2QvNWRiYmE5MTktNzIxYy00OTE2LWJiOTEtYzc2YTg3MTNmN2YwL2JkNjBhMzQyLWM1MjMtNDFiOC1hZjdhLWRhMjgxOGZlZjVmZi9NRUxJX1EyXzIwMjZfUHJlc3NfUmVsZWFzZS5wZGY",
+          "status": "opened",
+          "finding": "Issuer PDF dated 5 Aug 2026 confirms $10.2bn revenue/financial income, $683m operating income, 6.7% margin and $466m net income. It also states AI agents reviewed more than 500,000 code submissions, migrated about 9,000 services, and search rollout across five largest sites produced conversion/click-through uplift exceeding third-party LLM cost."
+        },
+        {
+          "url": "https://github.com/customer-stories/mercado-libre",
+          "status": "opened",
+          "finding": "Named supplier/customer account confirms Copilot availability across the developer organization, more than 9,000 users and a roughly 50% coding-time claim attributed to one senior executive; it is not a controlled cohort."
+        }
+      ],
+      "findings": "The E2 named deployment classification is appropriate and stops short of E3/E4. The annualized pre-tax hurdle is exact: $683m x 4 x 5% = $136.6m. The issuer's own Q2 release is stronger current deployment evidence than the GitHub account and should be foregrounded.",
+      "limitations": "No matched code-quality, incident, retention or net-cash cohort; search uplift lacks magnitude and counterfactual detail.",
+      "initial_verdict": "PASS",
+      "initial_findings": "The E2 named deployment classification is appropriate and stops short of E3/E4. The annualized pre-tax hurdle is exact: $683m x 4 x 5% = $136.6m. The issuer's own Q2 release is stronger current deployment evidence than the GitHub account and should be foregrounded.",
+      "final_verdict": "PASS",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Opened issuer Q2 release supports $683m operating income and a named production AI-enhanced search rollout with management-reported conversion/engagement improvement and third-party LLM-cost offset. The $34.15m quarter-only pre-tax screen is explicit and NOT_COMPARABLE.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C087",
+      "company": "Unilever",
+      "verdict": "PASS",
+      "checked_urls": [
+        {
+          "url": "https://www.unilever.com/investors/results-presentations-webcasts/",
+          "status": "not_found",
+          "finding": "The cited investor URL returned 404, so H1 turnover EUR25.6bn and underlying operating profit EUR5.2bn were not independently corroborated."
+        },
+        {
+          "url": "https://www.unilever.com/news/news-search/2026/inside-unilevers-ai-powered-supply-chain/",
+          "status": "unsafe_to_open",
+          "finding": "The cited AI supply-chain article could not be opened; no current production deployment was verified."
+        },
+        {
+          "url": "https://www.unilever.com/files/unilever-q2-2026-results-full-announcement.pdf",
+          "status": "opened",
+          "finding": "Direct issuer PDF supports H1 turnover €25.6bn, GAAP operating profit €4.9bn and underlying operating profit €5.2bn."
+        },
+        {
+          "url": "https://www.unilever.com/news/news-search/2026/building-resilience-driving-growth-inside-unilevers-aipowered-supply-chain/",
+          "status": "opened",
+          "finding": "Issuer article dated 13 August 2026 supports named Raeford digital-twin use and planned rollout to more than 40 sites; it does not quantify a controlled outcome."
+        }
+      ],
+      "findings": "The arithmetic would be coherent if the H1 UOP figure is correct: EUR5.2bn x 2 x 5% = EUR520m. UOP is a company-defined underlying pre-tax measure. The dossier asserts AI-supported supply-chain production despite no opened source.",
+      "limitations": "No waste, service, forecast-error or retained-cash cohort; restructuring and input costs are major confounders.",
+      "required_correction": "Replace the 404 with the exact H1 2026 issuer release/PDF, identify UOP as underlying/non-GAAP, and downgrade supply-chain AI to an unverified hypothesis unless an opened primary source names deployment.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "The arithmetic would be coherent if the H1 UOP figure is correct: EUR5.2bn x 2 x 5% = EUR520m. UOP is a company-defined underlying pre-tax measure. The dossier asserts AI-supported supply-chain production despite no opened source.",
+      "final_verdict": "PASS",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Opened direct H1 issuer PDF supports €25.6bn turnover, €4.9bn GAAP operating profit and €5.2bn underlying operating profit; the €245m six-month GAAP pre-tax screen is explicit and NOT_COMPARABLE. Opened 13 August issuer article supports named Raeford digital-twin production E2 and more-than-40 planned rollout E1, without implying E3/E4.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C088",
+      "company": "Nestle",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://www.nestle.com/media/pressreleases/allpressreleases/half-year-results-2026",
+          "status": "timeout",
+          "finding": "The direct issuer H1 results page timed out during audit; CHF43.109bn sales and CHF7.081bn underlying trading operating profit were not independently re-extracted."
+        },
+        {
+          "url": "https://www.nestle.com/media/news/artificial-intelligence-digital-transformation",
+          "status": "unsafe_to_open",
+          "finding": "AI transformation page could not be opened, so no named current deployment was verified."
+        }
+      ],
+      "findings": "The packet explicitly says no AI deployment evidence was opened, and its E1 language should remain hypothetical. If CHF7.081bn H1 UTOP is confirmed, the annualized pre-tax hurdle is correct: CHF7.081bn x 2 x 5% = CHF708.1m. UTOP is an underlying company-defined measure.",
+      "limitations": "No representative factory, R&D or consumer-workflow cohort; no quality-adjusted cash bridge.",
+      "required_correction": "No arithmetic change required; re-open the direct H1 release before acceptance and avoid wording that treats an AI initiative as verified.",
+      "initial_verdict": "LIMITED",
+      "initial_findings": "The packet explicitly says no AI deployment evidence was opened, and its E1 language should remain hypothetical. If CHF7.081bn H1 UTOP is confirmed, the annualized pre-tax hurdle is correct: CHF7.081bn x 2 x 5% = CHF708.1m. UTOP is an underlying company-defined measure.",
+      "final_verdict": "LIMITED",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Opened issuer H1 release supports CHF43.109bn sales and CHF7.081bn underlying trading operating profit. The CHF354.05m six-month non-GAAP pre-tax screen is explicit and NOT_COMPARABLE; AI deployment source remains unopened E1 capability.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C097",
+      "company": "SLB",
+      "verdict": "PASS",
+      "checked_urls": [
+        {
+          "url": "https://investorcenter.slb.com/news-releases/news-release-details/2026/slb-announces-second-quarter-2026-results/",
+          "status": "unsafe_to_open",
+          "finding": "The cited release could not be opened, so $8.972bn revenue, $716m free cash flow and $786m net income were not independently corroborated."
+        },
+        {
+          "url": "https://www.slb.com/products-and-services/delivering-digital-at-scale/lumi-data-and-ai-platform",
+          "status": "unsafe_to_open",
+          "finding": "Lumi page could not be opened; no deployed customer cohort or product fact was independently verified."
+        }
+      ],
+      "findings": "All capsule sources are marked unopened. The dossier additionally relies on an operating-margin figure from unspecified market summaries, which is not primary evidence. The $250m hurdle uses an unspecified normalized $5bn annual operating-income proxy rather than an exact source-supported period.",
+      "limitations": "No opened field deployment, drilling quality comparison, customer data-rights terms or SLB-retained economics.",
+      "required_correction": "Open a direct issuer release/SEC filing and a primary Lumi or named customer deployment source. Replace market-summary figures and the normalized proxy with an exact annual or annualized reported metric; otherwise label mechanisms as hypotheses only.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "All capsule sources are marked unopened. The dossier additionally relies on an operating-margin figure from unspecified market summaries, which is not primary evidence. The $250m hurdle uses an unspecified normalized $5bn annual operating-income proxy rather than an exact source-supported period.",
+      "final_verdict": "PASS",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Opened issuer Q2 release supports $8.972bn revenue, $1.018bn GAAP pretax income, $697m Digital revenue and 18% Digital growth with active digital/AI workflows. The $50.9m quarter-only pre-tax screen is explicit and NOT_COMPARABLE.",
+      "remaining_errors": []
+    },
+    {
+      "id": "C098",
+      "company": "Iberdrola",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://www.iberdrola.com/shareholders-investors/operational-financial-information",
+          "status": "opened_hub_only",
+          "finding": "The page describes an interactive financial tool but exposes no H1 figures in retrievable content; it does not corroborate EUR4.34bn reported net profit."
+        },
+        {
+          "url": "https://www.iberdrola.com/innovation/artificial-intelligence",
+          "status": "unsafe_to_open",
+          "finding": "The AI page could not be opened; no named material grid or renewables deployment was verified."
+        }
+      ],
+      "findings": "The dossier itself says the H1 summary was not reliably extracted, yet the capsule treats EUR4.34bn as an anchor. If verified, EUR4.34bn x 2 x 5% = EUR434m is arithmetically correct and is an annualized after-tax proxy; transactions and tax timing may make simple doubling unrepresentative.",
+      "limitations": "No outage, truck-roll, safety-adjusted dispatch or retained regulated-cash cohort; regulated sharing may pass savings to customers.",
+      "required_correction": "Cite and open the exact H1 2026 issuer/CNMV report, label reported net profit as after-tax and annualization as illustrative, and downgrade AI mechanisms to hypotheses unless a primary source names an operating deployment.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "The dossier itself says the H1 summary was not reliably extracted, yet the capsule treats EUR4.34bn as an anchor. If verified, EUR4.34bn x 2 x 5% = EUR434m is arithmetically correct and is an annualized after-tax proxy; transactions and tax timing may make simple doubling unrepresentative.",
+      "final_verdict": "LIMITED",
+      "recheck_date": "2026-09-12",
+      "recheck_findings": "Opened issuer H1 results page supports €4.34bn reported net profit, €8.05bn adjusted EBITDA and €7bn investment. The €217m six-month after-tax screen is explicit and NOT_COMPARABLE; the AI program page remains unopened and no production cohort is claimed.",
+      "remaining_errors": []
+    }
+  ],
+  "summary": {
+    "initial": {
+      "PASS": 2,
+      "LIMITED": 6,
+      "NEEDS_CORRECTION": 10
+    },
+    "final": {
+      "LIMITED": 9,
+      "PASS": 9
+    },
+    "remaining_error_ids": []
+  },
+  "priority_corrections": [
+    "C012 likely double-annualizes adjusted EBITDA: the stated $380m hurdle needs an exact period and recomputation.",
+    "C077's RMB20bn hurdle is not traceable to the stated RMB10.5bn quarterly profit; four-times-quarter 5% is RMB2.1bn.",
+    "C042 and C043 assert AI ARR/work-unit facts that their opened or cited product pages do not support.",
+    "C062, C013, C027, C087, C097 and C098 need direct financial documents instead of inaccessible or generic hubs, and their unopened AI initiatives must be framed as hypotheses.",
+    "C043 should use the opened Agentforce page only for capability and management-reported adoption (>18,000 companies), not $1bn ARR."
+  ],
+  "recheck_method": "Re-read all 18 corrected capsules and governing dossier sections after coverage_d froze them; verified source URL/access flags, exact period/metric arithmetic, E-stage wording, and annual-versus-interim/tax comparability. Initial findings are retained historically; final_verdict controls."
+}

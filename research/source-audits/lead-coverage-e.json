@@ -1,0 +1,167 @@
+{
+  "C028": {
+    "status": "PASS",
+    "reviewed_at": "2026-09-12",
+    "review_scope": "Lead read financial and AI source extracts where available, reviewed the capsule and materiality calculation, and required the documented corrections.",
+    "checked_sources": [
+      "https://www.adyen.com/press-and-media/adyen-publishes-h1-2026-financial-results-3wjne"
+    ],
+    "findings": "Issuer-reported 0.9 percentage-point conversion improvement supports E2 only. EUR641.5m H1 EBITDA is confirmed. Correct own-contribution illustration is negative EUR19.28m; no positive materiality conclusion is accepted.",
+    "limitations": "Test design, eligible denominator, fraud and fees undisclosed.",
+    "source_access_note": "Decisive issuer/supplier source extracts opened; outcome claims remain bounded as stated."
+  },
+  "C029": {
+    "status": "LIMITED",
+    "reviewed_at": "2026-09-12",
+    "review_scope": "Lead read financial and AI source extracts where available, reviewed the capsule and materiality calculation, and required the documented corrections.",
+    "checked_sources": [
+      "https://www.sec.gov/Archives/edgar/data/64040/000006404026000013/spgi-20251231.htm",
+      "https://www.spglobal.com/en/research-insights/ai"
+    ],
+    "findings": "Filed financials support the conventional business; product material supports a data/research capability but no independently verified production cohort. Upstream licenses, interface substitution and seat economics constrain the thesis.",
+    "limitations": "No controlled accepted-output or retained-cash cohort.",
+    "source_access_note": "Generic AI landing page failed in lead check; filed financial data is supported, but deployment remains unverified."
+  },
+  "C044": {
+    "status": "PASS",
+    "reviewed_at": "2026-09-12",
+    "review_scope": "Lead read financial and AI source extracts where available, reviewed the capsule and materiality calculation, and required the documented corrections.",
+    "checked_sources": [
+      "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+      "https://www.synopsys.com/ai.html"
+    ],
+    "findings": "Issuer financials and AI design products support capability. Broad vendor speed/PPA claims lack a matched project portfolio and signoff-quality economics; treat E2 as conditional. Quarter/9M screens cannot be compared with annual assumptions.",
+    "limitations": "No portfolio-controlled signoff-quality or retained-cash cohort.",
+    "source_access_note": "Decisive issuer/supplier source extracts opened; outcome claims remain bounded as stated."
+  },
+  "C045": {
+    "status": "PASS",
+    "reviewed_at": "2026-09-12",
+    "review_scope": "Lead read financial and AI source extracts where available, reviewed the capsule and materiality calculation, and required the documented corrections.",
+    "checked_sources": [
+      "https://investor.cadence.com/news/news-details/2026/Cadence-Reports-Second-Quarter-2026-Financial-Results/default.aspx",
+      "https://www.cadence.com/en_US/home/ai.html"
+    ],
+    "findings": "Current GAAP margin and revenue are corroborated. AI design capability is clear, but controlled signoff quality and net vendor contribution are absent. The corrected illustration is negative USD14m; annualization remains a scale assumption.",
+    "limitations": "No portfolio-controlled signoff-quality or retained-cash cohort.",
+    "source_access_note": "Decisive issuer/supplier source extracts opened; outcome claims remain bounded as stated."
+  },
+  "C055": {
+    "status": "LIMITED",
+    "reviewed_at": "2026-09-12",
+    "review_scope": "Lead read financial and AI source extracts where available, reviewed the capsule and materiality calculation, and required the documented corrections.",
+    "checked_sources": [
+      "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/earnings-reports/2026/accenture-3q-fy26-earnings-release.pdf"
+    ],
+    "findings": "The filed Q3 result is corroborated. AI services demand/bookings are commercial evidence, not recurring profit. Billable-hour cannibalization, client sharing and reskilling costs matter; the quarter screen is not an annual comparison.",
+    "limitations": "bookings are signed demand, not revenue or profit; no net contribution.",
+    "source_access_note": "Q3 filed financials corroborated. Historical AI-bookings figure was not separately re-extracted in lead check; it remains a researcher-cited commercial metric."
+  },
+  "C056": {
+    "status": "PASS",
+    "reviewed_at": "2026-09-12",
+    "review_scope": "Lead read financial and AI source extracts where available, reviewed the capsule and materiality calculation, and required the documented corrections.",
+    "checked_sources": [
+      "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2026-27/q1/Presentations/Q1%202026-27%20Fact%20Sheet.pdf",
+      "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-results-q1-fy-2027"
+    ],
+    "findings": "The current Q1 release supports the AI revenue run rate and named deals. Run rate is not audited annual revenue, and adjusted operating income excludes an exceptional item. Retained contribution and the annual-period bridge remain open.",
+    "limitations": "annualized run-rate is not audited annual revenue and scope taxonomy may change; no net contribution.",
+    "source_access_note": "Decisive issuer/supplier source extracts opened; outcome claims remain bounded as stated."
+  },
+  "C068": {
+    "status": "LIMITED",
+    "reviewed_at": "2026-09-12",
+    "review_scope": "Lead read financial and AI source extracts where available, reviewed the capsule and materiality calculation, and required the documented corrections.",
+    "checked_sources": [
+      "https://www.safran-group.com/pressroom/safran-reports-its-first-half-2026-results-2026-07-28"
+    ],
+    "findings": "The financial result is supported, but no named Safran AI deployment was verified. Predictive-maintenance mechanisms remain hypotheses; aftermarket pricing, traffic and CFM/operator rights are central confounders.",
+    "limitations": "Financial release does not establish a named production AI workflow or outcome.",
+    "source_access_note": "Financial release corroborated; no named AI deployment was established."
+  },
+  "C069": {
+    "status": "PASS",
+    "reviewed_at": "2026-09-12",
+    "review_scope": "Lead read financial and AI source extracts where available, reviewed the capsule and materiality calculation, and required the documented corrections.",
+    "checked_sources": [
+      "https://www.geaerospace.com/news/press-releases/ge-aerospace-announces-second-quarter-2026-results",
+      "https://www.geaerospace.com/collaborative-insight"
+    ],
+    "findings": "Engine Health Monitoring supports named operating analytics at fleet scale. This is baseline deployment evidence, not isolated incremental AI efficacy. Separate consolidated, adjusted and CES measures and customer savings from GE contribution.",
+    "limitations": "Activity and outcome figures are company-reported and lack a matched fleet/cash comparator.",
+    "source_access_note": "Decisive issuer/supplier source extracts opened; outcome claims remain bounded as stated."
+  },
+  "C079": {
+    "status": "LIMITED",
+    "reviewed_at": "2026-09-12",
+    "review_scope": "Lead read financial and AI source extracts where available, reviewed the capsule and materiality calculation, and required the documented corrections.",
+    "checked_sources": [
+      "https://www.inditex.com/itxcomweb/lt/en/press/news-detail/a2c9b82b-1e27-4582-a7c9-746bc88b744e/interim-half-year-2026-results",
+      "https://static.inditex.com/annual_report_2025/en/"
+    ],
+    "findings": "The researcher extracted current H1 results; exact financial pages were intermittently inaccessible to the lead. No named AI deployment was established. Forecasting/design mechanisms and annual retained economics remain hypotheses.",
+    "limitations": "Opened sources did not establish a named, versioned Inditex production tool or controlled cash cohort.",
+    "source_access_note": "Inditex exact financial pages intermittently failed for lead; the researcher extracted current figures. No named AI deployment is accepted."
+  },
+  "C080": {
+    "status": "PASS",
+    "reviewed_at": "2026-09-12",
+    "review_scope": "Lead read financial and AI source extracts where available, reviewed the capsule and materiality calculation, and required the documented corrections.",
+    "checked_sources": [
+      "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+      "https://www.uber.com/blog/from-predictive-to-generative-ai/"
+    ],
+    "findings": "Michelangelo provides direct evidence of extensive baseline ML deployment. New generative functionality needs incremental tests. Net income includes investment gains; the quarterly operating screen is not comparable with the annual illustration.",
+    "limitations": "Company-reported baseline E2 scale, without a versioned incremental quality or net-cash cohort.",
+    "source_access_note": "Decisive issuer/supplier source extracts opened; outcome claims remain bounded as stated."
+  },
+  "C089": {
+    "status": "PASS",
+    "reviewed_at": "2026-09-12",
+    "review_scope": "Lead read financial and AI source extracts where available, reviewed the capsule and materiality calculation, and required the documented corrections.",
+    "checked_sources": [
+      "https://us.pg.com/newsroom/news-releases/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results/",
+      "https://www.microsoft.com/en/customers/story/25077-procter-and-gamble-iot-operations"
+    ],
+    "findings": "The supplier case supports deployed edge models and faster model deployment, not a 90% improvement in plant productivity. Current operating scale is corroborated; quality, downtime and retained factory cash require matched evidence.",
+    "limitations": "Supplier case study; deployment time is not OEE, downtime, quality or retained cash.",
+    "source_access_note": "Decisive issuer/supplier source extracts opened; outcome claims remain bounded as stated."
+  },
+  "C090": {
+    "status": "PASS",
+    "reviewed_at": "2026-09-12",
+    "review_scope": "Lead read financial and AI source extracts where available, reviewed the capsule and materiality calculation, and required the documented corrections.",
+    "checked_sources": [
+      "https://www.sec.gov/Archives/edgar/data/104169/000010416926000145/earningsreleasefy27q2.htm",
+      "https://corporate.walmart.com/news/2025/03/18/walmart-develops-genai-powered-assistant-for-walmart-merchants"
+    ],
+    "findings": "Wally is a named merchant assistant with company-reported use. Autonomous action is a future direction. Tariff refunds and other business drivers confound profit; no controlled assortment or owner-cash result is established.",
+    "limitations": "No controlled merchant-output, gross-profit or labor-cash cohort.",
+    "source_access_note": "Decisive issuer/supplier source extracts opened; outcome claims remain bounded as stated."
+  },
+  "C099": {
+    "status": "LIMITED",
+    "reviewed_at": "2026-09-12",
+    "review_scope": "Lead read financial and AI source extracts where available, reviewed the capsule and materiality calculation, and required the documented corrections.",
+    "checked_sources": [
+      "https://ir.prologis.com/financials/sec-filings/content/0001193125-26-305416/pld-ex99_2.htm",
+      "https://www.prologis.com/annual-report-2025"
+    ],
+    "findings": "The filed release corroborates core FFO per share. A named owner AI deployment was not established. Aggregate cost assumptions cannot be compared with a per-share FFO hurdle without a consistent share count and period.",
+    "limitations": "No named Prologis deployment or matched retained-cash cohort was found in opened sources.",
+    "source_access_note": "Financial release corroborated; no named AI deployment was established."
+  },
+  "C100": {
+    "status": "PASS",
+    "reviewed_at": "2026-09-12",
+    "review_scope": "Lead read financial and AI source extracts where available, reviewed the capsule and materiality calculation, and required the documented corrections.",
+    "checked_sources": [
+      "https://www.cbre.com/press-releases/cbre-q2-2026-earnings",
+      "https://www.cbre.com/insights/articles/everyone-can-have-a-digital-assistant-with-ellis-ai"
+    ],
+    "findings": "Ellis supports named research, contract and sales-assistant use. Management time-saving claims lack controls and cash reconciliation. Pass-through client expenses, fee terms and real-estate cyclicality govern retained contribution.",
+    "limitations": "Company claim has no eligible-workload denominator, matched quality control, adoption rate or retained-cash cohort; E2, not E3.",
+    "source_access_note": "Decisive issuer/supplier source extracts opened; outcome claims remain bounded as stated."
+  }
+}

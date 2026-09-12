@@ -16,9 +16,9 @@
     {
       "url": "https://investors.danaher.com/annual-reports",
       "title": "Annual report / financial results",
-      "date": "2024",
+      "date": "FY2025 ended 2025-12-31",
       "opened": true,
-      "supports": "latest financial anchor used in packet"
+      "supports": "FY2025 net earnings $3.6bn; direct filing line should be reopened"
     },
     {
       "url": "https://www.danaher.com/how-we-work/innovation",
@@ -48,7 +48,7 @@
     "unit": "USD billion",
     "period": "FY2025",
     "source_url": "https://investors.danaher.com/annual-reports",
-    "caveat": "$4.4bn-scale reported operating profit; measure may be adjusted or a labelled scale proxy and is not normalized."
+    "caveat": "FY2025 net earnings govern the after-tax screen; Q2 2026 net earnings of $870m are current context and are not annualized."
   },
   "ai_claim": {
     "claim": "Danaher describes scoped AI/digital mechanisms in AI-assisted microscopy, cytometry and diagnostic image analysis, predictive maintenance and remote service on installed instruments.",
@@ -63,11 +63,11 @@
     "limitation": "Competitive capability does not by itself prove equal outcomes."
   },
   "rights_limit": "Patient and laboratory data are controlled by customers and healthcare rules; equipment telemetry access and reuse depend on service and software agreements.",
-  "materiality_summary": "The labelled 5% scale hurdle is $220m; public evidence does not establish it.",
+  "materiality_summary": "Five percent of the completed-year governing metric is $180m; public evidence does not establish an AI-attributed amount.",
   "arithmetic": {
-    "inputs": "Using the $4",
-    "formula": "Using the $4.4bn reported-profit scale proxy, 5% is about $220m. A $2.0bn eligible pool \u00d7 12% efficiency \u00d7 60% realization \u00d7 50% retention \u2212 $40m recurring cost = $32m, far short absent revenue/service effects.",
-    "result": "Illustrative bridge remains below or must be compared with $220m; not a forecast."
+    "inputs": "FY2025 net earnings $3.6bn; 5%; illustrative eligible pool $2.0bn, efficiency 12%, realization 60%, retention 50%, recurring cost $40m; illustrative tax rate 20%",
+    "formula": "$3.6bn × 5% = $180m hurdle; $2.0bn × 12% × 60% × 50% − $40m = $32m illustrative benefit; $32m × (1 − 20%) = $25.6m after tax",
+    "result": "Illustrative $25.6m after tax is below the $180m annual after-tax hurdle. The 20% tax rate is an explicit research assumption, not company guidance."
   },
   "confidence": {
     "mechanism": "medium",

@@ -1,0 +1,728 @@
+{
+  "cutoff": "2026-09-12",
+  "scope_expected": 90,
+  "scope_completed": 90,
+  "method": "Independent arithmetic recomputation from capsule inputs/formulas. Status addresses algebra and dimensional comparability, not source accuracy or assumption validity. Net-income/earnings hurdles require after-tax benefits; PV and annual flows are not compared unless converted to a common horizon, tax and discount basis.",
+  "records": {
+    "C001": {
+      "formula": "annual hurdle=12,149×0.05; portfolio PV=20×250×0.15×0.80",
+      "formula_result": "€607.45m/year hurdle; €600m one-time PV",
+      "claimed_result": "€607m/year hurdle; €600m one-time portfolio PV before recurring cost; incomparable bases, so no break-even claim",
+      "dimensions": "annual pre-tax hurdle versus one-time programme PV; not comparable without common horizon/tax/discount basis",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C002": {
+      "formula": "hurdle=1,190; pathology=152; R&D_PV=450",
+      "formula_result": "CHF1.190bn/year hurdle; CHF152m/year pathology; CHF450m one-time R&D PV",
+      "claimed_result": "CHF1.19bn/year hurdle; CHF152m/year pathology; CHF450m one-time R&D PV, not directly comparable",
+      "dimensions": "annual profit hurdle plus annual pathology benefit versus one-time R&D PV; PV is not directly comparable",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C003": {
+      "formula": "0.05×$13.743bn=$687.15m/year; $687.15m×6.145=$4.22bn PV",
+      "formula_result": "$687.15m/year; $4.222bn 10-year PV",
+      "claimed_result": "$687m annual hurdle or $4.22bn same-duration PV equivalent; illustrative, not forecast.",
+      "dimensions": "annual pre-tax operating contribution and same ten-year pre-tax PV",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C004": {
+      "formula": "annual AI-attributable stage-adjusted contribution + realized operating savings - annual platform/validation expense >= 0.05*21.889bn",
+      "formula_result": "$1.09445bn/year hurdle; AI contribution unspecified",
+      "claimed_result": "break-even requirement >= $1.094bn annual pre-tax benefit; achievement unestablished",
+      "dimensions": "annual pre-tax threshold; AI benefit inputs unquantified",
+      "status": "UNQUANTIFIED",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C005": {
+      "formula": "annual AI-attributable stage-adjusted contribution + realized savings - annual partner/platform/validation costs >= 0.05*127.658bn",
+      "formula_result": "DKK6.3829bn/year hurdle; AI contribution unspecified",
+      "claimed_result": "break-even >= DKK6.383bn annual pre-tax; achievement unestablished",
+      "dimensions": "annual pre-tax threshold; AI benefit inputs unquantified",
+      "status": "UNQUANTIFIED",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C023": {
+      "formula": "16.9 × 4 × 0.05",
+      "formula_result": "$3.38bn/year after tax",
+      "claimed_result": "$3.38bn annual after-tax scale hurdle",
+      "dimensions": "Annual pre-tax illustration versus annual after-tax earnings screen; no tax conversion supplied.",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit. Final consistency correction: The $0.524bn annual pre-tax expense-benefit illustration is NOT_COMPARABLE with the $3.38bn annual after-tax scale hurdle without an explicit tax conversion; no above/below conclusion is retained."
+    },
+    "C026": {
+      "formula": "23.994 × 0.05",
+      "formula_result": "$1.1997bn/year",
+      "claimed_result": "$1.1997bn annual hurdle",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C053": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "-$0.3125bn/year (claimed -$0.31bn rounded)",
+      "claimed_result": "negative $0.31bn",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C062": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "$37.5m/year",
+      "claimed_result": "$37.5m",
+      "dimensions": "Annual pre-tax illustration versus annual after-tax earnings screen; no tax conversion supplied.",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit. Final consistency correction: The $37.5m annual pre-tax operating-benefit illustration is NOT_COMPARABLE with the $243.75m annual after-tax guidance hurdle without an explicit tax conversion; no above/below conclusion is retained."
+    },
+    "C072": {
+      "formula": "0.05×$8.923bn=$446.15m; $4bn×8%×60%×50%−$50m=$46m",
+      "formula_result": "$446.15m hurdle; $46m illustration",
+      "claimed_result": "$446m hurdle versus $46m illustration.",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C006": {
+      "formula": "2.0/3.9927=0.501; 1.315×(1-0.18)=1.078",
+      "formula_result": "$0.50091bn after-tax equivalent annuity; $1.0783bn after-tax annual hurdle",
+      "claimed_result": "$0.501bn equivalent annual benefit versus $1.078bn after-tax annual hurdle; illustrative and unproven",
+      "dimensions": "after-tax annual equivalent on both sides after annuity/tax conversion",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C007": {
+      "formula": "3.154×0.05=0.1577; 0.1577/0.70",
+      "formula_result": "€157.7m EBIT/year; €225.286m revenue/year at 70% margin",
+      "claimed_result": "€157.7m annual EBIT hurdle, requiring €225.3m incremental revenue at assumed margin",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C008": {
+      "formula": "211+78-60",
+      "formula_result": "$228.6m/year (claimed $229m rounded)",
+      "claimed_result": "$229m/year; 65.25% first-module adoption required (USD millions basis)",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C009": {
+      "formula": "84+42−30",
+      "formula_result": "$96.312m/year (claimed $96m rounded)",
+      "claimed_result": "$96m/year; analytics attach required 64.1%",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C010": {
+      "formula": "$7.75bn × 5% = $387.5m hurdle; $3.0bn × 10% × 60% × 50% − $50m = $40m illustrative benefit",
+      "formula_result": "$387.5m/year hurdle; $40m/year illustration",
+      "claimed_result": "Illustrative $40m is below the $387.5m annual pre-tax hurdle; customer labor savings are excluded and this is not a forecast.",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C011": {
+      "formula": "$3.6bn × 5% = $180m hurdle; $2.0bn × 12% × 60% × 50% − $40m = $32m illustrative benefit; $32m × (1 − 20%) = $25.6m after tax",
+      "formula_result": "$180m/year after-tax hurdle; $25.6m/year after-tax illustration",
+      "claimed_result": "Illustrative $25.6m after tax is below the $180m annual after-tax hurdle. The 20% tax rate is an explicit research assumption, not company guidance.",
+      "dimensions": "annual after-tax hurdle and annual after-tax illustration using stated 20% assumption",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C012": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "-$34.8m/year",
+      "claimed_result": "negative $34.8m",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C013": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "$46m/year",
+      "claimed_result": "$46m",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C014": {
+      "formula": "8000*.15*.50*.50-250",
+      "formula_result": "$50m/year; $948.2m hurdle",
+      "claimed_result": "$50m illustrative benefit, below $948.2m hurdle",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C016": {
+      "formula": "2000*.15*.60*.50-80",
+      "formula_result": "$10m/year pre-tax; $8m/year after-tax; $140m H1 after-tax hurdle",
+      "claimed_result": "$10m pre-tax / $8m after-tax annual sensitivity; NOT_COMPARABLE with the $140m half-year hurdle without time alignment",
+      "dimensions": "annual after-tax illustration versus H1 after-tax hurdle; not comparable without time alignment",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C017": {
+      "formula": "17.374×5%=0.8687; 0.8687/86.7",
+      "formula_result": "€868.7m/year; 1.002%=100.2bp of P&C volume",
+      "claimed_result": "€868.7m or about 100 bps of P&C volume",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C019": {
+      "formula": "81.661×(1-.871)×.05; result/81.661",
+      "formula_result": "$526.713m/year; 64.5bp (rounded)",
+      "claimed_result": "$526.7m hurdle; 64.5bp of earned premium (rounded)",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "CORRECTED",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C020": {
+      "formula": "62.5×(1−0.20)",
+      "formula_result": "$50m/year after tax",
+      "claimed_result": "$50m after tax/year; OPAT comparison remains illustrative",
+      "dimensions": "annual after-tax benefit and OPAT basis",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C021": {
+      "formula": "108+134−100",
+      "formula_result": "$142m/year",
+      "claimed_result": "$142m/year; 68.5% tech uplift needed holding cost bridge",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C022": {
+      "formula": "C$7.5bn × 5% = C$375m hurdle; C$2.5bn × 10% × 60% × 50% − C$40m = C$35m illustrative benefit; C$35m × (1 − 20%) = C$28m after tax",
+      "formula_result": "C$375m/year after-tax-style hurdle; C$28m/year after-tax illustration",
+      "claimed_result": "Illustrative C$28m after tax is below the C$375m annual after-tax hurdle. The 20% tax rate is an explicit research assumption, not company guidance.",
+      "dimensions": "annual after-tax-style hurdle and after-tax illustration using stated 20% assumption",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C024": {
+      "formula": "S$11.0bn × 5% = S$550m hurdle; S$3bn × 10% × 60% × 50% − S$60m = S$30m illustrative benefit; S$30m × (1 − 17%) = S$24.9m after tax",
+      "formula_result": "S$550m/year after-tax hurdle; S$24.9m/year after-tax illustration",
+      "claimed_result": "Illustrative S$24.9m after tax is below the S$550m annual after-tax hurdle. The 17% tax rate is an explicit research assumption, not company guidance.",
+      "dimensions": "annual after-tax hurdle and after-tax illustration using stated 17% assumption",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C025": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "₹3.4bn/year",
+      "claimed_result": "₹3.4bn",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C027": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "-$70m/year",
+      "claimed_result": "negative $70m",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C028": {
+      "formula": "200000*.009*.002*.40*.50-20",
+      "formula_result": "-€19.28m/year",
+      "claimed_result": "negative €19.28m illustration; only uplift is disclosed",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "CORRECTED",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C029": {
+      "formula": "2500*.20*.60*.50-100",
+      "formula_result": "$50m/year",
+      "claimed_result": "$50m illustrative benefit, below hurdle",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C030": {
+      "formula": "1.968 × 0.05",
+      "formula_result": "$98.4m for H1 2026",
+      "claimed_result": "$98.4m for the six-month period; period-only scale, NOT_COMPARABLE to annual benefits",
+      "dimensions": "H1 period amount; not comparable to annual benefit",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C032": {
+      "formula": "1.428 × 0.05",
+      "formula_result": "£71.4m for H1 2026",
+      "claimed_result": "£71.4m for the six-month period; period-only scale, NOT_COMPARABLE to annual benefits",
+      "dimensions": "H1 period amount; not comparable to annual benefit",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C033": {
+      "formula": "49+27",
+      "formula_result": "$76m/year from stated intermediate formula",
+      "claimed_result": "$76m/year; 52.1% upsell required",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C038": {
+      "formula": "42.1−15+12",
+      "formula_result": "$39.1m/year",
+      "claimed_result": "$39.1m/year; 9.3% upsell required",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C039": {
+      "formula": "$512m × 5% = $25.6m hurdle; $1.0bn × 15% × 50% × 50% − $20m = $17.5m illustrative benefit; $17.5m × (1 − 25%) = $13.125m after tax",
+      "formula_result": "$25.6m/year after-tax hurdle; $13.125m/year after-tax illustration",
+      "claimed_result": "Illustrative $13.125m after tax is below the $25.6m annual after-tax hurdle. The 25% tax rate is an explicit research assumption, not company guidance.",
+      "dimensions": "annual after-tax hurdle and after-tax illustration using stated 25% assumption",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C040": {
+      "formula": "$4.4135bn × 5% = $220.675m hurdle; $4bn × 12% × 60% × 60% − $50m = $122.8m illustrative benefit; $122.8m × (1 − 23%) = $94.556m after tax",
+      "formula_result": "$220.675m/year after-tax hurdle; $94.556m/year after-tax illustration",
+      "claimed_result": "Illustrative $94.556m after tax is below the $220.675m annual after-tax hurdle. The 23% tax rate is an explicit research assumption matching ADP’s disclosed FY2026 effective tax rate.",
+      "dimensions": "annual after-tax hurdle and after-tax illustration using stated 23% rate",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C042": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "-$10m/year",
+      "claimed_result": "negative $10m",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C043": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "-$200m/year",
+      "claimed_result": "negative $200m",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C044": {
+      "formula": "$1.0bn eligible R&D/support cost × 15% × 60% × 50% − $60m = −$15m",
+      "formula_result": "-$15m/year illustration; $17.87455m Q3 and $34.04815m nine-month hurdles",
+      "claimed_result": "Illustrative only; customer savings excluded from vendor cost; annual illustration is NOT_COMPARABLE with the reported-period hurdle without time alignment.",
+      "dimensions": "annual pre-tax illustration versus Q3/nine-month pre-tax hurdles; not comparable",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C045": {
+      "formula": "$800m eligible cost × 15% × 60% × 50% − $50m = −$14m",
+      "formula_result": "-$14m/year",
+      "claimed_result": "negative $14m illustrative; customer savings excluded from vendor cost.",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "CORRECTED",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C046": {
+      "formula": "0.358 × 0.05",
+      "formula_result": "€17.9m for Q2 2026",
+      "claimed_result": "€17.9m for the quarter; period-only scale, NOT_COMPARABLE to annual benefits",
+      "dimensions": "quarter amount; not comparable to annual benefit",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C047": {
+      "formula": "1.14 × 0.05",
+      "formula_result": "$57.0m for H1 FY2027",
+      "claimed_result": "$57.0m for the half year; period-only scale, NOT_COMPARABLE to annual benefits",
+      "dimensions": "half-year amount; not comparable to annual benefit",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C048": {
+      "formula": "10+22.8",
+      "formula_result": "NT$32.75bn/year (claimed 32.8 rounded)",
+      "claimed_result": "NT$32.8bn/year; 6.3% output lift required",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C049": {
+      "formula": "(143.36+26.8)×80%",
+      "formula_result": "€170.16m/year (claimed 170 rounded)",
+      "claimed_result": "€136.13m/year after tax; 39.2% software uplift required",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C050": {
+      "formula": "$8.29bn × 5% = $414.5m hurdle; $3bn × 10% × 60% × 50% − $70m = $20m illustrative benefit",
+      "formula_result": "$414.5m/year hurdle; $20m/year illustration",
+      "claimed_result": "Illustrative $20m is below the $414.5m annual pre-tax hurdle; customer yield savings are not Applied Materials cost savings.",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C051": {
+      "formula": "$4.83bn × 5% = $241.5m hurdle; $1.5bn × 12% × 60% × 50% − $35m = $19m illustrative benefit; $19m × (1 − 20%) = $15.2m after tax",
+      "formula_result": "$241.5m/year after-tax hurdle; $15.2m/year after-tax illustration",
+      "claimed_result": "Illustrative $15.2m after tax is below the $241.5m annual after-tax hurdle. The 20% tax rate is an explicit research assumption, not company guidance.",
+      "dimensions": "annual after-tax hurdle and after-tax illustration using stated 20% assumption",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C052": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "-$1.4bn/year",
+      "claimed_result": "negative $1.4bn",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C054": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "-$3.5bn/year",
+      "claimed_result": "negative $3.5bn",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C055": {
+      "formula": "10000*.15*.50*.30-300",
+      "formula_result": "-$75m/year illustration; $158.765m Q3 hurdle per unrounded source",
+      "claimed_result": "-$75m illustrative; billable-hours/client sharing decisive; annual illustration is NOT_COMPARABLE with the reported-period hurdle without time alignment.",
+      "dimensions": "annual pre-tax illustration versus Q3 pre-tax hurdle; not comparable",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C056": {
+      "formula": "10000*.15*.50*.30-300",
+      "formula_result": "-$75m/year illustration; $91.3m Q1 adjusted hurdle",
+      "claimed_result": "-$75m illustrative; billable-hours/client sharing decisive; annual illustration is NOT_COMPARABLE with the reported-period hurdle without time alignment.",
+      "dimensions": "annual pre-tax illustration versus Q1 adjusted pre-tax hurdle; not comparable",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C057": {
+      "formula": "0.695 × 0.05",
+      "formula_result": "$34.75m for FY2026",
+      "claimed_result": "$34.75m per year",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C058": {
+      "formula": "0.371649 × 0.05",
+      "formula_result": "$18.58245m for Q2 FY2027, non-GAAP",
+      "claimed_result": "$18.582m for the quarter (non-GAAP); period-only scale, NOT_COMPARABLE to annual benefits",
+      "dimensions": "quarter non-GAAP amount; not comparable to annual benefit",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C061": {
+      "formula": "63+55",
+      "formula_result": "$118m/year",
+      "claimed_result": "$118m/year; 33.1% uplift required",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C063": {
+      "formula": "205+25",
+      "formula_result": "$229.75m/year (claimed $230m rounded); required truck value $650.24k",
+      "claimed_result": "$230m/year; ~$650.24k/truck annual value required",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C064": {
+      "formula": "0.05×¥567.3bn=¥28.365bn annual hurdle",
+      "formula_result": "¥28.365bn/year (claimed ¥28.4bn rounded)",
+      "claimed_result": "¥28.4bn annual hurdle; no disclosed AI-attributed contribution.",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C065": {
+      "formula": "€6.1bn × 5% = €305m hurdle; €10bn × 5% × 60% × 40% − €100m = €20m illustrative benefit",
+      "formula_result": "€305m/year hurdle; €20m/year illustration",
+      "claimed_result": "Illustrative €20m is below the €305m annual pre-tax operating hurdle; shipper savings are excluded.",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C066": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "$150m/year",
+      "claimed_result": "$150m",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C067": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "C$22m/year",
+      "claimed_result": "C$22m",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C068": {
+      "formula": "2000*.15*.60*.50-80",
+      "formula_result": "€10m/year",
+      "claimed_result": "10m illustrative benefit, far below hurdle",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C069": {
+      "formula": "2000*.15*.60*.50-80",
+      "formula_result": "$10m/year",
+      "claimed_result": "10m illustrative benefit, far below hurdle",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C070": {
+      "formula": "1.253 × 0.05",
+      "formula_result": "$62.65m for Q2 2026",
+      "claimed_result": "$62.65m for the quarter; period-only scale, NOT_COMPARABLE to annual benefits",
+      "dimensions": "quarter amount; not comparable to annual benefit",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C071": {
+      "formula": "2.61 × 0.05",
+      "formula_result": "$130.5m for FY2026",
+      "claimed_result": "$130.5m per year",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C073": {
+      "formula": "44.5+12.3",
+      "formula_result": "€56.75m/year (claimed €56.8m rounded)",
+      "claimed_result": "€56.8m/year; 8.2% efficiency required",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C074": {
+      "formula": "20.79+1.84−12",
+      "formula_result": "€10.63m/year",
+      "claimed_result": "€10.63m/year; 33.0% cycle reduction required",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C075": {
+      "formula": "$10.0bn × 5% = $500m hurdle; $8bn × 5% × 70% × 70% − $100m = $96m illustrative benefit; $96m × (1 − 30%) = $67.2m after tax",
+      "formula_result": "$500m/year after-tax hurdle; $67.2m/year after-tax illustration",
+      "claimed_result": "Illustrative $67.2m after tax is below the $500m annual after-tax hurdle. The 30% tax rate is an explicit research assumption, not company guidance.",
+      "dimensions": "annual after-tax hurdle and after-tax illustration using stated 30% assumption",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C076": {
+      "formula": "0.05×$13.0bn=$650m",
+      "formula_result": "$650m/year after tax",
+      "claimed_result": "$650m annual earnings hurdle; no AI-attributed cash result.",
+      "dimensions": "annual profit after tax; any benefit comparison must be after tax",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C077": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "-RMB9.04bn/year",
+      "claimed_result": "negative RMB9.04bn",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C078": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "-$40m/year",
+      "claimed_result": "negative $40m",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C079": {
+      "formula": "assumed €10bn eligible inventory purchases × 1% markdown/obsolescence improvement × 60% realization × 50% retention − €30m cost = €0m",
+      "formula_result": "€0m/year illustration; €192.15m H1 hurdle",
+      "claimed_result": "Illustrative only; annual cost-pool illustration is NOT_COMPARABLE with the half-year hurdle without time alignment; no E4 conclusion",
+      "dimensions": "annual aggregate euros versus H1 euro hurdle; not comparable without time alignment",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C080": {
+      "formula": "assumed $20bn eligible incentive/support/loss pool × 2% improvement × 70% realization × 50% retention − $100m cost = $40m",
+      "formula_result": "$40m/year illustration; $95m Q2 hurdle",
+      "claimed_result": "Illustrative only; annual cost-pool illustration is NOT_COMPARABLE with the quarterly hurdle without time alignment; no E4 conclusion",
+      "dimensions": "annual aggregate dollars versus Q2 dollar hurdle; not comparable without time alignment",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C081": {
+      "formula": "3.771 × 0.05",
+      "formula_result": "$188.55m for H1 2026",
+      "claimed_result": "$188.55m for the half year; period-only scale, NOT_COMPARABLE to annual benefits",
+      "dimensions": "half-year amount; not comparable to annual benefit",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C082": {
+      "formula": "0.9432 × 0.05",
+      "formula_result": "€47.16m for H1 2026",
+      "claimed_result": "€47.16m for the half year; period-only scale, NOT_COMPARABLE to annual benefits",
+      "dimensions": "half-year amount; not comparable to annual benefit",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C083": {
+      "formula": "7.86+5.63−15",
+      "formula_result": "-¥1.518bn/year (claimed -¥1.52bn rounded)",
+      "claimed_result": "−¥1.52bn/year; 283% inspection-cost reduction required",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C084": {
+      "formula": "33.31+41.60−25",
+      "formula_result": "€49.904m/year (claimed €49.91m rounded)",
+      "claimed_result": "€49.91m/year; 83.3% inspection-cost reduction required",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C085": {
+      "formula": "$3.797bn × 5% = $189.85m hurdle; $3bn × 10% × 50% × 50% − $60m = $15m illustrative benefit",
+      "formula_result": "$189.85m/year hurdle; $15m/year illustration",
+      "claimed_result": "Illustrative $15m is below the $189.85m annual pre-tax hurdle; avoided markdown requires matched seasons and is not evidenced by A.I.R.",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C086": {
+      "formula": "€17.8bn × 5% = €890m hurdle; €5bn × 8% × 50% × 50% − €80m = €20m illustrative benefit",
+      "formula_result": "€890m/year hurdle; €20m/year illustration",
+      "claimed_result": "Illustrative €20m is below the €890m annual pre-tax recurring-profit hurdle; no AI-attributed amount is established.",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C087": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "€90m/year",
+      "claimed_result": "€90m",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C088": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "CHF88m/year",
+      "claimed_result": "CHF88m",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C089": {
+      "formula": "assumed $15bn eligible SG&A/supply cost × 10% efficiency × 60% realization × 40% retention − $250m = $110m",
+      "formula_result": "$110m/year",
+      "claimed_result": "Illustrative benefit below hurdle",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C090": {
+      "formula": "assumed $40bn eligible labor/logistics cost × 5% efficiency × 60% realization × 40% retention − $300m = $180m",
+      "formula_result": "$180m/year",
+      "claimed_result": "Illustrative benefit below hurdle",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C091": {
+      "formula": "7.884 × 0.05",
+      "formula_result": "$394.2m for 36 weeks FY2026",
+      "claimed_result": "$394.2m for 36 weeks; period-only scale, NOT_COMPARABLE to annual benefits",
+      "dimensions": "36-week amount; not comparable to annual benefit",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C092": {
+      "formula": "2.5 × 0.05",
+      "formula_result": "€125m for Q2 2026 after tax",
+      "claimed_result": "€125m for the quarter after tax; period-only scale, NOT_COMPARABLE to annual benefits",
+      "dimensions": "quarter after-tax amount; not comparable to annual benefit",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C093": {
+      "formula": "51.19+8.75−25",
+      "formula_result": "S$34.9375m/year; required utilization 116.13%",
+      "claimed_result": "S$34.94m/year; 116.1% utilization required",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C094": {
+      "formula": "1.710−1.0",
+      "formula_result": "$0.709654bn/year (claimed $0.710bn rounded); required uplift 5.563%",
+      "claimed_result": "$0.710bn/year; 5.56% revenue uplift required",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C095": {
+      "formula": "$45.183bn×29.5%=$13.329bn; ×5%=$666.5m",
+      "formula_result": "$13.3290bn operating income; $666.452m/year hurdle",
+      "claimed_result": "About $667m annual hurdle.",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C096": {
+      "formula": "0.05×$18.5bn=$925m",
+      "formula_result": "$925m/year after tax/non-GAAP",
+      "claimed_result": "$925m annual hurdle; no AI-attributed cash result.",
+      "dimensions": "annual adjusted earnings, post-tax/non-GAAP; any compared benefit must match",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C097": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "$44m/year",
+      "claimed_result": "$44m",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C098": {
+      "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+      "formula_result": "-€20m/year",
+      "claimed_result": "negative €20m",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C099": {
+      "formula": "assumed $1bn eligible property/admin cost × 10% × 60% × 40% − $30m = negative $6m",
+      "formula_result": "-$6m aggregate annual illustration; per-share Q2 hurdle cannot be compared without diluted shares/time alignment",
+      "claimed_result": "Negative $6m aggregate-dollar illustration; incomparable with the per-share hurdle without a same-period diluted-share denominator.",
+      "dimensions": "annual aggregate dollars versus quarterly per-share hurdle; not comparable without diluted shares and time alignment",
+      "status": "NOT_COMPARABLE",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    },
+    "C100": {
+      "formula": "assumed $4bn eligible labor cost × 15% × 60% × 40% − $120m = $24m",
+      "formula_result": "$24m/year",
+      "claimed_result": "Illustrative only and below hurdle",
+      "dimensions": "annual currency amount; assumptions are algebra-audited, not validated",
+      "status": "PASS",
+      "note": "Algebra only; source accuracy and assumption realism are outside this audit."
+    }
+  }
+}

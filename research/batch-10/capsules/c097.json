@@ -7,11 +7,11 @@
   "latest_financial_period": "Q2 2026 (ended 30 June 2026)",
   "sources": [
     {
-      "url": "https://investorcenter.slb.com/news-releases/news-release-details/2026/slb-announces-second-quarter-2026-results/",
-      "title": "Latest financial results",
+      "url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-announces-second-quarter-2026-results",
+      "title": "SLB second-quarter 2026 results",
       "date": "24 July 2026",
-      "opened": false,
-      "supports": "source target; retrieval did not yield auditable supporting extract"
+      "opened": true,
+      "supports": "revenue, GAAP pretax income, net income, cash flow and digital demand"
     },
     {
       "url": "https://investorcenter.slb.com/financial-information/annual-reports-and-proxy",
@@ -43,19 +43,19 @@
     }
   ],
   "financial_anchor": {
-    "metric": "Q2 2026 revenue and free cash flow",
-    "value": "$8.972bn; $716m",
+    "metric": "Q2 2026 revenue and GAAP income before taxes",
+    "value": "$8.972bn; $1.018bn",
     "unit": "USD",
     "period": "Q2 2026 (ended 30 June 2026)",
-    "source_url": "https://investorcenter.slb.com/news-releases/news-release-details/2026/slb-announces-second-quarter-2026-results/",
-    "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
+    "source_url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-announces-second-quarter-2026-results",
+    "caveat": "Quarter-only GAAP pretax basis; ChampionX contributed $870m revenue and acquisition mix affects comparability."
   },
   "ai_claim": {
-    "claim": "Lumi and digital drilling are plausible SLB AI/digital mechanisms, but neither the product page nor a named customer deployment was successfully opened in this audit.",
-    "stage": "E0/E1 unverified product capability",
-    "source_url": "https://www.slb.com/products-and-services/delivering-digital-at-scale/lumi-data-and-ai-platform",
+    "claim": "SLB reported that Digital revenue rose 18% year over year to $697m and that digital, AI and data-driven workflows are active in subsurface and operational decisions.",
+    "stage": "E1/E2 issuer-reported active workflows and commercial demand; no controlled outcome or E4",
+    "source_url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-announces-second-quarter-2026-results",
     "scope": "Lumi/digital drilling hypotheses only.",
-    "limitation": "No opened deployment cohort, field KPI or retained-economics evidence."
+    "limitation": "No Lumi-specific customer cohort, matched field KPI, causal margin lift or retained-cash bridge."
   },
   "strongest_counterevidence": {
     "claim": "oil cycles, offshore mix and ChampionX integration dominate results.",
@@ -63,9 +63,9 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "No exact source-backed annual operating-income denominator was verified, so the prior $250m hurdle is withdrawn. Q2 revenue, free cash flow and net income are different measures and cannot substitute for annual operating income without a stated conversion.",
+  "materiality_summary": "$50.9m = 5% of Q2 2026 GAAP income before taxes of $1.018bn. This is a quarter-only, pre-tax screen and is NOT_COMPARABLE with the annual benefit illustration; no annualization is assumed.",
   "arithmetic": {
-    "inputs": "pool $6bn eligible engineering, field-service and digital operations cost/revenue pool; efficiency 12%; realization 40%; retained share 50%; recurring cost $100m",
+    "inputs": "assumed $6bn annual own engineering, field-service and digital-operations expense pool; efficiency 12%; realization 40%; retained share 50%; recurring cost $100m",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
     "result": "$44m"
   },

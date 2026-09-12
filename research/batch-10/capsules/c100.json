@@ -52,17 +52,17 @@
   "financial_anchor": {
     "metric": "latest sector profit measure",
     "value": "$836m core EBITDA; GAAP net income attributable $204m",
-    "unit": "USD/per-share as stated",
+    "unit": "USD",
     "period": "Q2 2026 ended 30 June, released 29 July 2026",
     "source_url": "https://www.cbre.com/press-releases/cbre-q2-2026-earnings",
     "caveat": "Non-GAAP/GAAP and cycle/pass-through reconciliation in dossier."
   },
   "ai_claim": {
-    "claim": "CBRE describes Ellis AI as a self-service multi-model GenAI platform used by teams for digital-assistant workflows.",
+    "claim": "CBRE says Ellis AI launched in 2023 and is used for research, supply-chain contract extraction and sales assistants; it reports selected work moving from weeks to minutes.",
     "stage": "E2 scoped company-reported deployment; no E3 controlled economics",
     "source_url": "https://www.cbre.com/insights/articles/everyone-can-have-a-digital-assistant-with-ellis-ai",
     "scope": "research, advisory and property-workflow assistance",
-    "limitation": "Company case description lacks a matched quality, adoption and retained-cash cohort."
+    "limitation": "Company claim has no eligible-workload denominator, matched quality control, adoption rate or retained-cash cohort; E2, not E3."
   },
   "strongest_counterevidence": {
     "claim": "2025 transaction recovery, acquisitions, pass-through facilities costs, incentive compensation and real-estate cycle explain much growth; clients own building data and can demand savings",

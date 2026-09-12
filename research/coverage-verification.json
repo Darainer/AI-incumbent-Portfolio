@@ -1,0 +1,23 @@
+{
+  "cutoff": "2026-09-12",
+  "scope": 100,
+  "batch_count": 10,
+  "packets_available": 100,
+  "lead_reviewed": 100,
+  "initial_batch_preserved": 10,
+  "additional_packets": 90,
+  "additional_source_review": {
+    "PASS": 56,
+    "LIMITED": 34
+  },
+  "additional_arithmetic_review": {
+    "NOT_COMPARABLE": 21,
+    "PASS": 64,
+    "UNQUANTIFIED": 2,
+    "CORRECTED": 3
+  },
+  "final_consistency_unresolved_errors": 0,
+  "final_consistency_scope": 90,
+  "phase": "Evidence coverage complete; explicit comparative ranking and detailed bear/base/bull cases deferred.",
+  "interpretation": "Accepted means research coverage is complete with stated limits, not that the AI thesis or investment gates pass."
+}

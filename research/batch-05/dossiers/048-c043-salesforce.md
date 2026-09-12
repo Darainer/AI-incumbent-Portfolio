@@ -80,3 +80,9 @@ Access limits: some issuer pages dynamically expose PDFs or tables; where exact 
 ## Reviewer handoff
 
 Verify: (1) the latest financial anchor and reported/adjusted reconciliation; (2) whether the cited product outcome is production, representative and quality controlled; (3) contract-level training, retention and pooled-learning rights. Strongest counterargument: agent execution can cannibalize user seats or shift value to foundation-model suppliers; work-unit counts omit correctness and customer economics. Blocking items are cohort economics, labor/capacity realization, recurring technology cost and customer/supplier sharing. **Provisional disposition:** evidence watch; unreviewed. Capsule: [`../../batch-05/capsules/c043.json`](../capsules/c043.json).
+
+## Source-audit correction — 12 September 2026
+
+The opened issuer release reports Q2 revenue of $11.345bn and GAAP operating income of $2.331bn; FY2027 guidance is $46.1–46.4bn revenue at a 20.1% GAAP operating margin. It also reports Agentforce ARR above $1.5bn and 7.0bn cumulative agentic work units, but changed scope includes AI offerings, Slackbot and Headless 360. This is E2 paid use, not E3 outcome quality or E4 retained cash.
+
+**Controlling materiality treatment:** $464.8m = 5% × 20.1% × $46.25bn, using the midpoint of FY2027 revenue guidance and GAAP operating-margin guidance. This is an annual pre-tax guidance proxy. The dossier’s earlier conflicting hurdle or evidence-stage wording is withdrawn. All cost-pool, efficiency, realization, retained-share and recurring-cost inputs remain labeled assumptions. Revenue-demand evidence is kept separate from own-productivity evidence, and customer/product adoption does not establish retained shareholder cash.

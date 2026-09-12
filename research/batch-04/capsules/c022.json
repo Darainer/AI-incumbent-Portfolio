@@ -16,9 +16,9 @@
     {
       "url": "https://www.manulife.com/en/investors/results-and-reports.html",
       "title": "Annual report / financial results",
-      "date": "2024",
+      "date": "FY2025 ended 2025-12-31",
       "opened": true,
-      "supports": "latest financial anchor used in packet"
+      "supports": "FY2025 core earnings C$7.5bn; core is non-GAAP"
     },
     {
       "url": "https://www.manulife.com/en/news/manulife-innovation.html",
@@ -48,7 +48,7 @@
     "unit": "CAD billion",
     "period": "FY2025",
     "source_url": "https://www.manulife.com/en/investors/results-and-reports.html",
-    "caveat": "C$7.2bn core earnings and roughly C$6.2bn net income attributed to shareholders; measure may be adjusted or a labelled scale proxy and is not normalized."
+    "caveat": "FY2025 core earnings are a non-GAAP, after-tax-style performance measure; reported shareholder net income is separate."
   },
   "ai_claim": {
     "claim": "Manulife describes scoped AI/digital mechanisms in underwriting and claims triage at matched risk and fairness, service/document automation with human review.",
@@ -63,11 +63,11 @@
     "limitation": "Competitive capability does not by itself prove equal outcomes."
   },
   "rights_limit": "Policyholders and counterparties originate much data; consent, insurance secrecy and geography limit purpose and reuse. Public privacy terms do not establish pooled model-training rights.",
-  "materiality_summary": "Five percent of the completed-year earnings anchor is C$375m; no AI-attributed amount is established.",
+  "materiality_summary": "Five percent of the completed-year governing metric is C$375m; public evidence does not establish an AI-attributed amount.",
   "arithmetic": {
-    "inputs": "FY2025 core earnings 7.5bn",
-    "formula": "0.05\u00d7C$7.5bn=C$375m",
-    "result": "C$375m annual hurdle; no AI-attributed cash result."
+    "inputs": "FY2025 core earnings C$7.5bn; 5%; illustrative eligible expense C$2.5bn, efficiency 10%, realization 60%, retention 50%, recurring cost C$40m; illustrative tax rate 20%",
+    "formula": "C$7.5bn × 5% = C$375m hurdle; C$2.5bn × 10% × 60% × 50% − C$40m = C$35m illustrative benefit; C$35m × (1 − 20%) = C$28m after tax",
+    "result": "Illustrative C$28m after tax is below the C$375m annual after-tax hurdle. The 20% tax rate is an explicit research assumption, not company guidance."
   },
   "confidence": {
     "mechanism": "medium",

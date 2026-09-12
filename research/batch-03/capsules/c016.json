@@ -67,7 +67,7 @@
   "arithmetic": {
     "inputs": "assumed $2bn eligible expense, 15% efficiency, 60% realization, 50% retention, $80m recurring cost and 20% tax sensitivity",
     "formula": "2000*.15*.60*.50-80",
-    "result": "$10m pre-tax / $8m after-tax sensitivity, below $140m same-period after-tax scale hurdle"
+    "result": "$10m pre-tax / $8m after-tax annual sensitivity; NOT_COMPARABLE with the $140m half-year hurdle without time alignment"
   },
   "confidence": {
     "mechanism": "medium",

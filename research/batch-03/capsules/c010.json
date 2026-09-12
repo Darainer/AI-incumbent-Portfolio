@@ -9,23 +9,23 @@
     {
       "url": "https://ir.thermofisher.com/investors/news-events/news/news-details/2026/Thermo-Fisher-Scientific-Reports-Second-Quarter-2026-Results/",
       "title": "Q2 2026 issuer results",
-      "date": "2026",
+      "date": "2026-07-22",
       "opened": true,
-      "supports": "latest interim financial update"
+      "supports": "Q2 2026 revenue $11.994bn, GAAP operating income $2.087bn and adjusted operating income $2.735bn"
     },
     {
-      "url": "https://ir.thermofisher.com/financials/annual-reports-and-proxy-statements/default.aspx",
-      "title": "Annual report / financial results",
-      "date": "2024",
+      "url": "https://ir.thermofisher.com/investors/news-events/news/news-details/2026/Thermo-Fisher-Scientific-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
+      "title": "FY2025 issuer results",
+      "date": "2026-01-29",
       "opened": true,
-      "supports": "latest financial anchor used in packet"
+      "supports": "FY2025 revenue $44.56bn, GAAP operating income $7.75bn and adjusted operating income $10.11bn"
     },
     {
       "url": "https://www.thermofisher.com/us/en/home/digital-science/artificial-intelligence.html",
       "title": "Company technology / AI evidence",
       "date": "undated",
-      "opened": true,
-      "supports": "AI capability or deployment claim"
+      "opened": false,
+      "supports": "mechanism description; independent audit could not reproduce page, so no deployment stage is corroborated"
     },
     {
       "url": "https://www.thermofisher.com/us/en/home/global/privacy-policy.html",
@@ -35,20 +35,20 @@
       "supports": "rights constraints"
     },
     {
-      "url": "https://investors.danaher.com/annual-reports",
-      "title": "Danaher reporting",
-      "date": "undated",
+      "url": "https://www.labvantage.com/",
+      "title": "LabVantage CORTEX laboratory AI platform",
+      "date": "accessed 2026-09-12",
       "opened": true,
-      "supports": "incumbent challenger evidence"
+      "supports": "Named cloud-native LIMS challenger using AI agents in laboratory workflows; product availability, not equivalent economics"
     }
   ],
   "financial_anchor": {
     "metric": "GAAP operating income",
-    "value": 6.463,
+    "value": 7.75,
     "unit": "USD billion",
-    "period": "FY2024",
-    "source_url": "https://ir.thermofisher.com/financials/annual-reports-and-proxy-statements/default.aspx",
-    "caveat": "$6.463bn operating income; measure may be adjusted or a labelled scale proxy and is not normalized."
+    "period": "FY2025 ended 31 December 2025",
+    "source_url": "https://ir.thermofisher.com/investors/news-events/news/news-details/2026/Thermo-Fisher-Scientific-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
+    "caveat": "GAAP operating income; adjusted operating income was $10.11bn and is excluded from the hurdle."
   },
   "ai_claim": {
     "claim": "Thermo Fisher Scientific describes scoped AI/digital mechanisms in AI-assisted mass-spectrometry and microscopy analysis at equal analytical accuracy, predictive instrument maintenance using installed-base telemetry.",
@@ -58,16 +58,16 @@
     "limitation": "No controlled quality-adjusted company result tied to retained incremental cash was found."
   },
   "strongest_counterevidence": {
-    "claim": "Danaher and cloud-native laboratory software and specialist AI-analysis vendors can replicate tools or force gains through to customers.",
-    "source_url": "https://investors.danaher.com/annual-reports",
-    "limitation": "Competitive capability does not by itself prove equal outcomes."
+    "claim": "LabVantage markets CORTEX, a cloud-native LIMS platform in which AI agents orchestrate laboratory tasks, showing that workflow AI can be supplied independently of Thermo Fisher instruments.",
+    "source_url": "https://www.labvantage.com/",
+    "limitation": "Vendor product availability does not prove equal instrument integration, validation quality or retained economics."
   },
   "rights_limit": "Instrument output belongs to customers in many workflows. Cloud/service contracts govern access; public disclosures do not establish pooled training rights over customer experimental data.",
-  "materiality_summary": "The labelled 5% scale hurdle is $323m; public evidence does not establish it.",
+  "materiality_summary": "Five percent of FY2025 GAAP operating income is $387.5m on an annual pre-tax operating basis; public evidence does not establish an AI-attributed amount.",
   "arithmetic": {
-    "inputs": "0",
-    "formula": "0.05\u00d7$6.463bn=$323m. Illustratively, $3.0bn eligible service/workflow cost \u00d7 10% efficiency \u00d7 60% realization \u00d7 50% retention \u2212 $50m recurring cost = $40m; this is not a forecast and customer labor savings are excluded.",
-    "result": "Illustrative bridge remains below or must be compared with $323m; not a forecast."
+    "inputs": "FY2025 GAAP operating income $7.75bn; 5%; illustrative eligible service/workflow cost $3.0bn, efficiency 10%, realization 60%, retention 50%, recurring cost $50m",
+    "formula": "$7.75bn × 5% = $387.5m hurdle; $3.0bn × 10% × 60% × 50% − $50m = $40m illustrative benefit",
+    "result": "Illustrative $40m is below the $387.5m annual pre-tax hurdle; customer labor savings are excluded and this is not a forecast."
   },
   "confidence": {
     "mechanism": "medium",

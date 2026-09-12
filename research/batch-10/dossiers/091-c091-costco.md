@@ -31,8 +31,7 @@ The strongest negative evidence is the missing causal bridge. The sources do not
 
 The prospective contract should freeze before deployment: eligible workload; model/version; treated and matched-control populations; baseline window; quality guardrail; labor and compute cost; adoption; and owner. Core KPIs are **in-stock rate, inventory turns, shrink, labor hours, renewal**. Report medians and tails, not a single showcase average, and reconcile operational changes to recognized revenue, headcount avoided, third-party spend removed or capital released.
 
-A 5% screen on the 10 USD billion profit anchor is **0.5 USD billion per year**. This is a hurdle, not a forecast. To illustrate the required bridge, if 25% of that hurdle came from labor capacity and fully loaded cost were 0.00012 USD billion per employee-year, the company would need about 1,042 employee-years of *realized* capacity, before implementation and inference cost. Redeployment counts only if it supports documented incremental output or avoids hiring. Revenue uplift should use incremental gross/contribution margin, not gross bookings or model interactions.
-
+The earlier approximate annual screen and its employee-capacity illustration are withdrawn. The controlling exact calculation and its time basis appear in the source-audit correction below.
 
 ## Measurement design and decision use
 
@@ -57,4 +56,4 @@ Opened or located through issuer/search records by 12 September 2026: [financial
 
 FY2026 was not complete by cutoff. Q3 exhibit reports $7.884bn 36-week operating income; 5% is $394.2m for that 36-week period. Costco homepage is not AI evidence, so forecasting/inventory AI remains an unsupported hypothesis. This exact source-audited measure supersedes any earlier approximate financial anchor or stage shorthand in this packet. It is a scale screen only. Because it covers less than a full year, it is not the annual 5% materiality hurdle and is NOT_COMPARABLE with annual cost or benefit illustrations. No annualization is assumed; all earlier statements that an annual illustration is above, below or clears this hurdle are withdrawn. G3 valuation and G4 portfolio construction remain deferred.
 
-**Handoff:** verify the FY2026 financial definition, the production scope of merchandising and fulfillment, and the missing causal profit bridge. Strongest counterargument: the mechanism can be real while its incremental economics remain too small or diffuse to clear the materiality screen.
+**Handoff:** verify the FY2026 financial definition, the production scope of merchandising and fulfillment, and the missing causal profit bridge. Strongest counterargument: the mechanism can be real while its incremental economics remain too small or diffuse to establish material retained economics.

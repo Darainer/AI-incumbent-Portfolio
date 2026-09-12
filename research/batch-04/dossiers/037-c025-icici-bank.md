@@ -80,3 +80,9 @@ Access limits: some issuer pages dynamically expose PDFs or tables; where exact 
 ## Reviewer handoff
 
 Verify: (1) the latest financial anchor and reported/adjusted reconciliation; (2) whether the cited product outcome is production, representative and quality controlled; (3) contract-level training, retention and pooled-learning rights. Strongest counterargument: Q1 profit benefited from 30.5% lower provisions; loan growth and credit cycle can mask model quality, and regulation constrains automated decisions and data reuse. Blocking items are cohort economics, labor/capacity realization, recurring technology cost and customer/supplier sharing. **Provisional disposition:** evidence watch; unreviewed. Capsule: [`../../batch-04/capsules/c025.json`](../capsules/c025.json).
+
+## Source-audit correction — 12 September 2026
+
+The direct 18 July 2026 performance-review PDF supports Q1 FY2027 standalone net profit of ₹148.0bn and net interest income of ₹243.8bn. The 5% screen is ₹7.40bn for Q1 only. iPal remains E1 digital-assistant capability; the cited iPal page was not successfully opened and does not isolate generative AI, credit outcomes or retained cash.
+
+**Controlling materiality treatment:** ₹7.40bn = 5% of Q1 FY2027 standalone net profit of ₹148.0bn. This is a quarter-only, after-tax screen and is NOT_COMPARABLE with the annual benefit illustration; no annualization is assumed. The dossier’s earlier conflicting hurdle or evidence-stage wording is withdrawn. All cost-pool, efficiency, realization, retained-share and recurring-cost inputs remain labeled assumptions. Revenue-demand evidence is kept separate from own-productivity evidence, and customer/product adoption does not establish retained shareholder cash.

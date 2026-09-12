@@ -7,11 +7,11 @@
   "latest_financial_period": "H1 2026 (ended 30 June 2026)",
   "sources": [
     {
-      "url": "https://www.iberdrola.com/shareholders-investors/operational-financial-information",
-      "title": "Latest financial results",
+      "url": "https://www.iberdrola.com/shareholders-investors/operational-financial-information/results",
+      "title": "Iberdrola 2026 first-half results",
       "date": "22 July 2026",
-      "opened": false,
-      "supports": "source target; retrieval did not yield auditable supporting extract"
+      "opened": true,
+      "supports": "reported H1 net profit, adjusted EBITDA and investment"
     },
     {
       "url": "https://www.iberdrola.com/shareholders-investors/annual-reports",
@@ -43,12 +43,12 @@
     }
   ],
   "financial_anchor": {
-    "metric": "H1 2026 reported net profit (unverified figure)",
-    "value": "€4.34bn reported in packet; not independently extracted from cited interactive hub",
+    "metric": "H1 2026 reported net profit and adjusted EBITDA",
+    "value": "€4.34bn; €8.05bn",
     "unit": "EUR",
     "period": "H1 2026 (ended 30 June 2026)",
-    "source_url": "https://www.iberdrola.com/shareholders-investors/operational-financial-information",
-    "caveat": "Treat as an unverified reported anchor until a direct H1 report supports it; transactions and tax timing make doubling non-normalized."
+    "source_url": "https://www.iberdrola.com/shareholders-investors/operational-financial-information/results",
+    "caveat": "Net profit is after tax; adjusted EBITDA is non-GAAP and pre-tax. The page also reports €7bn period investment, so capital intensity must remain separate."
   },
   "ai_claim": {
     "claim": "Iberdrola publicly describes AI for grids and renewable operations, but a named material production cohort with outage or cash results was not verified.",
@@ -63,7 +63,7 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "Conditional arithmetic only: if H1 reported net profit was €4.34bn, 5% × (2 × €4.34bn) = €434m after tax. The figure was not extracted from the interactive hub, and simple doubling is not normalized for transactions or tax timing. Illustrative cost assumptions produce negative €20m pre-tax and are not directly comparable.",
+  "materiality_summary": "€217m = 5% of H1 2026 reported net profit of €4.34bn. This is a six-month, after-tax screen and is NOT_COMPARABLE with the annual pre-tax benefit illustration; no annualization or normalization is assumed.",
   "arithmetic": {
     "inputs": "pool €5bn eligible grid operations, maintenance and loss/outage cost; efficiency 8%; realization 40%; retained share 50%; recurring cost €100m",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",

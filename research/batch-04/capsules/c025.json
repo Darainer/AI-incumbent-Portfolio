@@ -7,11 +7,11 @@
   "latest_financial_period": "Q1 FY2027 (ended 30 June 2026)",
   "sources": [
     {
-      "url": "https://www.icici.bank.in/about-us/investor-relations",
+      "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/about-us/2027/performance-review-q1-2027.pdf",
       "title": "Latest financial results",
       "date": "18 July 2026",
-      "opened": false,
-      "supports": "source target; retrieval did not yield auditable supporting extract"
+      "opened": true,
+      "supports": "latest financial anchor"
     },
     {
       "url": "https://www.icici.bank.in/about-us/annual-reports",
@@ -44,10 +44,10 @@
   ],
   "financial_anchor": {
     "metric": "Q1 FY2027 standalone net profit and net interest income",
-    "value": "₹148bn net profit; ₹243.8bn NII",
+    "value": "₹148.0bn; ₹243.8bn",
     "unit": "INR",
     "period": "Q1 FY2027 (ended 30 June 2026)",
-    "source_url": "https://www.icici.bank.in/about-us/investor-relations",
+    "source_url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/about-us/2027/performance-review-q1-2027.pdf",
     "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
   },
   "ai_claim": {
@@ -63,7 +63,7 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "Framework convention: ₹29.6bn, 5% of a ₹592bn annualized Q1 profit scale proxy. Illustrative assumptions produce ₹3.4bn, below the hurdle.",
+  "materiality_summary": "₹7.40bn = 5% of Q1 FY2027 standalone net profit of ₹148.0bn. This is a quarter-only, after-tax screen and is NOT_COMPARABLE with the annual benefit illustration; no annualization is assumed.",
   "arithmetic": {
     "inputs": "pool ₹120bn annual fraud, operations and service cost/risk pool (assumption); efficiency 15%; realization 50%; retained share 60%; recurring cost ₹2bn",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",

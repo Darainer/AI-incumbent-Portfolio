@@ -80,3 +80,9 @@ Access limits: some issuer pages dynamically expose PDFs or tables; where exact 
 ## Reviewer handoff
 
 Verify: (1) the latest financial anchor and reported/adjusted reconciliation; (2) whether the cited product outcome is production, representative and quality controlled; (3) contract-level training, retention and pooled-learning rights. Strongest counterargument: Q2 operating margin was only 6.7% despite 50% revenue growth; credit mix and heavy investment can obscure whether AI adds retained cash. Blocking items are cohort economics, labor/capacity realization, recurring technology cost and customer/supplier sharing. **Provisional disposition:** evidence watch; unreviewed. Capsule: [`../../batch-08/capsules/c078.json`](../capsules/c078.json).
+
+## Source-audit correction — 12 September 2026
+
+The opened 5 August 2026 issuer release reports $683m Q2 operating income and says AI-enhanced search improved conversion and engagement, while third-party LLM costs partly offset gross-profit gains. This is scoped issuer E2 deployment evidence without a quantified causal uplift or E4 cash. The older GitHub customer story remains supplier evidence and is secondary to the current issuer disclosure.
+
+**Controlling materiality treatment:** $34.15m = 5% of Q2 2026 reported operating income of $683m. This is a quarter-only, pre-tax screen and is NOT_COMPARABLE with the annual benefit illustration; no annualization is assumed. The dossier’s earlier conflicting hurdle or evidence-stage wording is withdrawn. All cost-pool, efficiency, realization, retained-share and recurring-cost inputs remain labeled assumptions. Revenue-demand evidence is kept separate from own-productivity evidence, and customer/product adoption does not establish retained shareholder cash.

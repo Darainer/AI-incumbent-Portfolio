@@ -31,8 +31,7 @@ The strongest negative evidence is the missing causal bridge. The sources do not
 
 The prospective contract should freeze before deployment: eligible workload; model/version; treated and matched-control populations; baseline window; quality guardrail; labor and compute cost; adoption; and owner. Core KPIs are **transactions, revenue per passenger boarded, disruption cost, renewal**. Report medians and tails, not a single showcase average, and reconcile operational changes to recognized revenue, headcount avoided, third-party spend removed or capital released.
 
-A 5% screen on the 2.5 EUR billion profit anchor is **0.125 EUR billion per year**. This is a hurdle, not a forecast. To illustrate the required bridge, if 25% of that hurdle came from labor capacity and fully loaded cost were 0.00012 EUR billion per employee-year, the company would need about 260 employee-years of *realized* capacity, before implementation and inference cost. Redeployment counts only if it supports documented incremental output or avoids hiring. Revenue uplift should use incremental gross/contribution margin, not gross bookings or model interactions.
-
+The earlier approximate annual screen and its employee-capacity illustration are withdrawn. The controlling exact calculation and its time basis appear in the source-audit correction below.
 
 ## Measurement design and decision use
 
@@ -57,4 +56,4 @@ Opened or located through issuer/search records by 12 September 2026: [financial
 
 Official indexed H1 release reports operating income €943.2m and adjusted EBIT €1,011.5m. The packet uses IFRS operating income; 5% is €47.16m for H1. Broad AI use cases do not establish deployment. This exact source-audited measure supersedes any earlier approximate financial anchor or stage shorthand in this packet. It is a scale screen only. Because it covers less than a full year, it is not the annual 5% materiality hurdle and is NOT_COMPARABLE with annual cost or benefit illustrations. No annualization is assumed; all earlier statements that an annual illustration is above, below or clears this hurdle are withdrawn. G3 valuation and G4 portfolio construction remain deferred.
 
-**Handoff:** verify the FY2025 financial definition, the production scope of airline retailing and operations, and the missing causal profit bridge. Strongest counterargument: the mechanism can be real while its incremental economics remain too small or diffuse to clear the materiality screen.
+**Handoff:** verify the FY2025 financial definition, the production scope of airline retailing and operations, and the missing causal profit bridge. Strongest counterargument: the mechanism can be real while its incremental economics remain too small or diffuse to establish material retained economics.

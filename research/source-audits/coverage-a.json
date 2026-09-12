@@ -1,0 +1,558 @@
+{
+  "auditor": "coverage_d",
+  "audited_agent": "coverage_a",
+  "cutoff": "2026-09-12",
+  "scope": "16 records; C006 and C007 excluded because source_audit had already reviewed them",
+  "method": "Read each scheduled dossier and capsule, then independently opened the primary financial source and main AI source where the web source allowed inspection. Exact filing or issuer-release figures, period, GAAP/non-GAAP basis, pre/post-tax unit, and deployment stage were compared with the packet. A failed or content-free open is recorded as a limitation and is not treated as corroboration. Product availability alone is not treated as E2 customer deployment.",
+  "records": [
+    {
+      "id": "C026",
+      "company": "Visa",
+      "verdict": "PASS",
+      "checked_urls": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000103/q32026earningsrelease.htm",
+          "status": "opened",
+          "date": "2026-07-28",
+          "finding": "Q3 FY2026 SEC exhibit confirms $11.633bn net revenue, $6.877bn GAAP operating income, $5.628bn GAAP net income, a 17.6% GAAP effective tax rate, and $13.9bn of cash, cash equivalents and investment securities. The packet appropriately keeps this quarterly evidence separate from its FY2025 annual hurdle."
+        },
+        {
+          "url": "https://corporate.visa.com/en/sites/visa-perspectives/newsroom/enhanced-a2a-protect.html",
+          "status": "opened",
+          "date": "2026-09-02",
+          "finding": "Visa identifies A2A Protect as in market, describes real-time AI/transfer-learning risk signals and opt-in network intelligence, and reports a 75% fraud-detection increase in the first six months of deployment plus over 50% more fraud reduction and over 40% fewer unnecessary alerts. This supports scoped E2 deployment, while the packet correctly withholds E3 because protocol, denominator and retained economics are absent."
+        }
+      ],
+      "findings": "The FY2025 10-K anchor of $23.994bn GAAP operating profit is exact and annual pre-tax. Five percent is $1.1997bn, correctly rounded to $1.200bn. The dossier also includes current Q3 FY2026 figures and does not annualize the quarter.",
+      "tax_time_check": "Annual pre-tax hurdle; quarterly GAAP and non-GAAP current results are separately labeled. No pre/post-tax mixing in the hurdle.",
+      "corrections": [],
+      "limitations": [
+        "Visa's reported deployment lift is issuer-reported and lacks a matched protocol, sample size, price and cost bridge."
+      ],
+      "full_dossier_read": true,
+      "initial_verdict": "PASS",
+      "final_verdict": "PASS",
+      "final_check": "No post-audit repair required"
+    },
+    {
+      "id": "C023",
+      "company": "JPMorgan Chase",
+      "verdict": "PASS",
+      "checked_urls": [
+        {
+          "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/6cded9fd-a164-4e6c-8cff-377357cf105c.pdf",
+          "status": "opened",
+          "date": "2026-07-14",
+          "finding": "Issuer PDF confirms Q2 2026 reported net income of $21.2bn and net income excluding significant items of $16.9bn. The release attributes the excluded-item result to a particularly favorable market environment, matching the packet's caveat."
+        },
+        {
+          "url": "https://www.jpmorganchase.com/ir/annual-report/2025/ar-ceo-letter-mary-callahan-erdoes",
+          "status": "opened",
+          "date": "2026-04-06",
+          "finding": "AWM letter identifies production scope: Connect Coach serves 12,000 Private Bank and US Wealth Management users with 25 agents and pushes one million insights; SpectrumIQ covers 90,000 securities and 22 million documents; proxy-voting transition reached full implementation on 2026-04-01. This supports scoped E2 use, not firm-wide causal profit."
+        }
+      ],
+      "findings": "The $16.9bn anchor is an exact quarterly after-tax non-GAAP measure. Its $67.6bn annualization and $3.38bn 5% screen are explicitly called scale proxies rather than normalized forecasts. The separate labor bridge remains pre-tax and is not compared as if it were after-tax.",
+      "tax_time_check": "Quarterly after-tax non-GAAP anchor annualized only as an explicit scale proxy; $3.38bn hurdle is after-tax. Illustrative $0.524bn labor bridge is correctly labeled pre-tax.",
+      "corrections": [],
+      "limitations": [
+        "Management-reported time savings and use counts are not controlled contribution or cash evidence."
+      ],
+      "full_dossier_read": true,
+      "initial_verdict": "PASS",
+      "final_verdict": "PASS",
+      "final_check": "No post-audit repair required"
+    },
+    {
+      "id": "C017",
+      "company": "Allianz",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://www.allianz.com/en/mediacenter/news/media-releases/financials/260807-2q-2026-earnings-release.html",
+          "status": "opened",
+          "date": "2026-08-07",
+          "finding": "Issuer release confirms Q2 operating profit €4.874bn and H1 operating profit €9.390bn, H1 shareholders' core net income €6.385bn, and Solvency II ratio 225%. It also restates FY2025 operating profit as €17.4bn."
+        },
+        {
+          "url": "https://www.allianz.com/content/dam/onemarketing/azcom/Allianz_com/investor-relations/en/results-reports/annual-report/ar-2025/en-Allianz-Group-Annual-Report-2025.pdf",
+          "status": "opened_by_packet_not_reproducibly_extracted_in_audit",
+          "date": "2026",
+          "finding": "The dossier confines AI to selected claims, underwriting and service workflows and says no matched cohort is disclosed; this is directionally bounded, but the compound 'E1/E2 limited' label does not identify which named workflow reached production."
+        }
+      ],
+      "findings": "FY2025 €17.374bn operating-profit anchor and €868.7m five-percent annual operating hurdle are arithmetically consistent. Latest H1 2026 figures are present. The AI claim remains too aggregated for a firm E2 conclusion, though it does not claim cash causality.",
+      "tax_time_check": "Annual operating-profit hurdle is pre-tax/operating; the 10bp and 100bp combined-ratio bridges are also annual pre-tax and therefore dimensionally consistent. Core net income is not substituted into the hurdle.",
+      "corrections": [],
+      "limitations": [
+        "Split the compound E1/E2 description into named workflow claims if a reproducible production source becomes available; no controlled claims or underwriting outcome exists."
+      ],
+      "full_dossier_read": true,
+      "initial_verdict": "LIMITED",
+      "final_verdict": "LIMITED",
+      "final_check": "Original limitation remains explicit and does not support a stronger conclusion."
+    },
+    {
+      "id": "C019",
+      "company": "Progressive",
+      "verdict": "NEEDS_CORRECTION",
+      "checked_urls": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000315/pgr202607ex99earningsrelea.htm",
+          "status": "opened",
+          "date": "2026-08-19",
+          "finding": "July 2026 SEC exhibit confirms $7.355bn monthly and $49.896bn year-to-date net premiums earned, a 86.8 monthly combined ratio and 86.9 year-to-date combined ratio. These are current conventional figures and are correctly shown as non-annual periods."
+        },
+        {
+          "url": "https://www.progressive.com/auto/discounts/snapshot/",
+          "status": "opened",
+          "date": "undated",
+          "finding": "The page confirms a production usage-based insurance program that collects driving information and produces a personalized renewal rate. It does not state that the scoring method is AI or machine learning, so it cannot by itself support the capsule's AI E2 designation."
+        }
+      ],
+      "findings": "The FY2025 underwriting proxy is reproducible: $81.661bn earned premium × 12.9% margin = $10.534269bn, close to the stated $10.535bn after rounding; five percent is about $526.7m. The financial arithmetic is acceptable, but the decisive AI source establishes telematics deployment rather than an AI mechanism.",
+      "tax_time_check": "Annual pretax underwriting proxy and basis-point bridge are consistent. It excludes investment income and is properly labeled a proxy.",
+      "corrections": [
+        "Either add a direct technical/filing source establishing an AI or ML scoring mechanism in current Snapshot pricing and retain scoped E2, or classify Snapshot only as deployed telematics and reduce the AI stage to E0/E1."
+      ],
+      "limitations": [
+        "No matched loss-ratio, fairness or cash outcome is disclosed."
+      ],
+      "full_dossier_read": true,
+      "initial_verdict": "NEEDS_CORRECTION",
+      "final_verdict": "PASS",
+      "final_check": "Repaired capsule and controlling dossier section use an exact direct-source financial anchor, period-consistent 5% screen, corrected AI evidence stage, accurate opened flags, and actual publication date or explicitly undated source metadata. Earlier audit findings are preserved above as initial findings."
+    },
+    {
+      "id": "C030",
+      "company": "Moody's",
+      "verdict": "NEEDS_CORRECTION",
+      "checked_urls": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1059556/000162828026049104/a2q26earningsrelease.htm",
+          "status": "opened",
+          "date": "2026-07-22",
+          "finding": "Q2 2026 SEC exhibit confirms revenue $2.185bn, GAAP operating income $1.046bn, adjusted operating income $1.208bn, and GAAP net income attributable to Moody's $878m; H1 GAAP operating income was $1.968bn. Q2 effective tax rate was 24.9%."
+        },
+        {
+          "url": "https://www.moodys.com/web/en/us/capabilities/genai.html",
+          "status": "open_failed_internal_error",
+          "date": "undated",
+          "finding": "Could not inspect supporting content. The capsule marks it opened and gives only an access date, which is not a publication date."
+        }
+      ],
+      "findings": "The capsule's $2.7bn 'Approximate operating profit/adjusted operating earnings' mixes GAAP and non-GAAP definitions and has no exact direct source. The available current filing shows exact measures materially different from the label. 'Research Assistant and Copilot' availability does not establish customer production without a named use or adoption source.",
+      "tax_time_check": "The $135m hurdle is annual pre-tax only if $2.7bn is a valid annual operating measure; that premise is currently unverified. Q2/H1 GAAP and adjusted figures must not be blended.",
+      "corrections": [
+        "Replace the approximate anchor with one exact FY2025 GAAP operating income or explicitly reconciled adjusted operating income from the direct filing, and recompute 5%.",
+        "Add Q2 2026 exact current figures and their GAAP/non-GAAP basis.",
+        "Use a reproducibly opened source for a named deployed AI workflow; otherwise set the product claim to E1 availability and mark the current URL opened=false.",
+        "Replace 'accessed 2026-09-12' source dates with actual publication dates or explicitly undated."
+      ],
+      "limitations": [
+        "No controlled adoption, accuracy, renewal or retained-cash evidence."
+      ],
+      "full_dossier_read": true,
+      "initial_verdict": "NEEDS_CORRECTION",
+      "final_verdict": "PASS",
+      "final_check": "Repaired capsule and controlling dossier section use an exact direct-source financial anchor, period-consistent 5% screen, corrected AI evidence stage, accurate opened flags, and actual publication date or explicitly undated source metadata. Earlier audit findings are preserved above as initial findings."
+    },
+    {
+      "id": "C032",
+      "company": "London Stock Exchange Group",
+      "verdict": "NEEDS_CORRECTION",
+      "checked_urls": [
+        {
+          "url": "https://www.lseg.com/en/media-centre/press-releases/2026/london-stock-exchange-group-plc-h1-2026-interim-results",
+          "status": "opened",
+          "date": "2026-07-30",
+          "finding": "H1 2026 issuer release confirms reported operating profit £1.428bn, adjusted operating profit £2.008bn, reported profit before tax £1.278bn, and underlying tax-rate guidance of 24%-25%. It also states that thousands of Workspace customers were using AI Search."
+        },
+        {
+          "url": "https://www.lseg.com/en/insights/data-analytics",
+          "status": "opened_no_supporting_content",
+          "date": "undated",
+          "finding": "The page returned navigation and contact content but no AI deployment evidence. It cannot support the capsule claim."
+        }
+      ],
+      "findings": "The £3.9bn approximate FY2025 anchor has no definition or reconciliation. The current H1 release provides exact reported and adjusted operating measures and a stronger named deployment statement than the capsule's generic AI page.",
+      "tax_time_check": "The £195m hurdle is unsupported until the annual metric is defined. H1 reported and adjusted operating profit are pre-tax; PBT and tax guidance must remain separate.",
+      "corrections": [
+        "Replace £3.9bn with an exact FY2025 reported or adjusted operating-profit figure and matching direct source, then recompute 5%.",
+        "Add exact H1 2026 reported £1.428bn and adjusted £2.008bn operating profit with the July 30 release.",
+        "Use the H1 release's 'thousands of Workspace customers using AI Search' as a named scoped E2 deployment claim; keep incremental economic lift E0/E1.",
+        "Correct source dates and do not mark the content-free Data & Analytics page as deployment support."
+      ],
+      "limitations": [
+        "No adoption denominator beyond 'thousands,' no controlled accuracy or revenue lift."
+      ],
+      "full_dossier_read": true,
+      "initial_verdict": "NEEDS_CORRECTION",
+      "final_verdict": "PASS",
+      "final_check": "Repaired capsule and controlling dossier section use an exact direct-source financial anchor, period-consistent 5% screen, corrected AI evidence stage, accurate opened flags, and actual publication date or explicitly undated source metadata. Earlier audit findings are preserved above as initial findings."
+    },
+    {
+      "id": "C046",
+      "company": "Dassault Systèmes",
+      "verdict": "NEEDS_CORRECTION",
+      "checked_urls": [
+        {
+          "url": "https://investor.3ds.com/news-releases/news-release-details/dassault-systemes-solid-q2-results-and-confirming-full-year",
+          "status": "opened",
+          "date": "2026-07-23",
+          "finding": "Issuer material confirms Q2 2026 IFRS revenue €1.56bn, IFRS operating margin 23.0% and diluted EPS €0.22; the direct release reports IFRS operating income about €358m."
+        },
+        {
+          "url": "https://www.3ds.com/3dexperience",
+          "status": "opened_redirect",
+          "date": "undated",
+          "finding": "Current 3DEXPERIENCE page describes AI-based knowledge, virtual twins and agentic orchestration and names customer use of the broader platform, including Dassault Aviation and Renault. Those cases do not isolate current AI companions or causal design-cycle improvement."
+        }
+      ],
+      "findings": "The capsule's €1.55bn 'Approximate operating profit/adjusted operating earnings' has no exact metric definition and is confusingly close to Q2 revenue, not Q2 operating profit. Product and virtual-twin availability can support E1; legacy platform customer stories do not prove the new AI-native feature is deployed.",
+      "tax_time_check": "The €77.5m annual pretax hurdle is unsupported until an exact annual operating metric is selected. Q2 revenue and operating margin cannot be substituted for annual operating income without period conversion.",
+      "corrections": [
+        "Replace the approximate FY2025 anchor with exact FY2025 IFRS or non-IFRS operating income and a reconciliation-aware direct source; recalculate 5%.",
+        "Add Q2 2026 exact current revenue, IFRS operating income/margin and period.",
+        "Separate named 3DEXPERIENCE/virtual-twin customer deployment from availability of AURA/LEO/MARIE; stage the new AI feature E1 unless a customer-use source is provided.",
+        "Replace access dates with real publication dates or undated."
+      ],
+      "limitations": [
+        "No isolated time-to-design, simulation-error, renewal or cash result for the claimed AI feature."
+      ],
+      "full_dossier_read": true,
+      "initial_verdict": "NEEDS_CORRECTION",
+      "final_verdict": "PASS",
+      "final_check": "Repaired capsule and controlling dossier section use an exact direct-source financial anchor, period-consistent 5% screen, corrected AI evidence stage, accurate opened flags, and actual publication date or explicitly undated source metadata. Earlier audit findings are preserved above as initial findings."
+    },
+    {
+      "id": "C047",
+      "company": "Autodesk",
+      "verdict": "NEEDS_CORRECTION",
+      "checked_urls": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/769397/000076939726000059/q227pressrelease.htm",
+          "status": "opened",
+          "date": "2026-08-27",
+          "finding": "Q2 FY2027 SEC exhibit confirms revenue $2.046bn, GAAP operating income $599m and GAAP operating margin 29%; H1 GAAP operating income was $1.140bn. Cash and cash equivalents were $4.098bn, short-term debt $994m and current plus long-term notes payable $2.484bn."
+        },
+        {
+          "url": "https://www.autodesk.com/solutions/autodesk-ai",
+          "status": "opened",
+          "date": "undated",
+          "finding": "Official page describes Autodesk Assistant and other AI capabilities but gives no named current customer, adoption denominator or realized outcome. It supports E1 product availability, not E2 customer deployment."
+        }
+      ],
+      "findings": "The $1.6bn FY2026 approximate anchor is undefined and not tied to a direct line item. Exact Q2 FY2027 conventional results are available. The AI claim's compound E1/E2 stage overstates what the cited page alone establishes.",
+      "tax_time_check": "The $80m hurdle is nominally annual pre-tax, but unsupported until the $1.6bn annual metric is defined. Q2/H1 GAAP results must remain non-annualized unless explicitly converted.",
+      "corrections": [
+        "Use exact FY2026 GAAP operating income or a precisely defined reconciled non-GAAP measure and recompute 5%.",
+        "Add Q2 FY2027 $599m and H1 $1.140bn GAAP operating income as current context.",
+        "Set Autodesk Assistant/product evidence to E1 unless a named customer production source is added.",
+        "Provide actual source dates or explicitly undated."
+      ],
+      "limitations": [
+        "No paid attach, renewal uplift, task-hour or rework evidence attributable to Autodesk AI."
+      ],
+      "full_dossier_read": true,
+      "initial_verdict": "NEEDS_CORRECTION",
+      "final_verdict": "PASS",
+      "final_check": "Repaired capsule and controlling dossier section use an exact direct-source financial anchor, period-consistent 5% screen, corrected AI evidence stage, accurate opened flags, and actual publication date or explicitly undated source metadata. Earlier audit findings are preserved above as initial findings."
+    },
+    {
+      "id": "C057",
+      "company": "Palo Alto Networks",
+      "verdict": "NEEDS_CORRECTION",
+      "checked_urls": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000019/ex991q426earningsrelease.htm",
+          "status": "opened",
+          "date": "2026-09-01",
+          "finding": "FY2026 SEC exhibit confirms revenue $11.480bn, GAAP operating income $695m, non-GAAP operating income $3.356bn, GAAP net income $307m and non-GAAP net income $2.931bn. It discloses 70,000+ customers for the overall portfolio, not Precision AI-specific adoption."
+        },
+        {
+          "url": "https://www.paloaltonetworks.com/precision-ai",
+          "status": "open_failed_internal_error",
+          "date": "undated",
+          "finding": "Could not inspect. The capsule's opened=true and access-date entry is therefore not independently auditable."
+        }
+      ],
+      "findings": "The capsule's $1.4bn approximate FY2026 profit anchor is neither GAAP operating income ($695m) nor non-GAAP operating income ($3.356bn). It must not blend definitions. General portfolio customer count and product description do not prove specific agent adoption or outcome.",
+      "tax_time_check": "The $70m annual pretax hurdle is invalid because its denominator is undefined. GAAP and non-GAAP FY2026 results differ by $2.661bn and require explicit choice and reconciliation.",
+      "corrections": [
+        "Replace $1.4bn with exact FY2026 GAAP operating income $695m or explicitly reconciled non-GAAP operating income $3.356bn; state the basis and recompute 5%.",
+        "Use the September 1 SEC release for latest current results.",
+        "Provide an opened named customer/workflow source for E2 Precision AI/Cortex agent use or reduce to E1 availability.",
+        "Correct opened flags and source dates."
+      ],
+      "limitations": [
+        "NGS ARR includes a broad portfolio and is not AI-specific revenue."
+      ],
+      "full_dossier_read": true,
+      "initial_verdict": "NEEDS_CORRECTION",
+      "final_verdict": "PASS",
+      "final_check": "Repaired capsule and controlling dossier section use an exact direct-source financial anchor, period-consistent 5% screen, corrected AI evidence stage, accurate opened flags, and actual publication date or explicitly undated source metadata. Earlier audit findings are preserved above as initial findings."
+    },
+    {
+      "id": "C058",
+      "company": "CrowdStrike",
+      "verdict": "NEEDS_CORRECTION",
+      "checked_urls": [
+        {
+          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-second-quarter-fiscal-year-2027-financial",
+          "status": "opened",
+          "date": "2026-08-26",
+          "finding": "Issuer release confirms Q2 FY2027 revenue $1.47bn, GAAP operating loss $33.232m, non-GAAP operating income $371.649m, ARR $5.84bn and cash $5.01bn. GAAP and non-GAAP profitability point in opposite directions and must be distinguished."
+        },
+        {
+          "url": "https://www.crowdstrike.com/en-us/platform/charlotte-ai/",
+          "status": "opened",
+          "date": "undated",
+          "finding": "Official product page describes bounded, user-authorized and logged actions and includes a named Mondelez cybersecurity-operations testimonial. That supports scoped customer use/E2, but gives no denominator or controlled outcome."
+        }
+      ],
+      "findings": "The $0.8bn FY2026 approximate operating anchor is undefined. Current Q2 shows why the basis matters: GAAP loss versus positive non-GAAP income. The named Mondelez use supports E2 more clearly than the packet's generic compound stage, while incremental lift remains E0/E1.",
+      "tax_time_check": "The $40m annual pretax hurdle is unsupported until exact FY2026 GAAP or reconciled non-GAAP operating income is chosen. A quarterly loss cannot be annualized into an annual profit screen without explicit treatment.",
+      "corrections": [
+        "Replace the $0.8bn estimate with exact FY2026 GAAP operating income/loss or a reconciled non-GAAP operating income and recompute 5%.",
+        "Add Q2 FY2027 GAAP loss $33.232m and non-GAAP income $371.649m as current context.",
+        "Use the named Mondelez Charlotte AI example for scoped E2 deployment and preserve E0/E1 for incremental economics.",
+        "Correct all source dates."
+      ],
+      "limitations": [
+        "A testimonial is not a controlled investigation-time, detection-quality or retention result."
+      ],
+      "full_dossier_read": true,
+      "initial_verdict": "NEEDS_CORRECTION",
+      "final_verdict": "PASS",
+      "final_check": "Repaired capsule and controlling dossier section use an exact direct-source financial anchor, period-consistent 5% screen, corrected AI evidence stage, accurate opened flags, and actual publication date or explicitly undated source metadata. Earlier audit findings are preserved above as initial findings."
+    },
+    {
+      "id": "C070",
+      "company": "Waste Management",
+      "verdict": "NEEDS_CORRECTION",
+      "checked_urls": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/823768/000110465926087575/tm2621414d1_ex99-1.htm",
+          "status": "opened",
+          "date": "2026-07-28",
+          "finding": "Q2 2026 SEC exhibit confirms $6.684bn revenue, $1.253bn income from operations, $2.030bn operating EBITDA and $2.067bn adjusted operating EBITDA. It attributes recycling/renewable adjusted EBITDA growth partly to automation projects but does not isolate AI."
+        },
+        {
+          "url": "https://www.wm.com/us/en/recycle-right/recycling-technology",
+          "status": "safe_open_failed",
+          "date": "undated",
+          "finding": "Could not inspect; the capsule marks it opened and therefore overstates source access."
+        }
+      ],
+      "findings": "The $4.1bn approximate FY2025 'operating profit/adjusted operating earnings' lacks a defined GAAP/non-GAAP line. Exact Q2 figures are available. The financial release supports deployed automation at recycling projects but not the capsule's broader routing, predictive-maintenance and AI sorting bundle.",
+      "tax_time_check": "The $205m annual pretax hurdle is unsupported until an exact annual line is selected. Operating income and adjusted EBITDA cannot be interchanged.",
+      "corrections": [
+        "Use exact FY2025 GAAP operating income or clearly defined adjusted operating EBITDA and recompute 5%.",
+        "Add Q2 2026 $1.253bn income from operations and $2.067bn adjusted operating EBITDA with basis.",
+        "Narrow the AI claim to source-backed automated recycling operations or add exact sources for routing/predictive maintenance; do not infer AI from generic automation.",
+        "Mark inaccessible pages opened=false and correct dates."
+      ],
+      "limitations": [
+        "No miles-per-stop, downtime, yield or cash outcome isolated to AI."
+      ],
+      "full_dossier_read": true,
+      "initial_verdict": "NEEDS_CORRECTION",
+      "final_verdict": "PASS",
+      "final_check": "Repaired capsule and controlling dossier section use an exact direct-source financial anchor, period-consistent 5% screen, corrected AI evidence stage, accurate opened flags, and actual publication date or explicitly undated source metadata. Earlier audit findings are preserved above as initial findings."
+    },
+    {
+      "id": "C071",
+      "company": "Cintas",
+      "verdict": "NEEDS_CORRECTION",
+      "checked_urls": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325426000025/ex992026-5x31.htm",
+          "status": "opened",
+          "date": "2026-07-15",
+          "finding": "FY2026 SEC exhibit confirms revenue $11.26bn, GAAP operating income $2.61bn, operating margin 23.1%, net cash from operations $2.28bn and capex $395.1m."
+        },
+        {
+          "url": "https://www.cintas.com/company/technology/",
+          "status": "safe_open_failed",
+          "date": "undated",
+          "finding": "Could not inspect. No independently opened source established AI-based forecasting or route optimization."
+        }
+      ],
+      "findings": "The capsule's $2.5bn approximate FY2026 anchor understates the exact $2.61bn GAAP operating income and cites only an archive. The AI statement is a generic possibility claim rather than a named deployment.",
+      "tax_time_check": "Using exact $2.61bn annual pre-tax operating income, the 5% hurdle is $130.5m, not $125m. No annualization is needed.",
+      "corrections": [
+        "Replace $2.5bn with exact FY2026 GAAP operating income $2.61bn and recalculate the hurdle to $130.5m.",
+        "Use the direct July 15 SEC exhibit and include current cash flow/capex context.",
+        "Provide a named, opened AI deployment source for route or plant operations or classify the mechanism E0/E1 hypothesis.",
+        "Correct opened flags and dates."
+      ],
+      "limitations": [
+        "Technology investment generally does not establish AI deployment or causal route productivity."
+      ],
+      "full_dossier_read": true,
+      "initial_verdict": "NEEDS_CORRECTION",
+      "final_verdict": "PASS",
+      "final_check": "Repaired capsule and controlling dossier section use an exact direct-source financial anchor, period-consistent 5% screen, corrected AI evidence stage, accurate opened flags, and actual publication date or explicitly undated source metadata. Earlier audit findings are preserved above as initial findings."
+    },
+    {
+      "id": "C081",
+      "company": "Booking Holdings",
+      "verdict": "NEEDS_CORRECTION",
+      "checked_urls": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1075531/000107553126000036/q2-26bkngearningsrelease.htm",
+          "status": "opened",
+          "date": "2026-08-04",
+          "finding": "Q2 2026 SEC exhibit confirms revenue $7.352bn, GAAP operating income $2.500bn, GAAP net income $1.950bn and income-tax expense $610m; H1 operating income was $3.771bn. It also shows $17.214bn cash and $20.180bn short- plus long-term debt."
+        },
+        {
+          "url": "https://news.booking.com/bookingcom-enhances-ai-trip-planner/",
+          "status": "safe_open_failed",
+          "date": "not_verified",
+          "finding": "Could not inspect. The capsule's access-date/opened=true entry is not auditable, and product launch or availability alone would not prove user adoption."
+        }
+      ],
+      "findings": "The $8.0bn approximate FY2025 operating anchor is undefined and should be replaced by an exact annual line. Exact Q2/H1 results are available. The Trip Planner claim needs a named rollout/adoption fact to support E2; otherwise it is E1 availability.",
+      "tax_time_check": "The $400m annual pretax hurdle is unsupported until exact FY2025 operating income is cited. Q2 net income is after tax while operating income is pre-tax; keep them separate.",
+      "corrections": [
+        "Replace $8.0bn with exact FY2025 GAAP operating income from the direct filing and recompute 5%.",
+        "Add Q2 2026 $2.500bn and H1 $3.771bn GAAP operating income, plus debt/cash context.",
+        "Use an opened source with actual Trip Planner rollout or usage evidence for E2; otherwise classify E1 product availability.",
+        "Replace access dates and correct opened flags."
+      ],
+      "limitations": [
+        "No controlled incremental room nights, conversion, support-cost or contribution result."
+      ],
+      "full_dossier_read": true,
+      "initial_verdict": "NEEDS_CORRECTION",
+      "final_verdict": "PASS",
+      "final_check": "Repaired capsule and controlling dossier section use an exact direct-source financial anchor, period-consistent 5% screen, corrected AI evidence stage, accurate opened flags, and actual publication date or explicitly undated source metadata. Earlier audit findings are preserved above as initial findings."
+    },
+    {
+      "id": "C082",
+      "company": "Amadeus IT Group",
+      "verdict": "NEEDS_CORRECTION",
+      "checked_urls": [
+        {
+          "url": "https://amadeus.com/en/insights/press-release/amadeus-h1-2026-amadeus-delivers-resilient-performance",
+          "status": "indexed_official_result_redirected_to_homepage_on_open",
+          "date": "2026-07-31",
+          "finding": "Official indexed release reports H1 2026 operating income €943.2m and adjusted EBIT €1,011.5m. Direct open redirected to the Amadeus homepage, so the packet should use a stable report PDF or exact IR document link for reproducibility."
+        },
+        {
+          "url": "https://amadeus.com/en/insights/artificial-intelligence",
+          "status": "safe_open_failed",
+          "date": "undated",
+          "finding": "Could not inspect. A generic AI insights page does not establish a named airline deployment or outcome."
+        }
+      ],
+      "findings": "The €2.5bn approximate FY2025 anchor is undefined. Current H1 results distinguish IFRS operating income from adjusted EBIT. The broad statement that ML improves disruption handling, retailing and operations is a mechanism hypothesis unless tied to a named product/customer workflow.",
+      "tax_time_check": "The €125m annual pretax hurdle is unsupported until an exact annual metric and basis are selected. IFRS operating income and adjusted EBIT must not be blended.",
+      "corrections": [
+        "Replace €2.5bn with exact FY2025 IFRS operating income or reconciled adjusted EBIT and recompute 5%.",
+        "Add H1 2026 operating income €943.2m and adjusted EBIT €1,011.5m with a stable direct report/PDF.",
+        "Name and source an actual deployed AI product/customer workflow; otherwise set stage E0/E1.",
+        "Correct opened flags and dates."
+      ],
+      "limitations": [
+        "The audit could not reproduce the exact article URL on open; no controlled transaction, disruption or renewal lift."
+      ],
+      "full_dossier_read": true,
+      "initial_verdict": "NEEDS_CORRECTION",
+      "final_verdict": "PASS",
+      "final_check": "Repaired capsule and controlling dossier section use an exact direct-source financial anchor, period-consistent 5% screen, corrected AI evidence stage, accurate opened flags, and actual publication date or explicitly undated source metadata. Earlier audit findings are preserved above as initial findings."
+    },
+    {
+      "id": "C091",
+      "company": "Costco",
+      "verdict": "NEEDS_CORRECTION",
+      "checked_urls": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000046/costex9918-k52826.htm",
+          "status": "opened",
+          "date": "2026-05-28",
+          "finding": "Q3 FY2026 SEC exhibit confirms $2.815bn quarterly and $7.884bn 36-week operating income, $2.192bn quarterly and $6.228bn 36-week net income, $18.946bn cash, and $5.670bn long-term debt. FY2026 was not complete at the cutoff; Q4 results were scheduled for September 24."
+        },
+        {
+          "url": "https://www.costco.com/",
+          "status": "opened",
+          "date": "undated",
+          "finding": "Retail homepage contains shopping navigation and recommendation links but no source-backed AI forecasting, shrink, inventory or service deployment claim."
+        }
+      ],
+      "findings": "The capsule labels an approximate $10bn anchor 'FY2026' even though the fiscal year had not reported by September 12. It is neither a completed-year reported result nor a clearly annualized estimate. The homepage is not AI evidence.",
+      "tax_time_check": "The $500m annual pretax hurdle is invalid because the FY2026 denominator was not reported. Use completed FY2025 annual operating income for an annual hurdle; present Q3/36-week FY2026 separately without hidden annualization.",
+      "corrections": [
+        "Replace the unavailable FY2026 $10bn estimate with exact completed FY2025 GAAP operating income and recompute 5%.",
+        "Add Q3 FY2026 $2.815bn and 36-week $7.884bn operating income as latest interim context.",
+        "Remove the unsupported AI deployment claim or replace it with a named issuer/source-backed workflow; current evidence is E0.",
+        "Use the direct SEC/issuer release and actual dates."
+      ],
+      "limitations": [
+        "Recommendations on a retail page do not identify model, deployment scope or economics."
+      ],
+      "full_dossier_read": true,
+      "initial_verdict": "NEEDS_CORRECTION",
+      "final_verdict": "PASS",
+      "final_check": "Repaired capsule and controlling dossier section use an exact direct-source financial anchor, period-consistent 5% screen, corrected AI evidence stage, accurate opened flags, and actual publication date or explicitly undated source metadata. Earlier audit findings are preserved above as initial findings."
+    },
+    {
+      "id": "C092",
+      "company": "Deutsche Telekom",
+      "verdict": "NEEDS_CORRECTION",
+      "checked_urls": [
+        {
+          "url": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/08/deutsche-telekom-waechst-mit-hohem-tempo",
+          "status": "opened",
+          "date": "2026-08-06",
+          "finding": "Issuer Q2 release confirms revenue €29.9bn, adjusted EBITDA AL €11.8bn, free cash flow AL €5.0bn, adjusted net profit €2.8bn and reported net profit €2.5bn. FY2026 adjusted EBITDA AL guidance remained about €47.5bn."
+        },
+        {
+          "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/3/deutsche-telekom-reimagines-phone-calls-with-ai-embedded-in-the",
+          "status": "opened",
+          "date": "2026-03-02",
+          "finding": "Magenta AI Call Assistant is a named network-integrated product with opt-in and participant notice, but the release says capabilities will arrive for German customers starting in 2026 and describes future functions. This is E1 announced rollout unless actual customer availability/use is separately shown."
+        }
+      ],
+      "findings": "The €25bn approximate FY2025 'operating profit/adjusted operating earnings' has no defined line and appears to conflate operating profit with an EBITDA-scale concept. Current issuer reporting uses adjusted EBITDA AL, adjusted net profit and reported net profit, which are not interchangeable. The capsule's generic AI statement lacks a named deployed workflow.",
+      "tax_time_check": "The €1.25bn annual pretax hurdle is unsupported because the denominator is undefined. EBITDA AL is pre-interest, pre-tax and after leases; net profit is after tax. Any materiality bridge must use one basis consistently.",
+      "corrections": [
+        "Replace €25bn with an exact FY2025 metric, clearly choosing reported operating profit/EBIT or adjusted EBITDA AL, and recompute 5% on the same basis.",
+        "Add exact Q2 2026 issuer figures and distinguish reported from adjusted measures.",
+        "Use Magenta AI Call Assistant as an E1 announced-rollout claim unless actual availability/user evidence is found; do not label future arrival E2.",
+        "Correct generic source dates and inaccessible opened flags."
+      ],
+      "limitations": [
+        "No faults, truck-rolls, handle-time, churn or energy KPI causally attributed to AI."
+      ],
+      "full_dossier_read": true,
+      "initial_verdict": "NEEDS_CORRECTION",
+      "final_verdict": "PASS",
+      "final_check": "Repaired capsule and controlling dossier section use an exact direct-source financial anchor, period-consistent 5% screen, corrected AI evidence stage, accurate opened flags, and actual publication date or explicitly undated source metadata. Earlier audit findings are preserved above as initial findings."
+    }
+  ],
+  "summary": {
+    "PASS": 2,
+    "LIMITED": 1,
+    "NEEDS_CORRECTION": 13,
+    "priority_corrections": [
+      "C091 uses an unreported FY2026 estimate and a retail homepage as AI evidence.",
+      "C057's $1.4bn anchor matches neither FY2026 GAAP operating income ($695m) nor non-GAAP operating income ($3.356bn).",
+      "C058 must distinguish current GAAP operating loss from positive non-GAAP operating income.",
+      "C030, C032, C046, C047, C070, C071, C081, C082 and C092 must replace approximate/undefined annual anchors with exact direct-source metrics.",
+      "C019's Snapshot page proves telematics deployment but not an AI mechanism.",
+      "Product pages or announced future availability must not be labeled E2 without named customer/user production evidence."
+    ],
+    "initial": {
+      "PASS": 2,
+      "LIMITED": 1,
+      "NEEDS_CORRECTION": 13
+    },
+    "final": {
+      "PASS": 15,
+      "LIMITED": 1
+    },
+    "finalized": "2026-09-12"
+  }
+}

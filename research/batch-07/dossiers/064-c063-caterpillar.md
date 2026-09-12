@@ -23,6 +23,18 @@ FY2025 sales/revenue **$67.589bn**, operating profit **$11.151bn**, and Machiner
 
 Komatsu FrontRunner is the incumbent challenger; autonomy vendors and customer fleet systems substitute. Dealers/customers and sensor suppliers share gains. Remote sites and safety regulation help switching costs, while mixed fleets invite open interfaces.
 
+### Attribution and commercial capture
+
+Cumulative miles and tonnes prove that Command can operate at meaningful physical scale. They do not reveal the counterfactual tonnes per truck-hour, safety exposure, fuel, tire wear, maintenance, availability or customer economics. Large mines selected for autonomy may be unusually standardized and well managed. A credible evaluation would phase deployment among matched haul routes, stratify by truck model, payload, grade and weather, and report intervention and incident rates per comparable operating hour. Safety should never be inferred from a raw count without exposure.
+
+Autonomy can create value for a mine through higher utilization, consistent cycles and lower driver exposure. Caterpillar captures only the portion embodied in software/service price, equipment preference, parts pull-through or renewal. Dealers perform integration and support, and their share must be included. Sensors and autonomy partners can absorb margin. If autonomy reduces wear or emergency parts demand, it may cannibalize existing aftermarket revenue; a whole-account contribution measure is needed rather than gross software sales.
+
+Predictive maintenance has a distinct test. Models should be evaluated on unplanned downtime and total maintenance cost for same-age machines at comparable sites. Extra inspections and parts swaps prompted by false alerts count as cost. Ordinary condition monitoring and scheduled service are the baseline. Fleet optimization similarly needs fuel and tonnes per hour at the same route, payload and congestion; a vendor simulation or best-site case is insufficient.
+
+Rights may be a practical bottleneck. Mines own sensitive maps, dispatch plans and production data, while Caterpillar, dealers and sensor vendors may each receive limited access. Tenant-specific inference does not imply permission to pool sites for training. Mixed fleets can favor neutral fleet-management layers. Caterpillar's dealer network and service history are valuable labels, but dealer systems may fragment completeness. The relevant contractual questions are model-improvement rights, derivative data, retention, incident access and portability at termination.
+
+Financial attribution is also noisy. Data-center engine demand and energy markets can lift Energy & Transportation profit without autonomy contributing. Tariffs, dealer inventory and mining cycles move equipment margin. Financial Products debt supports customer receivables and should be analyzed separately from industrial leverage. A future AI bridge must reconcile paid autonomy units, contract price, dealer and vendor shares, support expense, cannibalized parts and working capital to Caterpillar operating cash.
+
 ## Evidence ledger
 
 | Claim | Source/type/date | Stage | Limitation |
@@ -47,6 +59,8 @@ Five percent of FY2025 operating profit **$11.151bn** is a hurdle of **$557.55m/
 Positive: dealer-installed fleet and safety validation support autonomy subscriptions and equipment pull-through. Negative: customer savings drive price pressure, Komatsu/open autonomy competes, and data-center engines explain growth. Falsifiers: matched tonnes/hour/safety fail; autonomy renewals/price remain undisclosed; dealer/sensor cost absorbs contribution. Questions: autonomous unit count, paid ARR, data rights, intervention rate, lifecycle maintenance.
 
 Confidence mechanism high, deployment high, capture low-medium. G0/G1 provisional pass; G2 provisional because large E2 production scale has a credible test route but no controlled/cash result. G3/G4 deferred.
+
+Disclosure that would move evidence beyond E2 includes autonomous trucks under paid contracts rather than cumulative deployments, recurring revenue and contribution per truck, renewal/churn, matched tonnes per truck-hour, fuel and maintenance, safety events and remote interventions per million hours, plus customer-data rights. Until then the scale claim is real and relevant, but incremental customer productivity and Caterpillar's retained group profit remain unverified.
 
 ## Sources
 

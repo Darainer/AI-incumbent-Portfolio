@@ -63,7 +63,7 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "Framework convention: $430m, about 5% of 2026 adjusted operating-profit target near $8.65bn. Illustrative assumptions produce $150m, below the hurdle.",
+  "materiality_summary": "$432.5m = 5% of the $8.65bn midpoint of UPS’s FY2026 adjusted operating-profit target. This is an annual non-GAAP, pre-tax guidance screen.",
   "arithmetic": {
     "inputs": "pool $30bn eligible pickup/delivery, sort and support cost; efficiency 5%; realization 40%; retained share 50%; recurring cost $150m",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",

@@ -11,7 +11,7 @@
       "title": "H1 2026 issuer financial update",
       "date": "2026",
       "opened": true,
-      "supports": "profit from recurring operations of \u20ac8.7bn and a 22.5% margin. LVMH and Google Cloud describe a strategic AI/cloud partnership, an E1 capability and rollout claim; no controlled ma"
+      "supports": "profit from recurring operations of €8.7bn and a 22.5% margin. LVMH and Google Cloud describe a strategic AI/cloud partnership, an E1 capability and rollout claim; no controlled ma"
     },
     {
       "url": "https://www.lvmh.com/en/investors/publications",
@@ -48,7 +48,7 @@
     "unit": "EUR billion",
     "period": "FY2025",
     "source_url": "https://www.lvmh.com/en/investors/publications",
-    "caveat": "about \u20ac18bn profit from recurring operations scale; measure may be adjusted or a labelled scale proxy and is not normalized."
+    "caveat": "FY2025 profit from recurring operations governs the pre-tax recurring-profit screen."
   },
   "ai_claim": {
     "claim": "LVMH describes scoped AI/digital mechanisms in localized demand/allocation and clienteling analytics, generative assistance for marketing and internal knowledge.",
@@ -63,11 +63,11 @@
     "limitation": "Competitive capability does not by itself prove equal outcomes."
   },
   "rights_limit": "Client data, imagery, artist and talent rights are purpose- and maison-specific. Public policy does not show broad cross-maison training permission.",
-  "materiality_summary": "The labelled 5% scale hurdle is \u20ac900m; public evidence does not establish it.",
+  "materiality_summary": "Five percent of the completed-year governing metric is €890m; public evidence does not establish an AI-attributed amount.",
   "arithmetic": {
-    "inputs": "5%\u00d7\u20ac18bn recurring-operating-profit proxy=\u20ac900m",
-    "formula": "5%\u00d7\u20ac18bn recurring-operating-profit proxy=\u20ac900m. A \u20ac5bn eligible pool\u00d78%\u00d750%\u00d750%\u2212\u20ac80m=\u20ac20m; brand demand and pricing dominate. Customer-facing novelty without incremental contribution is not capture.",
-    "result": "Illustrative bridge remains below or must be compared with \u20ac900m; not a forecast."
+    "inputs": "FY2025 profit from recurring operations €17.8bn; 5%; illustrative eligible pool €5bn, efficiency 8%, realization 50%, retention 50%, recurring cost €80m",
+    "formula": "€17.8bn × 5% = €890m hurdle; €5bn × 8% × 50% × 50% − €80m = €20m illustrative benefit",
+    "result": "Illustrative €20m is below the €890m annual pre-tax recurring-profit hurdle; no AI-attributed amount is established."
   },
   "confidence": {
     "mechanism": "medium",

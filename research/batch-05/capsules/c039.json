@@ -14,11 +14,11 @@
       "supports": "quarterly revenue of $3.335bn, up 17%, with net income attributable to common shareholders of $274m; organic growth was only 3%, so acquisitions drove most growth. Constellation di"
     },
     {
-      "url": "https://www.csisoftware.com/category/press-releases/financial-information/",
-      "title": "Annual report / financial results",
-      "date": "2024",
-      "opened": false,
-      "supports": "latest financial anchor used in packet"
+      "url": "https://www.csisoftware.com/constellation-software-inc-announces-results-for-the-fourth-quarter-and-year-ended-december-31-2025-and-declares-quarterly-dividend/",
+      "title": "FY2025 issuer results",
+      "date": "2026-03-09",
+      "opened": true,
+      "supports": "FY2025 revenue $11.623bn, net income attributable to common shareholders $512m, CFO $2.732bn and non-IFRS FCFA2S $1.683bn"
     },
     {
       "url": "https://www.csisoftware.com/",
@@ -44,11 +44,11 @@
   ],
   "financial_anchor": {
     "metric": "net income attributable to common shareholders",
-    "value": 0.828,
+    "value": 0.512,
     "unit": "USD billion",
-    "period": "FY2024",
-    "source_url": "https://www.csisoftware.com/category/press-releases/financial-information/",
-    "caveat": "roughly $1.4bn operating income and $0.8bn net income attributable to common shareholders; measure may be adjusted or a labelled scale proxy and is not normalized."
+    "period": "FY2025 ended 31 December 2025",
+    "source_url": "https://www.csisoftware.com/constellation-software-inc-announces-results-for-the-fourth-quarter-and-year-ended-december-31-2025-and-declares-quarterly-dividend/",
+    "caveat": "After-tax attributable income governs the hurdle; non-IFRS FCFA2S of $1.683bn is context only."
   },
   "ai_claim": {
     "claim": "No consolidated named AI production deployment or measured outcome was identified; vertical copilots remain a research hypothesis.",
@@ -63,11 +63,11 @@
     "limitation": "Competitive capability does not by itself prove equal outcomes."
   },
   "rights_limit": "Each vertical product and customer contract differs. Customer records are usually customer-owned; group-wide cross-customer or cross-subsidiary training rights are not disclosed.",
-  "materiality_summary": "The labelled 5% scale hurdle is $70m; public evidence does not establish it.",
+  "materiality_summary": "Five percent of FY2025 net income attributable to common shareholders is $25.6m on an annual after-tax basis; no AI-attributed amount is established.",
   "arithmetic": {
-    "inputs": "5%\u00d7$1",
-    "formula": "5%\u00d7$1.4bn operating-income proxy=$70m. A $1.0bn eligible labor pool\u00d715%\u00d750%\u00d750%\u2212$20m cost=$17.5m; revenue effects must subtract seat and service cannibalization.",
-    "result": "Illustrative bridge remains below or must be compared with $70m; not a forecast."
+    "inputs": "FY2025 attributable net income $512m; 5%; illustrative eligible labor pool $1.0bn, efficiency 15%, realization 50%, retention 50%, recurring cost $20m; illustrative tax rate 25%",
+    "formula": "$512m × 5% = $25.6m hurdle; $1.0bn × 15% × 50% × 50% − $20m = $17.5m illustrative benefit; $17.5m × (1 − 25%) = $13.125m after tax",
+    "result": "Illustrative $13.125m after tax is below the $25.6m annual after-tax hurdle. The 25% tax rate is an explicit research assumption, not company guidance."
   },
   "confidence": {
     "mechanism": "medium",

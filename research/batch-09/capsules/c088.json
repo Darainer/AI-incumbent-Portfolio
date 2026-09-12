@@ -1,6 +1,6 @@
 {
   "id": "C088",
-  "company": "Nestlé",
+  "company": "Nestl\u00e9",
   "batch": 9,
   "dossier": "research/batch-09/dossiers/088-c088-nestle.md",
   "cutoff": "2026-09-12",
@@ -40,6 +40,13 @@
       "date": "undated",
       "opened": false,
       "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/07/23/3331864/0/en/half-year-results-2026-execution-driving-rig.html",
+      "title": "Latest issuer results independently verified by lead",
+      "date": "2026-07-23",
+      "opened": true,
+      "supports": "Lead independently opened the issuer-distributed H1 2026 release on 12 September 2026. Sales CHF43.109bn and underlying trading operating profit CHF7.081bn are corroborated. Earlier retrieval failure of the corporate URL is historical, not a remaining financial-metric gap. The AI deployment source remains unavailable; no controlled AI or retained-cash claim is accepted. The half-year screen is not comparable with an annual benefit illustration."
     }
   ],
   "financial_anchor": {
@@ -47,11 +54,11 @@
     "value": "CHF43.109bn; CHF7.081bn",
     "unit": "CHF",
     "period": "H1 2026 (ended 30 June 2026)",
-    "source_url": "https://www.nestle.com/media/pressreleases/allpressreleases/half-year-results-2026",
+    "source_url": "https://www.globenewswire.com/news-release/2026/07/23/3331864/0/en/half-year-results-2026-execution-driving-rig.html",
     "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
   },
   "ai_claim": {
-    "claim": "Nestlé describes AI in R&D, consumer and factory workflows, but no retrieved source establishes representative quality-adjusted incremental cash.",
+    "claim": "Nestl\u00e9 describes AI in R&D, consumer and factory workflows, but no retrieved source establishes representative quality-adjusted incremental cash.",
     "stage": "E1 capability; no opened AI deployment evidence",
     "source_url": "https://www.nestle.com/media/news/artificial-intelligence-digital-transformation",
     "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
@@ -59,14 +66,14 @@
   },
   "strongest_counterevidence": {
     "claim": "infant-formula recall and water/portfolio issues demonstrate that data/automation cannot substitute for supplier controls, validation and governance.",
-    "source_url": "https://www.nestle.com/media/pressreleases/allpressreleases/half-year-results-2026",
+    "source_url": "https://www.globenewswire.com/news-release/2026/07/23/3331864/0/en/half-year-results-2026-execution-driving-rig.html",
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "Framework convention: CHF708m, 5% of annualized H1 UTOP. Illustrative assumptions produce CHF88m, below the hurdle.",
+  "materiality_summary": "CHF354.05m = 5% of H1 2026 underlying trading operating profit of CHF7.081bn. This is a six-month, pre-tax non-GAAP screen and is NOT_COMPARABLE with the annual benefit illustration; no annualization is assumed.",
   "arithmetic": {
     "inputs": "pool CHF18bn eligible manufacturing, supply-chain, marketing-production and administrative cost; efficiency 8%; realization 40%; retained share 50%; recurring cost CHF200m",
-    "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+    "formula": "eligible cost \u00d7 efficiency \u00d7 realization \u00d7 retained share \u2212 recurring AI expense",
     "result": "CHF88m"
   },
   "confidence": {

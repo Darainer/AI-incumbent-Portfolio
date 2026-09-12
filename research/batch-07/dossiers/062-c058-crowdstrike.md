@@ -31,8 +31,7 @@ The strongest negative evidence is the missing causal bridge. The sources do not
 
 The prospective contract should freeze before deployment: eligible workload; model/version; treated and matched-control populations; baseline window; quality guardrail; labor and compute cost; adoption; and owner. Core KPIs are **investigation time, detection quality, module adoption, net retention**. Report medians and tails, not a single showcase average, and reconcile operational changes to recognized revenue, headcount avoided, third-party spend removed or capital released.
 
-A 5% screen on the 0.8 USD billion profit anchor is **0.04 USD billion per year**. This is a hurdle, not a forecast. To illustrate the required bridge, if 25% of that hurdle came from labor capacity and fully loaded cost were 0.00012 USD billion per employee-year, the company would need about 83 employee-years of *realized* capacity, before implementation and inference cost. Redeployment counts only if it supports documented incremental output or avoids hiring. Revenue uplift should use incremental gross/contribution margin, not gross bookings or model interactions.
-
+The earlier approximate annual screen and its employee-capacity illustration are withdrawn. The controlling exact calculation and its time basis appear in the source-audit correction below.
 
 ## Measurement design and decision use
 
@@ -57,4 +56,4 @@ Opened or located through issuer/search records by 12 September 2026: [financial
 
 Q2 GAAP operating loss was $33.232m while non-GAAP operating income was $371.649m. The anchor is explicitly non-GAAP and the 5% period screen is $18.582m; Mondelez testimonial supports scoped use, not causal lift. This exact source-audited measure supersedes any earlier approximate financial anchor or stage shorthand in this packet. It is a scale screen only. Because it covers less than a full year, it is not the annual 5% materiality hurdle and is NOT_COMPARABLE with annual cost or benefit illustrations. No annualization is assumed; all earlier statements that an annual illustration is above, below or clears this hurdle are withdrawn. G3 valuation and G4 portfolio construction remain deferred.
 
-**Handoff:** verify the FY2026 financial definition, the production scope of endpoint and identity security operations, and the missing causal profit bridge. Strongest counterargument: the mechanism can be real while its incremental economics remain too small or diffuse to clear the materiality screen.
+**Handoff:** verify the FY2026 financial definition, the production scope of endpoint and identity security operations, and the missing causal profit bridge. Strongest counterargument: the mechanism can be real while its incremental economics remain too small or diffuse to establish material retained economics.

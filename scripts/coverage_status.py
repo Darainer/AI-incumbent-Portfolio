@@ -118,7 +118,7 @@ def main():
                     out += [f"**{r['company']} ({r['id']}):** {rev.get('note', '')}", ""]
             out += ["Acceptance checks source support, scope, materiality arithmetic and explicit limits. It is neither an audit opinion nor a buy/sell recommendation. Raw capsules preserve the researcher's handoff; lead notes govern unresolved differences.", ""]
             (RESEARCH / f"batch-{batch:02d}" / "README.md").write_text("\n".join(out))
-        lines += ["", "[Machine-readable coverage](coverage-index.json) · [Lead acceptance record](coverage-review.json) · [Research schedule](coverage-schedule.json)", "",
+        lines += ["", "[Lead synthesis](coverage-synthesis.md) · [Machine-readable coverage](coverage-index.json) · [Lead acceptance record](coverage-review.json) · [Research schedule](coverage-schedule.json)", "",
                   "Evidence dates and access limitations remain company-specific. G3/G4 for batches 02–10 are deferred; no new numeric scores, target prices or allocations are produced.", ""]
         (RESEARCH / "coverage.md").write_text("\n".join(lines))
     if args.capsules is not None:

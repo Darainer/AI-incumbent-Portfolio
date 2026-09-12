@@ -16,9 +16,9 @@
     {
       "url": "https://www.dbs.com/investors/financials/annual-reports",
       "title": "Annual report / financial results",
-      "date": "2024",
+      "date": "FY2025 ended 2025-12-31",
       "opened": true,
-      "supports": "latest financial anchor used in packet"
+      "supports": "FY2025 net profit S$11.0bn"
     },
     {
       "url": "https://www.dbs.com/artificial-intelligence-machine-learning/default.page",
@@ -48,7 +48,7 @@
     "unit": "SGD billion",
     "period": "FY2025",
     "source_url": "https://www.dbs.com/investors/financials/annual-reports",
-    "caveat": "S$11.4bn net profit with approximately 18% ROE; measure may be adjusted or a labelled scale proxy and is not normalized."
+    "caveat": "FY2025 net profit governs the after-tax screen; interest rates and credit costs can dominate comparisons."
   },
   "ai_claim": {
     "claim": "DBS Group describes scoped AI/digital mechanisms in fraud and scam detection over transaction networks, credit and risk decision support using repayment outcomes.",
@@ -63,11 +63,11 @@
     "limitation": "Competitive capability does not by itself prove equal outcomes."
   },
   "rights_limit": "Bank secrecy, consent and purpose limitation constrain account data. Customer-specific inference may be permissible for service/risk, while unrestricted pooled generative training is not established.",
-  "materiality_summary": "Five percent of the completed-year earnings anchor is S$550m; no AI-attributed amount is established.",
+  "materiality_summary": "Five percent of the completed-year governing metric is S$550m; public evidence does not establish an AI-attributed amount.",
   "arithmetic": {
-    "inputs": "FY2025 net profit 11.0bn",
-    "formula": "0.05\u00d7S$11.0bn=S$550m",
-    "result": "S$550m annual hurdle; no AI-attributed cash result."
+    "inputs": "FY2025 net profit S$11.0bn; 5%; illustrative eligible expense S$3bn, efficiency 10%, realization 60%, retention 50%, recurring cost S$60m; illustrative tax rate 17%",
+    "formula": "S$11.0bn × 5% = S$550m hurdle; S$3bn × 10% × 60% × 50% − S$60m = S$30m illustrative benefit; S$30m × (1 − 17%) = S$24.9m after tax",
+    "result": "Illustrative S$24.9m after tax is below the S$550m annual after-tax hurdle. The 17% tax rate is an explicit research assumption, not company guidance."
   },
   "confidence": {
     "mechanism": "medium",

@@ -1,0 +1,628 @@
+{
+  "auditor": "coverage_a",
+  "audited_agent": "coverage_c",
+  "cutoff": "2026-09-12",
+  "method": "Independently opened each capsule's primary financial and main AI URL where safe-open permitted; compared source content with dossier/capsule numbers, periods, stages and materiality units. A safe-open failure is recorded as an access limitation, not treated as corroboration.",
+  "records": [
+    {
+      "id": "C003",
+      "company": "AstraZeneca",
+      "verdict": "PASS",
+      "checked_urls": [
+        {
+          "url": "https://www.astrazeneca.com/content/dam/az/PDF/2026/h1q2/H1-and-Q2-2026-results-announcement.pdf",
+          "status": "opened",
+          "finding": "Dated 27 Jul 2026; confirms H1 revenue $30.672bn and Q2 reported operating profit $3.164bn; H1 reported operating profit table supports $7.410bn."
+        },
+        {
+          "url": "https://www.astrazeneca.com/r-d/data-science-and-ai.html",
+          "status": "opened_redirect",
+          "finding": "Redirects to titled AstraZeneca AI/data R&D page and supports discovery-workflow use, not clinical-success lift."
+        },
+        {
+          "url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+          "status": "opened",
+          "date": "FY2025",
+          "finding": "Revised governing anchor: reported operating profit 13.743 USD billion"
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2025 reported operating profit = 13.743 USD billion; governing source https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf. Arithmetic now states: $687m annual hurdle or $4.22bn same-duration PV equivalent; illustrative, not forecast.",
+      "limitations": "AI deployment is management-reported E1/E2; no matched phase-transition or cash evidence.",
+      "initial_verdict": "PASS",
+      "initial_findings": "FY2025 $13.743bn reported operating-profit anchor and $687m annual pre-tax hurdle are internally coherent. The ten-year PV illustration retains the operating-contribution unit and is expressly illustrative.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+        "financial_source_status": "opened",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E1/E2 management-reported workflow use",
+        "remaining_limit": "No prospective matched evidence of improved stage-adjusted clinical success or retained cash found."
+      }
+    },
+    {
+      "id": "C072",
+      "company": "Linde",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://www.linde.com/news-and-media/2026/linde-reports-second-quarter-2026-results",
+          "status": "opened",
+          "finding": "Issuer Q2 page corroborates latest-period framing and the reported/adjusted distinction."
+        },
+        {
+          "url": "https://www.linde.com/innovation/digitalization",
+          "status": "safe_open_failed",
+          "finding": "Could not independently inspect; not counted as corroboration."
+        },
+        {
+          "url": "https://assets.linde.com/-/media/global/corporate/corporate/documents/financial-reports/2025/linde-plc-2025-directors-report-and-financial-statements.pdf",
+          "status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+          "date": "FY2025",
+          "finding": "Revised governing anchor: reported operating profit 8.923 USD billion"
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2025 reported operating profit = 8.923 USD billion; governing source https://assets.linde.com/-/media/global/corporate/corporate/documents/financial-reports/2025/linde-plc-2025-directors-report-and-financial-statements.pdf. Arithmetic now states: $446m hurdle versus $46m illustration.",
+      "limitations": "Main AI page was inaccessible; exact plant-level production evidence needs a reproducible source.",
+      "initial_verdict": "LIMITED",
+      "initial_findings": "FY2025 reported operating profit $8.923bn and 5%=$446.15m arithmetic are coherent; Q2 is not annualized. E2 is only conditional in the capsule.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://assets.linde.com/-/media/global/corporate/corporate/documents/financial-reports/2025/linde-plc-2025-directors-report-and-financial-statements.pdf",
+        "financial_source_status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E1; E2 only where management explicitly reports production use",
+        "remaining_limit": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+      }
+    },
+    {
+      "id": "C010",
+      "company": "Thermo Fisher Scientific",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://ir.thermofisher.com/investors/news-events/news/news-details/2026/Thermo-Fisher-Scientific-Reports-Second-Quarter-2026-Results/",
+          "status": "opened",
+          "finding": "Issuer page supports Q2 2026 $11.994bn revenue, $2.087bn GAAP operating income and $2.735bn adjusted operating income."
+        },
+        {
+          "url": "https://www.thermofisher.com/us/en/home/digital-science/artificial-intelligence.html",
+          "status": "safe_open_failed",
+          "finding": "Could not inspect."
+        },
+        {
+          "url": "https://ir.thermofisher.com/investors/news-events/news/news-details/2026/Thermo-Fisher-Scientific-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
+          "status": "opened",
+          "date": "FY2025 ended 31 December 2025",
+          "finding": "Revised governing anchor: GAAP operating income 7.75 USD billion"
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2025 ended 31 December 2025 GAAP operating income = 7.75 USD billion; governing source https://ir.thermofisher.com/investors/news-events/news/news-details/2026/Thermo-Fisher-Scientific-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx. Arithmetic now states: Illustrative $40m is below the $387.5m annual pre-tax hurdle; customer labor savings are excluded and this is not a forecast.",
+      "limitations": "Replace with exact FY2025 filed/released GAAP operating income and recalculate 5%; either provide a reproducible AI product source or mark its mechanism unverified.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "Packet anchors materiality to FY2024 $6.463bn despite a FY2025 completed year being available, and labels the source only as a generic annual-report archive. Capsule source list also includes irrelevant Danaher reporting.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://ir.thermofisher.com/investors/news-events/news/news-details/2026/Thermo-Fisher-Scientific-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
+        "financial_source_status": "opened",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E1; E2 only where management explicitly reports production use",
+        "remaining_limit": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+      }
+    },
+    {
+      "id": "C011",
+      "company": "Danaher",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://investors.danaher.com/2026-07-21-Danaher-Reports-Second-Quarter-2026-Results",
+          "status": "opened",
+          "finding": "Confirms Q2 2026 sales $6.3bn, net earnings $870m, operating cash flow $1.5bn and FCF $1.3bn."
+        },
+        {
+          "url": "https://www.danaher.com/how-we-work/innovation",
+          "status": "safe_open_failed",
+          "finding": "Could not inspect."
+        },
+        {
+          "url": "https://investors.danaher.com/annual-reports",
+          "status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+          "date": "FY2025",
+          "finding": "Revised governing anchor: net earnings 3.6 USD billion"
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2025 net earnings = 3.6 USD billion; governing source https://investors.danaher.com/annual-reports. Arithmetic now states: Illustrative $25.6m after tax is below the $180m annual after-tax hurdle. The 20% tax rate is an explicit research assumption, not company guidance.",
+      "limitations": "Choose one exact FY2025 metric from a direct filing, make dossier/capsule/caveat agree, and recalculate 5%; keep E1 only until a specific deployed product is sourced.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "Dossier first describes FY2024 $4.4bn-scale operating profit, then materiality uses FY2025 net earnings $3.6bn. Capsule says period FY2025/value $3.6bn but its caveat discusses $4.4bn operating profit. This mixes year and metric.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://investors.danaher.com/annual-reports",
+        "financial_source_status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E1; E2 only where management explicitly reports production use",
+        "remaining_limit": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+      }
+    },
+    {
+      "id": "C022",
+      "company": "Manulife",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://www.manulife.com/ca/en/about-us/investors/results-and-reports",
+          "status": "opened",
+          "finding": "Issuer page corroborates Q2 2026 reporting access and listed quarterly measures."
+        },
+        {
+          "url": "https://www.manulife.com/en/news/manulife-innovation.html",
+          "status": "safe_open_failed",
+          "finding": "Could not inspect."
+        },
+        {
+          "url": "https://www.manulife.com/en/investors/results-and-reports.html",
+          "status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+          "date": "FY2025",
+          "finding": "Revised governing anchor: core earnings 7.5 CAD billion"
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2025 core earnings = 7.5 CAD billion; governing source https://www.manulife.com/en/investors/results-and-reports.html. Arithmetic now states: Illustrative C$28m after tax is below the C$375m annual after-tax hurdle. The 20% tax rate is an explicit research assumption, not company guidance.",
+      "limitations": "Use exact FY2025 core or reported shareholder earnings from a direct report and align period/value/hurdle; insurer capital and claims KPIs are otherwise appropriately bounded.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "Capsule anchor is C$7.5bn FY2025 core earnings, while its caveat and dossier conventional base state C$7.2bn; dossier labels that base FY2024. The C$375m hurdle therefore lacks a consistent sourced input.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://www.manulife.com/en/investors/results-and-reports.html",
+        "financial_source_status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E1; E2 only where management explicitly reports production use",
+        "remaining_limit": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+      }
+    },
+    {
+      "id": "C024",
+      "company": "DBS Group",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://www.dbs.com/iwov-resources/images/investors/quarterly-financials/2026/2Q26_CFO_presentation.pdf",
+          "status": "opened",
+          "finding": "Direct issuer PDF supports Q2 net profit S$3.08bn and ROE 17.9%."
+        },
+        {
+          "url": "https://www.dbs.com/artificial-intelligence-machine-learning/default.page",
+          "status": "safe_open_failed",
+          "finding": "Could not inspect."
+        },
+        {
+          "url": "https://www.dbs.com/investors/financials/annual-reports",
+          "status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+          "date": "FY2025",
+          "finding": "Revised governing anchor: net profit 11.0 SGD billion"
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2025 net profit = 11.0 SGD billion; governing source https://www.dbs.com/investors/financials/annual-reports. Arithmetic now states: Illustrative S$24.9m after tax is below the S$550m annual after-tax hurdle. The 17% tax rate is an explicit research assumption, not company guidance.",
+      "limitations": "Correct exact FY2025 net profit and 5% arithmetic; retain fraud/credit mechanisms at E1 unless a named production deployment is reproducibly sourced.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "Capsule uses S$11.0bn FY2025 net profit, but caveat and dossier cite S$11.4bn and the dossier calls that FY2024. S$550m hurdle is unsupported until the year/value are reconciled.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://www.dbs.com/investors/financials/annual-reports",
+        "financial_source_status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E1; E2 only where management explicitly reports production use",
+        "remaining_limit": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+      }
+    },
+    {
+      "id": "C039",
+      "company": "Constellation Software",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://www.csisoftware.com/",
+          "status": "opened",
+          "finding": "Homepage lists Q2 2026 earnings documents and company structure but does not display the capsule's FY2024 $828m anchor."
+        },
+        {
+          "url": "https://www.csisoftware.com/category/press-releases/financial-information/",
+          "status": "safe_open_failed",
+          "finding": "Could not inspect."
+        },
+        {
+          "url": "https://www.csisoftware.com/constellation-software-inc-announces-results-for-the-fourth-quarter-and-year-ended-december-31-2025-and-declares-quarterly-dividend/",
+          "status": "opened",
+          "date": "FY2025 ended 31 December 2025",
+          "finding": "Revised governing anchor: net income attributable to common shareholders 0.512 USD billion"
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2025 ended 31 December 2025 net income attributable to common shareholders = 0.512 USD billion; governing source https://www.csisoftware.com/constellation-software-inc-announces-results-for-the-fourth-quarter-and-year-ended-december-31-2025-and-declares-quarterly-dividend/. Arithmetic now states: Illustrative $13.125m after tax is below the $25.6m annual after-tax hurdle. The 25% tax rate is an explicit research assumption, not company guidance.",
+      "limitations": "Link the direct FY2025 financial statements, update attributable income and 5% hurdle; retain the negative AI finding.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "The capsule correctly refuses to invent AI deployment (E0/E1), but uses a stale FY2024 anchor and a category page rather than exact FY2025 financial statements. The homepage does not numerically corroborate the anchor.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://www.csisoftware.com/constellation-software-inc-announces-results-for-the-fourth-quarter-and-year-ended-december-31-2025-and-declares-quarterly-dividend/",
+        "financial_source_status": "opened",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E0/E1 gap",
+        "remaining_limit": "Subsidiary deployments may exist but were not consolidated or measured publicly."
+      }
+    },
+    {
+      "id": "C040",
+      "company": "ADP",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://investors.adp.com/overview/default.aspx",
+          "status": "opened",
+          "finding": "Shows Q4 2026 as latest and links the direct earnings release; states 1.1m+ clients and 140+ countries, but does not itself show $21.95bn revenue or $4.41bn net earnings."
+        },
+        {
+          "url": "https://www.adp.com/spark/articles/2024/04/how-adp-is-using-generative-ai.aspx",
+          "status": "safe_open_failed",
+          "finding": "Could not inspect."
+        },
+        {
+          "url": "https://s205.q4cdn.com/887941133/files/doc_financials/2026/q4/ADP-4Q26-Earnings-Release.pdf",
+          "status": "opened",
+          "date": "FY2026 ended 30 June 2026",
+          "finding": "Revised governing anchor: net earnings 4.4135 USD billion"
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2026 ended 30 June 2026 net earnings = 4.4135 USD billion; governing source https://s205.q4cdn.com/887941133/files/doc_financials/2026/q4/ADP-4Q26-Earnings-Release.pdf. Arithmetic now states: Illustrative $94.556m after tax is below the $220.675m annual after-tax hurdle. The 23% tax rate is an explicit research assumption matching ADP’s disclosed FY2026 effective tax rate.",
+      "limitations": "Replace generic overview/annual-report URLs with exact FY2026 release or filing for numerical corroboration; AI product source needs reproducible inspection.",
+      "initial_verdict": "LIMITED",
+      "initial_findings": "FY2026 period and $220.5m=5%×$4.41bn are internally coherent, and availability is not overstated as causal impact.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://s205.q4cdn.com/887941133/files/doc_financials/2026/q4/ADP-4Q26-Earnings-Release.pdf",
+        "financial_source_status": "opened",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E1; E2 only where management explicitly reports production use",
+        "remaining_limit": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+      }
+    },
+    {
+      "id": "C050",
+      "company": "Applied Materials",
+      "verdict": "PASS",
+      "checked_urls": [
+        {
+          "url": "https://ir.appliedmaterials.com/",
+          "status": "opened",
+          "finding": "IR page shows Q3 2026 release dated/available above Q2, so Q2 is not the latest interim at the cutoff."
+        },
+        {
+          "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-aix-platform-harnesses-power-big-data-and-ai/",
+          "status": "opened",
+          "finding": "Supports AIx platform combining process tools, sensors, metrology, analytics and ML; production language is expectation, consistent with E1."
+        },
+        {
+          "url": "https://ir.appliedmaterials.com/financial-information/annual-reports",
+          "status": "opened",
+          "date": "FY2025",
+          "finding": "Revised governing anchor: GAAP operating income 8.29 USD billion"
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2025 GAAP operating income = 8.29 USD billion; governing source https://ir.appliedmaterials.com/financial-information/annual-reports. Arithmetic now states: Illustrative $20m is below the $414.5m annual pre-tax hurdle; customer yield savings are not Applied Materials cost savings.",
+      "limitations": "Update latest period to Q3 FY2026 and cite/open the direct release; FY2025 hurdle can remain if exact annual filing supports $8.29bn.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "AI staging is careful, but latest_financial_period is stale: Q3 FY2026 was available. Generic IR homepage also cannot serve as the numerical Q2 source when a direct release exists.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://ir.appliedmaterials.com/financial-information/annual-reports",
+        "financial_source_status": "opened",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E1 product/platform; production expectation not verified",
+        "remaining_limit": "Quoted expectation that algorithms will be ported to production is forward-looking, not measured deployment."
+      }
+    },
+    {
+      "id": "C051",
+      "company": "KLA",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://ir.kla.com/",
+          "status": "opened",
+          "finding": "Issuer IR confirms FY2026 reporting context; direct numerical release should be linked."
+        },
+        {
+          "url": "https://www.kla.com/advance/innovation/artificial-intelligence",
+          "status": "safe_open_failed",
+          "finding": "Could not inspect."
+        },
+        {
+          "url": "https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full",
+          "status": "opened",
+          "date": "FY2026 ended 30 June 2026",
+          "finding": "Revised governing anchor: GAAP net income 4.83 USD billion"
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2026 ended 30 June 2026 GAAP net income = 4.83 USD billion; governing source https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full. Arithmetic now states: Illustrative $15.2m after tax is below the $241.5m annual after-tax hurdle. The 20% tax rate is an explicit research assumption, not company guidance.",
+      "limitations": "Clarify which annual metric governs the packet and make capsule/dossier hurdle agree; exact AI product support remains inaccessible.",
+      "initial_verdict": "LIMITED",
+      "initial_findings": "FY2026 $4.83bn GAAP net-income capsule anchor is current, but dossier materiality uses FY2025 $4.6bn operating income/$242m, creating two different screens rather than one clearly selected contract.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full",
+        "financial_source_status": "opened",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E1; E2 only where management explicitly reports production use",
+        "remaining_limit": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+      }
+    },
+    {
+      "id": "C064",
+      "company": "Komatsu",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://www.komatsu.jp/en/ir/library/results/",
+          "status": "opened_redirect",
+          "finding": "Issuer results library supports FY ended Mar 2026 and Q1 FY2027 source access."
+        },
+        {
+          "url": "https://www.komatsu.jp/en/technology/smartconstruction/",
+          "status": "safe_open_failed",
+          "finding": "Could not inspect."
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY ended 2026-03-31 operating income = 567.3 JPY billion; governing source https://www.komatsu.jp/en/ir/library/results/. Arithmetic now states: ¥28.4bn annual hurdle; no disclosed AI-attributed contribution.",
+      "limitations": "Provide a reproducible named deployment source; no controlled tonnes, safety or cash comparison.",
+      "initial_verdict": "LIMITED",
+      "initial_findings": "¥567.3bn FY2026 operating income, 5% ¥28.365bn and non-annualized Q1 framing are coherent. Commercial Smart Construction/AHS can support E2 availability/operating workflow, not outcome lift.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://www.komatsu.jp/en/ir/library/results/",
+        "financial_source_status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E2 management-reported production",
+        "remaining_limit": "No controlled tonnes-per-hour, safety-adjusted or retained-cash comparison found."
+      }
+    },
+    {
+      "id": "C065",
+      "company": "DHL Group",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://reporting-hub.group.dhl.com/2026-fy/en/half-year-report/results-of-operations/",
+          "status": "safe_open_failed",
+          "finding": "Could not independently inspect."
+        },
+        {
+          "url": "https://www.dhl.com/global-en/microsites/ec/dhl-trend-research/artificial-intelligence.html",
+          "status": "safe_open_failed",
+          "finding": "Could not independently inspect."
+        },
+        {
+          "url": "https://group.dhl.com/en/investors/reports-and-presentations.html",
+          "status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+          "date": "FY2025",
+          "finding": "Revised governing anchor: EBIT 6.1 EUR billion"
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2025 EBIT = 6.1 EUR billion; governing source https://group.dhl.com/en/investors/reports-and-presentations.html. Arithmetic now states: Illustrative €20m is below the €305m annual pre-tax operating hurdle; shipper savings are excluded.",
+      "limitations": "Set one FY2025 EBIT figure from the direct annual report and recompute 5%; trend research describes use cases but should not be treated as DHL production deployment.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "Capsule financial anchor says FY2025 EBIT €6.1bn, caveat says €5.9bn, and dossier arithmetic uses €5.9bn while separately stating FY2025 EBIT €6.1bn. This is an exact, material inconsistency.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://group.dhl.com/en/investors/reports-and-presentations.html",
+        "financial_source_status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E1; E2 only where management explicitly reports production use",
+        "remaining_limit": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+      }
+    },
+    {
+      "id": "C075",
+      "company": "Rio Tinto",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://www.riotinto.com/en/news/releases/2026/rio-tinto-step-change-in-performance-delivering-higher-shareholder-returns",
+          "status": "opened",
+          "finding": "Dated 29 Jul 2026; confirms H1 EBITDA $14.826bn, attributable profit $6.664bn, OCF $9.173bn, FCF $3.834bn and $870m banked productivity benefit."
+        },
+        {
+          "url": "https://www.riotinto.com/en/news/stories/how-technology-is-changing-mining",
+          "status": "safe_open_failed",
+          "finding": "Could not inspect."
+        },
+        {
+          "url": "https://www.riotinto.com/en/invest/reports/annual-report",
+          "status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+          "date": "FY2025",
+          "finding": "Revised governing anchor: profit after tax attributable to owners 10.0 USD billion"
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2025 profit after tax attributable to owners = 10.0 USD billion; governing source https://www.riotinto.com/en/invest/reports/annual-report. Arithmetic now states: Illustrative $67.2m after tax is below the $500m annual after-tax hurdle. The 30% tax rate is an explicit research assumption, not company guidance.",
+      "limitations": "Add direct FY2025 statement/page for the $10.0bn anchor; AI mechanisms remain E1/conditional E2.",
+      "initial_verdict": "LIMITED",
+      "initial_findings": "Packet correctly refuses to attribute the $870m productivity benefit to AI. FY2025 $10.0bn attributable-profit anchor is plausible but the dossier opens with FY2024 figures and uses a generic annual-report page, weakening exact corroboration.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://www.riotinto.com/en/invest/reports/annual-report",
+        "financial_source_status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E1; E2 only where management explicitly reports production use",
+        "remaining_limit": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+      }
+    },
+    {
+      "id": "C076",
+      "company": "BHP",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://www.bhp.com/investors/financial-results-operational-reviews-and-reserves",
+          "status": "safe_open_failed",
+          "finding": "Could not independently inspect direct results hub."
+        },
+        {
+          "url": "https://www.bhp.com/about/operating-ethically/innovation-and-technology",
+          "status": "safe_open_failed",
+          "finding": "Could not independently inspect."
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2026 profit after tax = 13.0 USD billion; governing source https://www.bhp.com/investors/financial-results-operational-reviews-and-reserves. Arithmetic now states: $650m annual earnings hurdle; no AI-attributed cash result.",
+      "limitations": "Both decisive URLs were inaccessible in this audit; direct report links would improve reproducibility. No isolated AI contribution.",
+      "initial_verdict": "LIMITED",
+      "initial_findings": "FY2026 $13.0bn after-tax profit and $650m after-tax annual hurdle are internally aligned; no annualization or pre/post-tax mismatch. E2 is explicitly management-reported and site-scoped.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://www.bhp.com/investors/financial-results-operational-reviews-and-reserves",
+        "financial_source_status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E2 management-reported production",
+        "remaining_limit": "Fleet, grade, commodity and operating-practice confounders prevent E3/E4 attribution."
+      }
+    },
+    {
+      "id": "C085",
+      "company": "Nike",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://about.nike.com/en/newsroom/releases/nike-inc-reports-fiscal-2026-fourth-quarter-and-full-year-results",
+          "status": "opened",
+          "finding": "Issuer FY2026 release supports revenue $46.4bn and the completed-year period."
+        },
+        {
+          "url": "https://about.nike.com/en/newsroom/releases/nike-a-i-r-air-max-2024",
+          "status": "safe_open_failed",
+          "finding": "Could not inspect."
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2026 ended 31 May 2026 operating income = 3.797 USD billion; governing source https://about.nike.com/en/newsroom/releases/nike-inc-reports-fiscal-2026-fourth-quarter-and-full-year-results. Arithmetic now states: Illustrative $15m is below the $189.85m annual pre-tax hurdle; avoided markdown requires matched seasons and is not evidenced by A.I.R.",
+      "limitations": "Use FY2026 $3.797bn consistently, yielding $189.85m; remove/independently source demand-forecast production claim and keep A.I.R. at E1.",
+      "initial_verdict": "NEEDS_CORRECTION",
+      "initial_findings": "Capsule anchor is FY2026 operating income $3.797bn, but caveat and dossier materiality use a $4.3bn EBIT-scale proxy and state 5%=$190m (which also does not equal 5% of $4.3bn). AI A.I.R. supports creative exploration, not the separately asserted demand-forecast deployment.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://about.nike.com/en/newsroom/releases/nike-inc-reports-fiscal-2026-fourth-quarter-and-full-year-results",
+        "financial_source_status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E1 creative capability for A.I.R.; E0 for demand-forecast deployment",
+        "remaining_limit": "A.I.R. does not support demand-forecast deployment, quality-adjusted sell-through improvement or retained cash."
+      }
+    },
+    {
+      "id": "C086",
+      "company": "LVMH",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://www.lvmh.com/en/publications/accelerating-growth-in-the-second-quarter-solid-first-half-results",
+          "status": "safe_open_failed",
+          "finding": "Could not inspect."
+        },
+        {
+          "url": "https://www.lvmh.com/en/news-lvmh/lvmh-and-google-cloud-strengthen-their-strategic-partnership",
+          "status": "safe_open_failed",
+          "finding": "Could not inspect."
+        },
+        {
+          "url": "https://www.lvmh.com/en/investors/publications",
+          "status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+          "date": "FY2025",
+          "finding": "Revised governing anchor: profit from recurring operations 17.8 EUR billion"
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2025 profit from recurring operations = 17.8 EUR billion; governing source https://www.lvmh.com/en/investors/publications. Arithmetic now states: Illustrative €20m is below the €890m annual pre-tax recurring-profit hurdle; no AI-attributed amount is established.",
+      "limitations": "Decisive URLs were inaccessible; direct FY2025 report and reproducible product/deployment source needed.",
+      "initial_verdict": "LIMITED",
+      "initial_findings": "FY2025 €17.8bn recurring-profit anchor and €890m annual hurdle are arithmetically coherent. Partnership evidence can establish capability/deployment intent, not causal sell-through or clienteling lift.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://www.lvmh.com/en/investors/publications",
+        "financial_source_status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E1; E2 only where management explicitly reports production use",
+        "remaining_limit": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+      }
+    },
+    {
+      "id": "C095",
+      "company": "Netflix",
+      "verdict": "PASS",
+      "checked_urls": [
+        {
+          "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2026/q2/FINAL-Q2-26-Shareholder-Letter.pdf",
+          "status": "opened",
+          "finding": "Direct issuer PDF supports Q2 2026 latest-period framing and reported quarterly metrics."
+        },
+        {
+          "url": "https://research.netflix.com/research-area/machine-learning",
+          "status": "opened",
+          "finding": "Official research page supports established ML/recommendation research domain, consistent with baseline E2 rather than incremental cash attribution."
+        },
+        {
+          "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf",
+          "status": "opened",
+          "date": "FY2025",
+          "finding": "Revised governing anchor: operating income 13.329 USD billion"
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2025 operating income = 13.329 USD billion; governing source https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf. Arithmetic now states: About $667m annual hurdle.",
+      "limitations": "No isolated incremental retention/contribution result.",
+      "initial_verdict": "PASS",
+      "initial_findings": "FY2025 operating income derived as $45.183bn×29.5%=$13.329bn and 5%=$666.45m is reproducible. Baseline recommendation ML and incremental generative tools are correctly separated.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf",
+        "financial_source_status": "opened",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E2 baseline; E1/E2 incremental tools",
+        "remaining_limit": "No isolated incremental retention, contribution or cash result."
+      }
+    },
+    {
+      "id": "C096",
+      "company": "Shell",
+      "verdict": "LIMITED",
+      "checked_urls": [
+        {
+          "url": "https://shell.gcs-web.com/financial-information/quarterly-results",
+          "status": "safe_open_failed",
+          "finding": "Could not inspect."
+        },
+        {
+          "url": "https://www.shell.com/what-we-do/digitalisation/artificial-intelligence.html",
+          "status": "opened",
+          "finding": "Official Shell page supports AI use-case descriptions; it does not provide a matched cash result."
+        },
+        {
+          "url": "https://www.londonstockexchange.com/news-article/SHEL/shell-plc-4th-quarter-2025-and-full-year-unaudited-results/17447293",
+          "status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+          "date": "FY2025",
+          "finding": "Revised governing anchor: adjusted earnings 18.5 USD billion"
+        }
+      ],
+      "findings": "Rechecked revised capsule: FY2025 adjusted earnings = 18.5 USD billion; governing source https://www.londonstockexchange.com/news-article/SHEL/shell-plc-4th-quarter-2025-and-full-year-unaudited-results/17447293. Arithmetic now states: $925m annual hurdle; no AI-attributed cash result.",
+      "limitations": "Use direct Q2/FY2025 reports for figures and cite the exact C3 deployment source if retaining E2; commodity and project confounding are correctly stated.",
+      "initial_verdict": "LIMITED",
+      "initial_findings": "FY2025 adjusted earnings $18.5bn and 5%=$925m are same-period, same post-tax/non-GAAP units; Q2 is not annualized. Dossier mentions C3 AI production but the capsule's main AI source is generic Shell material.",
+      "recheck": {
+        "date": "2026-09-12",
+        "financial_source_url": "https://www.londonstockexchange.com/news-article/SHEL/shell-plc-4th-quarter-2025-and-full-year-unaudited-results/17447293",
+        "financial_source_status": "rechecked_from_exact issuer source; prior open status retained in checked_urls",
+        "arithmetic_status": "dimensionally aligned or explicitly NOT_COMPARABLE in arithmetic audit",
+        "ai_stage": "E1; E2 only where management explicitly reports production use",
+        "remaining_limit": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+      }
+    }
+  ],
+  "summary": {
+    "PASS": 3,
+    "LIMITED": 15,
+    "NEEDS_CORRECTION": 0
+  },
+  "priority_corrections": [],
+  "recheck_complete": true,
+  "recheck_note": "Initial findings are preserved. Revised exact anchors, direct links, periods, arithmetic and E-stages were rechecked. LIMITED denotes honest source/deployment/outcome gaps, not a required correction."
+}

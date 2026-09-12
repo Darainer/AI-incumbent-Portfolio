@@ -80,3 +80,9 @@ Access limits: some issuer pages dynamically expose PDFs or tables; where exact 
 ## Reviewer handoff
 
 Verify: (1) the latest financial anchor and reported/adjusted reconciliation; (2) whether the cited product outcome is production, representative and quality controlled; (3) contract-level training, retention and pooled-learning rights. Strongest counterargument: AI infrastructure growth requires very large capex and power; model providers and customers may capture economics, while automation savings require actual labor or throughput realization. Blocking items are cohort economics, labor/capacity realization, recurring technology cost and customer/supplier sharing. **Provisional disposition:** evidence watch; unreviewed. Capsule: [`../../batch-02/capsules/c053.json`](../capsules/c053.json).
+
+## Source-audit correction — 12 September 2026
+
+The opened 30 July 2026 issuer release reports Q2 sales of $200.6bn and GAAP operating income of $27.5bn. The 5% screen is $1.375bn for Q2 only; it is not an annual hurdle. AWS AI demand and Bedrock customer counts are external infrastructure/product demand, not evidence of Amazon internal productivity or E4 cash realization.
+
+**Controlling materiality treatment:** $1.375bn = 5% of Q2 2026 GAAP operating income of $27.5bn. This is a quarter-only, pre-tax screen and is NOT_COMPARABLE with the annual benefit illustration; no annualization is assumed. The dossier’s earlier conflicting hurdle or evidence-stage wording is withdrawn. All cost-pool, efficiency, realization, retained-share and recurring-cost inputs remain labeled assumptions. Revenue-demand evidence is kept separate from own-productivity evidence, and customer/product adoption does not establish retained shareholder cash.

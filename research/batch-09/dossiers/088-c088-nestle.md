@@ -80,3 +80,13 @@ Access limits: some issuer pages dynamically expose PDFs or tables; where exact 
 ## Reviewer handoff
 
 Verify: (1) the latest financial anchor and reported/adjusted reconciliation; (2) whether the cited product outcome is production, representative and quality controlled; (3) contract-level training, retention and pooled-learning rights. Strongest counterargument: infant-formula recall and water/portfolio issues demonstrate that data/automation cannot substitute for supplier controls, validation and governance. Blocking items are cohort economics, labor/capacity realization, recurring technology cost and customer/supplier sharing. **Provisional disposition:** evidence watch; unreviewed. Capsule: [`../../batch-09/capsules/c088.json`](../capsules/c088.json).
+
+## Source-audit correction — 12 September 2026
+
+The direct 23 July 2026 results page supports H1 sales of CHF43.109bn and underlying trading operating profit of CHF7.081bn. The 5% screen is CHF354.05m for H1 only. Nestlé AI remains E1 capability because the cited AI page was not successfully opened and no representative quality-adjusted or retained-cash outcome was verified.
+
+**Controlling materiality treatment:** CHF354.05m = 5% of H1 2026 underlying trading operating profit of CHF7.081bn. This is a six-month, pre-tax non-GAAP screen and is NOT_COMPARABLE with the annual benefit illustration; no annualization is assumed. The dossier’s earlier conflicting hurdle or evidence-stage wording is withdrawn. All cost-pool, efficiency, realization, retained-share and recurring-cost inputs remain labeled assumptions. Revenue-demand evidence is kept separate from own-productivity evidence, and customer/product adoption does not establish retained shareholder cash.
+
+## Lead source verification
+
+Lead independently opened the issuer-distributed H1 2026 release on 12 September 2026. Sales CHF43.109bn and underlying trading operating profit CHF7.081bn are corroborated. Earlier retrieval failure of the corporate URL is historical, not a remaining financial-metric gap. The AI deployment source remains unavailable; no controlled AI or retained-cash claim is accepted. The half-year screen is not comparable with an annual benefit illustration. [Issuer release](https://www.globenewswire.com/news-release/2026/07/23/3331864/0/en/half-year-results-2026-execution-driving-rig.html).

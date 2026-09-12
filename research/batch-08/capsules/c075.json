@@ -48,7 +48,7 @@
     "unit": "USD billion",
     "period": "FY2025",
     "source_url": "https://www.riotinto.com/en/invest/reports/annual-report",
-    "caveat": "$23.3bn underlying EBITDA; reported operating profit differs; measure may be adjusted or a labelled scale proxy and is not normalized."
+    "caveat": "FY2025 profit after tax attributable to owners governs the screen; underlying EBITDA is excluded."
   },
   "ai_claim": {
     "claim": "Rio Tinto describes scoped AI/digital mechanisms in autonomous haulage and drilling optimization, orebody modelling, grade control and processing optimization.",
@@ -63,11 +63,11 @@
     "limitation": "Competitive capability does not by itself prove equal outcomes."
   },
   "rights_limit": "Operational and geological data are largely company-controlled; vendors may access slices under contract. Indigenous, joint-venture and sovereign rights constrain some data and operations.",
-  "materiality_summary": "The labelled 5% scale hurdle is $700m proxy; public evidence does not establish it.",
+  "materiality_summary": "Five percent of the completed-year governing metric is $500m; public evidence does not establish an AI-attributed amount.",
   "arithmetic": {
-    "inputs": "Using a $14bn reported-operating-profit scale proxy, 5%=$700m",
-    "formula": "Using a $14bn reported-operating-profit scale proxy, 5%=$700m. A $8bn eligible cost pool\u00d75%\u00d770%\u00d770%\u2212$100m=$96m. Commodity price, grade, strip ratio and capital upgrades must be controlled.",
-    "result": "Illustrative bridge remains below or must be compared with $700m proxy; not a forecast."
+    "inputs": "FY2025 profit after tax attributable to owners $10.0bn; 5%; illustrative eligible cost pool $8bn, efficiency 5%, realization 70%, retention 70%, recurring cost $100m; illustrative tax rate 30%",
+    "formula": "$10.0bn × 5% = $500m hurdle; $8bn × 5% × 70% × 70% − $100m = $96m illustrative benefit; $96m × (1 − 30%) = $67.2m after tax",
+    "result": "Illustrative $67.2m after tax is below the $500m annual after-tax hurdle. The 30% tax rate is an explicit research assumption, not company guidance."
   },
   "confidence": {
     "mechanism": "medium",
