@@ -1,1 +1,32 @@
-{}
+{
+  "C026": {
+    "status": "accepted",
+    "reviewed_at": "2026-09-12",
+    "review_scope": "Full dossier and capsule read; latest SEC results and decisive A2A source opened independently; illustrative arithmetic checked.",
+    "checked_sources": [
+      "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000103/q32026earningsrelease.htm",
+      "https://corporate.visa.com/en/sites/visa-perspectives/newsroom/enhanced-a2a-protect.html"
+    ],
+    "note": "Latest financial and A2A deployment claims checked. Keep the reported detection improvement at E2: protocol, paid denominator and retained contribution are undisclosed. The illustrative own-cost route is only $88m against a $1.20bn scale hurdle; material G2 economics remain open.",
+    "remaining_limits": [
+      "Lawful pooled-learning terms",
+      "Matched fraud/false-decline quality",
+      "Paid incremental contribution and incentives"
+    ]
+  },
+  "C001": {
+    "status": "revision_requested",
+    "reviewed_at": "2026-09-12",
+    "note": "Correct the mismatch between programme NPV and annual profit; independently recheck the precise riliprubart adverse source before treating it as established."
+  },
+  "C003": {
+    "status": "revision_requested",
+    "reviewed_at": "2026-09-12",
+    "note": "Refresh FY2024-only baseline using FY2025/H1 2026 where retrievable; strengthen direct sources/challenger evidence; remove invalid annual-profit versus programme-NPV comparison."
+  },
+  "C004": {
+    "status": "revision_requested",
+    "reviewed_at": "2026-09-12",
+    "note": "Correct programme NPV versus annual profit comparison. Preserve explicit H1 detail-access limitation and distinguish non-AI clinical failures from causal AI evidence."
+  }
+}
