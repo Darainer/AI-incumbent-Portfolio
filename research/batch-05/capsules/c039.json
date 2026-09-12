@@ -1,0 +1,84 @@
+{
+  "id": "C039",
+  "company": "Constellation Software",
+  "batch": 5,
+  "dossier": "research/batch-05/dossiers/045-c039-constellation-software.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 2026",
+  "sources": [
+    {
+      "url": "https://www.csisoftware.com/",
+      "title": "Q2 2026 issuer financial update",
+      "date": "2026",
+      "opened": true,
+      "supports": "quarterly revenue of $3.335bn, up 17%, with net income attributable to common shareholders of $274m; organic growth was only 3%, so acquisitions drove most growth. Constellation di"
+    },
+    {
+      "url": "https://www.csisoftware.com/category/press-releases/financial-information/",
+      "title": "Annual report / financial results",
+      "date": "2024",
+      "opened": false,
+      "supports": "latest financial anchor used in packet"
+    },
+    {
+      "url": "https://www.csisoftware.com/",
+      "title": "Company technology / AI evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "AI capability or deployment claim"
+    },
+    {
+      "url": "https://www.csisoftware.com/privacy-policy/",
+      "title": "Privacy / data policy",
+      "date": "undated",
+      "opened": false,
+      "supports": "rights constraints"
+    },
+    {
+      "url": "https://www.ropertech.com/investors/financial-information/annual-reports",
+      "title": "Roper Technologies reporting",
+      "date": "undated",
+      "opened": false,
+      "supports": "incumbent challenger evidence"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "net income attributable to common shareholders",
+    "value": 0.828,
+    "unit": "USD billion",
+    "period": "FY2024",
+    "source_url": "https://www.csisoftware.com/category/press-releases/financial-information/",
+    "caveat": "roughly $1.4bn operating income and $0.8bn net income attributable to common shareholders; measure may be adjusted or a labelled scale proxy and is not normalized."
+  },
+  "ai_claim": {
+    "claim": "No consolidated named AI production deployment or measured outcome was identified; vertical copilots remain a research hypothesis.",
+    "stage": "E0/E1 gap",
+    "source_url": "https://www.csisoftware.com/",
+    "scope": "decentralized VMS portfolio",
+    "limitation": "Subsidiary deployments may exist but were not consolidated or measured publicly."
+  },
+  "strongest_counterevidence": {
+    "claim": "Roper Technologies and generic model vendors and new vertical SaaS products can replicate tools or force gains through to customers.",
+    "source_url": "https://www.ropertech.com/investors/financial-information/annual-reports",
+    "limitation": "Competitive capability does not by itself prove equal outcomes."
+  },
+  "rights_limit": "Each vertical product and customer contract differs. Customer records are usually customer-owned; group-wide cross-customer or cross-subsidiary training rights are not disclosed.",
+  "materiality_summary": "The labelled 5% scale hurdle is $70m; public evidence does not establish it.",
+  "arithmetic": {
+    "inputs": "5%\u00d7$1",
+    "formula": "5%\u00d7$1.4bn operating-income proxy=$70m. A $1.0bn eligible labor pool\u00d715%\u00d750%\u00d750%\u2212$20m cost=$17.5m; revenue effects must subtract seat and service cannibalization.",
+    "result": "Illustrative bridge remains below or must be compared with $70m; not a forecast."
+  },
+  "confidence": {
+    "mechanism": "medium",
+    "deployment": "low-to-medium",
+    "capture": "low"
+  },
+  "g2_provisional": "Open: E1/E2 evidence supports measurement, but E3 quality-adjusted causality and E4 cash retention are not established.",
+  "unresolved_questions": [
+    "What share of eligible workload is in production?",
+    "What controlled quality-adjusted KPI result exists?",
+    "What do contracts permit for pooled learning and how much benefit is retained after recurring cost?"
+  ],
+  "self_check_complete": true
+}
