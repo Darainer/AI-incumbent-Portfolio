@@ -71,7 +71,7 @@ RELX's LexisNexis (Lexis+ AI/Protégé) is the closest incumbent rival: it has c
 | Verified completion cost per matter | Existing Westlaw/manual workflow | Research, drafting, review tasks | citation accuracy and senior-review minutes | 61% drafting-time claim lacks method | Controlled customer study |
 | Paid AI ARR and gross margin | 2025 product baseline | Big 3 customers | inference, content and support cost included | Undisclosed | 2026 investor reporting |
 
-**Pre-registered materiality hurdle:** 5% of normalized operating profit. Using annualized H1 IFRS operating profit of about US$2.394bn, the hurdle is roughly US$120m pretax. Illustrative cost bridge: US$1.0bn eligible labor/content-production cost × 20% task efficiency × 60% realization × 50% retained share − US$200m recurring AI investment = **negative US$140m**. This deliberately conservative bridge shows that cost savings alone may not pay for disclosed AI spending. A revenue route could clear the hurdle if, for example, US$1.0bn of paid AI revenue earns 32% contribution after cannibalization/model costs and only US$200m of the investment is incremental: US$120m net. None of those inputs is disclosed; this is a break-even requirement, not a forecast. Avoid counting customer time saved as TR cost savings.
+**Pre-registered materiality hurdle:** 5% of normalized operating profit. Annualized H1 IFRS operating profit of about US$2.394bn is only a scale proxy, not a normalized estimate; it puts the screening hurdle near US$120m pretax. Illustrative cost bridge before incremental AI expense: US$1.0bn eligible labor/content-production cost × 20% task efficiency × 60% realization × 50% retained share = US$60m. Let incremental recurring AI expense be **K**; net benefit is US$60m − K, so this cost route cannot reach US$120m even at K=0. The disclosed US$200m+ annual AI investment is already included in reported earnings/FCF and must not be subtracted again; the incremental portion K is unknown. A revenue route clears the hurdle where paid AI revenue × contribution margin after cannibalization/model/support costs − K ≥ US$120m (for example, at 40% contribution and K=US$80m, required revenue is US$500m). These are break-even requirements, not forecasts. Avoid counting customer time saved as TR cost savings.
 
 ## Valuation and reverse valuation
 
@@ -81,11 +81,11 @@ Five-year DCF formula: value = sum of FCF/share grown at *g* and discounted at 9
 
 | Case | Conventional / AI assumption | 5y growth; terminal growth | Value/share | Reading |
 |---|---|---:|---:|---|
-| Bear | print/competition pressure; AI net zero/adverse | 2%; 2% | ~US$73 | Material downside |
-| Base | core subscription compounding; reported AI already in base | 6%; 2.5% | ~US$101 | Roughly supports price |
-| Bull | paid workflow expansion with durable capture | 9%; 3% | ~US$132 | Requires evidence beyond E2 |
+| Bear | print/competition pressure; AI net zero/adverse | 2%; 2% | ~US$69.77 | Material downside |
+| Base | core subscription compounding; reported AI already in base | 6%; 2.5% | ~US$87.70 | Below observed price |
+| Bull | paid workflow expansion with durable capture | 9%; 3% | ~US$106.13 | Requires evidence beyond E2 |
 
-Reverse valuation at US$97.35, 9% discount and 2.5% terminal growth implies approximately **5.5% annual FCF/share growth for five years** (interpolated). At a 10% hurdle the requirement rises materially (roughly high-single-digit growth). Sensitivity is dominated by discount/terminal rates and whether buybacks offset acquisition funding. The conventional business is not obviously cheap; AI is not a free option.
+Reverse valuation at US$97.35, 9% discount and 2.5% terminal growth implies approximately **8.5% annual FCF/share growth for five years** (interpolated; 8.5% produces about US$97.40). At a 10% hurdle the requirement rises materially. Sensitivity is dominated by discount/terminal rates and whether buybacks offset acquisition funding. The conventional business is not obviously cheap; AI is not a free option.
 
 ## Risks, falsifiers, priors and gates
 
@@ -102,7 +102,7 @@ Three falsifiers: (1) CoCounsel adopter net revenue/retention underperforms matc
 | Distribution | 5 | 5 | broad installed customer base and cross-workflow products |
 | Capture | 5 | 3 | revenue association exists; net AI contribution and cannibalization unknown |
 
-Weighted posterior is 79/100 versus prior 91; this remains structural judgment, not a probability. **G0 pass:** explicit asset/mechanism/falsifiers. **G1 pass with governance/rights caveat:** durable cash generation, moderate leverage; corpus training rights incomplete. **G2 pass:** management-reported production deployment and credible materiality test, strongest stage E2. **G3 conditional/provisional:** price, shares and scenarios supplied, but quote timestamp and post-Q2 financing/print JV need reconciliation. **G4 fail/not assessed.** Confidence: mechanism 4/5, deployment 3/5, capture 2/5, valuation 2/5.
+Weighted posterior is 77/100 versus prior 91; this remains structural judgment, not a probability. **G0 pass:** explicit asset/mechanism/falsifiers. **G1 pass with governance/rights caveat:** durable cash generation, moderate leverage; corpus training rights incomplete. **G2 pass:** management-reported production deployment and credible materiality test, strongest stage E2. **G3 conditional/provisional:** price, shares and scenarios supplied, but quote timestamp and post-Q2 financing/print JV need reconciliation. **G4 fail/not assessed.** Confidence: mechanism 4/5, deployment 3/5, capture 2/5, valuation 2/5.
 
 ## Source register
 
