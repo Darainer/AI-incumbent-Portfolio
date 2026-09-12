@@ -3,7 +3,7 @@
     "id": "C037",
     "company": "Intuit",
     "ticker": "INTU",
-    "listing": "US-listed ordinary/common stock",
+    "listing": "Nasdaq common share",
     "currency": "USD",
     "price": 321.57,
     "price_date": "2026-09-11",
@@ -16,7 +16,7 @@
       "https://investors.intuit.com/news-events/press-releases/detail/1320/intuit-reports-fourth-quarter-and-full-year-fiscal-2026-results-sets-fiscal-2027-guidance"
     ],
     "baseline_adjustments": [
-      "FY2026 GAAP EPS16.46 includes SBC. FY2027 GAAP guidance20.12–20.36; base/bull year1 is20.24, followed by FOUR growth years to year5.",
+      "FY2026 GAAP EPS16.46 includes SBC. FY2027 GAAP guidance20.12\u201320.36; base/bull year1 is20.24, followed by FOUR growth years to year5.",
       "Cash7.2bn versus debt7.7bn; 2026 repurchases reduce weighted diluted shares2%. No separate buyback return.",
       "Reported cash flow is not used as owner cash because customer-fund/working-capital movements distort it. FY2027 non-GAAP now includes SBC, unlike prior-year presentation."
     ],
@@ -65,7 +65,7 @@
         "earnings_year1": 20.24
       }
     },
-    "ai_bridge": "Bull-only10% terminal earnings. A present-scale equivalent of aboutUSD456.6m after tax requires roughlyUSD578m pretax at21% tax. Illustrative non-overlapping mix:4% incremental GBS revenue on12.864bn at60% net contribution=309m pretax, plus269m net internal savings after all technology/review costs. The internal portion requires approximately25% task efficiency ×70% realization ×70% retention onUSD3bn eligible spend less99m recurring costs. These are requirements, not measured outcomes; the total effect is only~1.9% annualized across five years.",
+    "ai_bridge": "Bull-only10% terminal earnings. A present-scale equivalent of aboutUSD456.6m after tax requires roughlyUSD578m pretax at21% tax. Illustrative non-overlapping mix:4% incremental GBS revenue on12.864bn at60% net contribution=309m pretax, plus269m net internal savings after all technology/review costs. The internal portion requires approximately25% task efficiency \u00d770% realization \u00d770% retention onUSD3bn eligible spend less99m recurring costs. These are requirements, not measured outcomes; the total effect is only~1.9% annualized across five years.",
     "uncertainties": [
       "FY2027 guidance must hold; a20% year1 miss reduces the entry threshold approximately20% before dividend effects.",
       "Tax volumes, Mailchimp, accountant-channel retention and external-agent pricing are decision-critical.",
@@ -78,7 +78,7 @@
     "id": "C026",
     "company": "Visa",
     "ticker": "V",
-    "listing": "US-listed ordinary/common stock",
+    "listing": "NYSE common share",
     "currency": "USD",
     "price": 370.45,
     "price_date": "2026-09-11",
@@ -92,9 +92,9 @@
       "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000103/q32026earningsrelease.htm"
     ],
     "baseline_adjustments": [
-      "10.20 FY2025 GAAP EPS +9.14 nine-month2026 −7.59 nine-month2025 =11.75. Summed EPS is an approximate TTM measure with changing diluted denominators.",
+      "10.20 FY2025 GAAP EPS +9.14 nine-month2026 \u22127.59 nine-month2025 =11.75. Summed EPS is an approximate TTM measure with changing diluted denominators.",
       "Litigation/severance and SBC remain expensed; the baseline is deliberately below issuer-adjusted earning power.",
-      "Model per-share growth includes at most1–2points net buyback contribution; do not add repurchase yield."
+      "Model per-share growth includes at most1\u20132points net buyback contribution; do not add repurchase yield."
     ],
     "horizon_years": 5,
     "scenarios": {
@@ -150,7 +150,7 @@
     "id": "C027",
     "company": "Mastercard",
     "ticker": "MA",
-    "listing": "US-listed ordinary/common stock",
+    "listing": "NYSE common share",
     "currency": "USD",
     "price": 569.19,
     "price_date": "2026-09-11",
@@ -164,7 +164,7 @@
       "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000081/ma06302026-exx991xearnings.htm"
     ],
     "baseline_adjustments": [
-      "16.52 FY2025 GAAP EPS +9.32 H12026 −7.66 H12025 =18.18 approximate TTM; round down to18.00 for one-off grant/tax-interest effects and denominator changes.",
+      "16.52 FY2025 GAAP EPS +9.32 H12026 \u22127.66 H12025 =18.18 approximate TTM; round down to18.00 for one-off grant/tax-interest effects and denominator changes.",
       "SBC and litigation remain costs. No separate buyback yield. Quarterly dividend0.87 is used as annual3.48 payout assumption; future growth conditional."
     ],
     "horizon_years": 5,
@@ -221,7 +221,7 @@
     "id": "C043",
     "company": "Salesforce",
     "ticker": "CRM",
-    "listing": "US-listed ordinary/common stock",
+    "listing": "NYSE common share",
     "currency": "USD",
     "price": 247.72,
     "price_date": "2026-09-11",
@@ -234,7 +234,7 @@
       "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
     ],
     "baseline_adjustments": [
-      "FY2027 GAAP midpoint10.23 includes realized H1 strategic-investment gain3.171bn. Remove3.171bn×(1−23.5% marginal tax)/838m guided diluted shares =2.89474/share; normalized proxy7.33526.",
+      "FY2027 GAAP midpoint10.23 includes realized H1 strategic-investment gain3.171bn. Remove3.171bn\u00d7(1\u221223.5% marginal tax)/838m guided diluted shares =2.89474/share; normalized proxy7.33526.",
       "Unlike simply subtracting H1 EPS impact2.87, aggregate gain is placed over the FULL-YEAR guided share denominator.",
       "SBC, acquired amortization, restructuring and higher financing expense stay in GAAP earnings. Q2 interest expense473m versus67m a year earlier; the103m-share ASR reduction is already in guided shares.",
       "Fiscal2027 guidance is the year1 earnings anchor; four subsequent growth years."
@@ -284,7 +284,7 @@
         "earnings_year1": 7.335232696897375
       }
     },
-    "ai_bridge": "A10% uplift must be incremental to current Agentforce revenue already in guidance. At normalized next-year net income roughlyUSD6.147bn, present-scale requirement is615m after tax, about791m pretax at22.3% tax; a40% incremental margin requires~USD1.98bn net incremental revenue after cannibalization. ARR scope changes and work-unit counts do not prove that.",
+    "ai_bridge": "A10% uplift must be incremental to current Agentforce revenue already in guidance. At normalized next-year net income roughlyUSD6.147bn, present-scale requirement is615m after tax, about791m pretax at23.5% tax; a40% incremental margin requires~USD2.01bn net incremental revenue after cannibalization. ARR scope changes and work-unit counts do not prove that.",
     "uncertainties": [
       "Large acquisition programme and leveraged repurchases constrain balance-sheet flexibility.",
       "Normalized EPS is far below both headline adjustedEPS and GAAP EPS including investment gains.",
@@ -297,7 +297,7 @@
     "id": "C055",
     "company": "Accenture",
     "ticker": "ACN",
-    "listing": "US-listed ordinary/common stock",
+    "listing": "NYSE common share",
     "currency": "USD",
     "price": 183.9,
     "price_date": "2026-09-11",
@@ -310,9 +310,9 @@
       "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/earnings-reports/2026/accenture-3q-fy26-earnings-release.pdf"
     ],
     "baseline_adjustments": [
-      "Published June18 FY2026 GAAP guide13.38–13.50; use13.44, not adjusted13.84. SBC and business-optimization costs remain charged.",
-      "This is management guidance for a just-ended year, not verified reported FY2026 earnings. Latest revenue outlook3–4% local-currency growth.",
-      "Current annual dividend proxy4×1.63=6.52. Acquisition spending and client cash realization matter beyond simple P/E."
+      "Published June18 FY2026 GAAP guide13.38\u201313.50; use13.44, not adjusted13.84. SBC and business-optimization costs remain charged.",
+      "This is management guidance for a just-ended year, not verified reported FY2026 earnings. Latest revenue outlook3\u20134% local-currency growth.",
+      "Current annual dividend proxy4\u00d71.63=6.52. Acquisition spending and client cash realization matter beyond simple P/E."
     ],
     "horizon_years": 5,
     "scenarios": {
@@ -368,7 +368,7 @@
     "id": "C038",
     "company": "Veeva Systems",
     "ticker": "VEEV",
-    "listing": "US-listed ordinary/common stock",
+    "listing": "NYSE common share",
     "currency": "USD",
     "price": 262.4,
     "price_date": "2026-09-11",
@@ -382,7 +382,7 @@
       "https://ir.veeva.com/news/news-details/2026/Veeva-Announces-Fiscal-2027-Second-Quarter-Results/default.aspx"
     ],
     "baseline_adjustments": [
-      "TTM net income USD908.906m+534.365m−428.499m=1014.772m. Diluted weighted shares166.995m+(166.072m−167.272m)×181/365=166.39993m; EPS~6.10.",
+      "TTM net income USD908.906m+534.365m\u2212428.499m=1014.772m. Diluted weighted shares166.995m+(166.072m\u2212167.272m)\u00d7181/365=166.39993m; EPS~6.10.",
       "SBC remains expensed; reject FY2027 non-GAAP9.21 as an owner-EPS baseline because it excludes material compensation.",
       "Net income includes interest on cash; the total EPS growth assumption must be below core operating growth if that cash-income line is flat. No separate excess-cash addition."
     ],
@@ -514,23 +514,26 @@
     "id": "C036",
     "company": "Thomson Reuters",
     "ticker": "TRI",
-    "listing": "US-listed ordinary/common stock",
+    "listing": "NYSE common share",
     "currency": "USD",
     "price": 97.35,
     "price_date": "2026-09-11",
     "price_source": "web.finance dated market quote feed; see quotes-us.json",
     "price_quality": "Saturday, September 12, 00:15:00 UTC",
-    "baseline_metric": "Illustrative annual owner-cash per share, conditional SBC reserve",
-    "baseline_value": 4.4459644322845415,
+    "baseline_metric": "Guided annual equity owner cash per diluted share after prospective economic SBC deduction; not EPS",
+    "baseline_value": 4.4458491402459615,
     "baseline_period": "FY2026 management FCF guidance with explicit analyst compensation/normalization reserve",
     "baseline_source": [
-      "https://ir.thomsonreuters.com/news-releases/news-release-details/thomson-reuters-reports-second-quarter-2026-results"
+      "https://ir.thomsonreuters.com/news-releases/news-release-details/thomson-reuters-reports-second-quarter-2026-results",
+      "https://thomsonreuters.gcs-web.com/static-files/842c9fc0-bdf4-4b1b-9f6b-c5a14de0b3cf",
+      "https://www.sec.gov/Archives/edgar/data/1075124/000119312526094222/tri-ex99_1.htm"
     ],
     "baseline_adjustments": [
-      "Management annual FCF guidanceUSD2.1bn /Q2 diluted shares438.6m would be4.788/share. Deduct an analystUSD150m annual SBC/recurring-normalization reserve =>4.446/share.",
-      "The150m reserve is an assumption, NOT a verified SBC reconciliation. If recurring economic cost exceeds it, this proxy overstates owner cash. It must be resolved before high-conviction investment promotion.",
-      "FCF includes capital expenditure and lease principal; do not deduct them again. September financing and Global Print JV make the earnings perimeter provisional.",
-      "Current annual dividend2.62, corrected from an unsupported2.44 assumption. Only dividends are investor cash flows; retained owner cash funds modeled growth."
+      "FY2026 management guided FCF USD2100m minus USD150m prospective economic SBC /438.611374m Q2 diluted shares = USD4.44585 per share.",
+      "SBC deduction is an analyst FY26 assumption anchored to verified FY2025 USD111m, H1 2025 USD57m and H1 2026 USD70m: TTM USD124m. H1 annualized pace USD140m; Q2 USD37m annualized USD148m. No separate arbitrary recurring-cost reserve is embedded.",
+      "Issuer FCF starts with CFO, which adds noncash employee charges back, and subtracts capex, lease principal and preferred dividends. Deduct economic SBC once. FY25 FCF2651+1-634-64-4=1950m; H1261425-333-31-2=1059m.",
+      "Q2 diluted shares438611374 used as a current-share proxy. Historical FY25 diluted shares449.5m, H126441709328 and H125451025807. Future net buybacks are reflected only if funded within ordinary per-share growth.",
+      "The21x base terminal multiple is applied to owner cash, not P/E. Future growth requires ongoing reinvestment within projected owner cash; only actual modeled dividends are paid out."
     ],
     "horizon_years": 5,
     "scenarios": {
@@ -578,9 +581,11 @@
     "uncertainties": [
       "SBC reserve, post-quarter financing and disposed-business perimeter remain unresolved; this is explicitly a conditional cash sensitivity.",
       "Customer prompts/content are not an unrestricted training moat.",
-      "Price change sensitivity is easy; normalization uncertainty is more important than small terminal-multiple changes."
+      "Price change sensitivity is easy; normalization uncertainty is more important than small terminal-multiple changes.",
+      "USD150m SBC is a prospective expense assumption, not reported FY26 actual; use USD124m TTM sensitivity separately.",
+      "Guidance realization and post-September10 financing / Print JV perimeter remain conditions. TTM SBC evidence is resolved, but this is not a fully pro-forma forecast."
     ],
-    "valuation_status": "CONDITIONAL_NORMALIZATION",
+    "valuation_status": "GUIDANCE_BASED_CASH_CASE_WITH_PERIMETER_CONDITIONS",
     "lead_reviewed": true
   }
 ]

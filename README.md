@@ -2,16 +2,18 @@
 
 **AI can make scarce business assets more productive. The investment question is who retains the gain.**
 
-Research update **v0.3 · 12 September 2026** — evidence coverage and lead review complete for all 100 companies.
+Research update **v0.4 · 12 September 2026** — all 100 companies ranked for operating fit; 25 candidates receive current-price investment judgments and 75 downside/base/bull scenarios.
 
 This repository develops the AI Incumbent Productivity Regime into falsifiable industry theses and a global candidate universe. It begins with assets companies already possess: trusted content, scientific knowledge, customer relationships, operating networks and installed equipment. It then tests deployment, economic capture and valuation separately.
 
-The [coverage dashboard](research/coverage.md) links all 100 company packets across ten completed batches. The [lead synthesis](research/coverage-synthesis.md) explains the findings, corrections and remaining evidence limits. Of the additional 90 packets, 56 passed the recorded source checks and 34 retain explicit limitations; acceptance is a research-completion judgment, not an investment endorsement. Comparative ranking and detailed bear/base/bull cases remain deferred for the next phase. The earlier [batch-one review](research/batch-01/lead-review.md) is preserved as a provisional historical pass.
+The [coverage dashboard](research/coverage.md) links all 100 company packets across ten completed batches. The [lead synthesis](research/coverage-synthesis.md) explains the findings, corrections and remaining evidence limits. Of the additional 90 packets, 56 passed the recorded source checks and 34 retain explicit limitations; acceptance is a research-completion judgment, not an investment endorsement. The authorized ranking phase is now complete for [all 100 operating ranks](research/ranking-2026-09-12/universe-ranking.md) and [25 investment cases](research/ranking-2026-09-12/lead-decision.md). The other 75 have no current-price valuation in this release. The earlier [batch-one review](research/batch-01/lead-review.md) is preserved as a provisional historical pass.
 
 ## Start here
 
 | Read | Purpose |
 |---|---|
+| [Final ranking and investment judgment](research/ranking-2026-09-12/lead-decision.md) | Current-price priorities, five-year cases and evidence limits |
+| [All 25 investment cases](research/ranking-2026-09-12/investment-ranking.md) | Lead ordering,75 downside/base/bull scenarios and entry thresholds |
 | [Full universe coverage](research/coverage.md) | Batch progress, source-backed company packets and lead acceptance |
 | [Lead synthesis](research/coverage-synthesis.md) | Conclusions from the completed evidence phase, review limits and next-phase boundaries |
 | [First ten stock reviews](research/batch-01/README.md) | Ten evidence packets, independent decisions and reproducible valuation checks |
@@ -32,7 +34,7 @@ The [coverage dashboard](research/coverage.md) links all 100 company packets acr
 
 **Scores are analyst hypotheses, not validated quality ratings or buy recommendations.** In the preserved v0.1 snapshot, fourteen companies had direct company-source coverage: nine at E1 (capability or offering) and five at E2 (reported production use); the other 86 were E0 structural candidates. That original snapshot contains no E3/E4 claims, completed security valuations or portfolio weights. The separate batch reviews add current diligence without overwriting those historical scores and evidence labels; use the current research packets and lead notes for evidence judgments.
 
-The brief's eventual goal is a substantiated 10–20-company shortlist where productivity is underpriced. This release completes individual evidence coverage. The [valuation gate](framework/valuation.md) must establish mispricing before any name receives that label.
+The brief's eventual goal is a substantiated 10–20-company shortlist where productivity is underpriced. The current [lead judgment](research/ranking-2026-09-12/lead-decision.md) prioritizes Intuit and Wolters Kluwer, with Accenture as a conventional value candidate. Only those three exceed the illustrative 10% base-return hurdle, with thin cushions; none of the 25 clears 12%. The [valuation gate](framework/valuation.md) still requires sufficient evidence and margin before a name is labeled underpriced productivity.
 
 ## Repository structure
 

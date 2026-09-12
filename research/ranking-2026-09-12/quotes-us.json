@@ -106,5 +106,23 @@
     "retrieved": "2026-09-12",
     "source": "web.finance market quote feed; observation may include after-hours trades",
     "official_close_verified": false
+  },
+  {
+    "ticker": "VEEV",
+    "price": 262.4,
+    "currency": "USD",
+    "timestamp_text": "2026-09-11 23:15:00 UTC",
+    "retrieved": "2026-09-12",
+    "source": "https://www.google.com/finance/quote/VEEV:NYSE",
+    "official_close_verified": false
+  },
+  {
+    "ticker": "MELI",
+    "price": 1897.37,
+    "currency": "USD",
+    "timestamp_text": "2026-09-12 00:15:00 UTC",
+    "retrieved": "2026-09-12",
+    "source": "https://www.google.com/finance/quote/MELI:NASDAQ",
+    "official_close_verified": false
   }
 ]

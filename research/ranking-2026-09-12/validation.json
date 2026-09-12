@@ -1,0 +1,12 @@
+{
+  "companies": 25,
+  "cases": 75,
+  "unique_ids": true,
+  "investment_ranks_1_to_25": "PASS",
+  "cashflow_irr_identities": "PASS",
+  "entry_hurdle_ordering": "PASS",
+  "scenario_ordering": "PASS",
+  "zero_dividend_closed_form": "PASS",
+  "year1_four_growth_years": "PASS",
+  "source_verification": "See source packets; mathematical validation is not independent source verification."
+}

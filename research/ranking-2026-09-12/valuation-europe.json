@@ -63,7 +63,9 @@
           "0.1": 14.711324405196684,
           "0.12": 13.538784654113837
         },
-        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line.",
+        "annual_irr_without_incremental_ai": -0.01592554728674661,
+        "incremental_ai_irr_percentage_points": 0.0
       },
       "base": {
         "growth_ex_ai": 0.06,
@@ -94,7 +96,9 @@
           "0.1": 22.918738925558714,
           "0.12": 21.05037606171827
         },
-        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line.",
+        "annual_irr_without_incremental_ai": 0.08227641180973777,
+        "incremental_ai_irr_percentage_points": 0.0
       },
       "bull": {
         "growth_ex_ai": 0.08,
@@ -125,7 +129,9 @@
           "0.1": 30.208522511143876,
           "0.12": 27.716089298149516
         },
-        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line.",
+        "annual_irr_without_incremental_ai": 0.13456346205146186,
+        "incremental_ai_irr_percentage_points": 1.2355707332781574
       }
     },
     "ai_bridge": "Bull-only net terminal uplift 6%: about 4% group earnings from Legal product contribution, requiring roughly one-third incremental Legal earnings at a circa12% group-profit weight, plus 2% internal net savings. Illustrative present-scale internal bridge: eligible cost GBP1562m (25% of FY adjusted cost base) x15% task efficiency x60% realization x50% retention minus GBP10m recurring cost, after22.5% tax, is GBP46.7m or about2% FY adjusted net profit. This is a calibrated analyst upper case, not a disclosed company result; no released labor is also counted in product contribution.",
@@ -201,7 +207,9 @@
     "base_entry_price_10pct": 22.918738925558714,
     "base_entry_headroom_pct": -0.07399034644207214,
     "source_access_date": "2026-09-12",
-    "scenario_probability": "Not assigned; cases are conditional, not consensus or probability-weighted expected return."
+    "scenario_probability": "Not assigned; cases are conditional, not consensus or probability-weighted expected return.",
+    "dividend_source": "https://www.relx.com/~/media/Files/R/RELX-Group/documents/press-releases/2026/results-2025-pressrelease.pdf",
+    "dividend_baseline_note": "Last full-year declared gross ordinary dividend is the D0 anchor. Downside cuts are analyst assumptions; actual next five ex-dates are not forecast."
   },
   {
     "id": "C035",
@@ -269,7 +277,9 @@
           "0.1": 31.93878168992745,
           "0.12": 29.45261758139697
         },
-        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line.",
+        "annual_irr_without_incremental_ai": -0.061337049213072425,
+        "incremental_ai_irr_percentage_points": 0.0
       },
       "base": {
         "growth_ex_ai": 0.05,
@@ -300,7 +310,9 @@
           "0.1": 68.64894501629648,
           "0.12": 63.12369340669501
         },
-        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line.",
+        "annual_irr_without_incremental_ai": 0.10846141815141286,
+        "incremental_ai_irr_percentage_points": 0.0
       },
       "bull": {
         "growth_ex_ai": 0.07,
@@ -331,7 +343,9 @@
           "0.1": 97.15770997935633,
           "0.12": 89.19094878762563
         },
-        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line.",
+        "annual_irr_without_incremental_ai": 0.18228224221022782,
+        "incremental_ai_irr_percentage_points": 1.0617892211057356
       }
     },
     "ai_bridge": "Bull-only5% terminal net uplift. Present-scale illustration: EUR1110m eligible cost (25% of adjusted cost base) x20% task improvement x60% realization x60% retention -EUR20m recurring implementation/inference expense = EUR59.9m pretax, EUR45.7m after23.6% tax; add circaEUR14.5m distinct net product contribution to reach about5% of normalized current earnings. No customer time-saving claim is booked as WK cash. Incremental investment is included in the net uplift; residual capitalization risk remains.",
@@ -408,7 +422,9 @@
     "base_entry_price_10pct": 68.64894501629648,
     "base_entry_headroom_pct": 0.03636692355520066,
     "source_access_date": "2026-09-12",
-    "scenario_probability": "Not assigned; cases are conditional, not consensus or probability-weighted expected return."
+    "scenario_probability": "Not assigned; cases are conditional, not consensus or probability-weighted expected return.",
+    "dividend_source": "https://assets.contenthub.wolterskluwer.com/api/public/content/3118646-2026-02-25-wolters-kluwer-2025-full-year-results-7391945524?v=2c966da9",
+    "dividend_baseline_note": "Last full-year declared gross ordinary dividend is the D0 anchor. Downside cuts are analyst assumptions; actual next five ex-dates are not forecast."
   },
   {
     "id": "C031",
@@ -482,7 +498,9 @@
           "0.1": 14.25215673255621,
           "0.12": 13.096290227559884
         },
-        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line.",
+        "annual_irr_without_incremental_ai": -0.04439027082304242,
+        "incremental_ai_irr_percentage_points": 0.0
       },
       "base": {
         "growth_ex_ai": 0.08,
@@ -513,7 +531,9 @@
           "0.1": 26.476499201667977,
           "0.12": 24.27751442772141
         },
-        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line.",
+        "annual_irr_without_incremental_ai": 0.08876056378315134,
+        "incremental_ai_irr_percentage_points": 0.0
       },
       "bull": {
         "growth_ex_ai": 0.1,
@@ -544,7 +564,9 @@
           "0.1": 35.86900887573964,
           "0.12": 32.86543892660045
         },
-        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line.",
+        "annual_irr_without_incremental_ai": 0.14850471191111703,
+        "incremental_ai_irr_percentage_points": 1.071833577471204
       }
     },
     "ai_bridge": "Bull-only5% terminal net uplift, deliberately smaller than headline existing-analytics claims. Present-scale USD82m after-tax increment on USD1642m benchmark earnings implies approximatelyUSD110m pretax at25.5% tax. A distinct net2% revenue addition at50% incremental contribution margin would supply aboutUSD84m pretax; aboutUSD26m net internal savings completes it. Revenue contribution is after data/model/servicing costs; released labor is not counted twice. These are analyst requirements, not observed conversion economics.",
@@ -620,7 +642,9 @@
     "base_entry_price_10pct": 26.476499201667977,
     "base_entry_headroom_pct": -0.04829262395154654,
     "source_access_date": "2026-09-12",
-    "scenario_probability": "Not assigned; cases are conditional, not consensus or probability-weighted expected return."
+    "scenario_probability": "Not assigned; cases are conditional, not consensus or probability-weighted expected return.",
+    "dividend_source": "https://www.experianplc.com/content/dam/marketing/global/plc/en/assets/documents/reports/2026/experian-annual-report-2026.pdf",
+    "dividend_baseline_note": "Last full-year declared gross ordinary dividend is the D0 anchor. Downside cuts are analyst assumptions; actual next five ex-dates are not forecast."
   },
   {
     "id": "C015",
@@ -687,7 +711,9 @@
           "0.1": 263.5066455141715,
           "0.12": 243.6162288844331
         },
-        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line.",
+        "annual_irr_without_incremental_ai": -0.04827106764721106,
+        "incremental_ai_irr_percentage_points": 0.0
       },
       "base": {
         "growth_ex_ai": 0.04,
@@ -718,7 +744,9 @@
           "0.1": 435.78011467113834,
           "0.12": 401.80633817684816
         },
-        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line.",
+        "annual_irr_without_incremental_ai": 0.06556557371575111,
+        "incremental_ai_irr_percentage_points": 0.0
       },
       "bull": {
         "growth_ex_ai": 0.06,
@@ -749,7 +777,9 @@
           "0.1": 545.4825017616838,
           "0.12": 502.1929307472272
         },
-        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line.",
+        "annual_irr_without_incremental_ai": 0.11553908279163194,
+        "incremental_ai_irr_percentage_points": 0.3873919622620514
       }
     },
     "ai_bridge": "Bull-only2% net terminal earnings uplift; present-scale equivalent circaEUR96m after tax on normalizedEUR4.82bn earnings. AroundEUR123m pretax equates to circa20bp ofFY group insurance revenue, after model and implementation costs. This requires verified expense/selection improvement at unchanged risk and capital; no realized catastrophe luck, reserve release or investment gain counts asAI. Base and downside receive zeroAI.",
@@ -826,7 +856,9 @@
     "base_entry_price_10pct": 435.78011467113834,
     "base_entry_headroom_pct": -0.13432635146774263,
     "source_access_date": "2026-09-12",
-    "scenario_probability": "Not assigned; cases are conditional, not consensus or probability-weighted expected return."
+    "scenario_probability": "Not assigned; cases are conditional, not consensus or probability-weighted expected return.",
+    "dividend_source": "https://www.munichre.com/content/dam/munichre/mrwebsiteslaunches/2025-annual-report/MunichRe-Group-Annual-Report-2025-en.pdf/_jcr_content/renditions/original./MunichRe-Group-Annual-Report-2025-en.pdf",
+    "dividend_baseline_note": "Last full-year declared gross ordinary dividend is the D0 anchor. Downside cuts are analyst assumptions; actual next five ex-dates are not forecast."
   },
   {
     "id": "C041",
@@ -895,7 +927,9 @@
           "0.1": 87.14297549964961,
           "0.12": 79.98676035170605
         },
-        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line.",
+        "annual_irr_without_incremental_ai": -0.05110021027440309,
+        "incremental_ai_irr_percentage_points": 0.0
       },
       "base": {
         "growth_ex_ai": 0.1,
@@ -926,7 +960,9 @@
           "0.1": 151.465551213313,
           "0.12": 138.82418262973573
         },
-        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line.",
+        "annual_irr_without_incremental_ai": 0.0648907907961821,
+        "incremental_ai_irr_percentage_points": 0.0
       },
       "bull": {
         "growth_ex_ai": 0.12,
@@ -957,7 +993,9 @@
           "0.1": 218.77305662684307,
           "0.12": 200.3480257171148
         },
-        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line."
+        "ai_return_credit_note": "AI uplift affects terminal earnings only; no separateAI dividend increase orAI cash-flow line.",
+        "annual_irr_without_incremental_ai": 0.12762517536124973,
+        "incremental_ai_irr_percentage_points": 2.0859786943310255
       }
     },
     "ai_bridge": "Bull-only10% net terminal earnings uplift. Present-scale normalized earningsEUR7.42bn implyEUR742m net, aroundEUR1.06bn pretax at30% tax. Distinct net5% group revenue uplift at45% incremental contribution margin supplies aboutEUR828m pretax; roughlyEUR232m net internal savings completes the requirement. Contribution margins include model/cloud/service cost and net seat cannibalization; do not also count product-development capacity as removed payroll. This is demanding and conditional, not paidAIARR guidance.",
@@ -1035,6 +1073,8 @@
     "base_entry_price_10pct": 151.465551213313,
     "base_entry_headroom_pct": -0.14551759441885925,
     "source_access_date": "2026-09-12",
-    "scenario_probability": "Not assigned; cases are conditional, not consensus or probability-weighted expected return."
+    "scenario_probability": "Not assigned; cases are conditional, not consensus or probability-weighted expected return.",
+    "dividend_source": "https://www.sap.com/investors/en/stock/dividends.html",
+    "dividend_baseline_note": "Last full-year declared gross ordinary dividend is the D0 anchor. Downside cuts are analyst assumptions; actual next five ex-dates are not forecast."
   }
 ]
