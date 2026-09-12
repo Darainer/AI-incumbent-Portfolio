@@ -1,6 +1,6 @@
 # Research-agent instructions — individual stock diligence
 
-Version 1.0 · 12 September 2026 · Owner: lead reviewer
+Version 1.1 · 12 September 2026 · Owner: lead reviewer
 
 ## Mandate and division of responsibility
 
@@ -154,3 +154,22 @@ Lead checkpoints: publish this instruction set before dispatch; commit each comp
 - Prior versus revised judgment and all failed gates remain visible.
 - Final conclusion is written by the lead, with reasons for overriding any agent conclusion.
 - Do not claim a buy recommendation or valuation qualification where G3 is blocked.
+
+## Batch-one review refinements (version 1.1)
+
+These clarify execution under the existing framework; they do not change its investment criteria.
+
+- Financial statement facts are conventional evidence outside E0–E4. Apply AI stages to scoped mechanisms only.
+- Record whether EPS/dividend/FCF inputs are year zero or forward year one. Reproduce scenarios and reverse calculations in code before handoff; do not round inputs before calculating. Five discount dates with year-one EPS imply four subsequent growth intervals.
+- Do not call annualized interim or reported profit normalized without a bridge. Reported earnings may provide a labeled materiality scale proxy.
+- Use the company's own cost base for savings; customer savings require a separate revenue/capture bridge. Deduct only incremental AI costs beyond the current financial baseline.
+- An EPS model may avoid a full EV bridge, but does not excuse stale shares, dilution or transaction mismatches. Treat forecasts as forecasts. A derived share denominator or non-reproducible quote cannot support a confident G3 pass.
+- Reconcile distributions, acquisition EV versus cash consideration, minority stakes and capital returns. A spin-off transfers value; include what shareholders receive. Insurer book, ROE, retention and payout must use consistent definitions.
+- Actively check whether adverse research has a published correction or response; preserve an inaccessible response as a limitation rather than assume its contents.
+- E4 absence is not a universal investment veto. A verified ordinary-business margin of safety can support an option thesis, but never claim verified incremental AI economics when they are absent.
+
+## Reusable dispatch prompt
+
+Assign the following to each bounded researcher, substituting the two companies and exact owned paths:
+
+> Read research/agent-instructions.md and its required framework inputs. Research COMPANY A and COMPANY B sequentially in the existing queue order, using the stated cutoff. Use GPT-5.6 Sol, medium reasoning; do not delegate. Write only OWNED DOSSIER PATH A and OWNED DOSSIER PATH B. For each, collect an opened-source evidence packet, rights audit, challenger evidence, measurement contract, company-retained economic bridge, reproducible scenario/reverse valuation, falsifiers and provisional gates. Distinguish facts, company claims, inferences and assumptions. Mark missing quote/normalization/rights evidence and its gate consequence. Save progressively and notify the lead as soon as each dossier is reviewable. The lead owns repository writes and final judgment. Finish with three decisive claims to verify, the strongest counterargument and unresolved blocking questions.
