@@ -1,6 +1,8 @@
 # Munich Re — initial evidence dossier
 
-**ID:** C015 · **Status:** unreviewed research-agent work; lead review required · **Research cutoff:** 12 September 2026 · **Access date for all web sources:** 12 September 2026
+> Lead review complete. The [lead judgment](../lead-review.md) governs dispositions, scores and gates; provisional agent views below are retained for traceability.
+
+**ID:** C015 · **Status:** research-agent packet; lead reviewed 12 September 2026. · **Research cutoff:** 12 September 2026 · **Access date for all web sources:** 12 September 2026
 
 **Security:** Münchener Rückversicherungs-Gesellschaft Aktiengesellschaft in München ordinary registered shares, Xetra **MUV2**, euro quote and euro reporting currency. No ADR is used here. The 11 September 2026 close was **€503.40** according to Trading Economics; the source is a market-data vendor rather than the exchange, so timestamp quality is adequate for an initial G3 test but should be independently checked by the reviewer. The 2025 annual report gives 2025 EPS of **€47.15**, year-end book value per share of **€259.76**, and a 31 December 2025 share price of €562.20 ([annual report, pp. 1–2](https://www.munichre.com/content/dam/munichre/mrwebsiteslaunches/2025-annual-report/MunichRe-Group-Annual-Report-2025-en.pdf/_jcr_content/renditions/original./MunichRe-Group-Annual-Report-2025-en.pdf); [11 September quote](https://tradingeconomics.com/germany/stock-market)).
 
