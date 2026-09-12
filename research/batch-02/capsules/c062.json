@@ -1,0 +1,84 @@
+{
+  "id": "C062",
+  "company": "Deere",
+  "batch": 2,
+  "dossier": "research/batch-02/dossiers/017-c062-deere.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q3 FY2026 (ended 2 August 2026)",
+  "sources": [
+    {
+      "url": "https://www.deere.com/en/our-company/news-and-announcements/news-releases/2026/corporate/deere-reports-third-quarter-net-income-of-1-379-billion/",
+      "title": "Latest financial results",
+      "date": "20 August 2026",
+      "opened": true,
+      "supports": "latest financial anchor"
+    },
+    {
+      "url": "https://investor.deere.com/financial-information/annual-reports/default.aspx",
+      "title": "Annual report / filings",
+      "date": "latest available before cutoff",
+      "opened": true,
+      "supports": "business and risk baseline"
+    },
+    {
+      "url": "https://www.deere.com/en/news/all-news/see-spray-herbicide-savings/",
+      "title": "Company AI/product evidence",
+      "date": "dated or undated",
+      "opened": true,
+      "supports": "scoped AI capability/deployment"
+    },
+    {
+      "url": "https://www.deere.com/en/privacy-and-data/",
+      "title": "Privacy/data/service terms",
+      "date": "effective date on page",
+      "opened": true,
+      "supports": "rights boundary"
+    },
+    {
+      "url": "https://www.cnh.com/en-US/innovation/Pages/precision-technology.aspx",
+      "title": "Challenger product evidence",
+      "date": "dated or undated",
+      "opened": true,
+      "supports": "credible challenger capability"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "latest revenue and profitability",
+    "value": "$12.608bn net sales and revenues; $1.379bn net income; equipment operations margin 14.4%",
+    "unit": "USD",
+    "period": "Q3 FY2026 (ended 2 August 2026)",
+    "source_url": "https://www.deere.com/en/our-company/news-and-announcements/news-releases/2026/corporate/deere-reports-third-quarter-net-income-of-1-379-billion/",
+    "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
+  },
+  "ai_claim": {
+    "claim": "See & Spray computer vision identifies weeds and controls individual nozzles.",
+    "stage": "E1–E2 scoped; no E3/E4 established",
+    "source_url": "https://www.deere.com/en/news/all-news/see-spray-herbicide-savings/",
+    "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
+    "limitation": "No representative controlled cohort or retained-cash reconciliation."
+  },
+  "strongest_counterevidence": {
+    "claim": "Large-ag demand, crop economics and tariffs dominate earnings.",
+    "source_url": "https://www.deere.com/en/our-company/news-and-announcements/news-releases/2026/corporate/deere-reports-third-quarter-net-income-of-1-379-billion/",
+    "limitation": "Does not itself disprove the scoped mechanism."
+  },
+  "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
+  "materiality_summary": "Framework convention: $250m, approximately 5% of the midpoint of FY2026 net-income guidance ($4.75–5.0bn). Illustrative assumptions produce $37.5m, below the hurdle.",
+  "arithmetic": {
+    "inputs": "pool $3.0bn eligible annual service, warranty, engineering and support cost; efficiency 15%; realization 50%; retained share 50%; recurring cost $75m",
+    "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+    "result": "$37.5m"
+  },
+  "confidence": {
+    "mechanism": "moderate",
+    "deployment": "low-to-moderate",
+    "capture": "low"
+  },
+  "g2_provisional": "Watch/incomplete: E1–E2 route exists; no E3 quality-adjusted proof or E4 cash.",
+  "unresolved_questions": [
+    "Training and pooled-learning rights?",
+    "Eligible workload and matched quality KPI?",
+    "Retained economics after labor, model and capital costs?"
+  ],
+  "self_check_complete": true
+}
