@@ -1,0 +1,84 @@
+{
+  "id": "C097",
+  "company": "SLB",
+  "batch": 10,
+  "dossier": "research/batch-10/dossiers/097-c097-slb.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 2026 (ended 30 June 2026)",
+  "sources": [
+    {
+      "url": "https://investorcenter.slb.com/news-releases/news-release-details/2026/slb-announces-second-quarter-2026-results/",
+      "title": "Latest financial results",
+      "date": "24 July 2026",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://investorcenter.slb.com/financial-information/annual-reports-and-proxy",
+      "title": "Annual report / filings",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.slb.com/products-and-services/delivering-digital-at-scale/lumi-data-and-ai-platform",
+      "title": "Company AI/product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.slb.com/privacy",
+      "title": "Privacy/data/service terms",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.halliburton.com/en/software",
+      "title": "Challenger product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "Q2 2026 revenue and free cash flow",
+    "value": "$8.972bn; $716m",
+    "unit": "USD",
+    "period": "Q2 2026 (ended 30 June 2026)",
+    "source_url": "https://investorcenter.slb.com/news-releases/news-release-details/2026/slb-announces-second-quarter-2026-results/",
+    "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
+  },
+  "ai_claim": {
+    "claim": "SLB deploys Lumi and digital drilling workflows with customers; customer-owned field data and oil-cycle effects prevent E3/E4 attribution.",
+    "stage": "E1 digital/AI capability; no opened retained-economics cohort",
+    "source_url": "https://www.slb.com/products-and-services/delivering-digital-at-scale/lumi-data-and-ai-platform",
+    "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
+    "limitation": "No representative controlled cohort or retained-cash reconciliation."
+  },
+  "strongest_counterevidence": {
+    "claim": "oil cycles, offshore mix and ChampionX integration dominate results.",
+    "source_url": "https://investorcenter.slb.com/news-releases/news-release-details/2026/slb-announces-second-quarter-2026-results/",
+    "limitation": "Does not itself disprove the scoped mechanism."
+  },
+  "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
+  "materiality_summary": "Framework convention: $250m, roughly 5% of a normalized $5bn annual operating-income scale proxy. Illustrative assumptions produce $44m, below the hurdle.",
+  "arithmetic": {
+    "inputs": "pool $6bn eligible engineering, field-service and digital operations cost/revenue pool; efficiency 12%; realization 40%; retained share 50%; recurring cost $100m",
+    "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+    "result": "$44m"
+  },
+  "confidence": {
+    "mechanism": "moderate",
+    "deployment": "low-to-moderate",
+    "capture": "low"
+  },
+  "g2_provisional": "Watch/incomplete: E1 digital/AI capability; no opened retained-economics cohort; no E3 quality-adjusted proof or E4 retained cash.",
+  "unresolved_questions": [
+    "Training and pooled-learning rights?",
+    "Eligible workload and matched quality KPI?",
+    "Retained economics after labor, model and capital costs?"
+  ],
+  "self_check_complete": true
+}
