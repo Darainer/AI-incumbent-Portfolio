@@ -6,16 +6,16 @@ Lead accepted: **0/10**. See the [coverage contract](../coverage-instructions.md
 
 | Order | Company | ID | Packet status |
 |---:|---|---|---|
-| 61 | Palo Alto Networks | C057 | scheduled |
-| 62 | CrowdStrike | C058 | scheduled |
-| 63 | ABB | C061 | scheduled |
-| 64 | Caterpillar | C063 | scheduled |
-| 65 | Komatsu | C064 | scheduled |
-| 66 | DHL Group | C065 | scheduled |
-| 67 | UPS | C066 | scheduled |
-| 68 | Canadian National Railway | C067 | scheduled |
-| 69 | Safran | C068 | scheduled |
-| 70 | GE Aerospace | C069 | scheduled |
+| 61 | [Palo Alto Networks](dossiers/061-c057-palo-alto-networks.md) | C057 | ready for lead review |
+| 62 | [CrowdStrike](dossiers/062-c058-crowdstrike.md) | C058 | ready for lead review |
+| 63 | [ABB](dossiers/063-c061-abb.md) | C061 | draft |
+| 64 | [Caterpillar](dossiers/064-c063-caterpillar.md) | C063 | ready for lead review |
+| 65 | [Komatsu](dossiers/065-c064-komatsu.md) | C064 | ready for lead review |
+| 66 | [DHL Group](dossiers/066-c065-dhl-group.md) | C065 | ready for lead review |
+| 67 | [UPS](dossiers/067-c066-ups.md) | C066 | ready for lead review |
+| 68 | [Canadian National Railway](dossiers/068-c067-canadian-national-railway.md) | C067 | ready for lead review |
+| 69 | [Safran](dossiers/069-c068-safran.md) | C068 | ready for lead review |
+| 70 | [GE Aerospace](dossiers/070-c069-ge-aerospace.md) | C069 | ready for lead review |
 
 ## Lead acceptance notes
 
