@@ -1,0 +1,91 @@
+{
+  "id": "C096",
+  "company": "Shell",
+  "batch": 10,
+  "dossier": "research/batch-10/dossiers/096-c096-shell.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 2026",
+  "sources": [
+    {
+      "url": "https://shell.gcs-web.com/financial-information/quarterly-results",
+      "title": "Q2 2026 issuer financial update",
+      "date": "2026",
+      "opened": true,
+      "supports": "adjusted earnings of $9.8bn and cash flow from operations of $21.4bn; the quarterly commodity-driven result is not annualized. Shell has publicly described C3 AI predictive-mainten"
+    },
+    {
+      "url": "https://www.londonstockexchange.com/news-article/SHEL/shell-plc-4th-quarter-2025-and-full-year-unaudited-results/17447293",
+      "title": "FY2025 unaudited results",
+      "date": "2026-02-04",
+      "opened": true,
+      "supports": "FY2025 adjusted earnings and $42.9bn CFFO"
+    },
+    {
+      "url": "https://www.shell.com/investors/results-and-reporting/annual-report.html",
+      "title": "Annual report / financial results",
+      "date": "2024",
+      "opened": false,
+      "supports": "latest financial anchor used in packet"
+    },
+    {
+      "url": "https://www.shell.com/what-we-do/digitalisation/artificial-intelligence.html",
+      "title": "Company technology / AI evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "AI capability or deployment claim"
+    },
+    {
+      "url": "https://www.shell.com/privacy.html",
+      "title": "Privacy / data policy",
+      "date": "undated",
+      "opened": false,
+      "supports": "rights constraints"
+    },
+    {
+      "url": "https://www.bp.com/en/global/corporate/investors/results-reporting-and-presentations/annual-report.html",
+      "title": "BP reporting",
+      "date": "undated",
+      "opened": false,
+      "supports": "incumbent challenger evidence"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "adjusted earnings",
+    "value": 18.5,
+    "unit": "USD billion",
+    "period": "FY2025",
+    "source_url": "https://www.londonstockexchange.com/news-article/SHEL/shell-plc-4th-quarter-2025-and-full-year-unaudited-results/17447293",
+    "caveat": "Non-GAAP post-tax measure; commodity-sensitive. Q2 2026 is latest interim and not annualized."
+  },
+  "ai_claim": {
+    "claim": "Shell describes scoped AI/digital mechanisms in seismic/reservoir interpretation and well planning, predictive maintenance and process optimization.",
+    "stage": "E1; E2 only where management explicitly reports production use",
+    "source_url": "https://www.shell.com/what-we-do/digitalisation/artificial-intelligence.html",
+    "scope": "nonproductive rig time, recovery/production at fixed geology and capital, unplanned downtime, energy per unit and risk-adjusted trading outcome",
+    "limitation": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+  },
+  "strongest_counterevidence": {
+    "claim": "BP and oilfield-service digital platforms and hyperscaler industrial AI can replicate tools or force gains through to customers.",
+    "source_url": "https://www.bp.com/en/global/corporate/investors/results-reporting-and-presentations/annual-report.html",
+    "limitation": "Competitive capability does not by itself prove equal outcomes."
+  },
+  "rights_limit": "Shell controls internal asset data, while joint ventures, host governments and service contracts can restrict use. Trading/customer data are regulated and purpose-limited.",
+  "materiality_summary": "5% of FY2025 adjusted earnings is $925m per year; Q2 2026 strength is commodity/trading-driven.",
+  "arithmetic": {
+    "inputs": "FY2025 adjusted earnings $18.5bn",
+    "formula": "0.05\u00d7$18.5bn=$925m",
+    "result": "$925m annual hurdle; no AI-attributed cash result."
+  },
+  "confidence": {
+    "mechanism": "medium",
+    "deployment": "low-to-medium",
+    "capture": "low"
+  },
+  "g2_provisional": "Open: E1/E2 evidence supports measurement, but E3 quality-adjusted causality and E4 cash retention are not established.",
+  "unresolved_questions": [
+    "What share of eligible workload is in production?",
+    "What controlled quality-adjusted KPI result exists?",
+    "What do contracts permit for pooled learning and how much benefit is retained after recurring cost?"
+  ],
+  "self_check_complete": true
+}
