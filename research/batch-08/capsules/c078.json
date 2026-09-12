@@ -1,0 +1,84 @@
+{
+  "id": "C078",
+  "company": "MercadoLibre",
+  "batch": 8,
+  "dossier": "research/batch-08/dossiers/078-c078-mercadolibre.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 2026 (ended 30 June 2026)",
+  "sources": [
+    {
+      "url": "https://investor.mercadolibre.com/open-file?file=aHR0cHM6Ly9odHRwMi5tbHN0YXRpYy5jb20vc3RvcmFnZS9tbC1jbXMtYmFja2VuZC9jbXMtZG9jdW1lbnRzLXByb2QvNWRiYmE5MTktNzIxYy00OTE2LWJiOTEtYzc2YTg3MTNmN2YwL2JkNjBhMzQyLWM1MjMtNDFiOC1hZjdhLWRhMjgxOGZlZjVmZi9NRUxJX1EyXzIwMjZfUHJlc3NfUmVsZWFzZS5wZGY",
+      "title": "Latest financial results",
+      "date": "5 August 2026",
+      "opened": true,
+      "supports": "latest financial anchor"
+    },
+    {
+      "url": "https://investor.mercadolibre.com/financial-information/annual-reports-and-proxy",
+      "title": "Annual report / filings",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://github.com/customer-stories/mercado-libre",
+      "title": "GitHub customer story: Mercado Libre",
+      "date": "undated",
+      "opened": true,
+      "supports": "enterprise Copilot rollout; supplier reports 50% coding-time reduction"
+    },
+    {
+      "url": "https://www.mercadolibre.com/privacy",
+      "title": "Privacy/data/service terms",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.aboutamazon.com/what-we-do/amazon-store",
+      "title": "Challenger product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "Q2 2026 reported operating income",
+    "value": "$683m, 6.7% margin",
+    "unit": "USD",
+    "period": "Q2 2026 (ended 30 June 2026)",
+    "source_url": "https://investor.mercadolibre.com/open-file?file=aHR0cHM6Ly9odHRwMi5tbHN0YXRpYy5jb20vc3RvcmFnZS9tbC1jbXMtYmFja2VuZC9jbXMtZG9jdW1lbnRzLXByb2QvNWRiYmE5MTktNzIxYy00OTE2LWJiOTEtYzc2YTg3MTNmN2YwL2JkNjBhMzQyLWM1MjMtNDFiOC1hZjdhLWRhMjgxOGZlZjVmZi9NRUxJX1EyXzIwMjZfUHJlc3NfUmVsZWFzZS5wZGY",
+    "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
+  },
+  "ai_claim": {
+    "claim": "MercadoLibre deployed GitHub Copilot across its developer organization; GitHub reports coding time cut 50%, while MELI reports code submissions up 90%, without matched quality or cash controls.",
+    "stage": "E2 named enterprise developer deployment in opened supplier/customer material; no E3/E4",
+    "source_url": "https://github.com/customer-stories/mercado-libre",
+    "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
+    "limitation": "No representative controlled cohort or retained-cash reconciliation."
+  },
+  "strongest_counterevidence": {
+    "claim": "Q2 operating margin was only 6.7% despite 50% revenue growth.",
+    "source_url": "https://investor.mercadolibre.com/open-file?file=aHR0cHM6Ly9odHRwMi5tbHN0YXRpYy5jb20vc3RvcmFnZS9tbC1jbXMtYmFja2VuZC9jbXMtZG9jdW1lbnRzLXByb2QvNWRiYmE5MTktNzIxYy00OTE2LWJiOTEtYzc2YTg3MTNmN2YwL2JkNjBhMzQyLWM1MjMtNDFiOC1hZjdhLWRhMjgxOGZlZjVmZi9NRUxJX1EyXzIwMjZfUHJlc3NfUmVsZWFzZS5wZGY",
+    "limitation": "Does not itself disprove the scoped mechanism."
+  },
+  "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
+  "materiality_summary": "Framework convention: $136.6m = 5% × (4 × $683m Q2 reported operating income). Illustrative cost assumptions produce negative $40m; not a forecast.",
+  "arithmetic": {
+    "inputs": "pool $3bn eligible logistics, fraud, service and merchant-support pool; efficiency 10%; realization 40%; retained share 50%; recurring cost $100m",
+    "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+    "result": "negative $40m"
+  },
+  "confidence": {
+    "mechanism": "moderate",
+    "deployment": "low-to-moderate",
+    "capture": "low"
+  },
+  "g2_provisional": "Watch/incomplete: E2 named developer deployment; no E3 quality-adjusted proof or E4 cash.",
+  "unresolved_questions": [
+    "Training and pooled-learning rights?",
+    "Eligible workload and matched quality KPI?",
+    "Retained economics after labor, model and capital costs?"
+  ],
+  "self_check_complete": true
+}
