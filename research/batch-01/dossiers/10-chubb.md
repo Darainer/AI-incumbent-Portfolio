@@ -1,6 +1,8 @@
 # Chubb — initial evidence dossier
 
-**ID:** C018 · **Status:** unreviewed research-agent work; lead review required · **Research cutoff:** 12 September 2026 · **Access date for all web sources:** 12 September 2026
+> Lead review complete. The [lead judgment](../lead-review.md) governs dispositions, scores and gates; provisional agent views below are retained for traceability.
+
+**ID:** C018 · **Status:** research-agent packet; lead reviewed 12 September 2026. · **Research cutoff:** 12 September 2026 · **Access date for all web sources:** 12 September 2026
 
 **Security:** Chubb Limited common shares, CHF0.50 par value, **NYSE: CB**, quoted in US dollars; group reporting currency is US dollars. The primary listing is used and there is no ADR conversion ([2025 Form 10-K, cover](https://s201.q4cdn.com/471466897/files/doc_financials/2025/ar/Chubb-Limited-2025-10-K-Final.pdf)). Latest trade was **$338.25 on 11 September 2026 at 23:15 UTC** in the available finance feed; [Google Finance](https://www.google.com/finance/quote/CB:NYSE) independently displayed the same close, $130.50bn market capitalization and 385.8m shares. Feed EPS and P/E fields are not treated as filed facts.
 
@@ -8,7 +10,7 @@
 
 Chubb has an unusually strong conventional franchise: leading commercial and high-net-worth positions, specialized underwriters, broad broker/digital distribution, disciplined risk selection, and ample capital. It also offers the clearest explicit cost-capture route of the two researched insurers. Management says Chubb is already “reaping gains” from technology, data and AI and plans to reduce global employment significantly as it redesigns underwriting and claims processes. A reported December 2025 investor target of roughly 1.5 combined-ratio points of run-rate expense saving would exceed the research materiality hurdle if achieved.
 
-Evidence quality still lags the ambition. Chubb identifies no production workload denominator, matched underwriting cohort, quality/error constraint, or reconciliation of current AI gains to earnings. The 2025 combined-ratio improvement was driven partly by catastrophe and reserve effects, while strong rate/exposure growth and investment income are conventional explanations. At $338.25, the shares are **13.2× filed 2025 diluted EPS**, **1.73× June 2026 book value**, and roughly 12.0× annualized H1 core operating EPS. Reverse valuation requires about 12.7% sustainable ROE under a 9% cost of equity and 4% growth, close to Chubb's recent core ROE. Provisional disposition: **high-quality conventional insurer with a credible AI cost option, but wait for measured deployment/capture evidence; G2 remains incomplete.**
+Evidence quality still lags the ambition. Chubb identifies no production workload denominator, matched underwriting cohort, quality/error constraint, or reconciliation of current AI gains to earnings. The reported combined-ratio movements include catastrophe and reserve effects, while strong rate/exposure growth and investment income are conventional explanations. At $338.25, the shares are **13.2× filed 2025 diluted EPS**, **1.73× June 2026 book value**, and roughly 12.0× annualized H1 core operating EPS. Reverse valuation requires about 12.7% sustainable ROE under a 9% cost of equity and 4% growth, close to Chubb's recent core ROE. Provisional disposition: **high-quality conventional insurer with a credible AI cost option, but wait for measured deployment/capture evidence; G2 remains incomplete.**
 
 ## Conventional business and financial resilience
 
@@ -44,7 +46,7 @@ Capital allocation is sound: 2025 shareholder returns were about $5bn and five-y
 | Consumer/Asia marketing databases | Customers, partners and Chubb | Customer-specific; some partner-controlled | Contractual/consent scope unknown | Cross-channel/cross-customer learning unknown | High-frequency conversion/retention labels | Banks, platforms and digital MGAs control distribution data |
 | Chubb Studio partner interactions | >250 digital partners | Platform relationship, not exclusive end-user ownership | Embedded-product execution is established | Training rights and portability unknown | Quote/conversion/claim outcomes potentially observable | API/embedded-insurance competitors and partner bargaining |
 
-The 10-K says privacy laws cover client medical, payment and financial information and warns that AI regulation may increase compliance cost or reduce benefits. It does not establish lawful pooled learning ([10-K, pp.26–27](https://s201.q4cdn.com/471466897/files/doc_financials/2025/ar/Chubb-Limited-2025-10-K-Final.pdf)). New York DFS requires insurers using external data/models to establish sound actuarial support and absence of unfair discrimination rather than rely on a vendor assertion ([NYDFS Circular Letter 1](https://www.dfs.ny.gov/industry_guidance/circular_letters/cl2019_01), 18 January 2019). The data moat is consequently **workflow access, curated context, expertise and distribution**, not proven exclusive training rights.
+The 10-K says privacy laws cover client medical, payment and financial information and warns that AI regulation may increase compliance cost or reduce benefits. It does not establish lawful pooled learning ([10-K, pp.26–27](https://s201.q4cdn.com/471466897/files/doc_financials/2025/ar/Chubb-Limited-2025-10-K-Final.pdf)). New York DFS's 2024 guidance addresses insurer use of AI and external data in underwriting/pricing, including actuarial validity, discrimination testing and vendor oversight; it does not cover every insurance function ([Circular Letter 7](https://www.dfs.ny.gov/industry-guidance/circular-letters/cl2024-07), 11 July 2024). The data moat is consequently **workflow access, curated context, expertise and distribution**, not proven exclusive training rights.
 
 ## Mechanisms, deployment and competitive challenge
 
@@ -82,7 +84,7 @@ The materiality convention is 5% of FY2025 core operating income, approximately 
 | Straight-through processing rate | Pre-deployment baseline | “Major processes” with exact denominator | Referral/error rate within threshold | Secondary target only | Primary investor update |
 | Retained pretax savings | Audited expense base | Costs actually removed net of AI spend | No double count with capacity growth | Unknown | Expense-ratio reconciliation |
 
-Using `benefit = A × e × r × c − K`, the cost route could be material. On FY2025 administrative expenses of $4.504bn, 25% task efficiency, 70% realization, 70% retained share and $100m recurring AI cost yields only **$452m pretax**, below a roughly $620m pretax hurdle at a 19% tax rate. The secondary 1.5-point target applied to FY2025 P&C net earned premiums of $45.79bn equals **$687m pretax**, about $557m after tax, just over 5% of core earnings. This provides a credible route if verified, but it is an ambition, not measured net economics; implementation/severance, model cost, growth reinvestment and customer price capture could reduce it.
+Using `benefit = A × e × r × c − K`, the cost route could be material. On FY2025 administrative expenses of $4.504bn, 25% task efficiency, 70% realization, 70% retained share and $100m recurring AI cost yields only **$452m pretax**, below a roughly $620m pretax hurdle at a 19% tax rate. The secondary 1.5-point target applied to FY2025 P&C net earned premiums of $45.79bn equals **$687m pretax**, about $556m after tax, just over 5% of core earnings. This provides a credible route if verified, but it is an ambition, not measured net economics; implementation/severance, model cost, growth reinvestment and customer price capture could reduce it.
 
 ## Valuation and reverse valuation
 
@@ -91,10 +93,10 @@ At $338.25, filed FY2025 diluted EPS gives **13.17×**; June 2026 BVPS $195.45 g
 | Case | Conventional ROE / g / cost of equity | AI effect | Implied value per share | Key sensitivity |
 |---|---|---|---:|---|
 | Bear | 11% / 3% / 10% | Zero; transition cost embedded | **$223** | Soft rates/social inflation reduce underwriting return. |
-| Base | 13.5% / 4% / 9% | +0.75ppt if expense target realized; conventional $371, with AI **$400** | **$400** | Normalized ROE and verified net savings. |
+| Base | 13.5% / 4% / 9% | +0.75ppt if expense target realized; conventional $371, with AI **$401** | **$401** | Normalized ROE and verified net savings. |
 | Bull | 15% / 4.5% / 8.5% | +1.0ppt from cost plus selection; conventional $513, with AI **$562** | **$562** | Sustained elite underwriting and low capital charge. |
 
-The base 13.5% ROE/4% growth requires 29.6% retention (70.4% payout), consistent with but above the recent five-year 58% payout. At 1.731× book, the price implies **12.7% ROE** at 9% cost of equity/4% growth, **14.4%** at 10%/4%, and **11.8%** at 8.5%/4%. Q2 core operating ROE was 14.5%, so the price roughly capitalizes current conventional quality under a 10% hurdle. A 1-point sustainable ROE change moves indicated value about $39 per share at a five-point `(r−g)` spread. Goodwill and AOCI make P/B imperfect; tangible-book sensitivity would produce materially lower values and is a limitation.
+The base 13.5% ROE/4% growth requires 29.6% retention (70.4% payout), above the recent five-year 58% payout; sustaining it requires a capital-return reconciliation. At 1.731× book, the price implies **12.7% ROE** at 9% cost of equity/4% growth, **14.4%** at 10%/4%, and **11.8%** at 8.5%/4%. Q2 core operating ROE was 14.5%, so the price roughly capitalizes current conventional quality under a 10% hurdle. A 1-point sustainable ROE change moves indicated value about $39 per share at a five-point `(r−g)` spread. Goodwill and AOCI make P/B imperfect; a tangible-book model must also rebase ROE and the earnings numerator. Merely substituting tangible book while holding ROE unchanged is not a valid like-for-like sensitivity.
 
 ## Risks, falsifiers and alternative
 
@@ -117,6 +119,8 @@ The strongest positive case is that Chubb couples proprietary workflow context a
 
 **G0 pass. G1 provisional pass** on franchise and capital; consolidated regulatory-capital and data-rights documentation remains incomplete. **G2 incomplete/fail for promotion:** management-reported production gains meet E2, and the secondary savings target suggests a measurable route, but the primary target, workload denominator, comparator and quality control were not verified. **G3 provisional pass for initial scenario work:** dated price, shares, EPS and book value reconcile; normalization and intangible treatment limit confidence. **G4 not assessed.** Confidence: mechanism **moderate-high**; deployment **moderate-low**; capture **low–moderate**; valuation **moderate-low**.
 
+**Lead override:** feedback and capture are each 3/5, producing 80/100 (sensitivity 80), versus the agent's implied 87. Long-tail labels, reuse rights and pricing-cycle retention limit the structural thesis. G3 remains incomplete; see the governing lead review.
+
 ## Source register
 
 1. Chubb, *2025 Form 10-K*, filed 26 Feb 2026, cover and pp.3, 26–27, 50–66, 81, 106–109. Primary audited financials; little AI operating detail.
@@ -126,7 +130,7 @@ The strongest positive case is that Chubb couples proprietary workflow context a
 5. Chubb, *Corporate overview*, retrieved 12 Sep 2026. Scale/claims count; undated operational marketing.
 6. Chubb, *Claims*, retrieved 12 Sep 2026. Satisfaction/service baseline; marketing scope.
 7. Insurance Business, *Chubb to cut up to 20% of workforce in radical AI drive*, 12 Dec 2025. Secondary report of investor targets; primary presentation not opened.
-8. New York DFS, *Circular Letter No.1 (2019)*, 18 Jan 2019. Direct regulatory constraint; New York life scope.
+8. New York DFS, [Circular Letter No.7 (2024)](https://www.dfs.ny.gov/industry-guidance/circular-letters/cl2024-07), 11 Jul 2024. Lead-verified guidance for underwriting/pricing, including AI and external data; not a universal claims-processing rule.
 9. NAIC, *Artificial Intelligence in Insurance*, [direct topic page](https://content.naic.org/insurance-topics/artificial-intelligence), retrieved 12 Sep 2026. US governance landscape; not company evidence.
 10. Travelers, *Q2 2026 results*, 17 Jul 2026. Incumbent comparison; business mix differs.
 11. Google Finance, CB quote, close 11 Sep 2026. Market-data feed; not filed and should be refreshed.
