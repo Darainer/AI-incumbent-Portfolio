@@ -1,0 +1,84 @@
+{
+  "id": "C028",
+  "company": "Adyen",
+  "batch": 4,
+  "dossier": "research/batch-04/dossiers/039-c028-adyen.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "H1 2026, published 2026-08-13",
+  "sources": [
+    {
+      "url": "https://www.adyen.com/press-and-media/adyen-publishes-h1-2026-financial-results-3wjne",
+      "title": "H1 2026 results",
+      "date": "2026-08-13",
+      "opened": true,
+      "supports": "financials, 0.9ppt uplift, Agentic launch"
+    },
+    {
+      "url": "https://www.adyen.com/press-and-media/adyen-publishes-2025-annual-report",
+      "title": "2025 Annual Report",
+      "date": "2026-03-05",
+      "opened": true,
+      "supports": "audited report availability/business"
+    },
+    {
+      "url": "https://www.adyen.com/policies-and-disclaimer/privacy-policy",
+      "title": "Privacy policy",
+      "date": "undated",
+      "opened": true,
+      "supports": "rights boundaries"
+    },
+    {
+      "url": "https://stripe.com/radar",
+      "title": "Stripe Radar",
+      "date": "undated",
+      "opened": true,
+      "supports": "challenger"
+    },
+    {
+      "url": "https://www.reuters.com/business/adyen-reports-21-revenue-rise-second-half-2025-2026-02-12/",
+      "title": "2025 volume miss",
+      "date": "2026-02-12",
+      "opened": true,
+      "supports": "adverse volume evidence"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "EBITDA",
+    "value": 641.5,
+    "unit": "EUR million",
+    "period": "H1 2026",
+    "source_url": "https://www.adyen.com/press-and-media/adyen-publishes-h1-2026-financial-results-3wjne",
+    "caveat": "Non-IFRS, 49% margin; one-time acquisition costs; half-year."
+  },
+  "ai_claim": {
+    "claim": "Uplift and Dynamic Identification increased customer conversion by 0.9ppt on average.",
+    "stage": "E2 management-reported production",
+    "source_url": "https://www.adyen.com/press-and-media/adyen-publishes-h1-2026-financial-results-3wjne",
+    "scope": "participating customer payment flows",
+    "limitation": "Test design, eligible denominator, fraud and fees undisclosed."
+  },
+  "strongest_counterevidence": {
+    "claim": "2025 payment volume missed expectations; processors, issuers and networks can share/capture improvements.",
+    "source_url": "https://www.reuters.com/business/adyen-reports-21-revenue-rise-second-half-2025-2026-02-12/",
+    "limitation": "Expectation miss is not an AI outcome test."
+  },
+  "rights_limit": "Merchant/shopper/network data is contract- and privacy-bound; cross-merchant model training and agent-model rights are not fully public.",
+  "materiality_summary": "5% of rough annualized H1 EBITDA is \u20ac64.15m, with seasonality caveat.",
+  "arithmetic": {
+    "inputs": "0.9ppt uplift; assumed \u20ac200bn eligible volume, 0.20% take rate, 40% contribution, 50% retention, \u20ac20m cost",
+    "formula": "200000*.009*.002*.40*.50-20",
+    "result": "negative \u20ac19.28m illustration; only uplift is disclosed"
+  },
+  "confidence": {
+    "mechanism": "medium-high",
+    "deployment": "medium",
+    "capture": "low-medium"
+  },
+  "g2_provisional": "Provisional/incomplete: E2 result without controlled quality or retained cash.",
+  "unresolved_questions": [
+    "Fraud-adjusted test method?",
+    "Cross-merchant rights?",
+    "Agentic adoption and dispute rates?"
+  ],
+  "self_check_complete": true
+}
