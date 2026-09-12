@@ -7,7 +7,7 @@
   "latest_financial_period": "Q2 2026 ended 30 June, published 27 July 2026",
   "sources": [
     {
-      "url": "https://investor.cadence.com/news-releases/news-release-details/cadence-reports-second-quarter-2026-financial-results",
+      "url": "https://investor.cadence.com/news/news-details/2026/Cadence-Reports-Second-Quarter-2026-Financial-Results/default.aspx",
       "title": "Latest results",
       "date": "2026",
       "opened": true,
@@ -47,7 +47,7 @@
     "value": "$1.584bn",
     "unit": "USD",
     "period": "Q2 2026 ended 30 June, published 27 July 2026",
-    "source_url": "https://investor.cadence.com/news-releases/news-release-details/cadence-reports-second-quarter-2026-financial-results",
+    "source_url": "https://investor.cadence.com/news/news-details/2026/Cadence-Reports-Second-Quarter-2026-Financial-Results/default.aspx",
     "caveat": "Quarterly; acquisitions/mix and GAAP/non-GAAP reconciliation matter."
   },
   "ai_claim": {
@@ -63,10 +63,10 @@
     "limitation": "Risk disclosure does not quantify realized AI harm."
   },
   "rights_limit": "Customers own designs; foundries and licensors own PDK/third-party IP. Access does not prove cross-customer training rights.",
-  "materiality_summary": "Q2 GAAP operating profit is approximately $449.856m (28.4% \u00d7 $1.584bn); 5% is $22.493m for the quarter, or about $89.971m annualized with seasonality caveat.",
+  "materiality_summary": "Q2 GAAP operating profit is approximately $449.856m (28.4% × $1.584bn); 5% is $22.493m for the quarter, or about $89.971m annualized with seasonality caveat.",
   "arithmetic": {
     "inputs": "Illustrative assumed eligible cost/efficiency/realization/retention/run cost",
-    "formula": "$800m eligible cost \u00d7 15% \u00d7 60% \u00d7 50% \u2212 $50m = $22m",
+    "formula": "$800m eligible cost × 15% × 60% × 50% − $50m = −$14m",
     "result": "negative $14m illustrative; customer savings excluded from vendor cost."
   },
   "confidence": {

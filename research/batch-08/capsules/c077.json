@@ -51,11 +51,11 @@
     "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
   },
   "ai_claim": {
-    "claim": "Alibaba reported AI cloud/compute revenue up 45% while capex rose 75%; this is external infrastructure demand, while commerce productivity remains unisolated.",
-    "stage": "E1 AI-cloud offering; current result detail was not successfully opened",
-    "source_url": "https://www.alibabacloud.com/help/en/model-studio/data-security-and-privacy",
-    "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
-    "limitation": "No representative controlled cohort or retained-cash reconciliation."
+    "claim": "The packet could not successfully open the cited current result; therefore the reported 45% AI-compute growth remains an unverified infrastructure-demand claim, while commerce productivity is unisolated.",
+    "stage": "E0/E1 unverified external AI-infrastructure claim",
+    "source_url": "https://www.alibabagroup.com/document-1938408710984278016",
+    "scope": "External cloud demand only; not Alibaba internal productivity.",
+    "limitation": "No opened result, deployed commerce cohort or retained-cash reconciliation."
   },
   "strongest_counterevidence": {
     "claim": "profit fell sharply while capex surged.",
@@ -63,7 +63,7 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "Framework convention: RMB20bn annual benefit, a labeled 5% reported-profit scale proxy normalized above the investment-depressed quarter. Illustrative assumptions produce negative RMB9.04bn, below the hurdle.",
+  "materiality_summary": "Framework convention: RMB2.1bn after tax, exactly 5% of the explicit RMB42bn annualized June-quarter net-profit scale proxy (4 × RMB10.5bn). This is not normalized earnings and the underlying issuer page was not successfully opened. Illustrative assumptions produce negative RMB9.04bn pre-tax and are not directly comparable without tax conversion.",
   "arithmetic": {
     "inputs": "pool RMB60bn eligible internal sales, service and operations cost (assumption); efficiency 8%; realization 50%; retained share 40%; recurring cost RMB10bn",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",

@@ -51,11 +51,11 @@
     "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
   },
   "ai_claim": {
-    "claim": "Unilever describes AI-supported supply-chain planning in production, but the retrieved public material did not provide a controlled waste/service/cash cohort.",
-    "stage": "E1 supply-chain capability; no opened controlled cohort",
+    "claim": "AI-supported supply-chain planning is a plausible Unilever mechanism, but the cited article was inaccessible and no named production cohort was verified.",
+    "stage": "E0/E1 hypothesis or unverified initiative",
     "source_url": "https://www.unilever.com/news/news-search/2026/inside-unilevers-ai-powered-supply-chain/",
-    "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
-    "limitation": "No representative controlled cohort or retained-cash reconciliation."
+    "scope": "Supply-chain planning hypothesis only.",
+    "limitation": "No opened deployment source, denominator, controlled waste/service outcome or cash bridge."
   },
   "strongest_counterevidence": {
     "claim": "commodity/input inflation and pricing response dominate margins.",

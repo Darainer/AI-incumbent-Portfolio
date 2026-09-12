@@ -52,4 +52,9 @@ Confidence is **medium** on mechanism, **low-to-medium** on deployment breadth a
 
 Opened or located through issuer/search records by 12 September 2026: [financial results](https://ir.crowdstrike.com/financial-information/quarterly-results); [annual reports](https://ir.crowdstrike.com/financial-information/sec-filings); [AI/product description](https://www.crowdstrike.com/en-us/platform/charlotte-ai/); [operating-workflow description](https://www.crowdstrike.com/en-us/platform/falcon-fusion-soar/). These should be supplemented in committee review with the exact filed report, product terms/privacy notice and any customer case study containing a reproducible baseline. No inaccessible source was treated as proof, and no post-cutoff evidence was used.
 
+
+## Source-audit correction (controls earlier approximate references)
+
+Q2 GAAP operating loss was $33.232m while non-GAAP operating income was $371.649m. The anchor is explicitly non-GAAP and the 5% period screen is $18.582m; Mondelez testimonial supports scoped use, not causal lift. This exact source-audited measure supersedes any earlier approximate financial anchor or stage shorthand in this packet. It is a scale screen only. Because it covers less than a full year, it is not the annual 5% materiality hurdle and is NOT_COMPARABLE with annual cost or benefit illustrations. No annualization is assumed; all earlier statements that an annual illustration is above, below or clears this hurdle are withdrawn. G3 valuation and G4 portfolio construction remain deferred.
+
 **Handoff:** verify the FY2026 financial definition, the production scope of endpoint and identity security operations, and the missing causal profit bridge. Strongest counterargument: the mechanism can be real while its incremental economics remain too small or diffuse to clear the materiality screen.

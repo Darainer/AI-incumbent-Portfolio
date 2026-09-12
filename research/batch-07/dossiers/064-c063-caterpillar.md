@@ -6,7 +6,7 @@
 
 Caterpillar sells Construction Industries, Resource Industries and Energy & Transportation machinery plus Financial Products, parts and dealer service. Brand, global dealers, installed fleets, parts logistics and durable equipment are scarce. Komatsu, Deere, Volvo CE and mining specialists compete. Commodity/construction cycles, dealer inventories, tariffs, credit and engine transition are key risks.
 
-FY2025 sales/revenue **$67.6bn** and Machinery, Energy & Transportation operating cash flow **$9.5bn** were reported; Q2 2026 sales/revenue **$20.5bn**, up 24%, with net income about **$3.6bn**. [2025 10-K](https://www.sec.gov/Archives/edgar/data/18230/000001823026000012/cat-20251231.htm), filed 2026, and [Q2 release](https://investors.caterpillar.com/news/news-details/2026/Caterpillar-Reports-Second-Quarter-2026-Results/default.aspx), 4 August. Energy demand from data centers and tariffs materially confound margins. Finance receivables/debt fund customer equipment and must not be treated as ordinary industrial net debt.
+FY2025 sales/revenue **$67.589bn**, operating profit **$11.151bn**, and Machinery, Energy & Transportation operating cash flow **$9.5bn** were reported; Q2 2026 sales/revenue **$20.5bn**, up 24%, with net income about **$3.6bn**. [2025 10-K](https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm), filed 2026, and [Q2 release](https://investors.caterpillar.com/news/news-details/2026/Caterpillar-Reports-Second-Quarter-2026-Results/default.aspx), 4 August. Energy demand from data centers and tariffs materially confound margins. Finance receivables/debt fund customer equipment and must not be treated as ordinary industrial net debt.
 
 ## Rights
 
@@ -42,7 +42,7 @@ Komatsu FrontRunner is the incumbent challenger; autonomy vendors and customer f
 | Unplanned downtime | Same model/age/site | Unknown | Connected fleet cohort |
 | Paid autonomy ARR/contribution | Non-autonomous contracts, include dealer/sensor cost | Unknown | Renewal disclosure |
 
-Five percent of a reported-profit scale proxy: assume FY25 operating profit **$12bn** pending exact 10-K reconciliation, hurdle **$600m/year**. Illustration: 3,000 eligible autonomous trucks×$250k annual software/service×60% incremental attach×65% margin×70% Cat retention=$205m; $10bn eligible service/manufacturing cost×5%×35%×60%−$80m AI cost=$25m; total **$230m**. Required truck annual value holding other inputs: `(600-25)/(3000×.6×.65×.7)=$702k`. Assumptions; customer fuel/labor savings are not Cat costs.
+Five percent of FY2025 operating profit **$11.151bn** is a hurdle of **$557.55m/year**. Illustration: 3,000 eligible autonomous trucks×$250k annual software/service×60% incremental attach×65% margin×70% Cat retention=$205m; $10bn eligible service/manufacturing cost×5%×35%×60%−$80m AI cost=$25m; total **$230m**. Required truck annual value holding other inputs: `(557.55-25)/(3,000×.6×.65×.7)=$650.24k`. Assumptions; customer fuel/labor savings are not Cat costs.
 
 Positive: dealer-installed fleet and safety validation support autonomy subscriptions and equipment pull-through. Negative: customer savings drive price pressure, Komatsu/open autonomy competes, and data-center engines explain growth. Falsifiers: matched tonnes/hour/safety fail; autonomy renewals/price remain undisclosed; dealer/sensor cost absorbs contribution. Questions: autonomous unit count, paid ARR, data rights, intervention rate, lifecycle maintenance.
 
@@ -50,7 +50,7 @@ Confidence mechanism high, deployment high, capture low-medium. G0/G1 provisiona
 
 ## Sources
 
-1. Caterpillar 2025 10-K: https://www.sec.gov/Archives/edgar/data/18230/000001823026000012/cat-20251231.htm
+1. Caterpillar 2025 10-K: https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm
 2. FY25 results: https://investors.caterpillar.com/news/news-details/2026/Caterpillar-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx
 3. Q2 2026 results: https://investors.caterpillar.com/news/news-details/2026/Caterpillar-Reports-Second-Quarter-2026-Results/default.aspx
 4. Cat Command: https://www.cat.com/en_US/products/new/technology/command/command-for-hauling.html

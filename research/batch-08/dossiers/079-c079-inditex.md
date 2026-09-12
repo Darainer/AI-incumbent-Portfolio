@@ -23,7 +23,7 @@ A privacy policy establishes governance, not exclusivity. Cross-user or cross-me
 
 ## Mechanisms and challenge
 
-1. **Forecasting/matching/allocation (classical ML).** Demand and supply state → choose inventory/dispatch/offer → completed transaction with lower wait/markdown/cancellation → contribution and working-capital gain. It is deeply deployed (E2), but consolidated growth does not isolate a new model's causal effect.
+1. **Forecasting/matching/allocation (classical ML).** Demand and supply state → choose inventory/dispatch/offer → completed transaction with lower wait/markdown/cancellation → contribution and working-capital gain. The mechanism is plausible, but the opened sources did not identify a named, versioned Inditex deployment; it remains E1 in this packet.
 2. **Personalization/generative interface.** Context → rank or generate product/trip/support response → accepted outcome at equal returns/safety/satisfaction → higher conversion or lower service cost. Availability is E1/E2; controlled retained economics are undisclosed.
 3. **Agentic execution.** An agent can reorder/rebalance/resolve or, for mobility, coordinate autonomous supply. This may expand transactions, but authorization, errors and partner capture matter. Announcements/pilots are E1; scaled paid use is required for E2.
 
@@ -32,7 +32,7 @@ Direct challengers are **H&M and Shein**. Generic models, commerce/search interf
 | Claim | Type/source | Stage | Confounder |
 |---|---|---|---|
 | Latest financial figures above | Company fact | Financial | mix/currency/incentives |
-| Core optimization is deployed | Company product/filing fact | E2 | already in baseline |
+| Core optimization is plausible but unnamed in opened evidence | Mechanism inference | E1 | deployment and incrementality unverified |
 | Generative/agentic features exist | Company claim | E1/E2 narrow | adoption and error unknown |
 | Transaction data creates rapid feedback | Inference from platform operation | E0 mechanism | outcomes not causal labels |
 | Customer/partner data rights are bounded | Privacy/contract fact/inference | Rights | contracts unavailable |

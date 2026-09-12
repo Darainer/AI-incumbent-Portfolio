@@ -21,6 +21,13 @@
       "supports": "business, risk and cash"
     },
     {
+      "url": "https://www.microsoft.com/en/customers/story/25077-procter-and-gamble-iot-operations",
+      "title": "P&G cuts model deployment time up to 90% with Azure IoT Operations",
+      "date": "2025-08-21",
+      "opened": true,
+      "supports": "supplier-reported named plant/edge ML deployment and process-time claim"
+    },
+    {
       "url": "https://www.nielsen.com/legal/privacy-principles/",
       "title": "Nielsen privacy principles",
       "date": "undated",
@@ -44,11 +51,11 @@
     "caveat": "See dossier for implied/adjusted definition and confounders."
   },
   "ai_claim": {
-    "claim": "forecast demand, design media/product concepts and optimize plants/supply so gross margin and full-price volume improve",
-    "stage": "E2 baseline operations; E1/E2 incremental features",
-    "source_url": "https://s204.q4cdn.com/332108499/files/doc_financials/2026/ar/2026_annual_report.pdf",
-    "scope": "demand, media and operations",
-    "limitation": "No controlled incremental cash cohort."
+    "claim": "P&G deployed Azure IoT Operations and edge predictive models; Microsoft reports up to 90% less time to deploy a model version.",
+    "stage": "E2 supplier-reported deployment/process result; no E3 operational or cash outcome",
+    "source_url": "https://www.microsoft.com/en/customers/story/25077-procter-and-gamble-iot-operations",
+    "scope": "manufacturing edge models and workload orchestration",
+    "limitation": "Supplier case study; deployment time is not OEE, downtime, quality or retained cash."
   },
   "strongest_counterevidence": {
     "claim": "FY2026 core operating margin fell 70bp and ordinary productivity, restructuring, mix, commodity/tariff and pricing actions confound any AI attribution",
@@ -59,7 +66,7 @@
   "materiality_summary": "about $987.5m annual pre-tax (5% of implied $19.75bn GAAP operating income)",
   "arithmetic": {
     "inputs": "Illustrative assumed cost pool/efficiency/realization/retention/run cost",
-    "formula": "assumed $15bn eligible SG&A/supply cost \u00d7 10% efficiency \u00d7 60% realization \u00d7 40% retention \u2212 $250m = $110m",
+    "formula": "assumed $15bn eligible SG&A/supply cost × 10% efficiency × 60% realization × 40% retention − $250m = $110m",
     "result": "Illustrative benefit below hurdle"
   },
   "confidence": {

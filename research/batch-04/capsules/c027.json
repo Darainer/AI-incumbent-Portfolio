@@ -52,7 +52,7 @@
   },
   "ai_claim": {
     "claim": "Decision Intelligence scores live authorizations using network context; false-decline controls and incremental Mastercard cash economics were not disclosed.",
-    "stage": "E2 production fraud scoring; no E3/E4 cash attribution",
+    "stage": "E1 product capability; production efficacy source was not successfully opened",
     "source_url": "https://www.mastercard.com/news/press/2024/february/mastercard-supercharges-consumer-protection-with-generative-ai/",
     "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
     "limitation": "No representative controlled cohort or retained-cash reconciliation."
@@ -63,7 +63,7 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "Framework convention: $700m, about 5% of a normalized annual operating-profit scale. Illustrative assumptions produce negative $70m, below the hurdle.",
+  "materiality_summary": "Framework convention: $880m after tax, exactly 5% of the explicit $17.6bn annualized Q2 GAAP net-income scale proxy (4 × $4.4bn). This is not a normalized annual estimate. Illustrative internal-cost assumptions produce negative $70m pre-tax and are not directly comparable without tax conversion.",
   "arithmetic": {
     "inputs": "pool $5bn eligible internal operating cost (assumption); efficiency 2%; realization 60%; retained share 50%; recurring cost $100m",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
@@ -74,7 +74,7 @@
     "deployment": "low-to-moderate",
     "capture": "low"
   },
-  "g2_provisional": "Watch/incomplete: E1–E2 route exists; no E3 quality-adjusted proof or E4 cash.",
+  "g2_provisional": "Watch/incomplete: E1 product capability; production efficacy source was not successfully opened; no E3 quality-adjusted proof or E4 retained cash.",
   "unresolved_questions": [
     "Training and pooled-learning rights?",
     "Eligible workload and matched quality KPI?",

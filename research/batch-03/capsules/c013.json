@@ -43,16 +43,16 @@
     }
   ],
   "financial_anchor": {
-    "metric": "latest revenue and profitability",
-    "value": "$20.230bn revenue, up 8.7%; $1.699bn attributable net income; diluted EPS $7.62",
+    "metric": "Q2 2026 revenue and attributable net income",
+    "value": "$20.230bn revenue; $1.699bn net income",
     "unit": "USD",
     "period": "Q2 2026 (ended 30 June 2026)",
     "source_url": "https://investor.hcahealthcare.com/news-and-events/news-releases/2026/",
     "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
   },
   "ai_claim": {
-    "claim": "generative handoff and documentation tools can reduce nurse/clinician administrative time.",
-    "stage": "E1–E2 scoped; no E3/E4 established",
+    "claim": "HCA and Google Cloud reported deployment work on generative nurse handoffs; omission, escalation and patient-outcome comparisons remain undisclosed.",
+    "stage": "E1 announced deployment program; no opened controlled clinical result",
     "source_url": "https://cloud.google.com/blog/topics/healthcare-life-sciences/hca-healthcare-and-google-cloud-generative-ai",
     "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
     "limitation": "No representative controlled cohort or retained-cash reconciliation."
@@ -63,7 +63,7 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "Framework convention: $350m, roughly 5% of a $7bn annual net-income scale proxy. Illustrative assumptions produce $46m, below the hurdle.",
+  "materiality_summary": "Framework convention: $339.8m, exactly 5% of the explicit $6.796bn annualized Q2 net-income scale proxy (4 × $1.699bn). This is an after-tax scale proxy, not normalized earnings. Illustrative assumptions produce $46m pre-tax and are not directly comparable without tax conversion.",
   "arithmetic": {
     "inputs": "pool $28bn eligible salaries, benefits and purchased-services pool; efficiency 5%; realization 35%; retained share 40%; recurring cost $150m",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
@@ -74,7 +74,7 @@
     "deployment": "low-to-moderate",
     "capture": "low"
   },
-  "g2_provisional": "Watch/incomplete: E1–E2 route exists; no E3 quality-adjusted proof or E4 cash.",
+  "g2_provisional": "Watch/incomplete: E1 announced deployment program; no opened controlled clinical result; no E3 quality-adjusted proof or E4 retained cash.",
   "unresolved_questions": [
     "Training and pooled-learning rights?",
     "Eligible workload and matched quality KPI?",

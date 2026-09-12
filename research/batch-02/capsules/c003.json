@@ -51,14 +51,14 @@
     {
       "url": "https://www.roche.com/investors/annualreport",
       "title": "Roche annual report",
-      "date": "current hub",
+      "date": "undated",
       "opened": true,
       "supports": "incumbent challenger"
     },
     {
       "url": "https://ir.recursion.com/financial-information/annual-reports-and-proxies",
       "title": "Recursion annual reports",
-      "date": "current hub",
+      "date": "undated",
       "opened": true,
       "supports": "AI-biotech entrant"
     }

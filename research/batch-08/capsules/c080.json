@@ -14,6 +14,13 @@
       "supports": "financial anchor"
     },
     {
+      "url": "https://www.uber.com/us/en/blog/from-predictive-to-generative-ai/",
+      "title": "From Predictive to Generative — How Michelangelo Accelerates Uber’s AI Journey",
+      "date": "2024-05-02",
+      "opened": true,
+      "supports": "named internal ML platform and production LLMOps scope"
+    },
+    {
       "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000016/uber-20251231.htm",
       "title": "Annual report/filing",
       "date": "2026",
@@ -36,17 +43,17 @@
     }
   ],
   "financial_anchor": {
-    "metric": "latest profit measure",
-    "value": "$2.4bn net income and $2.82bn adjusted EBITDA",
-    "unit": "reported currency",
+    "metric": "GAAP operating income",
+    "value": "$1.9bn",
+    "unit": "USD",
     "period": "Q2 2026 ended 30 June, released 5 August 2026",
     "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
-    "caveat": "Reported/adjusted definitions and seasonality; see dossier."
+    "caveat": "Quarterly; $2.4bn net income included a $1.6bn pre-tax investment-revaluation benefit."
   },
   "ai_claim": {
-    "claim": "improve matching, ETA, pricing, fraud and support; separately integrate autonomous vehicles without owning the fleet",
-    "stage": "E2 for existing ML; E1/E2 for incremental generative/agentic",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000016/uber-20251231.htm",
+    "claim": "Michelangelo supports deployed prediction/ranking workflows and was extended to LLMOps for generative-AI applications.",
+    "stage": "E2 named platform deployment; no E3 incremental economics",
+    "source_url": "https://www.uber.com/us/en/blog/from-predictive-to-generative-ai/",
     "scope": "platform operations",
     "limitation": "No versioned controlled incremental cash cohort."
   },
@@ -56,10 +63,10 @@
     "limitation": "Multiple ordinary-business drivers."
   },
   "rights_limit": "Customer, supplier/provider and payment/location data are purpose- and contract-bound; cross-context pooled training is not universal.",
-  "materiality_summary": "5% of rough annualized Q2 adjusted EBITDA is $564m annual pre-tax, with seasonality/non-GAAP caveat",
+  "materiality_summary": "5% of Q2 GAAP operating income of $1.9bn is $95m for the quarter; not annualized.",
   "arithmetic": {
     "inputs": "Illustrative assumed cost pool and capture terms",
-    "formula": "assumed $20bn eligible incentive/support/loss pool \u00d7 2% improvement \u00d7 70% realization \u00d7 50% retention \u2212 $100m cost = $40m",
+    "formula": "assumed $20bn eligible incentive/support/loss pool × 2% improvement × 70% realization × 50% retention − $100m cost = $40m",
     "result": "Illustrative only; no E4 conclusion"
   },
   "confidence": {

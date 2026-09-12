@@ -52,4 +52,9 @@ Confidence is **medium** on mechanism, **low-to-medium** on deployment breadth a
 
 Opened or located through issuer/search records by 12 September 2026: [financial results](https://www.lseg.com/en/investor-relations/annual-reports); [annual reports](https://www.lseg.com/en/investor-relations/results-reports-and-events); [AI/product description](https://www.lseg.com/en/insights/data-analytics); [operating-workflow description](https://www.lseg.com/en/partnerships/microsoft). These should be supplemented in committee review with the exact filed report, product terms/privacy notice and any customer case study containing a reproducible baseline. No inaccessible source was treated as proof, and no post-cutoff evidence was used.
 
+
+## Source-audit correction (controls earlier approximate references)
+
+H1 reported operating profit £1.428bn and adjusted operating profit £2.008bn. The issuer says thousands of Workspace customers used AI Search; no outcome denominator. The period-consistent 5% screen is £71.4m. This exact source-audited measure supersedes any earlier approximate financial anchor or stage shorthand in this packet. It is a scale screen only. Because it covers less than a full year, it is not the annual 5% materiality hurdle and is NOT_COMPARABLE with annual cost or benefit illustrations. No annualization is assumed; all earlier statements that an annual illustration is above, below or clears this hurdle are withdrawn. G3 valuation and G4 portfolio construction remain deferred.
+
 **Handoff:** verify the FY2025 financial definition, the production scope of data and analytics workflow, and the missing causal profit bridge. Strongest counterargument: the mechanism can be real while its incremental economics remain too small or diffuse to clear the materiality screen.

@@ -14,6 +14,13 @@
       "supports": "financials and operating drivers"
     },
     {
+      "url": "https://www.geaerospace.com/collaborative-insight",
+      "title": "Collaborative Insight engine health monitoring",
+      "date": "undated",
+      "opened": true,
+      "supports": "named fleet-monitoring deployment, Fleet Monitor X and company-reported activity"
+    },
+    {
       "url": "https://www.geaerospace.com/investor-relations/annual-report",
       "title": "Annual results/report",
       "date": "2026",
@@ -43,19 +50,19 @@
     }
   ],
   "financial_anchor": {
-    "metric": "latest profit",
-    "value": "$2.7bn segment profit",
-    "unit": "reported currency",
+    "metric": "GAAP profit",
+    "value": "$2.8bn",
+    "unit": "USD",
     "period": "Q2 2026, published 16 July 2026",
     "source_url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-announces-second-quarter-2026-results",
-    "caveat": "Adjusted/segment metric; mix, price, deliveries and supply confound."
+    "caveat": "Total GAAP revenue $13.3bn; adjusted revenue $12.6bn and adjusted operating profit $2.7bn are separate non-GAAP measures; CES revenue $9.7bn is a segment figure."
   },
   "ai_claim": {
-    "claim": "Fleet analytics and digital monitoring support predictive maintenance and shop decisions.",
-    "stage": "E2 deployment, E1 effectiveness",
-    "source_url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-announces-second-quarter-2026-results",
-    "scope": "fleet/service workflows",
-    "limitation": "No matched risk-adjusted fleet/shop cash cohort."
+    "claim": "Collaborative Insight uses advanced analytics to monitor 44,000+ commercial engines and names Fleet Monitor X, 750+ customers and maintenance recommendations.",
+    "stage": "E2 scoped company-reported deployment; no E3 controlled effectiveness",
+    "source_url": "https://www.geaerospace.com/collaborative-insight",
+    "scope": "engine-health monitoring and fleet maintenance recommendations",
+    "limitation": "Activity and outcome figures are company-reported and lack a matched fleet/cash comparator."
   },
   "strongest_counterevidence": {
     "claim": "Service volume and price drove results, while casting bottlenecks led to a proposed $11.75bn CPP acquisition funded with cash/debt; supply execution dominates near-term economics.",
@@ -74,7 +81,7 @@
     "deployment": "medium",
     "capture": "low-medium"
   },
-  "g2_provisional": "Incomplete: production analytics without controlled safety-adjusted economics.",
+  "g2_provisional": "Incomplete: named E2 deployment without controlled safety-adjusted effectiveness or retained economics.",
   "unresolved_questions": [
     "Operator/JV pooled-learning rights?",
     "Matched fleet removal outcome?",

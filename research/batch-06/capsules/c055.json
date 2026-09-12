@@ -7,7 +7,7 @@
   "latest_financial_period": "Q3 FY2026 ended 31 May 2026, published 18 June 2026",
   "sources": [
     {
-      "url": "https://newsroom.accenture.com/news/2026/accenture-reports-third-quarter-fiscal-2026-results",
+      "url": "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/earnings-reports/2026/accenture-3q-fy26-earnings-release.pdf",
       "title": "Latest results",
       "date": "2026",
       "opened": true,
@@ -36,23 +36,23 @@
     }
   ],
   "financial_anchor": {
-    "metric": "latest revenue",
-    "value": "$18.7bn",
-    "unit": "reported currency",
-    "period": "Q3 FY2026 ended 31 May 2026, published 18 June 2026",
-    "source_url": "https://newsroom.accenture.com/news/2026/accenture-reports-third-quarter-fiscal-2026-results",
-    "caveat": "Quarterly/run-rate and currency/acquisition confounders; see dossier."
+    "metric": "GAAP operating income",
+    "value": "$3.175bn",
+    "unit": "USD",
+    "period": "Q3 FY2026 ended 31 May 2026",
+    "source_url": "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/earnings-reports/2026/accenture-3q-fy26-earnings-release.pdf",
+    "caveat": "Quarterly; acquisitions, currency and restructuring confound."
   },
   "ai_claim": {
     "claim": "fiscal-2025 generative-AI bookings of $5.9bn",
     "stage": "E2 commercial metric",
-    "source_url": "https://newsroom.accenture.com/news/2026/accenture-reports-third-quarter-fiscal-2026-results",
+    "source_url": "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/earnings-reports/2026/accenture-3q-fy26-earnings-release.pdf",
     "scope": "company-defined AI services",
     "limitation": "bookings are signed demand, not revenue or profit; no net contribution."
   },
   "strongest_counterevidence": {
     "claim": "An $865m restructuring program, discretionary IT-budget pressure and a Q3 FY2026 growth-outlook reduction overlap with AI investment.",
-    "source_url": "https://newsroom.accenture.com/news/2026/accenture-reports-third-quarter-fiscal-2026-results",
+    "source_url": "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/earnings-reports/2026/accenture-3q-fy26-earnings-release.pdf",
     "limitation": "Does not quantify AI-attributable impact."
   },
   "rights_limit": "Client code/data is SOW/NDA-bound; cross-client training, generated-IP and model-provider retention vary by contract.",

@@ -4,7 +4,7 @@
   "batch": 6,
   "dossier": "research/batch-06/dossiers/060-c056-tata-consultancy-services.md",
   "cutoff": "2026-09-12",
-  "latest_financial_period": "Q1 FY2027 ended 30 June 2026, published July 2026",
+  "latest_financial_period": "Q4/FY2026 ended 31 March 2026, published April 2026",
   "sources": [
     {
       "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-closes-fy26-improving-sequential-growth-strong-deal-wins-ai-revenues-surpass-2-3-billion",
@@ -39,7 +39,7 @@
     "metric": "latest revenue",
     "value": "$7.62bn",
     "unit": "reported currency",
-    "period": "Q1 FY2027 ended 30 June 2026, published July 2026",
+    "period": "Q4/FY2026 ended 31 March 2026, published April 2026",
     "source_url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-closes-fy26-improving-sequential-growth-strong-deal-wins-ai-revenues-surpass-2-3-billion",
     "caveat": "Quarterly/run-rate and currency/acquisition confounders; see dossier."
   },

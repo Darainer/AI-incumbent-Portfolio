@@ -1,6 +1,6 @@
 # C056 — Tata Consultancy Services evidence dossier
 
-**Unreviewed agent work.** Tata Consultancy Services; ordinary equity TCS (NSE/BSE India, INR statutory reporting; ADR absent). Cutoff/retrieval 12 September 2026. Latest period: Q1 FY2027 ended 30 June 2026, published July 2026.
+**Unreviewed agent work.** Tata Consultancy Services; ordinary equity TCS (NSE/BSE India, INR statutory reporting; ADR absent). Cutoff/retrieval 12 September 2026. Latest period: Q4/FY2026 ended 31 March 2026, published April 2026.
 
 ## Business and financial anchor
 

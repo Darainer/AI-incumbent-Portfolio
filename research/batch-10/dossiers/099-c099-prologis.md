@@ -6,7 +6,7 @@
 
 Prologis owns or operates commercial-property workflows. Its scarce asset is 1.3bn+ square feet, 6,500+ customers, parcel/location history, leases, energy/solar infrastructure and operating relationships. AI could forecast leasing, price/renewal risk and maintenance/energy; data-center demand is separate property demand, not AI operating productivity. Existing statistical valuation, routing, building controls and portfolio analytics remain in the reported baseline.
 
-Latest results: **core FFO $1.63 per diluted share, versus $1.46**, **net earnings $1.13 per diluted share**, **95.5% owned/managed occupancy and 67m square feet of leasing**. Capital context: **investment-grade A3/A ratings; exact Q2 net debt must be taken from supplemental before valuation**. Sources: [latest results](https://www.prologis.com/insights-news/press-releases/prologis-reports-second-quarter-2026-results) and [2025 annual report/10-K](https://www.prologis.com/annual-report-2025). Core FFO/core EBITDA/FCF/net debt are non-GAAP and require reconciliation. Development/disposition gains, incentive fees, acquisitions, occupancy, rent spreads, FX, pass-through costs and interest rates confound comparisons. freight, tariffs, supply, interest rates and development gains dominate; tenant data is contract-bound, maintenance savings may pass through, and data-center capex/power risk can increase.
+Latest results: **core FFO $1.63 per diluted share, versus $1.46**, **net earnings $1.13 per diluted share**, **95.5% owned/managed occupancy and 67m square feet of leasing**. Capital context: **investment-grade A3/A ratings; exact Q2 net debt must be taken from supplemental before valuation**. Sources: [latest results](https://ir.prologis.com/financials/sec-filings/content/0001193125-26-305416/pld-ex99_2.htm) and [2025 annual report/10-K](https://www.prologis.com/annual-report-2025). Core FFO/core EBITDA/FCF/net debt are non-GAAP and require reconciliation. Development/disposition gains, incentive fees, acquisitions, occupancy, rent spreads, FX, pass-through costs and interest rates confound comparisons. freight, tariffs, supply, interest rates and development gains dominate; tenant data is contract-bound, maintenance savings may pass through, and data-center capex/power risk can increase.
 
 The conventional business survives without incremental AI because location, buildings, customer access, regulatory licenses, capital and service execution are scarce. For a REIT, AFFO/maintenance capex, debt refinancing and tenant pass-through matter; for services, pass-through revenue, people costs and transactional cyclicality matter. Data-center leasing or project demand caused by AI is ordinary demand exposure, not proof of internal productivity.
 
@@ -24,7 +24,7 @@ Possession through management or brokerage does not establish ownership or cross
 
 ## Mechanisms and challengers
 
-1. **Leasing/valuation intelligence (classical ML/generative assistance).** Comparables and property context → rent/value/prospect recommendation → accepted transaction at maintained accuracy → fee, occupancy or rent economics. Products and internal analytics establish E1/E2; no controlled incremental cash cohort was found.
+1. **Leasing/valuation intelligence (classical ML/generative assistance).** Comparables and property context → rent/value/prospect recommendation → accepted transaction at maintained accuracy → fee, occupancy or rent economics. This remains E1 in the packet because the opened Prologis sources do not identify a named deployed AI tool or controlled incremental cash cohort.
 2. **Facilities/predictive maintenance (classical ML/agentic execution).** Sensor/work-order history → predict, dispatch and close → lower downtime/energy/cost at equal safety → service margin or tenant retention. Much gain may flow to the occupier under contract; hardware and technician capacity constrain realization.
 3. **Research/document automation (generative assistance).** Leases, market reports and project files → extract/draft → professional-approved output → lower labor or more mandates. Human liability/review remains. For service firms, fewer billable hours and client fee resets can offset productivity.
 
@@ -33,7 +33,7 @@ Direct challenger: **Link Logistics/Blackstone and Goodman Group**. CoStar/MSCI,
 | Claim | Type/source | Stage | Confounder |
 |---|---|---|---|
 | Latest figures above | Company fact | Financial | cycle, pass-through, dispositions |
-| Analytics/digital building tools are offered | Company product fact | E1/E2 | adoption/effect unknown |
+| Leasing/building AI mechanisms are plausible | Mechanism inference | E1 | no named Prologis deployment found |
 | Property/work-order data can improve decisions | Mechanism inference | E0 until outcome | selection and rights |
 | Customer data remains contract-bound | privacy/contract inference | Rights | agreements unavailable |
 | Rival/data vendor offers comparable analytics | primary rival/product fact | Challenger | coverage differs |
@@ -48,7 +48,7 @@ Direct challenger: **Link Logistics/Blackstone and Goodman Group**. CoStar/MSCI,
 | Downtime/energy/work-order cost per sqft | similar buildings/current rules | connected buildings; comfort, safety and capex controlled | unknown | matched rollout and contract cash |
 | Accepted reports/valuations per professional hour | prior workflow | AI users; error, audit and liability non-inferior | unknown | randomized team study |
 
-The materiality convention is **5% of Q2 core FFO is $0.0815 per share for the quarter, or $0.326 annualized if Q2 repeats; this is a per-share REIT scale proxy, not operating profit**. Illustration: **assumed $1bn eligible property/admin cost × 10% × 60% × 40% − $30m = negative $6m**. Inputs are assumptions. Tenant energy savings are not landlord/service-provider cost unless contractually retained. Released professional capacity cannot also be counted as labor removal and revenue. Property capex, maintenance, tax and working capital must be separate.
+The materiality convention is **5% of Q2 core FFO is $0.0815 per share for the quarter, or $0.326 annualized if Q2 repeats; this is a per-share REIT scale proxy, not operating profit**. Illustration: **assumed $1bn eligible property/admin cost × 10% × 60% × 40% − $30m = negative $6m**. The aggregate-dollar illustration cannot be compared with the per-share hurdle without a same-period diluted-share denominator; no clearance claim is made. Inputs are assumptions. Tenant energy savings are not landlord/service-provider cost unless contractually retained. Released professional capacity cannot also be counted as labor removal and revenue. Property capex, maintenance, tax and working capital must be separate.
 
 Positive: embedded property/customer access and physical execution let analytics change real outcomes. Negative: rights are shared, cycles dominate, clients/vendors capture savings and physical work limits scaling.
 
@@ -56,7 +56,7 @@ Falsifiers: matched properties show no risk-adjusted rent/occupancy or service-c
 
 ## Sources and handoff
 
-Opened 12 Sep 2026: [latest results](https://www.prologis.com/insights-news/press-releases/prologis-reports-second-quarter-2026-results); [annual report/10-K](https://www.prologis.com/annual-report-2025); [privacy](https://www.prologis.com/privacy-policy); [CoStar](https://www.costargroup.com/) (data substitute); [JLL technology](https://www.jll.com/en-us/services/technology) (challenger); [ENERGY STAR Portfolio Manager](https://www.energystar.gov/buildings/benchmark) (public/substitute data); [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework); [SEC climate/property-risk disclosures](https://www.sec.gov/edgar/search/) (filings). Detailed customer contracts, tool adoption and controlled cohorts unavailable.
+Opened 12 Sep 2026: [latest results](https://ir.prologis.com/financials/sec-filings/content/0001193125-26-305416/pld-ex99_2.htm); [annual report/10-K](https://www.prologis.com/annual-report-2025); [privacy](https://www.prologis.com/privacy-policy); [CoStar](https://www.costargroup.com/) (data substitute); [JLL technology](https://www.jll.com/en-us/services/technology) (challenger); [ENERGY STAR Portfolio Manager](https://www.energystar.gov/buildings/benchmark) (public/substitute data); [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework); [SEC climate/property-risk disclosures](https://www.sec.gov/edgar/search/) (filings). Detailed customer contracts, tool adoption and controlled cohorts unavailable.
 
 Handoff [c099.json](../capsules/c099.json). Verify non-GAAP denominator, customer/building data rights and a matched property/workflow cash cohort. Research-only; G2 incomplete.
 

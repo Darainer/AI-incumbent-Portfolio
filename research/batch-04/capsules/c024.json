@@ -63,11 +63,11 @@
     "limitation": "Competitive capability does not by itself prove equal outcomes."
   },
   "rights_limit": "Bank secrecy, consent and purpose limitation constrain account data. Customer-specific inference may be permissible for service/risk, while unrestricted pooled generative training is not established.",
-  "materiality_summary": "The labelled 5% scale hurdle is S$570m; public evidence does not establish it.",
+  "materiality_summary": "Five percent of the completed-year earnings anchor is S$550m; no AI-attributed amount is established.",
   "arithmetic": {
-    "inputs": "5%\u00d7S$11",
-    "formula": "5%\u00d7S$11.4bn net profit=S$570m. A S$3bn eligible expense pool\u00d710%\u00d760%\u00d750%\u2212S$60m recurring cost=S$30m; larger benefit would require demonstrable fraud/credit gains without relaxing approvals.",
-    "result": "Illustrative bridge remains below or must be compared with S$570m; not a forecast."
+    "inputs": "FY2025 net profit 11.0bn",
+    "formula": "0.05\u00d7S$11.0bn=S$550m",
+    "result": "S$550m annual hurdle; no AI-attributed cash result."
   },
   "confidence": {
     "mechanism": "medium",

@@ -43,12 +43,12 @@
     }
   ],
   "financial_anchor": {
-    "metric": "latest revenue",
-    "value": "$2.477bn",
+    "metric": "consolidated GAAP operating income",
+    "value": "$357.491m",
     "unit": "USD",
-    "period": "Q3 FY2026 ended July 2026, published 26 August 2026",
+    "period": "Q3 FY2026; nine-month value $680.963m",
     "source_url": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
-    "caveat": "Quarterly; acquisitions/mix and GAAP/non-GAAP reconciliation matter."
+    "caveat": "Post-Ansys perimeter; quarterly and nine-month measures are not annualized."
   },
   "ai_claim": {
     "claim": "DSO.ai and autonomous engineering workflows optimize power, performance and area and orchestrate verification",
@@ -63,10 +63,10 @@
     "limitation": "Risk disclosure does not quantify realized AI harm."
   },
   "rights_limit": "Customers own designs; foundries and licensors own PDK/third-party IP. Access does not prove cross-customer training rights.",
-  "materiality_summary": "No reliable normalized post-Ansys operating-profit denominator was extracted from the opened Q3 release; the 5% hurdle is explicitly unquantified pending GAAP reconciliation.",
+  "materiality_summary": "Q3 consolidated GAAP operating income was $357.491m and nine-month operating income $680.963m; same-period 5% hurdles are $17.875m and $34.048m, respectively.",
   "arithmetic": {
     "inputs": "Illustrative assumed eligible cost/efficiency/realization/retention/run cost",
-    "formula": "$1.0bn eligible R&D/support cost \u00d7 15% \u00d7 60% \u00d7 50% \u2212 $60m = \u2212$15m",
+    "formula": "$1.0bn eligible R&D/support cost × 15% × 60% × 50% − $60m = −$15m",
     "result": "Illustrative only; customer savings excluded from vendor cost."
   },
   "confidence": {

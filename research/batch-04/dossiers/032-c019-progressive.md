@@ -25,7 +25,7 @@ Telematics consent can support pricing but is not universal training permission.
 
 **Risk selection/pricing (classical ML).** Quote, policy and telematics context → risk estimate/price → lower loss ratio at constant rate and mix → underwriting profit/capital growth. Snapshot is deployed at scale as an insurance programme, but public sources do not isolate the latest algorithm against the incumbent production score. This is E2 deployment, not E3 incremental lift.
 
-**Claims triage/estimate (computer vision/ML).** Claim images/history → routing/estimate/fraud signal → faster accurate close → lower adjustment expense/leakage. Progressive describes digital photo/claims workflows, while sample, matched leakage, supplements and human-review cost are not disclosed. Stage is E1/E2.
+**Digital claims workflow (AI attribution unproven).** Claim images/history → customer photo estimate and digital routing → potentially faster close. The claims page establishes self-service Photo Estimate availability, but does not identify computer vision, machine learning or AI. Progressive’s Form 10-K separately says it has used predictive models, machine learning and AI for many years; it does not tie that broad statement to Photo Estimate or disclose a matched claims outcome. Claims AI therefore remains E0/E1 here.
 
 **Customer/agent assistance (generative/automation).** Policy context → quote/service answer/action → lower expense and higher conversion. No decisive public source by cutoff reconciles generative AI to expense ratio or retention; E0/E1.
 
@@ -40,7 +40,7 @@ GEICO is a direct challenger with large direct distribution and telematics; Stat
 | 2025 statutory combined ratio 87.1 | fact | [2025 10-K](https://www.sec.gov/Archives/edgar/data/80661/000008066126000086/pgr-20251231.htm), 2 Mar 2026 | full year | financial | pricing/cycle |
 | Driving data can improve segmentation | inference | Snapshot/privacy and 10-K | opted-in policies | E1 | behavior/selection bias |
 | New-model incremental lift is undisclosed | negative finding | searched company filings/product material | pricing | E0 | nondisclosure |
-| Claim automation can reduce handling work | management capability | [claims](https://www.progressive.com/claims/), accessed cutoff | claims channel | E1/E2 | customer self-service, no causal result |
+| Digital Photo Estimate self-service exists; AI role unproven | management capability | [claims](https://www.progressive.com/claims/), accessed cutoff | claims channel | E1 | page does not identify AI; no causal result |
 
 ## KPI and materiality
 
@@ -50,7 +50,7 @@ GEICO is a direct challenger with large direct distribution and telematics; Stat
 | claims expense per closed claim | randomized adjuster rollout | eligible claims | leakage, supplement, appeal, satisfaction | unknown | controlled claims study |
 | quote conversion at risk-adjusted margin | old production score | model-treated quotes | same expected loss/capital | unknown | filed cohort renewal |
 
-Use underwriting profit/capital. FY2025 underwriting margin from 87.1 ratio is 12.9%; applied to $81.661bn earned premium gives a rough **$10.535bn pretax underwriting profit** before investment income and reconciliation. The 5% convention is $526.8m. That equals about **64.5 bps of earned premium** ($526.8m/$81.661bn). A 20bp sustainable AI improvement is $163.3m before model/implementation cost, below the hurdle. These are scale calculations, not attributed forecasts.
+Use underwriting profit/capital. FY2025 underwriting margin from 87.1 ratio is 12.9%; applied to $81.661bn earned premium gives a rough **$10.534bn pretax underwriting profit** before investment income and reconciliation. The 5% convention is $526.7m. That equals about **64.5 bps of earned premium** ($526.7m/$81.661bn). A 20bp sustainable AI improvement is $163.3m before model/implementation cost, below the hurdle. These are scale calculations, not attributed forecasts.
 
 
 ## Measurement design and decision use

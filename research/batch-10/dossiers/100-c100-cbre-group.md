@@ -24,7 +24,7 @@ Possession through management or brokerage does not establish ownership or cross
 
 ## Mechanisms and challengers
 
-1. **Leasing/valuation intelligence (classical ML/generative assistance).** Comparables and property context → rent/value/prospect recommendation → accepted transaction at maintained accuracy → fee, occupancy or rent economics. Products and internal analytics establish E1/E2; no controlled incremental cash cohort was found.
+1. **Leasing/valuation intelligence (classical ML/generative assistance).** Comparables and property context → rent/value/prospect recommendation → accepted transaction at maintained accuracy → fee, occupancy or rent economics. CBRE names Ellis AI as a self-service multi-model GenAI platform and describes use by teams for digital assistants, supporting scoped company-reported E2 deployment; no controlled incremental cash cohort was found.
 2. **Facilities/predictive maintenance (classical ML/agentic execution).** Sensor/work-order history → predict, dispatch and close → lower downtime/energy/cost at equal safety → service margin or tenant retention. Much gain may flow to the occupier under contract; hardware and technician capacity constrain realization.
 3. **Research/document automation (generative assistance).** Leases, market reports and project files → extract/draft → professional-approved output → lower labor or more mandates. Human liability/review remains. For service firms, fewer billable hours and client fee resets can offset productivity.
 
@@ -56,7 +56,7 @@ Falsifiers: matched properties show no risk-adjusted rent/occupancy or service-c
 
 ## Sources and handoff
 
-Opened 12 Sep 2026: [latest results](https://www.cbre.com/press-releases/cbre-q2-2026-earnings); [annual report/10-K](https://ir.cbre.com/financial-reports/sec-filings/content/0001138118-26-000005/cbre-20251231.htm); [privacy](https://www.cbre.com/about-us/global-web-privacy-and-cookie-policy); [CoStar](https://www.costargroup.com/) (data substitute); [JLL technology](https://www.jll.com/en-us/services/technology) (challenger); [ENERGY STAR Portfolio Manager](https://www.energystar.gov/buildings/benchmark) (public/substitute data); [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework); [SEC climate/property-risk disclosures](https://www.sec.gov/edgar/search/) (filings). Detailed customer contracts, tool adoption and controlled cohorts unavailable.
+Opened 12 Sep 2026: [Ellis AI digital-assistant article](https://www.cbre.com/insights/articles/everyone-can-have-a-digital-assistant-with-ellis-ai) (13 Feb 2025, named company-reported deployment); [latest results](https://www.cbre.com/press-releases/cbre-q2-2026-earnings); [annual report/10-K](https://ir.cbre.com/financial-reports/sec-filings/content/0001138118-26-000005/cbre-20251231.htm); [privacy](https://www.cbre.com/about-us/global-web-privacy-and-cookie-policy); [CoStar](https://www.costargroup.com/) (data substitute); [JLL technology](https://www.jll.com/en-us/services/technology) (challenger); [ENERGY STAR Portfolio Manager](https://www.energystar.gov/buildings/benchmark) (public/substitute data); [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework); [SEC climate/property-risk disclosures](https://www.sec.gov/edgar/search/) (filings). Detailed customer contracts, tool adoption and controlled cohorts unavailable.
 
 Handoff [c100.json](../capsules/c100.json). Verify non-GAAP denominator, customer/building data rights and a matched property/workflow cash cohort. Research-only; G2 incomplete.
 

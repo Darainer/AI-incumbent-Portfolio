@@ -52,4 +52,9 @@ Confidence is **medium** on mechanism, **low-to-medium** on deployment breadth a
 
 Opened or located through issuer/search records by 12 September 2026: [financial results](https://investor.3ds.com/financial-information/financial-results); [annual reports](https://investor.3ds.com/financial-information/annual-reports); [AI/product description](https://www.3ds.com/3dexperience); [operating-workflow description](https://www.3ds.com/virtual-twin). These should be supplemented in committee review with the exact filed report, product terms/privacy notice and any customer case study containing a reproducible baseline. No inaccessible source was treated as proof, and no post-cutoff evidence was used.
 
+
+## Source-audit correction (controls earlier approximate references)
+
+Q2 IFRS revenue €1.56bn and IFRS operating income about €358m at 23.0% margin. The 5% period screen is €17.9m; product availability does not establish deployment. This exact source-audited measure supersedes any earlier approximate financial anchor or stage shorthand in this packet. It is a scale screen only. Because it covers less than a full year, it is not the annual 5% materiality hurdle and is NOT_COMPARABLE with annual cost or benefit illustrations. No annualization is assumed; all earlier statements that an annual illustration is above, below or clears this hurdle are withdrawn. G3 valuation and G4 portfolio construction remain deferred.
+
 **Handoff:** verify the FY2025 financial definition, the production scope of engineering and life-science design, and the missing causal profit bridge. Strongest counterargument: the mechanism can be real while its incremental economics remain too small or diffuse to clear the materiality screen.

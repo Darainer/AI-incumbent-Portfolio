@@ -14,41 +14,48 @@
       "supports": "latest interim financial update"
     },
     {
+      "url": "https://assets.linde.com/-/media/global/corporate/corporate/documents/financial-reports/2025/linde-plc-2025-directors-report-and-financial-statements.pdf",
+      "title": "2025 Directors Report and Financial Statements",
+      "date": "2026-02-25",
+      "opened": true,
+      "supports": "FY2025 operating profit and cash flow"
+    },
+    {
       "url": "https://www.linde.com/investors/financial-reports",
       "title": "Annual report / financial results",
-      "date": "FY2024",
+      "date": "2024",
       "opened": true,
       "supports": "latest financial anchor used in packet"
     },
     {
       "url": "https://www.linde.com/innovation/digitalization",
       "title": "Company technology / AI evidence",
-      "date": "undated/current",
+      "date": "undated",
       "opened": true,
       "supports": "AI capability or deployment claim"
     },
     {
       "url": "https://www.linde.com/legal-notice/data-protection",
       "title": "Privacy / data policy",
-      "date": "current",
+      "date": "undated",
       "opened": true,
       "supports": "rights constraints"
     },
     {
       "url": "https://www.airliquide.com/investors/annual-reports",
       "title": "Air Liquide reporting",
-      "date": "current hub",
+      "date": "undated",
       "opened": true,
       "supports": "incumbent challenger evidence"
     }
   ],
   "financial_anchor": {
-    "metric": "operating profit / sector-appropriate earnings scale",
-    "value": 8.227,
+    "metric": "reported operating profit",
+    "value": 8.923,
     "unit": "USD billion",
-    "period": "FY2024",
-    "source_url": "https://www.linde.com/investors/financial-reports",
-    "caveat": "$8.227bn reported operating profit; measure may be adjusted or a labelled scale proxy and is not normalized."
+    "period": "FY2025",
+    "source_url": "https://assets.linde.com/-/media/global/corporate/corporate/documents/financial-reports/2025/linde-plc-2025-directors-report-and-financial-statements.pdf",
+    "caveat": "FY2025 statutory; Q2 2026 is latest interim and not annualized."
   },
   "ai_claim": {
     "claim": "Linde describes scoped AI/digital mechanisms in advanced process control and predictive maintenance using plant sensor histories, dynamic production, power and distribution optimization across local networks.",
@@ -63,11 +70,11 @@
     "limitation": "Competitive capability does not by itself prove equal outcomes."
   },
   "rights_limit": "Customer process telemetry and recipes are customer-confidential; Linde can optimize contracted plants, but public terms do not establish unrestricted cross-customer training rights.",
-  "materiality_summary": "The labelled 5% scale hurdle is $411m; public evidence does not establish it.",
+  "materiality_summary": "5% of FY2025 reported operating profit is $446.15m; customer energy savings are excluded.",
   "arithmetic": {
-    "inputs": "0",
-    "formula": "0.05\u00d7$8.227bn=$411m. Illustratively, a $4.0bn eligible operating-cost pool \u00d7 8% efficiency \u00d7 60% realization \u00d7 50% retention \u2212 $50m recurring AI cost = $46m, only 11% of the hurdle; customer energy savings are excluded.",
-    "result": "Illustrative bridge remains below or must be compared with $411m; not a forecast."
+    "inputs": "FY2025 operating profit $8.923bn; illustrative $4bn eligible company cost",
+    "formula": "0.05\u00d7$8.923bn=$446.15m; $4bn\u00d78%\u00d760%\u00d750%\u2212$50m=$46m",
+    "result": "$446m hurdle versus $46m illustration."
   },
   "confidence": {
     "mechanism": "medium",

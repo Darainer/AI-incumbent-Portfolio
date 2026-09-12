@@ -7,8 +7,8 @@
   "latest_financial_period": "Q2 2026 ended 30 June, released 16 July 2026",
   "sources": [
     {
-      "url": "https://www.prologis.com/insights-news/press-releases/prologis-reports-second-quarter-2026-results",
-      "title": "Latest results",
+      "url": "https://ir.prologis.com/financials/sec-filings/content/0001193125-26-305416/pld-ex99_2.htm",
+      "title": "Q2 2026 filed earnings release (Exhibit 99.2)",
       "date": "2026",
       "opened": true,
       "supports": "financial anchor"
@@ -47,34 +47,34 @@
     "value": "net earnings $1.13 per diluted share",
     "unit": "USD/per-share as stated",
     "period": "Q2 2026 ended 30 June, released 16 July 2026",
-    "source_url": "https://www.prologis.com/insights-news/press-releases/prologis-reports-second-quarter-2026-results",
+    "source_url": "https://ir.prologis.com/financials/sec-filings/content/0001193125-26-305416/pld-ex99_2.htm",
     "caveat": "Non-GAAP/GAAP and cycle/pass-through reconciliation in dossier."
   },
   "ai_claim": {
     "claim": "forecast leasing, price/renewal risk and maintenance/energy; data-center demand is separate property demand, not AI operating productivity",
-    "stage": "E1/E2 capability/deployment",
+    "stage": "E1 mechanism hypothesis",
     "source_url": "https://www.prologis.com/annual-report-2025",
     "scope": "property and professional workflows",
-    "limitation": "No matched retained-cash cohort."
+    "limitation": "No named Prologis deployment or matched retained-cash cohort was found in opened sources."
   },
   "strongest_counterevidence": {
     "claim": "freight, tariffs, supply, interest rates and development gains dominate; tenant data is contract-bound, maintenance savings may pass through, and data-center capex/power risk can increase",
-    "source_url": "https://www.prologis.com/insights-news/press-releases/prologis-reports-second-quarter-2026-results",
+    "source_url": "https://ir.prologis.com/financials/sec-filings/content/0001193125-26-305416/pld-ex99_2.htm",
     "limitation": "Multiple ordinary drivers and contract capture."
   },
   "rights_limit": "Landlord, tenant, building and vendor data is contract/license-bound; management access does not imply cross-client training rights.",
   "materiality_summary": "5% of Q2 core FFO is $0.0815 per share for the quarter, or $0.326 annualized if Q2 repeats; this is a per-share REIT scale proxy, not operating profit",
   "arithmetic": {
     "inputs": "Illustrative assumed cost pool/efficiency/realization/retention/run cost",
-    "formula": "assumed $1bn eligible property/admin cost \u00d7 10% \u00d7 60% \u00d7 40% \u2212 $30m = negative $6m",
-    "result": "Illustrative only and below hurdle"
+    "formula": "assumed $1bn eligible property/admin cost × 10% × 60% × 40% − $30m = negative $6m",
+    "result": "Negative $6m aggregate-dollar illustration; incomparable with the per-share hurdle without a same-period diluted-share denominator."
   },
   "confidence": {
     "mechanism": "medium",
-    "deployment": "low-medium",
+    "deployment": "low",
     "capture": "low"
   },
-  "g2_provisional": "Incomplete: E1/E2 tools without controlled property/workflow cash.",
+  "g2_provisional": "Incomplete: E1 mechanisms without named deployment or controlled property/workflow cash.",
   "unresolved_questions": [
     "Cross-client/building rights?",
     "Matched property/work-order outcome?",

@@ -43,12 +43,12 @@
     }
   ],
   "financial_anchor": {
-    "metric": "H1 2026 reported net profit",
-    "value": "€4.34bn",
+    "metric": "H1 2026 reported net profit (unverified figure)",
+    "value": "€4.34bn reported in packet; not independently extracted from cited interactive hub",
     "unit": "EUR",
     "period": "H1 2026 (ended 30 June 2026)",
     "source_url": "https://www.iberdrola.com/shareholders-investors/operational-financial-information",
-    "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
+    "caveat": "Treat as an unverified reported anchor until a direct H1 report supports it; transactions and tax timing make doubling non-normalized."
   },
   "ai_claim": {
     "claim": "Iberdrola publicly describes AI for grids and renewable operations, but a named material production cohort with outage or cash results was not verified.",
@@ -63,7 +63,7 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "Framework convention applied to an explicitly annualized reported-profit proxy: 5% × (2 × H1 reported net profit €4.34bn) = €434m. Illustrative cost assumptions produce negative €20m; not a forecast.",
+  "materiality_summary": "Conditional arithmetic only: if H1 reported net profit was €4.34bn, 5% × (2 × €4.34bn) = €434m after tax. The figure was not extracted from the interactive hub, and simple doubling is not normalized for transactions or tax timing. Illustrative cost assumptions produce negative €20m pre-tax and are not directly comparable.",
   "arithmetic": {
     "inputs": "pool €5bn eligible grid operations, maintenance and loss/outage cost; efficiency 8%; realization 40%; retained share 50%; recurring cost €100m",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",

@@ -16,34 +16,34 @@
     {
       "url": "https://ir.thermofisher.com/financials/annual-reports-and-proxy-statements/default.aspx",
       "title": "Annual report / financial results",
-      "date": "FY2024",
+      "date": "2024",
       "opened": true,
       "supports": "latest financial anchor used in packet"
     },
     {
       "url": "https://www.thermofisher.com/us/en/home/digital-science/artificial-intelligence.html",
       "title": "Company technology / AI evidence",
-      "date": "undated/current",
+      "date": "undated",
       "opened": true,
       "supports": "AI capability or deployment claim"
     },
     {
       "url": "https://www.thermofisher.com/us/en/home/global/privacy-policy.html",
       "title": "Privacy / data policy",
-      "date": "current",
+      "date": "undated",
       "opened": true,
       "supports": "rights constraints"
     },
     {
       "url": "https://investors.danaher.com/annual-reports",
       "title": "Danaher reporting",
-      "date": "current hub",
+      "date": "undated",
       "opened": true,
       "supports": "incumbent challenger evidence"
     }
   ],
   "financial_anchor": {
-    "metric": "operating profit / sector-appropriate earnings scale",
+    "metric": "GAAP operating income",
     "value": 6.463,
     "unit": "USD billion",
     "period": "FY2024",

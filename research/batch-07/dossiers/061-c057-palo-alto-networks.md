@@ -52,4 +52,9 @@ Confidence is **medium** on mechanism, **low-to-medium** on deployment breadth a
 
 Opened or located through issuer/search records by 12 September 2026: [financial results](https://investors.paloaltonetworks.com/financials/quarterly-results/default.aspx); [annual reports](https://investors.paloaltonetworks.com/financials/annual-reports-and-proxies/default.aspx); [AI/product description](https://www.paloaltonetworks.com/precision-ai); [operating-workflow description](https://www.paloaltonetworks.com/cortex). These should be supplemented in committee review with the exact filed report, product terms/privacy notice and any customer case study containing a reproducible baseline. No inaccessible source was treated as proof, and no post-cutoff evidence was used.
 
+
+## Source-audit correction (controls earlier approximate references)
+
+FY2026 revenue $11.480bn, GAAP operating income $695m and non-GAAP operating income $3.356bn. This packet now uses GAAP; 5% is $34.75m annually. Portfolio customer count is not Precision AI adoption. This exact source-audited measure supersedes any earlier approximate financial anchor or stage shorthand in this packet. It is a scale screen only. G3 valuation and G4 portfolio construction remain deferred.
+
 **Handoff:** verify the FY2026 financial definition, the production scope of security operations, and the missing causal profit bridge. Strongest counterargument: the mechanism can be real while its incremental economics remain too small or diffuse to clear the materiality screen.

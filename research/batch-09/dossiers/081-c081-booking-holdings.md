@@ -52,4 +52,9 @@ Confidence is **medium** on mechanism, **low-to-medium** on deployment breadth a
 
 Opened or located through issuer/search records by 12 September 2026: [financial results](https://ir.bookingholdings.com/financial-information/quarterly-results); [annual reports](https://ir.bookingholdings.com/financial-information/annual-reports-and-proxies); [AI/product description](https://news.booking.com/bookingcom-enhances-ai-trip-planner/); [operating-workflow description](https://www.booking.com/content/how_we_work.html). These should be supplemented in committee review with the exact filed report, product terms/privacy notice and any customer case study containing a reproducible baseline. No inaccessible source was treated as proof, and no post-cutoff evidence was used.
 
+
+## Source-audit correction (controls earlier approximate references)
+
+Q2 revenue $7.352bn and GAAP operating income $2.500bn; H1 operating income $3.771bn. The 5% H1 screen is $188.55m. Trip Planner availability is not treated as user adoption. This exact source-audited measure supersedes any earlier approximate financial anchor or stage shorthand in this packet. It is a scale screen only. Because it covers less than a full year, it is not the annual 5% materiality hurdle and is NOT_COMPARABLE with annual cost or benefit illustrations. No annualization is assumed; all earlier statements that an annual illustration is above, below or clears this hurdle are withdrawn. G3 valuation and G4 portfolio construction remain deferred.
+
 **Handoff:** verify the FY2025 financial definition, the production scope of travel discovery and customer service, and the missing causal profit bridge. Strongest counterargument: the mechanism can be real while its incremental economics remain too small or diffuse to clear the materiality screen.

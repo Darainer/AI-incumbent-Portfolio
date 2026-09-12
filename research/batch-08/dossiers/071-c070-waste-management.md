@@ -52,4 +52,9 @@ Confidence is **medium** on mechanism, **low-to-medium** on deployment breadth a
 
 Opened or located through issuer/search records by 12 September 2026: [financial results](https://investors.wm.com/financial-information/quarterly-results); [annual reports](https://investors.wm.com/financial-information/annual-reports-and-proxy); [AI/product description](https://www.wm.com/us/en/inside-wm/sustainability); [operating-workflow description](https://www.wm.com/us/en/recycle-right/recycling-technology). These should be supplemented in committee review with the exact filed report, product terms/privacy notice and any customer case study containing a reproducible baseline. No inaccessible source was treated as proof, and no post-cutoff evidence was used.
 
+
+## Source-audit correction (controls earlier approximate references)
+
+Q2 revenue $6.684bn, income from operations $1.253bn and adjusted operating EBITDA $2.067bn. The 5% operating-income period screen is $62.65m. Recycling automation is deployed, but AI-specific routing/maintenance claims are withdrawn. This exact source-audited measure supersedes any earlier approximate financial anchor or stage shorthand in this packet. It is a scale screen only. Because it covers less than a full year, it is not the annual 5% materiality hurdle and is NOT_COMPARABLE with annual cost or benefit illustrations. No annualization is assumed; all earlier statements that an annual illustration is above, below or clears this hurdle are withdrawn. G3 valuation and G4 portfolio construction remain deferred.
+
 **Handoff:** verify the FY2025 financial definition, the production scope of collection and recycling operations, and the missing causal profit bridge. Strongest counterargument: the mechanism can be real while its incremental economics remain too small or diffuse to clear the materiality screen.

@@ -52,4 +52,9 @@ Confidence is **medium** on mechanism, **low-to-medium** on deployment breadth a
 
 Opened or located through issuer/search records by 12 September 2026: [financial results](https://corporate.amadeus.com/en/investors/financial-information); [annual reports](https://corporate.amadeus.com/en/investors/annual-reports); [AI/product description](https://amadeus.com/en/insights/artificial-intelligence); [operating-workflow description](https://amadeus.com/en/portfolio/airlines). These should be supplemented in committee review with the exact filed report, product terms/privacy notice and any customer case study containing a reproducible baseline. No inaccessible source was treated as proof, and no post-cutoff evidence was used.
 
+
+## Source-audit correction (controls earlier approximate references)
+
+Official indexed H1 release reports operating income €943.2m and adjusted EBIT €1,011.5m. The packet uses IFRS operating income; 5% is €47.16m for H1. Broad AI use cases do not establish deployment. This exact source-audited measure supersedes any earlier approximate financial anchor or stage shorthand in this packet. It is a scale screen only. Because it covers less than a full year, it is not the annual 5% materiality hurdle and is NOT_COMPARABLE with annual cost or benefit illustrations. No annualization is assumed; all earlier statements that an annual illustration is above, below or clears this hurdle are withdrawn. G3 valuation and G4 portfolio construction remain deferred.
+
 **Handoff:** verify the FY2025 financial definition, the production scope of airline retailing and operations, and the missing causal profit bridge. Strongest counterargument: the mechanism can be real while its incremental economics remain too small or diffuse to clear the materiality screen.

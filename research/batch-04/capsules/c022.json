@@ -63,11 +63,11 @@
     "limitation": "Competitive capability does not by itself prove equal outcomes."
   },
   "rights_limit": "Policyholders and counterparties originate much data; consent, insurance secrecy and geography limit purpose and reuse. Public privacy terms do not establish pooled model-training rights.",
-  "materiality_summary": "The labelled 5% scale hurdle is C$360m; public evidence does not establish it.",
+  "materiality_summary": "Five percent of the completed-year earnings anchor is C$375m; no AI-attributed amount is established.",
   "arithmetic": {
-    "inputs": "5%\u00d7C$7",
-    "formula": "5%\u00d7C$7.2bn core earnings=C$360m. Illustratively C$2.5bn eligible expense \u00d710%\u00d760% realization\u00d750% retention\u2212C$40m recurring cost=C$35m. Claims avoided require matched risk cohorts and cannot be inferred from aggregate experience.",
-    "result": "Illustrative bridge remains below or must be compared with C$360m; not a forecast."
+    "inputs": "FY2025 core earnings 7.5bn",
+    "formula": "0.05\u00d7C$7.5bn=C$375m",
+    "result": "C$375m annual hurdle; no AI-attributed cash result."
   },
   "confidence": {
     "mechanism": "medium",

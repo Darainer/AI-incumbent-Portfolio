@@ -51,11 +51,11 @@
     "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
   },
   "ai_claim": {
-    "claim": "SLB deploys Lumi and digital drilling workflows with customers; customer-owned field data and oil-cycle effects prevent E3/E4 attribution.",
-    "stage": "E1 digital/AI capability; no opened retained-economics cohort",
+    "claim": "Lumi and digital drilling are plausible SLB AI/digital mechanisms, but neither the product page nor a named customer deployment was successfully opened in this audit.",
+    "stage": "E0/E1 unverified product capability",
     "source_url": "https://www.slb.com/products-and-services/delivering-digital-at-scale/lumi-data-and-ai-platform",
-    "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
-    "limitation": "No representative controlled cohort or retained-cash reconciliation."
+    "scope": "Lumi/digital drilling hypotheses only.",
+    "limitation": "No opened deployment cohort, field KPI or retained-economics evidence."
   },
   "strongest_counterevidence": {
     "claim": "oil cycles, offshore mix and ChampionX integration dominate results.",
@@ -63,7 +63,7 @@
     "limitation": "Does not itself disprove the scoped mechanism."
   },
   "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
-  "materiality_summary": "Framework convention: $250m, roughly 5% of a normalized $5bn annual operating-income scale proxy. Illustrative assumptions produce $44m, below the hurdle.",
+  "materiality_summary": "No exact source-backed annual operating-income denominator was verified, so the prior $250m hurdle is withdrawn. Q2 revenue, free cash flow and net income are different measures and cannot substitute for annual operating income without a stated conversion.",
   "arithmetic": {
     "inputs": "pool $6bn eligible engineering, field-service and digital operations cost/revenue pool; efficiency 12%; realization 40%; retained share 50%; recurring cost $100m",
     "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",

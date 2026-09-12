@@ -23,7 +23,7 @@ Scale does not create universal ownership. Clean rooms/customer-specific inferen
 
 ## Mechanisms and challengers
 
-1. **Demand/replenishment (classical ML).** Store/SKU demand, price and inventory → order/allocate → higher in-stock with lower waste/markdown/working capital → gross profit/cash. Production optimization is E2 baseline; a versioned incremental model needs matched store/SKU evidence.
+1. **Demand/replenishment (classical ML).** Store/SKU demand, price and inventory → order/allocate → higher in-stock with lower waste/markdown/working capital → gross profit/cash. A Microsoft customer story names Azure IoT Operations and edge predictive models at P&G plants and reports up to 90% less time to deploy a new model version. This is supplier-reported E2 deployment/process evidence; it is not an OEE, downtime or cash result.
 2. **Media/search/personalization (ML/generative).** Consumer context and product claims → choose/generate content/ranking → incremental quality-adjusted purchase → contribution or ad revenue. Feature availability is E1/E2; ROAS can be biased by targeting and cannibalization.
 3. **Operations/agentic automation.** Orders, plant/fulfillment state → schedule or execute work → more units/orders per labor hour at equal quality/safety → cost/capacity benefit. Robots/process systems and AI must be separated; hours saved become cash only when removed or redeployed into valued output.
 
@@ -55,7 +55,7 @@ Falsifiers: controlled store/SKU cohorts show no gross-profit lift; AI media/sea
 
 ## Sources and handoff
 
-Opened 12 Sep 2026: [latest results](https://us.pg.com/newsroom/news-releases/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results/); [annual report](https://s204.q4cdn.com/332108499/files/doc_financials/2026/ar/2026_annual_report.pdf); [privacy](https://privacypolicy.pg.com/); [Unilever annual report](https://www.unilever.com/investors/annual-report-and-accounts/) (challenger); [Nielsen data policy](https://www.nielsen.com/legal/privacy-principles/) (syndicated-data boundary); [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework); [FTC AI guidance](https://www.ftc.gov/business-guidance/blog/2023/02/keep-your-ai-claims-check) (claims/adverse); [company investor hub](https://www.pginvestor.com/). Controlled cohorts and commercial contracts unavailable.
+Opened 12 Sep 2026: [Microsoft P&G customer story](https://www.microsoft.com/en/customers/story/25077-procter-and-gamble-iot-operations) (21 Aug 2025, supplier-reported named deployment and model-deployment-time claim); [latest results](https://us.pg.com/newsroom/news-releases/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results/); [annual report](https://s204.q4cdn.com/332108499/files/doc_financials/2026/ar/2026_annual_report.pdf); [privacy](https://privacypolicy.pg.com/); [Unilever annual report](https://www.unilever.com/investors/annual-report-and-accounts/) (challenger); [Nielsen data policy](https://www.nielsen.com/legal/privacy-principles/) (syndicated-data boundary); [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework); [FTC AI guidance](https://www.ftc.gov/business-guidance/blog/2023/02/keep-your-ai-claims-check) (claims/adverse); [company investor hub](https://www.pginvestor.com/). Controlled cohorts and commercial contracts unavailable.
 
 Handoff [c089.json](../capsules/c089.json). Verify operating-profit denominator, data allocation and versioned store/product economics. Research-only; G2 incomplete.
 

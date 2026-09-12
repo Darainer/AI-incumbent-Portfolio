@@ -44,18 +44,18 @@
   ],
   "financial_anchor": {
     "metric": "latest profit",
-    "value": "\u20ac3.237bn recurring operating income (18.4% margin)",
+    "value": "€3.237bn recurring operating income (18.4% margin)",
     "unit": "reported currency",
     "period": "H1 2026, published 28 July 2026",
     "source_url": "https://www.safran-group.com/pressroom/safran-reports-its-first-half-2026-results-2026-07-28",
     "caveat": "Adjusted/segment metric; mix, price, deliveries and supply confound."
   },
   "ai_claim": {
-    "claim": "Fleet analytics and digital monitoring support predictive maintenance and shop decisions.",
-    "stage": "E2 deployment, E1 effectiveness",
+    "claim": "Predictive-maintenance and shop-optimization mechanisms are plausible for Safran, but no named Safran deployment was supported by the opened sources.",
+    "stage": "E1 capability/hypothesis",
     "source_url": "https://www.safran-group.com/pressroom/safran-reports-its-first-half-2026-results-2026-07-28",
     "scope": "fleet/service workflows",
-    "limitation": "No matched risk-adjusted fleet/shop cash cohort."
+    "limitation": "Financial release does not establish a named production AI workflow or outcome."
   },
   "strongest_counterevidence": {
     "claim": "Aftermarket volume, pricing and air traffic explain much profit growth; supply constraints, safety obligations and CFM joint-venture economics limit attribution/capture.",
@@ -63,7 +63,7 @@
     "limitation": "Ordinary operating drivers block AI attribution."
   },
   "rights_limit": "Airline/operator, JV partner, defense and licensed technical data is contract-bound; cross-fleet training rights undisclosed.",
-  "materiality_summary": "\u20ac239.35m annual pre-tax (5% of FY2025 recurring operating income); no E4 bridge.",
+  "materiality_summary": "€239.35m annual pre-tax (5% of FY2025 recurring operating income); no E4 bridge.",
   "arithmetic": {
     "inputs": "assumed 2bn eligible cost, 15% efficiency, 60% realization, 50% retention, 80m cost",
     "formula": "2000*.15*.60*.50-80",
@@ -71,10 +71,10 @@
   },
   "confidence": {
     "mechanism": "medium-high",
-    "deployment": "medium",
+    "deployment": "low",
     "capture": "low-medium"
   },
-  "g2_provisional": "Incomplete: production analytics without controlled safety-adjusted economics.",
+  "g2_provisional": "Incomplete: E1 mechanism hypothesis without a named deployed Safran tool, controlled safety outcome or cash bridge.",
   "unresolved_questions": [
     "Operator/JV pooled-learning rights?",
     "Matched fleet removal outcome?",

@@ -21,6 +21,13 @@
       "supports": "business, risk and cash"
     },
     {
+      "url": "https://corporate.walmart.com/news/2025/03/18/walmart-develops-genai-powered-assistant-for-walmart-merchants",
+      "title": "Walmart Develops GenAI-Powered Assistant for Walmart Merchants",
+      "date": "2025-03-18",
+      "opened": true,
+      "supports": "named Wally merchant workflow and company-reported deployment"
+    },
+    {
       "url": "https://www.nielsen.com/legal/privacy-principles/",
       "title": "Nielsen privacy principles",
       "date": "undated",
@@ -44,11 +51,11 @@
     "caveat": "See dossier for implied/adjusted definition and confounders."
   },
   "ai_claim": {
-    "claim": "forecast/replenish inventory, automate fulfillment and personalize search/ads so availability, labor productivity, delivery density and high-margin revenue improve",
-    "stage": "E2 baseline operations; E1/E2 incremental features",
-    "source_url": "https://stock.walmart.com/financial-information/annual-reports-and-proxies/default.aspx",
-    "scope": "demand, media and operations",
-    "limitation": "No controlled incremental cash cohort."
+    "claim": "Wally uses Walmart proprietary merchandising data to automate comparison, assortment and data-analysis work for merchants.",
+    "stage": "E2 scoped company-reported deployment; no E3 retained economics",
+    "source_url": "https://corporate.walmart.com/news/2025/03/18/walmart-develops-genai-powered-assistant-for-walmart-merchants",
+    "scope": "merchant analysis and assortment workflows",
+    "limitation": "No controlled merchant-output, gross-profit or labor-cash cohort."
   },
   "strongest_counterevidence": {
     "claim": "tariff refunds drove Q2 profit; labor, capex, shrink, price investment and mix dominate, while Amazon has stronger digital/cloud interface and suppliers retain data rights",
@@ -59,7 +66,7 @@
   "materiality_summary": "$1.55bn annual pre-tax using FY2026 adjusted operating income of $31.0bn referenced in FY27 guidance",
   "arithmetic": {
     "inputs": "Illustrative assumed cost pool/efficiency/realization/retention/run cost",
-    "formula": "assumed $40bn eligible labor/logistics cost \u00d7 5% efficiency \u00d7 60% realization \u00d7 40% retention \u2212 $300m = $180m",
+    "formula": "assumed $40bn eligible labor/logistics cost × 5% efficiency × 60% realization × 40% retention − $300m = $180m",
     "result": "Illustrative benefit below hurdle"
   },
   "confidence": {

@@ -14,7 +14,7 @@ The latest conventional anchor is [Q2 FY2027 (ended 31 July 2026)](https://inves
 | Input | Owner / exclusivity | Customer-specific inference | Training / cross-customer reuse | Labels and replication threat |
 |---|---|---|---|---|
 | CRM system-of-record context, customer-configured permissions, metadata and distribution | Company IP, physical/distribution rights and customer data have different owners; exclusivity is partial | Contract and law may allow processing to deliver the service | **Unknown unless the contract says so.** Possession and privacy controls do not create a pooled-training right | Operational outcomes can be frequent, but selection, drift and missing counterfactuals remain; incumbent rivals can collect similar data |
-| Customer records and prompts | Normally customer/data-subject controlled | Generally limited to contracted purpose and authorized users | Opened [Salesforce privacy/terms material](https://www.salesforce.com/company/privacy/full_privacy/) did not establish universal training or cross-customer reuse | Good local context; portability, deletion, confidentiality and regulation constrain compounding |
+| Customer records and prompts | Normally customer/data-subject controlled | Generally limited to contracted purpose and authorized users | Public [Salesforce privacy/terms material](https://www.salesforce.com/company/privacy/full_privacy/) did not establish universal training or cross-customer reuse | Good local context; portability, deletion, confidentiality and regulation constrain compounding |
 | Product/workflow telemetry | Mixed: company device/software semantics plus customer events | Useful for monitoring, retrieval and recommendations | Aggregation/de-identification terms and model-provider handling require contract-level verification | Dense logs are not necessarily causal labels; customers and integrators can multi-home |
 | Human/domain feedback | Employees, customers or licensed experts | May validate outputs for the specific workflow | Employment, consent and IP terms differ; no blanket right inferred | High-quality review is costly and may limit realization |
 
@@ -35,7 +35,7 @@ Public materials establish workflow access but not unrestricted pooled learning;
 | Decisive claim | Type | Source / date / section | Stage and scope | Confounder / limit |
 |---|---|---|---|---|
 | FY2027 revenue guidance raised to $46.1–46.4bn, 11–12% growth; management reported more than $1bn Agentforce ARR and $3.4bn combined AI and data ARR in Q1; GAAP/non-GAAP margins differ materially | Financial fact | [Latest results](https://investor.salesforce.com/financials/default.aspx), 26 August 2026, headline/tables | Outside E ladder; group/period | Reported vs adjusted definitions; mix and one-offs |
-| Core reporting, capital and risk context | Financial fact | [Annual reports/filings](https://investor.salesforce.com/financials/sec-filings/default.aspx), latest available before cutoff | Outside E ladder | Annual period precedes latest interim period |
+| Core reporting, capital and risk context | Financial fact | [Annual reports/filings](https://investor.salesforce.com/financials/sec-filings/default.aspx), 2025 annual reporting archive; exact filing publication date not reverified | Outside E ladder | Annual period precedes latest interim period |
 | Agentforce can qualify leads or resolve service cases through workflow tools; production work units and ARR establish E2 breadth but not quality-adjusted resolution | Company/product claim | [Company AI/product material](https://www.salesforce.com/agentforce/), accessed 12 Sep 2026 | E1; E2 only where a named production user/result is stated | No controlled representative cohort or full cost |
 | Customer data use is bounded by privacy/contract | Fact plus inference | [Privacy/terms](https://www.salesforce.com/company/privacy/full_privacy/), accessed 12 Sep 2026 | Rights gate; product/geography-specific | Full enterprise contracts were unavailable |
 | Data Cloud harmonizes customer-specific context; cross-customer training rights remain separate and undisclosed by default | Claim/inference | Company product and latest results | E1–E2, scoped | Deployment breadth and incremental economics undisclosed |
@@ -66,7 +66,7 @@ Unresolved questions are the precise customer-data licenses; whether feedback ma
 
 ## Source register
 
-1. Salesforce, [latest financial results](https://investor.salesforce.com/financials/default.aspx), 26 August 2026; retrieval attempted 12 Sep 2026; page did not return auditable tables, headline and financial tables. Primary financial source; adjusted definitions require reconciliation.
+1. Salesforce, [latest financial results](https://investor.salesforce.com/financials/default.aspx), 26 August 2026; retrieval attempted 12 Sep 2026, but the page did not return auditable tables. Primary financial source; adjusted definitions require reconciliation.
 2. Salesforce, [annual reports / regulatory filings](https://investor.salesforce.com/financials/sec-filings/default.aspx), undated archive page; exact filing publication date not reverified; retrieved 12 Sep 2026. Primary conventional-business, debt and risk source.
 3. Salesforce, [AI/product evidence](https://www.salesforce.com/agentforce/), undated; opened 12 Sep 2026. Primary capability/deployment claim; no independent causal audit inferred.
 4. Salesforce, [privacy, data or service terms](https://www.salesforce.com/company/privacy/full_privacy/), undated public page; effective date not displayed in retrieved extract; retrieved 12 Sep 2026. Primary rights evidence; enterprise contract schedules inaccessible.
@@ -74,7 +74,7 @@ Unresolved questions are the precise customer-data licenses; whether feedback ma
 6. SEC/company investor-relations filing index, [Salesforce issuer materials](https://investor.salesforce.com/financials/sec-filings/default.aspx), retrieved 12 Sep 2026. Source for audited definitions and risk factors.
 7. Relevant industry thesis, [`industries/i03-*.md`](../../../industries/README.md), repository prior dated before cutoff. Framework prior, not company evidence.
 
-Access limits: some issuer pages dynamically expose PDFs or tables; where exact current-period cash/debt detail was not reliably extracted, this dossier says so and relies on the latest opened headline plus annual filing rather than inventing precision. No post-cutoff evidence is used.
+Access limits: some issuer pages dynamically expose PDFs or tables; where exact current-period cash/debt detail was not reliably extracted, this dossier says so and relies on the cited result headline or secondary corroboration plus the annual archive rather than inventing precision. No post-cutoff evidence is used.
 
 
 ## Reviewer handoff

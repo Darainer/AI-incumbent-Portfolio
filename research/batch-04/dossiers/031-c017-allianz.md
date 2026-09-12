@@ -52,6 +52,15 @@ AXA is the incumbent challenger; Lemonade and software vendors are entrants/subs
 
 Five percent of FY2025 operating profit is **€868.7m**; insurer materiality should ultimately use risk-adjusted earnings/capital. Illustrative P&C bridge: 10 basis points sustainable combined-ratio improvement on €86.7bn FY2025 P&C business volume is €86.7m pre-tax before implementation; achieving €868.7m would require roughly **100 bps**, holding earned premium close to volume and all else constant. Those assumptions are rough and public evidence does not attribute even 10 bps to AI.
 
+
+## Measurement design and decision use
+
+A useful next disclosure would separate technical performance from economic realization. The technical layer should report the frozen model version, evaluation set, error taxonomy and drift; the operating layer should report eligible cases, attempted cases, accepted recommendations, overrides and downstream quality; the finance layer should show gross benefit, implementation expense, recurring inference/vendor cost, displaced spend and timing. All three layers need the same cohort and period. Otherwise a high acceptance rate can coexist with no cash benefit, and a favorable cost trend can be driven by unrelated restructuring.
+
+Selection is another risk. Early adopters, easier cases and high-performing sites often enter first. A credible design would randomize where feasible or use matched sites/workflows with pre-period trends, fixed inclusion rules and confidence intervals. It would retain failed runs and human corrections rather than measure only completed outputs. Quality guardrails should include customer harm, regulatory exceptions, rework and tail latency. The company should disclose whether automation removes a step, shifts it to another team, or merely increases capacity.
+
+The committee can use a staged evidence rule. Product availability supports E1. Authenticated production use with an eligible-workload denominator supports E2. A persistent matched operational lift supports E3. A finance reconciliation net of all costs is needed for E4. Until those steps are met, the arithmetic above defines what evidence must explain; it does not convert management claims into an earnings contribution. This design also makes the thesis falsifiable within a defined reporting cycle rather than waiting for broad margin movement that has many causes.
+
 ## Falsifiers and gates
 
 Positive: scale and claims labels allow better risk and service at lower expense. Negative: cycle/reserving explains results, rules constrain reuse, and savings pass through premiums or vendor cost. Falsifiers: no matched loss-ratio lift; claims speed worsens leakage/appeals; expense gains fail to exceed AI/restructuring cost. Unknown: eligible share, rights, model cost, cohort results and pricing retention.

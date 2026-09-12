@@ -16,44 +16,44 @@
     {
       "url": "https://www.sec.gov/edgar/browse/?CIK=1018724&owner=exclude",
       "title": "Annual report / filings",
-      "date": "latest available before cutoff",
-      "opened": true,
-      "supports": "business and risk baseline"
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
     },
     {
       "url": "https://aws.amazon.com/bedrock/security-compliance/",
       "title": "Company AI/product evidence",
-      "date": "dated or undated",
+      "date": "undated",
       "opened": true,
       "supports": "scoped AI capability/deployment"
     },
     {
       "url": "https://aws.amazon.com/service-terms/",
       "title": "Privacy/data/service terms",
-      "date": "effective date on page",
-      "opened": true,
-      "supports": "rights boundary"
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
     },
     {
       "url": "https://cloud.google.com/security/privacy",
       "title": "Challenger product evidence",
-      "date": "dated or undated",
-      "opened": true,
-      "supports": "credible challenger capability"
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
     }
   ],
   "financial_anchor": {
-    "metric": "latest revenue and profitability",
-    "value": "$200.6bn net sales, up 20% year on year; $27.5bn operating income, up 43%; segment economics differ sharply between AWS, advertising and stores",
+    "metric": "Q2 2026 net sales and operating income",
+    "value": "$200.6bn sales; $27.5bn operating income",
     "unit": "USD",
     "period": "Q2 2026 (ended 30 June 2026)",
     "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/",
     "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
   },
   "ai_claim": {
-    "claim": "retail recommendation, forecasting and robotic fulfillment are established ML in the baseline.",
-    "stage": "E1–E2 scoped; no E3/E4 established",
-    "source_url": "https://aws.amazon.com/bedrock/security-compliance/",
+    "claim": "AWS reported Bedrock customers in the hundreds of thousands and an AI-business annual revenue run rate above $25bn; this is infrastructure demand, not Amazon internal productivity.",
+    "stage": "E2 production Bedrock/AWS AI use in the opened Q2 release; no E3/E4",
+    "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/",
     "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
     "limitation": "No representative controlled cohort or retained-cash reconciliation."
   },
@@ -74,7 +74,7 @@
     "deployment": "low-to-moderate",
     "capture": "low"
   },
-  "g2_provisional": "Watch/incomplete: E1–E2 route exists; no E3 quality-adjusted proof or E4 cash.",
+  "g2_provisional": "Watch/incomplete: E2 production Bedrock/AWS AI use in the opened Q2 release; no E3/E4; no E3 quality-adjusted proof or E4 retained cash.",
   "unresolved_questions": [
     "Training and pooled-learning rights?",
     "Eligible workload and matched quality KPI?",

@@ -52,4 +52,9 @@ Confidence is **medium** on mechanism, **low-to-medium** on deployment breadth a
 
 Opened or located through issuer/search records by 12 September 2026: [financial results](https://www.cintas.com/investors/financial-information/quarterly-results/); [annual reports](https://www.cintas.com/investors/financial-information/annual-reports/); [AI/product description](https://www.cintas.com/company/technology/); [operating-workflow description](https://www.cintas.com/company/). These should be supplemented in committee review with the exact filed report, product terms/privacy notice and any customer case study containing a reproducible baseline. No inaccessible source was treated as proof, and no post-cutoff evidence was used.
 
+
+## Source-audit correction (controls earlier approximate references)
+
+FY2026 revenue $11.26bn and GAAP operating income $2.61bn. The annual 5% screen is $130.5m. Technology investment does not establish AI forecasting or route-optimization deployment. This exact source-audited measure supersedes any earlier approximate financial anchor or stage shorthand in this packet. It is a scale screen only. G3 valuation and G4 portfolio construction remain deferred.
+
 **Handoff:** verify the FY2026 financial definition, the production scope of route service and plant operations, and the missing causal profit bridge. Strongest counterargument: the mechanism can be real while its incremental economics remain too small or diffuse to clear the materiality screen.

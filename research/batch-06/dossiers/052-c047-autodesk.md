@@ -52,4 +52,9 @@ Confidence is **medium** on mechanism, **low-to-medium** on deployment breadth a
 
 Opened or located through issuer/search records by 12 September 2026: [financial results](https://investors.autodesk.com/financials/quarterly-results/default.aspx); [annual reports](https://investors.autodesk.com/financials/annual-reports-and-proxies/default.aspx); [AI/product description](https://www.autodesk.com/solutions/autodesk-ai); [operating-workflow description](https://www.autodesk.com/products/construction-cloud/overview). These should be supplemented in committee review with the exact filed report, product terms/privacy notice and any customer case study containing a reproducible baseline. No inaccessible source was treated as proof, and no post-cutoff evidence was used.
 
+
+## Source-audit correction (controls earlier approximate references)
+
+Q2 revenue $2.046bn and GAAP operating income $599m; H1 GAAP operating income $1.140bn. The 5% H1 screen is $57.0m; Autodesk AI page gives no customer adoption denominator. This exact source-audited measure supersedes any earlier approximate financial anchor or stage shorthand in this packet. It is a scale screen only. Because it covers less than a full year, it is not the annual 5% materiality hurdle and is NOT_COMPARABLE with annual cost or benefit illustrations. No annualization is assumed; all earlier statements that an annual illustration is above, below or clears this hurdle are withdrawn. G3 valuation and G4 portfolio construction remain deferred.
+
 **Handoff:** verify the FY2026 financial definition, the production scope of design and construction workflow, and the missing causal profit bridge. Strongest counterargument: the mechanism can be real while its incremental economics remain too small or diffuse to clear the materiality screen.

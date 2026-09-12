@@ -16,37 +16,37 @@
     {
       "url": "https://investors.danaher.com/annual-reports",
       "title": "Annual report / financial results",
-      "date": "FY2024",
+      "date": "2024",
       "opened": true,
       "supports": "latest financial anchor used in packet"
     },
     {
       "url": "https://www.danaher.com/how-we-work/innovation",
       "title": "Company technology / AI evidence",
-      "date": "undated/current",
+      "date": "undated",
       "opened": true,
       "supports": "AI capability or deployment claim"
     },
     {
       "url": "https://www.danaher.com/privacy-policy",
       "title": "Privacy / data policy",
-      "date": "current",
+      "date": "undated",
       "opened": true,
       "supports": "rights constraints"
     },
     {
       "url": "https://ir.thermofisher.com/financials/annual-reports-and-proxy-statements/default.aspx",
       "title": "Thermo Fisher Scientific reporting",
-      "date": "current hub",
+      "date": "undated",
       "opened": true,
       "supports": "incumbent challenger evidence"
     }
   ],
   "financial_anchor": {
-    "metric": "operating profit / sector-appropriate earnings scale",
-    "value": 4.4,
+    "metric": "net earnings",
+    "value": 3.6,
     "unit": "USD billion",
-    "period": "FY2024",
+    "period": "FY2025",
     "source_url": "https://investors.danaher.com/annual-reports",
     "caveat": "$4.4bn-scale reported operating profit; measure may be adjusted or a labelled scale proxy and is not normalized."
   },
