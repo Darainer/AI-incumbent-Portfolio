@@ -1,0 +1,84 @@
+{
+  "id": "C085",
+  "company": "Nike",
+  "batch": 9,
+  "dossier": "research/batch-09/dossiers/085-c085-nike.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "FY2026 ended 31 May 2026",
+  "sources": [
+    {
+      "url": "https://about.nike.com/en/newsroom/releases/nike-inc-reports-fiscal-2026-fourth-quarter-and-full-year-results",
+      "title": "FY2026 ended 31 May 2026 issuer financial update",
+      "date": "2026",
+      "opened": true,
+      "supports": "full-year revenue of $46.4bn, flat reported and down 2% currency-neutral. Nike A.I.R. is a named generative-design exploration with athletes, supporting E1 creative capability, not"
+    },
+    {
+      "url": "https://investors.nike.com/investors/news-events-and-reports/default.aspx",
+      "title": "Annual report / financial results",
+      "date": "2025-31 May 2025",
+      "opened": false,
+      "supports": "latest financial anchor used in packet"
+    },
+    {
+      "url": "https://about.nike.com/en/newsroom/releases/nike-a-i-r-air-max-2024",
+      "title": "Company technology / AI evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "AI capability or deployment claim"
+    },
+    {
+      "url": "https://agreementservice.svs.nike.com/us/en_us/rest/agreement?agreementType=privacyPolicy",
+      "title": "Privacy / data policy",
+      "date": "undated",
+      "opened": false,
+      "supports": "rights constraints"
+    },
+    {
+      "url": "https://report.adidas-group.com/",
+      "title": "Adidas reporting",
+      "date": "undated",
+      "opened": false,
+      "supports": "incumbent challenger evidence"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "operating income",
+    "value": 3.797,
+    "unit": "USD billion",
+    "period": "FY2026",
+    "source_url": "https://investors.nike.com/investors/news-events-and-reports/default.aspx",
+    "caveat": "about $4.3bn earnings before interest and taxes scale; measure may be adjusted or a labelled scale proxy and is not normalized."
+  },
+  "ai_claim": {
+    "claim": "Nike describes scoped AI/digital mechanisms in demand forecasting and allocation to improve full-price sell-through, generative design/marketing assistance under brand and rights controls.",
+    "stage": "E1; E2 only where management explicitly reports production use",
+    "source_url": "https://about.nike.com/en/newsroom/releases/nike-a-i-r-air-max-2024",
+    "scope": "full-price sell-through, inventory turns, forecast error by SKU/market, return rate and contribution after marketing",
+    "limitation": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+  },
+  "strongest_counterevidence": {
+    "claim": "Adidas and fast-moving direct brands and marketplaces with their own demand data can replicate tools or force gains through to customers.",
+    "source_url": "https://report.adidas-group.com/",
+    "limitation": "Competitive capability does not by itself prove equal outcomes."
+  },
+  "rights_limit": "Member and commerce data are subject to consent and privacy rules; wholesale sell-through data can be incomplete. Creative and athlete rights are contract-specific.",
+  "materiality_summary": "The labelled 5% scale hurdle is $215m; public evidence does not establish it.",
+  "arithmetic": {
+    "inputs": "5%\u00d7$4",
+    "formula": "5%\u00d7$4.3bn profit-scale proxy=$215m. A $3bn eligible SG&A/operations pool\u00d710%\u00d750%\u00d750%\u2212$60m=$15m. Avoided markdown requires matched seasons and cannot be inferred from total gross margin.",
+    "result": "Illustrative bridge remains below or must be compared with $215m; not a forecast."
+  },
+  "confidence": {
+    "mechanism": "medium",
+    "deployment": "low-to-medium",
+    "capture": "low"
+  },
+  "g2_provisional": "Open: E1/E2 evidence supports measurement, but E3 quality-adjusted causality and E4 cash retention are not established.",
+  "unresolved_questions": [
+    "What share of eligible workload is in production?",
+    "What controlled quality-adjusted KPI result exists?",
+    "What do contracts permit for pooled learning and how much benefit is retained after recurring cost?"
+  ],
+  "self_check_complete": true
+}
