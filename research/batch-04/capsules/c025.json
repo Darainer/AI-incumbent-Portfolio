@@ -1,0 +1,84 @@
+{
+  "id": "C025",
+  "company": "ICICI Bank",
+  "batch": 4,
+  "dossier": "research/batch-04/dossiers/037-c025-icici-bank.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q1 FY2027 (ended 30 June 2026)",
+  "sources": [
+    {
+      "url": "https://www.icici.bank.in/about-us/investor-relations",
+      "title": "Latest financial results",
+      "date": "18 July 2026",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.icici.bank.in/about-us/annual-reports",
+      "title": "Annual report / filings",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.icici.bank.in/personal-banking/insta-banking/internet-banking/ipal",
+      "title": "Company AI/product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.icici.bank.in/privacy",
+      "title": "Privacy/data/service terms",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.hdfcbank.com/personal/resources/learning-centre/digital-banking",
+      "title": "Challenger product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "Q1 FY2027 standalone net profit and net interest income",
+    "value": "₹148bn net profit; ₹243.8bn NII",
+    "unit": "INR",
+    "period": "Q1 FY2027 (ended 30 June 2026)",
+    "source_url": "https://www.icici.bank.in/about-us/investor-relations",
+    "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
+  },
+  "ai_claim": {
+    "claim": "iPal is a production digital service interface; no retrieved disclosure isolates generative AI, fixed-risk credit lift or retained cost savings.",
+    "stage": "E2 production digital assistant; incremental AI economics unverified",
+    "source_url": "https://www.icici.bank.in/personal-banking/insta-banking/internet-banking/ipal",
+    "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
+    "limitation": "No representative controlled cohort or retained-cash reconciliation."
+  },
+  "strongest_counterevidence": {
+    "claim": "Q1 profit benefited from 30.5% lower provisions.",
+    "source_url": "https://www.icici.bank.in/about-us/investor-relations",
+    "limitation": "Does not itself disprove the scoped mechanism."
+  },
+  "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
+  "materiality_summary": "Framework convention: ₹29.6bn, 5% of a ₹592bn annualized Q1 profit scale proxy. Illustrative assumptions produce ₹3.4bn, below the hurdle.",
+  "arithmetic": {
+    "inputs": "pool ₹120bn annual fraud, operations and service cost/risk pool (assumption); efficiency 15%; realization 50%; retained share 60%; recurring cost ₹2bn",
+    "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+    "result": "₹3.4bn"
+  },
+  "confidence": {
+    "mechanism": "moderate",
+    "deployment": "low-to-moderate",
+    "capture": "low"
+  },
+  "g2_provisional": "Watch/incomplete: E1–E2 route exists; no E3 quality-adjusted proof or E4 cash.",
+  "unresolved_questions": [
+    "Training and pooled-learning rights?",
+    "Eligible workload and matched quality KPI?",
+    "Retained economics after labor, model and capital costs?"
+  ],
+  "self_check_complete": true
+}
