@@ -4,21 +4,102 @@
   "batch": 2,
   "dossier": "research/batch-02/dossiers/015-c003-astrazeneca.md",
   "cutoff": "2026-09-12",
-  "latest_financial_period": "FY2024 (later issuer pages not reliably retrievable in-session)",
+  "latest_financial_period": "H1 2026 (latest audited period FY2025)",
   "sources": [
-    {"url":"https://www.astrazeneca.com/investor-relations/annual-reports.html","title":"Annual reports","date":"2025-03-06","opened":true,"supports":"FY2024 financial statements"},
-    {"url":"https://www.astrazeneca.com/r-d/data-science-and-ai.html","title":"Data science and AI","date":"undated","opened":true,"supports":"AI capability and intended R&D uses"},
-    {"url":"https://www.astrazeneca.com/media-centre/press-releases/2022/astrazeneca-and-benevolentai-expand-ai-powered-drug-discovery-collaboration.html","title":"BenevolentAI collaboration expansion","date":"2022-01-14","opened":true,"supports":"programme-level discovery capability"},
-    {"url":"https://www.fda.gov/media/167973/download","title":"Using AI/ML in development of drug and biological products","date":"2023-05","opened":true,"supports":"regulatory limitations and validation need"}
+    {
+      "url": "https://www.astrazeneca.com/content/dam/az/PDF/2026/h1q2/H1-and-Q2-2026-results-announcement.pdf",
+      "title": "H1 and Q2 2026 results",
+      "date": "2026-07-27",
+      "opened": true,
+      "supports": "latest interim revenue, profit and cash flow"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465926086846/azn-20260630x6k.htm",
+      "title": "H1 2026 Form 6-K",
+      "date": "2026-07-27",
+      "opened": true,
+      "supports": "regulatory filing cross-check"
+    },
+    {
+      "url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+      "title": "FY and Q4 2025 results",
+      "date": "2026-02-10",
+      "opened": true,
+      "supports": "audited FY2025 financial anchors"
+    },
+    {
+      "url": "https://www.astrazeneca.com/r-d/data-science-and-ai.html",
+      "title": "Data science and AI",
+      "date": "undated",
+      "opened": true,
+      "supports": "AI capability and intended R&D uses"
+    },
+    {
+      "url": "https://www.astrazeneca.com/media-centre/press-releases/2022/astrazeneca-and-benevolentai-expand-ai-powered-drug-discovery-collaboration.html",
+      "title": "BenevolentAI collaboration expansion",
+      "date": "2022-01-14",
+      "opened": true,
+      "supports": "programme capability"
+    },
+    {
+      "url": "https://www.fda.gov/media/167973/download",
+      "title": "Using AI/ML in drug development",
+      "date": "2023-05",
+      "opened": true,
+      "supports": "validation limitations"
+    },
+    {
+      "url": "https://www.roche.com/investors/annualreport",
+      "title": "Roche annual report",
+      "date": "current hub",
+      "opened": true,
+      "supports": "incumbent challenger"
+    },
+    {
+      "url": "https://ir.recursion.com/financial-information/annual-reports-and-proxies",
+      "title": "Recursion annual reports",
+      "date": "current hub",
+      "opened": true,
+      "supports": "AI-biotech entrant"
+    }
   ],
-  "financial_anchor":{"metric":"reported operating profit","value":8.713,"unit":"USD billion","period":"FY2024","source_url":"https://www.astrazeneca.com/investor-relations/annual-reports.html","caveat":"Reported, not core; latest period verified in this session and subject to current-period refresh."},
-  "ai_claim":{"claim":"AstraZeneca uses AI in discovery and has named external discovery programmes.","stage":"E1/E2 management-reported workflow use","source_url":"https://www.astrazeneca.com/r-d/data-science-and-ai.html","scope":"Discovery and selected development workflows","limitation":"No prospective matched evidence of improved stage-adjusted clinical success or retained cash found."},
-  "strongest_counterevidence":{"claim":"Regulatory-quality validation remains required and candidate-generation speed is not clinical productivity.","source_url":"https://www.fda.gov/media/167973/download","limitation":"Sector evidence, not an AstraZeneca failure study."},
-  "rights_limit":"Patient, licensed real-world and collaboration data carry purpose- and contract-specific rights; public materials do not establish blanket cross-study training permission.",
-  "materiality_summary":"Five percent of FY2024 reported operating profit is about $436m. The relevant test is prospective stage-adjusted pipeline value, not a claimed R&D saving.",
-  "arithmetic":{"inputs":"$8.713bn reported operating profit; illustrative 20 programmes; $100m baseline risk-adjusted value each","formula":"0.05×8.713bn=$435.65m; $440m/(20×$100m)=22%","result":"About $436m hurdle; illustrative 22% value uplift per programme."},
-  "confidence":{"mechanism":"medium-high","deployment":"medium","capture":"low"},
-  "g2_provisional":"Open: scoped E1/E2 evidence, but no disclosed controlled clinical-productivity result or cash capture.",
-  "unresolved_questions":["Which clinical programmes were prospectively AI-originated?","How do matched transition rates and total costs compare?","What cross-programme learning rights do collaborations permit?"],
-  "self_check_complete":true
+  "financial_anchor": {
+    "metric": "reported operating profit",
+    "value": 13.743,
+    "unit": "USD billion",
+    "period": "FY2025",
+    "source_url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+    "caveat": "FY2025 reported; H1 2026 reported operating profit was $7.410bn and must not be annualized."
+  },
+  "ai_claim": {
+    "claim": "AstraZeneca uses AI in discovery and has named external discovery programmes.",
+    "stage": "E1/E2 management-reported workflow use",
+    "source_url": "https://www.astrazeneca.com/r-d/data-science-and-ai.html",
+    "scope": "Discovery and selected development workflows",
+    "limitation": "No prospective matched evidence of improved stage-adjusted clinical success or retained cash found."
+  },
+  "strongest_counterevidence": {
+    "claim": "Regulatory-quality validation remains required and candidate-generation speed is not clinical productivity.",
+    "source_url": "https://www.fda.gov/media/167973/download",
+    "limitation": "Sector evidence, not an AstraZeneca failure study."
+  },
+  "rights_limit": "Patient, licensed real-world and collaboration data carry purpose- and contract-specific rights; public materials do not establish blanket cross-study training permission.",
+  "materiality_summary": "Annual hurdle is $687m, 5% of FY2025 reported operating profit. A separate ten-year 10%-discounted equivalent is $4.22bn present value; discovery speed is not clinical success.",
+  "arithmetic": {
+    "inputs": "FY2025 reported operating profit $13.743bn; 10-year level contribution; 10% discount rate",
+    "formula": "0.05\u00d7$13.743bn=$687.15m/year; $687.15m\u00d76.145=$4.22bn PV",
+    "result": "$687m annual hurdle or $4.22bn same-duration PV equivalent; illustrative, not forecast."
+  },
+  "confidence": {
+    "mechanism": "medium-high",
+    "deployment": "medium",
+    "capture": "low"
+  },
+  "g2_provisional": "Open: scoped E1/E2 evidence, but no disclosed controlled clinical-productivity result or cash capture.",
+  "unresolved_questions": [
+    "Which clinical programmes were prospectively AI-originated?",
+    "How do matched transition rates and total costs compare?",
+    "What cross-programme learning rights do collaborations permit?"
+  ],
+  "self_check_complete": true
 }
