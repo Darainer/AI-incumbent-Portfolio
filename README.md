@@ -2,14 +2,17 @@
 
 **AI can make scarce business assets more productive. The investment question is who retains the gain.**
 
-Research release **v0.1 · 11 September 2026**
+Research update **v0.2 · 12 September 2026** — first ten individual stock reviews complete.
 
 This repository develops the AI Incumbent Productivity Regime into falsifiable industry theses and a global candidate universe. It begins with assets companies already possess: trusted content, scientific knowledge, customer relationships, operating networks and installed equipment. It then tests deployment, economic capture and valuation separately.
+
+The [first-ten lead review](research/batch-01/lead-review.md) shortlists RELX, Wolters Kluwer and Intuit for further underwriting. All ten have evidence dossiers and conditional valuations; none is yet designated underpriced AI productivity or portfolio eligible. [Research instructions](research/agent-instructions.md) and [audit notes](research/batch-01/reviewer-audit.md) document the agent process and lead corrections.
 
 ## Start here
 
 | Read | Purpose |
 |---|---|
+| [First ten stock reviews](research/batch-01/README.md) | Ten evidence packets, independent decisions and reproducible valuation checks |
 | [Investment thesis](framework/investment-thesis.md) | The central argument and competing explanation |
 | [36 industry theses](industries/README.md) | Asset, AI mechanism, capture, measurement and falsification by area |
 | [100-company universe](universe/README.md) | Global candidates with explicit provisional scores and evidence status |
@@ -18,14 +21,14 @@ This repository develops the AI Incumbent Productivity Regime into falsifiable i
 | [Research standard](framework/research-standard.md) | Evidence ladder and promotion gates |
 | [Source register](sources/README.md) | 22 primary-source records and the preserved origin documents |
 
-## What this release establishes
+## Preserved foundation — v0.1 (11 September 2026)
 
 - A thesis and research contract for 36 areas covering all 11 broad equity sectors.
 - A 100-company research universe with six structural priors, 600 written dimension rationales, risks, KPIs and area mappings.
 - An 18-company diligence queue spanning professional workflows, risk decisions, industrial operations and scientific output.
 - Separate standards for data rights, economic capture, business quality and valuation.
 
-**Scores are analyst hypotheses, not validated quality ratings or buy recommendations.** Fourteen companies have direct company-source coverage: nine at E1 (capability or offering) and five at E2 (reported production use). The other 86 remain E0 structural candidates. There are no E3/E4 claims, completed security valuations or portfolio weights in this release.
+**Scores are analyst hypotheses, not validated quality ratings or buy recommendations.** Fourteen companies have direct company-source coverage: nine at E1 (capability or offering) and five at E2 (reported production use). The other 86 remain E0 structural candidates. There are no E3/E4 claims, completed security valuations or portfolio weights in the original v0.1 snapshot; the separate v0.2 review above adds current diligence without overwriting that snapshot.
 
 The brief's eventual goal is a substantiated 10–20-company shortlist where productivity is underpriced. This release builds the research foundation and candidate set. The [valuation gate](framework/valuation.md) must establish mispricing before any name receives that label.
 
@@ -36,7 +39,7 @@ The brief's eventual goal is a substantiated 10–20-company shortlist where pro
 | `framework/` | Thesis, criteria, scoring, valuation, coverage and company memo template |
 | `industries/` | One thesis per research area plus machine-readable area definitions |
 | `universe/` | CSV/JSON candidate data, score rationales and summary statistics |
-| `research/` | Prioritized questions and 18 initial company briefs |
+| `research/` | Original queue/briefs plus agent instructions, ten reviewed dossiers and lead judgment |
 | `sources/` | Preserved user-provided sources and external evidence register |
 | `deck/` | Investor presentation, speaker notes, build source and cover asset |
 | `scripts/` | Reproducible research generators and integrity checks |
@@ -50,6 +53,8 @@ python3 scripts/build_research.py
 python3 scripts/build_universe.py
 python3 scripts/validate.py
 ```
+
+The manually maintained `research/batch-01/` files and `research/agent-instructions.md` are independent of the original generators.
 
 Edit the source records in the generator scripts and regenerate their Markdown/CSV/JSON views. Edit framework documents directly. The deck uses the separate Artifact Tool workflow documented in [deck/README.md](deck/README.md).
 
