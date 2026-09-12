@@ -1,0 +1,84 @@
+{
+  "id": "C067",
+  "company": "Canadian National Railway",
+  "batch": 7,
+  "dossier": "research/batch-07/dossiers/068-c067-canadian-national-railway.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 2026 (ended 30 June 2026)",
+  "sources": [
+    {
+      "url": "https://www.cn.ca/en/investors/financial-results/",
+      "title": "Latest financial results",
+      "date": "24 July 2026",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.cn.ca/en/investors/annual-reports/",
+      "title": "Annual report / filings",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.cn.ca/en/safety/technology-and-innovation/",
+      "title": "Company AI/product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.cn.ca/en/privacy/",
+      "title": "Privacy/data/service terms",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.cpkcr.com/en/safety/technology",
+      "title": "Challenger product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "Q2 2026 revenue and operating income",
+    "value": "C$4.753bn; C$1.781bn",
+    "unit": "CAD",
+    "period": "Q2 2026 (ended 30 June 2026)",
+    "source_url": "https://www.cn.ca/en/investors/financial-results/",
+    "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
+  },
+  "ai_claim": {
+    "claim": "CN operates digital train-planning and inspection technology; no retrieved controlled cohort isolates incremental AI from weather, mix and capital upgrades.",
+    "stage": "E1 incremental AI; inspection/optimization is ordinary baseline",
+    "source_url": "https://www.cn.ca/en/safety/technology-and-innovation/",
+    "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
+    "limitation": "No representative controlled cohort or retained-cash reconciliation."
+  },
+  "strongest_counterevidence": {
+    "claim": "weather, labor, commodity mix and network capital explain much quarterly variation.",
+    "source_url": "https://www.cn.ca/en/investors/financial-results/",
+    "limitation": "Does not itself disprove the scoped mechanism."
+  },
+  "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
+  "materiality_summary": "Framework convention: C$350m, roughly 5% of a C$7.1bn annualized Q2 operating-income proxy. Illustrative assumptions produce C$22m, below the hurdle.",
+  "arithmetic": {
+    "inputs": "pool C$5bn eligible annual labor, fuel and equipment cost; efficiency 6%; realization 40%; retained share 60%; recurring cost C$50m",
+    "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+    "result": "C$22m"
+  },
+  "confidence": {
+    "mechanism": "moderate",
+    "deployment": "low-to-moderate",
+    "capture": "low"
+  },
+  "g2_provisional": "Watch/incomplete: E1 incremental AI; inspection/optimization is ordinary baseline; no E3 quality-adjusted proof or E4 retained cash.",
+  "unresolved_questions": [
+    "Training and pooled-learning rights?",
+    "Eligible workload and matched quality KPI?",
+    "Retained economics after labor, model and capital costs?"
+  ],
+  "self_check_complete": true
+}
