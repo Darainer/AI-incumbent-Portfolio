@@ -1,0 +1,84 @@
+{
+  "id": "C088",
+  "company": "Nestlé",
+  "batch": 9,
+  "dossier": "research/batch-09/dossiers/088-c088-nestle.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "H1 2026 (ended 30 June 2026)",
+  "sources": [
+    {
+      "url": "https://www.nestle.com/media/pressreleases/allpressreleases/half-year-results-2026",
+      "title": "Latest financial results",
+      "date": "23 July 2026",
+      "opened": true,
+      "supports": "latest financial anchor"
+    },
+    {
+      "url": "https://www.nestle.com/investors/annual-report",
+      "title": "Annual report / filings",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.nestle.com/media/news/artificial-intelligence-digital-transformation",
+      "title": "Company AI/product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.nestle.com/info/privacy",
+      "title": "Privacy/data/service terms",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.unilever.com/news/news-search/2026/inside-unilevers-ai-powered-supply-chain/",
+      "title": "Challenger product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "H1 2026 sales and underlying trading operating profit",
+    "value": "CHF43.109bn; CHF7.081bn",
+    "unit": "CHF",
+    "period": "H1 2026 (ended 30 June 2026)",
+    "source_url": "https://www.nestle.com/media/pressreleases/allpressreleases/half-year-results-2026",
+    "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
+  },
+  "ai_claim": {
+    "claim": "Nestlé describes AI in R&D, consumer and factory workflows, but no retrieved source establishes representative quality-adjusted incremental cash.",
+    "stage": "E1 capability; no opened AI deployment evidence",
+    "source_url": "https://www.nestle.com/media/news/artificial-intelligence-digital-transformation",
+    "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
+    "limitation": "No representative controlled cohort or retained-cash reconciliation."
+  },
+  "strongest_counterevidence": {
+    "claim": "infant-formula recall and water/portfolio issues demonstrate that data/automation cannot substitute for supplier controls, validation and governance.",
+    "source_url": "https://www.nestle.com/media/pressreleases/allpressreleases/half-year-results-2026",
+    "limitation": "Does not itself disprove the scoped mechanism."
+  },
+  "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
+  "materiality_summary": "Framework convention: CHF708m, 5% of annualized H1 UTOP. Illustrative assumptions produce CHF88m, below the hurdle.",
+  "arithmetic": {
+    "inputs": "pool CHF18bn eligible manufacturing, supply-chain, marketing-production and administrative cost; efficiency 8%; realization 40%; retained share 50%; recurring cost CHF200m",
+    "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+    "result": "CHF88m"
+  },
+  "confidence": {
+    "mechanism": "moderate",
+    "deployment": "low-to-moderate",
+    "capture": "low"
+  },
+  "g2_provisional": "Watch/incomplete: E1 capability; no opened AI deployment evidence; no E3 quality-adjusted proof or E4 retained cash.",
+  "unresolved_questions": [
+    "Training and pooled-learning rights?",
+    "Eligible workload and matched quality KPI?",
+    "Retained economics after labor, model and capital costs?"
+  ],
+  "self_check_complete": true
+}
