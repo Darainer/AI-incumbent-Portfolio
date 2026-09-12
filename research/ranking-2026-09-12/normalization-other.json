@@ -1,0 +1,319 @@
+{
+  "cutoff": "2026-09-12",
+  "prepared_by": "Independent challenger",
+  "scope": "Exactly MELI, UBER, NOW; no price ranking or growth forecast.",
+  "currency": "USD",
+  "money_unit": "millions unless per-share",
+  "common_method": [
+    "All normalized EPS values are analyst adjustments to GAAP, hence are not reported GAAP measures. Explicit normalized tax assumptions prevent indefinite capitalization of discrete tax items.",
+    "TTM monetary flows = FY2025 + H1 2026 - H1 2025. Historical diluted-share proxy = FY2025 average + (H1 2026 average - H1 2025 average) * 181/365. This reconstructs a period-weighted proxy; it is not a separately reported TTM dilution calculation.",
+    "Reported income tables round to millions, so reported-EPS sums can differ from reconstructed income/share EPS. Recommended values round to cents and are conditional model anchors, not precision claims.",
+    "EPS multiple valuation includes debt interest; do not subtract debt from the resulting equity value a second time. Any added excess investments/cash require a matching treatment of associated earnings and restrictions.",
+    "Access/retrieval date for all sources: 2026-09-12. Exact filing accessions and date filters were checked for primary XBRL extracts."
+  ],
+  "companies": [
+    {
+      "id": "C078",
+      "company": "MercadoLibre",
+      "ticker": "MELI",
+      "recommended_starting_eps_usd": 35.97,
+      "basis": "TTM through 2026-06-30; GAAP pretax income retained, including all compensation, D&A, financing, credit provisioning and FX; replace reported taxes with an assumed 30% normalized tax rate.",
+      "financial_inputs_usd_millions": {
+        "FY2025": {
+          "pretax_income": 2842,
+          "income_tax_expense": 845,
+          "net_income": 1997,
+          "reported_diluted_eps": 39.4,
+          "diluted_shares_millions": 50.69732,
+          "operating_cash_flow": 12116
+        },
+        "H1_2025": {
+          "pretax_income": 1422,
+          "income_tax_expense": 405,
+          "net_income": 1017,
+          "reported_diluted_eps": 20.06,
+          "diluted_shares_millions": 50.697375,
+          "operating_cash_flow": 3948
+        },
+        "H1_2026": {
+          "pretax_income": 1185,
+          "income_tax_expense": 302,
+          "net_income": 883,
+          "reported_diluted_eps": 17.42,
+          "diluted_shares_millions": 50.697299,
+          "operating_cash_flow": 5737
+        }
+      },
+      "normalization": {
+        "ttm_pretax_income": 2605,
+        "ttm_reported_net_income": 1863,
+        "ttm_reported_tax_expense": 742,
+        "normalized_tax_rate_assumption": 0.3,
+        "normalized_net_income": 1823.4999999999998,
+        "diluted_share_proxy_millions": 50.69728231232877,
+        "formula": "(2842 + 1185 - 1422) * (1 - 0.30) / 50.6972823123",
+        "reported_ttm_eps_from_rounded_income": 36.74753191941707,
+        "sum_of_reported_period_eps": 36.760000000000005,
+        "tax_sensitivity_eps": {
+          "0.25": 38.54,
+          "0.3": 35.97,
+          "0.35": 33.4
+        }
+      },
+      "cash_and_capital": {
+        "H1_2026_capex_property_and_intangibles": 712,
+        "H1_2026_net_lending_cash_outflow_in_investing": 4069,
+        "H1_2026_increase_funds_payable_to_customers": 2456,
+        "H1_2026_increase_card_transaction_payables": 1209,
+        "H1_2026_finance_lease_principal": 32,
+        "June_2026_restricted_cash": 13114,
+        "H1_2026_cash_after_capex_and_net_lending_before_funding_adjustments": 956
+      },
+      "limits": [
+        "30% is an analyst assumption close to FY2025 reported effective tax of 29.73%; H1 2026 fell to 25.5%, partly from Brazilian deferred-tax gains. No discrete benefit amount was sufficiently isolated to claim an exact removal.",
+        "GAAP compensation is retained. The long-term retention programme is cash payable; its expense is not an SBC addback merely because equity dilution is small.",
+        "The $956m cash remainder is not owner FCF: customer/card funding flows, restricted balances, credit capital, securitization and lease commitments remain. Do not value customer restricted cash as excess corporate cash.",
+        "No shipping, credit-card launch, lending provision or FX cost is added back. The input is a historical earnings proxy, not a forecast of credit-normalized earnings."
+      ],
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+          "document": "FY2025 10-K",
+          "filed": "2026-02-25",
+          "sections": "Income statement, EPS and tax fields; annual filing search text and SEC XBRL facts used because full HTML rendering was intermittent."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000023/meli-20260630.htm",
+          "document": "Q2 2026 10-Q",
+          "filed": "2026-08-05",
+          "sections": "Statements of income/cash flows; Notes 3 and 9; MD&A tax and liquidity."
+        },
+        {
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001099590.json",
+          "document": "SEC primary XBRL company facts",
+          "sections": "Filtered to exact FY2025 and H1 2025/2026 filing accessions and filed dates <= cutoff."
+        }
+      ]
+    },
+    {
+      "id": "C080",
+      "company": "Uber Technologies",
+      "ticker": "UBER",
+      "recommended_starting_eps_usd": 2.46,
+      "basis": "Strict GAAP-derived TTM earnings: retain SBC, D&A, acquired amortization and all operating legal/restructuring/acquisition costs; zero noninterest other income; use 24% normalized tax; retain equity-method losses and minority/diluted-numerator effects.",
+      "financial_inputs_usd_millions": {
+        "FY2025": {
+          "gaap_operating_income": 5565,
+          "interest_income": 743,
+          "interest_expense": 440,
+          "gaap_net_income_attributable": 10053,
+          "reported_tax_expense": -4346,
+          "equity_method_losses": 53,
+          "noncontrolling_income": 40,
+          "contingent_freight_diluted_numerator_deduction": 37,
+          "issuer_nongaap_common_net_income": 5200,
+          "issuer_nongaap_eps": 2.45,
+          "diluted_shares_millions": 2119.689,
+          "sbc": 1826,
+          "operating_cash_flow": 10099,
+          "capex": 336
+        },
+        "H1_2025": {
+          "gaap_operating_income": 2678,
+          "interest_income": 350,
+          "interest_expense": 213,
+          "gaap_net_income_attributable": 3131,
+          "equity_method_losses": 25,
+          "noncontrolling_income": -7,
+          "contingent_freight_diluted_numerator_deduction": 27,
+          "issuer_nongaap_common_net_income": 2325,
+          "issuer_nongaap_eps": 1.09,
+          "diluted_shares_millions": 2124.181,
+          "sbc": 910,
+          "operating_cash_flow": 4888,
+          "capex": 163
+        },
+        "H1_2026": {
+          "gaap_operating_income": 3813,
+          "interest_income": 347,
+          "interest_expense": 235,
+          "gaap_net_income_attributable": 2657,
+          "reported_tax_expense": 1034,
+          "equity_method_losses": 41,
+          "noncontrolling_income": 41,
+          "contingent_freight_diluted_numerator_deduction": 0,
+          "issuer_nongaap_common_net_income": 3145,
+          "issuer_nongaap_eps": 1.53,
+          "diluted_shares_millions": 2060.763,
+          "sbc": 1023,
+          "operating_cash_flow": 5213,
+          "capex": 135
+        }
+      },
+      "normalization": {
+        "ttm_gaap_operating_income": 6700,
+        "ttm_net_interest": 278,
+        "normalized_pretax_income": 6978,
+        "normalized_tax_rate_assumption": 0.24,
+        "ttm_equity_method_losses": 69,
+        "ttm_noncontrolling_income": 88,
+        "ttm_contingent_freight_numerator_deduction": 10,
+        "normalized_common_net_income": 5136.28,
+        "diluted_share_proxy_millions": 2088.240621917808,
+        "formula": "((5565+3813-2678)+(743+347-350)-(440+235-213))*0.76-(53+41-25)-(40+41-(-7))-(37+0-27), then divide by 2088.240621918",
+        "tax_sensitivity_eps": {
+          "0.22": 2.53,
+          "0.24": 2.46,
+          "0.26": 2.39
+        },
+        "raw_ttm_reported_net_income_per_share_before_contingent_numerator_effect": 4.5871150572690205
+      },
+      "issuer_adjusted_metric_check": {
+        "includes_sbc": true,
+        "reason": "Neither Non-GAAP Operating Income nor Non-GAAP Net Income reconciliation adds SBC back. Adjusted EBITDA does exclude SBC and is a different metric.",
+        "ttm_issuer_adjusted_common_net_income": 6020,
+        "ttm_issuer_adjusted_eps_proxy": 2.8828095463784846,
+        "ttm_excluded_operating_costs_retained_in_strict_case": 919,
+        "note": "Summing disclosed H1/annual EPS gives 2.89 because denominators and rounding differ; use the numerator/share bridge (~2.883), not the earlier rough sum."
+      },
+      "cash_and_capital": {
+        "ttm_plain_fcf": 10116,
+        "ttm_sbc": 1939,
+        "ttm_increase_in_insurance_reserves": 2003,
+        "ttm_finance_lease_principal": 164,
+        "June_2026_unrestricted_cash_and_short_term_investments": 5391,
+        "June_2026_short_and_long_term_debt": 12723
+      },
+      "limits": [
+        "24% is an explicit analyst normalized tax assumption, consistent with H1 2026 issuer adjusted tax; cash taxes are presently lower and should not be capitalized permanently.",
+        "The stricter EPS retains costs the issuer excludes and retains equity-method/NCI charges. It does not capitalize transient tax releases or investment marks.",
+        "FCF includes SBC addbacks and insurance-reserve growth and excludes acquisitions/strategic investments. Restricted insurance assets are not excess cash. Strategic equity/AV investments require separate risk and capital treatment.",
+        "If using the issuer ~$2.883 alternative, disclose its remaining exclusions. Do not subtract SBC twice: it is already expensed in both EPS measures."
+      ],
+      "sources": [
+        {
+          "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Fourth-Quarter-and-Full-Year-2025/default.aspx",
+          "document": "FY2025 issuer results",
+          "published": "2026-02-04",
+          "sections": "Annual income/cash-flow statements and GAAP/non-GAAP reconciliations."
+        },
+        {
+          "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+          "document": "Q2 2026 issuer results",
+          "published": "2026-08-05",
+          "sections": "H1 income/cash-flow statements, definitions and GAAP/non-GAAP EPS reconciliation."
+        },
+        {
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001543151.json",
+          "document": "SEC primary XBRL company facts",
+          "sections": "FY2025 accession 0001543151-26-000015 and Q2 2026 accession 0001543151-26-000032 corroborate GAAP income, taxes, shares, SBC and cash."
+        }
+      ]
+    },
+    {
+      "id": "C042",
+      "company": "ServiceNow",
+      "ticker": "NOW",
+      "recommended_starting_eps_usd": 1.42,
+      "basis": "Strict GAAP-derived TTM: retain SBC, acquired amortization, severance and acquisition expenses; retain interest income/expense; zero noninterest other income including strategic-investment marks; assume 25% normalized tax.",
+      "financial_inputs_usd_millions": {
+        "FY2025": {
+          "gaap_operating_income": 1824,
+          "interest_income": 451,
+          "interest_expense": 23,
+          "other_income_ex_interest": 9,
+          "pretax_income": 2261,
+          "net_income": 1748,
+          "reported_diluted_eps_split_adjusted": 1.67,
+          "diluted_shares_millions_split_adjusted": 1046.691,
+          "sbc_expense": 1955,
+          "operating_cash_flow": 5444,
+          "capex": 868
+        },
+        "H1_2025": {
+          "gaap_operating_income": 809,
+          "interest_income": 231,
+          "interest_expense": 12,
+          "other_income_ex_interest": -2,
+          "pretax_income": 1026,
+          "net_income": 845,
+          "reported_diluted_eps_split_adjusted": 0.81,
+          "diluted_shares_millions_split_adjusted": 1046.712,
+          "sbc_expense": 969,
+          "operating_cash_flow": 2393,
+          "capex": 395
+        },
+        "H1_2026": {
+          "gaap_operating_income": 665,
+          "interest_income": 158,
+          "interest_expense": 72,
+          "other_income_ex_interest": 360,
+          "strategic_investment_upward_marks": 360,
+          "pretax_income": 1111,
+          "net_income": 767,
+          "reported_diluted_eps": 0.74,
+          "diluted_shares_millions": 1037.206,
+          "sbc_expense": 1213,
+          "sbc_cash_flow_addback": 1199,
+          "operating_cash_flow": 2257,
+          "capex": 255
+        }
+      },
+      "normalization": {
+        "ttm_gaap_operating_income": 1680,
+        "ttm_interest_income": 378,
+        "ttm_interest_expense": 83,
+        "ttm_noninterest_other_income_removed": 371,
+        "normalized_pretax_income": 1975,
+        "normalized_tax_rate_assumption": 0.25,
+        "normalized_net_income": 1481.25,
+        "diluted_share_proxy_millions": 1041.9770657534245,
+        "formula": "((1824+665-809)+(451+158-231)-(23+72-12))*0.75/1041.977065753",
+        "reported_ttm_eps_from_income": 1.6027224157687863,
+        "tax_sensitivity_eps": {
+          "0.2": 1.52,
+          "0.25": 1.42,
+          "0.3": 1.33
+        }
+      },
+      "cash_and_capital": {
+        "ttm_plain_ocf_less_capex": 4580,
+        "ttm_sbc_expense": 2199,
+        "ttm_sbc_cash_flow_addback": 2185,
+        "H1_2026_plain_ocf_less_capex": 2002,
+        "H1_2026_issuer_fcf": 2299,
+        "H1_2026_acquisition_cash_costs_added_back_to_issuer_fcf": 297,
+        "H1_2026_acquisition_cash_outflow": 8776,
+        "June_2026_cash_and_marketable_securities": 6707,
+        "June_2026_short_and_long_term_debt": 7517,
+        "June_2026_strategic_investments": 2073
+      },
+      "limits": [
+        "The December 17, 2025 5-for-1 split is already reflected in both filings and all stated EPS/shares. Do not divide these EPS values by five again.",
+        "25% is a tax-normalization assumption, not an issuer forecast. FY2025 reported effective tax was 22.7%; H1 2026 was 31%, with SBC shortfalls and a California valuation-allowance release.",
+        "This is a historical acquisition-perimeter proxy, not a fully pro-forma annual run rate. Newly acquired revenue/cost, amortization and financing need a forward bridge: Q2 interest expense alone was $66m versus $83m across the reconstructed TTM.",
+        "Issuer adjusted operating profit excludes SBC; its FCF also adds back acquisition-related cash costs. Plain FCF remains before equity compensation economics and acquisition spending. Do not label adjusted margins owner margins.",
+        "TTM cash-flow SBC ($2185m) differs from income-statement expense ($2199m); the EPS calculation starts from GAAP operating income and retains the full expense."
+      ],
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm",
+          "document": "FY2025 10-K",
+          "filed": "2026-01-29",
+          "sections": "Income/cash-flow statements; Notes 16-17; MD&A interest expense and SBC."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000076/now-20260630.htm",
+          "document": "Q2 2026 10-Q",
+          "filed": "2026-07-23",
+          "sections": "Statements; Notes 2, 3, 15, 16; MD&A other income, SBC, FCF and liquidity."
+        },
+        {
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001373715.json",
+          "document": "SEC primary XBRL company facts",
+          "sections": "Cross-check; use current filing recast share data, not pre-split H1 2025 original."
+        }
+      ]
+    }
+  ]
+}

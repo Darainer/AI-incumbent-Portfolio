@@ -1,0 +1,586 @@
+[
+  {
+    "id": "C037",
+    "company": "Intuit",
+    "ticker": "INTU",
+    "listing": "US-listed ordinary/common stock",
+    "currency": "USD",
+    "price": 321.57,
+    "price_date": "2026-09-11",
+    "price_source": "web.finance dated market quote feed; see quotes-us.json",
+    "price_quality": "Friday, September 11, 23:54:42 UTC",
+    "baseline_metric": "Normalized annual equity earnings per share",
+    "baseline_value": 16.46,
+    "baseline_period": "FY2026 actual; FY2027 scenario earnings are explicitly year1",
+    "baseline_source": [
+      "https://investors.intuit.com/news-events/press-releases/detail/1320/intuit-reports-fourth-quarter-and-full-year-fiscal-2026-results-sets-fiscal-2027-guidance"
+    ],
+    "baseline_adjustments": [
+      "FY2026 GAAP EPS16.46 includes SBC. FY2027 GAAP guidance20.12–20.36; base/bull year1 is20.24, followed by FOUR growth years to year5.",
+      "Cash7.2bn versus debt7.7bn; 2026 repurchases reduce weighted diluted shares2%. No separate buyback return.",
+      "Reported cash flow is not used as owner cash because customer-fund/working-capital movements distort it. FY2027 non-GAAP now includes SBC, unlike prior-year presentation."
+    ],
+    "horizon_years": 5,
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": 0,
+        "terminal_multiple": 13,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          4.8,
+          4.8,
+          4.8,
+          4.8,
+          4.8
+        ],
+        "rationale": "Tax-unit contraction and weak Mailchimp overwhelm GBS pricing; next-year EPS undershoots guidance, then stagnates.",
+        "earnings_year1": 17
+      },
+      "base": {
+        "growth_ex_ai": 0.08,
+        "terminal_multiple": 18,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          5.52,
+          5.796,
+          6.0858,
+          6.39009,
+          6.709595
+        ],
+        "rationale": "QuickBooks and existing services compound; current guidance is achieved, then net business growth6% plus approximately2% net buybacks sustains8% per-share growth. Existing deployed innovation is already embedded.",
+        "earnings_year1": 20.24
+      },
+      "bull": {
+        "growth_ex_ai": 0.1,
+        "terminal_multiple": 22,
+        "incremental_ai_terminal_earnings_pct": 0.1,
+        "dividends5": [
+          5.52,
+          5.9616,
+          6.438528,
+          6.95361,
+          7.509899
+        ],
+        "rationale": "Core execution supports8% business growth plus2% net share reduction; separately proven account monetization and internal efficiencies add10% terminal earnings.",
+        "earnings_year1": 20.24
+      }
+    },
+    "ai_bridge": "Bull-only10% terminal earnings. A present-scale equivalent of aboutUSD456.6m after tax requires roughlyUSD578m pretax at21% tax. Illustrative non-overlapping mix:4% incremental GBS revenue on12.864bn at60% net contribution=309m pretax, plus269m net internal savings after all technology/review costs. The internal portion requires approximately25% task efficiency ×70% realization ×70% retention onUSD3bn eligible spend less99m recurring costs. These are requirements, not measured outcomes; the total effect is only~1.9% annualized across five years.",
+    "uncertainties": [
+      "FY2027 guidance must hold; a20% year1 miss reduces the entry threshold approximately20% before dividend effects.",
+      "Tax volumes, Mailchimp, accountant-channel retention and external-agent pricing are decision-critical.",
+      "Neither cohort revenue uplift nor net internal cost realization has been demonstrated."
+    ],
+    "valuation_status": "CONDITIONAL_SCENARIO",
+    "lead_reviewed": true
+  },
+  {
+    "id": "C026",
+    "company": "Visa",
+    "ticker": "V",
+    "listing": "US-listed ordinary/common stock",
+    "currency": "USD",
+    "price": 370.45,
+    "price_date": "2026-09-11",
+    "price_source": "web.finance dated market quote feed; see quotes-us.json",
+    "price_quality": "Friday, September 11, 23:45:10 UTC",
+    "baseline_metric": "Normalized annual equity earnings per share",
+    "baseline_value": 11.75,
+    "baseline_period": "Approximate TTM through2026-06-30 from reported diluted EPS",
+    "baseline_source": [
+      "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000089/v-20250930.htm",
+      "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000103/q32026earningsrelease.htm"
+    ],
+    "baseline_adjustments": [
+      "10.20 FY2025 GAAP EPS +9.14 nine-month2026 −7.59 nine-month2025 =11.75. Summed EPS is an approximate TTM measure with changing diluted denominators.",
+      "Litigation/severance and SBC remain expensed; the baseline is deliberately below issuer-adjusted earning power.",
+      "Model per-share growth includes at most1–2points net buyback contribution; do not add repurchase yield."
+    ],
+    "horizon_years": 5,
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": 0.02,
+        "terminal_multiple": 20,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          2.68,
+          2.68,
+          2.68,
+          2.68,
+          2.68
+        ],
+        "rationale": "Weaker cross-border spending, regulatory fee pressure and account-to-account substitution limit growth and valuation."
+      },
+      "base": {
+        "growth_ex_ai": 0.09,
+        "terminal_multiple": 27,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          2.68,
+          2.8676,
+          3.068332,
+          3.283115,
+          3.512933
+        ],
+        "rationale": "Seven-percent business earnings growth plus2points net share reduction; services and existing risk tools remain baseline."
+      },
+      "bull": {
+        "growth_ex_ai": 0.12,
+        "terminal_multiple": 31,
+        "incremental_ai_terminal_earnings_pct": 0.04,
+        "dividends5": [
+          2.68,
+          2.948,
+          3.2428,
+          3.56708,
+          3.923788
+        ],
+        "rationale": "Ten-percent business earnings growth plus2points buybacks; higher approved payment volume and services add4% net terminal EPS."
+      }
+    },
+    "ai_bridge": "Four-percent terminal earnings requires incremental Visa fees and services, not total fraud avoided. At FY2025 after-tax earnings scale, a roughlyUSD800m annual contribution is material; at50% after-tax incremental contribution this requires aboutUSD1.6bn of additional retained fee revenue. This is an aggressive requirement relative to the earlier small own-cost illustration, hence zero base increment.",
+    "uncertainties": [
+      "Government/interchange litigation and rebates can persist, so not all issuer adjustments are added back.",
+      "Terminal27x remains a premium and requires durable low-capital network economics."
+    ],
+    "valuation_status": "CONDITIONAL_SCENARIO",
+    "lead_reviewed": true
+  },
+  {
+    "id": "C027",
+    "company": "Mastercard",
+    "ticker": "MA",
+    "listing": "US-listed ordinary/common stock",
+    "currency": "USD",
+    "price": 569.19,
+    "price_date": "2026-09-11",
+    "price_source": "web.finance dated market quote feed; see quotes-us.json",
+    "price_quality": "Friday, September 11, 23:40:20 UTC",
+    "baseline_metric": "Normalized annual equity earnings per share",
+    "baseline_value": 18.0,
+    "baseline_period": "TTM through2026-06-30, conservative rounded GAAP anchor",
+    "baseline_source": [
+      "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000003/ma12312025-exx991xearnings.htm",
+      "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000081/ma06302026-exx991xearnings.htm"
+    ],
+    "baseline_adjustments": [
+      "16.52 FY2025 GAAP EPS +9.32 H12026 −7.66 H12025 =18.18 approximate TTM; round down to18.00 for one-off grant/tax-interest effects and denominator changes.",
+      "SBC and litigation remain costs. No separate buyback yield. Quarterly dividend0.87 is used as annual3.48 payout assumption; future growth conditional."
+    ],
+    "horizon_years": 5,
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": 0.03,
+        "terminal_multiple": 21,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          3.48,
+          3.48,
+          3.48,
+          3.48,
+          3.48
+        ],
+        "rationale": "Consumption/cross-border weakness and regulatory fee pressure offset some service growth."
+      },
+      "base": {
+        "growth_ex_ai": 0.1,
+        "terminal_multiple": 28,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          3.48,
+          3.7584,
+          4.059072,
+          4.383798,
+          4.734502
+        ],
+        "rationale": "Eight-percent business growth plus2points net shares; value-added services grow without a separately claimed AI uplift."
+      },
+      "bull": {
+        "growth_ex_ai": 0.13,
+        "terminal_multiple": 32,
+        "incremental_ai_terminal_earnings_pct": 0.04,
+        "dividends5": [
+          3.48,
+          3.828,
+          4.2108,
+          4.63188,
+          5.095068
+        ],
+        "rationale": "Strong conventional service penetration plus a4% net terminal contribution from improved approvals and paid risk products."
+      }
+    },
+    "ai_bridge": "As with Visa, prevented merchant/bank fraud is not Mastercard revenue. A4% terminal earnings addition must come from net network fees and services after issuer incentives, processing costs and competition. It is an upper-case capture assumption, not a measured conversion of network loss savings.",
+    "uncertainties": [
+      "Value-added services growth includes acquisitions and cannot all be assigned to AI.",
+      "The28x base multiple is itself a high-quality-franchise assumption; a24x endpoint materially reduces returns."
+    ],
+    "valuation_status": "CONDITIONAL_SCENARIO",
+    "lead_reviewed": true
+  },
+  {
+    "id": "C043",
+    "company": "Salesforce",
+    "ticker": "CRM",
+    "listing": "US-listed ordinary/common stock",
+    "currency": "USD",
+    "price": 247.72,
+    "price_date": "2026-09-11",
+    "price_source": "web.finance dated market quote feed; see quotes-us.json",
+    "price_quality": "Friday, September 11, 23:46:16 UTC",
+    "baseline_metric": "Normalized annual equity earnings per share",
+    "baseline_value": 7.335232696897375,
+    "baseline_period": "FY2027 guided annual EPS after removing H1 strategic-investment gains",
+    "baseline_source": [
+      "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+    ],
+    "baseline_adjustments": [
+      "FY2027 GAAP midpoint10.23 includes realized H1 strategic-investment gain3.171bn. Remove3.171bn×(1−23.5% marginal tax)/838m guided diluted shares =2.89474/share; normalized proxy7.33526.",
+      "Unlike simply subtracting H1 EPS impact2.87, aggregate gain is placed over the FULL-YEAR guided share denominator.",
+      "SBC, acquired amortization, restructuring and higher financing expense stay in GAAP earnings. Q2 interest expense473m versus67m a year earlier; the103m-share ASR reduction is already in guided shares.",
+      "Fiscal2027 guidance is the year1 earnings anchor; four subsequent growth years."
+    ],
+    "horizon_years": 5,
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": -0.02,
+        "terminal_multiple": 14,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          1.6,
+          1.6,
+          1.6,
+          1.6,
+          1.6
+        ],
+        "rationale": "Seat erosion, acquisition integration and leverage overwhelm agent revenue; underlying year1 earnings fall below normalized guidance.",
+        "earnings_year1": 6.5
+      },
+      "base": {
+        "growth_ex_ai": 0.08,
+        "terminal_multiple": 21,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          1.76,
+          1.8128,
+          1.867184,
+          1.9232,
+          1.980896
+        ],
+        "rationale": "Core growth and ordinary margin discipline support8% EPS growth after the current ASR; no second buyback benefit or investment revaluation.",
+        "earnings_year1": 7.335232696897375
+      },
+      "bull": {
+        "growth_ex_ai": 0.12,
+        "terminal_multiple": 26,
+        "incremental_ai_terminal_earnings_pct": 0.1,
+        "dividends5": [
+          1.76,
+          1.8656,
+          1.977536,
+          2.096188,
+          2.221959
+        ],
+        "rationale": "Net account revenue expands despite seat loss; measured Agentforce margin supports10% additional terminal earnings, after serving and acquisition costs.",
+        "earnings_year1": 7.335232696897375
+      }
+    },
+    "ai_bridge": "A10% uplift must be incremental to current Agentforce revenue already in guidance. At normalized next-year net income roughlyUSD6.147bn, present-scale requirement is615m after tax, about791m pretax at22.3% tax; a40% incremental margin requires~USD1.98bn net incremental revenue after cannibalization. ARR scope changes and work-unit counts do not prove that.",
+    "uncertainties": [
+      "Large acquisition programme and leveraged repurchases constrain balance-sheet flexibility.",
+      "Normalized EPS is far below both headline adjustedEPS and GAAP EPS including investment gains.",
+      "Exact acquired amortization and pro-forma integration outcomes require continuing review; the case retains those costs."
+    ],
+    "valuation_status": "CONDITIONAL_SCENARIO",
+    "lead_reviewed": true
+  },
+  {
+    "id": "C055",
+    "company": "Accenture",
+    "ticker": "ACN",
+    "listing": "US-listed ordinary/common stock",
+    "currency": "USD",
+    "price": 183.9,
+    "price_date": "2026-09-11",
+    "price_source": "web.finance dated market quote feed; see quotes-us.json",
+    "price_quality": "Friday, September 11, 23:15:00 UTC",
+    "baseline_metric": "Normalized annual equity earnings per share",
+    "baseline_value": 13.44,
+    "baseline_period": "FY2026 GAAP guidance midpoint; year ended2026-08-31, results not yet released at cutoff",
+    "baseline_source": [
+      "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/earnings-reports/2026/accenture-3q-fy26-earnings-release.pdf"
+    ],
+    "baseline_adjustments": [
+      "Published June18 FY2026 GAAP guide13.38–13.50; use13.44, not adjusted13.84. SBC and business-optimization costs remain charged.",
+      "This is management guidance for a just-ended year, not verified reported FY2026 earnings. Latest revenue outlook3–4% local-currency growth.",
+      "Current annual dividend proxy4×1.63=6.52. Acquisition spending and client cash realization matter beyond simple P/E."
+    ],
+    "horizon_years": 5,
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": -0.04,
+        "terminal_multiple": 10,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          5.2,
+          5.2,
+          5.2,
+          5.2,
+          5.2
+        ],
+        "rationale": "Client insourcing, fewer billable hours and price competition reduce earnings; dividend resets lower."
+      },
+      "base": {
+        "growth_ex_ai": 0.04,
+        "terminal_multiple": 16,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          6.52,
+          6.7156,
+          6.917068,
+          7.12458,
+          7.338317
+        ],
+        "rationale": "Modest demand, maintained client relationships and ordinary efficiency produce4% per-share growth; no separate AI margin dividend."
+      },
+      "bull": {
+        "growth_ex_ai": 0.07,
+        "terminal_multiple": 19,
+        "incremental_ai_terminal_earnings_pct": 0.03,
+        "dividends5": [
+          6.52,
+          6.846,
+          7.1883,
+          7.547715,
+          7.925101
+        ],
+        "rationale": "Outcome-based work and reskilling defend revenue while conventional growth improves; small3% retained AI uplift after client sharing."
+      }
+    },
+    "ai_bridge": "Only3% terminal upside from AI because client bargaining and fewer billable hours can absorb productivity. At present-scale net profit~USD8bn,240m net retention would require measurable contract contribution after training/model expense; bookings are not recognized profit.",
+    "uncertainties": [
+      "Guidance-to-reported-results risk remains.",
+      "A cheap services franchise can remain cheap if AI structurally lowers billable demand; this is a conventional-value candidate with contested AI capture."
+    ],
+    "valuation_status": "CONDITIONAL_SCENARIO",
+    "lead_reviewed": true
+  },
+  {
+    "id": "C038",
+    "company": "Veeva Systems",
+    "ticker": "VEEV",
+    "listing": "US-listed ordinary/common stock",
+    "currency": "USD",
+    "price": 262.4,
+    "price_date": "2026-09-11",
+    "price_source": "web.finance dated market quote feed; see quotes-us.json",
+    "price_quality": "2026-09-11 23:15 UTC latest trade",
+    "baseline_metric": "Normalized annual equity earnings per share",
+    "baseline_value": 6.098391933281715,
+    "baseline_period": "TTM through2026-07-31 reconstructed from annual and half-year GAAP data",
+    "baseline_source": [
+      "https://ir.veeva.com/news/news-details/2026/Veeva-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx",
+      "https://ir.veeva.com/news/news-details/2026/Veeva-Announces-Fiscal-2027-Second-Quarter-Results/default.aspx"
+    ],
+    "baseline_adjustments": [
+      "TTM net income USD908.906m+534.365m−428.499m=1014.772m. Diluted weighted shares166.995m+(166.072m−167.272m)×181/365=166.39993m; EPS~6.10.",
+      "SBC remains expensed; reject FY2027 non-GAAP9.21 as an owner-EPS baseline because it excludes material compensation.",
+      "Net income includes interest on cash; the total EPS growth assumption must be below core operating growth if that cash-income line is flat. No separate excess-cash addition."
+    ],
+    "horizon_years": 5,
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": 0.04,
+        "terminal_multiple": 23,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "rationale": "CRM migration slows and agent competition limits pricing while validation costs remain."
+      },
+      "base": {
+        "growth_ex_ai": 0.12,
+        "terminal_multiple": 30,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "rationale": "Development/quality systems and conventional Vault migration support a strong blended EPS trajectory, with SBC retained and no extra AI credit."
+      },
+      "bull": {
+        "growth_ex_ai": 0.15,
+        "terminal_multiple": 35,
+        "incremental_ai_terminal_earnings_pct": 0.08,
+        "dividends5": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "rationale": "Broader conventional platform adoption plus8% net terminal AI contribution; requires paid validated actions and renewal economics."
+      }
+    },
+    "ai_bridge": "Eight-percent terminal contribution is bounded. Present-scale equivalent~USD81m net, or~USD108m pretax at25% tax, would need aroundUSD240m incremental annual revenue at45% fully loaded contribution. It must exclude CRM migration already in ordinary growth and include model/validation costs.",
+    "uncertainties": [
+      "A high current multiple leaves little room for migration delays.",
+      "A top20 field-team deployment is real but neither a disclosed paid-AI denominator nor controlled group cash evidence."
+    ],
+    "valuation_status": "CONDITIONAL_SCENARIO",
+    "lead_reviewed": true
+  },
+  {
+    "id": "C032",
+    "company": "London Stock Exchange Group",
+    "ticker": "LSEG",
+    "listing": "LSE ordinary",
+    "currency": "GBP",
+    "price": 82.38,
+    "price_date": "2026-09-11",
+    "price_source": "https://www.investing.com/equities/london-stock-exchange-historical-data",
+    "price_quality": "Verified dated vendor historical row, 8,238 GBX /100 = GBP82.38",
+    "baseline_metric": "Normalized annual equity earnings per share",
+    "baseline_value": 4.16394,
+    "baseline_period": "FY2025 adjusted EPS, held conservatively without H12026 uplift",
+    "baseline_source": [
+      "https://www.lseg.com/en/media-centre/press-releases/2026/london-stock-exchange-group-plc-preliminary-results-for-the-year-ended-31-december-2025",
+      "https://www.lseg.com/en/media-centre/press-releases/2026/london-stock-exchange-group-plc-h1-2026-interim-results"
+    ],
+    "baseline_adjustments": [
+      "FY2025 headline adjusted EPS420.6p. Apply analyst1% dilution/measurement reserve to useGBP4.16394; exact diluted adjusted bridge remains a limit.",
+      "H12026 adjusted EPS244.9p is up17.2%; do not double it. Holding FY2025 baseline intentionally gives no automatic2026 growth/buyback benefit.",
+      "FY2025 equity FCFGBP2.4bn and FY2026 guidance at least2.7bn support cash generation; capitalized development and acquisition adjustments remain relevant.",
+      "SBC stays an economic cost. P/E is on a conservatively reserved adjusted proxy; no extra net-debt or repurchase-yield adjustment."
+    ],
+    "horizon_years": 5,
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": 0,
+        "terminal_multiple": 14,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5
+        ],
+        "rationale": "External AI interfaces weaken desktop pricing and licensed data costs increase; workflow growth stagnates."
+      },
+      "base": {
+        "growth_ex_ai": 0.08,
+        "terminal_multiple": 20,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          1.5,
+          1.59,
+          1.6854,
+          1.786524,
+          1.893715
+        ],
+        "rationale": "Six-percent business EPS growth plus2points net share reduction; ordinary data/analytics/exchange execution continues."
+      },
+      "bull": {
+        "growth_ex_ai": 0.1,
+        "terminal_multiple": 24,
+        "incremental_ai_terminal_earnings_pct": 0.05,
+        "dividends5": [
+          1.5,
+          1.62,
+          1.7496,
+          1.889568,
+          2.040733
+        ],
+        "rationale": "Machine-access monetization outgrows desktop loss and adds5% net terminal EPS beyond conventional execution."
+      }
+    },
+    "ai_bridge": "A5% AI uplift is a net content/workflow-pricing option. It requires paid machine consumption and efficiency to exceed upstream royalties, Microsoft distribution sharing and displaced desktop spend. Existing company AI/efficiency programmes are baseline, not added again.",
+    "uncertainties": [
+      "Exact diluted adjustedEPS and recurring acquisition-cost reconciliation remain open; the1% reserve is not verification.",
+      "The FY2025 anchor is deliberately conservative but not an exact current pro-forma run rate.",
+      "The latest price fell3.22%; no specific causal explanation is assumed."
+    ],
+    "valuation_status": "CONDITIONAL_NORMALIZATION",
+    "lead_reviewed": true
+  },
+  {
+    "id": "C036",
+    "company": "Thomson Reuters",
+    "ticker": "TRI",
+    "listing": "US-listed ordinary/common stock",
+    "currency": "USD",
+    "price": 97.35,
+    "price_date": "2026-09-11",
+    "price_source": "web.finance dated market quote feed; see quotes-us.json",
+    "price_quality": "Saturday, September 12, 00:15:00 UTC",
+    "baseline_metric": "Illustrative annual owner-cash per share, conditional SBC reserve",
+    "baseline_value": 4.4459644322845415,
+    "baseline_period": "FY2026 management FCF guidance with explicit analyst compensation/normalization reserve",
+    "baseline_source": [
+      "https://ir.thomsonreuters.com/news-releases/news-release-details/thomson-reuters-reports-second-quarter-2026-results"
+    ],
+    "baseline_adjustments": [
+      "Management annual FCF guidanceUSD2.1bn /Q2 diluted shares438.6m would be4.788/share. Deduct an analystUSD150m annual SBC/recurring-normalization reserve =>4.446/share.",
+      "The150m reserve is an assumption, NOT a verified SBC reconciliation. If recurring economic cost exceeds it, this proxy overstates owner cash. It must be resolved before high-conviction investment promotion.",
+      "FCF includes capital expenditure and lease principal; do not deduct them again. September financing and Global Print JV make the earnings perimeter provisional.",
+      "Current annual dividend2.62, corrected from an unsupported2.44 assumption. Only dividends are investor cash flows; retained owner cash funds modeled growth."
+    ],
+    "horizon_years": 5,
+    "scenarios": {
+      "downside": {
+        "growth_ex_ai": -0.01,
+        "terminal_multiple": 14,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          2.2,
+          2.2,
+          2.2,
+          2.2,
+          2.2
+        ],
+        "rationale": "Legal-interface pressure, print transition and higher costs erode cash; dividend is reduced."
+      },
+      "base": {
+        "growth_ex_ai": 0.07,
+        "terminal_multiple": 21,
+        "incremental_ai_terminal_earnings_pct": 0,
+        "dividends5": [
+          2.62,
+          2.751,
+          2.88855,
+          3.032978,
+          3.184626
+        ],
+        "rationale": "Recurring legal/tax/corporate workflows compound after existing innovation and normal investment, with no extra AI increment."
+      },
+      "bull": {
+        "growth_ex_ai": 0.09,
+        "terminal_multiple": 25,
+        "incremental_ai_terminal_earnings_pct": 0.06,
+        "dividends5": [
+          2.62,
+          2.8034,
+          2.999638,
+          3.209613,
+          3.434286
+        ],
+        "rationale": "Better ordinary product mix plus6% additional retained AI cash from paid content and completed workflows after costs."
+      }
+    },
+    "ai_bridge": "Six-percent incremental owner cash requires roughlyUSD117m present-scale net contribution after all capital, serving, verification and customer-sharing costs. A40% after-tax contribution would need~USD293m incremental revenue after cannibalization. PriorUSD200m+ existing AI investment is already in the guided baseline.",
+    "uncertainties": [
+      "SBC reserve, post-quarter financing and disposed-business perimeter remain unresolved; this is explicitly a conditional cash sensitivity.",
+      "Customer prompts/content are not an unrestricted training moat.",
+      "Price change sensitivity is easy; normalization uncertainty is more important than small terminal-multiple changes."
+    ],
+    "valuation_status": "CONDITIONAL_NORMALIZATION",
+    "lead_reviewed": true
+  }
+]
