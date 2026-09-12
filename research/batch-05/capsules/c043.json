@@ -1,0 +1,84 @@
+{
+  "id": "C043",
+  "company": "Salesforce",
+  "batch": 5,
+  "dossier": "research/batch-05/dossiers/048-c043-salesforce.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 FY2027 (ended 31 July 2026)",
+  "sources": [
+    {
+      "url": "https://investor.salesforce.com/financials/default.aspx",
+      "title": "Latest financial results",
+      "date": "26 August 2026",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://investor.salesforce.com/financials/sec-filings/default.aspx",
+      "title": "Annual report / filings",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/",
+      "title": "Company AI/product evidence",
+      "date": "undated",
+      "opened": true,
+      "supports": "scoped AI capability/deployment"
+    },
+    {
+      "url": "https://www.salesforce.com/company/privacy/full_privacy/",
+      "title": "Privacy/data/service terms",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/dynamics-365/ai/",
+      "title": "Challenger product evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "source target; retrieval did not yield auditable supporting extract"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "FY2027 revenue guidance and reported Agentforce ARR",
+    "value": "$46.1–46.4bn guidance; Agentforce ARR above $1bn",
+    "unit": "USD",
+    "period": "Q2 FY2027 (ended 31 July 2026)",
+    "source_url": "https://investor.salesforce.com/financials/default.aspx",
+    "caveat": "Reported/adjusted measures differ; cycle, mix and capital intensity confound."
+  },
+  "ai_claim": {
+    "claim": "Salesforce reported Agentforce ARR above $1bn and billions of work units, establishing paid use but not correct resolutions or net ARR after seat effects.",
+    "stage": "E1 agentic CRM product capability; ARR/work-unit release was not successfully opened",
+    "source_url": "https://www.salesforce.com/agentforce/",
+    "scope": "Specific workflow only; infrastructure demand is separated from own productivity.",
+    "limitation": "No representative controlled cohort or retained-cash reconciliation."
+  },
+  "strongest_counterevidence": {
+    "claim": "agent execution can cannibalize user seats or shift value to foundation-model suppliers.",
+    "source_url": "https://investor.salesforce.com/financials/default.aspx",
+    "limitation": "Does not itself disprove the scoped mechanism."
+  },
+  "rights_limit": "Public terms do not prove universal training or pooled cross-customer reuse; enterprise schedules were unavailable.",
+  "materiality_summary": "Framework convention: $800m, around 5% of a normalized $16bn non-GAAP operating-profit scale proxy. Illustrative assumptions produce negative $200m, below the hurdle.",
+  "arithmetic": {
+    "inputs": "pool $10bn eligible internal sales, service and development operating cost (assumption); efficiency 10%; realization 50%; retained share 40%; recurring cost $400m",
+    "formula": "eligible cost × efficiency × realization × retained share − recurring AI expense",
+    "result": "negative $200m"
+  },
+  "confidence": {
+    "mechanism": "moderate",
+    "deployment": "low-to-moderate",
+    "capture": "low"
+  },
+  "g2_provisional": "Watch/incomplete: E1–E2 route exists; no E3 quality-adjusted proof or E4 cash.",
+  "unresolved_questions": [
+    "Training and pooled-learning rights?",
+    "Eligible workload and matched quality KPI?",
+    "Retained economics after labor, model and capital costs?"
+  ],
+  "self_check_complete": true
+}
