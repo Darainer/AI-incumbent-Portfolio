@@ -1,0 +1,25 @@
+{
+  "id": "C004",
+  "company": "Novartis",
+  "batch": 2,
+  "dossier": "research/batch-02/dossiers/019-c004-novartis.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "H1 2026 (publication confirmed; detailed figures inaccessible); FY2025 latest fully extracted",
+  "sources": [
+    {"url":"https://www.novartis.com/news/media-releases/novartis-delivered-high-single-digit-sales-growth-achieved-40-core-margin-and-further-advanced-pipeline-2025","title":"FY2025 results","date":"2026-02-04","opened":true,"supports":"audited-scale financial anchor, debt, outlook"},
+    {"url":"https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-novartis-collaboration-expansion","title":"Novartis collaboration expansion","date":"2025-02-18","opened":true,"supports":"up to three added AI discovery programs"},
+    {"url":"https://news.microsoft.com/source/features/digital-transformation/novartis-empowers-scientists-ai-speed-discovery-development-breakthrough-medicines","title":"Novartis empowers scientists with AI","date":"2021-11-18","opened":true,"supports":"supplier-reported production decision support"},
+    {"url":"https://www.novartis.com/clinicaltrials/transparency","title":"Clinical trial transparency","date":"undated","opened":true,"supports":"anonymization and access boundaries"},
+    {"url":"https://www.reuters.com/legal/transactional/novartis-investors-turn-spotlight-ma-after-trial-setbacks-2026-09-11/","title":"Investors scrutinize M&A after trial setbacks","date":"2026-09-11","opened":true,"supports":"adverse clinical and capital-allocation evidence"}
+  ],
+  "financial_anchor": {"metric":"core operating income","value":21889,"unit":"USD million","period":"FY2025","source_url":"https://www.novartis.com/news/media-releases/novartis-delivered-high-single-digit-sales-growth-achieved-40-core-margin-and-further-advanced-pipeline-2025","caveat":"Non-IFRS; reported operating income was $17,644m. H1 2026 detailed report was inaccessible."},
+  "ai_claim": {"claim":"Named medicinal-chemistry decision support was reported integrated and Isomorphic collaboration covers up to six programs.","stage":"E2 for workflow deployment; E1 for expanded programs","source_url":"https://news.microsoft.com/source/features/digital-transformation/novartis-empowers-scientists-ai-speed-discovery-development-breakthrough-medicines","scope":"specific discovery workflows","limitation":"No disclosed clinical success uplift or retained cash."},
+  "strongest_counterevidence": {"claim":"Two September 2026 Phase III failures demonstrate that faster computation is not clinical validation and intensified scrutiny of acquisition discipline.","source_url":"https://www.reuters.com/legal/transactional/novartis-investors-turn-spotlight-ma-after-trial-setbacks-2026-09-11/","limitation":"The failed assets are not established as AI-originated."},
+  "rights_limit":"Internal experiment ownership and partner-generated IP terms are undisclosed; anonymized clinical-data sharing is gated and does not prove pooled model-training rights.",
+  "materiality_summary":"Five percent of FY2025 core operating income is $1.094bn. Only a prospective, stage-adjusted pipeline bridge is appropriate.",
+  "arithmetic":{"inputs":"2 extra candidates × assumed $900m success-adjusted pre-tax NPV × 70% retained less $150m platform cost","formula":"2*900*0.70-150","result":"$1.11bn illustrative annualized portfolio value creation; none of the inputs is established"},
+  "confidence":{"mechanism":"medium","deployment":"medium","capture":"low"},
+  "g2_provisional":"Insufficient: scoped E2 workflow use, no controlled cohort or retained economics.",
+  "unresolved_questions":["Which pipeline assets used each tool?","Who owns generated IP and model improvements?","What share of R&D is eligible and what are full platform costs?"],
+  "self_check_complete": true
+}
