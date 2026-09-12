@@ -1,0 +1,84 @@
+{
+  "id": "C075",
+  "company": "Rio Tinto",
+  "batch": 8,
+  "dossier": "research/batch-08/dossiers/075-c075-rio-tinto.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "H1 2026",
+  "sources": [
+    {
+      "url": "https://www.riotinto.com/en/news/releases/2026/rio-tinto-step-change-in-performance-delivering-higher-shareholder-returns",
+      "title": "H1 2026 issuer financial update",
+      "date": "2026",
+      "opened": true,
+      "supports": "$9.173bn operating cash and $5.947bn PPE/intangible purchases."
+    },
+    {
+      "url": "https://www.riotinto.com/en/invest/reports/annual-report",
+      "title": "Annual report / financial results",
+      "date": "2024",
+      "opened": false,
+      "supports": "latest financial anchor used in packet"
+    },
+    {
+      "url": "https://www.riotinto.com/en/news/stories/how-technology-is-changing-mining",
+      "title": "Company technology / AI evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "AI capability or deployment claim"
+    },
+    {
+      "url": "https://www.riotinto.com/en/privacy",
+      "title": "Privacy / data policy",
+      "date": "undated",
+      "opened": false,
+      "supports": "rights constraints"
+    },
+    {
+      "url": "https://www.bhp.com/investors/annual-reporting",
+      "title": "BHP reporting",
+      "date": "undated",
+      "opened": false,
+      "supports": "incumbent challenger evidence"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "profit after tax attributable to owners",
+    "value": 10.0,
+    "unit": "USD billion",
+    "period": "FY2025",
+    "source_url": "https://www.riotinto.com/en/invest/reports/annual-report",
+    "caveat": "$23.3bn underlying EBITDA; reported operating profit differs; measure may be adjusted or a labelled scale proxy and is not normalized."
+  },
+  "ai_claim": {
+    "claim": "Rio Tinto describes scoped AI/digital mechanisms in autonomous haulage and drilling optimization, orebody modelling, grade control and processing optimization.",
+    "stage": "E1; E2 only where management explicitly reports production use",
+    "source_url": "https://www.riotinto.com/en/news/stories/how-technology-is-changing-mining",
+    "scope": "recovery at fixed head grade, tonnes per machine-hour, unplanned downtime, unit cost and safety",
+    "limitation": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+  },
+  "strongest_counterevidence": {
+    "claim": "BHP and equipment OEM autonomy stacks and specialist mining software can replicate tools or force gains through to customers.",
+    "source_url": "https://www.bhp.com/investors/annual-reporting",
+    "limitation": "Competitive capability does not by itself prove equal outcomes."
+  },
+  "rights_limit": "Operational and geological data are largely company-controlled; vendors may access slices under contract. Indigenous, joint-venture and sovereign rights constrain some data and operations.",
+  "materiality_summary": "The labelled 5% scale hurdle is $700m proxy; public evidence does not establish it.",
+  "arithmetic": {
+    "inputs": "Using a $14bn reported-operating-profit scale proxy, 5%=$700m",
+    "formula": "Using a $14bn reported-operating-profit scale proxy, 5%=$700m. A $8bn eligible cost pool\u00d75%\u00d770%\u00d770%\u2212$100m=$96m. Commodity price, grade, strip ratio and capital upgrades must be controlled.",
+    "result": "Illustrative bridge remains below or must be compared with $700m proxy; not a forecast."
+  },
+  "confidence": {
+    "mechanism": "medium",
+    "deployment": "low-to-medium",
+    "capture": "low"
+  },
+  "g2_provisional": "Open: E1/E2 evidence supports measurement, but E3 quality-adjusted causality and E4 cash retention are not established.",
+  "unresolved_questions": [
+    "What share of eligible workload is in production?",
+    "What controlled quality-adjusted KPI result exists?",
+    "What do contracts permit for pooled learning and how much benefit is retained after recurring cost?"
+  ],
+  "self_check_complete": true
+}
