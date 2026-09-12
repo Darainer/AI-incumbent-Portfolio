@@ -1,0 +1,77 @@
+{
+  "id": "C080",
+  "company": "Uber",
+  "batch": 8,
+  "dossier": "research/batch-08/dossiers/080-c080-uber.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 2026 ended 30 June, released 5 August 2026",
+  "sources": [
+    {
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+      "title": "Latest results",
+      "date": "2026",
+      "opened": true,
+      "supports": "financial anchor"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000016/uber-20251231.htm",
+      "title": "Annual report/filing",
+      "date": "2026",
+      "opened": true,
+      "supports": "business/rights/risks"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "title": "EU AI Act",
+      "date": "2024",
+      "opened": true,
+      "supports": "governance"
+    },
+    {
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "title": "NIST AI RMF",
+      "date": "2023",
+      "opened": true,
+      "supports": "quality controls"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "latest profit measure",
+    "value": "$2.4bn net income and $2.82bn adjusted EBITDA",
+    "unit": "reported currency",
+    "period": "Q2 2026 ended 30 June, released 5 August 2026",
+    "source_url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+    "caveat": "Reported/adjusted definitions and seasonality; see dossier."
+  },
+  "ai_claim": {
+    "claim": "improve matching, ETA, pricing, fraud and support; separately integrate autonomous vehicles without owning the fleet",
+    "stage": "E2 for existing ML; E1/E2 for incremental generative/agentic",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000016/uber-20251231.htm",
+    "scope": "platform operations",
+    "limitation": "No versioned controlled incremental cash cohort."
+  },
+  "strongest_counterevidence": {
+    "claim": "drivers, consumers and merchants multi-home; regulators constrain pricing/labor/data; autonomous-vehicle partners may capture economics or bypass Uber",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315126000016/uber-20251231.htm",
+    "limitation": "Multiple ordinary-business drivers."
+  },
+  "rights_limit": "Customer, supplier/provider and payment/location data are purpose- and contract-bound; cross-context pooled training is not universal.",
+  "materiality_summary": "5% of rough annualized Q2 adjusted EBITDA is $564m annual pre-tax, with seasonality/non-GAAP caveat",
+  "arithmetic": {
+    "inputs": "Illustrative assumed cost pool and capture terms",
+    "formula": "assumed $20bn eligible incentive/support/loss pool \u00d7 2% improvement \u00d7 70% realization \u00d7 50% retention \u2212 $100m cost = $40m",
+    "result": "Illustrative only; no E4 conclusion"
+  },
+  "confidence": {
+    "mechanism": "high",
+    "deployment": "medium",
+    "capture": "low-medium"
+  },
+  "g2_provisional": "Incomplete: baseline ML production but no incremental quality-adjusted retained cash.",
+  "unresolved_questions": [
+    "Versioned contribution cohort?",
+    "Cross-party training rights?",
+    "Agent/substitute bypass economics?"
+  ],
+  "self_check_complete": true
+}
