@@ -1,0 +1,84 @@
+{
+  "id": "C044",
+  "company": "Synopsys",
+  "batch": 5,
+  "dossier": "research/batch-05/dossiers/049-c044-synopsys.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q3 FY2026 ended July 2026, published 26 August 2026",
+  "sources": [
+    {
+      "url": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+      "title": "Latest results",
+      "date": "2026",
+      "opened": true,
+      "supports": "financial anchor"
+    },
+    {
+      "url": "https://www.synopsys.com/ai.html",
+      "title": "Synopsys.ai",
+      "date": "undated",
+      "opened": true,
+      "supports": "AI product scope"
+    },
+    {
+      "url": "https://www.sec.gov/edgar/browse/?CIK=883241",
+      "title": "SEC filings",
+      "date": "2026",
+      "opened": true,
+      "supports": "financial and IP risks"
+    },
+    {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-synopsys-partnership",
+      "title": "Nvidia-Synopsys collaboration",
+      "date": "2025-12-01",
+      "opened": true,
+      "supports": "supplier/customer partnership and nonexclusivity"
+    },
+    {
+      "url": "https://arxiv.org/abs/2112.04838",
+      "title": "IEEE 1735 implementation study",
+      "date": "2021-12-09",
+      "opened": true,
+      "supports": "IP protection adverse evidence"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "latest revenue",
+    "value": "$2.477bn",
+    "unit": "USD",
+    "period": "Q3 FY2026 ended July 2026, published 26 August 2026",
+    "source_url": "https://news.synopsys.com/2026-08-26-Synopsys-Posts-Financial-Results-for-Third-Quarter-Fiscal-Year-2026",
+    "caveat": "Quarterly; acquisitions/mix and GAAP/non-GAAP reconciliation matter."
+  },
+  "ai_claim": {
+    "claim": "DSO.ai and autonomous engineering workflows optimize power, performance and area and orchestrate verification",
+    "stage": "E1/E2, vendor/customer reported",
+    "source_url": "https://www.synopsys.com/ai.html",
+    "scope": "named EDA workflows",
+    "limitation": "No portfolio-controlled signoff-quality or retained-cash cohort."
+  },
+  "strongest_counterevidence": {
+    "claim": "The Ansys acquisition adds debt, integration and accounting complexity; 2025 US export controls temporarily forced guidance suspension.",
+    "source_url": "https://www.sec.gov/edgar/browse/?CIK=883241",
+    "limitation": "Risk disclosure does not quantify realized AI harm."
+  },
+  "rights_limit": "Customers own designs; foundries and licensors own PDK/third-party IP. Access does not prove cross-customer training rights.",
+  "materiality_summary": "No reliable normalized post-Ansys operating-profit denominator was extracted from the opened Q3 release; the 5% hurdle is explicitly unquantified pending GAAP reconciliation.",
+  "arithmetic": {
+    "inputs": "Illustrative assumed eligible cost/efficiency/realization/retention/run cost",
+    "formula": "$1.0bn eligible R&D/support cost \u00d7 15% \u00d7 60% \u00d7 50% \u2212 $60m = \u2212$15m",
+    "result": "Illustrative only; customer savings excluded from vendor cost."
+  },
+  "confidence": {
+    "mechanism": "high",
+    "deployment": "medium",
+    "capture": "low-medium"
+  },
+  "g2_provisional": "Incomplete: E1/E2 without controlled signoff quality and retained economics.",
+  "unresolved_questions": [
+    "Cross-customer training rights?",
+    "Matched project results at equal compute?",
+    "AI ARR net of seat cannibalization?"
+  ],
+  "self_check_complete": true
+}
