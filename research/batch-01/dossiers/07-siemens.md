@@ -1,6 +1,8 @@
 # Siemens (C059) — initial evidence dossier
 
-**Status:** unreviewed agent work; lead-review required. **Evidence cutoff / access date:** 12 September 2026. **Issuer/security:** Siemens Aktiengesellschaft, registered ordinary shares, Xetra ticker **SIE**, ISIN DE0007236101; quote and reporting currency EUR. There is no ADR conversion in this valuation. **Industry:** D01 industrial automation and electrification.
+> Lead review complete. The [lead judgment](../lead-review.md) governs dispositions, scores and gates; provisional agent views below are retained for traceability.
+
+**Status:** research-agent packet; lead reviewed 12 September 2026. **Evidence cutoff / access date:** 12 September 2026. **Issuer/security:** Siemens Aktiengesellschaft, registered ordinary shares, Xetra ticker **SIE**, ISIN DE0007236101; quote and reporting currency EUR. There is no ADR conversion in this valuation. **Industry:** D01 industrial automation and electrification.
 
 ## Provisional conclusion
 
@@ -88,7 +90,7 @@ Price €261.70 (11 September 2026); FY2025 diluted weighted shares 793.8m; impl
 | Base | 5% | Existing digital execution only; no separately credited uplift | 19x / 9% | €23.9 + €178.9 | **€203** |
 | Bull | 8% | Conditional AI attach plus strong electrification | 23x / 8% | €26.8 + €261.1 | **€288** |
 
-Formula: PV of five annual dividends starting from €5.35 and growing with EPS, plus `€11.35×(1+g)^5×exit P/E/(1+r)^5`. At €261.70, 19x exit and 9% hurdle, required five-year EPS/dividend growth is **10.8% annually**. A one-turn exit-multiple change is material: at base EPS growth/9% hurdle, 17x gives about €184 and 21x about €222. The model overstates comparability if current guidance includes earnings/stake value that will leave via Healthineers distribution; G3 stays conditional pending pro-forma terms.
+Formula: PV of five annual dividends starting from €5.35 and growing with EPS, plus `€11.35×(1+g)^5×exit P/E/(1+r)^5`. At €261.70, 19x exit and 9% hurdle, required five-year EPS/dividend growth is **10.8% annually**. A one-turn exit-multiple change is material: at base EPS growth/9% hurdle, 17x gives about €184 and 21x about €222. The model is a current-perimeter illustration. A post-distribution valuation must include both remaining Siemens and the distributed Healthineers stake/value; removing its earnings without crediting that value would be incorrect. G3 stays incomplete pending pro-forma terms.
 
 ## Risks, falsifiers, priors and gates
 
@@ -111,15 +113,15 @@ Peer/inaction alternative: compare Schneider’s more concentrated electrificati
 
 ## Source register and reviewer handoff
 
-1. Siemens, *Siemens Report 2025*, 1 Dec 2025, accessed 12 Sep 2026, pp. 7–21, 42–79, 142. Audited baseline; AI economics not isolated.
-2. Siemens, *Record third quarter – Outlook raised*, 6 Aug 2026, accessed 12 Sep 2026. Latest trading update; management-reported non-GAAP measures.
-3. Siemens, *Industrial AI agents*, 12 May 2025, accessed 12 Sep 2026. Offering/target; no controlled outcome.
-4. Microsoft, *Siemens and Microsoft partner*, 31 Oct 2023, accessed 12 Sep 2026. Architecture and data-control statement; older/specific scope.
-5. Siemens/Schaeffler, *Industrial Copilot to shopfloor*, 8 Nov 2023, accessed 12 Sep 2026. Named use; no economics.
-6. Siemens, *Generative AI maintenance offering*, 17 Sep 2024, accessed 12 Sep 2026. Product capability only.
-7. PepsiCo, *AI and digital twin collaboration*, 6 Jan 2026, accessed 12 Sep 2026. Customer source; rollout economics absent.
-8. Schneider Electric, *Agentic manufacturing capabilities*, 31 Mar 2026, accessed 12 Sep 2026. Rival claim; not independently controlled.
-9. Yahoo Finance, *SIE.DE historical data*, 11 Sep 2026, accessed 12 Sep 2026. Quote; reconcile with alternative close display.
-10. Siemens, *Basic data and key share figures*, accessed 12 Sep 2026. Confirms ordinary-share identity; live 2026 close not supplied.
+1. Siemens, [*Siemens Report 2025*](https://www.siemens.com/siemensreport), 1 Dec 2025, accessed 12 Sep 2026, pp. 7–21, 42–79, 142. Audited baseline; AI economics not isolated.
+2. Siemens, [*Record third quarter – Outlook raised*](https://press.siemens.com/global/en/pressrelease/record-third-quarter-outlook-raised), 6 Aug 2026, accessed 12 Sep 2026. Latest trading update; management-reported non-GAAP measures.
+3. Siemens, [*Industrial AI agents*](https://press.siemens.com/global/en/pressrelease/siemens-introduces-ai-agents-industrial-automation), 12 May 2025, accessed 12 Sep 2026. Offering/target; no controlled outcome.
+4. Microsoft, [*Siemens and Microsoft partner*](https://news.microsoft.com/source/2023/10/31/siemens-and-microsoft-partner-to-drive-cross-industry-ai-adoption/), 31 Oct 2023, accessed 12 Sep 2026. Architecture and data-control statement; older/specific scope.
+5. Siemens/Schaeffler, [*Industrial Copilot to shopfloor*](https://press.siemens.com/global/en/pressrelease/ai-industry-schaeffler-and-siemens-bring-industrial-copilot-shopfloor), 8 Nov 2023, accessed 12 Sep 2026. Named use; no economics.
+6. Siemens, [*Generative AI maintenance offering*](https://press.siemens.com/global/en/pressrelease/siemens-expands-industrial-copilot-new-generative-ai-powered-maintenance-offering), 17 Sep 2024, accessed 12 Sep 2026. Product capability only.
+7. PepsiCo, [*AI and digital twin collaboration*](https://www.pepsico.com/newsroom/press-releases/2026/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia), 6 Jan 2026, accessed 12 Sep 2026. Customer source; rollout economics absent.
+8. Schneider Electric, [*Agentic manufacturing capabilities*](https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-unveils-next-generation-agentic-manufacturing-capabilities-powered-by-Microsoft-Azure-AI-at-Hannover-Messe-2026-69e08de2ddabef15890a48f3/), 16 Apr 2026, accessed 12 Sep 2026. Rival claim; not independently controlled.
+9. Yahoo Finance, [*SIE.DE historical data*](https://finance.yahoo.com/quote/SIE.DE/history/), 11 Sep 2026, accessed 12 Sep 2026. Quote; reconcile with alternative close display.
+10. Siemens, [*Basic data and key share figures*](https://www.siemens.com/en-us/company/investor-relations/share-bonds-rating/basic-data-key-share-figures/), accessed 12 Sep 2026. Confirms ordinary-share identity; live 2026 close not supplied.
 
 **Three decisive claims to verify:** (i) reconcile 11 September Xetra official close (€261.70 Yahoo versus €264.65 Google display); (ii) confirm the precise Healthineers distribution ratio/pro-forma FY2026 EPS before G3; (iii) verify whether any current customer contract permits Siemens to reuse operational outcomes across customers. **Strongest counterargument:** €6bn of data-center orders plus fast DI ARR growth may support earnings regardless of still-unproved AI productivity. **Blocking questions:** paid Industrial Copilot ARR/attach/renewal, controlled end-to-end results, and net model/integration cost. **Provisional disposition:** watch; G2 only, no purchase conclusion. **File written:** `research/batch-01/dossiers/07-siemens.md`.
