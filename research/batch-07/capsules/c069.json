@@ -1,0 +1,84 @@
+{
+  "id": "C069",
+  "company": "GE Aerospace",
+  "batch": 7,
+  "dossier": "research/batch-07/dossiers/070-c069-ge-aerospace.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q2 2026, published 16 July 2026",
+  "sources": [
+    {
+      "url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-announces-second-quarter-2026-results",
+      "title": "Latest results",
+      "date": "2026",
+      "opened": true,
+      "supports": "financials and operating drivers"
+    },
+    {
+      "url": "https://www.geaerospace.com/investor-relations/annual-report",
+      "title": "Annual results/report",
+      "date": "2026",
+      "opened": true,
+      "supports": "annual financial anchor"
+    },
+    {
+      "url": "https://aircraft.airbus.com/en/services/enhance/skywise",
+      "title": "Airbus Skywise",
+      "date": "undated",
+      "opened": true,
+      "supports": "substitute"
+    },
+    {
+      "url": "https://www.easa.europa.eu/en/domains/research-innovation/ai",
+      "title": "EASA AI roadmap",
+      "date": "undated",
+      "opened": true,
+      "supports": "certification constraint"
+    },
+    {
+      "url": "https://www.cfmaeroengines.com/about/",
+      "title": "CFM International",
+      "date": "undated",
+      "opened": true,
+      "supports": "joint-venture scope"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "latest profit",
+    "value": "$2.7bn segment profit",
+    "unit": "reported currency",
+    "period": "Q2 2026, published 16 July 2026",
+    "source_url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-announces-second-quarter-2026-results",
+    "caveat": "Adjusted/segment metric; mix, price, deliveries and supply confound."
+  },
+  "ai_claim": {
+    "claim": "Fleet analytics and digital monitoring support predictive maintenance and shop decisions.",
+    "stage": "E2 deployment, E1 effectiveness",
+    "source_url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-announces-second-quarter-2026-results",
+    "scope": "fleet/service workflows",
+    "limitation": "No matched risk-adjusted fleet/shop cash cohort."
+  },
+  "strongest_counterevidence": {
+    "claim": "Service volume and price drove results, while casting bottlenecks led to a proposed $11.75bn CPP acquisition funded with cash/debt; supply execution dominates near-term economics.",
+    "source_url": "https://www.geaerospace.com/news/press-releases/ge-aerospace-announces-second-quarter-2026-results",
+    "limitation": "Ordinary operating drivers block AI attribution."
+  },
+  "rights_limit": "Airline/operator, JV partner, defense and licensed technical data is contract-bound; cross-fleet training rights undisclosed.",
+  "materiality_summary": "$455m annual pre-tax (5% of FY2025 adjusted operating profit); no E4 bridge.",
+  "arithmetic": {
+    "inputs": "assumed 2bn eligible cost, 15% efficiency, 60% realization, 50% retention, 80m cost",
+    "formula": "2000*.15*.60*.50-80",
+    "result": "10m illustrative benefit, far below hurdle"
+  },
+  "confidence": {
+    "mechanism": "medium-high",
+    "deployment": "medium",
+    "capture": "low-medium"
+  },
+  "g2_provisional": "Incomplete: production analytics without controlled safety-adjusted economics.",
+  "unresolved_questions": [
+    "Operator/JV pooled-learning rights?",
+    "Matched fleet removal outcome?",
+    "Shop contribution net added capacity?"
+  ],
+  "self_check_complete": true
+}
