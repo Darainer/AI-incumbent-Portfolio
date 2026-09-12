@@ -58,6 +58,14 @@ def main():
                     row["sources"] = len({s.get("url") for s in sources if isinstance(s, dict)})
                     if row["sources"] < 4:
                         issues.append("fewer than four distinct capsule sources")
+                    placeholders = [s for s in sources if isinstance(s, dict) and re.search(
+                        r"dated or undated|effective date on page|latest available|current hub|^current$|undated/current|latest filing available",
+                        str(s.get("date", "")), re.I)]
+                    if placeholders:
+                        issues.append("source dates contain unresolved template placeholders")
+                    anchor = cap.get("financial_anchor", {})
+                    if re.search(r"sector-appropriate|latest revenue and profitability", str(anchor.get("metric", "")), re.I):
+                        issues.append("financial anchor needs an exact metric, not template wording")
                     if not cap.get("self_check_complete"):
                         issues.append("agent self-check incomplete")
                     if len(body.split()) < 700:
