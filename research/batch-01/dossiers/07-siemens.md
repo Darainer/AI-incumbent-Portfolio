@@ -56,7 +56,7 @@ Competitively, Schneider’s [2026 Azure AI industrial-copilot release](https://
 
 | Claim | Type | Source/date; section | Scope / stage | Confounder |
 |---|---|---|---|---|
-| FY2025 revenue €78.9bn, IB profit €11.8bn, continuing FCF €11.0bn | Fact | Siemens Report, 1 Dec 2025, pp. 15–21 | Audited group; E4 conventional | Segment profit differs from IFRS operating profit |
+| FY2025 revenue €78.9bn, IB profit €11.8bn, continuing FCF €11.0bn | Fact | Siemens Report, 1 Dec 2025, pp. 15–21 | Audited financial baseline; AI ladder not applicable | Segment profit differs from IFRS operating profit |
 | Q3 FY2026 IB profit €3.5bn and FCF €4.1bn | Fact | Q3 release, 6 Aug 2026, key figures | Group quarter; conventional | Mix, volume, FX, restructuring |
 | SI nine-month data-center orders about €6bn | Management fact | Q3 release, data-center paragraph | Direct AI-capex exposure; E2 demand | Does not evidence own/customer productivity |
 | DI organic ARR €5.7bn, +11% | Management fact | Q3 release, DI paragraph | Monetization channel | AI attach/price/renewal not isolated |
@@ -76,7 +76,7 @@ Minimum promotion threshold: a credible five-year path to **€0.59bn annual net
 | Mean time to resolve / downtime hours | Same asset classes before/after or randomized rollout | Connected assets with usable documentation | Uptime, false action, safety incidents | Unknown | Named scaled customer with 12-month data |
 | AI software ARR, attach and net retention | Existing DI ARR excluding acquisitions | Eligible TIA/Xcelerator customers | Gross margin after model/integration support | Not disclosed | FY2026 annual report / capital-markets update |
 
-Illustrative cost route: `€4.0bn eligible customer/internal workflow economics × 20% efficiency × 60% realization × 50% Siemens retained share − €0.15bn recurring AI expense = €0.09bn`, only 0.8% of FY2025 IB profit. To reach €0.59bn on those assumptions requires about **€8.3bn eligible cost pool** (`(0.59+0.15)/(0.20×0.60×0.50)`). Inputs are assumptions, not forecasts. A revenue route could be larger, but must disclose incremental ARR, contribution margin, cannibalization and model cost; current evidence does not.
+Illustrative **internal-cost** route: `€4.0bn eligible Siemens cost × 20% efficiency × 60% realization × 50% retained share − €0.15bn recurring AI expense = €0.09bn`, only 0.8% of FY2025 IB profit. To reach €0.59bn on those assumptions requires about **€12.33bn eligible Siemens cost pool** (`(0.59+0.15)/(0.20×0.60×0.50)`). Inputs are assumptions, not forecasts. Customer productivity belongs in a separate revenue route: Siemens must disclose incremental AI ARR, contribution margin, cannibalization and model cost rather than treating customer savings as Siemens costs; current evidence does not.
 
 ## Valuation and reverse valuation
 
@@ -105,7 +105,7 @@ Falsifiers: (1) no disclosure by FY2027 of scaled paid AI ARR/attach or named re
 | Distribution | 5 | 5 | TIA/Xcelerator/service channels and ARR verified |
 | Capture | 4 | 3 | Monetization channel exists; incremental AI price/margin absent |
 
-Revised structural score: **74/100** (capture-30%/feedback-5% sensitivity: 72/100), versus 87 prior. **G0 pass. G1 pass with acquisition/perimeter monitoring. G2 narrow pass** on E2 named deployments and a credible measurable path, though 5% materiality is not evidenced. **G3 conditional/blocked from promotion** because quote inputs are usable but Healthineers pro-forma earnings and distribution terms are unresolved. **G4 not assessed.** Confidence: mechanism moderate-high; deployment moderate; capture low; valuation low-moderate.
+Revised structural score: **73/100** (capture-30%/feedback-5% sensitivity: 75/100), versus 87 prior. **G0 pass. G1 pass with acquisition/perimeter monitoring. G2 narrow pass** on E2 named deployments and a credible measurable path, though 5% materiality is not evidenced. **G3 conditional/blocked from promotion** because quote inputs are usable but Healthineers pro-forma earnings and distribution terms are unresolved. **G4 not assessed.** Confidence: mechanism moderate-high; deployment moderate; capture low; valuation low-moderate.
 
 Peer/inaction alternative: compare Schneider’s more concentrated electrification exposure and ABB/Rockwell’s automation channels after equivalent evidence; wait for pro-forma Healthineers terms and paid AI cohort economics.
 
