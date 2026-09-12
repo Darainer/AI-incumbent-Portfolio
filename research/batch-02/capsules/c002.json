@@ -1,0 +1,20 @@
+{
+  "id":"C002","company":"Roche","batch":2,"dossier":"research/batch-02/dossiers/014-c002-roche.md","cutoff":"2026-09-12","latest_financial_period":"H1 2026, published 2026-07-23",
+  "sources":[
+    {"url":"https://assets.roche.com/f/176343/x/8a0b362d66/hy26e.pdf","title":"Half-Year Report 2026","date":"2026-07-23","opened":true,"supports":"latest financials"},
+    {"url":"https://www.roche.com/media/releases/med-cor-2026-03-16","title":"Roche launches NVIDIA AI factory","date":"2026-03-16","opened":true,"supports":"production compute deployment"},
+    {"url":"https://www.roche.com/media/releases/med-cor-2026-05-07","title":"PathAI acquisition agreement","date":"2026-05-07","opened":true,"supports":"digital-pathology strategy and existing partnership"},
+    {"url":"https://arxiv.org/abs/2506.13063","title":"PRISM2","date":"2025-06-16","opened":true,"supports":"retrospective pathology capability"},
+    {"url":"https://www.paige.ai/resources/paige-introduces-prism","title":"Paige introduces PRISM","date":"2024","opened":true,"supports":"credible entrant and model diffusion"}
+  ],
+  "financial_anchor":{"metric":"core operating profit","value":11900,"unit":"CHF million","period":"H1 2026","source_url":"https://assets.roche.com/f/176343/x/8a0b362d66/hy26e.pdf","caveat":"Adjusted; +10% CER but -1% reported in CHF. IFRS operating profit was CHF9.7bn; FCF CHF4.2bn and net debt CHF22.071bn."},
+  "ai_claim":{"claim":"Roche has deployed a 2,176-GPU AI estate and has an existing PathAI partnership intended for digital pathology and companion diagnostics.","stage":"E2 infrastructure/partnership evidence only","source_url":"https://www.roche.com/media/releases/med-cor-2026-03-16","scope":"R&D compute and partnered pathology platform","limitation":"Infrastructure is an input. Paige-led PRISM benchmarks are external competitor evidence, not Roche outcomes; no prospective productivity or retained cash result."},
+  "strongest_counterevidence":{"claim":"Pathology foundation models from Paige and academia show model capability can diffuse, while Roche still had to agree up to $1.05bn for PathAI.","source_url":"https://www.roche.com/media/releases/med-cor-2026-05-07","limitation":"Regulated workflow integration and distribution may remain scarce even if models diffuse."},
+  "rights_limit":"Patient, laboratory, slide and report rights are contract/consent specific; acquisition does not establish unrestricted pooled training rights.",
+  "materiality_summary":"Five percent of H1 core operating profit is CHF595m for six months, or CHF1.19bn/year if mechanically annualized. Illustrative pathology contribution is CHF152m/year. A separate R&D present-value illustration cannot be used to fill the annual gap.",
+  "arithmetic":{"inputs":"Annualized scale proxy CHF11.9bn×2×5%; pathology 20,000×CHF100k×40%×45%×70%−CHF100m/year; separate R&D PV 15×CHF250m×15%×80%","formula":"hurdle=1,190; pathology=152; R&D_PV=450","result":"CHF1.19bn/year hurdle; CHF152m/year pathology; CHF450m one-time R&D PV, not directly comparable"},
+  "confidence":{"mechanism":"medium-high","deployment":"medium","capture":"low-medium"},
+  "g2_provisional":"Insufficient/provisional: Roche has E2 infrastructure and partnership evidence only; external Paige benchmarks cannot support Roche. Quality-adjusted production and cash capture are absent.",
+  "unresolved_questions":["What data licenses transfer with PathAI?","Which sites and case types use algorithms in production?","Which drug programmes were materially AI-selected?"],
+  "self_check_complete":true
+}
