@@ -1,14 +1,16 @@
 # Intuit (C037) — initial dossier
 
-**Status:** unreviewed research-agent work; lead judgment required.  
-**Security:** Intuit Inc. common stock, Nasdaq: INTU, USD; reporting currency USD. No ADR or share-class adjustment.  
-**Cutoff / retrieval date:** 12 September 2026. Latest business period is FY2026 ended 31 July 2026; 10-K filed 9 September 2026. Price is the 11 September 2026 close.  
+> Lead review complete. The [lead judgment](../lead-review.md) governs dispositions, scores and gates; provisional agent views below are retained for traceability.
+
+**Status:** research-agent packet; lead reviewed 12 September 2026.  
+**Security:** Intuit Inc. common stock, Nasdaq: INTU; quote/reporting currency USD.  
+**Cutoff / retrieval date:** 12 September 2026. FY2026 ended 31 July 2026; 10-K filed 9 September. Price is the 11 September close.  
 **Industry:** vertical software and financial administration (I02).  
-**Provisional conclusion:** The ordinary business is profitable, cash-generative and still growing without assuming any *additional* AI uplift. Intuit has E2 production deployment and one useful payment-reminder association, but no disclosed cohort bridge from AI use to retention, net revenue, or cash contribution. At $321.57, the shares imply roughly 7% FY2027–31 EPS growth under a 10% return hurdle and 18× terminal P/E; that is less demanding than the historical growth record but still exposed to Mailchimp stagnation, tax-unit contraction, model cost, and interface competition. Provisional disposition: **watch; G3 remains blocked pending valuation-input audit**.
+**Provisional conclusion:** The ordinary business is profitable, cash-generative and still growing without assuming any *additional* AI uplift. Intuit has E2 production deployment and one useful payment-reminder association, but no disclosed cohort bridge from AI use to retention, net revenue, or cash contribution. At $321.57, the shares imply roughly 7% FY2027–31 EPS growth under a 10% return hurdle and 18× terminal P/E, with exposure to Mailchimp stagnation, tax-unit contraction, model cost, and interface competition. Provisional disposition: **watch; G3 remains blocked pending valuation-input audit**.
 
 ## Conventional business and financial resilience
 
-Intuit sells tax preparation, accounting, payroll, payments, marketing and consumer-finance matching products. Effective FY2026 it reports Global Business Solutions (GBS: QuickBooks and Mailchimp) and Consumer (TurboTax, Credit Karma and ProTax); Mailchimp becomes a separate segment in FY2027. The subscription/system-of-record role, accountant channel and payment/payroll rails create recurring engagement. However, only 8% of revenue was international, and U.S. tax policy and filing behavior remain concentrated risks.
+Intuit sells tax preparation, accounting, payroll, payments, marketing and consumer-finance matching products. FY2026 segments are Global Business Solutions (GBS: QuickBooks and Mailchimp) and Consumer (TurboTax, Credit Karma and ProTax); Mailchimp separates in FY2027. The system-of-record role, accountant channel and payment/payroll rails create recurring engagement. Only 8% of revenue was international, leaving U.S. tax-policy concentration.
 
 The [FY2026 10-K](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000037/intu-20260731.htm) shows a strong baseline: revenue grew 14%, GAAP operating profit 20%, and diluted EPS 20%. GBS revenue was $12.864bn and Consumer $8.584bn. QuickBooks Online Accounting grew 23% to $5.051bn, while the more mature desktop ecosystem still produced $2.946bn. Consumer quality is mixed: TurboTax revenue rose 7% despite total U.S. units falling 2%, Credit Karma rose 20%, and TurboTax Live rose 37% to 53% of TurboTax revenue. These results already include deployed AI and pricing; they are the zero-*additional*-AI baseline. FY2027 guidance signals deceleration: total revenue growth falls to 9–10%, TurboTax to 2–3%, and Mailchimp to −1% to flat.
 
@@ -20,9 +22,9 @@ The [FY2026 10-K](https://investors.intuit.com/sec-filings/all-sec-filings/conte
 | Operating cash flow | 4,884 | 6,207 | 8,838 | FY2026 boosted by working-capital/funds movements; not equal to recurring owner earnings |
 | Property/equipment purchases | 191 | 84 | 175 | Simple FCF = OCF − PP&E purchases = $8.663bn; interpretation constrained by customer-funds flows |
 
-At 31 July 2026, cash plus investments were $7.2bn and debt $7.7bn, approximately $0.5bn net debt; customer funds are segregated from the operating bridge. FY2026 repurchases were $5.5bn and reduced weighted diluted shares 2% despite stock compensation; dividends were $1.2bn. GAAP stock compensation was $2.056bn, a material 35% of GAAP operating income, so adjusted results that formerly excluded it overstated economic profitability. Management appropriately changed FY2027 non-GAAP reporting to include stock compensation.
+At 31 July 2026, cash plus investments were $7.2bn and debt $7.7bn; customer funds are segregated. FY2026 repurchases of $5.5bn reduced weighted diluted shares 2% despite stock compensation. GAAP stock compensation was $2.056bn, 35% of operating income. FY2027 non-GAAP reporting now includes stock compensation, so FY2026 non-GAAP EPS of $24.27 is **not comparable** with FY2027 non-GAAP guidance.
 
-The [25 August 2026 results release](https://investors.intuit.com/news-events/press-releases/detail/1320/intuit-reports-fourth-quarter-and-full-year-fiscal-2026-results-sets-fiscal-2027-guidance) guides FY2027 revenue to $23.279–23.512bn (+9–10%), GAAP operating income to $7.408–7.490bn (+26–27%) and GAAP EPS to $20.12–20.36 (+22–24%). The unusually large profit step includes restructuring effects: the 10-K records a $293m FY2026 charge under a May 2026 plan, estimates $315m total cost, and says the plan reduces the full-time workforce. Mailchimp guidance is −1% to flat, a clear adverse signal within the portfolio. Management also highlights tax competition and government encroachment, AI accuracy, privacy, cyber risk, customer lending exposure and model/vendor reliance.
+The [25 August 2026 results](https://investors.intuit.com/news-events/press-releases/detail/1320/intuit-reports-fourth-quarter-and-full-year-fiscal-2026-results-sets-fiscal-2027-guidance) guide FY2027 revenue to $23.279–23.512bn, GAAP operating income to $7.408–7.490bn and GAAP EPS to $20.12–20.36. The profit step includes restructuring effects: the 10-K records a $293m FY2026 charge and estimates $315m total plan cost. Mailchimp guidance is −1% to flat. Other risks include tax competition, AI accuracy, privacy, cyber exposure and model reliance.
 
 ## Scarce asset and data-rights audit
 
@@ -34,7 +36,7 @@ The [25 August 2026 results release](https://investors.intuit.com/news-events/pr
 | Mailchimp campaign/content/engagement data | Customer and recipients | Tenant-specific | Service delivery and analytics | Cross-customer training/benchmark rights unknown | Opens/clicks/conversions are frequent but privacy changes impair observation | HubSpot, Salesforce and independent agents connect to the same channels |
 | Intuit tax code, workflow software and expert playbooks | Intuit/licensed public law; experts contribute | Software/integration proprietary; statutes public | Full product use | Internal code and operational learnings likely usable; exact rights to expert/customer content unknown | High-quality workflow constraints; tax changes cause drift | Rivals can encode public rules; trust/distribution and integrations take longer to replicate |
 
-The asset case is therefore workflow context and execution permission, not an established proprietary training corpus. The 10-K says Intuit serves about 93m customers and uses third parties that may receive customer data. It also warns that errors can prevent accurate, timely processing. These are advantages of distribution and integration, accompanied by liability and supplier risk.
+The asset is workflow context and execution permission, not a proven proprietary training corpus. Intuit serves about 93m customers, uses third parties that may receive customer data, and warns that processing errors can harm results. Distribution comes with liability and supplier risk.
 
 ## Mechanisms, deployment and competition
 
@@ -44,9 +46,9 @@ The scarce asset is live ledger/invoice/customer history plus permission to send
 
 **2. TurboTax AI plus human expert service (assistance with limited execution).** Tax rules, prior returns and expert review can reduce interview friction, route complex cases and raise TurboTax Live attachment. Live’s 37% FY2026 growth and 53% revenue share show commercial migration, but do not isolate AI from marketing, price/mix or human service. Total TurboTax units fell 2%, so higher revenue may coexist with weaker volume and rising labor/service cost. Evidence is E2 for platform availability and aggregate adoption, E0–E1 for incremental AI economics.
 
-**3. Internal development and service productivity (agentic internal workflow).** [Intuit’s technology page](https://www.intuit.com/technology/) describes GenOS and agents across design, coding, testing, deployment and operations. The FY2026 restructuring and 27% FY2027 GAAP operating-income guidance create a plausible cost channel, yet restructuring, mix, pricing and lapping charges confound attribution. There is no controlled completed-output or quality result and no recurring AI cost disclosure: E1.
+**3. Internal productivity (agentic workflow).** [Intuit’s technology page](https://www.intuit.com/technology/) describes GenOS across coding, testing and operations. Restructuring, mix, pricing and lapping charges confound FY2027 margin expansion. No controlled output, quality result or recurring AI cost is disclosed: E1.
 
-Competition is direct. [Xero’s 20 August 2026 release](https://www.xero.com/us/media-releases/new-ai-innovations-xerocon-denver/) reports more than 100m transactions auto-reconciled and roughly 50% monthly bank-reconciliation time saved, plus early-access month-end agents and integrations with Claude, Microsoft 365 and ChatGPT. This is company-reported E2 and survey/measurement-limited, but it disproves uniqueness. Xero also reports 5m customers and over 1,000 certified apps. Generic agents can query ledgers through APIs; accountants can combine Xero or QuickBooks with Claude/Microsoft tools. Intuit’s defensive edge is its U.S. installed base, payments/payroll execution and expert network. Its vulnerability is that an external agent owns the interaction while treating QuickBooks as a replaceable ledger.
+[Xero’s 20 August 2026 release](https://www.xero.com/us/media-releases/new-ai-innovations-xerocon-denver/) reports more than 100m transactions auto-reconciled, roughly 50% reconciliation time saved, early-access month-end agents and integrations with Claude, Microsoft 365 and ChatGPT. This company-reported E2 disproves uniqueness. Generic agents can query ledgers through APIs. Intuit’s defense is its U.S. base, execution rails and experts; its vulnerability is an external agent that owns interaction and treats QuickBooks as a replaceable ledger.
 
 ## Evidence ledger
 
@@ -72,7 +74,7 @@ Competition is direct. [Xero’s 20 August 2026 release](https://www.xero.com/us
 | Total spend and retention after agents | Pre-agent cohort / randomized holdout | Customers offered agents | Include downgrades, seat/expert cannibalization, inference and support | Unknown; FY2027 GBS growth and cohort disclosure are next events |
 | AI contribution margin | No-agent product economics | AI-active accounts | Fully loaded model, human review, implementation and liability cost | Unknown |
 
-The research hurdle is an assumed 5% of normalized FY2026 GAAP operating profit, or **$294m annual net operating benefit** within five years. Illustrative cost bridge: if $3.0bn of service, support and product-development cost is eligible, 15% task efficiency × 60% realization × 50% retained share − $100m recurring AI cost = **$35m**, only 0.6% of operating profit. A stronger 25% × 75% × 70% − $100m = **$294m**, exactly the hurdle. Thus modest time savings are insufficient; Intuit needs broad workload eligibility, real capacity conversion and/or revenue capture.
+The research hurdle is an assumed 5% of normalized operating profit. FY2026 reported GAAP operating profit provides a scale proxy of **$294m annual net operating benefit** within five years, pending normalization. Illustrative cost bridge: if $3.0bn of service, support and product-development cost is eligible, 15% task efficiency × 60% realization × 50% retained share − $100m recurring AI cost = **$35m**, only 0.6% of operating profit. A stronger 25% × 75% × 70% − $100m = **$294m**, exactly the hurdle. Thus modest time savings are insufficient; Intuit needs broad workload eligibility, real capacity conversion and/or revenue capture.
 
 A revenue route may be more plausible: on $12.864bn GBS revenue, a 3% incremental revenue lift at a 75% contribution margin, less $100m serving/cannibalization cost, yields **$189m**. Reaching $294m needs about 4.1% incremental GBS revenue at those economics. Neither requirement is established by current disclosures.
 
@@ -92,9 +94,9 @@ Formula: terminal value = $20.24 × (1+g)^4 × terminal P/E; discount terminal v
 
 ## Risks, falsifiers and alternative
 
-Strongest positive hypothesis: Intuit’s ledger, payments, payroll, tax workflow and expert network let agents complete financially consequential work under existing permissions, raising price/retention and transaction gross profit faster than model, support and seat costs.
+Positive hypothesis: Intuit’s ledger, execution rails, tax workflow and experts let agents complete consequential work, raising price/retention and transaction profit faster than model and support costs.
 
-Strongest negative hypothesis: ledgers become interchangeable back ends while generic agents and accountants own the customer interface. Intuit absorbs high inference and verification costs, automates away expert/seat revenue, and competes through price. Xero’s similar agents and open integrations make this credible.
+Negative hypothesis: generic agents own the interface while ledgers become interchangeable. Intuit absorbs inference and verification costs, cannibalizes expert/seat revenue and competes through price. Xero makes this credible.
 
 Falsifiers:
 
@@ -102,7 +104,7 @@ Falsifiers:
 2. Xero or cross-vendor agents match completion quality while customers increasingly access QuickBooks only through third-party interfaces and Intuit’s effective price falls.
 3. Conventional failure: Mailchimp declines for two years, TurboTax units keep contracting and GBS growth falls below high single digits despite buybacks.
 
-The peer alternative is Xero for direct product comparison; waiting for disclosed cohort economics is rational. At the current valuation Intuit does not require heroic growth, but evidence does not justify treating AI upside as cash-certain.
+Xero is the direct product alternative. Waiting for cohort economics is rational: current evidence does not make AI cash-certain.
 
 ## Priors, revisions, gates and confidence
 
@@ -123,24 +125,22 @@ Revised structural score is **80/100** (prior 91). Capture-heavy sensitivity (ca
 | G1 qualified business | Pass, moderate confidence | Profitable recurring franchise, low net debt; rights scope still incomplete |
 | G2 operating thesis | Pass, low/moderate | E2 rollout, payment association and measurable route to stronger controlled evidence |
 | G3 valued opportunity | Blocked | Dated price and scenarios exist, but point share count, normalized FCF and abrupt price repricing need audit |
-| G4 portfolio eligible | Blocked | No portfolio sizing/correlation work; capture evidence below E4 |
+| G4 portfolio eligible | Blocked | G3 incomplete; no portfolio sizing/correlation work |
 
 Confidence: **mechanism high; deployment moderate; capture low; valuation moderate-low**.
 
 ## Source register
 
-All sources accessed 12 September 2026.
-
-1. Intuit, [FY2026 Form 10-K](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000037/intu-20260731.htm), filed 9 Sep 2026, especially Business, Risk Factors, MD&A, financial statements and Notes 11/14/15. Primary audited source; AI attribution not disclosed.
-2. Intuit, [Q4/FY2026 results and FY2027 guidance](https://investors.intuit.com/news-events/press-releases/detail/1320/intuit-reports-fourth-quarter-and-full-year-fiscal-2026-results-sets-fiscal-2027-guidance), 25 Aug 2026. Primary but guidance and causal explanations are management claims.
-3. Intuit, [AI agents launch](https://investors.intuit.com/news-events/press-releases/detail/1258/intuit-introduces-ground-breaking-virtual-team-of-ai-agents-to-fuel-growth-for-businesses), 1 Jul 2025. Primary product/deployment source; outcome samples and economics undisclosed.
-4. Intuit, [Data stewardship principles](https://www.intuit.com/privacy/data-stewardship-principles/), undated. Primary policy; not a product-specific training-rights contract.
-5. Intuit, [Technology / GenOS](https://www.intuit.com/technology/), undated. Primary capability description; no controlled productivity measurement.
-6. Xero, [AI innovations at Xerocon US](https://www.xero.com/us/media-releases/new-ai-innovations-xerocon-denver/), 20 Aug 2026. Primary challenger evidence; effectiveness claims not independently audited.
-7. Xero, [Xerocon London / five million customers](https://www.xero.com/us/media-releases/xero-announces-new-ai-innovations-xerocon-london/), 9 Jul 2026. Challenger scale and roadmap; many features were future tense.
-8. MarketWatch, [INTU 11 September close](https://www.marketwatch.com/data-news/intuit-inc-stock-outperforms-competitors-on-strong-trading-day-a32c9d2e-89642996b522), 11 Sep 2026. Secondary dated quote; cross-checked against work-mode market feed.
-9. Intuit, [TurboTax product page](https://turbotax.intuit.com/), retrieved 12 Sep 2026. Current product/pricing scope; marketing source.
-10. IRS, [E-file free options](https://www.irs.gov/e-file-do-your-taxes-for-free), updated 2026. Primary substitute/distribution evidence; not a full assessment of tax-software share.
+1. Intuit, [FY2026 Form 10-K](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000037/intu-20260731.htm), filed 9 Sep 2026, Business, Risk Factors, MD&A and Notes 11/14/15; audited, but no AI attribution.
+2. Intuit, [Q4/FY2026 results and FY2027 guidance](https://investors.intuit.com/news-events/press-releases/detail/1320/intuit-reports-fourth-quarter-and-full-year-fiscal-2026-results-sets-fiscal-2027-guidance), 25 Aug 2026; management guidance.
+3. Intuit, [AI agents launch](https://investors.intuit.com/news-events/press-releases/detail/1258/intuit-introduces-ground-breaking-virtual-team-of-ai-agents-to-fuel-growth-for-businesses), 1 Jul 2025; samples/economics undisclosed.
+4. Intuit, [Data stewardship principles](https://www.intuit.com/privacy/data-stewardship-principles/), undated; not product-specific terms.
+5. Intuit, [Technology / GenOS](https://www.intuit.com/technology/), undated; capability only.
+6. Xero, [AI innovations at Xerocon US](https://www.xero.com/us/media-releases/new-ai-innovations-xerocon-denver/), 20 Aug 2026; unaudited challenger claims.
+7. Xero, [Xerocon London](https://www.xero.com/us/media-releases/xero-announces-new-ai-innovations-xerocon-london/), 9 Jul 2026; scale and roadmap.
+8. MarketWatch, [INTU dated close](https://www.marketwatch.com/data-news/intuit-inc-stock-outperforms-competitors-on-strong-trading-day-a32c9d2e-89642996b522), 11 Sep 2026; secondary quote.
+9. Intuit, [TurboTax product page](https://turbotax.intuit.com/), retrieved 12 Sep 2026; marketing source.
+10. IRS, [E-file free options](https://www.irs.gov/e-file-do-your-taxes-for-free), updated 2026; substitute evidence.
 
 ## Handoff for lead review
 
