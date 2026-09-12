@@ -1,0 +1,84 @@
+{
+  "id": "C024",
+  "company": "DBS Group",
+  "batch": 4,
+  "dossier": "research/batch-04/dossiers/036-c024-dbs-group.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "H1/Q2 2026",
+  "sources": [
+    {
+      "url": "https://www.dbs.com/iwov-resources/images/investors/quarterly-financials/2026/2Q26_CFO_presentation.pdf",
+      "title": "H1/Q2 2026 issuer results",
+      "date": "2026",
+      "opened": true,
+      "supports": "latest interim financial update"
+    },
+    {
+      "url": "https://www.dbs.com/investors/financials/annual-reports",
+      "title": "Annual report / financial results",
+      "date": "2024",
+      "opened": true,
+      "supports": "latest financial anchor used in packet"
+    },
+    {
+      "url": "https://www.dbs.com/artificial-intelligence-machine-learning/default.page",
+      "title": "Company technology / AI evidence",
+      "date": "undated",
+      "opened": true,
+      "supports": "AI capability or deployment claim"
+    },
+    {
+      "url": "https://www.dbs.com/privacy/default.page",
+      "title": "Privacy / data policy",
+      "date": "undated",
+      "opened": true,
+      "supports": "rights constraints"
+    },
+    {
+      "url": "https://www.ocbc.com/group/investors/annual-reports.page",
+      "title": "OCBC reporting",
+      "date": "undated",
+      "opened": true,
+      "supports": "incumbent challenger evidence"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "net profit",
+    "value": 11.0,
+    "unit": "SGD billion",
+    "period": "FY2025",
+    "source_url": "https://www.dbs.com/investors/financials/annual-reports",
+    "caveat": "S$11.4bn net profit with approximately 18% ROE; measure may be adjusted or a labelled scale proxy and is not normalized."
+  },
+  "ai_claim": {
+    "claim": "DBS Group describes scoped AI/digital mechanisms in fraud and scam detection over transaction networks, credit and risk decision support using repayment outcomes.",
+    "stage": "E1; E2 only where management explicitly reports production use",
+    "source_url": "https://www.dbs.com/artificial-intelligence-machine-learning/default.page",
+    "scope": "fraud loss per transaction, vintage default at fixed approval mix, service resolution cost, CET1 and risk-adjusted return",
+    "limitation": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+  },
+  "strongest_counterevidence": {
+    "claim": "OCBC and digital banks and payment platforms can replicate tools or force gains through to customers.",
+    "source_url": "https://www.ocbc.com/group/investors/annual-reports.page",
+    "limitation": "Competitive capability does not by itself prove equal outcomes."
+  },
+  "rights_limit": "Bank secrecy, consent and purpose limitation constrain account data. Customer-specific inference may be permissible for service/risk, while unrestricted pooled generative training is not established.",
+  "materiality_summary": "The labelled 5% scale hurdle is S$570m; public evidence does not establish it.",
+  "arithmetic": {
+    "inputs": "5%\u00d7S$11",
+    "formula": "5%\u00d7S$11.4bn net profit=S$570m. A S$3bn eligible expense pool\u00d710%\u00d760%\u00d750%\u2212S$60m recurring cost=S$30m; larger benefit would require demonstrable fraud/credit gains without relaxing approvals.",
+    "result": "Illustrative bridge remains below or must be compared with S$570m; not a forecast."
+  },
+  "confidence": {
+    "mechanism": "medium",
+    "deployment": "low-to-medium",
+    "capture": "low"
+  },
+  "g2_provisional": "Open: E1/E2 evidence supports measurement, but E3 quality-adjusted causality and E4 cash retention are not established.",
+  "unresolved_questions": [
+    "What share of eligible workload is in production?",
+    "What controlled quality-adjusted KPI result exists?",
+    "What do contracts permit for pooled learning and how much benefit is retained after recurring cost?"
+  ],
+  "self_check_complete": true
+}
