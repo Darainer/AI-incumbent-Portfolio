@@ -2,7 +2,7 @@
 
 **Cutoff: 12 September 2026 · Scope: 100 companies.**
 
-Packets available: **10/100**. Lead accepted: **10/100**. Remaining acceptance: **90/100**.
+Packets available: **16/100**. Lead accepted: **11/100**. Remaining acceptance: **89/100**.
 
 The user requested evidence coverage before explicit comparative ranking and detailed bear/base/bull cases. The [coverage contract](coverage-instructions.md) governs batches 02–10. Batch-one valuation work is preserved as an earlier provisional pass; it is not the final universe ranking.
 
@@ -11,7 +11,7 @@ A completed evidence packet may conclude that AI proof is weak or unavailable. L
 | Batch | Companies | Lead acceptance |
 |---|---|---|
 | [01](batch-01/README.md) | Original first ten priority names | 10/10 reviewed |
-| [02](batch-02/README.md) | Visa, JPMorgan Chase, Sanofi, Roche, AstraZeneca, Linde, Deere, Amazon, Novartis, Novo Nordisk | 0/10 |
+| [02](batch-02/README.md) | Visa, JPMorgan Chase, Sanofi, Roche, AstraZeneca, Linde, Deere, Amazon, Novartis, Novo Nordisk | 1/10 |
 | [03](batch-03/README.md) | Eli Lilly, Siemens Healthineers, Medtronic, Intuitive Surgical, Thermo Fisher Scientific, Danaher, IQVIA, HCA Healthcare, UnitedHealth Group, Swiss Re | 0/10 |
 | [04](batch-04/README.md) | Allianz, Progressive, AIA Group, BlackRock, Manulife, DBS Group, ICICI Bank, Mastercard, Adyen, S&P Global | 0/10 |
 | [05](batch-05/README.md) | Moody's, London Stock Exchange Group, Intercontinental Exchange, Veeva Systems, Constellation Software, ADP, ServiceNow, Salesforce, Synopsys, Cadence Design Systems | 0/10 |
