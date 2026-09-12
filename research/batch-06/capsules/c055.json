@@ -1,0 +1,77 @@
+{
+  "id": "C055",
+  "company": "Accenture",
+  "batch": 6,
+  "dossier": "research/batch-06/dossiers/059-c055-accenture.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "Q3 FY2026 ended 31 May 2026, published 18 June 2026",
+  "sources": [
+    {
+      "url": "https://newsroom.accenture.com/news/2026/accenture-reports-third-quarter-fiscal-2026-results",
+      "title": "Latest results",
+      "date": "2026",
+      "opened": true,
+      "supports": "financial and AI metrics"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737325000036/acn-20250831.htm",
+      "title": "Annual filing/results",
+      "date": "2025/2026",
+      "opened": true,
+      "supports": "business and financial context"
+    },
+    {
+      "url": "https://www.microsoft.com/licensing/terms/productoffering/MicrosoftAzure/MCA",
+      "title": "Microsoft Azure terms",
+      "date": "current at cutoff",
+      "opened": true,
+      "supports": "supplier rights boundary"
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/responsible-use",
+      "title": "GitHub Copilot responsible use",
+      "date": "undated",
+      "opened": true,
+      "supports": "substitute and quality limitations"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "latest revenue",
+    "value": "$18.7bn",
+    "unit": "reported currency",
+    "period": "Q3 FY2026 ended 31 May 2026, published 18 June 2026",
+    "source_url": "https://newsroom.accenture.com/news/2026/accenture-reports-third-quarter-fiscal-2026-results",
+    "caveat": "Quarterly/run-rate and currency/acquisition confounders; see dossier."
+  },
+  "ai_claim": {
+    "claim": "fiscal-2025 generative-AI bookings of $5.9bn",
+    "stage": "E2 commercial metric",
+    "source_url": "https://newsroom.accenture.com/news/2026/accenture-reports-third-quarter-fiscal-2026-results",
+    "scope": "company-defined AI services",
+    "limitation": "bookings are signed demand, not revenue or profit; no net contribution."
+  },
+  "strongest_counterevidence": {
+    "claim": "An $865m restructuring program, discretionary IT-budget pressure and a Q3 FY2026 growth-outlook reduction overlap with AI investment.",
+    "source_url": "https://newsroom.accenture.com/news/2026/accenture-reports-third-quarter-fiscal-2026-results",
+    "limitation": "Does not quantify AI-attributable impact."
+  },
+  "rights_limit": "Client code/data is SOW/NDA-bound; cross-client training, generated-IP and model-provider retention vary by contract.",
+  "materiality_summary": "No reliable normalized profit denominator extracted; formula and illustrative bridge provided.",
+  "arithmetic": {
+    "inputs": "assumed $10bn eligible labor, 15% efficiency, 50% realization, 30% retention, $300m cost",
+    "formula": "10000*.15*.50*.30-300",
+    "result": "-$75m illustrative; billable-hours/client sharing decisive"
+  },
+  "confidence": {
+    "mechanism": "high",
+    "deployment": "medium",
+    "capture": "low"
+  },
+  "g2_provisional": "Incomplete: E2 activity/commercial evidence without controlled contribution after cannibalization.",
+  "unresolved_questions": [
+    "AI gross margin net legacy erosion?",
+    "Client-data reuse rights?",
+    "Accepted-output cohort results?"
+  ],
+  "self_check_complete": true
+}
