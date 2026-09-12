@@ -1,0 +1,84 @@
+{
+  "id": "C086",
+  "company": "LVMH",
+  "batch": 9,
+  "dossier": "research/batch-09/dossiers/086-c086-lvmh.md",
+  "cutoff": "2026-09-12",
+  "latest_financial_period": "H1 2026",
+  "sources": [
+    {
+      "url": "https://www.lvmh.com/en/publications/accelerating-growth-in-the-second-quarter-solid-first-half-results",
+      "title": "H1 2026 issuer financial update",
+      "date": "2026",
+      "opened": true,
+      "supports": "profit from recurring operations of \u20ac8.7bn and a 22.5% margin. LVMH and Google Cloud describe a strategic AI/cloud partnership, an E1 capability and rollout claim; no controlled ma"
+    },
+    {
+      "url": "https://www.lvmh.com/en/investors/publications",
+      "title": "Annual report / financial results",
+      "date": "2025",
+      "opened": false,
+      "supports": "latest financial anchor used in packet"
+    },
+    {
+      "url": "https://www.lvmh.com/en/news-lvmh/lvmh-and-google-cloud-strengthen-their-strategic-partnership",
+      "title": "Company technology / AI evidence",
+      "date": "undated",
+      "opened": false,
+      "supports": "AI capability or deployment claim"
+    },
+    {
+      "url": "https://www.lvmh.com/en/personal-data",
+      "title": "Privacy / data policy",
+      "date": "undated",
+      "opened": false,
+      "supports": "rights constraints"
+    },
+    {
+      "url": "https://www.kering.com/en/finance/publications/",
+      "title": "Kering reporting",
+      "date": "undated",
+      "opened": false,
+      "supports": "incumbent challenger evidence"
+    }
+  ],
+  "financial_anchor": {
+    "metric": "profit from recurring operations",
+    "value": 17.8,
+    "unit": "EUR billion",
+    "period": "FY2025",
+    "source_url": "https://www.lvmh.com/en/investors/publications",
+    "caveat": "about \u20ac18bn profit from recurring operations scale; measure may be adjusted or a labelled scale proxy and is not normalized."
+  },
+  "ai_claim": {
+    "claim": "LVMH describes scoped AI/digital mechanisms in localized demand/allocation and clienteling analytics, generative assistance for marketing and internal knowledge.",
+    "stage": "E1; E2 only where management explicitly reports production use",
+    "source_url": "https://www.lvmh.com/en/news-lvmh/lvmh-and-google-cloud-strengthen-their-strategic-partnership",
+    "scope": "full-price sell-through, inventory turns, repeat purchase at fixed cohort, conversion and contribution after creative/model cost",
+    "limitation": "No controlled quality-adjusted company result tied to retained incremental cash was found."
+  },
+  "strongest_counterevidence": {
+    "claim": "Kering and digital-native premium brands and general commerce/creative platforms can replicate tools or force gains through to customers.",
+    "source_url": "https://www.kering.com/en/finance/publications/",
+    "limitation": "Competitive capability does not by itself prove equal outcomes."
+  },
+  "rights_limit": "Client data, imagery, artist and talent rights are purpose- and maison-specific. Public policy does not show broad cross-maison training permission.",
+  "materiality_summary": "The labelled 5% scale hurdle is \u20ac900m; public evidence does not establish it.",
+  "arithmetic": {
+    "inputs": "5%\u00d7\u20ac18bn recurring-operating-profit proxy=\u20ac900m",
+    "formula": "5%\u00d7\u20ac18bn recurring-operating-profit proxy=\u20ac900m. A \u20ac5bn eligible pool\u00d78%\u00d750%\u00d750%\u2212\u20ac80m=\u20ac20m; brand demand and pricing dominate. Customer-facing novelty without incremental contribution is not capture.",
+    "result": "Illustrative bridge remains below or must be compared with \u20ac900m; not a forecast."
+  },
+  "confidence": {
+    "mechanism": "medium",
+    "deployment": "low-to-medium",
+    "capture": "low"
+  },
+  "g2_provisional": "Open: E1/E2 evidence supports measurement, but E3 quality-adjusted causality and E4 cash retention are not established.",
+  "unresolved_questions": [
+    "What share of eligible workload is in production?",
+    "What controlled quality-adjusted KPI result exists?",
+    "What do contracts permit for pooled learning and how much benefit is retained after recurring cost?"
+  ],
+  "self_check_complete": true
+}
